@@ -33,7 +33,7 @@ bash
 Copy code  
 `git checkout -b <your-feature-branch> origin/<your-feature-branch>`
 
-1. Replace `<your-feature-branch>` with the branch name I provided (e.g., `ada-feature-branch`).
+1. Replace `<your-feature-branch>` with the branch name I provided (e.g., `sdt-member-feature-branch`).
 
 ---
 
