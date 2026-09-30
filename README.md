@@ -20,7 +20,7 @@ Copy code
 Example:  
 bash  
 Copy code  
-`git clone https://github.com/organization/repository-name.git`
+`git clone https://github.com/ucsdlib/dx-projects/tree/main`
 
 **Move Into the Repository Folder**  
 bash  
