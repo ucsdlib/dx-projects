@@ -1,0 +1,4 @@
+interface:
+  display_name: "Research Landscape Mapping"
+  short_description: "Map the scholarly landscape of a research question"
+  default_prompt: "Use $research-landscape-map to map the research landscape for my question: [research question]."

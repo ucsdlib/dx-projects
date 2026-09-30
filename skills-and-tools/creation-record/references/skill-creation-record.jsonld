@@ -1,0 +1,134 @@
+{
+  "@context": {
+    "c2pa": "https://c2pa.org/schema/1.0/",
+    "schema": "https://schema.org/",
+    "prov": "https://www.w3.org/ns/prov#",
+    "dc": "http://purl.org/dc/terms/",
+    "credit": "https://credit.niso.org/contributor-roles/",
+    "cr": "https://creativerecord.org/contributor-roles/"
+  },
+  "@type": "c2pa:Manifest",
+  "dc:title": "creation-record skill",
+  "dc:description": "Installable Claude skill for generating creation records and creation notes documenting AI and human contributions to a work. Components: SKILL.md, references/c2pa-vocabulary.md, references/creation-record-examples.md.",
+  "dc:type": "technical documentation / instructional framework",
+  "dc:date": "2026-06-04",
+  "dc:format": "text/markdown",
+  "schema:version": "1.3-prototype",
+  "schema:audience": "Users of the Claude skills system",
+  "c2pa:documentStage": "in-progress",
+  "c2pa:recordType": "draft-creation-record",
+  "c2pa:assertions": [
+    {
+      "@type": "c2pa:AIGeneratedContent",
+      "c2pa:role": "produced_by",
+      "c2pa:contributionLabel": "AI-Produced, Extensively Directed",
+      "c2pa:contributionMateriality": "primary",
+      "c2pa:model": {
+        "c2pa:name": "Claude Sonnet",
+        "c2pa:modelId": "claude-sonnet-4-6",
+        "c2pa:provider": "Anthropic",
+        "c2pa:versionNote": null
+      },
+      "c2pa:aiRoles": [
+        "full prose and structure generation (SKILL.md)",
+        "full prose and structure generation (references/c2pa-vocabulary.md)",
+        "full prose and structure generation (references/creation-record-examples.md)",
+        "framework synthesis from cited sources",
+        "iterative revision across multiple directed rounds"
+      ],
+      "c2pa:promptCharacterization": "expert-directed-iterative-prompting",
+      "c2pa:promptSummary": "Author specified concept and provided source framework URLs (C2PA spec, provenancedisclosure.com). Directed approximately twelve revision rounds covering: model identification granularity, rubric attribution, progressive prompting assessment, prompt quality as contribution dimension, machine-readable output control, tiered human attribution, document stage, terminology reframing (disclosure \u2192 creation record), multi-party authorship with CRediT and DX extension roles, modality-specific guidance for code/images/audio/video, and prototype framing.",
+      "c2pa:iterationCount": 12,
+      "c2pa:sessionNote": "Work produced across a single conversation session on June 4, 2026. Ongoing development anticipated."
+    }
+  ],
+  "c2pa:humanReview": {
+    "@type": "c2pa:HumanReviewAction",
+    "c2pa:reviewer": "Doug Worsham",
+    "c2pa:reviewType": "in-progress-not-yet-approved",
+    "c2pa:editingNature": "none",
+    "c2pa:humanInputNature": "domain expertise, source material, original design decisions",
+    "c2pa:humanDirectionSummary": "Author contributed: conceptual specification; source framework references; design questions and directives across ~12 exchanges shaping all major framework decisions; explicit framing of the project as an exploratory prototype open to collaboration. No direct prose editing; all changes directed through conversation."
+  },
+  "prov:wasAttributedTo": [
+    {
+      "@type": "prov:Person",
+      "schema:name": "Doug Worsham",
+      "schema:jobTitle": "Digital Experience Manager",
+      "schema:affiliation": "UC San Diego Library",
+      "schema:url": "https://orcid.org/0000-0002-4945-5773",
+      "schema:sameAs": "https://www.linkedin.com/in/doug-worsham/",
+      "c2pa:attributionNote": "Named attribution provided by reviewer; ORCID and LinkedIn provided for machine-verifiable identification",
+      "c2pa:contributorRoles": [
+        "credit:conceptualization",
+        "credit:methodology",
+        "cr:content-strategy",
+        "credit:supervision",
+        "credit:writing-review-editing"
+      ],
+      "c2pa:contributionDescription": "Conceived the skill; specified source frameworks; directed all architectural decisions across approximately twelve revision rounds; explicitly framed the project as an exploratory prototype and invited collaboration. Responsible party for the work at its current stage."
+    }
+  ],
+  "c2pa:responsibilityStatement": "Doug Worsham, Digital Experience Manager, UC San Diego Library, is responsible for this work in its current state. It is shared as an exploratory prototype, open to feedback, critical review, and collaboration. It has not been approved as a finalized framework and should not be treated as authoritative guidance without further development and review.",
+  "prov:wasGeneratedBy": {
+    "@type": "prov:Activity",
+    "prov:startedAtTime": "2026-06-04T00:00:00Z",
+    "prov:endedAtTime": "2026-06-04T00:00:00Z",
+    "prov:used": [
+      {
+        "@type": "prov:Entity",
+        "dc:title": "C2PA Specification 2.2",
+        "schema:url": "https://spec.c2pa.org/specifications/specifications/2.2/explainer/Explainer.html"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "ProvenanceDisclosure.com \u2014 How to Disclose AI Use",
+        "schema:url": "https://provenancedisclosure.com/resources/how-to-disclose-ai-use"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "W3C PROV-O Ontology",
+        "schema:url": "https://www.w3.org/TR/prov-o/"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "COPE Authorship and AI Guidance",
+        "schema:url": "https://cope.org"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "US Copyright Office AI Guidance (2023-2024)",
+        "schema:url": null,
+        "dc:description": "Statements on human authorship, selection/arrangement, and AI-generated content"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "Partnership on AI \u2014 PACT Framework",
+        "schema:url": null,
+        "dc:description": "Concepts on AI involvement characterization spectrum"
+      },
+      {
+        "@type": "prov:Entity",
+        "dc:title": "Claude skill-creator skill",
+        "dc:description": "Skill creation framework used to structure, validate, and package this skill"
+      }
+    ]
+  },
+  "c2pa:reflexiveNote": "This creation record was generated using the creation-record skill it describes, applied to itself. It serves as both a genuine record and a demonstration of the skill's output format.",
+  "c2pa:projectStatus": {
+    "c2pa:statusLabel": "exploratory-prototype",
+    "c2pa:statusNote": "The skill is functional and usable in its current state. The framework it embodies \u2014 contribution classification, contributor role taxonomy, modality-specific guidance, and terminology \u2014 is being actively developed, tested, and reviewed. Substantive changes are anticipated. The author welcomes collaborators, feedback, and critical review.",
+    "c2pa:collaborationInvitation": true,
+    "c2pa:contactOrcid": "https://orcid.org/0000-0002-4945-5773",
+    "c2pa:contactLinkedIn": "https://www.linkedin.com/in/doug-worsham/"
+  },
+  "c2pa:knownLimitations": [
+    "Framework is synthesized, not a ratified standard; label boundaries involve judgment calls",
+    "Progressive prompting criteria (\u00a72b) are heuristics, not empirically validated thresholds",
+    "JSON-LD vocabulary is C2PA-inspired, not formally C2PA 2.2 compliant",
+    "Terminology framework not yet widely established or tested across diverse contexts",
+    "DX extension contributor roles (creativerecord.org namespace) not a ratified standard",
+    "Modality-specific guidance is first-draft; not yet tested against real workflows",
+    "Framework developed in a single conversation; not yet tested across diverse users or contexts"
+  ]
+}
