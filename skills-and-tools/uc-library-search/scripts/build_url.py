@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """Build direct UC Library Search (Primo VE) search URLs.
 
-Generates the single-query-parameter URL format that is verified to work on
-search-library.ucsd.edu. All boolean logic lives in ONE `query` parameter; the
-chained `query=...,AND&query=...,AND&query=...` format is unreliable on this
-instance and is never emitted here.
+Generates single-query-parameter URLs for search-library.ucsd.edu. All boolean
+logic lives in ONE `query` parameter; the chained
+`query=...,AND&query=...,AND&query=...` format is unreliable on this instance
+and is never emitted here. Use `--advanced` to open the same query in the
+Advanced Search interface.
 
 Usage:
     python3 build_url.py "<boolean query>" [--field any|title|sub|creator] \
@@ -14,6 +15,7 @@ Usage:
 Examples:
     python3 build_url.py '("social media" OR Facebook) AND (anxiety OR depression) AND ("college students")'
     python3 build_url.py '"climate change" AND policy' --field title --filters peer_reviewed --filters 2018-2026
+    python3 build_url.py '"climate change" AND policy' --field title --advanced
 
 Encoding rules (verified against the live instance):
     space     -> %20
@@ -34,6 +36,7 @@ SCOPE = "ArticlesBooksEtc"
 VID = "01UCS_SDI:UCSD"
 
 FIELDS = {"any": "any", "title": "title", "sub": "sub", "creator": "creator"}
+MODE_ADVANCED = "advanced"
 
 # (--filters value, URL parameter)
 FILTER_PARAMETERS = {
@@ -69,7 +72,7 @@ def build_filter_params(filters):
     return params
 
 
-def build_url(query, field="any", filters=None, host=DEFAULT_HOST):
+def build_url(query, field="any", filters=None, host=DEFAULT_HOST, advanced=False):
     """Build the canonical UC Library Search URL for a boolean query."""
     if field not in FIELDS:
         raise ValueError("Field {!r} not supported. Use one of: any, title, sub, creator.".format(field))
@@ -85,6 +88,8 @@ def build_url(query, field="any", filters=None, host=DEFAULT_HOST):
         SCOPE,
         VID,
     )
+    if advanced:
+        url += "&mode={}".format(MODE_ADVANCED)
     filter_params = build_filter_params(filters or [])
     if filter_params:
         url += "&" + "&".join(filter_params)
@@ -129,6 +134,11 @@ def self_test():
             dict(filters=["peer_reviewed", "articles", "2018-2026"]),
             "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22social%20media%22%20AND%20anxiety&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD&mfacet=tlevel,include,peer_reviewed,1&mfacet=rtype,include,articles,1&facet=searchcreationdate,include,2018%7C,%7C2026,lk",
         ),
+        (
+            '"social media" AND anxiety',
+            dict(field="title", advanced=True),
+            "https://search-library.ucsd.edu/discovery/search?query=title,contains,%22social%20media%22%20AND%20anxiety&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD&mode=advanced",
+        ),
     ]
     for query, kwargs, expected in cases:
         try:
@@ -160,6 +170,7 @@ def main():
     parser.add_argument("query", nargs="?", help="Boolean query as typed in the simple search box")
     parser.add_argument("--field", default="any", choices=sorted(FIELDS), help="Search field (default: any)")
     parser.add_argument("--filters", action="append", default=[], help="Filter to apply; repeatable")
+    parser.add_argument("--advanced", action="store_true", help="Open the query in Advanced Search")
     parser.add_argument("--self-test", action="store_true", help="Run encoding self-tests and exit")
     args = parser.parse_args()
 
@@ -170,7 +181,7 @@ def main():
         parser.error("a <query> argument or --self-test is required")
 
     try:
-        print(build_url(args.query, field=args.field, filters=args.filters))
+        print(build_url(args.query, field=args.field, filters=args.filters, advanced=args.advanced))
     except ValueError as exc:
         parser.error(str(exc))
 
