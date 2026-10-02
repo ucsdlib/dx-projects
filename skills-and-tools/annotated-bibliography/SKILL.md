@@ -17,11 +17,11 @@ This skill guides creation of faithful, comprehensive annotated bibliographies t
 ### 2. Comprehensive Search Strategy
 
 **Stage 0: UC Library Search first.**
-- If the `uc-library-search` skill is available in the session, begin by building UC Library Search strategies for the research question (typically the focused query plus a zoom-out ladder) using that skill's `scripts/build_url.py`.
+- If the `uc-library-search` skill is available in the session, begin by using it to build UC Library Search strategies for the research question (typically the focused query plus a zoom-out ladder) using that skill's `scripts/build_url.py`.
 - **Execute via the documented Primo PNX REST API.** Read `references/primo-api.md` before first use each session for the verified endpoints, parameter recipe, filter translation, PNX metadata inventory, and troubleshooting. Use a 120-second timeout; run the preflight probe before trusting the keyless campus mount. Result counts are unreliable — paginate by fidelity, never by count.
 - **Adaptive screening:** fetch one page (`limit=20`, `sort=rank`), classify every record (on-topic / adjacent / noise) using the full PNX metadata, and continue paging only while fidelity (the on-topic plus adjacent share) stays at or above 50%. At 25–50%, fetch one more page, then stop and refine. Below 25%, stop immediately and refine the query instead of dredging. Tier budgets (cumulative records per query — ceilings, not targets): Focused ~40, Comprehensive ~80, Exhaustive ~200. Stop early when a full page yields nothing new. Log fidelity per query.
 - **Component decomposition ("search within"):** after a high-fidelity search, run fresh API calls for each conceptual component of the research question (base query AND component synonyms), giving each sub-topic its own relevance ranking and surfacing on-topic items buried deep in a broad query's ranking. Facet slicing (type, subject) counts as decomposition too. Focused: skip. Comprehensive: 2–3 components. Exhaustive: full decomposition plus facet slices.
-- **Division of labor (during the run):** the agent does ALL bulk screening — never ask the human to review result lists. During the run, the human contributes only: (a) the breadth-tier choice, (b) optional domain input on query terms when offered, (c) retrieval of specific items the agent cannot access (bot-blocked pages, paywalled or campus-SSO content). After the run, the human leads the deep dive — see "Human Next Steps."
+- **Division of labor (during the run):** the agent does the bulk screening. During the run, the human contributes: (a) the breadth-tier choice, (b) optional domain input on query terms when offered, (c) retrieval of specific items the agent cannot access (bot-blocked pages, paywalled or campus-SSO content). After the run, the human leads the deep dive — see "Human Next Steps."
 - **Verification still applies:** articles found via UC Library Search must have citation metadata confirmed via OpenAlex/Crossref before annotation; books may be annotated at description/TOC level under the rules in "Verify Before Annotating."
 - **If the `uc-library-search` skill is unavailable or both API mounts fail:** proceed directly to the API-based tools below and record a **documented skip — never silent.** The search log must state (a) that Stage 0 was skipped, (b) why, and (c) the expected coverage consequence (books, library-science venues, and UC holdings underweighted). Repeat the coverage gap in the opening summary's pipeline-transparency line.
 
@@ -170,7 +170,7 @@ Source addresses [related domain], which could be relevant because [reasoning]. 
 - Unexpected findings
 - Recommendations for user
 
-**Human Next Steps (required):** every bibliography closes with the "Human Next Steps" section defined below — the deliverable is a springboard for human-led research, not a terminal output.
+**Human Next Steps (required):** every bibliography closes with the "Human Next Steps" section defined below — the deliverable is a springboard for human-led research.
 
 ## Human Next Steps
 
@@ -185,16 +185,6 @@ The bibliography orients; the human investigates. This closing section operation
 5. **Reading-and-verification guidance:** state plainly that the human should select the sources that matter most to their question, obtain and read the full texts, verify key claims against them, and reach their own conclusions. Agent annotations are screening and orientation, not substitutes for engaging the sources. Where a source disagrees with its annotation, the source wins.
 
 **Tone:** practical and specific, never generic. Every item must trace to a named source, a logged gap, or a contested finding in the run above. If the evidence base is weak, say what reading would strengthen it and why.
-
-## Copyright Compliance
-
-**CRITICAL LIMITS:**
-- 15+ words from any source = SEVERE VIOLATION
-- ONE quote per source MAXIMUM
-- After quoting once, that source is CLOSED
-- All additional content must be fully paraphrased
-- NEVER reproduce song lyrics, poems, haikus, or complete works
-- When in doubt, paraphrase
 
 ## Confidence Level Guidelines
 
