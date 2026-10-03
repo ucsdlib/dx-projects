@@ -70,6 +70,10 @@ rules never get applied by hand.
   exact phrase, not social AND media anywhere.
 - Use phrase searching for nearly all multi-word concepts — it is the single biggest precision
   lever available, especially because proximity operators are missing.
+- In user-facing responses, explain quotation marks with the actual concept and its practical
+  effect: quotes around `"social media"` ask UC Library Search to treat it as one phrase rather
+  than finding records that use the words separately. Avoid generic phrases such as
+  "precision lever" unless the user asks for technical search syntax.
 - Zero results from a phrase? Check for characters inside the phrase that Primo might not index
   (hyphens, ampersands, punctuation); try a keyword version of the same concept.
 

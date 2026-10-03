@@ -122,10 +122,14 @@ Develop a balanced strategy that prioritizes precision while maintaining adequat
 
 ### Stage 4 — Explain in Plain Language
 
-- **Rationale**: concept-by-concept term choices, why phrase searching was used, filter decisions.
-- **Syntax**: explain at the user's level — for beginners cover quotes, OR, AND, `*`, parentheses;
-  for experienced users note precedence, truncation limits, missing proximity operators, and that
-  field-specific searching uses UC Library Search's Advanced Search interface.
+- **Rationale**: explain term choices concept by concept. When a quoted phrase materially affects
+  the search, explain what it keeps together and what unrelated results it helps avoid.
+- **Syntax**: explain only the syntax that affects the user's actual query. For beginners, use
+  concrete examples of quotes, OR, AND, `*`, and parentheses — for example, quotes around
+  `"social media"` ask UC Library Search to treat it as one phrase rather than finding records
+  that use the words separately. For experienced users, note
+  precedence, truncation limits, and field-specific searching. Do not offer generic technical
+  explanations such as "precision lever" or proximity-operator rationales unless asked.
 - **What to expect**: relevance will vary, so browsing is part of the process. Do not estimate
   result counts or fixed precision percentages. Encourage users to look for direct matches,
   adjacent work, unexpected perspectives, and new vocabulary.
@@ -204,7 +208,8 @@ Before finalizing any query response, verify:
 5. Adaptive alternatives provided with URLs and copy-paste versions, including broader/narrower
    options and topic-specific lenses when useful.
 6. Plain-language guidance emphasizes varied relevance, browsing, experimentation, and user agency
-   without predicting result counts or fixed precision percentages.
+   without predicting result counts or fixed precision percentages. Quoted-phrase explanations,
+   when included, are concrete and tied to the user's concepts.
 7. Filter decisions explained; iterative refinement guidance included.
 8. Complementary and topic-specific search lenses suggested where useful (citation chaining,
    author search, alerts, alternative concepts or aspects).

@@ -22,12 +22,12 @@ is for users who prefer to paste the search and build filters themselves.
 **If you paste the query instead:** use the simple search box and apply any filters included in the linked version from the left sidebar.
 
 ### Concept Breakdown:
-**Concept 1:** [rationale for terms and phrase searching]
+**Concept 1:** [term rationale; if a phrase is quoted, say what it keeps together and what unrelated results it helps avoid]
 **Concept 2:** [rationale for synonyms]
 **Concept 3 (if applicable):** [rationale]
 
-### Search Design Decisions:
-- **Phrase searching:** [why used for specific terms]
+### Search Design Decisions (only when a decision needs explanation):
+- **Concept focus:** [only if quoting or field choice materially changes the search; make it concrete and query-specific]
 - **Synonym selection:** [why these alternatives, not exhaustive lists]
 - **Filters:** [rationale for date/type/peer-review filters]
 - **Field searching (if used):** [why Title/Subject instead of Any field]
@@ -146,12 +146,11 @@ This search connects three concepts — social media, two mental-health outcomes
 **If you paste the query instead:** use UC Library Search’s simple search box, then apply peer-reviewed, articles-only, and 2016–2026 filters from the left sidebar.
 
 ### Concept Breakdown:
-**Concept 1 (social media):** "social media" is quoted so the words appear together in that order; Facebook captures records that name the platform instead of the broader category.
+**Concept 1 (social media):** "social media" is quoted so UC Library Search treats it as one phrase rather than finding records that use the words separately; Facebook captures records that name the platform instead of the broader category.
 **Concept 2 (mental health):** anxiety and depression are the specific outcomes you named, and they are more precise than the broad phrase "mental health."
-**Concept 3 (students):** "college students" is quoted because that phrase is commonly used in the literature.
+**Concept 3 (students):** "college students" is quoted to focus on that population rather than records that merely mention college or students.
 
 ### Search Design Decisions:
-- **Phrase searching:** keeps multi-word concepts — "social media" and "college students" — together in the intended order.
 - **Synonym selection:** Facebook and the two mental-health outcomes are strategic additions, not exhaustive synonym lists.
 - **Filters:** peer-reviewed, articles-only, and 2016–2026 filters align the search with recent literature-review sources.
 
