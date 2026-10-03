@@ -14,26 +14,22 @@
 
 **Clone the Repository**  
 Run the following command in your terminal to clone the repository to your local machine:  
-bash  
-Copy code  
+  
 `git clone <repo-url>`  
 Example:  
-bash  
-Copy code  
+  
 `git clone https://github.com/ucsdlib/dx-projects/tree/main`
 
 **Move Into the Repository Folder**  
-bash  
-Copy code  
+  
 `cd repository-name`
 
 **Set Up Your Feature Branch**  
 You need to check out the feature branch that I created for you. Run:  
-bash  
-Copy code  
+  
 `git checkout -b <your-feature-branch> origin/<your-feature-branch>`
 
-1. Replace `<your-feature-branch>` with the branch name I provided (e.g., `sdt-member-feature-branch`).
+1. Replace `<your-feature-branch>` with the branch name I provided (e.g., `update-api-post-logic`).
 
 ---
 
@@ -42,13 +38,11 @@ Copy code
 Always pull the latest changes from the **remote `main` branch** directly into your **feature branch**:
 
 **Ensure You’re on Your Feature Branch**:  
-bash  
-Copy code  
+  
 `git checkout <your-feature-branch>`
 
 **Pull Remote `main` into Your Feature Branch**: Merge the latest changes from the `main` branch into your feature branch:  
-bash  
-Copy code  
+  
 `git pull origin main`
 
 This ensures you are always working with the most up-to-date code.
@@ -60,33 +54,30 @@ This ensures you are always working with the most up-to-date code.
 **Make Changes to the Code**: Edit files as needed for your task.
 
 **Stage Changes**: Add the files you modified:  
-bash  
-Copy code  
+ 
 `git add .`  
 Or stage specific files:  
-bash  
-Copy code  
-`git add <file-name>`
+
+`git add <file-name>` OR `git add .` for multi file updates
 
 **Commit Your Changes**: Write a descriptive commit message:  
-bash  
-Copy code  
+  
 `git commit -m "Add description of your changes"`
 
 **Push Changes to Your Remote Feature Branch**: Push your changes to the remote branch:  
-bash  
-Copy code  
+  
 `git push origin <your-feature-branch>`
 
 ---
 
 ### **4\. Email Notification**
 
-Once you push your changes, send @Lopez-CL an email letting  know that your branch is ready for review.
+Once you push your changes, @Lopez-CL will. receive your email email letting know that your branch is ready for review. 
+
+**Delete your local feature branch; remote feature branch will be deleted after merge.
 
 Include the following:
 
-* Branch name (e.g., `sdt-member-feature-branch`)  
+* Branch name (e.g., `update-api-post-logic`)  
 * Brief description of the changes.
-
 ---
