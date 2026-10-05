@@ -18,12 +18,12 @@ This skill guides creation of faithful, comprehensive annotated bibliographies t
 
 **Stage 0: UC Library Search first.**
 - If the `uc-library-search` skill is available in the session, begin by using it to build UC Library Search strategies for the research question (typically the focused query plus a zoom-out ladder) using that skill's `scripts/build_url.py`.
-- **Execute via the documented Primo PNX REST API.** Read `references/primo-api.md` before first use each session for the verified endpoints, parameter recipe, filter translation, PNX metadata inventory, and troubleshooting. Use a 120-second timeout; run the preflight probe before trusting the keyless campus mount. Result counts are unreliable — paginate by fidelity, never by count.
-- **Adaptive screening:** fetch one page (`limit=20`, `sort=rank`), classify every record (on-topic / adjacent / noise) using the full PNX metadata, and continue paging only while fidelity (the on-topic plus adjacent share) stays at or above 50%. At 25–50%, fetch one more page, then stop and refine. Below 25%, stop immediately and refine the query instead of dredging. Tier budgets (cumulative records per query — ceilings, not targets): Focused ~40, Comprehensive ~80, Exhaustive ~200. Stop early when a full page yields nothing new. Log fidelity per query.
+- **Execute through Primo's documented REST pathways in this order.** First use the Primo Search API only if the skill directory contains `.env` with a non-empty `PRIMO_KEY`; read `references/primo-search-api.md` and follow its activation, query, filter, pagination, and troubleshooting rules. Only if that pathway cannot activate or authenticate, use the Primo PNX REST API fallback: read `references/primo-pnx-api.md`, run its keyless campus preflight probe, and use its verified parameter recipe. In either pathway, use a 120-second timeout. Result counts are unreliable — paginate by fidelity, never by count.
+- **Adaptive screening:** fetch one page (`limit=20`, `sort=rank`), classify every record (on-topic / adjacent / noise) using the full record metadata described by the active Primo reference, and continue paging only while fidelity (the on-topic plus adjacent share) stays at or above 50%. At 25–50%, fetch one more page, then stop and refine. Below 25%, stop immediately and refine the query instead of dredging. Tier budgets (cumulative records per query — ceilings, not targets): Focused ~40, Comprehensive ~80, Exhaustive ~200. Stop early when a full page yields nothing new. Log fidelity per query.
 - **Component decomposition ("search within"):** after a high-fidelity search, run fresh API calls for each conceptual component of the research question (base query AND component synonyms), giving each sub-topic its own relevance ranking and surfacing on-topic items buried deep in a broad query's ranking. Facet slicing (type, subject) counts as decomposition too. Focused: skip. Comprehensive: 2–3 components. Exhaustive: full decomposition plus facet slices.
 - **Division of labor (during the run):** the agent does the bulk screening. During the run, the human contributes: (a) the breadth-tier choice, (b) optional domain input on query terms when offered, (c) retrieval of specific items the agent cannot access (bot-blocked pages, paywalled or campus-SSO content). After the run, the human leads the deep dive — see "Human Next Steps."
 - **Verification still applies:** articles found via UC Library Search must have citation metadata confirmed via OpenAlex/Crossref before annotation; books may be annotated at description/TOC level under the rules in "Verify Before Annotating."
-- **If the `uc-library-search` skill is unavailable or both API mounts fail:** proceed directly to the API-based tools below and record a **documented skip — never silent.** The search log must state (a) that Stage 0 was skipped, (b) why, and (c) the expected coverage consequence (books, library-science venues, and UC holdings underweighted). Repeat the coverage gap in the opening summary's pipeline-transparency line.
+- **If the `uc-library-search` skill is unavailable or both Primo pathways fail to activate/authenticate:** proceed directly to the API-based tools below and record a **documented skip — never silent.** The search log must state (a) that Stage 0 was skipped, (b) why, and (c) the expected coverage consequence (books, library-science venues, and UC holdings underweighted). Repeat the coverage gap in the opening summary's pipeline-transparency line.
 
 Search across MULTIPLE perspectives in phases:
 - **Phase 1 (3-5 searches)**: Core concepts directly
@@ -34,7 +34,7 @@ Search across MULTIPLE perspectives in phases:
 **Total: 8-15 searches for comprehensive work, counted across all tools including Stage 0**
 
 **Reliable Search Tools** (use in pipeline order):
-1. **UC Library Search (via `uc-library-search` skill)**: Books, e-books, subject-heading discovery, and UC-specific holdings. Strength: surfaces formats, subject vocabulary, and library-science venues that article APIs underweight. Execute via the Primo PNX REST API (see `references/primo-api.md`).
+1. **UC Library Search (via `uc-library-search` skill)**: Books, e-books, subject-heading discovery, and UC-specific holdings. Strength: surfaces formats, subject vocabulary, and library-science venues that article APIs underweight. Execute first via the Primo Search API (`references/primo-search-api.md`); use the Primo PNX REST API (`references/primo-pnx-api.md`) only if the Search pathway cannot activate or authenticate.
 2. **OpenAlex API**: Broad scholarly index with machine-readable metadata, reconstructable abstracts, and citation counts. First choice for programmatic discovery and source verification.
 3. **ERIC API**: Education-specific peer-reviewed and grey literature. First choice when the topic touches teaching, learning, or educational policy.
 4. **Crossref API**: Canonical DOI and publication metadata. Use for citation verification even when a source is found elsewhere.
@@ -79,7 +79,7 @@ Before searching, ask the user ONE question offering three tiers:
 Record the full pipeline:
 - Which tools were used, in what order
 - How many searches each tool contributed
-- Whether Stage 0 ran, and in which execution mode (Primo API extraction vs. documented skip with reason)
+- Whether Stage 0 ran, and in which execution mode (Primo Search API, Primo PNX REST API fallback, or documented skip with reason)
 - Per-query fidelity estimates and any adaptive screening or refinement decisions they triggered
 - Any fallbacks or skips, with reasons and coverage consequences
 
