@@ -1,0 +1,69 @@
+{
+  "schema_version": "0.1",
+  "run": {
+    "run_id": "",
+    "topic_slug": "",
+    "generated_at": "",
+    "skill_version": "0.1",
+    "data_model_version": "0.1",
+    "confirmation_status": "",
+    "breadth": "",
+    "theme_creation_rule": {
+      "rule": "adaptive",
+      "rationale": ""
+    },
+    "question_score_weights": {
+      "user_alignment": 0.3,
+      "source_support": 0.2,
+      "explicitness": 0.15,
+      "citation_attention": 0.1,
+      "breadth": 0.1,
+      "relation_density": 0.1,
+      "evidence_strength": 0.05
+    },
+    "theme_score_weights": {},
+    "user_choices": []
+  },
+  "request": {
+    "core_question": "",
+    "sub_questions": [],
+    "purpose": "",
+    "breadth": "",
+    "concepts": [],
+    "synonyms": [],
+    "constraints": [],
+    "confirmation_status": ""
+  },
+  "search_log": {
+    "uc_library_search": {
+      "mode": "",
+      "skip_reason": "",
+      "coverage_consequence": ""
+    },
+    "queries": [],
+    "component_decomposition": [],
+    "adaptive_refinements": [],
+    "api_calls": [],
+    "skips": []
+  },
+  "nodes": [],
+  "edges": [],
+  "quotes": [],
+  "themes": [],
+  "coverage": {
+    "screening_counts": {
+      "on_topic": 0,
+      "adjacent": 0,
+      "noise": 0
+    },
+    "question_count": 0,
+    "source_question_count": 0,
+    "next_question_count": 0,
+    "theme_count": 0,
+    "source_count": 0,
+    "access_level_counts": {},
+    "evidence_basis_counts": {},
+    "not_found_statements": []
+  },
+  "limitations": []
+}
