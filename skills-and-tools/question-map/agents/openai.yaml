@@ -1,0 +1,7 @@
+interface:
+  display_name: "Question Mapping"
+  short_description: "Map scholarly questions into a graph"
+  default_prompt: "Use $question-map to map the research questions around this prompt: [research question]."
+
+policy:
+  allow_implicit_invocation: true
