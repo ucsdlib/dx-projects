@@ -70,6 +70,10 @@ rules never get applied by hand.
   exact phrase, not social AND media anywhere.
 - Use phrase searching for nearly all multi-word concepts — it is the single biggest precision
   lever available, especially because proximity operators are missing.
+- In user-facing responses, explain quotation marks with the actual concept and its practical
+  effect: quotes around `"social media"` ask UC Library Search to treat it as one phrase rather
+  than finding records that use the words separately. Avoid generic phrases such as
+  "precision lever" unless the user asks for technical search syntax.
 - Zero results from a phrase? Check for characters inside the phrase that Primo might not index
   (hyphens, ampersands, punctuation); try a keyword version of the same concept.
 
@@ -92,7 +96,7 @@ Field codes (verified; counts are single-observation samples, not authoritative)
 
 | Code | Field | Verified example |
 |---|---|---|
-| `any` | Anywhere / all fields | `any,contains,zebrafish` |
+| `any` | Any field / all fields | `any,contains,zebrafish` |
 | `title` | Title | `title,contains,"zebrafish" AND cancer` |
 | `sub` | Subject headings | `sub,contains,"zebrafish"` |
 | `creator` | Author/creator | `creator,contains,driever` |
@@ -150,14 +154,21 @@ expression lives in one `query` parameter.
 ## Result counts are estimates
 
 Primo's displayed counts are estimates and fluctuate between loads (e.g., `zebrafish` read
-191,794 on one load and 91,327 on another). Never promise an exact count; give ranges and tell
-users to validate by scanning the first 20–30 results and checking for known key articles.
+191,794 on one load and 91,327 on another). Do not predict result counts or fixed precision
+percentages; tell users to validate by scanning the initial results and checking for known key
+articles.
 
 ## Advanced Search interface notes
 
 - Recommend Advanced Search when the user needs field-specific searching (Title, Subject,
   Author), multiple pre-applied filters, or a visual query builder.
-- Advanced Search lines map to the same single-parameter URL when a search runs.
+- When an Advanced Search query uses the same field for its entire expression, it maps to the
+  single-parameter `query=<field>,contains,...` URL.
+- Add `&mode=advanced` to open a generated field-specific URL in the Advanced Search interface
+  (`build_url.py --advanced` adds this automatically).
+- A generated URL applies one field code to the entire query (`title`, `sub`, or `creator`).
+  To set different fields on different Advanced Search lines, use the interface's line builder;
+  do not emit chained `query=` parameters.
 - Filters can be applied before searching or after via the left sidebar.
 
 ## How to verify a generated URL

@@ -1,6 +1,6 @@
 ---
 name: uc-library-search
-description: Help researchers find scholarly sources through UC Library Search (Primo VE) by building high-fidelity search strategies and generating direct, clickable search links for the UCSD instance (search-library.ucsd.edu), with optional future-research database recommendations from the normalized UCSD A-Z list. Use when a user wants to discover literature and says things like "I'm writing a paper on...", "find sources on...", "literature review on...", "what is known about...", or "I want to learn about..." — treat every topical inquiry as a search request. The assistant never summarizes or answers the research question, tailors clarifying questions to the request — 2-4 targeted questions for open or novice requests, and only 0-1 to fill a material gap before proceeding for detailed or expert requests — and delivers a direct search link, copy-paste query, advanced-search instructions, filtered URL variants, and a plain-language explanation. Trigger with $uc-library-search or /uc-library-search.
+description: Help researchers find scholarly sources through UC Library Search (Primo VE) by building high-fidelity search strategies and generating direct, clickable search links for the UCSD instance (search-library.ucsd.edu), with optional future-research database recommendations from the normalized UCSD A-Z list. Use when a user wants to discover literature and says things like "I'm writing a paper on...", "find sources on...", "literature review on...", "what is known about...", or "I want to learn about..." — treat every topical inquiry as a search request. The assistant never summarizes or answers the research question, tailors clarifying questions to the request — 2-4 targeted questions for open or novice requests, and only 0-1 to fill a material gap before proceeding for detailed or expert requests — and delivers a direct search link, copy-paste query, higher-precision field lines, filtered URL variants, and a plain-language explanation. Trigger with $uc-library-search or /uc-library-search.
 ---
 
 # UC Library Search (Primo VE) Search Strategy
@@ -106,30 +106,35 @@ Develop a balanced strategy that prioritizes precision while maintaining adequat
 
 - **Always build direct links with `scripts/build_url.py`** — never hand-encode URLs. Pass the
   copy-paste query (uppercase AND/OR/NOT, phrases quoted, OR groups parenthesized) and optional
-  `--field` / `--filters` flags; the script emits the verified canonical URL.
+  `--field` / `--filters` / `--advanced` flags; the script emits the verified canonical URL.
 - **Use the single-query-parameter format only** — the ENTIRE boolean expression goes in one
   `query=any,contains,...` parameter. Never emit chained parameters
   (`query=...,AND&query=...,AND&query=...`); that format mis-executes on this instance.
 - Provide the query in **all four formats**:
   1. Direct search link (from the script), plus optional filtered URL variants.
   2. Copy-paste query for the simple search box.
-  3. Advanced Search instructions (field lines + recommended filters).
-  4. 2–3 alternative strategies (broader / narrower / different approach), each with URL + query.
+  3. Higher-precision option: a field-specific URL (for example, `--field title --advanced`) plus
+     field lines showing how to adapt different concepts in the Advanced Search interface.
+  4. Adaptive alternatives (broader / narrower / topic-specific lenses), each with URL + query.
 - Include filter URL variants when the user asks for them or precision clearly benefits
   (peer-reviewed, articles only, date range, language).
 - See `references/primo-ve-syntax.md` for the full verified syntax, encoding rules, and pitfalls.
 
 ### Stage 4 — Explain in Plain Language
 
-- **Rationale**: concept-by-concept term choices, why phrase searching was used, filter decisions.
-- **Syntax**: explain at the user's level — for beginners cover quotes, OR, AND, `*`, parentheses;
-  for advanced users note precedence, truncation limits, missing proximity operators, and that
-  field-specific searching requires Advanced Search.
-- **Expectations**: estimated result range, expected precision (e.g., "~50–60%, meaning 5–6 of
-  every 10 items will be relevant"), and screening burden. Note that displayed counts are
-  estimates and fluctuate between loads.
-- **Next steps**: scan first 20–30 results, refine with left-sidebar facets, save search/alert,
-  export to a reference manager.
+- **Rationale**: explain term choices concept by concept. When a quoted phrase materially affects
+  the search, explain what it keeps together and what unrelated results it helps avoid.
+- **Syntax**: explain only the syntax that affects the user's actual query. For beginners, use
+  concrete examples of quotes, OR, AND, `*`, and parentheses — for example, quotes around
+  `"social media"` ask UC Library Search to treat it as one phrase rather than finding records
+  that use the words separately. For experienced users, note
+  precedence, truncation limits, and field-specific searching. Do not offer generic technical
+  explanations such as "precision lever" or proximity-operator rationales unless asked.
+- **What to expect**: relevance will vary, so browsing is part of the process. Do not estimate
+  result counts or fixed precision percentages. Encourage users to look for direct matches,
+  adjacent work, unexpected perspectives, and new vocabulary.
+- **Next steps**: browse the initial results, refine with left-sidebar facets, experiment with
+  terms/filters, and save promising searches or alerts. Export to a reference manager when useful.
 - **Complementary strategies**: citation chaining, author searching, subject-facet browsing,
   table-of-contents alerts.
 - **Future research**: after the primary UC Library Search strategy, add 2–4 database
@@ -182,7 +187,7 @@ the single-parameter format with the script.
 - **Systematic review mention**: explain this skill produces high-fidelity searching, not a
   systematic-review methodology; suggest contacting specialized systematic-review support.
 - **Too few results (<20)**: remove filters, add 1–2 strategic synonyms per concept, broaden
-  subject terms, switch from Title to Anywhere.
+  subject terms, switch from Title to Any field.
 - **Too many results (>1000)**: add a concept with AND, phrase-search all multi-word concepts,
   apply filters, search Title/Subject fields, remove broad truncation.
 - **Poor relevance**: phrase searching everywhere, field-specific searching, subject headings,
@@ -200,10 +205,14 @@ Before finalizing any query response, verify:
 2. Field codes correct (`any`, `title`, `sub`, `creator`).
 3. Copy-paste query: UPPERCASE booleans, phrases quoted, OR groups parenthesized.
 4. No proximity operators; no chained `query=` parameters anywhere.
-5. 2–3 alternatives provided with URLs and copy-paste versions.
-6. Plain-language explanation included with estimated results, precision, and screening burden.
-7. Filter decisions explained; expected outcomes stated; iterative refinement guidance included.
-8. Complementary search strategies suggested (citation chaining, author search, alerts).
+5. Adaptive alternatives provided with URLs and copy-paste versions, including broader/narrower
+   options and topic-specific lenses when useful.
+6. Plain-language guidance emphasizes varied relevance, browsing, experimentation, and user agency
+   without predicting result counts or fixed precision percentages. Quoted-phrase explanations,
+   when included, are concrete and tied to the user's concepts.
+7. Filter decisions explained; iterative refinement guidance included.
+8. Complementary and topic-specific search lenses suggested where useful (citation chaining,
+   author search, alerts, alternative concepts or aspects).
 9. Questions asked only fill real gaps (nothing already stated is re-asked); when few or no
    questions were needed, the response opens with a one-line strategy confirmation.
 10. Future research section included when the topic maps to A-Z data, with 2–4 curated
@@ -216,9 +225,8 @@ Before finalizing any query response, verify:
 - `references/response-template.md` — the required response layout with a fully worked example.
   Follow it for every query response.
 - `scripts/build_url.py` — run it to generate every direct search link; supports `--field`,
-  `--filters` (peer_reviewed, articles, books, online_resources, YYYY-YYYY), and `--self-test`.
-- `references/az_databases.json` and `references/az_databases.csv` — normalized visible
-  UCSD A-Z database metadata for optional future-research database recommendations.
+  `--filters` (peer_reviewed, articles, books, online_resources, YYYY-YYYY), `--advanced`, and
+  `--self-test`.
 - `scripts/recommend_databases.py` — run it to rank A-Z database candidates from user concepts
   and optional `--subjects` / `--types` filters.
 - `references/az_databases.json` and `references/az_databases.csv` — normalized visible

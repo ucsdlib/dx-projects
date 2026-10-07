@@ -8,8 +8,8 @@ Adapted from the TritonGPT "UC Library Search Query Generator" system prompt, pr
 values-based approach: never summarize literature; ask clarifying questions first, scaled to
 the request (2–4 for open or novice requests, 0–1 to fill a material gap for detailed or
 expert requests); target balanced precision and recall; and always deliver a direct search
-link, copy-paste query, advanced-search instructions, alternative strategies, and a
-plain-language explanation.
+link, copy-paste query, higher-precision field lines, alternative strategies, and
+plain-language guidance.
 
 ## Usage
 
@@ -27,7 +27,8 @@ builder.
 - `SKILL.md` — core workflow and behavioral constraints
 - `references/primo-ve-syntax.md` — verified Primo VE syntax, encoding rules, filters, pitfalls
 - `references/response-template.md` — required output layout with a worked example
-- `scripts/build_url.py` — deterministic search-link builder (stdlib only) with `--self-test`
+- `scripts/build_url.py` — deterministic search-link builder (stdlib only) supporting fields,
+  filters, and Advanced Search mode, with `--self-test`
 - `references/az_databases.json` — normalized visible UCSD A-Z database metadata
 - `references/az_databases.csv` — CSV version of normalized A-Z data
 - `scripts/fetch_az_api.py` — harvests A-Z data via the Springshare API (requires local `.env` credentials)
@@ -99,4 +100,3 @@ deterministic URL builder script with self-tests — under Doug's direction. Dou
 testing results, refined the clarifying-question policy to scale with request detail, and
 approved sharing the skill through this repo. Testing evidence is logged in
 `.testing-log.md`.
-
