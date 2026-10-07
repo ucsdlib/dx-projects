@@ -1,0 +1,2311 @@
+{
+  "id": "https://openalex.org/W4379930740",
+  "doi": "https://doi.org/10.1016/j.envint.2023.108005",
+  "title": "Urban heat island impacts on heat-related cardiovascular morbidity: A time series analysis of older adults in US metropolitan areas",
+  "display_name": "Urban heat island impacts on heat-related cardiovascular morbidity: A time series analysis of older adults in US metropolitan areas",
+  "publication_year": 2023,
+  "publication_date": "2023-06-08",
+  "ids": {
+    "openalex": "https://openalex.org/W4379930740",
+    "doi": "https://doi.org/10.1016/j.envint.2023.108005",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/37437316"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.envint.2023.108005",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.envint.2023.108005",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S143381477",
+      "display_name": "Environment International",
+      "issn_l": "0160-4120",
+      "issn": [
+        "0160-4120",
+        "1873-6750"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Environment International",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.1016/j.envint.2023.108005",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072231561",
+        "display_name": "Stephanie E. Cleland",
+        "orcid": "https://orcid.org/0000-0003-1912-8349",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1912-8349"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4389425366",
+          "display_name": "Oak Ridge Institute for Science and Education",
+          "ror": "https://ror.org/040vxhp34",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1281378812",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I4389425366"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephanie E. Cleland",
+      "raw_affiliation_strings": [
+        "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA; Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+        "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, North Carolina, USA",
+        "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA; Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177",
+            "https://openalex.org/I1302368450",
+            "https://openalex.org/I4389425366"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450",
+            "https://openalex.org/I4389425366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102385546",
+        "display_name": "William Steinhardt",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4389425366",
+          "display_name": "Oak Ridge Institute for Science and Education",
+          "ror": "https://ror.org/040vxhp34",
+          "country_code": null,
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1281378812",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I4389425366"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "William Steinhardt",
+      "raw_affiliation_strings": [
+        "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+        "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450",
+            "https://openalex.org/I4389425366"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Oak Ridge Institute for Science and Education at the Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450",
+            "https://openalex.org/I4389425366"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041894754",
+        "display_name": "Lucas Neas",
+        "orcid": "https://orcid.org/0000-0002-9377-8334",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9377-8334"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lucas M. Neas",
+      "raw_affiliation_strings": [
+        "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+        "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024198997",
+        "display_name": "J. Jason West",
+        "orcid": "https://orcid.org/0000-0001-5652-4987",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5652-4987"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Jason West",
+      "raw_affiliation_strings": [
+        "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA",
+        "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, North Carolina, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, NC, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Environmental Sciences and Engineering, Gillings School of Global Public Health, University of North Carolina, Chapel Hill, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5006962848",
+        "display_name": "Ana Grohovac Rappold",
+        "orcid": "https://orcid.org/0000-0002-7696-0900",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7696-0900"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Ana G. Rappold",
+      "raw_affiliation_strings": [
+        "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA. Electronic address: rappold.ana@epa.gov",
+        "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, NC, USA. Electronic address: rappold.ana@epa.gov",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Public Health and Environmental Assessment, Office of Research and Development, United States Environmental Protection Agency, Research Triangle Park, North Carolina, USA",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5006962848"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1302368450"
+  ],
+  "apc_list": {
+    "value": 3790,
+    "currency": "USD",
+    "value_usd": 3790
+  },
+  "apc_paid": {
+    "value": 3790,
+    "currency": "USD",
+    "value_usd": 3790
+  },
+  "fwci": 13.5151,
+  "has_fulltext": true,
+  "cited_by_count": 127,
+  "citation_normalized_percentile": {
+    "value": 0.99580546,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "178",
+    "issue": null,
+    "first_page": "108005",
+    "last_page": "108005"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9911999702453613,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9911999702453613,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.00570000009611249,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10190",
+      "display_name": "Air Quality and Health Impacts",
+      "score": 0.0017000000225380063,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/urban-heat-island",
+      "display_name": "urban heat island",
+      "score": 0.8709999918937683
+    },
+    {
+      "id": "https://openalex.org/keywords/cardiovascular-hospitalization",
+      "display_name": "cardiovascular hospitalization",
+      "score": 0.6069999933242798
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-related-morbidity",
+      "display_name": "heat-related morbidity",
+      "score": 0.8830000162124634
+    },
+    {
+      "id": "https://openalex.org/keywords/older-adults",
+      "display_name": "older adults",
+      "score": 0.8349999785423279
+    },
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.7020000219345093
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat-island-intensity",
+      "display_name": "urban heat island intensity",
+      "score": 0.6460000276565552
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-vulnerability",
+      "display_name": "heat vulnerability",
+      "score": 0.5299999713897705
+    },
+    {
+      "id": "https://openalex.org/keywords/medicare-enrollees",
+      "display_name": "Medicare enrollees",
+      "score": 0.7179999947547913
+    },
+    {
+      "id": "https://openalex.org/keywords/sex-differences",
+      "display_name": "sex differences",
+      "score": 0.5139999985694885
+    },
+    {
+      "id": "https://openalex.org/keywords/chronic-disease",
+      "display_name": "chronic disease",
+      "score": 0.7860000133514404
+    },
+    {
+      "id": "https://openalex.org/keywords/metropolitan-statistical-areas",
+      "display_name": "metropolitan statistical areas",
+      "score": 0.5879999995231628
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change-health-impacts",
+      "display_name": "health impacts of climate change",
+      "score": 0.7360000014305115
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C54005896",
+      "wikidata": "https://www.wikidata.org/wiki/Q215712",
+      "display_name": "Urban heat island",
+      "level": 2,
+      "score": 0.810826301574707
+    },
+    {
+      "id": "https://openalex.org/C68443243",
+      "wikidata": "https://www.wikidata.org/wiki/Q2786686",
+      "display_name": "Quartile",
+      "level": 3,
+      "score": 0.7095656394958496
+    },
+    {
+      "id": "https://openalex.org/C122048520",
+      "wikidata": "https://www.wikidata.org/wiki/Q2913954",
+      "display_name": "Percentile",
+      "level": 2,
+      "score": 0.6345019340515137
+    },
+    {
+      "id": "https://openalex.org/C73269764",
+      "wikidata": "https://www.wikidata.org/wiki/Q954529",
+      "display_name": "Poisson regression",
+      "level": 3,
+      "score": 0.5612345337867737
+    },
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.5374802350997925
+    },
+    {
+      "id": "https://openalex.org/C158739034",
+      "wikidata": "https://www.wikidata.org/wiki/Q1907114",
+      "display_name": "Metropolitan area",
+      "level": 2,
+      "score": 0.5131495594978333
+    },
+    {
+      "id": "https://openalex.org/C49204034",
+      "wikidata": "https://www.wikidata.org/wiki/Q52139",
+      "display_name": "Climatology",
+      "level": 1,
+      "score": 0.5016608238220215
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.48558658361434937
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.4467417299747467
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.36676865816116333
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.3619266450405121
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.2903599143028259
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.2815253734588623
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.2349700629711151
+    },
+    {
+      "id": "https://openalex.org/C44249647",
+      "wikidata": "https://www.wikidata.org/wiki/Q208498",
+      "display_name": "Confidence interval",
+      "level": 2,
+      "score": 0.18544259667396545
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.14856141805648804
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.13154971599578857
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.11087676882743835
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002318",
+      "descriptor_name": "Cardiovascular Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006278",
+      "descriptor_name": "Medicare",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D013997",
+      "descriptor_name": "Time Factors",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.envint.2023.108005",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.envint.2023.108005",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S143381477",
+        "display_name": "Environment International",
+        "issn_l": "0160-4120",
+        "issn": [
+          "0160-4120",
+          "1873-6750"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Environment International",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:37437316",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/37437316",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Environment international",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10599453",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10599453",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10599453/pdf/nihms-1928344.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Environ Int",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:2dbebd9bdae04362a791f0893bae0b95",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/2dbebd9bdae04362a791f0893bae0b95",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Environment International, Vol 178, Iss , Pp 108005- (2023)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:osti.gov:1989714",
+      "is_oa": false,
+      "landing_page_url": "https://www.osti.gov/biblio/1989714",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402487",
+        "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I139351228",
+        "host_organization_name": "Office of Scientific and Technical Information",
+        "host_organization_lineage": [
+          "https://openalex.org/I139351228"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:osti.gov:2471262",
+      "is_oa": false,
+      "landing_page_url": "https://www.osti.gov/biblio/2471262",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402487",
+        "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I139351228",
+        "host_organization_name": "Office of Scientific and Technical Information",
+        "host_organization_lineage": [
+          "https://openalex.org/I139351228"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.envint.2023.108005",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.envint.2023.108005",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S143381477",
+      "display_name": "Environment International",
+      "issn_l": "0160-4120",
+      "issn": [
+        "0160-4120",
+        "1873-6750"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Environment International",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    },
+    {
+      "score": 0.9333000183105469,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    },
+    {
+      "score": 0.5351999998092651,
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [
+    {
+      "id": "https://openalex.org/study-designs/observational-study",
+      "display_name": "Observational Study"
+    }
+  ],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306084",
+      "display_name": "U.S. Department of Energy",
+      "ror": "https://ror.org/01bj3aw27"
+    },
+    {
+      "id": "https://openalex.org/F4320306107",
+      "display_name": "U.S. Environmental Protection Agency",
+      "ror": "https://ror.org/03tns0030"
+    },
+    {
+      "id": "https://openalex.org/F4320332382",
+      "display_name": "Oak Ridge Institute for Science and Education",
+      "ror": "https://ror.org/0526p1y61"
+    },
+    {
+      "id": "https://openalex.org/F4320332859",
+      "display_name": "National Center For Environmental Assessment",
+      "ror": "https://ror.org/03tns0030"
+    },
+    {
+      "id": "https://openalex.org/F4320337204",
+      "display_name": "Center for Public Health and Environmental Assessment",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 109,
+  "referenced_works": [
+    "https://openalex.org/W1621485619",
+    "https://openalex.org/W1950609946",
+    "https://openalex.org/W1978905770",
+    "https://openalex.org/W1996005452",
+    "https://openalex.org/W2027776000",
+    "https://openalex.org/W2028529111",
+    "https://openalex.org/W2039357377",
+    "https://openalex.org/W2054295250",
+    "https://openalex.org/W2062479245",
+    "https://openalex.org/W2063017319",
+    "https://openalex.org/W2079361870",
+    "https://openalex.org/W2082504781",
+    "https://openalex.org/W2093388115",
+    "https://openalex.org/W2102904993",
+    "https://openalex.org/W2109839011",
+    "https://openalex.org/W2124625759",
+    "https://openalex.org/W2139348997",
+    "https://openalex.org/W2149283938",
+    "https://openalex.org/W2150930940",
+    "https://openalex.org/W2151775870",
+    "https://openalex.org/W2157431441",
+    "https://openalex.org/W2162768498",
+    "https://openalex.org/W2162775913",
+    "https://openalex.org/W2174902575",
+    "https://openalex.org/W2253892032",
+    "https://openalex.org/W2272087050",
+    "https://openalex.org/W2284157538",
+    "https://openalex.org/W2296295067",
+    "https://openalex.org/W2299591296",
+    "https://openalex.org/W2335842750",
+    "https://openalex.org/W2502639340",
+    "https://openalex.org/W2538927067",
+    "https://openalex.org/W2561220038",
+    "https://openalex.org/W2566191797",
+    "https://openalex.org/W2586427117",
+    "https://openalex.org/W2604748569",
+    "https://openalex.org/W2605399805",
+    "https://openalex.org/W2626726142",
+    "https://openalex.org/W2735326695",
+    "https://openalex.org/W2749592506",
+    "https://openalex.org/W2752418251",
+    "https://openalex.org/W2765212168",
+    "https://openalex.org/W2766025273",
+    "https://openalex.org/W2768859360",
+    "https://openalex.org/W2771237231",
+    "https://openalex.org/W2775816357",
+    "https://openalex.org/W2789358978",
+    "https://openalex.org/W2793448190",
+    "https://openalex.org/W2796866504",
+    "https://openalex.org/W2883240553",
+    "https://openalex.org/W2895475571",
+    "https://openalex.org/W2895525952",
+    "https://openalex.org/W2901573751",
+    "https://openalex.org/W2909331700",
+    "https://openalex.org/W2918499788",
+    "https://openalex.org/W2920950631",
+    "https://openalex.org/W2922304915",
+    "https://openalex.org/W2941483828",
+    "https://openalex.org/W2949104016",
+    "https://openalex.org/W2950933695",
+    "https://openalex.org/W2952273378",
+    "https://openalex.org/W2967179038",
+    "https://openalex.org/W2984834071",
+    "https://openalex.org/W2999943130",
+    "https://openalex.org/W3008691162",
+    "https://openalex.org/W3012838161",
+    "https://openalex.org/W3044734217",
+    "https://openalex.org/W3046554525",
+    "https://openalex.org/W3048486232",
+    "https://openalex.org/W3084374632",
+    "https://openalex.org/W3087450266",
+    "https://openalex.org/W3088703249",
+    "https://openalex.org/W3096487741",
+    "https://openalex.org/W3097462780",
+    "https://openalex.org/W3111458622",
+    "https://openalex.org/W3111886642",
+    "https://openalex.org/W3112816751",
+    "https://openalex.org/W3128397548",
+    "https://openalex.org/W3152454315",
+    "https://openalex.org/W3159129338",
+    "https://openalex.org/W3164760838",
+    "https://openalex.org/W3165771512",
+    "https://openalex.org/W3177530586",
+    "https://openalex.org/W3180768301",
+    "https://openalex.org/W3182134355",
+    "https://openalex.org/W3188729567",
+    "https://openalex.org/W3197752897",
+    "https://openalex.org/W3203145978",
+    "https://openalex.org/W3208052379",
+    "https://openalex.org/W4206029596",
+    "https://openalex.org/W4213250230",
+    "https://openalex.org/W4221093155",
+    "https://openalex.org/W4225271748",
+    "https://openalex.org/W4226344297",
+    "https://openalex.org/W4294741514",
+    "https://openalex.org/W4294826717",
+    "https://openalex.org/W4295011216",
+    "https://openalex.org/W4295193379",
+    "https://openalex.org/W4296932243",
+    "https://openalex.org/W4297486048",
+    "https://openalex.org/W4307896033",
+    "https://openalex.org/W4311419510",
+    "https://openalex.org/W6666303988",
+    "https://openalex.org/W6724674073",
+    "https://openalex.org/W6755361122",
+    "https://openalex.org/W6781679398",
+    "https://openalex.org/W6795788500",
+    "https://openalex.org/W6803080331",
+    "https://openalex.org/W6827333370"
+  ],
+  "related_works": [
+    "https://openalex.org/W4297998612",
+    "https://openalex.org/W1550559433",
+    "https://openalex.org/W2189235034",
+    "https://openalex.org/W2319948171",
+    "https://openalex.org/W2313538815",
+    "https://openalex.org/W2141521731",
+    "https://openalex.org/W3081067283",
+    "https://openalex.org/W2396241079",
+    "https://openalex.org/W2931054357",
+    "https://openalex.org/W2130502979"
+  ],
+  "abstract_inverted_index": {
+    "Many": [
+      0
+    ],
+    "United": [
+      1
+    ],
+    "States": [
+      2
+    ],
+    "(US)": [
+      3
+    ],
+    "cities": [
+      4
+    ],
+    "are": [
+      5
+    ],
+    "experiencing": [
+      6
+    ],
+    "urban": [
+      7,
+      45,
+      290
+    ],
+    "heat": [
+      8,
+      17,
+      157,
+      281
+    ],
+    "islands": [
+      9
+    ],
+    "(UHIs)": [
+      10
+    ],
+    "and": [
+      11,
+      37,
+      50,
+      86,
+      106,
+      112,
+      135,
+      148,
+      263,
+      286
+    ],
+    "climate": [
+      12
+    ],
+    "change-driven": [
+      13
+    ],
+    "temperature": [
+      14,
+      90,
+      134
+    ],
+    "increases.": [
+      15
+    ],
+    "Extreme": [
+      16,
+      182
+    ],
+    "increases": [
+      18
+    ],
+    "cardiovascular": [
+      19,
+      283
+    ],
+    "disease": [
+      20
+    ],
+    "(CVD)": [
+      21
+    ],
+    "risk,": [
+      22
+    ],
+    "yet": [
+      23
+    ],
+    "little": [
+      24
+    ],
+    "is": [
+      25
+    ],
+    "known": [
+      26
+    ],
+    "about": [
+      27
+    ],
+    "how": [
+      28
+    ],
+    "this": [
+      29
+    ],
+    "association": [
+      30
+    ],
+    "varies": [
+      31
+    ],
+    "with": [
+      32,
+      143,
+      177,
+      207,
+      265,
+      292,
+      299
+    ],
+    "UHI": [
+      33
+    ],
+    "intensity": [
+      34
+    ],
+    "(UHII)": [
+      35
+    ],
+    "within": [
+      36
+    ],
+    "between": [
+      38,
+      84,
+      132
+    ],
+    "cities.": [
+      39
+    ],
+    "We": [
+      40
+    ],
+    "aimed": [
+      41
+    ],
+    "to": [
+      42,
+      60,
+      122
+    ],
+    "identify": [
+      43
+    ],
+    "the": [
+      44,
+      110,
+      154,
+      166,
+      217,
+      240,
+      274
+    ],
+    "populations": [
+      46
+    ],
+    "most": [
+      47
+    ],
+    "at-risk": [
+      48
+    ],
+    "of": [
+      49,
+      67,
+      115,
+      126,
+      168,
+      209,
+      239
+    ],
+    "burdened": [
+      51
+    ],
+    "by": [
+      52,
+      94,
+      171
+    ],
+    "heat-related": [
+      53,
+      183,
+      242,
+      276
+    ],
+    "CVD": [
+      54,
+      68,
+      128,
+      136,
+      169,
+      184,
+      231,
+      243,
+      277
+    ],
+    "morbidity": [
+      55,
+      284
+    ],
+    "in": [
+      56,
+      187,
+      198,
+      213,
+      269,
+      288
+    ],
+    "UHI-affected": [
+      57
+    ],
+    "areas": [
+      58,
+      82,
+      190,
+      201,
+      235,
+      248,
+      272
+    ],
+    "compared": [
+      59
+    ],
+    "unaffected": [
+      61
+    ],
+    "areas.": [
+      62
+    ],
+    "ZIP": [
+      63,
+      100
+    ],
+    "code-level": [
+      64
+    ],
+    "daily": [
+      65,
+      96
+    ],
+    "counts": [
+      66
+    ],
+    "hospitalizations": [
+      69
+    ],
+    "among": [
+      70,
+      180,
+      297
+    ],
+    "Medicare": [
+      71
+    ],
+    "enrollees,": [
+      72
+    ],
+    "aged": [
+      73,
+      261
+    ],
+    "65-114,": [
+      74
+    ],
+    "were": [
+      75,
+      102,
+      138,
+      222
+    ],
+    "obtained": [
+      76
+    ],
+    "for": [
+      77,
+      237,
+      250
+    ],
+    "120": [
+      78
+    ],
+    "US": [
+      79
+    ],
+    "metropolitan": [
+      80
+    ],
+    "statistical": [
+      81
+    ],
+    "(MSAs)": [
+      83
+    ],
+    "2000": [
+      85
+    ],
+    "2017.": [
+      87
+    ],
+    "Mean": [
+      88
+    ],
+    "ambient": [
+      89,
+      133
+    ],
+    "exposure": [
+      91
+    ],
+    "was": [
+      92
+    ],
+    "estimated": [
+      93,
+      139,
+      224
+    ],
+    "interpolating": [
+      95
+    ],
+    "weather": [
+      97
+    ],
+    "station": [
+      98
+    ],
+    "observations.": [
+      99
+    ],
+    "codes": [
+      101
+    ],
+    "classified": [
+      103
+    ],
+    "as": [
+      104
+    ],
+    "low": [
+      105,
+      199,
+      246
+    ],
+    "high": [
+      107,
+      188,
+      270
+    ],
+    "UHII": [
+      108,
+      119,
+      189,
+      200,
+      234,
+      247,
+      253,
+      271
+    ],
+    "using": [
+      109,
+      140
+    ],
+    "first": [
+      111
+    ],
+    "fourth": [
+      113
+    ],
+    "quartiles": [
+      114
+    ],
+    "an": [
+      116,
+      223
+    ],
+    "existing": [
+      117,
+      300
+    ],
+    "surface": [
+      118
+    ],
+    "metric,": [
+      120
+    ],
+    "weighted": [
+      121
+    ],
+    "each": [
+      123
+    ],
+    "have": [
+      124
+    ],
+    "25%": [
+      125
+    ],
+    "all": [
+      127
+    ],
+    "hospitalizations.": [
+      129
+    ],
+    "MSA-specific": [
+      130
+    ],
+    "associations": [
+      131
+    ],
+    "hospitalization": [
+      137,
+      170,
+      185
+    ],
+    "quasi-Poisson": [
+      141
+    ],
+    "regression": [
+      142
+    ],
+    "distributed": [
+      144
+    ],
+    "lag": [
+      145
+    ],
+    "non-linear": [
+      146
+    ],
+    "models": [
+      147
+    ],
+    "pooled": [
+      149
+    ],
+    "via": [
+      150
+    ],
+    "multivariate": [
+      151
+    ],
+    "meta-analyses.": [
+      152
+    ],
+    "Across": [
+      153
+    ],
+    "US,": [
+      155
+    ],
+    "extreme": [
+      156,
+      280
+    ],
+    "(MSA-specific": [
+      158
+    ],
+    "99th": [
+      159
+    ],
+    "percentile,": [
+      160
+    ],
+    "on": [
+      161
+    ],
+    "average": [
+      162
+    ],
+    "28.6": [
+      163
+    ],
+    "\u00b0C)": [
+      164
+    ],
+    "increased": [
+      165,
+      282
+    ],
+    "risk": [
+      167,
+      186,
+      285
+    ],
+    "1.5%": [
+      172
+    ],
+    "(95%": [
+      173,
+      226
+    ],
+    "CI:": [
+      174,
+      193,
+      204,
+      227
+    ],
+    "0.4%,": [
+      175,
+      194
+    ],
+    "2.6%),": [
+      176
+    ],
+    "considerable": [
+      178
+    ],
+    "variation": [
+      179
+    ],
+    "MSAs.": [
+      181,
+      215
+    ],
+    "(2.4%": [
+      191
+    ],
+    "[95%": [
+      192,
+      203
+    ],
+    "4.3%])": [
+      195
+    ],
+    "exceeded": [
+      196
+    ],
+    "that": [
+      197
+    ],
+    "(1.0%": [
+      202
+    ],
+    "-0.8%,": [
+      205
+    ],
+    "2.8%]),": [
+      206
+    ],
+    "upwards": [
+      208
+    ],
+    "a": [
+      210
+    ],
+    "10%": [
+      211
+    ],
+    "difference": [
+      212
+    ],
+    "some": [
+      214
+    ],
+    "During": [
+      216
+    ],
+    "18-year": [
+      218
+    ],
+    "study": [
+      219
+    ],
+    "period,": [
+      220
+    ],
+    "there": [
+      221
+    ],
+    "37,028": [
+      225
+    ],
+    "35,741,": [
+      228
+    ],
+    "37,988)": [
+      229
+    ],
+    "heat-attributable": [
+      230
+    ],
+    "admissions.": [
+      232
+    ],
+    "High": [
+      233,
+      252
+    ],
+    "accounted": [
+      236,
+      249
+    ],
+    "35%": [
+      238
+    ],
+    "total": [
+      241
+    ],
+    "burden,": [
+      244
+    ],
+    "while": [
+      245
+    ],
+    "4%.": [
+      251
+    ],
+    "disproportionately": [
+      254
+    ],
+    "impacted": [
+      255
+    ],
+    "already": [
+      256
+    ],
+    "heat-vulnerable": [
+      257
+    ],
+    "populations;": [
+      258
+    ],
+    "females,": [
+      259
+    ],
+    "individuals": [
+      260
+    ],
+    "75-114,": [
+      262
+    ],
+    "those": [
+      264,
+      298
+    ],
+    "chronic": [
+      266
+    ],
+    "conditions": [
+      267
+    ],
+    "living": [
+      268
+    ],
+    "experienced": [
+      273
+    ],
+    "largest": [
+      275
+    ],
+    "impacts.": [
+      278
+    ],
+    "Overall,": [
+      279
+    ],
+    "burden": [
+      287
+    ],
+    "older": [
+      289
+    ],
+    "populations,": [
+      291
+    ],
+    "UHIs": [
+      293
+    ],
+    "exacerbating": [
+      294
+    ],
+    "these": [
+      295
+    ],
+    "impacts": [
+      296
+    ],
+    "vulnerabilities.": [
+      301
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 56
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-10-02T10:15:12.560889",
+  "created_date": "2025-10-10T00:00:00"
+}

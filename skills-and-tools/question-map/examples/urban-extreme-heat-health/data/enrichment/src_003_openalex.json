@@ -1,0 +1,1142 @@
+{
+  "id": "https://openalex.org/W2549685661",
+  "doi": "https://doi.org/10.1080/13549839.2016.1254169",
+  "title": "Heat as emergency, heat as chronic stress: policy and institutional responses to vulnerability to extreme heat",
+  "display_name": "Heat as emergency, heat as chronic stress: policy and institutional responses to vulnerability to extreme heat",
+  "publication_year": 2016,
+  "publication_date": "2016-11-16",
+  "ids": {
+    "openalex": "https://openalex.org/W2549685661",
+    "doi": "https://doi.org/10.1080/13549839.2016.1254169",
+    "mag": "2549685661"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1080/13549839.2016.1254169",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1080/13549839.2016.1254169",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S82902237",
+      "display_name": "Local Environment",
+      "issn_l": "1354-9839",
+      "issn": [
+        "1354-9839",
+        "1469-6711"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319847",
+      "host_organization_name": "Routledge",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319847",
+        "https://openalex.org/P4310320547"
+      ],
+      "host_organization_lineage_names": [
+        "Routledge",
+        "Taylor & Francis"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Local Environment",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5028718064",
+        "display_name": "Annie Bolitho",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114017466",
+          "display_name": "University of Technology Sydney",
+          "ror": "https://ror.org/03f0f6041",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114017466"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I165779595",
+          "display_name": "The University of Melbourne",
+          "ror": "https://ror.org/01ej9dk98",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Annie Bolitho",
+      "raw_affiliation_strings": [
+        "Department of Resource Management and Geography, University of Melbourne, Melbourne, Australia",
+        "Institute for Sustainable Futures, University of Technology Sydney, Sydney, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Resource Management and Geography, University of Melbourne, Melbourne, Australia",
+          "institution_ids": [
+            "https://openalex.org/I165779595"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute for Sustainable Futures, University of Technology Sydney, Sydney, Australia",
+          "institution_ids": [
+            "https://openalex.org/I114017466"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5057985857",
+        "display_name": "Fiona P. Miller",
+        "orcid": "https://orcid.org/0000-0003-4427-6466",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4427-6466"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165779595",
+          "display_name": "The University of Melbourne",
+          "ror": "https://ror.org/01ej9dk98",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165779595"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I99043593",
+          "display_name": "Macquarie University",
+          "ror": "https://ror.org/01sf06y89",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I99043593"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Fiona Miller",
+      "raw_affiliation_strings": [
+        "Department of Geography and Planning, Macquarie University, Sydney, Australia",
+        "Department of Resource Management and Geography, University of Melbourne, Melbourne, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geography and Planning, Macquarie University, Sydney, Australia",
+          "institution_ids": [
+            "https://openalex.org/I99043593"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Resource Management and Geography, University of Melbourne, Melbourne, Australia",
+          "institution_ids": [
+            "https://openalex.org/I165779595"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5057985857"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I165779595",
+    "https://openalex.org/I99043593"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.178,
+  "has_fulltext": false,
+  "cited_by_count": 75,
+  "citation_normalized_percentile": {
+    "value": 0.85145558,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "6",
+    "first_page": "682",
+    "last_page": "698"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.5536999702453613,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.5536999702453613,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10747",
+      "display_name": "Disaster Management and Resilience",
+      "score": 0.34450000524520874,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10119",
+      "display_name": "Sustainability and Climate Change Governance",
+      "score": 0.03229999914765358,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.9800000190734863
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-vulnerability",
+      "display_name": "heat vulnerability",
+      "score": 0.9259999990463257
+    },
+    {
+      "id": "https://openalex.org/keywords/chronic-heat-stress",
+      "display_name": "chronic heat stress",
+      "score": 0.8550000190734863
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.5120000243186951
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-policy",
+      "display_name": "heat policy",
+      "score": 0.4090000092983246
+    },
+    {
+      "id": "https://openalex.org/keywords/institutional-responses",
+      "display_name": "institutional responses",
+      "score": 0.8379999995231628
+    },
+    {
+      "id": "https://openalex.org/keywords/emergency-management",
+      "display_name": "emergency management",
+      "score": 0.843999981880188
+    },
+    {
+      "id": "https://openalex.org/keywords/non-governmental-organizations",
+      "display_name": "non-governmental organizations",
+      "score": 0.6579999923706055
+    },
+    {
+      "id": "https://openalex.org/keywords/vulnerable-populations",
+      "display_name": "vulnerable populations",
+      "score": 0.5910000205039978
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-sustainability",
+      "display_name": "urban sustainability",
+      "score": 0.8930000066757202
+    },
+    {
+      "id": "https://openalex.org/keywords/melbourne",
+      "display_name": "Melbourne",
+      "score": 0.41200000047683716
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.8495509624481201
+    },
+    {
+      "id": "https://openalex.org/C95713431",
+      "wikidata": "https://www.wikidata.org/wiki/Q631425",
+      "display_name": "Vulnerability (computing)",
+      "level": 2,
+      "score": 0.6752118468284607
+    },
+    {
+      "id": "https://openalex.org/C2987418964",
+      "wikidata": "https://www.wikidata.org/wiki/Q242165",
+      "display_name": "Heat stress",
+      "level": 2,
+      "score": 0.6327831149101257
+    },
+    {
+      "id": "https://openalex.org/C2993220731",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Heat wave",
+      "level": 3,
+      "score": 0.4202563762664795
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.35396426916122437
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.34238147735595703
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.33458411693573
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.15085288882255554
+    },
+    {
+      "id": "https://openalex.org/C91586092",
+      "wikidata": "https://www.wikidata.org/wiki/Q757520",
+      "display_name": "Atmospheric sciences",
+      "level": 1,
+      "score": 0.11498114466667175
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.10069450736045837
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.09430861473083496
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1080/13549839.2016.1254169",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13549839.2016.1254169",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S82902237",
+        "display_name": "Local Environment",
+        "issn_l": "1354-9839",
+        "issn": [
+          "1354-9839",
+          "1469-6711"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Local Environment",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:opus.lib.uts.edu.au:10453/126964",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10453/126964",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401357",
+        "display_name": "UTS ePRESS (University of Technology Sydney)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I114017466",
+        "host_organization_name": "University of Technology Sydney",
+        "host_organization_lineage": [
+          "https://openalex.org/I114017466"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Journal Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Sustainable cities and communities",
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/11"
+    },
+    {
+      "display_name": "Climate action",
+      "score": 0.685699999332428,
+      "id": "https://metadata.un.org/sdg/13"
+    },
+    {
+      "display_name": "Good health and well-being",
+      "score": 0.5683000087738037,
+      "id": "https://metadata.un.org/sdg/3"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "display_name": "Sustainable cities and communities",
+      "score": 0.6399999856948853,
+      "id": "https://metadata.un.org/sdg/11"
+    }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320974",
+      "display_name": "University of Melbourne",
+      "ror": "https://ror.org/01ej9dk98"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W87794531",
+    "https://openalex.org/W628234387",
+    "https://openalex.org/W1561628812",
+    "https://openalex.org/W1563481010",
+    "https://openalex.org/W1587602269",
+    "https://openalex.org/W1905429483",
+    "https://openalex.org/W1968817831",
+    "https://openalex.org/W1973946675",
+    "https://openalex.org/W1981323553",
+    "https://openalex.org/W1992734455",
+    "https://openalex.org/W2016901867",
+    "https://openalex.org/W2018163508",
+    "https://openalex.org/W2019635200",
+    "https://openalex.org/W2026436315",
+    "https://openalex.org/W2040790009",
+    "https://openalex.org/W2040957324",
+    "https://openalex.org/W2047328724",
+    "https://openalex.org/W2050063259",
+    "https://openalex.org/W2063606331",
+    "https://openalex.org/W2087830272",
+    "https://openalex.org/W2093162645",
+    "https://openalex.org/W2094158470",
+    "https://openalex.org/W2106784657",
+    "https://openalex.org/W2108107087",
+    "https://openalex.org/W2123263015",
+    "https://openalex.org/W2130310224",
+    "https://openalex.org/W2139201298",
+    "https://openalex.org/W2139278330",
+    "https://openalex.org/W2142929851",
+    "https://openalex.org/W2152707375",
+    "https://openalex.org/W2160539507",
+    "https://openalex.org/W2161062056",
+    "https://openalex.org/W2165011856",
+    "https://openalex.org/W2170077338",
+    "https://openalex.org/W2172951971",
+    "https://openalex.org/W2327433159",
+    "https://openalex.org/W2474254666",
+    "https://openalex.org/W2617606220",
+    "https://openalex.org/W2771972532",
+    "https://openalex.org/W3125535125",
+    "https://openalex.org/W4248225722",
+    "https://openalex.org/W4256419783",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W6604937854"
+  ],
+  "related_works": [
+    "https://openalex.org/W1966572348",
+    "https://openalex.org/W2739538353",
+    "https://openalex.org/W54637518",
+    "https://openalex.org/W2808713351",
+    "https://openalex.org/W2940248110",
+    "https://openalex.org/W1974757468",
+    "https://openalex.org/W3045215384",
+    "https://openalex.org/W4391225299",
+    "https://openalex.org/W2073019439",
+    "https://openalex.org/W2974400777"
+  ],
+  "abstract_inverted_index": {
+    "Increasingly": [
+      0
+    ],
+    "commonplace": [
+      1
+    ],
+    "in": [
+      2,
+      102,
+      137
+    ],
+    "cities,": [
+      3
+    ],
+    "extreme": [
+      4,
+      171
+    ],
+    "heat": [
+      5,
+      28,
+      65,
+      109,
+      114,
+      172,
+      194
+    ],
+    "events": [
+      6
+    ],
+    "introduce": [
+      7
+    ],
+    "multi-stress": [
+      8
+    ],
+    "vulnerability,": [
+      9
+    ],
+    "affecting": [
+      10
+    ],
+    "people\u2019s": [
+      11
+    ],
+    "health": [
+      12,
+      77
+    ],
+    "and": [
+      13,
+      20,
+      36,
+      57,
+      75,
+      89,
+      99,
+      113,
+      155,
+      160,
+      179,
+      190,
+      199
+    ],
+    "well-being,": [
+      14
+    ],
+    "financial": [
+      15
+    ],
+    "situation,": [
+      16
+    ],
+    "mobility,": [
+      17
+    ],
+    "social": [
+      18,
+      53
+    ],
+    "relations,": [
+      19
+    ],
+    "access": [
+      21
+    ],
+    "to": [
+      22,
+      26,
+      37,
+      86,
+      173,
+      201,
+      205
+    ],
+    "basic": [
+      23
+    ],
+    "services.": [
+      24
+    ],
+    "Planning": [
+      25
+    ],
+    "reduce": [
+      27,
+      197
+    ],
+    "vulnerability": [
+      29,
+      81,
+      198
+    ],
+    "has": [
+      30
+    ],
+    "become": [
+      31
+    ],
+    "part": [
+      32
+    ],
+    "of": [
+      33,
+      46,
+      73,
+      92,
+      118,
+      132,
+      193
+    ],
+    "government": [
+      34
+    ],
+    "business": [
+      35
+    ],
+    "some": [
+      38
+    ],
+    "extent": [
+      39
+    ],
+    "community-level": [
+      40
+    ],
+    "responses,": [
+      41
+    ],
+    "cutting": [
+      42
+    ],
+    "across": [
+      43
+    ],
+    "a": [
+      44,
+      80,
+      116
+    ],
+    "number": [
+      45
+    ],
+    "sectors": [
+      47
+    ],
+    "including": [
+      48
+    ],
+    "public": [
+      49
+    ],
+    "health,": [
+      50
+    ],
+    "emergency": [
+      51,
+      112,
+      122,
+      189
+    ],
+    "management,": [
+      52
+    ],
+    "services,": [
+      54
+    ],
+    "critical": [
+      55
+    ],
+    "infrastructure,": [
+      56
+    ],
+    "housing.": [
+      58
+    ],
+    "This": [
+      59
+    ],
+    "planning": [
+      60
+    ],
+    "is": [
+      61
+    ],
+    "often": [
+      62
+    ],
+    "framed": [
+      63
+    ],
+    "around": [
+      64
+    ],
+    "as": [
+      66,
+      110,
+      115
+    ],
+    "an": [
+      67,
+      111
+    ],
+    "emergency,": [
+      68
+    ],
+    "focusing": [
+      69
+    ],
+    "on": [
+      70,
+      97
+    ],
+    "preventing": [
+      71
+    ],
+    "loss": [
+      72
+    ],
+    "life": [
+      74
+    ],
+    "severe": [
+      76
+    ],
+    "impacts,": [
+      78
+    ],
+    "yet": [
+      79
+    ],
+    "perspective": [
+      82
+    ],
+    "also": [
+      83
+    ],
+    "draws": [
+      84
+    ],
+    "attention": [
+      85
+    ],
+    "the": [
+      87,
+      129,
+      166,
+      185,
+      188
+    ],
+    "chronic": [
+      88,
+      119,
+      130,
+      191
+    ],
+    "persistent": [
+      90
+    ],
+    "impacts": [
+      91
+    ],
+    "heat.": [
+      93,
+      133
+    ],
+    "Our": [
+      94
+    ],
+    "research,": [
+      95
+    ],
+    "based": [
+      96
+    ],
+    "interviews": [
+      98
+    ],
+    "desktop": [
+      100
+    ],
+    "research": [
+      101
+    ],
+    "Melbourne,": [
+      103
+    ],
+    "Australia,": [
+      104
+    ],
+    "found": [
+      105
+    ],
+    "tensions": [
+      106
+    ],
+    "between": [
+      107,
+      153,
+      187
+    ],
+    "addressing": [
+      108,
+      128
+    ],
+    "source": [
+      117
+    ],
+    "stress,": [
+      120
+    ],
+    "with": [
+      121,
+      170
+    ],
+    "responses": [
+      123,
+      127,
+      181
+    ],
+    "taking": [
+      124
+    ],
+    "precedence": [
+      125
+    ],
+    "over": [
+      126
+    ],
+    "dimensions": [
+      131
+    ],
+    "Each": [
+      134
+    ],
+    "approach": [
+      135
+    ],
+    "results": [
+      136
+    ],
+    "different": [
+      138
+    ],
+    "but": [
+      139
+    ],
+    "nonetheless": [
+      140
+    ],
+    "related": [
+      141
+    ],
+    "programmatic": [
+      142
+    ],
+    "priorities": [
+      143
+    ],
+    "for": [
+      144
+    ],
+    "reducing": [
+      145
+    ],
+    "vulnerability.": [
+      146
+    ],
+    "In": [
+      147
+    ],
+    "complex": [
+      148
+    ],
+    "institutional": [
+      149,
+      180
+    ],
+    "settings,": [
+      150
+    ],
+    "improving": [
+      151
+    ],
+    "relations": [
+      152
+    ],
+    "policy": [
+      154
+    ],
+    "programme": [
+      156
+    ],
+    "managers,": [
+      157
+    ],
+    "non-government": [
+      158
+    ],
+    "organisations,": [
+      159
+    ],
+    "vulnerable": [
+      161
+    ],
+    "people": [
+      162
+    ],
+    "themselves": [
+      163
+    ],
+    "would": [
+      164,
+      195
+    ],
+    "enable": [
+      165
+    ],
+    "multiple": [
+      167
+    ],
+    "stresses": [
+      168
+    ],
+    "associated": [
+      169
+    ],
+    "be": [
+      174
+    ],
+    "more": [
+      175,
+      202
+    ],
+    "effectively": [
+      176
+    ],
+    "addressed.": [
+      177
+    ],
+    "Policy": [
+      178
+    ],
+    "that": [
+      182
+    ],
+    "better": [
+      183
+    ],
+    "appreciate": [
+      184
+    ],
+    "interconnections": [
+      186
+    ],
+    "aspects": [
+      192
+    ],
+    "likely": [
+      196
+    ],
+    "contribute": [
+      200
+    ],
+    "just": [
+      203
+    ],
+    "approaches": [
+      204
+    ],
+    "urban": [
+      206
+    ],
+    "sustainability.": [
+      207
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-01T08:54:57.152042",
+  "created_date": "2025-10-10T00:00:00"
+}

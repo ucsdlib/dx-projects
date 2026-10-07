@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Question Map Prototype</title>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="visualization-data.js"></script>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#667085; --line:#dbe0e8; --panel:#fff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font:14px/1.45 ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; color:var(--ink); background:#f5f7fa; }
+    header { display:flex; flex-wrap:wrap; gap:12px; align-items:center; padding:16px 20px; background:var(--panel); border-bottom:1px solid var(--line); }
+    h1 { margin:0; font-size:19px; font-weight:700; }
+    .subtitle { color:var(--muted); font-size:13px; }
+    .controls { display:flex; gap:10px; align-items:center; flex-wrap:wrap; }
+    select, input { border:1px solid #c8cfd9; border-radius:8px; padding:7px 9px; background:#fff; font-size:13px; }
+    .layout { display:grid; grid-template-columns:minmax(0,1fr) 360px; min-height:calc(100vh - 67px); }
+    #stage { position:relative; min-width:0; }
+    #tooltip { position:absolute; pointer-events:none; opacity:0; max-width:380px; padding:9px 10px; background:#111827; color:#fff; border-radius:7px; font-size:12px; z-index:10; }
+    aside { overflow:auto; background:var(--panel); border-left:1px solid var(--line); padding:18px; }
+    .panel-title { margin:0 0 10px; font-size:16px; }
+    .empty { color:var(--muted); font-style:italic; }
+    .kind { text-transform:uppercase; letter-spacing:.08em; font-size:10px; font-weight:700; color:var(--muted); }
+    .name { margin:5px 0 10px; font-size:15px; line-height:1.35; }
+    .meta { margin:0 0 12px; color:var(--muted); font-size:12px; }
+    .detail { padding:9px 10px; margin:10px 0; border-left:3px solid #c7d2fe; background:#f8fafc; }
+    .quote { font-style:italic; }
+    ul { padding-left:20px; margin:5px 0 10px; }
+    li { margin:3px 0; }
+    .legend { position:absolute; left:14px; bottom:12px; display:flex; flex-wrap:wrap; gap:8px; max-width:calc(100% - 28px); }
+    .legend-item { display:flex; gap:5px; align-items:center; background:#ffffffdd; padding:5px 7px; border:1px solid var(--line); border-radius:20px; font-size:11px; }
+    .swatch { width:10px; height:10px; border-radius:50%; }
+    .link { stroke:#b9c1cc; stroke-opacity:.52; }
+    .theme-link { stroke-dasharray:4 3; stroke-opacity:.32; }
+    .next-link { stroke:#f97316; stroke-dasharray:4 3; stroke-opacity:.72; }
+    .support-link { stroke:#94a3b8; }
+    .node rect, .node circle, .node path { cursor:pointer; }
+    .node { cursor:pointer; }
+    .node text { fill:#1f2937; font-size:11px; paint-order:stroke; stroke:#fff; stroke-width:3px; stroke-linejoin:round; }
+    .node text.question-label { font-weight:650; }
+    .node.dim { opacity:.18; }
+    .link.dim { stroke-opacity:.06; }
+  </style>
+</head>
+<body>
+<header>
+  <div>
+    <h1>Question Map Prototype</h1>
+    <div class="subtitle" id="subtitle">Urban extreme heat, health, and wellbeing</div>
+  </div>
+  <div class="controls">
+    <label>View
+      <select id="view">
+        <option value="landscape">Question landscape</option>
+        <option value="evidence">Questions + source anchors</option>
+        <option value="full">Full graph</option>
+      </select>
+    </label>
+    <input id="search" type="search" placeholder="Search questions, themes, or sources" autocomplete="off" spellcheck="false">
+    <button id="reset" type="button">Reset</button>
+  </div>
+</header>
+<main class="layout">
+  <div id="stage">
+    <div id="tooltip"></div>
+    <div class="legend" id="legend"></div>
+  </div>
+  <aside>
+    <h2 class="panel-title">Details</h2>
+    <div id="details" class="empty">Hover or click a node.</div>
+  </aside>
+</main>
+<script>
+const palette = ["#0f766e","#1d4ed8","#7c3aed","#b45309","#be123c","#334155","#0e7490","#4d7c0f"];
+const svg = d3.select("#stage").append("svg").attr("width","100%").attr("height","100%");
+const root = svg.append("g");
+const linkLayer = root.append("g");
+const nodeLayer = root.append("g");
+const zoom = d3.zoom().scaleExtent([.3, 3]).on("zoom", event => root.attr("transform", event.transform));
+svg.call(zoom);
+const tooltip = d3.select("#tooltip");
+const details = d3.select("#details");
+let graph, nodesById, themeColors, visibleNodes, visibleEdges, simulation, selected;
+const searchInput = d3.select("#search");
+
+function truncate(text, length) {
+  if (!text) return "";
+  return text.length > length ? text.slice(0, length - 1) + "…" : text;
+}
+function quoteFor(node) {
+  if (!node.quote_ids) return null;
+  const quote = graph.quotes.find(q => q.quote_id === node.quote_ids[0]);
+  return quote ? quote.text : null;
+}
+function citations(id) {
+  return graph.citation_metadata[id] || {};
+}
+function radius(node) {
+  if (node.type === "theme") return 28 + (node.support_summary?.source_count || 0) * 3;
+  if (node.type === "question") return 24 + graph.question_support[node.id] * 3;
+  if (node.type === "source_question") return 15;
+  if (node.type === "source") return 9 + Math.sqrt(citations(node.id).count || 1) * 1.7;
+  return 18;
+}
+function shortLabel(node) {
+  const text = node.label || node.question_text || node.title;
+  return truncate(text, node.type === "source" ? 32 : 70);
+}
+function themeFor(node) {
+  if (node.type === "theme") return node;
+  if (node.type === "question") {
+    return graph.themes.find(t => t.question_ids.includes(node.id)) || null;
+  }
+  if (node.type === "source_question") {
+    const support = graph.edges.find(e => e.source_id === node.id && e.relation === "supports");
+    return support ? themeFor(nodesById[support.target_id]) : null;
+  }
+  if (node.type === "source") {
+    const theme = graph.themes.find(t => t.source_ids.includes(node.id));
+    return theme || null;
+  }
+  return graph.themes.find(t => t.next_question_ids.includes(node.id)) || null;
+}
+function colorFor(node) {
+  if (node.type === "theme") return themeColors[node.id];
+  if (node.type === "question") {
+    const theme = themeFor(node);
+    return theme ? themeColors[theme.id] : "#64748b";
+  }
+  if (node.type === "source_question") {
+    const theme = themeFor(node);
+    return theme ? themeColors[theme.id] + "88" : "#94a3b8";
+  }
+  if (node.type === "source") return "#475569";
+  return "#ea580c";
+}
+function detailText(node) {
+  if (node.type === "theme") {
+    return `<p class="meta">${node.support_summary.source_count} sources · ${node.support_summary.question_count} questions · confidence ${node.confidence}</p>
+      <p>${node.statement}</p><div class="detail">${node.coherence_basis}</div>
+      <div class="kind">Key terms</div><p>${node.key_terms.join(" · ")}</p>`;
+  }
+  if (node.type === "question") {
+    const sourceIds = graph.edges.filter(e => e.target_id === node.id && e.relation === "supports").map(e => e.source_id);
+    const sources = sourceIds.map(id => nodesById[id].source_id).map(id => nodesById[id].title);
+    return `<p class="meta">${sourceIds.length} source questions · type ${node.question_type} · confidence ${node.confidence}</p>
+      <p>${node.question_text}</p><div class="kind">Sources</div><ul>${sources.map(t => `<li>${truncate(t, 110)}</li>`).join("")}</ul>`;
+  }
+  if (node.type === "source_question") {
+    const source = nodesById[node.source_id];
+    const quote = quoteFor(node);
+    return `<p class="meta">${source.title}</p><p>${node.question_text}</p>
+      <p class="meta">${node.origin} · ${node.connection_type} · ${node.evidence_basis}</p>
+      ${quote ? `<div class="detail quote">“${quote}”</div>` : `<div class="detail">${node.metadata_rationale || node.extraction_rationale}</div>`}`;
+  }
+  if (node.type === "source") {
+    const citation = citations(node.id);
+    return `<p class="meta">${sourceAuthors(node)} · ${node.year} · ${node.venue}</p><p>${node.title}</p>
+      <p class="meta">${citation.count ? citation.count + " citations (" + citation.provider + ")" : "No citation count retrieved"} · ${node.access_level}</p>
+      <div class="kind">Selection reason</div><p>${node.selection_reason}</p>
+      ${node.urls?.length ? `<p><a href="${node.urls[0]}" target="_blank" rel="noopener">Open source</a></p>` : ""}`;
+  }
+  return `<p class="meta">${node.origin} · confidence ${node.confidence}</p><p>${node.question_text}</p>
+    <div class="detail">${node.generation_basis}</div><p class="meta">Candidate question — not source-backed.</p>`;
+}
+function sourceAuthors(node) {
+  return node.authors?.slice(0, 3).join(", ") + (node.authors?.length > 3 ? " et al." : "");
+}
+function showDetails(node) {
+  details.html(`<div class="kind">${node.type.replace("_", " ")}</div><h3 class="name">${shortLabel(node)}</h3>${detailText(node)}`);
+}
+function showTooltip(event, node) {
+  tooltip.style("opacity", 1).html(shortLabel(node)).style("left", (event.pageX + 12) + "px").style("top", (event.pageY - 8) + "px");
+}
+function hideTooltip() { tooltip.style("opacity", 0); }
+function setSearchTerm(node) {
+  const term = searchInput.property("value").toLowerCase();
+  if (!term) return true;
+  const quoteText = quoteFor(node) || "";
+  return [node.label, node.question_text, node.title, node.statement, node.key_terms?.join(" "), node.subjects, quoteText]
+    .join(" ").toLowerCase().includes(term);
+}
+function highlight() {
+  const term = searchInput.property("value").toLowerCase();
+  const neighborhood = new Set();
+  if (term) {
+    visibleNodes.filter(setSearchTerm).forEach(node => {
+      neighborhood.add(node.id);
+      (node.question_ids || []).concat(node.source_ids || []).concat(node.next_question_ids || []).forEach(id => neighborhood.add(id));
+      if (node.parent_question_ids) node.parent_question_ids.forEach(id => neighborhood.add(id));
+      if (node.source_id) neighborhood.add(node.source_id);
+      if (node.parent_theme_ids) node.parent_theme_ids.forEach(id => neighborhood.add(id));
+    });
+    visibleEdges.forEach(edge => {
+      if (neighborhood.has(edge.source.id) || neighborhood.has(edge.target.id)) {
+        neighborhood.add(edge.source.id); neighborhood.add(edge.target.id);
+      }
+    });
+  }
+  nodeLayer.selectAll("g.node").classed("dim", d => term && !neighborhood.has(d.id));
+  linkLayer.selectAll("line").classed("dim", d => term && !(neighborhood.has(d.source.id) && neighborhood.has(d.target.id)));
+}
+function shape(d) {
+  if (d.type === "theme") return "circle";
+  if (d.type === "source") return "circle";
+  return "rect";
+}
+function drag(simulation) {
+  return d3.drag().on("start", (event, d) => { if (!event.active) simulation.alphaTarget(.25).restart(); d.fx = d.x; d.fy = d.y; })
+    .on("drag", (event, d) => { d.fx = event.x; d.fy = event.y; })
+    .on("end", (event, d) => { if (!event.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; });
+}
+function fitView() {
+  if (!visibleNodes.length) return;
+  const rect = d3.select("#stage").node().getBoundingClientRect();
+  const bounds = visibleNodes.reduce((acc, node) => {
+    const padding = radius(node) + 50;
+    acc.x0 = Math.min(acc.x0, node.x - padding); acc.x1 = Math.max(acc.x1, node.x + padding);
+    acc.y0 = Math.min(acc.y0, node.y - padding); acc.y1 = Math.max(acc.y1, node.y + padding);
+    return acc;
+  }, {x0: Infinity, x1: -Infinity, y0: Infinity, y1: -Infinity});
+  const width = bounds.x1 - bounds.x0;
+  const height = bounds.y1 - bounds.y0;
+  const scale = Math.min(1.6, Math.min(rect.width / width, rect.height / height) * .92);
+  svg.transition().duration(600).call(zoom.transform,
+    d3.zoomIdentity.translate(rect.width / 2, rect.height / 2).scale(scale)
+      .translate(-(bounds.x0 + width / 2), -(bounds.y0 + height / 2)));
+}
+function layoutTargets() {
+  const width = 1150;
+  const height = 750;
+  const centers = new Map();
+  graph.themes.forEach((theme, index) => {
+    const angle = (index / graph.themes.length) * Math.PI * 2 - Math.PI / 2;
+    centers.set(theme.id, {
+      x: Math.cos(angle) * width * .38,
+      y: Math.sin(angle) * height * .38
+    });
+  });
+  return centers;
+}
+function render() {
+  const view = d3.select("#view").property("value");
+  const sourceVisible = view !== "landscape";
+  const sourceQuestionVisible = view === "full";
+  const allowedTypes = new Set(["theme", "question", "next_question"]);
+  if (sourceVisible) allowedTypes.add("source");
+  if (sourceQuestionVisible) allowedTypes.add("source_question");
+  visibleNodes = graph.themes.concat(graph.nodes.filter(node => allowedTypes.has(node.type)));
+  const nodeSet = new Set(visibleNodes.map(node => node.id));
+  const themeMembershipEdges = [];
+  graph.themes.forEach(theme => {
+    theme.question_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "member_of"}));
+    theme.next_question_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "proposed_for"}));
+    if (sourceVisible) theme.source_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "member_of"}));
+  });
+  let edges = themeMembershipEdges;
+  if (sourceQuestionVisible) {
+    edges = edges.concat(graph.edges.filter(edge => nodeSet.has(edge.source_id) && nodeSet.has(edge.target_id)).map(e => ({...e, source: e.source_id, target: e.target_id})));
+  } else {
+    edges = edges.concat(graph.edges.filter(edge => edge.relation === "proposes" && nodeSet.has(edge.source_id) && nodeSet.has(edge.target_id)).map(e => ({...e, source: e.source_id, target: e.target_id})));
+    visibleNodes.forEach(node => {
+      if (node.type === "next_question") {
+        node.parent_question_ids.filter(id => nodeSet.has(id)).forEach(id => edges.push({source: id, target: node.id, relation: "proposes"}));
+      }
+    });
+  }
+  const deduped = new Map();
+  edges.forEach(edge => deduped.set(`${edge.source}|${edge.target}|${edge.relation}`, edge));
+  visibleEdges = Array.from(deduped.values());
+  simulation?.stop();
+  simulation = d3.forceSimulation(visibleNodes)
+    .force("link", d3.forceLink(visibleEdges).id(node => node.id).distance(edge => edge.relation === "member_of" ? 110 : 150).strength(.25))
+    .force("charge", d3.forceManyBody().strength(view === "landscape" ? -400 : -850))
+    .force("center", d3.forceCenter(0, 0))
+    .force("collide", d3.forceCollide().radius(node => radius(node) + 28));
+  const centers = layoutTargets();
+  simulation.force("x", d3.forceX(node => {
+    const theme = themeFor(node);
+    if (node.type === "theme") return centers.get(node.id)?.x || 0;
+    if (theme) return centers.get(theme.id)?.x || 0;
+    if (node.parent_question_ids?.length) {
+      const parentThemes = node.parent_question_ids.map(id => themeFor(nodesById[id])).filter(Boolean);
+      if (parentThemes.length) return d3.mean(parentThemes, theme => centers.get(theme.id)?.x || 0);
+    }
+    return 0;
+  }).strength(node => node.type === "theme" ? .14 : .08));
+  simulation.force("y", d3.forceY(node => {
+    const theme = themeFor(node);
+    if (node.type === "theme") return centers.get(node.id)?.y || 0;
+    if (theme) return centers.get(theme.id)?.y || 0;
+    if (node.parent_question_ids?.length) {
+      const parentThemes = node.parent_question_ids.map(id => themeFor(nodesById[id])).filter(Boolean);
+      if (parentThemes.length) return d3.mean(parentThemes, theme => centers.get(theme.id)?.y || 0);
+    }
+    return 0;
+  }).strength(node => node.type === "theme" ? .14 : .08));
+  const links = linkLayer.selectAll("line").data(visibleEdges, edge => edge.id || `${edge.source.id || edge.source}|${edge.target.id || edge.target}|${edge.relation}`);
+  links.exit().remove();
+  links.enter().append("line")
+    .attr("class", edge => edge.relation === "member_of" ? "link theme-link" : edge.relation === "proposes" ? "link next-link" : "link support-link")
+    .merge(links).attr("id", edge => edge.id);
+  const nodeJoin = nodeLayer.selectAll("g.node").data(visibleNodes, node => node.id);
+  nodeJoin.exit().remove();
+  const nodeEnter = nodeJoin.enter().append("g").attr("class", "node");
+  nodeEnter.filter(node => shape(node) === "circle").append("circle");
+  nodeEnter.filter(node => shape(node) === "rect").append("rect").attr("rx", 9).attr("ry", 9);
+  const node = nodeEnter.merge(nodeJoin);
+  node.selectAll("circle")
+    .attr("r", radius)
+    .attr("fill", colorFor)
+    .attr("stroke", node => node.type === "theme" ? "#fff" : "#64748b")
+    .attr("stroke-width", 2);
+  node.selectAll("rect")
+    .attr("x", node => -radius(node) * 1.6).attr("y", node => -radius(node) * .7)
+    .attr("width", node => radius(node) * 3.2).attr("height", node => radius(node) * 1.4)
+    .attr("fill", colorFor).attr("fill-opacity", .16)
+    .attr("stroke", colorFor).attr("stroke-width", 2)
+    .attr("stroke-dasharray", node => node.type === "next_question" ? "5 3" : null);
+  node.selectAll("text").remove();
+  node.filter(node => node.type === "theme" || node.type === "question" || node.type === "next_question")
+    .append("text").attr("class", "question-label").attr("text-anchor", "middle").attr("dy", 4).text(node => truncate(shortLabel(node), 38));
+  node.call(drag(simulation));
+  node.on("click", (event, node) => { selected = node; showDetails(node); })
+    .on("mouseenter", showTooltip).on("mousemove", showTooltip).on("mouseleave", hideTooltip);
+  simulation.on("tick", () => {
+    linkLayer.selectAll("line")
+      .attr("x1", edge => edge.source.x).attr("y1", edge => edge.source.y)
+      .attr("x2", edge => edge.target.x).attr("y2", edge => edge.target.y);
+    node.attr("transform", node => `translate(${node.x},${node.y})`);
+  });
+  simulation.on("end", fitView);
+  setTimeout(fitView, 1400);
+  highlight();
+}
+function legend() {
+  const items = [
+    ["Theme", "#0e7490"], ["Research question", "#1d4ed8"],
+    ["Candidate next question", "#ea580c"], ["Source", "#475569"]
+  ];
+  d3.select("#legend").selectAll("div").data(items).join("div").attr("class", "legend-item")
+    .html(([label, color]) => `<span class="swatch" style="background:${color}"></span>${label}`);
+}
+function reset() {
+  svg.transition().duration(450).call(zoom.transform, d3.zoomIdentity);
+  searchInput.property("value", "");
+  highlight();
+}
+window.addEventListener("DOMContentLoaded", () => {
+  const data = window.QUESTION_MAP_DATA;
+  if (!data) {
+    details.html(`<div class="detail">Could not load <code>visualization-data.js</code>.</div>`);
+    return;
+  }
+  graph = data;
+  nodesById = new Map([...graph.nodes, ...graph.themes].map(node => [node.id, node]));
+  themeColors = Object.fromEntries(graph.themes.map((theme, index) => [theme.id, palette[index % palette.length]]));
+  const year = graph.run?.started_at?.slice(0, 10) || "recent run";
+  d3.select("#subtitle").text(`${graph.request?.core_question || "Question map"} · ${year}`);
+  legend();
+  d3.select("#view").on("change", render);
+  searchInput.on("input", highlight);
+  d3.select("#reset").on("click", reset);
+  render();
+});
+</script>
+</body>
+</html>

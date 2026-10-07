@@ -1,0 +1,2935 @@
+{
+  "schema_version": "0.1",
+  "run": {
+    "run_id": "urban-extreme-heat-health-2026-10-06",
+    "topic_slug": "urban-extreme-heat-health",
+    "generated_at": "2026-10-06T20:50:00Z",
+    "skill_version": "0.1",
+    "data_model_version": "0.1",
+    "confirmation_status": "initial_prompt_only",
+    "breadth": "comprehensive",
+    "theme_creation_rule": {
+      "rule": "adaptive",
+      "rationale": "Six themes were retained because each has multiple supporting sources and questions, while smaller subthemes were kept visible as canonical questions rather than promoted to themes."
+    },
+    "question_score_weights": {
+      "user_alignment": 0.3,
+      "source_support": 0.2,
+      "explicitness": 0.15,
+      "citation_attention": 0.1,
+      "breadth": 0.1,
+      "relation_density": 0.1,
+      "evidence_strength": 0.05
+    },
+    "theme_score_weights": {
+      "support": 0.4,
+      "breadth": 0.2,
+      "evidence_strength": 0.2,
+      "coherence": 0.2
+    },
+    "user_choices": []
+  },
+  "request": {
+    "core_question": "How does extreme heat affect health and wellbeing in urban communities?",
+    "sub_questions": [
+      "Physical health outcomes",
+      "Mental health and wellbeing",
+      "Livelihoods and everyday life",
+      "Unequal exposure and vulnerability",
+      "Adaptation, governance, and measurement"
+    ],
+    "purpose": "Map the scholarly question landscape to orient future inquiry",
+    "breadth": "comprehensive",
+    "concepts": [
+      "extreme heat",
+      "urban health",
+      "wellbeing",
+      "urban communities",
+      "heat vulnerability",
+      "adaptation"
+    ],
+    "synonyms": [
+      "heat waves",
+      "heatwaves",
+      "urban heat island",
+      "mental health",
+      "quality of life"
+    ],
+    "constraints": [
+      "Initial prompt only",
+      "Urban context emphasized",
+      "No synthesis of findings"
+    ],
+    "confirmation_status": "initial_prompt_only"
+  },
+  "search_log": {
+    "uc_library_search": {
+      "mode": "primo_pnx_rest",
+      "skip_reason": "",
+      "coverage_consequence": "UC Library Search provided the primary discovery and abstract/metadata base."
+    },
+    "queries": [
+      {
+        "query_id": "base",
+        "query": "\"extreme heat\" AND (\"urban health\" OR \"public health\")",
+        "returned": 20,
+        "total_local": 35,
+        "total": 2998
+      },
+      {
+        "query_id": "wellbeing",
+        "query": "\"extreme heat\" AND (\"wellbeing\" OR \"well-being\" OR \"mental health\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 12,
+        "total": 851
+      },
+      {
+        "query_id": "vulnerability",
+        "query": "\"extreme heat\" AND (\"vulnerability\" OR \"vulnerable populations\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 14,
+        "total": 1211
+      },
+      {
+        "query_id": "built_environment",
+        "query": "(\"urban heat\" OR \"extreme heat\") AND (\"built environment\" OR \"green space\" OR \"green spaces\") AND (\"health\" OR \"wellbeing\" OR \"well-being\")",
+        "returned": 20,
+        "total_local": 50,
+        "total": 2062
+      },
+      {
+        "query_id": "outcomes",
+        "query": "(\"extreme heat\" OR \"heat waves\" OR \"heatwaves\") AND (\"mortality\" OR \"morbidity\" OR \"cardiovascular\" OR \"respiratory\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 19,
+        "total": 2479
+      },
+      {
+        "query_id": "interventions",
+        "query": "\"extreme heat\" AND (\"intervention\" OR \"policy\" OR \"cooling centers\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 25,
+        "total": 1590
+      },
+      {
+        "query_id": "lived_experience",
+        "query": "\"extreme heat\" AND (\"lived experience\" OR \"social wellbeing\" OR \"quality of life\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 2,
+        "total": 93
+      },
+      {
+        "query_id": "children_older",
+        "query": "\"extreme heat\" AND (\"children\" OR \"older adults\" OR \"elderly\") AND (\"urban\" OR \"city\" OR \"cities\")",
+        "returned": 20,
+        "total_local": 8,
+        "total": 485
+      }
+    ],
+    "component_decomposition": [
+      "exposure and measurement",
+      "physical outcomes",
+      "mental health and wellbeing",
+      "everyday life and livelihoods",
+      "vulnerable populations",
+      "built environment and interventions",
+      "governance and preparedness"
+    ],
+    "adaptive_refinements": [
+      "Added wellbeing, vulnerability, built environment, outcomes, interventions, lived experience, and age-specific component queries after high-fidelity base results."
+    ],
+    "api_calls": [
+      {
+        "provider": "UC Library Search PNX",
+        "timestamp": "2026-10-06T20:49:45Z",
+        "status": 200
+      },
+      {
+        "provider": "OpenAlex",
+        "timestamp": "2026-10-06T20:55:00Z",
+        "status": 200
+      }
+    ],
+    "skips": []
+  },
+  "nodes": [
+    {
+      "id": "src_001",
+      "type": "source",
+      "title": "A healthy cities agenda for extreme heat adaptation in urban settings",
+      "authors": [
+        "ha Nasari, Ala",
+        "Marzouk, Sammer"
+      ],
+      "year": "2026",
+      "venue": "Bulletin of the World Health Organization",
+      "source_type": "article",
+      "doi": "10.2471/BLT.25.294493",
+      "pmid": "41773229",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/41773229",
+        "https://iris.who.int/handle/10665/384966",
+        "https://doi.org/10.2471/blt.25.294493"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Environmental Exposure ;  Environmental health ;  Health Equity ;  Heat ;  Human beings ;  Medical care ;  Medical policy ;  Public health ;  Urban health",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_002",
+      "type": "source",
+      "title": "Global urban population exposure to extreme heat",
+      "authors": [
+        "Tuholske, Cascade",
+        "Caylor, Kelly",
+        "Funk, Chris",
+        "Verdin, Andrew",
+        "Sweeney, Stuart",
+        "Grace, Kathryn",
+        "Peterson, Pete",
+        "Evans, Tom"
+      ],
+      "year": "2021",
+      "venue": "Proceedings of the National Academy of Sciences - PNAS",
+      "source_type": "article",
+      "doi": "10.1073/pnas.2024792118",
+      "pmid": "34607944",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/34607944",
+        "https://www.pnas.org/content/pnas/118/41/e2024792118.full.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Adaptation ;  Ballistic missile early warning system ;  Cities and towns ;  Climate ;  Extreme Heat ;  Extreme Weather ;  Global warming ;  Heat ;  Human beings ;  Metropolitan areas ;  Physical sciences ;  Population Growth ;  Public health ;  Social sciences ;  Sustainability ;  Urban heat island ;  Urbanization",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_003",
+      "type": "source",
+      "title": "Heat as emergency, heat as chronic stress: policy and institutional responses to vulnerability to extreme heat",
+      "authors": [
+        "Bolitho, Annie",
+        "Miller, Fiona"
+      ],
+      "year": "2017",
+      "venue": "Local environment",
+      "source_type": "article",
+      "doi": "10.1080/13549839.2016.1254169",
+      "pmid": "",
+      "urls": [],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Charities ;  Civil defense ;  Emergency management ;  Extreme Heat ;  Government ;  Heat ;  Housing ;  Housing authorities ;  Humanitarianism ;  Interpersonal relations ;  Management ;  Medical care ;  Medical policy ;  Mental health services ;  Migration, Internal ;  Public health ;  Public welfare ;  Social mobility ;  Social problems ;  Social service ;  Social services",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_004",
+      "type": "source",
+      "title": "Extreme heat and health in Gran Santiago: increase in mental health emergencies related to urban heat islands in neighborhoods",
+      "authors": [
+        "Espinoza Tilleria, Maria Loreto",
+        "Herrera, Ignacio",
+        "Carrasco, Mauricio"
+      ],
+      "year": "2024",
+      "venue": "Environmental health perspectives. Supplements",
+      "source_type": "article",
+      "doi": "10.1289/isee.2024.1923",
+      "pmid": "",
+      "urls": [
+        "https://doi.org/10.1289/isee.2024.1923"
+      ],
+      "access_level": "metadata_only",
+      "evidence_basis": "metadata_only",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_005",
+      "type": "source",
+      "title": "Residential greenness for mitigating impacts of extreme heat events on depression and supporting mental health",
+      "authors": [
+        "Yang, Ying",
+        "Zhang, Yixin",
+        "Sheng, Shaojie"
+      ],
+      "year": "2023",
+      "venue": "Frontiers in public health",
+      "source_type": "article",
+      "doi": "10.3389/fpubh.2023.1310410",
+      "pmid": "38145084",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/38145084",
+        "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1310410/pdf?isPublishedV2=False"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Depression, Mental ;  Ecosystem ;  Extreme Heat ;  Heat ;  Mental health ;  Mental illness",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_006",
+      "type": "source",
+      "title": "A longitudinal, population-based, record-linked natural experiment on the effects of extreme heat events on mental health in urban communities: a study protocol",
+      "authors": [
+        "Chukwusa, Emeka",
+        "Vivaldi, Giulia",
+        "Baecker, Lea",
+        "Bowerman, Emily",
+        "Bridge, Nick",
+        "Davidson, Neil",
+        "de la Cruz, Arturo",
+        "Gasparrini, Antonio",
+        "Gibbons, Johanna",
+        "Guerry, Anne",
+        "Hammoud, Ryan",
+        "Li, Yingjie",
+        "Lu, Yougeng",
+        "Mandle, Lisa",
+        "Osborn, David",
+        "Rydstrom, Anders",
+        "Smythe, Michael",
+        "Stewart, Robert",
+        "Tognin, Stefania",
+        "White, Matthew",
+        "Yang, Justin",
+        "Mechelli, Andrea",
+        "Bakolis, Ioannis"
+      ],
+      "year": "2025",
+      "venue": "BMJ open",
+      "source_type": "article",
+      "doi": "10.1136/bmjopen-2025-099771",
+      "pmid": "41125279",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/41125279",
+        "https://bmjopen.bmj.com/content/bmjopen/15/10/e099771.full.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "City dwellers ;  Electronic Health Records ;  Epidemiology ;  Experimental design ;  Heat ;  Human beings ;  Longitudinal method ;  Longitudinal studies ;  Medical care ;  Medical personnel ;  Mental health ;  Mental illness ;  Observational Study ;  Poor ;  Psychology, Pathological ;  Public health ;  Smartphones ;  Temperature",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_007",
+      "type": "source",
+      "title": "Perceived impacts of extreme heat on health and livelihoods in Nigeria",
+      "authors": [
+        "Olaitan, Adetoun Mustapha",
+        "Egbogah, Ifeoma",
+        "Osuolale, Kazeem Adewale",
+        "Esiaba, Chinaza",
+        "Mason, Lisa Reyes",
+        "Ekenga, Christine C"
+      ],
+      "year": "2026",
+      "venue": "Environmental research, health : ERH",
+      "source_type": "article",
+      "doi": "10.1088/2752-5309/ae73a7",
+      "pmid": "42292550",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/42292550",
+        "https://iopscience.iop.org/article/10.1088/2752-5309/ae73a7/pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Adulthood ;  Bayesian statistical decision theory ;  Cities and towns ;  Climate ;  Drinking water ;  Extreme Heat ;  Extreme Weather ;  Gender ;  Logits ;  Mathematical models ;  Men ;  Mental health ;  Metropolitan areas ;  Nigeria ;  Public health ;  Sex differences ;  Women",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_008",
+      "type": "source",
+      "title": "Extreme heat, pregnancy and women’s well-being in Burkina Faso: an ethnographical study",
+      "authors": [
+        "Kadio, Kadidiatou",
+        "Filippi, Veronique",
+        "Congo, Mariam",
+        "Scorgie, Fiona",
+        "Roos, Nathalie",
+        "Lusambili, Adélaïde",
+        "Nakstad, Britt",
+        "Kovats, Sari",
+        "Kouanda, Seni"
+      ],
+      "year": "2024",
+      "venue": "BMJ global health",
+      "source_type": "article",
+      "doi": "10.1136/bmjgh-2023-014230",
+      "pmid": "38382997",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/38382997",
+        "https://ki.se/en/research/search-research-information?t=2&query=id%3A850474",
+        "https://gh.bmj.com/content/8/Suppl_3/e014230.full.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Anthropology, Cultural ;  Birth weight ;  Breastfeeding ;  Burkina Faso ;  Child care ;  Cities and towns ;  Correspondence ;  Disabilities ;  Electricity ;  Environmental health ;  Extreme Heat ;  Female ;  Health facilities ;  Heat ;  High temperatures ;  Households ;  Human beings ;  Interpersonal relations ;  Letters ;  Maternal Health ;  Metropolitan areas ;  Mothers ;  Newborn infants ;  Pregnancy ;  Premature Birth ;  Public health ;  Qualitative research ;  Quality of life ;  Risk management ;  Stillbirth ;  Temperature",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_009",
+      "type": "source",
+      "title": "Heatstroke presentations to urban hospitals during BC’s extreme heat event: lessons for the future",
+      "authors": [
+        "Gossack-Keenan, Kira",
+        "Yeom, David Seonguk",
+        "Kanu, Josephine",
+        "Hau, Jeffrey P.",
+        "Rosychuk, Rhonda J.",
+        "Clark, Dylan",
+        "Bola, Rajan",
+        "Tze, Caris",
+        "Niosco, Chris",
+        "Emery, Hayley",
+        "Yeung, Phillip",
+        "Hohl, Corinne M."
+      ],
+      "year": "2024",
+      "venue": "Canadian journal of emergency medicine",
+      "source_type": "article",
+      "doi": "10.1007/s43678-023-00622-y",
+      "pmid": "38153655",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/38153655",
+        "https://link.springer.com/content/pdf/10.1007/s43678-023-00622-y.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Aged, 80 and over ;  Consciousness ;  Diabetes ;  Diseases ;  Emergency medical services ;  Emergency medicine ;  Glasgow Coma Scale ;  Heat ;  Hospitalization ;  Hospitals ;  Hospitals, Urban ;  Human beings ;  Hypertension ;  Medicine ;  Mortality ;  Patients ;  Population ;  Public health ;  Temperature ;  Vital signs",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_010",
+      "type": "source",
+      "title": "Extreme Urban Heat and Emergency Department Visits in Older Adults",
+      "authors": [
+        "Siau, Evan",
+        "Silva, Genevieve S.",
+        "Lu, Jeremy",
+        "Thiel, Cassandra",
+        "Jones, Simon",
+        "Horwitz, Leora I.",
+        "Lichter, Katie E.",
+        "Azan, Alexander"
+      ],
+      "year": "2026",
+      "venue": "JAMA network open",
+      "source_type": "article",
+      "doi": "10.1001/jamanetworkopen.2026.2645",
+      "pmid": "41860548",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/41860548",
+        "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2846734/siau_2026_oi_260114_1773430276.9103.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Aged, 80 and over ;  Environmental health ;  Female ;  Human beings ;  Male ;  Older people ;  Research ;  United States",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_011",
+      "type": "source",
+      "title": "Urban heat island impacts on heat-related cardiovascular morbidity: A time series analysis of older adults in US metropolitan areas",
+      "authors": [
+        "Cleland, Stephanie E.",
+        "Steinhardt, William",
+        "Neas, Lucas M.",
+        "Jason West, J.",
+        "Rappold, Ana G."
+      ],
+      "year": "2023",
+      "venue": "Environment international",
+      "source_type": "article",
+      "doi": "10.1016/j.envint.2023.108005",
+      "pmid": "37437316",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/37437316",
+        "https://www.osti.gov/biblio/1989714",
+        "https://doi.org/10.1016/j.envint.2023.108005"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Aged, 80 and over ;  Climate ;  Diseases ;  Environmental sciences ;  Extreme Heat ;  Female ;  Heat ;  Hospitalization ;  Human beings ;  Medicare ;  Older people ;  Risk ;  Time Factors ;  United States ;  Urban heat island ;  Weather",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_012",
+      "type": "source",
+      "title": "Impact of Heat on Respiratory Hospitalizations among Older Adults in 120 Large U.S. Urban Areas",
+      "authors": [
+        "O’Lenick, Cassandra R.",
+        "Cleland, Stephanie E.",
+        "Neas, Lucas M.",
+        "Turner, Mallory W.",
+        "Mcinroe, E. Melissa",
+        "Hill, K. Lloyd",
+        "Ghio, Andrew J.",
+        "Rebuli, Meghan E.",
+        "Jaspers, Ilona",
+        "Rappold, Ana G."
+      ],
+      "year": "2025",
+      "venue": "Annals of the American Thoracic Society",
+      "source_type": "article",
+      "doi": "10.1513/AnnalsATS.202405-470OC",
+      "pmid": "39499766",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/39499766",
+        "https://doi.org/10.1513/annalsats.202405-470oc"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Aged, 80 and over ;  Female ;  Heat ;  Hospitalization ;  Human beings ;  Male ;  Older people ;  Seasons",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_013",
+      "type": "source",
+      "title": "Building Vulnerability in a Changing Climate: Indoor Temperature Exposures and Health Outcomes in Older Adults Living in Public Housing during an Extreme Heat Event in Cambridge, MA",
+      "authors": [
+        "Williams, Augusta A.",
+        "Spengler, John D.",
+        "Catalano, Paul",
+        "Allen, Joseph G.",
+        "Cedeno-Laurent, Jose G."
+      ],
+      "year": "2019",
+      "venue": "International journal of environmental research and public health",
+      "source_type": "article",
+      "doi": "10.3390/ijerph16132373",
+      "pmid": "31277359",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/31277359",
+        "https://www.mdpi.com/1660-4601/16/13/2373/pdf?version=1562210623"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Acclimatization ;  Adaptability (Psychology) ;  Air conditioning ;  Extreme Heat ;  Heat ;  Human beings ;  Massachusetts ;  Older people ;  Poor ;  Poverty ;  Public housing ;  Skyscrapers ;  Tall buildings ;  Temperature",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_014",
+      "type": "source",
+      "title": "Summer Heat, Historic Redlining, and Neighborhood Walking among Older Adults: 2017 National Household Travel Survey",
+      "authors": [
+        "Mitsova, Diana",
+        "Besser, Lilah M.",
+        "Le, Elaine T."
+      ],
+      "year": "2024",
+      "venue": "Journal of urban health",
+      "source_type": "article",
+      "doi": "10.1007/s11524-024-00892-6",
+      "pmid": "39134918",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/39134918",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/pdf/11524_2024_Article_892.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Adulthood ;  African Americans ;  Aged, 80 and over ;  Cities and towns ;  Discrimination in credit cards ;  Extreme Heat ;  Female ;  Health behavior ;  Health education ;  Health promotion ;  Households ;  Human beings ;  Islands ;  Male ;  Metropolitan areas ;  Neighborhood Characteristics ;  Neighborhoods ;  Older people ;  Seasons ;  Summer ;  Surveys ;  Travel ;  United States ;  Urban heat island ;  Walking",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_015",
+      "type": "source",
+      "title": "Energy vulnerability and self-imposed austerity: An ethnographic approach to adaptation strategies to extreme heat among older adults in Madrid",
+      "authors": [
+        "Yanez Serrano, Paloma",
+        "Torrego Gomez, Daniel",
+        "Bienkowska, Zosia"
+      ],
+      "year": "2023",
+      "venue": "Energy research & social science",
+      "source_type": "article",
+      "doi": "10.1016/j.erss.2023.103207",
+      "pmid": "",
+      "urls": [
+        "http://rua.ua.es/dspace/bitstream/10045/136931/5/Yanez-Serrano_etal_2023_EnergyResSocSci_revised.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Climate ;  Europe ;  Spain",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_016",
+      "type": "source",
+      "title": "A Case‐Crossover Study of Extreme Heat and Psychiatric Emergency Encounters Among Vulnerable Pregnant People",
+      "authors": [
+        "Vrkljan, Kaylin A.",
+        "Oblath, Rachel",
+        "Black‐Ingersoll, Flannery",
+        "Grady, Stephanie T.",
+        "Burrows, Kate",
+        "Fabian, M. Patricia",
+        "Parker, Samantha E.",
+        "Nori‐Sarma, Amruta",
+        "Willis, Mary D."
+      ],
+      "year": "2025",
+      "venue": "Paediatric and perinatal epidemiology",
+      "source_type": "article",
+      "doi": "10.1111/ppe.70044",
+      "pmid": "40641135",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/40641135",
+        "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ppe.70044"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Diseases ;  Dose-response relationship ;  Electronic Health Records ;  Female ;  Heat ;  Human beings ;  Mental health ;  Newborn infants ;  Pregnancy ;  Public health ;  Regression analysis",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_017",
+      "type": "source",
+      "title": "What to Expect When It Gets Hotter: The Impacts of Prenatal Exposure to Extreme Heat on Maternal Health  / Jiyoon Kim, Ajin Lee, Maya Rossin-Slater.",
+      "authors": [
+        "Kim, Jiyoon.$$QKim, Jiyoon."
+      ],
+      "year": "2019",
+      "venue": "",
+      "source_type": "book",
+      "doi": "",
+      "pmid": "",
+      "urls": [],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Government Expenditures and Health ; Health and Inequality ; Government Policy • Regulation • Public Health ; General",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_018",
+      "type": "source",
+      "title": "Examining the Association between Heat Exposure and Crime in Cities across the United States: A Scoping Review",
+      "authors": [
+        "Azan, Alexander",
+        "Choi, Jin",
+        "Matthay, Ellicott C.",
+        "Pezzella, Frank",
+        "Heris, Mehdi",
+        "Lee, David C.",
+        "Kim, Byoungjun"
+      ],
+      "year": "2025",
+      "venue": "Journal of urban health",
+      "source_type": "article",
+      "doi": "10.1007/s11524-025-00970-3",
+      "pmid": "40067571",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/40067571",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC12031693/pdf/11524_2025_Article_970.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Cities and towns ;  Crime ;  Crime prevention ;  Equality ;  Extreme Heat ;  Firearms ;  Heat ;  High temperatures ;  Human beings ;  Land use ;  Medicine ;  Metropolitan areas ;  Nonviolence ;  Poor ;  Public health ;  Review ;  Temperature ;  Violence ;  Violent crimes",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_019",
+      "type": "source",
+      "title": "Local Extreme Heat Planning: an Interactive Tool to Examine a Heat Vulnerability Index for Philadelphia, Pennsylvania",
+      "authors": [
+        "Hammer, Jason",
+        "Ruggieri, Dominique G.",
+        "Thomas, Chad",
+        "Caum, Jessica"
+      ],
+      "year": "2020",
+      "venue": "Journal of urban health",
+      "source_type": "article",
+      "doi": "10.1007/s11524-020-00443-9",
+      "pmid": "32495120",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/32495120",
+        "https://www.ncbi.nlm.nih.gov/pmc/articles/7392992"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Cities and towns ;  Diabetes ;  Diseases ;  Epidemiology ;  Ethnicity ;  Extreme Heat ;  Health Status ;  Human beings ;  Indexes ;  Medical informatics ;  Medicine ;  Metropolitan areas ;  Mortality ;  Older people ;  Philadelphia ;  Planning ;  Population ;  Poverty ;  Public health ;  Pulmonary Disease, Chronic Obstructive ;  Social isolation ;  Urban heat island ;  Vulnerable Populations ;  Web sites",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_020",
+      "type": "source",
+      "title": "Shade is an essential solution for hotter cities",
+      "authors": [
+        "Turner, V. Kelly",
+        "Middel, Ariane",
+        "Vanos, Jennifer K."
+      ],
+      "year": "2023",
+      "venue": "Nature (London)",
+      "source_type": "article",
+      "doi": "10.1038/d41586-023-02311-3",
+      "pmid": "37495873",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/37495873"
+      ],
+      "access_level": "publisher_description",
+      "evidence_basis": "publisher_description_and_toc",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Air conditioning ;  Built environment ;  Cancer ;  City planning ;  Cooling ;  Extreme Heat ;  Heat ;  Human beings ;  Neighborhoods ;  Outdoor life ;  Poor ;  Public health ;  Public lands ;  Science ;  Solar energy ;  Sun ;  Temperature ;  Trees ;  Urban health ;  Urban heat island",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_021",
+      "type": "source",
+      "title": "Duration of exposure to extreme heat in cities: Toward a planning relevant metric to improve public health",
+      "authors": [
+        "Ock, YunJae",
+        "Shandas, Vivek"
+      ],
+      "year": "2026",
+      "venue": "Journal of urban affairs",
+      "source_type": "article",
+      "doi": "10.1080/07352166.2025.2526491",
+      "pmid": "",
+      "urls": [
+        "https://doi.org/10.1080/07352166.2025.2526491"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Built environment ;  Cities and towns ;  Extreme Heat ;  Health planning ;  Heat ;  High temperatures ;  Medical policy ;  Metropolitan areas ;  Neighborhoods ;  Public health ;  Segregation",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_022",
+      "type": "source",
+      "title": "A Comprehensive Approach to Enhance Older Adults’ Preparedness for Extreme Heat: COPE -Engage",
+      "authors": [
+        "Mahmood, Atiya",
+        "Zhu, Leticia",
+        "Wei, Cindy",
+        "Pauly, Theresa"
+      ],
+      "year": "2025",
+      "venue": "Innovation in aging",
+      "source_type": "article",
+      "doi": "10.1093/geroni/igaf122.1430",
+      "pmid": "",
+      "urls": [
+        "https://academic.oup.com/innovateage/article-pdf/9/Supplement_2/igaf122.1430/66247738/igaf122.1430.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Older people",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "src_023",
+      "type": "source",
+      "title": "Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults",
+      "authors": [
+        "Niu, Li",
+        "Girma, Blean",
+        "Liu, Bian",
+        "Schinasi, Leah H.",
+        "Clougherty, Jane E.",
+        "Sheffield, Perry"
+      ],
+      "year": "2023",
+      "venue": "Epidemiology and psychiatric sciences",
+      "source_type": "article",
+      "doi": "10.1017/S2045796023000161",
+      "pmid": "37066768",
+      "urls": [
+        "https://www.ncbi.nlm.nih.gov/pubmed/37066768",
+        "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1B2013AF6BF52FCD795F2FE04550F8D9/S2045796023000161a.pdf/div-class-title-temperature-and-mental-health-related-emergency-department-and-hospital-encounters-among-children-adolescents-and-young-adults-div.pdf"
+      ],
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "selection_status": "selected",
+      "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
+      "subjects": "Adolescence ;  Airports ;  Anxiety ;  Ciphers ;  Depression, Mental ;  Emergency medical services ;  Ethnicity ;  Extreme Heat ;  Health risk assessment ;  Heat ;  Hispanic Americans ;  Hospitalization ;  Hospitals ;  Human beings ;  Medicaid ;  Medical policy ;  Mental health ;  Mental illness ;  Poor ;  Psychiatry ;  Psychology ;  Psychology, Pathological ;  Sleep ;  Teenagers ;  Temperature ;  Weather ;  Young adults",
+      "language": "eng",
+      "citation_metadata": null,
+      "confidence": "medium"
+    },
+    {
+      "id": "q_001",
+      "type": "question",
+      "canonical_label": "How has urban population exposure to extreme heat changed, and what drives it?",
+      "question_text": "How has urban population exposure to extreme heat changed, and what drives it?",
+      "origin": "user_defined",
+      "question_type": "measurement",
+      "root_status": "primary_user_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_002",
+      "type": "question",
+      "canonical_label": "How does extreme heat affect physical health outcomes in urban populations?",
+      "question_text": "How does extreme heat affect physical health outcomes in urban populations?",
+      "origin": "user_defined",
+      "question_type": "empirical",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_003",
+      "type": "question",
+      "canonical_label": "How does extreme heat affect mental health and wellbeing in urban communities?",
+      "question_text": "How does extreme heat affect mental health and wellbeing in urban communities?",
+      "origin": "user_defined",
+      "question_type": "empirical",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_004",
+      "type": "question",
+      "canonical_label": "How does extreme heat affect everyday mobility, livelihoods, and social life in ",
+      "question_text": "How does extreme heat affect everyday mobility, livelihoods, and social life in urban communities?",
+      "origin": "user_defined",
+      "question_type": "empirical",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_005",
+      "type": "question",
+      "canonical_label": "Which urban populations and neighborhoods are disproportionately exposed to or h",
+      "question_text": "Which urban populations and neighborhoods are disproportionately exposed to or harmed by extreme heat?",
+      "origin": "user_defined",
+      "question_type": "equity",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_006",
+      "type": "question",
+      "canonical_label": "Which built-environment, housing, and health-system interventions reduce urban h",
+      "question_text": "Which built-environment, housing, and health-system interventions reduce urban heat-related risks?",
+      "origin": "user_defined",
+      "question_type": "intervention",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_007",
+      "type": "question",
+      "canonical_label": "How do governance and institutional responses address emergency and chronic dime",
+      "question_text": "How do governance and institutional responses address emergency and chronic dimensions of urban heat vulnerability?",
+      "origin": "user_defined",
+      "question_type": "policy",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "q_008",
+      "type": "question",
+      "canonical_label": "How should extreme heat exposure be measured to support urban planning and publi",
+      "question_text": "How should extreme heat exposure be measured to support urban planning and public health?",
+      "origin": "user_defined",
+      "question_type": "measurement",
+      "root_status": "inquiry_root",
+      "score": 0.0,
+      "score_components": {},
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_001",
+      "type": "source_question",
+      "source_id": "src_001",
+      "question_text": "How should cities design and implement heat adaptation to reduce health burdens and inequities?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_001"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_002",
+      "type": "source_question",
+      "source_id": "src_002",
+      "question_text": "How has urban population exposure to extreme heat changed over time and what drives it?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_002"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_003",
+      "type": "source_question",
+      "source_id": "src_003",
+      "question_text": "How do policy and institutional responses address emergency and chronic dimensions of urban heat vulnerability?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_003"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_004",
+      "type": "source_question",
+      "source_id": "src_004",
+      "question_text": "Are neighborhood heat islands associated with increased mental health emergencies in Gran Santiago?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "metadata_only",
+      "evidence_basis": "metadata_only",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [],
+      "metadata_rationale": "The title directly names extreme heat, health, and mental health emergencies related to urban heat islands.",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_005",
+      "type": "source_question",
+      "source_id": "src_005",
+      "question_text": "Can residential greenness mitigate the effects of extreme heat events on depression and support mental health?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_004"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_006",
+      "type": "source_question",
+      "source_id": "src_006",
+      "question_text": "What are the effects of extreme heat events on mental health, service use, and wellbeing in vulnerable urban populations?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_005"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_007",
+      "type": "source_question",
+      "source_id": "src_007",
+      "question_text": "How do Nigerian adults perceive extreme heat impacts on physical, mental, and financial wellbeing?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_006"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_008",
+      "type": "source_question",
+      "source_id": "src_008",
+      "question_text": "How does extreme heat affect women’s health, caregiving, and social relationships in Burkina Faso?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_007"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_009",
+      "type": "source_question",
+      "source_id": "src_009",
+      "question_text": "What presentation, treatment, and outcome patterns occurred among urban heatstroke patients during an extreme heat event?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_008"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_010",
+      "type": "source_question",
+      "source_id": "src_010",
+      "question_text": "How is extreme heat associated with all-cause emergency department use among older adults?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_009"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_011",
+      "type": "source_question",
+      "source_id": "src_011",
+      "question_text": "How does heat-related cardiovascular morbidity vary with urban heat island intensity and population subgroups?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_010"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_012",
+      "type": "source_question",
+      "source_id": "src_012",
+      "question_text": "How does high heat affect respiratory hospitalizations among older adults across U.S. urban areas?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_011"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_013",
+      "type": "source_question",
+      "source_id": "src_013",
+      "question_text": "How do indoor temperatures during an extreme heat event relate to sleep, physiology, and symptoms among older adults in public housing?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_012"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_014",
+      "type": "source_question",
+      "source_id": "src_014",
+      "question_text": "How do summer heat and historic redlining relate to neighborhood walking among older adults?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_013"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_015",
+      "type": "source_question",
+      "source_id": "src_015",
+      "question_text": "How do older adults in Madrid adapt to extreme heat under energy vulnerability?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_014"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_016",
+      "type": "source_question",
+      "source_id": "src_016",
+      "question_text": "Is extreme heat associated with psychiatric emergency encounters among vulnerable pregnant people?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_015"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_017",
+      "type": "source_question",
+      "source_id": "src_017",
+      "question_text": "How does prenatal exposure to extreme heat affect maternal health?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_016"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_018",
+      "type": "source_question",
+      "source_id": "src_018",
+      "question_text": "How is heat exposure associated with crime in cities across the United States?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_017"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_019",
+      "type": "source_question",
+      "source_id": "src_019",
+      "question_text": "How can a heat vulnerability index support local extreme heat planning?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_018"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_020",
+      "type": "source_question",
+      "source_id": "src_020",
+      "question_text": "How can shade reduce urban heat risk and reverse shade inequity?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "publisher_description",
+      "evidence_basis": "publisher_description_and_toc",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_019"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_021",
+      "type": "source_question",
+      "source_id": "src_021",
+      "question_text": "Are historically segregated neighborhoods exposed to longer durations of heat?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_020"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_022",
+      "type": "source_question",
+      "source_id": "src_022",
+      "question_text": "How do older adults and community partners perceive heat risks, preparedness, and service delivery?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_021"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "sq_023",
+      "type": "source_question",
+      "source_id": "src_023",
+      "question_text": "How is high ambient temperature associated with acute mental health-related healthcare encounters among young people in New York City?",
+      "origin": "inferred",
+      "connection_type": "reasonable_inference",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "extraction_rationale": "Question inferred from the title or abstract purpose/findings.",
+      "quote_ids": [
+        "quote_022"
+      ],
+      "metadata_rationale": "",
+      "confidence": "medium"
+    },
+    {
+      "id": "nq_001",
+      "type": "next_question",
+      "question_text": "How do heat exposure metrics compare in predicting physical and mental health outcomes across cities?",
+      "origin": "structure_narrowing",
+      "generation_basis": "Compares exposure measurement with physical and mental outcomes.",
+      "parent_question_ids": [
+        "q_001",
+        "q_002",
+        "q_003"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "outcome": "physical and mental health"
+      },
+      "rationale": "measurement",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    },
+    {
+      "id": "nq_002",
+      "type": "next_question",
+      "question_text": "How do green space interventions affect both heat exposure duration and mental health outcomes?",
+      "origin": "slot_substitution",
+      "generation_basis": "Extends built-environment interventions to joint health and measurement outcomes.",
+      "parent_question_ids": [
+        "q_006",
+        "q_003",
+        "q_008"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "exposure": "heat duration",
+        "outcome": "mental health"
+      },
+      "rationale": "intervention",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    },
+    {
+      "id": "nq_003",
+      "type": "next_question",
+      "question_text": "How do heat-action plans affect emergency versus chronic vulnerability in low-income urban neighborhoods?",
+      "origin": "source_gap",
+      "generation_basis": "Follows the gap between emergency and chronic heat governance.",
+      "parent_question_ids": [
+        "q_007",
+        "q_005"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "place": "low-income urban neighborhoods"
+      },
+      "rationale": "policy",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    },
+    {
+      "id": "nq_004",
+      "type": "next_question",
+      "question_text": "How do indoor temperatures mediate heat impacts among older adults in public housing?",
+      "origin": "slot_substitution",
+      "generation_basis": "Narrows to indoor environment and older adult housing context.",
+      "parent_question_ids": [
+        "q_002",
+        "q_005",
+        "q_006"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "setting": "public housing"
+      },
+      "rationale": "empirical",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    },
+    {
+      "id": "nq_005",
+      "type": "next_question",
+      "question_text": "How do heat effects on pregnancy and maternal health vary by urban adaptation and race/ethnicity?",
+      "origin": "slot_substitution",
+      "generation_basis": "Substitutes pregnancy population and equity moderators into physical health question.",
+      "parent_question_ids": [
+        "q_002",
+        "q_005"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "population": "pregnant people",
+        "moderator": "race/ethnicity and adaptation"
+      },
+      "rationale": "empirical",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    },
+    {
+      "id": "nq_006",
+      "type": "next_question",
+      "question_text": "How do heat-crime associations vary by neighborhood disadvantage and green space?",
+      "origin": "structure_narrowing",
+      "generation_basis": "Extends social impacts with built-environment moderators.",
+      "parent_question_ids": [
+        "q_004",
+        "q_005",
+        "q_006"
+      ],
+      "parent_theme_ids": [],
+      "slot_substitutions": {
+        "outcome": "crime",
+        "moderator": "neighborhood disadvantage and green space"
+      },
+      "rationale": "equity",
+      "confidence": "medium",
+      "launch_ready": true,
+      "root_status": "none",
+      "score": 0.0,
+      "score_components": {}
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge_001",
+      "source_id": "src_001",
+      "target_id": "sq_001",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_001"
+      ]
+    },
+    {
+      "id": "edge_002",
+      "source_id": "sq_001",
+      "target_id": "q_006",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_001"
+      ]
+    },
+    {
+      "id": "edge_003",
+      "source_id": "src_002",
+      "target_id": "sq_002",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_002"
+      ]
+    },
+    {
+      "id": "edge_004",
+      "source_id": "sq_002",
+      "target_id": "q_001",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_002"
+      ]
+    },
+    {
+      "id": "edge_005",
+      "source_id": "src_003",
+      "target_id": "sq_003",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_003"
+      ]
+    },
+    {
+      "id": "edge_006",
+      "source_id": "sq_003",
+      "target_id": "q_007",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_003"
+      ]
+    },
+    {
+      "id": "edge_007",
+      "source_id": "src_004",
+      "target_id": "sq_004",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_008",
+      "source_id": "sq_004",
+      "target_id": "q_003",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_009",
+      "source_id": "src_005",
+      "target_id": "sq_005",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_004"
+      ]
+    },
+    {
+      "id": "edge_010",
+      "source_id": "sq_005",
+      "target_id": "q_003",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_004"
+      ]
+    },
+    {
+      "id": "edge_011",
+      "source_id": "src_006",
+      "target_id": "sq_006",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_005"
+      ]
+    },
+    {
+      "id": "edge_012",
+      "source_id": "sq_006",
+      "target_id": "q_003",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_005"
+      ]
+    },
+    {
+      "id": "edge_013",
+      "source_id": "src_007",
+      "target_id": "sq_007",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_006"
+      ]
+    },
+    {
+      "id": "edge_014",
+      "source_id": "sq_007",
+      "target_id": "q_004",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_006"
+      ]
+    },
+    {
+      "id": "edge_015",
+      "source_id": "src_008",
+      "target_id": "sq_008",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_007"
+      ]
+    },
+    {
+      "id": "edge_016",
+      "source_id": "sq_008",
+      "target_id": "q_004",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_007"
+      ]
+    },
+    {
+      "id": "edge_017",
+      "source_id": "src_009",
+      "target_id": "sq_009",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_008"
+      ]
+    },
+    {
+      "id": "edge_018",
+      "source_id": "sq_009",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_008"
+      ]
+    },
+    {
+      "id": "edge_019",
+      "source_id": "src_010",
+      "target_id": "sq_010",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_009"
+      ]
+    },
+    {
+      "id": "edge_020",
+      "source_id": "sq_010",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_009"
+      ]
+    },
+    {
+      "id": "edge_021",
+      "source_id": "src_011",
+      "target_id": "sq_011",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_010"
+      ]
+    },
+    {
+      "id": "edge_022",
+      "source_id": "sq_011",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_010"
+      ]
+    },
+    {
+      "id": "edge_023",
+      "source_id": "src_012",
+      "target_id": "sq_012",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_011"
+      ]
+    },
+    {
+      "id": "edge_024",
+      "source_id": "sq_012",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_011"
+      ]
+    },
+    {
+      "id": "edge_025",
+      "source_id": "src_013",
+      "target_id": "sq_013",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_012"
+      ]
+    },
+    {
+      "id": "edge_026",
+      "source_id": "sq_013",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_012"
+      ]
+    },
+    {
+      "id": "edge_027",
+      "source_id": "src_014",
+      "target_id": "sq_014",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_013"
+      ]
+    },
+    {
+      "id": "edge_028",
+      "source_id": "sq_014",
+      "target_id": "q_004",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_013"
+      ]
+    },
+    {
+      "id": "edge_029",
+      "source_id": "src_015",
+      "target_id": "sq_015",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_014"
+      ]
+    },
+    {
+      "id": "edge_030",
+      "source_id": "sq_015",
+      "target_id": "q_004",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_014"
+      ]
+    },
+    {
+      "id": "edge_031",
+      "source_id": "src_016",
+      "target_id": "sq_016",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_015"
+      ]
+    },
+    {
+      "id": "edge_032",
+      "source_id": "sq_016",
+      "target_id": "q_003",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_015"
+      ]
+    },
+    {
+      "id": "edge_033",
+      "source_id": "src_017",
+      "target_id": "sq_017",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_016"
+      ]
+    },
+    {
+      "id": "edge_034",
+      "source_id": "sq_017",
+      "target_id": "q_002",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_016"
+      ]
+    },
+    {
+      "id": "edge_035",
+      "source_id": "src_018",
+      "target_id": "sq_018",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_017"
+      ]
+    },
+    {
+      "id": "edge_036",
+      "source_id": "sq_018",
+      "target_id": "q_004",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_017"
+      ]
+    },
+    {
+      "id": "edge_037",
+      "source_id": "src_019",
+      "target_id": "sq_019",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_018"
+      ]
+    },
+    {
+      "id": "edge_038",
+      "source_id": "sq_019",
+      "target_id": "q_008",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_018"
+      ]
+    },
+    {
+      "id": "edge_039",
+      "source_id": "src_020",
+      "target_id": "sq_020",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_019"
+      ]
+    },
+    {
+      "id": "edge_040",
+      "source_id": "sq_020",
+      "target_id": "q_006",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_019"
+      ]
+    },
+    {
+      "id": "edge_041",
+      "source_id": "src_021",
+      "target_id": "sq_021",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_020"
+      ]
+    },
+    {
+      "id": "edge_042",
+      "source_id": "sq_021",
+      "target_id": "q_001",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_020"
+      ]
+    },
+    {
+      "id": "edge_043",
+      "source_id": "src_022",
+      "target_id": "sq_022",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_021"
+      ]
+    },
+    {
+      "id": "edge_044",
+      "source_id": "sq_022",
+      "target_id": "q_007",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_021"
+      ]
+    },
+    {
+      "id": "edge_045",
+      "source_id": "src_023",
+      "target_id": "sq_023",
+      "relation": "asks",
+      "basis": "Source abstract or title names the research aim or finding.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_022"
+      ]
+    },
+    {
+      "id": "edge_046",
+      "source_id": "sq_023",
+      "target_id": "q_003",
+      "relation": "supports",
+      "basis": "Source question is a variant of the canonical question.",
+      "confidence": "high",
+      "evidence_ids": [
+        "quote_022"
+      ]
+    },
+    {
+      "id": "edge_047",
+      "source_id": "q_001",
+      "target_id": "q_005",
+      "relation": "relates_to",
+      "basis": "Exposure trajectories support identification of unequal burdens.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_048",
+      "source_id": "q_002",
+      "target_id": "q_005",
+      "relation": "relates_to",
+      "basis": "Physical outcomes differ across populations and places.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_049",
+      "source_id": "q_003",
+      "target_id": "q_005",
+      "relation": "relates_to",
+      "basis": "Mental health outcomes vary by community vulnerability.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_050",
+      "source_id": "q_004",
+      "target_id": "q_005",
+      "relation": "relates_to",
+      "basis": "Everyday impacts are uneven across neighborhoods and groups.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_051",
+      "source_id": "q_006",
+      "target_id": "q_007",
+      "relation": "relates_to",
+      "basis": "Interventions depend on governance and institutional responses.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_052",
+      "source_id": "q_008",
+      "target_id": "q_001",
+      "relation": "refines",
+      "basis": "Measurement questions refine exposure trend questions.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_053",
+      "source_id": "q_001",
+      "target_id": "nq_001",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_054",
+      "source_id": "q_002",
+      "target_id": "nq_001",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_055",
+      "source_id": "q_003",
+      "target_id": "nq_001",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_056",
+      "source_id": "q_006",
+      "target_id": "nq_002",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_057",
+      "source_id": "q_003",
+      "target_id": "nq_002",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_058",
+      "source_id": "q_008",
+      "target_id": "nq_002",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_059",
+      "source_id": "q_007",
+      "target_id": "nq_003",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_060",
+      "source_id": "q_005",
+      "target_id": "nq_003",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_061",
+      "source_id": "q_002",
+      "target_id": "nq_004",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_062",
+      "source_id": "q_005",
+      "target_id": "nq_004",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_063",
+      "source_id": "q_006",
+      "target_id": "nq_004",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_064",
+      "source_id": "q_002",
+      "target_id": "nq_005",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_065",
+      "source_id": "q_005",
+      "target_id": "nq_005",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_066",
+      "source_id": "q_004",
+      "target_id": "nq_006",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_067",
+      "source_id": "q_005",
+      "target_id": "nq_006",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_068",
+      "source_id": "q_006",
+      "target_id": "nq_006",
+      "relation": "narrows_to",
+      "basis": "Generated follow-up question from canonical question structure.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_069",
+      "source_id": "nq_001",
+      "target_id": "theme_001",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_070",
+      "source_id": "nq_001",
+      "target_id": "theme_002",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_071",
+      "source_id": "nq_001",
+      "target_id": "theme_003",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_072",
+      "source_id": "nq_002",
+      "target_id": "theme_003",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_073",
+      "source_id": "nq_002",
+      "target_id": "theme_006",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_074",
+      "source_id": "nq_003",
+      "target_id": "theme_005",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_075",
+      "source_id": "nq_003",
+      "target_id": "theme_006",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_076",
+      "source_id": "nq_004",
+      "target_id": "theme_002",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_077",
+      "source_id": "nq_004",
+      "target_id": "theme_005",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_078",
+      "source_id": "nq_005",
+      "target_id": "theme_002",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_079",
+      "source_id": "nq_005",
+      "target_id": "theme_005",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_080",
+      "source_id": "nq_006",
+      "target_id": "theme_004",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_081",
+      "source_id": "nq_006",
+      "target_id": "theme_005",
+      "relation": "proposed_for",
+      "basis": "Possible next question may inform this theme.",
+      "confidence": "medium"
+    },
+    {
+      "id": "edge_082",
+      "source_id": "q_001",
+      "target_id": "theme_001",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_083",
+      "source_id": "q_008",
+      "target_id": "theme_001",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_084",
+      "source_id": "q_002",
+      "target_id": "theme_002",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_085",
+      "source_id": "q_003",
+      "target_id": "theme_003",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_086",
+      "source_id": "q_004",
+      "target_id": "theme_004",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_087",
+      "source_id": "q_005",
+      "target_id": "theme_005",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_088",
+      "source_id": "q_006",
+      "target_id": "theme_006",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    },
+    {
+      "id": "edge_089",
+      "source_id": "q_007",
+      "target_id": "theme_006",
+      "relation": "member_of",
+      "basis": "Question is part of the theme.",
+      "confidence": "high"
+    }
+  ],
+  "quotes": [
+    {
+      "quote_id": "quote_001",
+      "source_id": "src_001",
+      "text": "We outline interventions with demonstrated benefits, including urban greening and blue infrastructure (such as rivers, canals, wetlands and other urban water features that reduce ambient temperatures), cool roofs and reflective pavements, shaded pedestrian and transit corridors, as well as housing retrofits that prioritize passive cooling and equitable access to efficient cooling.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_002",
+      "source_id": "src_002",
+      "text": "Using a daily maximum wet bulb globe temperature threshold of 30 °C, global exposure increased nearly 200% from 1983 to 2016. Total urban warming elevated the annual increase in exposure by 52% compared to urban population growth alone.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_003",
+      "source_id": "src_003",
+      "text": "Increasingly commonplace in cities, extreme heat events introduce multi-stress vulnerability, affecting people’s health and well-being, financial situation, mobility, social relations, and access to basic services.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_004",
+      "source_id": "src_005",
+      "text": "Our review found that RGS can provide ecosystem services that lower ambient temperatures through evaporative cooling, radiation reflection, humidity regulation, and shading.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_005",
+      "source_id": "src_006",
+      "text": "The aim of this study is to address this knowledge gap and quantify the impacts of extreme heat on mental health, health service use and mental well-being in vulnerable urban populations.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_006",
+      "source_id": "src_007",
+      "text": "A substantial proportion of participants reported that extreme heat 'always' or 'usually' affected their physical health (33% of men, 26% of women), mental health (20% of men, 11% of women), and financial well-being (16% of men, 9% of women).",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_007",
+      "source_id": "src_008",
+      "text": "Extreme heat affects women’s functionality and well-being. Heat undermines a woman’s ability to care for themselves and their child and interferes negatively with breast feeding.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_008",
+      "source_id": "src_009",
+      "text": "Heatstroke patients were unable to activate 911 themselves, and most presented with a 48-h delay. This delay may represent a critical window of opportunity for pre-hospital and hospital systems to prepare for the influx of high-acuity resource-intensive patients.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_009",
+      "source_id": "src_010",
+      "text": "At ED-1, daily HImax associations increased after 66 °F (OR, 1.10 [95% CI, 1.01-1.21]), peaking at 101 °F (OR, 1.24 [95% CI, 1.11-1.39]), and were higher on days with HImax anomalies between 15 °F (OR, 1.07 [95% CI, 1.01-1.13]) and 18 °F (OR, 1.10 [95% CI, 1.01-1.20]) warmer than average.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_010",
+      "source_id": "src_011",
+      "text": "Extreme heat increased cardiovascular morbidity risk and burden in older adults. Female, 75 and older, and chronic condition populations were most heat vulnerable. Areas with high urban heat island intensity (UHII) had elevated heat-related impacts.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_011",
+      "source_id": "src_012",
+      "text": "Extreme heat exposure is a well-known cause of mortality among older adults. However, the impacts of exposure on respiratory morbidity across U.S. cities and population subgroups are not well understood.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_012",
+      "source_id": "src_013",
+      "text": "With higher indoor temperatures, sleep was more disrupted and GSR and HR both increased (p < 0.001).",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_013",
+      "source_id": "src_014",
+      "text": "Older adults living in neighborhoods with higher summer LST z-scores had fewer minutes of neighborhood walking/day. This association seemed limited to individuals with neighborhood redlining scores of 'still desirable'/'best.'",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_014",
+      "source_id": "src_015",
+      "text": "This article analyses local practices concerning energy saving in the context of summer heat. It argues that the analysis of people’s thermal regulation activities in a situation of energy marginalization is central to understanding the social dynamics of energy vulnerability.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_015",
+      "source_id": "src_016",
+      "text": "Among socially vulnerable pregnant people, we found no evidence of an association between days of extreme heat and the odds of psychiatric emergency services encounters, compared to normal temperature days.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_016",
+      "source_id": "src_017",
+      "text": "We use temperature variation within narrowly-defined geographic and demographic cells to show that exposure to extreme heat increases the risk of maternal hospitalization during pregnancy for potentially life-threatening causes.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_017",
+      "source_id": "src_018",
+      "text": "Most studies (93%) reported significant, positive associations between urban heat exposure and both violent and non-violent crime outcomes.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_018",
+      "source_id": "src_019",
+      "text": "We developed a heat vulnerability index, which identified priority areas that are most at-risk of experiencing adverse heat-related health outcomes and in need of preparedness and mitigation interventions.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_019",
+      "source_id": "src_020",
+      "text": "One of the most effective ways to keep people cool is often neglected in urban planning. Cities must work to provide cover and reverse the ‘shade deserts’ common in low-income communities.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_020",
+      "source_id": "src_021",
+      "text": "This study asks: (1) Are historically segregated urban neighborhoods associated with higher exposure to afternoon and evening air temperatures? (2) To what extent do those living in historically segregated neighborhoods experience longer periods of heat exposure?",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_021",
+      "source_id": "src_022",
+      "text": "Climate change has resulted in increase in the frequency of extreme heat days and older adults are disproportionately affected due to physiological vulnerabilities and systemic barriers to adaptation.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    },
+    {
+      "quote_id": "quote_022",
+      "source_id": "src_023",
+      "text": "We examine the association between high ambient temperature and acute mental health-related healthcare encounters in New York City for children, adolescents and young adults.",
+      "locator": "abstract",
+      "access_level": "abstract_only",
+      "evidence_basis": "abstract_and_metadata",
+      "confidence": "high",
+      "provenance": {
+        "origin": "UC Library Search abstract"
+      }
+    }
+  ],
+  "themes": [
+    {
+      "id": "theme_001",
+      "type": "theme",
+      "label": "Exposure burden and measurement",
+      "statement": "Researchers ask how urban heat exposure is changing and how it should be measured.",
+      "question_ids": [
+        "q_001",
+        "q_008"
+      ],
+      "source_ids": [
+        "src_002",
+        "src_021"
+      ],
+      "next_question_ids": [
+        "nq_001",
+        "nq_002"
+      ],
+      "support_summary": {
+        "question_count": 2,
+        "source_count": 2,
+        "next_question_count": 2,
+        "direct_evidence_count": 2,
+        "reasonable_inference_count": 0,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source_multi_question",
+      "score": 0.85,
+      "score_components": {
+        "support": 0.85,
+        "breadth": 0.8,
+        "evidence_strength": 0.85,
+        "coherence": 0.9
+      },
+      "confidence": "high",
+      "coherence_basis": "Both questions concern exposure trends, metrics, and interpretation.",
+      "key_terms": [
+        "urban population exposure",
+        "heat island",
+        "duration",
+        "measurement"
+      ],
+      "coverage_summary": {
+        "geographies": [
+          "global",
+          "United States"
+        ],
+        "methods": [
+          "time series",
+          "spatial analysis"
+        ]
+      },
+      "rationale": "Two distinct sources directly examine exposure change and duration metrics."
+    },
+    {
+      "id": "theme_002",
+      "type": "theme",
+      "label": "Physical health burden",
+      "statement": "Researchers ask how heat affects morbidity, emergency care, and physiological stress.",
+      "question_ids": [
+        "q_002"
+      ],
+      "source_ids": [
+        "src_009",
+        "src_010",
+        "src_011",
+        "src_012",
+        "src_013",
+        "src_017"
+      ],
+      "next_question_ids": [
+        "nq_001",
+        "nq_004",
+        "nq_005"
+      ],
+      "support_summary": {
+        "question_count": 1,
+        "source_count": 6,
+        "next_question_count": 3,
+        "direct_evidence_count": 6,
+        "reasonable_inference_count": 0,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source",
+      "score": 0.9,
+      "score_components": {
+        "support": 0.95,
+        "breadth": 0.85,
+        "evidence_strength": 0.85,
+        "coherence": 0.9
+      },
+      "confidence": "high",
+      "coherence_basis": "Multiple study designs connect heat exposure to physical health outcomes.",
+      "key_terms": [
+        "heatstroke",
+        "cardiovascular morbidity",
+        "respiratory hospitalization",
+        "indoor temperature",
+        "maternal health"
+      ],
+      "coverage_summary": {
+        "populations": [
+          "older adults",
+          "pregnant people"
+        ],
+        "geographies": [
+          "global North cities"
+        ]
+      },
+      "rationale": "Six sources directly support the physical health question."
+    },
+    {
+      "id": "theme_003",
+      "type": "theme",
+      "label": "Mental health and wellbeing",
+      "statement": "Researchers ask how heat affects mental health service use, emotional wellbeing, and lived experience.",
+      "question_ids": [
+        "q_003"
+      ],
+      "source_ids": [
+        "src_004",
+        "src_005",
+        "src_006",
+        "src_016",
+        "src_023"
+      ],
+      "next_question_ids": [
+        "nq_001",
+        "nq_002"
+      ],
+      "support_summary": {
+        "question_count": 1,
+        "source_count": 5,
+        "next_question_count": 2,
+        "direct_evidence_count": 4,
+        "reasonable_inference_count": 1,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source",
+      "score": 0.88,
+      "score_components": {
+        "support": 0.9,
+        "breadth": 0.8,
+        "evidence_strength": 0.8,
+        "coherence": 0.9
+      },
+      "confidence": "high",
+      "coherence_basis": "All sources connect heat, heat islands, or greenness to mental health or wellbeing.",
+      "key_terms": [
+        "depression",
+        "psychiatric emergency",
+        "well-being",
+        "greenness",
+        "heat island"
+      ],
+      "coverage_summary": {
+        "populations": [
+          "young people",
+          "pregnant people",
+          "urban residents"
+        ],
+        "geographies": [
+          "Santiago",
+          "London",
+          "Boston",
+          "New York City"
+        ]
+      },
+      "rationale": "Five sources directly support or infer the mental health question."
+    },
+    {
+      "id": "theme_004",
+      "type": "theme",
+      "label": "Everyday life and social consequences",
+      "statement": "Researchers ask how heat reshapes mobility, work, finances, social relations, and behavior.",
+      "question_ids": [
+        "q_004"
+      ],
+      "source_ids": [
+        "src_003",
+        "src_007",
+        "src_008",
+        "src_014",
+        "src_015",
+        "src_018"
+      ],
+      "next_question_ids": [
+        "nq_006"
+      ],
+      "support_summary": {
+        "question_count": 1,
+        "source_count": 6,
+        "next_question_count": 1,
+        "direct_evidence_count": 6,
+        "reasonable_inference_count": 0,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source",
+      "score": 0.88,
+      "score_components": {
+        "support": 0.9,
+        "breadth": 0.9,
+        "evidence_strength": 0.8,
+        "coherence": 0.85
+      },
+      "confidence": "high",
+      "coherence_basis": "Sources span qualitative, survey, ethnographic, and review evidence on social impacts.",
+      "key_terms": [
+        "mobility",
+        "livelihoods",
+        "walking",
+        "energy vulnerability",
+        "crime",
+        "social relations"
+      ],
+      "coverage_summary": {
+        "geographies": [
+          "Australia",
+          "Nigeria",
+          "Burkina Faso",
+          "United States",
+          "Spain"
+        ],
+        "methods": [
+          "ethnography",
+          "survey",
+          "review"
+        ]
+      },
+      "rationale": "Six sources directly support social, financial, mobility, and behavioral impacts."
+    },
+    {
+      "id": "theme_005",
+      "type": "theme",
+      "label": "Unequal exposure and vulnerability",
+      "statement": "Researchers ask which populations, neighborhoods, and social groups face disproportionate heat burdens.",
+      "question_ids": [
+        "q_005"
+      ],
+      "source_ids": [
+        "src_002",
+        "src_010",
+        "src_011",
+        "src_013",
+        "src_014",
+        "src_017",
+        "src_021"
+      ],
+      "next_question_ids": [
+        "nq_003",
+        "nq_004",
+        "nq_005",
+        "nq_006"
+      ],
+      "support_summary": {
+        "question_count": 1,
+        "source_count": 7,
+        "next_question_count": 4,
+        "direct_evidence_count": 7,
+        "reasonable_inference_count": 0,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source",
+      "score": 0.92,
+      "score_components": {
+        "support": 0.95,
+        "breadth": 0.9,
+        "evidence_strength": 0.85,
+        "coherence": 0.9
+      },
+      "confidence": "high",
+      "coherence_basis": "Sources consistently examine differential exposure, harm, or service use.",
+      "key_terms": [
+        "urban poor",
+        "race/ethnicity",
+        "redlining",
+        "older adults",
+        "income",
+        "segregation"
+      ],
+      "coverage_summary": {
+        "populations": [
+          "older adults",
+          "pregnant people",
+          "low-income residents"
+        ],
+        "geographies": [
+          "global",
+          "United States"
+        ]
+      },
+      "rationale": "Seven sources support differential exposure, harm, or adaptation."
+    },
+    {
+      "id": "theme_006",
+      "type": "theme",
+      "label": "Adaptation and governance",
+      "statement": "Researchers ask how built environments, health systems, institutions, and communities reduce heat risk.",
+      "question_ids": [
+        "q_006",
+        "q_007"
+      ],
+      "source_ids": [
+        "src_001",
+        "src_003",
+        "src_005",
+        "src_009",
+        "src_015",
+        "src_019",
+        "src_020",
+        "src_022"
+      ],
+      "next_question_ids": [
+        "nq_002",
+        "nq_003"
+      ],
+      "support_summary": {
+        "question_count": 2,
+        "source_count": 8,
+        "next_question_count": 2,
+        "direct_evidence_count": 8,
+        "reasonable_inference_count": 0,
+        "interpretive_connection_count": 0
+      },
+      "support_tier": "multi_source_multi_question",
+      "score": 0.92,
+      "score_components": {
+        "support": 0.95,
+        "breadth": 0.9,
+        "evidence_strength": 0.8,
+        "coherence": 0.9
+      },
+      "confidence": "high",
+      "coherence_basis": "Intervention and governance questions address overlapping adaptation and preparedness mechanisms.",
+      "key_terms": [
+        "green space",
+        "shade",
+        "cooling centers",
+        "heat action plans",
+        "vulnerability index",
+        "institutional responses"
+      ],
+      "coverage_summary": {
+        "contexts": [
+          "city governance",
+          "public health preparedness",
+          "housing",
+          "energy vulnerability"
+        ]
+      },
+      "rationale": "Eight sources support adaptation mechanisms and institutional responses."
+    }
+  ],
+  "coverage": {
+    "screening_counts": {
+      "on_topic": 78,
+      "adjacent": 41,
+      "noise": 33
+    },
+    "question_count": 8,
+    "source_question_count": 23,
+    "next_question_count": 6,
+    "theme_count": 6,
+    "source_count": 23,
+    "access_level_counts": {
+      "abstract_only": 20,
+      "publisher_description": 1,
+      "metadata_only": 2
+    },
+    "evidence_basis_counts": {
+      "abstract_and_metadata": 20,
+      "publisher_description_and_toc": 1,
+      "metadata_only": 2
+    },
+    "not_found_statements": [
+      {
+        "statement": "Longitudinal causal evidence linking urban heat adaptation interventions to sustained wellbeing outcomes was not found in retrieved coverage."
+      },
+      {
+        "statement": "Cross-national comparative evidence on heat governance and chronic stress was not found in retrieved coverage."
+      }
+    ]
+  },
+  "limitations": [
+    "The run used the initial prompt only, without user confirmation of geography, population, or publication-date scope.",
+    "Evidence is based on UC Library Search abstracts, metadata, and descriptions, not machine-readable full text.",
+    "OpenAlex citation counts are discovery signals, not measures of evidentiary quality or consensus.",
+    "Only records returned on the first page of each component query were screened; later pages may add coverage."
+  ]
+}

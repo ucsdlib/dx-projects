@@ -1,0 +1,1319 @@
+{
+  "id": "https://openalex.org/W4408330286",
+  "doi": "https://doi.org/10.1007/s11524-025-00970-3",
+  "title": "Examining the Association between Heat Exposure and Crime in Cities across the United States: A Scoping Review",
+  "display_name": "Examining the Association between Heat Exposure and Crime in Cities across the United States: A Scoping Review",
+  "publication_year": 2025,
+  "publication_date": "2025-03-11",
+  "ids": {
+    "openalex": "https://openalex.org/W4408330286",
+    "doi": "https://doi.org/10.1007/s11524-025-00970-3",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/40067571"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s11524-025-00970-3",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s11524-025-00970-3",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S52340619",
+      "display_name": "Journal of Urban Health",
+      "issn_l": "0028-7091",
+      "issn": [
+        "0028-7091",
+        "1099-3460",
+        "1468-2869"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Urban Health",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12031693/pdf/11524_2025_Article_970.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5036952712",
+        "display_name": "Alexander Azan",
+        "orcid": "https://orcid.org/0000-0003-3257-7499",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3257-7499"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086933",
+          "display_name": "NYU Langone Health",
+          "ror": "https://ror.org/005dvqh91",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alexander Azan",
+      "raw_affiliation_strings": [
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA. alexander.azan@nyulangone.org",
+        "Division of General Internal Medicine and Clinical Innovation, NYU Grossman School of Medicine, New York, NY, USA. alexander.azan@nyulangone.org",
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+        "Division of General Internal Medicine and Clinical Innovation, NYU Grossman School of Medicine, New York, NY, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-3257-7499",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA. alexander.azan@nyulangone.org",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of General Internal Medicine and Clinical Innovation, NYU Grossman School of Medicine, New York, NY, USA. alexander.azan@nyulangone.org",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of General Internal Medicine and Clinical Innovation, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Jin Choi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086933",
+          "display_name": "NYU Langone Health",
+          "ror": "https://ror.org/005dvqh91",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jin Choi",
+      "raw_affiliation_strings": [
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073318005",
+        "display_name": "Ellicott C. Matthay",
+        "orcid": "https://orcid.org/0000-0003-4535-8252",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4535-8252"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086933",
+          "display_name": "NYU Langone Health",
+          "ror": "https://ror.org/005dvqh91",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ellicott C. Matthay",
+      "raw_affiliation_strings": [
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082201003",
+        "display_name": "Frank S. Pezzella",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I174216632",
+          "display_name": "City University of New York",
+          "ror": "https://ror.org/00453a208",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I174216632"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I92507152",
+          "display_name": "John Jay College of Criminal Justice",
+          "ror": "https://ror.org/01p9rc392",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I92507152"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Frank Pezzella",
+      "raw_affiliation_strings": [
+        "John Jay College of Criminal Justice Graduate Center, City University of New York, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "John Jay College of Criminal Justice Graduate Center, City University of New York, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I174216632",
+            "https://openalex.org/I92507152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033965436",
+        "display_name": "Mehdi Pourpeikari Heris",
+        "orcid": "https://orcid.org/0000-0002-4418-5030",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4418-5030"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I174216632",
+          "display_name": "City University of New York",
+          "ror": "https://ror.org/00453a208",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I174216632"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I39694355",
+          "display_name": "Hunter College",
+          "ror": "https://ror.org/00g2xk477",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I39694355"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mehdi Heris",
+      "raw_affiliation_strings": [
+        "Department of Urban Policy and Planning, Hunter College, City University of New York, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Urban Policy and Planning, Hunter College, City University of New York, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I174216632",
+            "https://openalex.org/I39694355"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100436209",
+        "display_name": "David C. Lee",
+        "orcid": "https://orcid.org/0000-0001-6857-624X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6857-624X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086933",
+          "display_name": "NYU Langone Health",
+          "ror": "https://ror.org/005dvqh91",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David C. Lee",
+      "raw_affiliation_strings": [
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5015466741",
+        "display_name": "Byoungjun Kim",
+        "orcid": "https://orcid.org/0000-0002-0945-3626",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0945-3626"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210086933",
+          "display_name": "NYU Langone Health",
+          "ror": "https://ror.org/005dvqh91",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210086933"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Byoungjun Kim",
+      "raw_affiliation_strings": [
+        "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+        "Department of Surgery, NYU Grossman School of Medicine, New York, NY, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210086933",
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Surgery, NYU Grossman School of Medicine, New York, NY, USA",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5036952712"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210086933",
+    "https://openalex.org/I57206974"
+  ],
+  "apc_list": {
+    "value": 4790,
+    "currency": "USD",
+    "value_usd": 4790
+  },
+  "apc_paid": null,
+  "fwci": 1.7093,
+  "has_fulltext": true,
+  "cited_by_count": 4,
+  "citation_normalized_percentile": {
+    "value": 0.80586146,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "102",
+    "issue": "2",
+    "first_page": "352",
+    "last_page": "378"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9496999979019165,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9496999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10574",
+      "display_name": "Crime Patterns and Interventions",
+      "score": 0.0471000000834465,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.0008999999845400453,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.7630000114440918
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-exposure",
+      "display_name": "heat exposure",
+      "score": 0.8149999976158142
+    },
+    {
+      "id": "https://openalex.org/keywords/crime",
+      "display_name": "crime",
+      "score": 0.7889999747276306
+    },
+    {
+      "id": "https://openalex.org/keywords/violent-crime",
+      "display_name": "violent crime",
+      "score": 0.9620000123977661
+    },
+    {
+      "id": "https://openalex.org/keywords/non-violent-crime",
+      "display_name": "non-violent crime",
+      "score": 0.9919999837875366
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-waves",
+      "display_name": "heat waves",
+      "score": 0.8500000238418579
+    },
+    {
+      "id": "https://openalex.org/keywords/health-disparities",
+      "display_name": "health disparities",
+      "score": 0.7329999804496765
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change",
+      "display_name": "climate change",
+      "score": 0.5979999899864197
+    },
+    {
+      "id": "https://openalex.org/keywords/american-cities",
+      "display_name": "American cities",
+      "score": 0.6589999794960022
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C142853389",
+      "wikidata": "https://www.wikidata.org/wiki/Q744778",
+      "display_name": "Association (psychology)",
+      "level": 2,
+      "score": 0.6460647583007812
+    },
+    {
+      "id": "https://openalex.org/C73484699",
+      "wikidata": "https://www.wikidata.org/wiki/Q161733",
+      "display_name": "Criminology",
+      "level": 1,
+      "score": 0.36004287004470825
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.32996416091918945
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.22818472981452942
+    },
+    {
+      "id": "https://openalex.org/C542102704",
+      "wikidata": "https://www.wikidata.org/wiki/Q183257",
+      "display_name": "Psychotherapist",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003415",
+      "descriptor_name": "Crime",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1007/s11524-025-00970-3",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s11524-025-00970-3",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S52340619",
+        "display_name": "Journal of Urban Health",
+        "issn_l": "0028-7091",
+        "issn": [
+          "0028-7091",
+          "1099-3460",
+          "1468-2869"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Urban Health",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:40067571",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40067571",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of urban health : bulletin of the New York Academy of Medicine",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:12031693",
+      "is_oa": true,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40067571/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12031693/pdf/11524_2025_Article_970.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "J Urban Health",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:pubmedcentral.nih.gov:12031693",
+    "is_oa": true,
+    "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40067571/",
+    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12031693/pdf/11524_2025_Article_970.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "J Urban Health",
+    "raw_type": "Text"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, justice, and strong institutions",
+      "id": "https://metadata.un.org/sdg/16",
+      "score": 0.8999999761581421
+    },
+    {
+      "display_name": "Sustainable cities and communities",
+      "id": "https://metadata.un.org/sdg/11",
+      "score": 0.8787999749183655
+    },
+    {
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3",
+      "score": 0.8048999905586243
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [
+    {
+      "display_name": "Systematic Review",
+      "id": "https://openalex.org/study-designs/systematic-review"
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1859754121",
+      "display_name": null,
+      "funder_award_id": "UL1 TR001445",
+      "funder_id": "https://openalex.org/F4320337472",
+      "funder_display_name": "National Center for Advancing Translational Sciences"
+    },
+    {
+      "id": "https://openalex.org/G3286154795",
+      "display_name": null,
+      "funder_award_id": "T32HP22238",
+      "funder_id": "https://openalex.org/F4320306085",
+      "funder_display_name": "U.S. Department of Health and Human Services"
+    },
+    {
+      "id": "https://openalex.org/G676540660",
+      "display_name": null,
+      "funder_award_id": "T32 HP22238",
+      "funder_id": "https://openalex.org/F4320332175",
+      "funder_display_name": "Health Resources and Services Administration"
+    },
+    {
+      "id": "https://openalex.org/G9000028856",
+      "display_name": null,
+      "funder_award_id": "UL1 TR001445",
+      "funder_id": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306085",
+      "display_name": "U.S. Department of Health and Human Services",
+      "ror": "https://ror.org/033jnv181"
+    },
+    {
+      "id": "https://openalex.org/F4320332161",
+      "display_name": "National Institutes of Health",
+      "ror": "https://ror.org/01cwqze88"
+    },
+    {
+      "id": "https://openalex.org/F4320332175",
+      "display_name": "Health Resources and Services Administration",
+      "ror": "https://ror.org/033jnv181"
+    },
+    {
+      "id": "https://openalex.org/F4320337472",
+      "display_name": "National Center for Advancing Translational Sciences",
+      "ror": "https://ror.org/04pw6fb54"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4408330286.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4408330286.grobid-xml"
+  },
+  "referenced_works_count": 107,
+  "referenced_works": [
+    "https://openalex.org/W912693422",
+    "https://openalex.org/W1485330917",
+    "https://openalex.org/W1541798871",
+    "https://openalex.org/W1869401170",
+    "https://openalex.org/W1973053985",
+    "https://openalex.org/W1999445699",
+    "https://openalex.org/W2009757176",
+    "https://openalex.org/W2016494937",
+    "https://openalex.org/W2021823284",
+    "https://openalex.org/W2026227941",
+    "https://openalex.org/W2036982386",
+    "https://openalex.org/W2051253998",
+    "https://openalex.org/W2060434400",
+    "https://openalex.org/W2068304101",
+    "https://openalex.org/W2091274801",
+    "https://openalex.org/W2096829546",
+    "https://openalex.org/W2102614766",
+    "https://openalex.org/W2106381864",
+    "https://openalex.org/W2107156834",
+    "https://openalex.org/W2108968048",
+    "https://openalex.org/W2109071198",
+    "https://openalex.org/W2111815849",
+    "https://openalex.org/W2130786534",
+    "https://openalex.org/W2150724931",
+    "https://openalex.org/W2156395131",
+    "https://openalex.org/W2158089900",
+    "https://openalex.org/W2160752525",
+    "https://openalex.org/W2165066932",
+    "https://openalex.org/W2167338785",
+    "https://openalex.org/W2186914815",
+    "https://openalex.org/W2199768549",
+    "https://openalex.org/W2400403888",
+    "https://openalex.org/W2541798807",
+    "https://openalex.org/W2605399805",
+    "https://openalex.org/W2724300895",
+    "https://openalex.org/W2744549124",
+    "https://openalex.org/W2760154283",
+    "https://openalex.org/W2792167562",
+    "https://openalex.org/W2793852645",
+    "https://openalex.org/W2891378911",
+    "https://openalex.org/W2900497744",
+    "https://openalex.org/W2900586245",
+    "https://openalex.org/W2901669506",
+    "https://openalex.org/W2908508484",
+    "https://openalex.org/W2919664210",
+    "https://openalex.org/W2939259652",
+    "https://openalex.org/W2942496636",
+    "https://openalex.org/W2952174986",
+    "https://openalex.org/W2963428495",
+    "https://openalex.org/W2979089139",
+    "https://openalex.org/W2979702532",
+    "https://openalex.org/W2980483640",
+    "https://openalex.org/W2994750546",
+    "https://openalex.org/W2995872162",
+    "https://openalex.org/W2999943130",
+    "https://openalex.org/W3016481329",
+    "https://openalex.org/W3033029638",
+    "https://openalex.org/W3036966414",
+    "https://openalex.org/W3042376626",
+    "https://openalex.org/W3045712508",
+    "https://openalex.org/W3087288822",
+    "https://openalex.org/W3088979870",
+    "https://openalex.org/W3096758551",
+    "https://openalex.org/W3111105858",
+    "https://openalex.org/W3120411288",
+    "https://openalex.org/W3121438048",
+    "https://openalex.org/W3134820706",
+    "https://openalex.org/W3135184643",
+    "https://openalex.org/W3139216561",
+    "https://openalex.org/W3163529989",
+    "https://openalex.org/W3164760838",
+    "https://openalex.org/W3165113505",
+    "https://openalex.org/W3186370388",
+    "https://openalex.org/W3194519541",
+    "https://openalex.org/W3196757325",
+    "https://openalex.org/W3197438696",
+    "https://openalex.org/W3198277380",
+    "https://openalex.org/W3198670209",
+    "https://openalex.org/W3201612355",
+    "https://openalex.org/W3208052379",
+    "https://openalex.org/W4206643932",
+    "https://openalex.org/W4206977811",
+    "https://openalex.org/W4213337766",
+    "https://openalex.org/W4220978109",
+    "https://openalex.org/W4221074463",
+    "https://openalex.org/W4231202891",
+    "https://openalex.org/W4245511555",
+    "https://openalex.org/W4246131073",
+    "https://openalex.org/W4249855545",
+    "https://openalex.org/W4280499362",
+    "https://openalex.org/W4289261098",
+    "https://openalex.org/W4295025093",
+    "https://openalex.org/W4296175778",
+    "https://openalex.org/W4308146823",
+    "https://openalex.org/W4310281835",
+    "https://openalex.org/W4310701351",
+    "https://openalex.org/W4312094815",
+    "https://openalex.org/W4313377273",
+    "https://openalex.org/W4319841416",
+    "https://openalex.org/W4367048177",
+    "https://openalex.org/W4382363255",
+    "https://openalex.org/W4383498679",
+    "https://openalex.org/W4385387233",
+    "https://openalex.org/W4391597017",
+    "https://openalex.org/W4396888831",
+    "https://openalex.org/W4403899685",
+    "https://openalex.org/W4408330286"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2352440174",
+    "https://openalex.org/W4309440960",
+    "https://openalex.org/W2062168445",
+    "https://openalex.org/W2348940229",
+    "https://openalex.org/W2363046693",
+    "https://openalex.org/W2389491697",
+    "https://openalex.org/W4301044699"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2025-10-10T00:00:00"
+}

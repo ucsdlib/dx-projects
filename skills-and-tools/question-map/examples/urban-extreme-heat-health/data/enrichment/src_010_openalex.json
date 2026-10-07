@@ -1,0 +1,2439 @@
+{
+  "id": "https://openalex.org/W7139940297",
+  "doi": "https://doi.org/10.1001/jamanetworkopen.2026.2645",
+  "title": "Extreme Urban Heat and Emergency Department Visits in Older Adults",
+  "display_name": "Extreme Urban Heat and Emergency Department Visits in Older Adults",
+  "publication_year": 2026,
+  "publication_date": "2026-03-20",
+  "ids": {
+    "openalex": "https://openalex.org/W7139940297",
+    "doi": "https://doi.org/10.1001/jamanetworkopen.2026.2645",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/41860548"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1001/jamanetworkopen.2026.2645",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1001/jamanetworkopen.2026.2645",
+    "pdf_url": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2846734/siau_2026_oi_260114_1773430276.9103.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210217848",
+      "display_name": "JAMA Network Open",
+      "issn_l": "2574-3805",
+      "issn": [
+        "2574-3805"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320259",
+      "host_organization_name": "American Medical Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320259"
+      ],
+      "host_organization_lineage_names": [
+        "American Medical Association"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "JAMA Network Open",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2846734/siau_2026_oi_260114_1773430276.9103.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5037340407",
+        "display_name": "Evan Siau",
+        "orcid": "https://orcid.org/0000-0002-9765-4187",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9765-4187"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Evan Siau",
+      "raw_affiliation_strings": [
+        "Department of Medicine, New York University Grossman School of Medicine, New York",
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061698711",
+        "display_name": "Genevieve S. Silva",
+        "orcid": "https://orcid.org/0000-0002-4935-3523",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4935-3523"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210143392",
+          "display_name": "University of Pennsylvania Health System",
+          "ror": "https://ror.org/04h81rw26",
+          "country_code": "US",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4210143392"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Genevieve S. Silva",
+      "raw_affiliation_strings": [
+        "Department of Radiation Oncology, University of California, San Francisco",
+        "Transitional Year Residency Program, Penn Medicine Doylestown, Doylestown, Pennsylvania"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Radiation Oncology, University of California, San Francisco",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Transitional Year Residency Program, Penn Medicine Doylestown, Doylestown, Pennsylvania",
+          "institution_ids": [
+            "https://openalex.org/I4210143392"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Jeremy Lu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeremy Lu",
+      "raw_affiliation_strings": [
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045594121",
+        "display_name": "Cassandra L. Thiel",
+        "orcid": "https://orcid.org/0000-0002-1875-886X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1875-886X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cassandra Thiel",
+      "raw_affiliation_strings": [
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5130253990",
+        "display_name": "Simon Jones",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Simon Jones",
+      "raw_affiliation_strings": [
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106919305",
+        "display_name": "Leora Idit Horwitz",
+        "orcid": "https://orcid.org/0000-0003-1800-6040",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1800-6040"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Leora I. Horwitz",
+      "raw_affiliation_strings": [
+        "Department of Medicine, New York University Grossman School of Medicine, New York",
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024449999",
+        "display_name": "Katie E. Lichter",
+        "orcid": "https://orcid.org/0000-0003-4136-6490",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4136-6490"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I180670191",
+          "display_name": "University of California, San Francisco",
+          "ror": "https://ror.org/043mz5j54",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I180670191"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katie E. Lichter",
+      "raw_affiliation_strings": [
+        "Department of Radiation Oncology and Applied Sciences, Dartmouth, Lebanon, New Hampshire",
+        "Department of Radiation Oncology, University of California, San Francisco",
+        "The Dartmouth Institute, Dartmouth, Lebanon, New Hampshire"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Radiation Oncology and Applied Sciences, Dartmouth, Lebanon, New Hampshire",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Radiation Oncology, University of California, San Francisco",
+          "institution_ids": [
+            "https://openalex.org/I180670191"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Dartmouth Institute, Dartmouth, Lebanon, New Hampshire",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5036952712",
+        "display_name": "Alexander Azan",
+        "orcid": "https://orcid.org/0000-0003-3257-7499",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3257-7499"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I57206974",
+          "display_name": "New York University",
+          "ror": "https://ror.org/0190ak572",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Alexander Azan",
+      "raw_affiliation_strings": [
+        "Department of Medicine, New York University Grossman School of Medicine, New York",
+        "Department of Population Health, New York University Grossman School of Medicine, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Population Health, New York University Grossman School of Medicine, New York",
+          "institution_ids": [
+            "https://openalex.org/I57206974"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5036952712"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I57206974"
+  ],
+  "apc_list": {
+    "value": 3000,
+    "currency": "USD",
+    "value_usd": 3000
+  },
+  "apc_paid": {
+    "value": 3000,
+    "currency": "USD",
+    "value_usd": 3000
+  },
+  "fwci": 3.5331,
+  "has_fulltext": true,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.89158389,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "9",
+    "issue": "3",
+    "first_page": "e262645",
+    "last_page": "e262645"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9990000128746033,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.00039999998989515007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10190",
+      "display_name": "Air Quality and Health Impacts",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.9599999785423279
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-index",
+      "display_name": "heat index",
+      "score": 0.8330000042915344
+    },
+    {
+      "id": "https://openalex.org/keywords/emergency-department-visits",
+      "display_name": "emergency department visits",
+      "score": 0.9679999947547913
+    },
+    {
+      "id": "https://openalex.org/keywords/older-adults",
+      "display_name": "older adults",
+      "score": 0.996999979019165
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-related-morbidity",
+      "display_name": "heat-related morbidity",
+      "score": 0.7089999914169312
+    },
+    {
+      "id": "https://openalex.org/keywords/racial-and-ethnic-disparities",
+      "display_name": "racial and ethnic disparities",
+      "score": 0.9139999747276306
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.5400000214576721
+    },
+    {
+      "id": "https://openalex.org/keywords/new-york-city",
+      "display_name": "New York City",
+      "score": 0.7310000061988831
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.7696999907493591
+    },
+    {
+      "id": "https://openalex.org/C2780724011",
+      "wikidata": "https://www.wikidata.org/wiki/Q1295316",
+      "display_name": "Emergency department",
+      "level": 2,
+      "score": 0.7307999730110168
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.6711999773979187
+    },
+    {
+      "id": "https://openalex.org/C137403100",
+      "wikidata": "https://www.wikidata.org/wiki/Q41710",
+      "display_name": "Ethnic group",
+      "level": 2,
+      "score": 0.47850000858306885
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.44859999418258667
+    },
+    {
+      "id": "https://openalex.org/C545542383",
+      "wikidata": "https://www.wikidata.org/wiki/Q2751242",
+      "display_name": "Medical emergency",
+      "level": 1,
+      "score": 0.44609999656677246
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.42719998955726624
+    },
+    {
+      "id": "https://openalex.org/C2776433176",
+      "wikidata": "https://www.wikidata.org/wiki/Q1191065",
+      "display_name": "Heat illness",
+      "level": 2,
+      "score": 0.3912999927997589
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.3718000054359436
+    },
+    {
+      "id": "https://openalex.org/C160735492",
+      "wikidata": "https://www.wikidata.org/wiki/Q31207",
+      "display_name": "Health care",
+      "level": 2,
+      "score": 0.3253999948501587
+    },
+    {
+      "id": "https://openalex.org/C138816342",
+      "wikidata": "https://www.wikidata.org/wiki/Q189603",
+      "display_name": "Public health",
+      "level": 2,
+      "score": 0.3222000002861023
+    },
+    {
+      "id": "https://openalex.org/C194828623",
+      "wikidata": "https://www.wikidata.org/wiki/Q2861470",
+      "display_name": "Emergency medicine",
+      "level": 1,
+      "score": 0.31779998540878296
+    },
+    {
+      "id": "https://openalex.org/C2993220731",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Heat wave",
+      "level": 3,
+      "score": 0.31690001487731934
+    },
+    {
+      "id": "https://openalex.org/C3017944768",
+      "wikidata": "https://www.wikidata.org/wiki/Q1450463",
+      "display_name": "Poison control",
+      "level": 2,
+      "score": 0.30970001220703125
+    },
+    {
+      "id": "https://openalex.org/C142853389",
+      "wikidata": "https://www.wikidata.org/wiki/Q744778",
+      "display_name": "Association (psychology)",
+      "level": 2,
+      "score": 0.3091000020503998
+    },
+    {
+      "id": "https://openalex.org/C526869908",
+      "wikidata": "https://www.wikidata.org/wiki/Q3298118",
+      "display_name": "Suicide prevention",
+      "level": 3,
+      "score": 0.30570000410079956
+    },
+    {
+      "id": "https://openalex.org/C187155963",
+      "wikidata": "https://www.wikidata.org/wiki/Q629029",
+      "display_name": "Occupational safety and health",
+      "level": 2,
+      "score": 0.2930999994277954
+    },
+    {
+      "id": "https://openalex.org/C190385971",
+      "wikidata": "https://www.wikidata.org/wiki/Q373494",
+      "display_name": "Injury prevention",
+      "level": 3,
+      "score": 0.2815000116825104
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.28119999170303345
+    },
+    {
+      "id": "https://openalex.org/C166735990",
+      "wikidata": "https://www.wikidata.org/wiki/Q1750812",
+      "display_name": "Human factors and ergonomics",
+      "level": 3,
+      "score": 0.26919999718666077
+    },
+    {
+      "id": "https://openalex.org/C3017997152",
+      "wikidata": "https://www.wikidata.org/wiki/Q814610",
+      "display_name": "Emergency response",
+      "level": 2,
+      "score": 0.258899986743927
+    },
+    {
+      "id": "https://openalex.org/C2993843871",
+      "wikidata": "https://www.wikidata.org/wiki/Q11663",
+      "display_name": "Hot weather",
+      "level": 2,
+      "score": 0.25699999928474426
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000096924",
+      "descriptor_name": "Emergency Room Visits",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D004636",
+      "descriptor_name": "Emergency Service, Hospital",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009519",
+      "descriptor_name": "New York City",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016022",
+      "descriptor_name": "Case-Control Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1001/jamanetworkopen.2026.2645",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1001/jamanetworkopen.2026.2645",
+      "pdf_url": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2846734/siau_2026_oi_260114_1773430276.9103.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210217848",
+        "display_name": "JAMA Network Open",
+        "issn_l": "2574-3805",
+        "issn": [
+          "2574-3805"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "doyens",
+          "jufo-1",
+          "ki-jl-2",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320259",
+        "host_organization_name": "American Medical Association",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320259"
+        ],
+        "host_organization_lineage_names": [
+          "American Medical Association"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "JAMA Network Open",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:41860548",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41860548",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "JAMA network open",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:13005158",
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13005158/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/instance/13005158/bin/jamanetwopen-e262645-s001.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "JAMA Netw Open",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1001/jamanetworkopen.2026.2645",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1001/jamanetworkopen.2026.2645",
+    "pdf_url": "https://jamanetwork.com/journals/jamanetworkopen/articlepdf/2846734/siau_2026_oi_260114_1773430276.9103.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210217848",
+      "display_name": "JAMA Network Open",
+      "issn_l": "2574-3805",
+      "issn": [
+        "2574-3805"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320259",
+      "host_organization_name": "American Medical Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320259"
+      ],
+      "host_organization_lineage_names": [
+        "American Medical Association"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "JAMA Network Open",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 1.0
+    },
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities",
+      "score": 0.4074000120162964
+    },
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities",
+      "score": 0.4000000059604645
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "id": "https://metadata.un.org/sdg/1",
+      "display_name": "No poverty",
+      "score": 0.5678675174713135
+    }
+  ],
+  "study_designs": [
+    {
+      "id": "https://openalex.org/study-designs/observational-study",
+      "display_name": "Observational Study"
+    }
+  ],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7139940297.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7139940297.grobid-xml"
+  },
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W2018163757",
+    "https://openalex.org/W2061332916",
+    "https://openalex.org/W2074805800",
+    "https://openalex.org/W2109839011",
+    "https://openalex.org/W2136527705",
+    "https://openalex.org/W2162775913",
+    "https://openalex.org/W2417537877",
+    "https://openalex.org/W2561220038",
+    "https://openalex.org/W2920783516",
+    "https://openalex.org/W2970206402",
+    "https://openalex.org/W3007031153",
+    "https://openalex.org/W3022423927",
+    "https://openalex.org/W3084374632",
+    "https://openalex.org/W3176698760",
+    "https://openalex.org/W4200248661",
+    "https://openalex.org/W4294826717",
+    "https://openalex.org/W4378783608",
+    "https://openalex.org/W4385969575",
+    "https://openalex.org/W4390939599",
+    "https://openalex.org/W4394710954",
+    "https://openalex.org/W4399056253",
+    "https://openalex.org/W4399997765",
+    "https://openalex.org/W4402059754",
+    "https://openalex.org/W4407084067",
+    "https://openalex.org/W4408330286",
+    "https://openalex.org/W4410112202",
+    "https://openalex.org/W4412741617"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Importance:": [
+      0
+    ],
+    "Health": [
+      1
+    ],
+    "care": [
+      2,
+      77,
+      82,
+      442
+    ],
+    "systems": [
+      3
+    ],
+    "can": [
+      4
+    ],
+    "help": [
+      5
+    ],
+    "protect": [
+      6
+    ],
+    "patients": [
+      7,
+      59,
+      74,
+      109,
+      126,
+      226,
+      256
+    ],
+    "from": [
+      8,
+      92,
+      110,
+      146,
+      163,
+      183,
+      398
+    ],
+    "the": [
+      9,
+      85,
+      140,
+      159,
+      164,
+      370
+    ],
+    "increasing": [
+      10
+    ],
+    "threat": [
+      11
+    ],
+    "of": [
+      12,
+      73,
+      239,
+      369
+    ],
+    "extreme": [
+      13,
+      33,
+      51,
+      186
+    ],
+    "heat-driven": [
+      14
+    ],
+    "morbidity": [
+      15
+    ],
+    "and": [
+      16,
+      26,
+      54,
+      63,
+      67,
+      113,
+      116,
+      133,
+      137,
+      174,
+      185,
+      208,
+      221,
+      229,
+      245,
+      271,
+      301,
+      317,
+      338,
+      363,
+      375,
+      383,
+      401
+    ],
+    "mortality.": [
+      17
+    ],
+    "Electronic": [
+      18
+    ],
+    "health": [
+      19,
+      81,
+      441
+    ],
+    "records": [
+      20
+    ],
+    "(EHRs)": [
+      21
+    ],
+    "provide": [
+      22
+    ],
+    "insight": [
+      23
+    ],
+    "into": [
+      24
+    ],
+    "trends": [
+      25
+    ],
+    "local": [
+      27
+    ],
+    "variation": [
+      28
+    ],
+    "in": [
+      29,
+      378
+    ],
+    "thresholds": [
+      30,
+      406
+    ],
+    "above": [
+      31,
+      347,
+      421,
+      428
+    ],
+    "which": [
+      32,
+      392,
+      415
+    ],
+    "heat": [
+      34,
+      52,
+      154,
+      187,
+      373,
+      413,
+      444
+    ],
+    "is": [
+      35
+    ],
+    "associated": [
+      36
+    ],
+    "with": [
+      37,
+      234,
+      252,
+      306,
+      344
+    ],
+    "emergency": [
+      38,
+      76
+    ],
+    "department": [
+      39
+    ],
+    "(ED)": [
+      40
+    ],
+    "use": [
+      41,
+      179,
+      333,
+      377
+    ],
+    "among": [
+      42,
+      58
+    ],
+    "at-risk": [
+      43
+    ],
+    "patient": [
+      44
+    ],
+    "populations.": [
+      45
+    ],
+    "Objective:": [
+      46
+    ],
+    "To": [
+      47
+    ],
+    "examine": [
+      48
+    ],
+    "associations": [
+      49,
+      282,
+      334,
+      386
+    ],
+    "between": [
+      50,
+      309,
+      372
+    ],
+    "exposure": [
+      53,
+      374
+    ],
+    "all-cause": [
+      55,
+      177
+    ],
+    "ED": [
+      56,
+      178,
+      219,
+      332,
+      376
+    ],
+    "visits": [
+      57
+    ],
+    "aged": [
+      60,
+      128,
+      380
+    ],
+    "65": [
+      61,
+      129,
+      381
+    ],
+    "years": [
+      62,
+      130,
+      242,
+      248,
+      382
+    ],
+    "older.": [
+      64
+    ],
+    "Design,": [
+      65
+    ],
+    "Setting,": [
+      66
+    ],
+    "Participants:": [
+      68
+    ],
+    "This": [
+      69,
+      214
+    ],
+    "matched": [
+      70
+    ],
+    "case-control": [
+      71,
+      367
+    ],
+    "study": [
+      72,
+      141,
+      215,
+      368
+    ],
+    "seeking": [
+      75
+    ],
+    "at": [
+      78,
+      227,
+      232,
+      243,
+      249,
+      293,
+      351,
+      390
+    ],
+    "an": [
+      79,
+      432
+    ],
+    "urban": [
+      80
+    ],
+    "system": [
+      83
+    ],
+    "during": [
+      84,
+      139,
+      158
+    ],
+    "summer": [
+      86,
+      160
+    ],
+    "(May": [
+      87
+    ],
+    "1": [
+      88
+    ],
+    "to": [
+      89,
+      94,
+      135,
+      148,
+      437
+    ],
+    "September": [
+      90
+    ],
+    "30)": [
+      91
+    ],
+    "2022": [
+      93
+    ],
+    "2024.": [
+      95
+    ],
+    "Two": [
+      96
+    ],
+    "New": [
+      97
+    ],
+    "York": [
+      98
+    ],
+    "City": [
+      99
+    ],
+    "(NYC)": [
+      100
+    ],
+    "EDs": [
+      101
+    ],
+    "were": [
+      102,
+      127,
+      144,
+      161,
+      181,
+      190,
+      195,
+      211,
+      257,
+      302,
+      335,
+      339,
+      387,
+      407,
+      416
+    ],
+    "included:": [
+      103
+    ],
+    "(1)": [
+      104
+    ],
+    "ED-1,": [
+      105,
+      279,
+      391
+    ],
+    "predominantly": [
+      106,
+      119,
+      395
+    ],
+    "serving": [
+      107,
+      120
+    ],
+    "Medicaid-enrolled": [
+      108,
+      272
+    ],
+    "minoritized": [
+      111,
+      399
+    ],
+    "racial": [
+      112,
+      400
+    ],
+    "ethnic": [
+      114,
+      402
+    ],
+    "groups,": [
+      115
+    ],
+    "(2)": [
+      117
+    ],
+    "ED-2,": [
+      118,
+      253,
+      329
+    ],
+    "White,": [
+      121
+    ],
+    "privately": [
+      122
+    ],
+    "insured": [
+      123
+    ],
+    "patients.": [
+      124
+    ],
+    "Included": [
+      125
+    ],
+    "or": [
+      131,
+      425
+    ],
+    "older": [
+      132
+    ],
+    "presented": [
+      134
+    ],
+    "ED-1": [
+      136,
+      228,
+      244,
+      255
+    ],
+    "ED-2": [
+      138,
+      233
+    ],
+    "period.": [
+      142
+    ],
+    "Data": [
+      143
+    ],
+    "analyzed": [
+      145
+    ],
+    "April": [
+      147
+    ],
+    "August": [
+      149
+    ],
+    "2025.": [
+      150
+    ],
+    "Exposures:": [
+      151
+    ],
+    "Daily": [
+      152,
+      176,
+      192
+    ],
+    "maximum": [
+      153
+    ],
+    "index": [
+      155
+    ],
+    "(HImax)": [
+      156
+    ],
+    "values": [
+      157
+    ],
+    "calculated": [
+      162,
+      196
+    ],
+    "National": [
+      165
+    ],
+    "Centers": [
+      166
+    ],
+    "for": [
+      167,
+      342,
+      434
+    ],
+    "Environmental": [
+      168
+    ],
+    "Information": [
+      169
+    ],
+    "monitor-derived": [
+      170
+    ],
+    "recordings.": [
+      171
+    ],
+    "Main": [
+      172
+    ],
+    "Outcomes": [
+      173
+    ],
+    "Measures:": [
+      175
+    ],
+    "counts": [
+      180
+    ],
+    "derived": [
+      182
+    ],
+    "EHRs,": [
+      184
+    ],
+    "exposure-outcome": [
+      188
+    ],
+    "curves": [
+      189
+    ],
+    "calculated.": [
+      191,
+      212
+    ],
+    "HImax": [
+      193,
+      281,
+      307,
+      331,
+      345,
+      422
+    ],
+    "anomalies": [
+      194,
+      308,
+      346
+    ],
+    "based": [
+      197
+    ],
+    "on": [
+      198,
+      304
+    ],
+    "a": [
+      199,
+      235,
+      394
+    ],
+    "30-year": [
+      200
+    ],
+    "baseline": [
+      201
+    ],
+    "average.": [
+      202,
+      327,
+      361
+    ],
+    "The": [
+      203
+    ],
+    "cumulative": [
+      204
+    ],
+    "odds": [
+      205
+    ],
+    "ratio": [
+      206
+    ],
+    "(OR)": [
+      207
+    ],
+    "95%": [
+      209,
+      355
+    ],
+    "CIs": [
+      210
+    ],
+    "Results:": [
+      213
+    ],
+    "included": [
+      216
+    ],
+    "55": [
+      217
+    ],
+    "200": [
+      218
+    ],
+    "encounters": [
+      220
+    ],
+    "represented": [
+      222
+    ],
+    "15": [
+      223,
+      310
+    ],
+    "092": [
+      224
+    ],
+    "unique": [
+      225
+    ],
+    "19": [
+      230
+    ],
+    "559": [
+      231
+    ],
+    "mean": [
+      236
+    ],
+    "(SD)": [
+      237
+    ],
+    "age": [
+      238
+    ],
+    "74.9": [
+      240,
+      246
+    ],
+    "(8.92)": [
+      241
+    ],
+    "(8.72)": [
+      247
+    ],
+    "ED-2.": [
+      250
+    ],
+    "Compared": [
+      251
+    ],
+    "more": [
+      254
+    ],
+    "female": [
+      258
+    ],
+    "(8589": [
+      259
+    ],
+    "[56.9%]": [
+      260
+    ],
+    "vs": [
+      261,
+      268,
+      275
+    ],
+    "10": [
+      262
+    ],
+    "767": [
+      263
+    ],
+    "[55.0%]),": [
+      264
+    ],
+    "Hispanic": [
+      265
+    ],
+    "(3544": [
+      266
+    ],
+    "[23.5%]": [
+      267
+    ],
+    "2576": [
+      269
+    ],
+    "[13.2%]),": [
+      270
+    ],
+    "(1321": [
+      273
+    ],
+    "[8.8%]": [
+      274
+    ],
+    "824": [
+      276
+    ],
+    "[4.2%]).": [
+      277
+    ],
+    "At": [
+      278,
+      328
+    ],
+    "daily": [
+      280,
+      330
+    ],
+    "increased": [
+      283
+    ],
+    "after": [
+      284
+    ],
+    "66": [
+      285
+    ],
+    "\u00b0F": [
+      286,
+      295,
+      311,
+      319,
+      353,
+      424
+    ],
+    "(OR,": [
+      287,
+      296,
+      312,
+      320
+    ],
+    "1.10": [
+      288,
+      321
+    ],
+    "[95%": [
+      289,
+      298,
+      314,
+      322
+    ],
+    "CI,": [
+      290,
+      299,
+      315,
+      323
+    ],
+    "1.01-1.21]),": [
+      291
+    ],
+    "peaking": [
+      292
+    ],
+    "101": [
+      294
+    ],
+    "1.24": [
+      297
+    ],
+    "1.11-1.39]),": [
+      300
+    ],
+    "higher": [
+      303
+    ],
+    "days": [
+      305,
+      343,
+      420
+    ],
+    "1.07": [
+      313
+    ],
+    "1.01-1.13])": [
+      316
+    ],
+    "18": [
+      318
+    ],
+    "1.01-1.20])": [
+      324
+    ],
+    "warmer": [
+      325,
+      359
+    ],
+    "than": [
+      326,
+      360
+    ],
+    "not": [
+      336,
+      408
+    ],
+    "significant": [
+      337
+    ],
+    "significantly": [
+      340
+    ],
+    "negative": [
+      341
+    ],
+    "16": [
+      348
+    ],
+    "\u00b0F,": [
+      349,
+      430
+    ],
+    "nadiring": [
+      350
+    ],
+    "21": [
+      352
+    ],
+    "(0.84,": [
+      354
+    ],
+    "CI": [
+      356
+    ],
+    "[0.73,": [
+      357
+    ],
+    "0.95])": [
+      358
+    ],
+    "Conclusions": [
+      362
+    ],
+    "Relevance:": [
+      364
+    ],
+    "In": [
+      365
+    ],
+    "this": [
+      366
+    ],
+    "association": [
+      371,
+      405
+    ],
+    "adults": [
+      379
+    ],
+    "older,": [
+      384
+    ],
+    "positive": [
+      385
+    ],
+    "only": [
+      388
+    ],
+    "observed": [
+      389
+    ],
+    "served": [
+      393
+    ],
+    "lower-income": [
+      396
+    ],
+    "population": [
+      397
+    ],
+    "groups.": [
+      403
+    ],
+    "These": [
+      404
+    ],
+    "fully": [
+      409
+    ],
+    "captured": [
+      410
+    ],
+    "by": [
+      411,
+      418
+    ],
+    "NYC": [
+      412
+    ],
+    "advisories,": [
+      414
+    ],
+    "triggered": [
+      417
+    ],
+    "2": [
+      419
+    ],
+    "95": [
+      423
+    ],
+    "any": [
+      426
+    ],
+    "time": [
+      427
+    ],
+    "100": [
+      429
+    ],
+    "highlighting": [
+      431
+    ],
+    "opportunity": [
+      433
+    ],
+    "future": [
+      435
+    ],
+    "research": [
+      436
+    ],
+    "develop": [
+      438
+    ],
+    "targeted,": [
+      439
+    ],
+    "risk-informed": [
+      440
+    ],
+    "system-based": [
+      443
+    ],
+    "warning": [
+      445
+    ],
+    "strategies.": [
+      446
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-10-06T10:28:23.643775",
+  "created_date": "2026-03-21T00:00:00"
+}

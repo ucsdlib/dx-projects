@@ -1,0 +1,1827 @@
+{
+  "id": "https://openalex.org/W3188729567",
+  "doi": "https://doi.org/10.1073/pnas.2024792118",
+  "title": "Global urban population exposure to extreme heat",
+  "display_name": "Global urban population exposure to extreme heat",
+  "publication_year": 2021,
+  "publication_date": "2021-10-04",
+  "ids": {
+    "openalex": "https://openalex.org/W3188729567",
+    "doi": "https://doi.org/10.1073/pnas.2024792118",
+    "mag": "3188729567",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/34607944"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1073/pnas.2024792118",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.2024792118",
+    "pdf_url": "https://www.pnas.org/content/pnas/118/41/e2024792118.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the National Academy of Sciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://www.pnas.org/content/pnas/118/41/e2024792118.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091289447",
+        "display_name": "Cascade P. Tuholske",
+        "orcid": "https://orcid.org/0000-0002-4806-0462",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4806-0462"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154570441",
+          "display_name": "University of California, Santa Barbara",
+          "ror": "https://ror.org/02t274463",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Cascade Tuholske",
+      "raw_affiliation_strings": [
+        "Center for International Earth Science Informational Network, The Earth Institute, Columbia University, New York, NY 10964;",
+        "Climate Hazards Center, University of California, Santa Barbara, CA 93106;",
+        "Department of Geography, University of California, Santa Barbara, CA 93106;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for International Earth Science Informational Network, The Earth Institute, Columbia University, New York, NY 10964;",
+          "institution_ids": [
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Climate Hazards Center, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geography, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052710990",
+        "display_name": "Kelly Krispin Caylor",
+        "orcid": "https://orcid.org/0000-0002-6466-6448",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6466-6448"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154570441",
+          "display_name": "University of California, Santa Barbara",
+          "ror": "https://ror.org/02t274463",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kelly Caylor",
+      "raw_affiliation_strings": [
+        "Bren School of Environmental Science &amp; Management, University of California, Santa Barbara, CA 93106;",
+        "Department of Geography, University of California, Santa Barbara, CA 93106;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bren School of Environmental Science &amp; Management, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geography, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013633981",
+        "display_name": "Chris C. Funk",
+        "orcid": "https://orcid.org/0000-0002-9254-6718",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9254-6718"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154570441",
+          "display_name": "University of California, Santa Barbara",
+          "ror": "https://ror.org/02t274463",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chris Funk",
+      "raw_affiliation_strings": [
+        "Climate Hazards Center, University of California, Santa Barbara, CA 93106;",
+        "Department of Geography, University of California, Santa Barbara, CA 93106;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9254-6718",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Climate Hazards Center, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geography, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5010316565",
+        "display_name": "A. Verdin",
+        "orcid": "https://orcid.org/0000-0003-1967-9626",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1967-9626"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew Verdin",
+      "raw_affiliation_strings": [
+        "Minnesota Population Center, University of Minnesota, Twin Cities, Minneapolis, MN 55455;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Minnesota Population Center, University of Minnesota, Twin Cities, Minneapolis, MN 55455;",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081461353",
+        "display_name": "Stuart H. Sweeney",
+        "orcid": "https://orcid.org/0000-0003-3450-6870",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3450-6870"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154570441",
+          "display_name": "University of California, Santa Barbara",
+          "ror": "https://ror.org/02t274463",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stuart Sweeney",
+      "raw_affiliation_strings": [
+        "Department of Geography, University of California, Santa Barbara, CA 93106;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geography, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Kathryn Grace",
+        "orcid": "https://orcid.org/0000-0003-4822-6183",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4822-6183"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130238516",
+          "display_name": "University of Minnesota",
+          "ror": "https://ror.org/017zqws13",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kathryn Grace",
+      "raw_affiliation_strings": [
+        "Department of Geography, Environment &amp; Society, University of Minnesota, Twin Cities, Minneapolis, MN 55455;",
+        "Minnesota Population Center, University of Minnesota, Twin Cities, Minneapolis, MN 55455;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4822-6183",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geography, Environment &amp; Society, University of Minnesota, Twin Cities, Minneapolis, MN 55455;",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Minnesota Population Center, University of Minnesota, Twin Cities, Minneapolis, MN 55455;",
+          "institution_ids": [
+            "https://openalex.org/I130238516"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Pete Peterson",
+        "orcid": "https://orcid.org/0000-0001-9742-5379",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9742-5379"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154570441",
+          "display_name": "University of California, Santa Barbara",
+          "ror": "https://ror.org/02t274463",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pete Peterson",
+      "raw_affiliation_strings": [
+        "Climate Hazards Center, University of California, Santa Barbara, CA 93106;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9742-5379",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Climate Hazards Center, University of California, Santa Barbara, CA 93106;",
+          "institution_ids": [
+            "https://openalex.org/I154570441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Tom Evans",
+        "orcid": "https://orcid.org/0000-0003-4591-1011",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4591-1011"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I138006243",
+          "display_name": "University of Arizona",
+          "ror": "https://ror.org/03m2x1q45",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I138006243"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tom Evans",
+      "raw_affiliation_strings": [
+        "School of Geography, Development and Environment, University of Arizona, Tucson, AZ 85719"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4591-1011",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Geography, Development and Environment, University of Arizona, Tucson, AZ 85719",
+          "institution_ids": [
+            "https://openalex.org/I138006243"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5091289447"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I154570441",
+    "https://openalex.org/I78577930"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 34.8871,
+  "has_fulltext": true,
+  "cited_by_count": 772,
+  "citation_normalized_percentile": {
+    "value": 0.99953058,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "118",
+    "issue": "41",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9779999852180481,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9779999852180481,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.01600000075995922,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.0017999999690800905,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat-exposure",
+      "display_name": "extreme heat exposure",
+      "score": 0.8640000224113464
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.7369999885559082
+    },
+    {
+      "id": "https://openalex.org/keywords/wet-bulb-globe-temperature",
+      "display_name": "wet bulb globe temperature",
+      "score": 0.8519999980926514
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-population-growth",
+      "display_name": "urban population growth",
+      "score": 0.8410000205039978
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-warming",
+      "display_name": "urban warming",
+      "score": 0.9629999995231628
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-early-warning-systems",
+      "display_name": "heat early warning systems",
+      "score": 0.5429999828338623
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-adaptation",
+      "display_name": "heat adaptation",
+      "score": 0.6909999847412109
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.5526748299598694
+    },
+    {
+      "id": "https://openalex.org/C2908647359",
+      "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+      "display_name": "Population",
+      "level": 2,
+      "score": 0.48494651913642883
+    },
+    {
+      "id": "https://openalex.org/C54005896",
+      "wikidata": "https://www.wikidata.org/wiki/Q215712",
+      "display_name": "Urban heat island",
+      "level": 2,
+      "score": 0.46458959579467773
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.3955201506614685
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.33645498752593994
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.2749890089035034
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.21915695071220398
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.17104700207710266
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.12627309560775757
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.09604856371879578
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000080165",
+      "descriptor_name": "Extreme Weather",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000080165",
+      "descriptor_name": "Extreme Weather",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000080165",
+      "descriptor_name": "Extreme Weather",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D000080165",
+      "descriptor_name": "Extreme Weather",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002980",
+      "descriptor_name": "Climate",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002980",
+      "descriptor_name": "Climate",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002980",
+      "descriptor_name": "Climate",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002980",
+      "descriptor_name": "Climate",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011634",
+      "descriptor_name": "Public Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011634",
+      "descriptor_name": "Public Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011634",
+      "descriptor_name": "Public Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011634",
+      "descriptor_name": "Public Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014507",
+      "descriptor_name": "Urbanization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014507",
+      "descriptor_name": "Urbanization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014507",
+      "descriptor_name": "Urbanization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014507",
+      "descriptor_name": "Urbanization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057232",
+      "descriptor_name": "Global Warming",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057232",
+      "descriptor_name": "Global Warming",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057232",
+      "descriptor_name": "Global Warming",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057232",
+      "descriptor_name": "Global Warming",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1073/pnas.2024792118",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.2024792118",
+      "pdf_url": "https://www.pnas.org/content/pnas/118/41/e2024792118.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the National Academy of Sciences",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:34607944",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/34607944",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:escholarship.org:ark:/13030/qt71s1t60n",
+      "is_oa": true,
+      "landing_page_url": "https://escholarship.org/uc/item/71s1t60n",
+      "pdf_url": "https://escholarship.org/content/qt71s1t60n/qt71s1t60n.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Proceedings of the National Academy of Sciences of the United States of America, vol 118, iss 41",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:europepmc.org:7436244",
+      "is_oa": true,
+      "landing_page_url": "http://europepmc.org/pmc/articles/PMC8521713",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:8521713",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8521713",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Proc Natl Acad Sci U S A",
+      "raw_type": "Text"
+    },
+    {
+      "id": "mag:3188729567",
+      "is_oa": false,
+      "landing_page_url": "https://ui.adsabs.harvard.edu/abs/2020AGUFMGC089..06T/abstract",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306501062",
+        "display_name": "AGU Fall Meeting Abstracts",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": "AGU Fall Meeting Abstracts",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1073/pnas.2024792118",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.2024792118",
+    "pdf_url": "https://www.pnas.org/content/pnas/118/41/e2024792118.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the National Academy of Sciences",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.9333000183105469,
+      "display_name": "Sustainable cities and communities",
+      "id": "https://metadata.un.org/sdg/11"
+    },
+    {
+      "score": 0.8199999928474426,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    },
+    {
+      "score": 0.5351999998092651,
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "score": 0.5799999833106995,
+      "display_name": "Sustainable cities and communities",
+      "id": "https://metadata.un.org/sdg/11"
+    }
+  ],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1306791035",
+      "display_name": "EARLY IDENTIFICATION AND FORECASTS OF REDUCED-YIELD AGRICULTURAL SEASONS IN THE DEVELOPING WORLD.",
+      "funder_award_id": "72DFFP19CA00001",
+      "funder_id": "https://openalex.org/F4320306115",
+      "funder_display_name": "United States Agency for International Development"
+    },
+    {
+      "id": "https://openalex.org/G1668205357",
+      "display_name": null,
+      "funder_award_id": "W911NF-18-1-0018",
+      "funder_id": "https://openalex.org/F4320332180",
+      "funder_display_name": "Defense Advanced Research Projects Agency"
+    },
+    {
+      "id": "https://openalex.org/G1880012877",
+      "display_name": null,
+      "funder_award_id": "80NSSC19K0686",
+      "funder_id": "https://openalex.org/F4320306101",
+      "funder_display_name": "National Aeronautics and Space Administration"
+    },
+    {
+      "id": "https://openalex.org/G314573453",
+      "display_name": "Hazards SEES: Understanding Cross-Scale Interactions of Trade and Food Policy to Improve Resilience to Drought Risk",
+      "funder_award_id": "1832393",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    },
+    {
+      "id": "https://openalex.org/G3923802606",
+      "display_name": null,
+      "funder_award_id": "DEB-1924309",
+      "funder_id": "https://openalex.org/F4320306101",
+      "funder_display_name": "National Aeronautics and Space Administration"
+    },
+    {
+      "id": "https://openalex.org/G5057689142",
+      "display_name": "WSC-Category 2 Collaborative: Impacts of Agricultural Decision Making and Adaptive Management on Food Security",
+      "funder_award_id": "1801251",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    },
+    {
+      "id": "https://openalex.org/G6542868878",
+      "display_name": null,
+      "funder_award_id": "SES-1801251",
+      "funder_id": "https://openalex.org/F4320306101",
+      "funder_display_name": "National Aeronautics and Space Administration"
+    },
+    {
+      "id": "https://openalex.org/G7452299184",
+      "display_name": null,
+      "funder_award_id": "W911NF",
+      "funder_id": "https://openalex.org/F4320338281",
+      "funder_display_name": "Army Research Office"
+    },
+    {
+      "id": "https://openalex.org/G7834735179",
+      "display_name": "CNH2-L:  Linkages and Interactions Between Urban Food Security and Rural Agricultural Systems",
+      "funder_award_id": "1924309",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    },
+    {
+      "id": "https://openalex.org/G8798160797",
+      "display_name": null,
+      "funder_award_id": "SES-1832393",
+      "funder_id": "https://openalex.org/F4320306101",
+      "funder_display_name": "National Aeronautics and Space Administration"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    },
+    {
+      "id": "https://openalex.org/F4320306101",
+      "display_name": "National Aeronautics and Space Administration",
+      "ror": "https://ror.org/027ka1x80"
+    },
+    {
+      "id": "https://openalex.org/F4320306115",
+      "display_name": "United States Agency for International Development",
+      "ror": "https://ror.org/01n6e6j62"
+    },
+    {
+      "id": "https://openalex.org/F4320322037",
+      "display_name": "Nuclear Safety and Security Commission",
+      "ror": "https://ror.org/05qk3ge34"
+    },
+    {
+      "id": "https://openalex.org/F4320332180",
+      "display_name": "Defense Advanced Research Projects Agency",
+      "ror": "https://ror.org/02caytj08"
+    },
+    {
+      "id": "https://openalex.org/F4320332262",
+      "display_name": "Earth Institute, Columbia University",
+      "ror": "https://ror.org/00hj8s172"
+    },
+    {
+      "id": "https://openalex.org/F4320332500",
+      "display_name": "University of California, Santa Barbara",
+      "ror": "https://ror.org/02t274463"
+    },
+    {
+      "id": "https://openalex.org/F4320332815",
+      "display_name": "Advanced Research Projects Agency",
+      "ror": "https://ror.org/02caytj08"
+    },
+    {
+      "id": "https://openalex.org/F4320338281",
+      "display_name": "Army Research Office",
+      "ror": "https://ror.org/05epdh915"
+    }
+  ],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W3188729567.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W3188729567.grobid-xml"
+  },
+  "referenced_works_count": 66,
+  "referenced_works": [
+    "https://openalex.org/W276005635",
+    "https://openalex.org/W1523570638",
+    "https://openalex.org/W1875199686",
+    "https://openalex.org/W1966793094",
+    "https://openalex.org/W1967373397",
+    "https://openalex.org/W1971906282",
+    "https://openalex.org/W1975288057",
+    "https://openalex.org/W1993156348",
+    "https://openalex.org/W2032266442",
+    "https://openalex.org/W2040223369",
+    "https://openalex.org/W2049377387",
+    "https://openalex.org/W2050263501",
+    "https://openalex.org/W2063700061",
+    "https://openalex.org/W2099149233",
+    "https://openalex.org/W2099468086",
+    "https://openalex.org/W2102574799",
+    "https://openalex.org/W2110840023",
+    "https://openalex.org/W2114121137",
+    "https://openalex.org/W2120496201",
+    "https://openalex.org/W2124122666",
+    "https://openalex.org/W2138328362",
+    "https://openalex.org/W2155657253",
+    "https://openalex.org/W2163235518",
+    "https://openalex.org/W2169744144",
+    "https://openalex.org/W2174435849",
+    "https://openalex.org/W2176683077",
+    "https://openalex.org/W2182896021",
+    "https://openalex.org/W2336766574",
+    "https://openalex.org/W2414244820",
+    "https://openalex.org/W2517751574",
+    "https://openalex.org/W2600045851",
+    "https://openalex.org/W2610866861",
+    "https://openalex.org/W2626726142",
+    "https://openalex.org/W2741364466",
+    "https://openalex.org/W2750595772",
+    "https://openalex.org/W2775480501",
+    "https://openalex.org/W2799345573",
+    "https://openalex.org/W2800989100",
+    "https://openalex.org/W2803588082",
+    "https://openalex.org/W2804532139",
+    "https://openalex.org/W2884325185",
+    "https://openalex.org/W2890917490",
+    "https://openalex.org/W2904006770",
+    "https://openalex.org/W2918494856",
+    "https://openalex.org/W2926093616",
+    "https://openalex.org/W2944864668",
+    "https://openalex.org/W2953184019",
+    "https://openalex.org/W2956512070",
+    "https://openalex.org/W2963738540",
+    "https://openalex.org/W2968473890",
+    "https://openalex.org/W2971795275",
+    "https://openalex.org/W2987568643",
+    "https://openalex.org/W3022490421",
+    "https://openalex.org/W3025949386",
+    "https://openalex.org/W3046165278",
+    "https://openalex.org/W3047958561",
+    "https://openalex.org/W3068784285",
+    "https://openalex.org/W3084449021",
+    "https://openalex.org/W3086406126",
+    "https://openalex.org/W3106828535",
+    "https://openalex.org/W3108984086",
+    "https://openalex.org/W3110437710",
+    "https://openalex.org/W3119853034",
+    "https://openalex.org/W3124476467",
+    "https://openalex.org/W3160706413",
+    "https://openalex.org/W4238440570"
+  ],
+  "related_works": [
+    "https://openalex.org/W3195408733",
+    "https://openalex.org/W3199520099",
+    "https://openalex.org/W3210602814",
+    "https://openalex.org/W3144636442",
+    "https://openalex.org/W3208386550",
+    "https://openalex.org/W2979997394",
+    "https://openalex.org/W3104506668",
+    "https://openalex.org/W3195806968",
+    "https://openalex.org/W3193058822",
+    "https://openalex.org/W3205680988",
+    "https://openalex.org/W2992180584",
+    "https://openalex.org/W3207066602",
+    "https://openalex.org/W3092488779",
+    "https://openalex.org/W3192508247",
+    "https://openalex.org/W3011908377",
+    "https://openalex.org/W3087951423",
+    "https://openalex.org/W2997966186",
+    "https://openalex.org/W3012660251",
+    "https://openalex.org/W3203618742",
+    "https://openalex.org/W3024423586"
+  ],
+  "abstract_inverted_index": {
+    ")": [
+      0
+    ],
+    "at": [
+      1
+    ],
+    "the": [
+      2,
+      10,
+      48,
+      76,
+      99,
+      129
+    ],
+    "global,": [
+      3
+    ],
+    "regional,": [
+      4
+    ],
+    "national,": [
+      5
+    ],
+    "and": [
+      6,
+      87,
+      112,
+      134
+    ],
+    "municipality": [
+      7
+    ],
+    "levels,": [
+      8
+    ],
+    "separating": [
+      9
+    ],
+    "contribution": [
+      11
+    ],
+    "to": [
+      12,
+      42,
+      56,
+      108,
+      138
+    ],
+    "exposure": [
+      13,
+      36,
+      52,
+      91,
+      106,
+      114
+    ],
+    "trajectories": [
+      14,
+      62,
+      92
+    ],
+    "from": [
+      15,
+      40,
+      141
+    ],
+    "urban": [
+      16,
+      21,
+      45,
+      57,
+      67,
+      85,
+      142
+    ],
+    "population": [
+      17,
+      58,
+      78,
+      88
+    ],
+    "growth": [
+      18,
+      59,
+      89
+    ],
+    "versus": [
+      19
+    ],
+    "total": [
+      20,
+      84
+    ],
+    "warming.": [
+      22
+    ],
+    "Using": [
+      23
+    ],
+    "a": [
+      24
+    ],
+    "daily": [
+      25
+    ],
+    "maximum": [
+      26
+    ],
+    "wet": [
+      27
+    ],
+    "bulb": [
+      28
+    ],
+    "globe": [
+      29
+    ],
+    "temperature": [
+      30
+    ],
+    "threshold": [
+      31
+    ],
+    "of": [
+      32,
+      66,
+      75,
+      101
+    ],
+    "30": [
+      33
+    ],
+    "\u00b0C,": [
+      34
+    ],
+    "global": [
+      35
+    ],
+    "increased": [
+      37,
+      63
+    ],
+    "nearly": [
+      38
+    ],
+    "200%": [
+      39
+    ],
+    "1983": [
+      41
+    ],
+    "2016.": [
+      43
+    ],
+    "Total": [
+      44
+    ],
+    "warming": [
+      46,
+      86
+    ],
+    "elevated": [
+      47
+    ],
+    "annual": [
+      49
+    ],
+    "increase": [
+      50
+    ],
+    "in": [
+      51,
+      71
+    ],
+    "by": [
+      53
+    ],
+    "52%": [
+      54
+    ],
+    "compared": [
+      55
+    ],
+    "alone.": [
+      60
+    ],
+    "Exposure": [
+      61
+    ],
+    "for": [
+      64,
+      131
+    ],
+    "46%": [
+      65
+    ],
+    "settlements,": [
+      68
+    ],
+    "which": [
+      69
+    ],
+    "together": [
+      70
+    ],
+    "2016": [
+      72
+    ],
+    "comprised": [
+      73
+    ],
+    "23%": [
+      74
+    ],
+    "planet's": [
+      77
+    ],
+    "(1.7": [
+      79
+    ],
+    "billion": [
+      80
+    ],
+    "people).": [
+      81
+    ],
+    "However,": [
+      82
+    ],
+    "how": [
+      83
+    ],
+    "drove": [
+      90
+    ],
+    "is": [
+      93
+    ],
+    "spatially": [
+      94
+    ],
+    "heterogeneous.": [
+      95
+    ],
+    "This": [
+      96
+    ],
+    "study": [
+      97
+    ],
+    "reinforces": [
+      98
+    ],
+    "importance": [
+      100
+    ],
+    "employing": [
+      102
+    ],
+    "multiple": [
+      103
+    ],
+    "extreme": [
+      104,
+      125,
+      143
+    ],
+    "heat": [
+      105,
+      126,
+      144
+    ],
+    "metrics": [
+      107
+    ],
+    "identify": [
+      109
+    ],
+    "local": [
+      110
+    ],
+    "patterns": [
+      111
+    ],
+    "compare": [
+      113
+    ],
+    "trends": [
+      115
+    ],
+    "across": [
+      116
+    ],
+    "geographies.": [
+      117
+    ],
+    "Our": [
+      118
+    ],
+    "results": [
+      119
+    ],
+    "suggest": [
+      120
+    ],
+    "that": [
+      121
+    ],
+    "previous": [
+      122
+    ],
+    "research": [
+      123
+    ],
+    "underestimates": [
+      124
+    ],
+    "exposure,": [
+      127
+    ],
+    "highlighting": [
+      128
+    ],
+    "urgency": [
+      130
+    ],
+    "targeted": [
+      132
+    ],
+    "adaptations": [
+      133
+    ],
+    "early": [
+      135
+    ],
+    "warning": [
+      136
+    ],
+    "systems": [
+      137
+    ],
+    "reduce": [
+      139
+    ],
+    "harm": [
+      140
+    ],
+    "exposure.": [
+      145
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 192
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 193
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 169
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 126
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 83
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2026-10-06T10:28:23.643775",
+  "created_date": "2025-10-10T00:00:00"
+}
