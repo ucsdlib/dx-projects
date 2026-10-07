@@ -1,0 +1,2084 @@
+{
+  "id": "https://openalex.org/W4390346415",
+  "doi": "https://doi.org/10.1007/s43678-023-00622-y",
+  "title": "Heatstroke presentations to urban hospitals during BC\u2019s extreme heat event: lessons for the future",
+  "display_name": "Heatstroke presentations to urban hospitals during BC\u2019s extreme heat event: lessons for the future",
+  "publication_year": 2023,
+  "publication_date": "2023-12-28",
+  "ids": {
+    "openalex": "https://openalex.org/W4390346415",
+    "doi": "https://doi.org/10.1007/s43678-023-00622-y",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/38153655"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s43678-023-00622-y",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s43678-023-00622-y",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43678-023-00622-y.pdf",
+    "source": {
+      "id": "https://openalex.org/S99068972",
+      "display_name": "Canadian Journal of Emergency Medicine",
+      "issn_l": "1481-8035",
+      "issn": [
+        "1481-8035",
+        "1481-8043"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Canadian Journal of Emergency Medicine",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://link.springer.com/content/pdf/10.1007/s43678-023-00622-y.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5061397857",
+        "display_name": "Kira L. Gossack-Keenan",
+        "orcid": "https://orcid.org/0000-0002-7631-1652",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7631-1652"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Kira Gossack-Keenan",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada. kira.gossackkeenan@vch.ca",
+        "Faculty of Medicine, Diamond Health Care Centre, 11th Floor, 2775 Laurel Street, Vancouver, BC, V5Z 1M9, Canada. kira.gossackkeenan@vch.ca",
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+        "Faculty of Medicine, Diamond Health Care Centre, 11th Floor, 2775 Laurel Street, Vancouver, BC, V5Z 1M9, Canada"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7631-1652",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada. kira.gossackkeenan@vch.ca",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Faculty of Medicine, Diamond Health Care Centre, 11th Floor, 2775 Laurel Street, Vancouver, BC, V5Z 1M9, Canada. kira.gossackkeenan@vch.ca",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Faculty of Medicine, Diamond Health Care Centre, 11th Floor, 2775 Laurel Street, Vancouver, BC, V5Z 1M9, Canada",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093559886",
+        "display_name": "David Seonguk Yeom",
+        "orcid": "https://orcid.org/0009-0004-0334-3997",
+        "observed_orcids": [
+          "https://orcid.org/0009-0004-0334-3997"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Seonguk Yeom",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5092943406",
+        "display_name": "Josephine Kanu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Josephine Kanu",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030002104",
+        "display_name": "Jeffrey P. Hau",
+        "orcid": "https://orcid.org/0000-0002-3656-6538",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3656-6538"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210150180",
+          "display_name": "Vancouver Coastal Health Research Institute",
+          "ror": "https://ror.org/04htzww22",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I141074466",
+            "https://openalex.org/I4210150180"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffrey P. Hau",
+      "raw_affiliation_strings": [
+        "Centre for Clinical Epidemiology and Evaluation, Vancouver Coastal Health Research Institute, Vancouver, BC, Canada",
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Clinical Epidemiology and Evaluation, Vancouver Coastal Health Research Institute, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210150180"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017393617",
+        "display_name": "Rhonda J. Rosychuk",
+        "orcid": "https://orcid.org/0000-0001-8019-5466",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8019-5466"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154425047",
+          "display_name": "University of Alberta",
+          "ror": "https://ror.org/0160cpw27",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rhonda J. Rosychuk",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics, University of Alberta, Edmonton, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics, University of Alberta, Edmonton, Canada",
+          "institution_ids": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5065488715",
+        "display_name": "Dylan G. Clark",
+        "orcid": "https://orcid.org/0000-0002-3676-6150",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3676-6150"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1342547582",
+          "display_name": "Environment and Climate Change Canada",
+          "ror": "https://ror.org/026ny0e17",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1342547582",
+            "https://openalex.org/I2802286613"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dylan Clark",
+      "raw_affiliation_strings": [
+        "Climate Institute Canada, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Climate Institute Canada, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I1342547582"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045205055",
+        "display_name": "Rajan Bola",
+        "orcid": "https://orcid.org/0000-0002-7854-3967",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7854-3967"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rajan Bola",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093603479",
+        "display_name": "Caris Tze",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Caris Tze",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093603480",
+        "display_name": "Chris Niosco",
+        "orcid": "https://orcid.org/0009-0008-8555-0728",
+        "observed_orcids": [
+          "https://orcid.org/0009-0008-8555-0728"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chris Niosco",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113083196",
+        "display_name": "Hayley Emery",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hayley Emery",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050570542",
+        "display_name": "Phillip Yeung",
+        "orcid": "https://orcid.org/0000-0003-4026-9269",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4026-9269"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Phillip Yeung",
+      "raw_affiliation_strings": [
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5048426640",
+        "display_name": "Corinne Mich\u00e8le Hohl",
+        "orcid": "https://orcid.org/0000-0002-9210-7838",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9210-7838"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2802832906",
+          "display_name": "Vancouver General Hospital",
+          "ror": "https://ror.org/02zg69r60",
+          "country_code": "CA",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I141074466",
+            "https://openalex.org/I2799475292",
+            "https://openalex.org/I2802832906"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210150180",
+          "display_name": "Vancouver Coastal Health Research Institute",
+          "ror": "https://ror.org/04htzww22",
+          "country_code": "CA",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I141074466",
+            "https://openalex.org/I4210150180"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Corinne M. Hohl",
+      "raw_affiliation_strings": [
+        "Centre for Clinical Epidemiology and Evaluation, Vancouver Coastal Health Research Institute, Vancouver, BC, Canada",
+        "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+        "Emergency Department, Vancouver General Hospital, Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Clinical Epidemiology and Evaluation, Vancouver Coastal Health Research Institute, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210150180"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Emergency Medicine, University of British Columbia, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Emergency Department, Vancouver General Hospital, Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I2802832906"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5061397857"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I141945490"
+  ],
+  "apc_list": {
+    "value": 3590,
+    "currency": "USD",
+    "value_usd": 3590
+  },
+  "apc_paid": {
+    "value": 3590,
+    "currency": "USD",
+    "value_usd": 3590
+  },
+  "fwci": 2.3836,
+  "has_fulltext": true,
+  "cited_by_count": 16,
+  "citation_normalized_percentile": {
+    "value": 0.89646721,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "26",
+    "issue": "2",
+    "first_page": "111",
+    "last_page": "118"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11109",
+    "display_name": "Thermoregulation and physiological responses",
+    "score": 0.9023000001907349,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2737",
+      "display_name": "Physiology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.9023000001907349,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.09619999676942825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12365",
+      "display_name": "Effects of Environmental Stressors on Livestock",
+      "score": 0.0003000000142492354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/heat-stroke",
+      "display_name": "heatstroke",
+      "score": 1.0
+    },
+    {
+      "id": "https://openalex.org/keywords/in-hospital-mortality",
+      "display_name": "in-hospital mortality",
+      "score": 0.8920000195503235
+    },
+    {
+      "id": "https://openalex.org/keywords/hypotension",
+      "display_name": "hypotension",
+      "score": 0.6489999890327454
+    },
+    {
+      "id": "https://openalex.org/keywords/delayed-presentation",
+      "display_name": "delayed presentation",
+      "score": 0.593999981880188
+    },
+    {
+      "id": "https://openalex.org/keywords/elderly-patients",
+      "display_name": "elderly patients",
+      "score": 0.5820000171661377
+    },
+    {
+      "id": "https://openalex.org/keywords/living-alone",
+      "display_name": "living alone",
+      "score": 0.6000000238418579
+    },
+    {
+      "id": "https://openalex.org/keywords/hospital-resource-allocation",
+      "display_name": "hospital resource allocation",
+      "score": 0.5640000104904175
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change-and-health",
+      "display_name": "climate change and health",
+      "score": 0.5519999861717224
+    },
+    {
+      "id": "https://openalex.org/keywords/lower-mainland-british-columbia",
+      "display_name": "Lower Mainland British Columbia",
+      "score": 0.7289999723434448
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776153327",
+      "wikidata": "https://www.wikidata.org/wiki/Q337554",
+      "display_name": "Heatstroke",
+      "level": 2,
+      "score": 0.9457195997238159
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.7937846183776855
+    },
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.7660826444625854
+    },
+    {
+      "id": "https://openalex.org/C2776433176",
+      "wikidata": "https://www.wikidata.org/wiki/Q1191065",
+      "display_name": "Heat illness",
+      "level": 2,
+      "score": 0.7061671018600464
+    },
+    {
+      "id": "https://openalex.org/C545542383",
+      "wikidata": "https://www.wikidata.org/wiki/Q2751242",
+      "display_name": "Medical emergency",
+      "level": 1,
+      "score": 0.593701958656311
+    },
+    {
+      "id": "https://openalex.org/C2779662365",
+      "wikidata": "https://www.wikidata.org/wiki/Q5416694",
+      "display_name": "Event (particle physics)",
+      "level": 2,
+      "score": 0.5529263615608215
+    },
+    {
+      "id": "https://openalex.org/C194828623",
+      "wikidata": "https://www.wikidata.org/wiki/Q2861470",
+      "display_name": "Emergency medicine",
+      "level": 1,
+      "score": 0.37691760063171387
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.13502591848373413
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.09882327914237976
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.09571307897567749
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.08259209990501404
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000328",
+      "descriptor_name": "Adult",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006786",
+      "descriptor_name": "Hospitals, Urban",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006786",
+      "descriptor_name": "Hospitals, Urban",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006786",
+      "descriptor_name": "Hospitals, Urban",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006786",
+      "descriptor_name": "Hospitals, Urban",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006786",
+      "descriptor_name": "Hospitals, Urban",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000175",
+      "qualifier_name": "diagnosis",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D018883",
+      "descriptor_name": "Heat Stroke",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1007/s43678-023-00622-y",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1007/s43678-023-00622-y",
+      "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43678-023-00622-y.pdf",
+      "source": {
+        "id": "https://openalex.org/S99068972",
+        "display_name": "Canadian Journal of Emergency Medicine",
+        "issn_l": "1481-8035",
+        "issn": [
+          "1481-8035",
+          "1481-8043"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Canadian Journal of Emergency Medicine",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:38153655",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38153655",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "CJEM",
+      "raw_type": "Review"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10861625",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10861625",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10861625/pdf/43678_2023_Article_622.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "CJEM",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1007/s43678-023-00622-y",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1007/s43678-023-00622-y",
+    "pdf_url": "https://link.springer.com/content/pdf/10.1007/s43678-023-00622-y.pdf",
+    "source": {
+      "id": "https://openalex.org/S99068972",
+      "display_name": "Canadian Journal of Emergency Medicine",
+      "issn_l": "1481-8035",
+      "issn": [
+        "1481-8035",
+        "1481-8043"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Canadian Journal of Emergency Medicine",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Good health and well-being",
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/3"
+    },
+    {
+      "display_name": "Sustainable cities and communities",
+      "score": 0.47999998927116394,
+      "id": "https://metadata.un.org/sdg/11"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "display_name": "Climate action",
+      "score": 0.4399999976158142,
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "study_designs": [
+    {
+      "display_name": "Observational Study",
+      "id": "https://openalex.org/study-designs/observational-study"
+    }
+  ],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320335799",
+      "display_name": "Institute of Climate Change and Public Policy",
+      "ror": "https://ror.org/048655h28"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4390346415.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4390346415.grobid-xml"
+  },
+  "referenced_works_count": 30,
+  "referenced_works": [
+    "https://openalex.org/W784453912",
+    "https://openalex.org/W1575488422",
+    "https://openalex.org/W1599595176",
+    "https://openalex.org/W1970787695",
+    "https://openalex.org/W1974273623",
+    "https://openalex.org/W1975954689",
+    "https://openalex.org/W1989539304",
+    "https://openalex.org/W2049377387",
+    "https://openalex.org/W2054381826",
+    "https://openalex.org/W2086825875",
+    "https://openalex.org/W2115173717",
+    "https://openalex.org/W2120179426",
+    "https://openalex.org/W2131282413",
+    "https://openalex.org/W2136833125",
+    "https://openalex.org/W2175642127",
+    "https://openalex.org/W2582743722",
+    "https://openalex.org/W3013135088",
+    "https://openalex.org/W3091590008",
+    "https://openalex.org/W3105893433",
+    "https://openalex.org/W3139447945",
+    "https://openalex.org/W3144191098",
+    "https://openalex.org/W3194357325",
+    "https://openalex.org/W4205639559",
+    "https://openalex.org/W4206384008",
+    "https://openalex.org/W4210528561",
+    "https://openalex.org/W4210829285",
+    "https://openalex.org/W4225551957",
+    "https://openalex.org/W4229653650",
+    "https://openalex.org/W4304695270",
+    "https://openalex.org/W4310533746"
+  ],
+  "related_works": [
+    "https://openalex.org/W4400278113",
+    "https://openalex.org/W3094161346",
+    "https://openalex.org/W2027998066",
+    "https://openalex.org/W2742282691",
+    "https://openalex.org/W2460428431",
+    "https://openalex.org/W1608175597",
+    "https://openalex.org/W299556265",
+    "https://openalex.org/W2073019439",
+    "https://openalex.org/W2086964316",
+    "https://openalex.org/W4390346415"
+  ],
+  "abstract_inverted_index": {
+    "BACKGROUND:": [
+      0
+    ],
+    "Climate": [
+      1
+    ],
+    "change": [
+      2
+    ],
+    "is": [
+      3
+    ],
+    "leading": [
+      4
+    ],
+    "to": [
+      5,
+      23,
+      33,
+      51,
+      76,
+      103,
+      118,
+      169,
+      219,
+      244
+    ],
+    "more": [
+      6
+    ],
+    "extreme": [
+      7,
+      123,
+      189
+    ],
+    "heat": [
+      8,
+      40,
+      124
+    ],
+    "events": [
+      9
+    ],
+    "in": [
+      10,
+      54,
+      201
+    ],
+    "temperate": [
+      11
+    ],
+    "climates": [
+      12
+    ],
+    "that": [
+      13
+    ],
+    "typically": [
+      14
+    ],
+    "have": [
+      15
+    ],
+    "low": [
+      16
+    ],
+    "levels": [
+      17
+    ],
+    "of": [
+      18,
+      30,
+      47,
+      63,
+      83,
+      157,
+      179,
+      185,
+      188,
+      237,
+      249
+    ],
+    "preparedness.": [
+      19
+    ],
+    "Our": [
+      20,
+      89
+    ],
+    "objective": [
+      21
+    ],
+    "was": [
+      22,
+      92,
+      206
+    ],
+    "describe": [
+      24
+    ],
+    "the": [
+      25,
+      60,
+      80,
+      122,
+      145,
+      186,
+      247
+    ],
+    "characteristics,": [
+      26
+    ],
+    "treatments,": [
+      27
+    ],
+    "and": [
+      28,
+      70,
+      78,
+      100,
+      108,
+      111,
+      165,
+      197,
+      223,
+      241
+    ],
+    "outcomes": [
+      29
+    ],
+    "adults": [
+      31,
+      49
+    ],
+    "presenting": [
+      32,
+      50,
+      66
+    ],
+    "hospitals": [
+      34,
+      53,
+      120
+    ],
+    "with": [
+      35,
+      151,
+      160,
+      208,
+      226
+    ],
+    "heatstroke": [
+      36,
+      87,
+      138,
+      152
+    ],
+    "during": [
+      37,
+      121
+    ],
+    "BC's": [
+      38,
+      55
+    ],
+    "2021": [
+      39,
+      72
+    ],
+    "dome.": [
+      41
+    ],
+    "METHODS:": [
+      42
+    ],
+    "We": [
+      43,
+      58,
+      95
+    ],
+    "conducted": [
+      44
+    ],
+    "a": [
+      45,
+      154,
+      227,
+      234
+    ],
+    "review": [
+      46
+    ],
+    "consecutive": [
+      48,
+      116
+    ],
+    "7": [
+      52
+    ],
+    "Lower": [
+      56
+    ],
+    "Mainland.": [
+      57
+    ],
+    "screened": [
+      59
+    ],
+    "triage": [
+      61
+    ],
+    "records": [
+      62,
+      82
+    ],
+    "all": [
+      64
+    ],
+    "patients": [
+      65,
+      180,
+      192,
+      216
+    ],
+    "between": [
+      67,
+      106
+    ],
+    "June": [
+      68
+    ],
+    "25th": [
+      69
+    ],
+    "30th,": [
+      71
+    ],
+    "for": [
+      73,
+      135,
+      239,
+      246
+    ],
+    "complaints": [
+      74
+    ],
+    "related": [
+      75
+    ],
+    "heat,": [
+      77
+    ],
+    "reviewed": [
+      79
+    ],
+    "full": [
+      81
+    ],
+    "those": [
+      84
+    ],
+    "who": [
+      85
+    ],
+    "met": [
+      86,
+      133
+    ],
+    "criteria.": [
+      88
+    ],
+    "primary": [
+      90
+    ],
+    "outcome": [
+      91
+    ],
+    "in-hospital": [
+      93
+    ],
+    "mortality.": [
+      94,
+      112
+    ],
+    "used": [
+      96
+    ],
+    "Mann-Whitney": [
+      97
+    ],
+    "U": [
+      98
+    ],
+    "tests": [
+      99
+    ],
+    "logistic": [
+      101
+    ],
+    "regression": [
+      102
+    ],
+    "investigate": [
+      104
+    ],
+    "associations": [
+      105
+    ],
+    "patient": [
+      107
+    ],
+    "treatment": [
+      109
+    ],
+    "factors": [
+      110
+    ],
+    "RESULTS:": [
+      113
+    ],
+    "Among": [
+      114
+    ],
+    "10,247": [
+      115
+    ],
+    "presentations": [
+      117
+    ],
+    "urban": [
+      119
+    ],
+    "event,": [
+      125
+    ],
+    "1.3%": [
+      126
+    ],
+    "(139;": [
+      127
+    ],
+    "95%": [
+      128
+    ],
+    "confidence": [
+      129
+    ],
+    "intervals": [
+      130
+    ],
+    "[CI]": [
+      131
+    ],
+    "1.1-1.6%)": [
+      132
+    ],
+    "criteria": [
+      134
+    ],
+    "heatstroke.": [
+      136
+    ],
+    "Of": [
+      137
+    ],
+    "patients,": [
+      139
+    ],
+    "129": [
+      140
+    ],
+    "(90.6%)": [
+      141
+    ],
+    "were": [
+      142,
+      217
+    ],
+    "triaged": [
+      143
+    ],
+    "into": [
+      144
+    ],
+    "two": [
+      146
+    ],
+    "highest": [
+      147
+    ],
+    "acuity": [
+      148
+    ],
+    "levels.": [
+      149
+    ],
+    "Patients": [
+      150
+    ],
+    "had": [
+      153
+    ],
+    "median": [
+      155
+    ],
+    "age": [
+      156
+    ],
+    "84.4": [
+      158
+    ],
+    "years,": [
+      159
+    ],
+    "122": [
+      161
+    ],
+    "(87.8%)": [
+      162
+    ],
+    "living": [
+      163
+    ],
+    "alone,": [
+      164
+    ],
+    "101": [
+      166
+    ],
+    "(84.2%)": [
+      167
+    ],
+    "unable": [
+      168,
+      218
+    ],
+    "activate": [
+      170,
+      220
+    ],
+    "911": [
+      171,
+      221
+    ],
+    "themselves.": [
+      172
+    ],
+    "A": [
+      173
+    ],
+    "minority": [
+      174
+    ],
+    "(<": [
+      175
+    ],
+    "5,": [
+      176
+    ],
+    "<": [
+      177
+    ],
+    "3.6%)": [
+      178
+    ],
+    "presented": [
+      181,
+      225
+    ],
+    "within": [
+      182
+    ],
+    "48": [
+      183
+    ],
+    "h": [
+      184
+    ],
+    "onset": [
+      187
+    ],
+    "heat.": [
+      190
+    ],
+    "Most": [
+      191
+    ],
+    "(107,": [
+      193
+    ],
+    "77.0%)": [
+      194
+    ],
+    "required": [
+      195
+    ],
+    "admission,": [
+      196
+    ],
+    "11.5%": [
+      198
+    ],
+    "(16)": [
+      199
+    ],
+    "died": [
+      200
+    ],
+    "hospital.": [
+      202
+    ],
+    "Hypotension": [
+      203
+    ],
+    "on": [
+      204
+    ],
+    "presentation": [
+      205
+    ],
+    "associated": [
+      207
+    ],
+    "mortality": [
+      209
+    ],
+    "(odds": [
+      210
+    ],
+    "ratio": [
+      211
+    ],
+    "[OR]": [
+      212
+    ],
+    "5.3).": [
+      213
+    ],
+    "INTERPRETATION:": [
+      214
+    ],
+    "Heatstroke": [
+      215
+    ],
+    "themselves,": [
+      222
+    ],
+    "most": [
+      224
+    ],
+    "48-h": [
+      228
+    ],
+    "delay.": [
+      229
+    ],
+    "This": [
+      230
+    ],
+    "delay": [
+      231
+    ],
+    "may": [
+      232
+    ],
+    "represent": [
+      233
+    ],
+    "critical": [
+      235
+    ],
+    "window": [
+      236
+    ],
+    "opportunity": [
+      238
+    ],
+    "pre-hospital": [
+      240
+    ],
+    "hospital": [
+      242
+    ],
+    "systems": [
+      243
+    ],
+    "prepare": [
+      245
+    ],
+    "influx": [
+      248
+    ],
+    "high-acuity": [
+      250
+    ],
+    "resource-intensive": [
+      251
+    ],
+    "patients.": [
+      252
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-26T08:19:03.415552",
+  "created_date": "2025-10-10T00:00:00"
+}

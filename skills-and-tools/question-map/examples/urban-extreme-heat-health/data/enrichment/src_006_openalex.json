@@ -1,0 +1,3149 @@
+{
+  "id": "https://openalex.org/W4415425884",
+  "doi": "https://doi.org/10.1136/bmjopen-2025-099771",
+  "title": "A longitudinal, population-based, record-linked natural experiment on the effects of extreme heat events on mental health in urban communities: a study protocol",
+  "display_name": "A longitudinal, population-based, record-linked natural experiment on the effects of extreme heat events on mental health in urban communities: a study protocol",
+  "publication_year": 2025,
+  "publication_date": "2025-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4415425884",
+    "doi": "https://doi.org/10.1136/bmjopen-2025-099771",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/41125279"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1136/bmjopen-2025-099771",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjopen-2025-099771",
+    "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/15/10/e099771.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S79054089",
+      "display_name": "BMJ Open",
+      "issn_l": "2044-6055",
+      "issn": [
+        "2044-6055"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "BMJ Open",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://bmjopen.bmj.com/content/bmjopen/15/10/e099771.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5027245809",
+        "display_name": "Emeka Chukwusa",
+        "orcid": "https://orcid.org/0000-0003-2576-8633",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2576-8633"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Emeka Chukwusa",
+      "raw_affiliation_strings": [
+        "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5033913518",
+        "display_name": "Giulia Vivaldi",
+        "orcid": "https://orcid.org/0000-0003-0816-9276",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0816-9276"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Giulia Vivaldi",
+      "raw_affiliation_strings": [
+        "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0816-9276",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073376905",
+        "display_name": "Lea Baecker",
+        "orcid": "https://orcid.org/0000-0002-6218-0292",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6218-0292"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lea Baecker",
+      "raw_affiliation_strings": [
+        "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6218-0292",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Emily Bowerman",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Emily Bowerman",
+      "raw_affiliation_strings": [
+        "J&L Gibbons, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "J&L Gibbons, London, UK",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048621448",
+        "display_name": "N. J. Bridge",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nick Bridge",
+      "raw_affiliation_strings": [
+        "King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Neil Davidson",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Neil Davidson",
+      "raw_affiliation_strings": [
+        "J&L Gibbons, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "J&L Gibbons, London, UK",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091816159",
+        "display_name": "Arturo de la Cruz Libardi",
+        "orcid": "https://orcid.org/0009-0001-1543-7999",
+        "observed_orcids": [
+          "https://orcid.org/0009-0001-1543-7999"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arturo de la Cruz",
+      "raw_affiliation_strings": [
+        "Environment & Health Modelling (EHM) Lab, Department of Public Health, Environments and Society, London School of Hygiene & Tropical Medicine, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Environment & Health Modelling (EHM) Lab, Department of Public Health, Environments and Society, London School of Hygiene & Tropical Medicine, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027193250",
+        "display_name": "Antonio Gasparrini",
+        "orcid": "https://orcid.org/0000-0002-2271-3568",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2271-3568"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Antonio Gasparrini",
+      "raw_affiliation_strings": [
+        "Environment & Health Modelling (EHM) Lab, Department of Public Health, Environments and Society, London School of Hygiene & Tropical Medicine, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2271-3568",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Environment & Health Modelling (EHM) Lab, Department of Public Health, Environments and Society, London School of Hygiene & Tropical Medicine, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019479331",
+        "display_name": "Johanna Gibbons",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Johanna Gibbons",
+      "raw_affiliation_strings": [
+        "J&L Gibbons, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "J&L Gibbons, London, UK",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5069320566",
+        "display_name": "Anne D. Guerry",
+        "orcid": "https://orcid.org/0000-0001-9417-8042",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9417-8042"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anne Guerry",
+      "raw_affiliation_strings": [
+        "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5045819174",
+        "display_name": "Ryan Hammoud",
+        "orcid": "https://orcid.org/0000-0002-0848-0753",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0848-0753"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ryan Hammoud",
+      "raw_affiliation_strings": [
+        "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0848-0753",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100425074",
+        "display_name": "Yingjie Li",
+        "orcid": "https://orcid.org/0000-0002-8401-0649",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8401-0649"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yingjie Li",
+      "raw_affiliation_strings": [
+        "Department of Biology, Stanford University, Stanford, California, USA",
+        "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8401-0649",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008217619",
+        "display_name": "Yougeng Lu",
+        "orcid": "https://orcid.org/0000-0003-4301-7622",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4301-7622"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yougeng Lu",
+      "raw_affiliation_strings": [
+        "Department of Biology, Stanford University, Stanford, California, USA",
+        "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103879900",
+        "display_name": "Lisa Mandle",
+        "orcid": "https://orcid.org/0000-0002-1420-8529",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1420-8529"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lisa Mandle",
+      "raw_affiliation_strings": [
+        "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024962501",
+        "display_name": "David Osborn",
+        "orcid": "https://orcid.org/0000-0003-2519-1539",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2519-1539"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405262139",
+          "display_name": "North London NHS Foundation Trust",
+          "ror": "https://ror.org/01jgmvf05",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4405262139"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Osborn",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology and Applied Clinical Research, UCL, London, UK",
+        "North London NHS Foundation Trust, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology and Applied Clinical Research, UCL, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "North London NHS Foundation Trust, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4405262139"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007255429",
+        "display_name": "Anders Rydstr\u00f6m",
+        "orcid": "https://orcid.org/0000-0002-9177-5877",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9177-5877"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anders Rydstrom",
+      "raw_affiliation_strings": [
+        "Department of Biology, Stanford University, Stanford, California, USA",
+        "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Biology, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Natural Capital Project, Woods Institute for the Environment, Doerr School of Sustainability, Stanford University, Stanford, California, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071559210",
+        "display_name": "Michael Smythe",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Smythe",
+      "raw_affiliation_strings": [
+        "Bethnal Green Nature Reserve, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bethnal Green Nature Reserve, London, UK",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108121383",
+        "display_name": "Robert Stewart",
+        "orcid": "https://orcid.org/0000-0002-4435-6397",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4435-6397"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I200323923",
+          "display_name": "South London and Maudsley NHS Foundation Trust",
+          "ror": "https://ror.org/015803449",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I200323923"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert Stewart",
+      "raw_affiliation_strings": [
+        "Department of Psychological Medicine, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+        "South London and Maudsley NHS Foundation Trust, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychological Medicine, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        },
+        {
+          "raw_affiliation_string": "South London and Maudsley NHS Foundation Trust, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I200323923"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5089924793",
+        "display_name": "Stefania Tognin",
+        "orcid": "https://orcid.org/0000-0002-1983-9135",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1983-9135"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stefania Tognin",
+      "raw_affiliation_strings": [
+        "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Matthew White",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Matthew White",
+      "raw_affiliation_strings": [
+        "Herbert Smith Freehills LLP, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Herbert Smith Freehills LLP, London, UK",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001873396",
+        "display_name": "Justin Yang",
+        "orcid": "https://orcid.org/0000-0003-2881-4906",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2881-4906"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4405262139",
+          "display_name": "North London NHS Foundation Trust",
+          "ror": "https://ror.org/01jgmvf05",
+          "country_code": "GB",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I4405262139"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I45129253",
+          "display_name": "University College London",
+          "ror": "https://ror.org/02jx3x895",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I45129253"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Justin Yang",
+      "raw_affiliation_strings": [
+        "Department of Epidemiology and Applied Clinical Research, UCL, London, UK",
+        "North London NHS Foundation Trust, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Epidemiology and Applied Clinical Research, UCL, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I45129253"
+          ]
+        },
+        {
+          "raw_affiliation_string": "North London NHS Foundation Trust, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4405262139"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5064922653",
+        "display_name": "Andrea Mechelli",
+        "orcid": "https://orcid.org/0000-0002-6770-2934",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6770-2934"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrea Mechelli",
+      "raw_affiliation_strings": [
+        "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Psychosis Studies, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5064578025",
+        "display_name": "Ioannis Bakolis",
+        "orcid": "https://orcid.org/0000-0002-4800-1630",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4800-1630"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I183935753",
+          "display_name": "King's College London",
+          "ror": "https://ror.org/0220mzb33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ioannis Bakolis",
+      "raw_affiliation_strings": [
+        "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre for Mental Health Policy & Evaluation, Department of Health Service & Population Research, Institute of Psychiatry, Psychology and Neuroscience, King\u2019s College London, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I183935753"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5027245809"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I183935753"
+  ],
+  "apc_list": {
+    "value": 1500,
+    "currency": "GBP",
+    "value_usd": 1839
+  },
+  "apc_paid": {
+    "value": 1500,
+    "currency": "GBP",
+    "value_usd": 1839
+  },
+  "fwci": 0.8546,
+  "has_fulltext": true,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.71414928,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "15",
+    "issue": "10",
+    "first_page": "e099771",
+    "last_page": "e099771"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9976000189781189,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.000699999975040555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10190",
+      "display_name": "Air Quality and Health Impacts",
+      "score": 0.0003000000142492354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.8190000057220459
+    },
+    {
+      "id": "https://openalex.org/keywords/mental-health",
+      "display_name": "mental health",
+      "score": 0.8550000190734863
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.5559999942779541
+    },
+    {
+      "id": "https://openalex.org/keywords/psychological-well-being",
+      "display_name": "psychological well-being",
+      "score": 0.7599999904632568
+    },
+    {
+      "id": "https://openalex.org/keywords/mental-health-service-utilization",
+      "display_name": "mental health service utilization",
+      "score": 0.8130000233650208
+    },
+    {
+      "id": "https://openalex.org/keywords/air-pollution",
+      "display_name": "air pollution",
+      "score": 0.6079999804496765
+    },
+    {
+      "id": "https://openalex.org/keywords/particulate-matter",
+      "display_name": "particulate matter",
+      "score": 0.8399999737739563
+    },
+    {
+      "id": "https://openalex.org/keywords/nitrogen-dioxide",
+      "display_name": "nitrogen dioxide",
+      "score": 0.9610000252723694
+    },
+    {
+      "id": "https://openalex.org/keywords/green-spaces",
+      "display_name": "green spaces",
+      "score": 0.9049999713897705
+    },
+    {
+      "id": "https://openalex.org/keywords/tree-canopy",
+      "display_name": "tree canopy",
+      "score": 0.8579999804496765
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-cooling",
+      "display_name": "urban cooling",
+      "score": 0.5569999814033508
+    },
+    {
+      "id": "https://openalex.org/keywords/microsimulation-model",
+      "display_name": "microsimulation model",
+      "score": 0.722000002861023
+    },
+    {
+      "id": "https://openalex.org/keywords/invest-model",
+      "display_name": "InVEST model",
+      "score": 0.6909999847412109
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-mental-health",
+      "display_name": "urban mental health",
+      "score": 0.5479999780654907
+    },
+    {
+      "id": "https://openalex.org/keywords/vulnerable-populations",
+      "display_name": "vulnerable populations",
+      "score": 0.42399999499320984
+    },
+    {
+      "id": "https://openalex.org/keywords/citizen-science",
+      "display_name": "citizen science",
+      "score": 0.4560000002384186
+    },
+    {
+      "id": "https://openalex.org/keywords/ecological-momentary-assessment",
+      "display_name": "ecological momentary assessment",
+      "score": 0.8289999961853027
+    },
+    {
+      "id": "https://openalex.org/keywords/electronic-health-records",
+      "display_name": "electronic health records",
+      "score": 0.7799999713897705
+    },
+    {
+      "id": "https://openalex.org/keywords/greater-london",
+      "display_name": "Greater London",
+      "score": 0.503000020980835
+    },
+    {
+      "id": "https://openalex.org/keywords/social-care",
+      "display_name": "social care",
+      "score": 0.3449999988079071
+    },
+    {
+      "id": "https://openalex.org/keywords/mental-health-screening-tools",
+      "display_name": "mental health screening tools",
+      "score": 0.4099999964237213
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.7835999727249146
+    },
+    {
+      "id": "https://openalex.org/C2780385302",
+      "wikidata": "https://www.wikidata.org/wiki/Q367158",
+      "display_name": "Protocol (science)",
+      "level": 3,
+      "score": 0.637499988079071
+    },
+    {
+      "id": "https://openalex.org/C134362201",
+      "wikidata": "https://www.wikidata.org/wiki/Q317309",
+      "display_name": "Mental health",
+      "level": 2,
+      "score": 0.6100000143051147
+    },
+    {
+      "id": "https://openalex.org/C2779585090",
+      "wikidata": "https://www.wikidata.org/wiki/Q3457762",
+      "display_name": "Resilience (materials science)",
+      "level": 2,
+      "score": 0.5148000121116638
+    },
+    {
+      "id": "https://openalex.org/C161677786",
+      "wikidata": "https://www.wikidata.org/wiki/Q2478475",
+      "display_name": "Neighbourhood (mathematics)",
+      "level": 2,
+      "score": 0.47369998693466187
+    },
+    {
+      "id": "https://openalex.org/C2776505523",
+      "wikidata": "https://www.wikidata.org/wiki/Q4785468",
+      "display_name": "Plan (archaeology)",
+      "level": 2,
+      "score": 0.4596000015735626
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.45019999146461487
+    },
+    {
+      "id": "https://openalex.org/C91375879",
+      "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+      "display_name": "Environmental planning",
+      "level": 1,
+      "score": 0.44760000705718994
+    },
+    {
+      "id": "https://openalex.org/C137176749",
+      "wikidata": "https://www.wikidata.org/wiki/Q4105337",
+      "display_name": "Psychological resilience",
+      "level": 2,
+      "score": 0.4318999946117401
+    },
+    {
+      "id": "https://openalex.org/C166566181",
+      "wikidata": "https://www.wikidata.org/wiki/Q8065",
+      "display_name": "Natural disaster",
+      "level": 2,
+      "score": 0.4311000108718872
+    },
+    {
+      "id": "https://openalex.org/C107826830",
+      "wikidata": "https://www.wikidata.org/wiki/Q929380",
+      "display_name": "Environmental resource management",
+      "level": 1,
+      "score": 0.4101000130176544
+    },
+    {
+      "id": "https://openalex.org/C138816342",
+      "wikidata": "https://www.wikidata.org/wiki/Q189603",
+      "display_name": "Public health",
+      "level": 2,
+      "score": 0.3944999873638153
+    },
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.36010000109672546
+    },
+    {
+      "id": "https://openalex.org/C49630185",
+      "wikidata": "https://www.wikidata.org/wiki/Q6980675",
+      "display_name": "Natural experiment",
+      "level": 2,
+      "score": 0.32030001282691956
+    },
+    {
+      "id": "https://openalex.org/C153997805",
+      "wikidata": "https://www.wikidata.org/wiki/Q42240",
+      "display_name": "Research ethics",
+      "level": 2,
+      "score": 0.3167000114917755
+    },
+    {
+      "id": "https://openalex.org/C2987857752",
+      "wikidata": "https://www.wikidata.org/wiki/Q12147",
+      "display_name": "Human health",
+      "level": 2,
+      "score": 0.3125
+    },
+    {
+      "id": "https://openalex.org/C160735492",
+      "wikidata": "https://www.wikidata.org/wiki/Q31207",
+      "display_name": "Health care",
+      "level": 2,
+      "score": 0.3061000108718872
+    },
+    {
+      "id": "https://openalex.org/C2992545881",
+      "wikidata": "https://www.wikidata.org/wiki/Q6817473",
+      "display_name": "Mental health care",
+      "level": 3,
+      "score": 0.2800999879837036
+    },
+    {
+      "id": "https://openalex.org/C148803439",
+      "wikidata": "https://www.wikidata.org/wiki/Q4986688",
+      "display_name": "Built environment",
+      "level": 2,
+      "score": 0.2718999981880188
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.2703000009059906
+    },
+    {
+      "id": "https://openalex.org/C524218345",
+      "wikidata": "https://www.wikidata.org/wiki/Q31218",
+      "display_name": "Health economics",
+      "level": 3,
+      "score": 0.26930001378059387
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.2676999866962433
+    },
+    {
+      "id": "https://openalex.org/C49545453",
+      "wikidata": "https://www.wikidata.org/wiki/Q69883",
+      "display_name": "Urban planning",
+      "level": 2,
+      "score": 0.26109999418258667
+    },
+    {
+      "id": "https://openalex.org/C2780877353",
+      "wikidata": "https://www.wikidata.org/wiki/Q2518253",
+      "display_name": "Health services research",
+      "level": 3,
+      "score": 0.25929999351501465
+    },
+    {
+      "id": "https://openalex.org/C47344431",
+      "wikidata": "https://www.wikidata.org/wiki/Q1519812",
+      "display_name": "Health policy",
+      "level": 3,
+      "score": 0.257099986076355
+    },
+    {
+      "id": "https://openalex.org/C12725497",
+      "wikidata": "https://www.wikidata.org/wiki/Q810247",
+      "display_name": "Baseline (sea)",
+      "level": 2,
+      "score": 0.2565999925136566
+    },
+    {
+      "id": "https://openalex.org/C2776970089",
+      "wikidata": "https://www.wikidata.org/wiki/Q27913684",
+      "display_name": "Ethics committee",
+      "level": 2,
+      "score": 0.25380000472068787
+    },
+    {
+      "id": "https://openalex.org/C2992130261",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331083",
+      "display_name": "Human research",
+      "level": 2,
+      "score": 0.2522999942302704
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D001523",
+      "descriptor_name": "Mental Disorders",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008131",
+      "descriptor_name": "London",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008137",
+      "descriptor_name": "Longitudinal Studies",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008605",
+      "descriptor_name": "Mental Health Services",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008605",
+      "descriptor_name": "Mental Health Services",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008605",
+      "descriptor_name": "Mental Health Services",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008605",
+      "descriptor_name": "Mental Health Services",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008605",
+      "descriptor_name": "Mental Health Services",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012107",
+      "descriptor_name": "Research Design",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D057286",
+      "descriptor_name": "Electronic Health Records",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057286",
+      "descriptor_name": "Electronic Health Records",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057286",
+      "descriptor_name": "Electronic Health Records",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057286",
+      "descriptor_name": "Electronic Health Records",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D057286",
+      "descriptor_name": "Electronic Health Records",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1136/bmjopen-2025-099771",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/bmjopen-2025-099771",
+      "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/15/10/e099771.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S79054089",
+        "display_name": "BMJ Open",
+        "issn_l": "2044-6055",
+        "issn": [
+          "2044-6055"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "BMJ Open",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:41125279",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41125279",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "BMJ open",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:kclpure.kcl.ac.uk:openaire/2a818ebc-7e48-4e19-822f-d82ec7d745e5",
+      "is_oa": true,
+      "landing_page_url": "https://kclpure.kcl.ac.uk/portal/en/publications/2a818ebc-7e48-4e19-822f-d82ec7d745e5",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400216",
+        "display_name": "Research Portal (King's College London)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I183935753",
+        "host_organization_name": "King's College London",
+        "host_organization_lineage": [
+          "https://openalex.org/I183935753"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "pmh:oai:researchonline.lshtm.ac.uk:4677707",
+      "is_oa": false,
+      "landing_page_url": "https://orcid.org/0000-0003-0816-9276>;",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402527",
+        "display_name": "LSHTM Research Online (London School of Hygiene and Tropical Medicine)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4210089966",
+        "host_organization_name": "London School of Hygiene & Tropical Medicine",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210089966"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:europepmc.org:11356354",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12548616",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:737abc9d856b4fd0836252b961bb3053",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/737abc9d856b4fd0836252b961bb3053",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "BMJ Open, Vol 15, Iss 10 (2025)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1136/bmjopen-2025-099771",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjopen-2025-099771",
+    "pdf_url": "https://bmjopen.bmj.com/content/bmjopen/15/10/e099771.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S79054089",
+      "display_name": "BMJ Open",
+      "issn_l": "2044-6055",
+      "issn": [
+        "2044-6055"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "BMJ Open",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    },
+    {
+      "score": 0.8787999749183655,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [
+    {
+      "id": "https://openalex.org/study-designs/study-protocol",
+      "display_name": "Study Protocol"
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1443762403",
+      "display_name": null,
+      "funder_award_id": "MR/W014386",
+      "funder_id": "https://openalex.org/F4320314731",
+      "funder_display_name": "UK Research and Innovation"
+    },
+    {
+      "id": "https://openalex.org/G1640051831",
+      "display_name": null,
+      "funder_award_id": "MR-VO49879-1",
+      "funder_id": "https://openalex.org/F4320334626",
+      "funder_display_name": "Medical Research Council"
+    },
+    {
+      "id": "https://openalex.org/G1884670482",
+      "display_name": null,
+      "funder_award_id": "MR/VO49879/1",
+      "funder_id": "https://openalex.org/F4320314731",
+      "funder_display_name": "UK Research and Innovation"
+    },
+    {
+      "id": "https://openalex.org/G1933108020",
+      "display_name": null,
+      "funder_award_id": "MR/W014386",
+      "funder_id": "https://openalex.org/F4320337309",
+      "funder_display_name": "National Institute for Health Research Applied Research Collaboration South London"
+    },
+    {
+      "id": "https://openalex.org/G3393706752",
+      "display_name": null,
+      "funder_award_id": "MR-VO49879/1",
+      "funder_id": "https://openalex.org/F855684151",
+      "funder_display_name": "UK Prevention Research Partnership"
+    },
+    {
+      "id": "https://openalex.org/G3488834936",
+      "display_name": "The effects of extreme heat events on mental health in vulnerable urban communities: towards evidence-based policy and practice",
+      "funder_award_id": "228033/Z/23/Z",
+      "funder_id": "https://openalex.org/F4320311904",
+      "funder_display_name": "Wellcome Trust"
+    },
+    {
+      "id": "https://openalex.org/G8208521676",
+      "display_name": null,
+      "funder_award_id": "W014386",
+      "funder_id": "https://openalex.org/F4320334626",
+      "funder_display_name": "Medical Research Council"
+    },
+    {
+      "id": "https://openalex.org/G8774690691",
+      "display_name": null,
+      "funder_award_id": "MR/W014386",
+      "funder_id": "https://openalex.org/F4320334626",
+      "funder_display_name": "Medical Research Council"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306146",
+      "display_name": "Andrew W. Mellon Foundation",
+      "ror": "https://ror.org/04jsh2530"
+    },
+    {
+      "id": "https://openalex.org/F4320311198",
+      "display_name": "South London and Maudsley NHS Foundation Trust",
+      "ror": "https://ror.org/015803449"
+    },
+    {
+      "id": "https://openalex.org/F4320311904",
+      "display_name": "Wellcome Trust",
+      "ror": "https://ror.org/029chgv08"
+    },
+    {
+      "id": "https://openalex.org/F4320312400",
+      "display_name": "King's College Hospital NHS Foundation Trust",
+      "ror": "https://ror.org/01n0k5m85"
+    },
+    {
+      "id": "https://openalex.org/F4320314731",
+      "display_name": "UK Research and Innovation",
+      "ror": "https://ror.org/001aqnf71"
+    },
+    {
+      "id": "https://openalex.org/F4320319990",
+      "display_name": "National Institute for Health and Care Research",
+      "ror": "https://ror.org/0187kwz08"
+    },
+    {
+      "id": "https://openalex.org/F4320319994",
+      "display_name": "Department of Health and Social Care",
+      "ror": "https://ror.org/03sbpja79"
+    },
+    {
+      "id": "https://openalex.org/F4320320285",
+      "display_name": "King's College London",
+      "ror": "https://ror.org/0220mzb33"
+    },
+    {
+      "id": "https://openalex.org/F4320327344",
+      "display_name": "Marcus och Amalia Wallenbergs minnesfond",
+      "ror": "https://ror.org/024f3s581"
+    },
+    {
+      "id": "https://openalex.org/F4320334412",
+      "display_name": "NIHR Maudsley Biomedical Research Centre",
+      "ror": "https://ror.org/05fd9ct06"
+    },
+    {
+      "id": "https://openalex.org/F4320334626",
+      "display_name": "Medical Research Council",
+      "ror": "https://ror.org/03x94j517"
+    },
+    {
+      "id": "https://openalex.org/F4320337309",
+      "display_name": "National Institute for Health Research Applied Research Collaboration South London",
+      "ror": null
+    },
+    {
+      "id": "https://openalex.org/F855684151",
+      "display_name": "UK Prevention Research Partnership",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4415425884.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4415425884.grobid-xml"
+  },
+  "referenced_works_count": 50,
+  "referenced_works": [
+    "https://openalex.org/W1971360647",
+    "https://openalex.org/W1972831262",
+    "https://openalex.org/W2006203329",
+    "https://openalex.org/W2022392583",
+    "https://openalex.org/W2099634404",
+    "https://openalex.org/W2106784657",
+    "https://openalex.org/W2126002595",
+    "https://openalex.org/W2136527705",
+    "https://openalex.org/W2140641247",
+    "https://openalex.org/W2290646566",
+    "https://openalex.org/W2570428169",
+    "https://openalex.org/W2605399805",
+    "https://openalex.org/W2736044947",
+    "https://openalex.org/W2745687039",
+    "https://openalex.org/W2751293097",
+    "https://openalex.org/W2768686280",
+    "https://openalex.org/W2785570574",
+    "https://openalex.org/W2861330150",
+    "https://openalex.org/W2894158216",
+    "https://openalex.org/W2944959794",
+    "https://openalex.org/W2958971346",
+    "https://openalex.org/W2971985116",
+    "https://openalex.org/W2995547960",
+    "https://openalex.org/W3040144530",
+    "https://openalex.org/W3045528259",
+    "https://openalex.org/W3094432077",
+    "https://openalex.org/W3133500593",
+    "https://openalex.org/W3151504474",
+    "https://openalex.org/W3169338882",
+    "https://openalex.org/W3194171027",
+    "https://openalex.org/W3195939601",
+    "https://openalex.org/W4205208574",
+    "https://openalex.org/W4294553991",
+    "https://openalex.org/W4297256710",
+    "https://openalex.org/W4312058455",
+    "https://openalex.org/W4316372016",
+    "https://openalex.org/W4366082887",
+    "https://openalex.org/W4382602590",
+    "https://openalex.org/W4383746578",
+    "https://openalex.org/W4383871987",
+    "https://openalex.org/W4385619119",
+    "https://openalex.org/W4387504257",
+    "https://openalex.org/W4388673199",
+    "https://openalex.org/W4389915230",
+    "https://openalex.org/W4392019245",
+    "https://openalex.org/W4394832200",
+    "https://openalex.org/W4396864414",
+    "https://openalex.org/W4396951475",
+    "https://openalex.org/W4401437659",
+    "https://openalex.org/W4402059754"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Introduction": [
+      0
+    ],
+    "Studies": [
+      1
+    ],
+    "suggest": [
+      2
+    ],
+    "that": [
+      3
+    ],
+    "extreme": [
+      4,
+      55,
+      246,
+      296
+    ],
+    "heat": [
+      5,
+      56,
+      247,
+      297
+    ],
+    "events": [
+      6,
+      298
+    ],
+    "can": [
+      7
+    ],
+    "have": [
+      8,
+      27
+    ],
+    "negative": [
+      9
+    ],
+    "effects": [
+      10,
+      18,
+      32
+    ],
+    "on": [
+      11,
+      57,
+      97,
+      198,
+      248,
+      398
+    ],
+    "mental": [
+      12,
+      58,
+      64,
+      80,
+      98,
+      153,
+      165,
+      182,
+      249,
+      289
+    ],
+    "health.": [
+      13
+    ],
+    "However,": [
+      14
+    ],
+    "characterisation": [
+      15
+    ],
+    "of": [
+      16,
+      33,
+      41,
+      54,
+      108,
+      164,
+      223,
+      245,
+      266,
+      295,
+      302,
+      318,
+      351,
+      371,
+      419
+    ],
+    "these": [
+      17,
+      303
+    ],
+    "in": [
+      19,
+      66,
+      83,
+      148,
+      184,
+      342
+    ],
+    "urban": [
+      20,
+      68,
+      281
+    ],
+    "communities": [
+      21
+    ],
+    "remains": [
+      22
+    ],
+    "limited,": [
+      23
+    ],
+    "and": [
+      24,
+      36,
+      50,
+      63,
+      71,
+      102,
+      123,
+      129,
+      157,
+      201,
+      221,
+      238,
+      251,
+      258,
+      264,
+      286,
+      291,
+      299,
+      310,
+      324,
+      339,
+      344,
+      347,
+      380,
+      401,
+      408,
+      414
+    ],
+    "few": [
+      25
+    ],
+    "studies": [
+      26
+    ],
+    "investigated": [
+      28
+    ],
+    "the": [
+      29,
+      52,
+      120,
+      130,
+      185,
+      243,
+      279,
+      288,
+      300,
+      358,
+      369,
+      377,
+      383,
+      405,
+      416
+    ],
+    "potential": [
+      30
+    ],
+    "modifying": [
+      31
+    ],
+    "demographic,": [
+      34
+    ],
+    "clinical": [
+      35,
+      257
+    ],
+    "environmental": [
+      37,
+      259
+    ],
+    "characteristics.": [
+      38
+    ],
+    "The": [
+      39
+    ],
+    "aim": [
+      40
+    ],
+    "this": [
+      42,
+      47,
+      74,
+      328,
+      352
+    ],
+    "study": [
+      43
+    ],
+    "is": [
+      44
+    ],
+    "to": [
+      45,
+      151,
+      180,
+      194,
+      241,
+      284
+    ],
+    "address": [
+      46,
+      340
+    ],
+    "knowledge": [
+      48
+    ],
+    "gap": [
+      49
+    ],
+    "quantify": [
+      51
+    ],
+    "impacts": [
+      53,
+      294,
+      304
+    ],
+    "health,": [
+      59
+    ],
+    "health": [
+      60,
+      81,
+      93,
+      99,
+      154,
+      250,
+      290
+    ],
+    "service": [
+      61,
+      100,
+      155
+    ],
+    "use": [
+      62,
+      117,
+      156,
+      171
+    ],
+    "well-being": [
+      65,
+      183
+    ],
+    "vulnerable": [
+      67
+    ],
+    "populations.": [
+      69
+    ],
+    "Methods": [
+      70
+    ],
+    "analysis": [
+      72
+    ],
+    "In": [
+      73
+    ],
+    "multidisciplinary": [
+      75
+    ],
+    "project,": [
+      76
+    ],
+    "we": [
+      77
+    ],
+    "will": [
+      78,
+      116,
+      170,
+      191,
+      229,
+      271,
+      330
+    ],
+    "assess": [
+      79,
+      285
+    ],
+    "outcomes": [
+      82
+    ],
+    "different": [
+      84,
+      306
+    ],
+    "populations": [
+      85
+    ],
+    "by": [
+      86,
+      255,
+      305,
+      357
+    ],
+    "bringing": [
+      87
+    ],
+    "together": [
+      88
+    ],
+    "two": [
+      89
+    ],
+    "distinct": [
+      90
+    ],
+    "datasets:": [
+      91
+    ],
+    "electronic": [
+      92
+    ],
+    "record": [
+      94
+    ],
+    "(EHR)": [
+      95
+    ],
+    "data": [
+      96,
+      103,
+      176,
+      197
+    ],
+    "users": [
+      101
+    ],
+    "from": [
+      104,
+      119,
+      137,
+      177,
+      335
+    ],
+    "general": [
+      105,
+      186
+    ],
+    "public": [
+      106
+    ],
+    "participants": [
+      107
+    ],
+    "Urban": [
+      109,
+      178,
+      365
+    ],
+    "Mind,": [
+      110,
+      366
+    ],
+    "a": [
+      111,
+      274,
+      314,
+      372,
+      395,
+      409
+    ],
+    "citizen": [
+      112
+    ],
+    "science": [
+      113
+    ],
+    "project.": [
+      114
+    ],
+    "We": [
+      115,
+      169,
+      228,
+      270
+    ],
+    "EHRs": [
+      118
+    ],
+    "South": [
+      121
+    ],
+    "London": [
+      122,
+      132
+    ],
+    "Maudsley": [
+      124
+    ],
+    "NHS": [
+      125,
+      133
+    ],
+    "Foundation": [
+      126,
+      134
+    ],
+    "Trust": [
+      127,
+      135
+    ],
+    "(SLaM)": [
+      128
+    ],
+    "North": [
+      131
+    ],
+    "(NLFT),": [
+      136
+    ],
+    "six": [
+      138
+    ],
+    "boroughs": [
+      139
+    ],
+    "which": [
+      140
+    ],
+    "collectively": [
+      141
+    ],
+    "cover": [
+      142
+    ],
+    "more": [
+      143
+    ],
+    "than": [
+      144
+    ],
+    "1.8": [
+      145
+    ],
+    "million": [
+      146
+    ],
+    "residents": [
+      147
+    ],
+    "Greater": [
+      149
+    ],
+    "London,": [
+      150
+    ],
+    "capture": [
+      152
+    ],
+    "mortality": [
+      158
+    ],
+    "among": [
+      159
+    ],
+    "people": [
+      160
+    ],
+    "with": [
+      161,
+      278
+    ],
+    "existing": [
+      162
+    ],
+    "diagnoses": [
+      163
+    ],
+    "illness": [
+      166
+    ],
+    "across": [
+      167
+    ],
+    "2008\u20132023.": [
+      168
+    ],
+    "smartphone-based": [
+      172
+    ],
+    "ecological": [
+      173,
+      400
+    ],
+    "momentary": [
+      174
+    ],
+    "assessment": [
+      175
+    ],
+    "Mind": [
+      179
+    ],
+    "measure": [
+      181
+    ],
+    "population": [
+      187
+    ],
+    "(2018\u20132023).": [
+      188
+    ],
+    "These": [
+      189
+    ],
+    "datasets": [
+      190
+    ],
+    "be": [
+      192
+    ],
+    "linked": [
+      193
+    ],
+    "high-resolution": [
+      195
+    ],
+    "spatiotemporal": [
+      196
+    ],
+    "temperature,": [
+      199
+    ],
+    "fine": [
+      200
+    ],
+    "coarse": [
+      202
+    ],
+    "particulate": [
+      203
+    ],
+    "matter": [
+      204
+    ],
+    "(PM": [
+      205
+    ],
+    "2.5": [
+      206
+    ],
+    ",": [
+      207
+    ],
+    "PM": [
+      208
+    ],
+    "10": [
+      209
+    ],
+    "),": [
+      210,
+      215
+    ],
+    "nitrogen": [
+      211
+    ],
+    "dioxide": [
+      212
+    ],
+    "(NO": [
+      213
+    ],
+    "2": [
+      214
+    ],
+    "Normalised": [
+      216
+    ],
+    "Difference": [
+      217
+    ],
+    "Vegetation": [
+      218
+    ],
+    "Index": [
+      219
+    ],
+    "(NDVI)": [
+      220
+    ],
+    "density": [
+      222
+    ],
+    "large": [
+      224,
+      420
+    ],
+    "mature": [
+      225
+    ],
+    "tree": [
+      226
+    ],
+    "canopy.": [
+      227
+    ],
+    "employ": [
+      230
+    ],
+    "novel": [
+      231
+    ],
+    "quasi-experimental": [
+      232
+    ],
+    "designs,": [
+      233
+    ],
+    "including": [
+      234,
+      261
+    ],
+    "case": [
+      235
+    ],
+    "time": [
+      236
+    ],
+    "series": [
+      237
+    ],
+    "case-crossover": [
+      239
+    ],
+    "analysis,": [
+      240
+    ],
+    "examine": [
+      242
+    ],
+    "impact": [
+      244
+    ],
+    "explore": [
+      252
+    ],
+    "effect": [
+      253
+    ],
+    "modification": [
+      254
+    ],
+    "sociodemographic,": [
+      256
+    ],
+    "factors,": [
+      260
+    ],
+    "air": [
+      262
+    ],
+    "pollution": [
+      263
+    ],
+    "types": [
+      265
+    ],
+    "green": [
+      267,
+      307
+    ],
+    "space": [
+      268,
+      308
+    ],
+    "coverage.": [
+      269
+    ],
+    "also": [
+      272
+    ],
+    "develop": [
+      273
+    ],
+    "microsimulation": [
+      275
+    ],
+    "model": [
+      276,
+      283
+    ],
+    "combined": [
+      277
+    ],
+    "InVEST": [
+      280
+    ],
+    "cooling": [
+      282
+    ],
+    "forecast": [
+      287
+    ],
+    "social": [
+      292
+    ],
+    "care": [
+      293
+    ],
+    "mitigation": [
+      301
+    ],
+    "coverage": [
+      309
+    ],
+    "pollution-reduction": [
+      311
+    ],
+    "policies.": [
+      312
+    ],
+    "With": [
+      313
+    ],
+    "core": [
+      315
+    ],
+    "team": [
+      316
+    ],
+    "composed": [
+      317
+    ],
+    "researchers,": [
+      319
+    ],
+    "community": [
+      320
+    ],
+    "organisations,": [
+      321
+    ],
+    "industry": [
+      322
+    ],
+    "partners": [
+      323
+    ],
+    "specialist": [
+      325
+    ],
+    "policy": [
+      326,
+      343,
+      393
+    ],
+    "experts,": [
+      327
+    ],
+    "project": [
+      329,
+      353
+    ],
+    "consider": [
+      331
+    ],
+    "lived": [
+      332
+    ],
+    "experience,": [
+      333
+    ],
+    "benefit": [
+      334
+    ],
+    "broad": [
+      336
+    ],
+    "stakeholder": [
+      337
+    ],
+    "engagement": [
+      338
+    ],
+    "gaps": [
+      341
+    ],
+    "practice.": [
+      345
+    ],
+    "Ethics": [
+      346
+    ],
+    "dissemination": [
+      348,
+      387
+    ],
+    "Each": [
+      349
+    ],
+    "component": [
+      350
+    ],
+    "has": [
+      354
+    ],
+    "been": [
+      355
+    ],
+    "approved": [
+      356
+    ],
+    "relevant": [
+      359
+    ],
+    "ethics": [
+      360
+    ],
+    "committee": [
+      361
+    ],
+    "(ref": [
+      362
+    ],
+    "RESCM-22/23-6905": [
+      363
+    ],
+    "for": [
+      364,
+      368,
+      376,
+      382,
+      412
+    ],
+    "LRS/DP-23/24-41409": [
+      367
+    ],
+    "co-development": [
+      370
+    ],
+    "screening": [
+      373
+    ],
+    "tool,": [
+      374
+    ],
+    "23/SC/0257": [
+      375
+    ],
+    "SLaM": [
+      378
+    ],
+    "EHRs,": [
+      379
+    ],
+    "24/EE/0178": [
+      381
+    ],
+    "NLFT": [
+      384
+    ],
+    "EHRs).": [
+      385
+    ],
+    "Our": [
+      386
+    ],
+    "plan": [
+      388
+    ],
+    "includes": [
+      389
+    ],
+    "peer-reviewed": [
+      390
+    ],
+    "scientific": [
+      391
+    ],
+    "articles,": [
+      392
+    ],
+    "briefs,": [
+      394
+    ],
+    "practical": [
+      396
+    ],
+    "guide": [
+      397,
+      411
+    ],
+    "fostering": [
+      399
+    ],
+    "human": [
+      402
+    ],
+    "resilience": [
+      403
+    ],
+    "at": [
+      404
+    ],
+    "neighbourhood": [
+      406
+    ],
+    "level,": [
+      407
+    ],
+    "technical": [
+      410
+    ],
+    "planting": [
+      413
+    ],
+    "improving": [
+      415
+    ],
+    "growing": [
+      417
+    ],
+    "conditions": [
+      418
+    ],
+    "canopy": [
+      421
+    ],
+    "trees.": [
+      422
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2025-10-24T00:00:00"
+}

@@ -1,0 +1,156 @@
+[
+  {
+    "source_id": "src_001",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.2471/BLT.25.294493",
+    "cited_by_count": 3
+  },
+  {
+    "source_id": "src_002",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1073/pnas.2024792118",
+    "cited_by_count": 772
+  },
+  {
+    "source_id": "src_003",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1080/13549839.2016.1254169",
+    "cited_by_count": 75
+  },
+  {
+    "source_id": "src_004",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1289/isee.2024.1923",
+    "cited_by_count": 3
+  },
+  {
+    "source_id": "src_005",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.3389/fpubh.2023.1310410",
+    "cited_by_count": 16
+  },
+  {
+    "source_id": "src_006",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1136/bmjopen-2025-099771",
+    "cited_by_count": 2
+  },
+  {
+    "source_id": "src_007",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1088/2752-5309/ae73a7",
+    "cited_by_count": 0
+  },
+  {
+    "source_id": "src_008",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1136/bmjgh-2023-014230",
+    "cited_by_count": 36
+  },
+  {
+    "source_id": "src_009",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1007/s43678-023-00622-y",
+    "cited_by_count": 16
+  },
+  {
+    "source_id": "src_010",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1001/jamanetworkopen.2026.2645",
+    "cited_by_count": 1
+  },
+  {
+    "source_id": "src_011",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1016/j.envint.2023.108005",
+    "cited_by_count": 127
+  },
+  {
+    "source_id": "src_012",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1513/AnnalsATS.202405-470OC",
+    "cited_by_count": 16
+  },
+  {
+    "source_id": "src_013",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.3390/ijerph16132373",
+    "cited_by_count": 89
+  },
+  {
+    "source_id": "src_014",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1007/s11524-024-00892-6",
+    "cited_by_count": 5
+  },
+  {
+    "source_id": "src_015",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1016/j.erss.2023.103207",
+    "cited_by_count": 15
+  },
+  {
+    "source_id": "src_016",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1111/ppe.70044",
+    "cited_by_count": 3
+  },
+  {
+    "source_id": "src_018",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1007/s11524-025-00970-3",
+    "cited_by_count": 4
+  },
+  {
+    "source_id": "src_019",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1007/s11524-020-00443-9",
+    "cited_by_count": 34
+  },
+  {
+    "source_id": "src_020",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1038/d41586-023-02311-3",
+    "cited_by_count": 141
+  },
+  {
+    "source_id": "src_021",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1080/07352166.2025.2526491",
+    "cited_by_count": 7
+  },
+  {
+    "source_id": "src_022",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1093/geroni/igaf122.1430",
+    "cited_by_count": 0
+  },
+  {
+    "source_id": "src_023",
+    "provider": "openalex",
+    "status": 200,
+    "doi": "10.1017/S2045796023000161",
+    "cited_by_count": 65
+  }
+]

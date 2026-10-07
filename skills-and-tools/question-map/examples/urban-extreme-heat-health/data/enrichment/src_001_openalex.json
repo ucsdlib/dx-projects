@@ -1,0 +1,1357 @@
+{
+  "id": "https://openalex.org/W7133343457",
+  "doi": "https://doi.org/10.2471/blt.25.294493",
+  "title": "A healthy cities agenda for extreme heat adaptation in urban settings",
+  "display_name": "A healthy cities agenda for extreme heat adaptation in urban settings",
+  "publication_year": 2026,
+  "publication_date": "2026-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7133343457",
+    "doi": "https://doi.org/10.2471/blt.25.294493",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/41773229"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.2471/blt.25.294493",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2471/blt.25.294493",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S22004576",
+      "display_name": "Bulletin of the World Health Organization",
+      "issn_l": "0042-9686",
+      "issn": [
+        "0042-9686",
+        "1564-0604"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319663",
+      "host_organization_name": "World Health Organization",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319663",
+        "https://openalex.org/P4310321776"
+      ],
+      "host_organization_lineage_names": [
+        "World Health Organization",
+        "United Nations"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Bulletin of the World Health Organization",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://doi.org/10.2471/blt.25.294493",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5127994078",
+        "display_name": "Ala ha Nasari",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I136199984",
+          "display_name": "Harvard University",
+          "ror": "https://ror.org/03vek6s52",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ala ha Nasari",
+      "raw_affiliation_strings": [
+        "FXB Center for Health and Human Rights, Harvard University, 651 Huntington Ave., Boston, MA02115, United States of America (USA)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "FXB Center for Health and Human Rights, Harvard University, 651 Huntington Ave., Boston, MA02115, United States of America (USA)",
+          "institution_ids": [
+            "https://openalex.org/I136199984"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5064755035",
+        "display_name": "Sammer Marzouk",
+        "orcid": "https://orcid.org/0000-0002-4250-582X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4250-582X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I111979921",
+          "display_name": "Northwestern University",
+          "ror": "https://ror.org/000e0be47",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I111979921"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sammer Marzouk",
+      "raw_affiliation_strings": [
+        "Feinberg School of Medicine, Northwestern University, Chicago, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Feinberg School of Medicine, Northwestern University, Chicago, USA",
+          "institution_ids": [
+            "https://openalex.org/I111979921"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 10.5721,
+  "has_fulltext": false,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+    "value": 0.98172699,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "104",
+    "issue": "03",
+    "first_page": "163",
+    "last_page": "167"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9595000147819519,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9595000147819519,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.03869999945163727,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.0006000000284984708,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.7889999747276306
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat-adaptation",
+      "display_name": "urban heat adaptation",
+      "score": 0.9599999785423279
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-health",
+      "display_name": "urban health",
+      "score": 0.5270000100135803
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-action-plans",
+      "display_name": "heat action plans",
+      "score": 0.6230000257492065
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-greening",
+      "display_name": "urban greening",
+      "score": 0.9850000143051147
+    },
+    {
+      "id": "https://openalex.org/keywords/blue-infrastructure",
+      "display_name": "blue infrastructure",
+      "score": 0.9860000014305115
+    },
+    {
+      "id": "https://openalex.org/keywords/cool-roofs",
+      "display_name": "cool roofs",
+      "score": 0.949999988079071
+    },
+    {
+      "id": "https://openalex.org/keywords/reflective-pavements",
+      "display_name": "reflective pavements",
+      "score": 0.9190000295639038
+    },
+    {
+      "id": "https://openalex.org/keywords/housing-retrofitting",
+      "display_name": "housing retrofit",
+      "score": 0.859000027179718
+    },
+    {
+      "id": "https://openalex.org/keywords/passive-cooling",
+      "display_name": "passive cooling",
+      "score": 0.9549999833106995
+    },
+    {
+      "id": "https://openalex.org/keywords/health-system-preparedness",
+      "display_name": "health system preparedness",
+      "score": 0.8389999866485596
+    },
+    {
+      "id": "https://openalex.org/keywords/impact-based-early-warning",
+      "display_name": "impact-based early warning",
+      "score": 0.8209999799728394
+    },
+    {
+      "id": "https://openalex.org/keywords/health-surveillance",
+      "display_name": "health surveillance",
+      "score": 0.6650000214576721
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-governance",
+      "display_name": "urban governance",
+      "score": 0.8209999799728394
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-adaptation-financing",
+      "display_name": "climate adaptation financing",
+      "score": 0.48500001430511475
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C54005896",
+      "wikidata": "https://www.wikidata.org/wiki/Q215712",
+      "display_name": "Urban heat island",
+      "level": 2,
+      "score": 0.6169999837875366
+    },
+    {
+      "id": "https://openalex.org/C91375879",
+      "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+      "display_name": "Environmental planning",
+      "level": 1,
+      "score": 0.609000027179718
+    },
+    {
+      "id": "https://openalex.org/C199728807",
+      "wikidata": "https://www.wikidata.org/wiki/Q2578557",
+      "display_name": "Equity (law)",
+      "level": 2,
+      "score": 0.5364999771118164
+    },
+    {
+      "id": "https://openalex.org/C139807058",
+      "wikidata": "https://www.wikidata.org/wiki/Q352374",
+      "display_name": "Adaptation (eye)",
+      "level": 2,
+      "score": 0.5360999703407288
+    },
+    {
+      "id": "https://openalex.org/C108170787",
+      "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+      "display_name": "Agency (philosophy)",
+      "level": 2,
+      "score": 0.4722000062465668
+    },
+    {
+      "id": "https://openalex.org/C49545453",
+      "wikidata": "https://www.wikidata.org/wiki/Q69883",
+      "display_name": "Urban planning",
+      "level": 2,
+      "score": 0.4584999978542328
+    },
+    {
+      "id": "https://openalex.org/C39389867",
+      "wikidata": "https://www.wikidata.org/wiki/Q380767",
+      "display_name": "Corporate governance",
+      "level": 2,
+      "score": 0.44920000433921814
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.4487999975681305
+    },
+    {
+      "id": "https://openalex.org/C138816342",
+      "wikidata": "https://www.wikidata.org/wiki/Q189603",
+      "display_name": "Public health",
+      "level": 2,
+      "score": 0.40959998965263367
+    },
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.4072999954223633
+    },
+    {
+      "id": "https://openalex.org/C158049464",
+      "wikidata": "https://www.wikidata.org/wiki/Q1075337",
+      "display_name": "Urban climate",
+      "level": 3,
+      "score": 0.40380001068115234
+    },
+    {
+      "id": "https://openalex.org/C2250968",
+      "wikidata": "https://www.wikidata.org/wiki/Q1512929",
+      "display_name": "Health equity",
+      "level": 3,
+      "score": 0.3776000142097473
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.37610000371932983
+    },
+    {
+      "id": "https://openalex.org/C2778603423",
+      "wikidata": "https://www.wikidata.org/wiki/Q108369092",
+      "display_name": "City region",
+      "level": 2,
+      "score": 0.35749998688697815
+    },
+    {
+      "id": "https://openalex.org/C27415008",
+      "wikidata": "https://www.wikidata.org/wiki/Q7256382",
+      "display_name": "Psychological intervention",
+      "level": 2,
+      "score": 0.3400000035762787
+    },
+    {
+      "id": "https://openalex.org/C107826830",
+      "wikidata": "https://www.wikidata.org/wiki/Q929380",
+      "display_name": "Environmental resource management",
+      "level": 1,
+      "score": 0.3179999887943268
+    },
+    {
+      "id": "https://openalex.org/C2777113093",
+      "wikidata": "https://www.wikidata.org/wiki/Q221488",
+      "display_name": "Pedestrian",
+      "level": 2,
+      "score": 0.3140000104904175
+    },
+    {
+      "id": "https://openalex.org/C39853841",
+      "wikidata": "https://www.wikidata.org/wiki/Q161078",
+      "display_name": "Urbanization",
+      "level": 2,
+      "score": 0.3093999922275543
+    },
+    {
+      "id": "https://openalex.org/C50522688",
+      "wikidata": "https://www.wikidata.org/wiki/Q189833",
+      "display_name": "Economic growth",
+      "level": 1,
+      "score": 0.2906999886035919
+    },
+    {
+      "id": "https://openalex.org/C47344431",
+      "wikidata": "https://www.wikidata.org/wiki/Q1519812",
+      "display_name": "Health policy",
+      "level": 3,
+      "score": 0.28060001134872437
+    },
+    {
+      "id": "https://openalex.org/C205300905",
+      "wikidata": "https://www.wikidata.org/wiki/Q63100",
+      "display_name": "Urban design",
+      "level": 3,
+      "score": 0.2791000008583069
+    },
+    {
+      "id": "https://openalex.org/C2778137410",
+      "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+      "display_name": "Government (linguistics)",
+      "level": 2,
+      "score": 0.2718000113964081
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.2694000005722046
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.26100000739097595
+    },
+    {
+      "id": "https://openalex.org/C3017944768",
+      "wikidata": "https://www.wikidata.org/wiki/Q1450463",
+      "display_name": "Poison control",
+      "level": 2,
+      "score": 0.25529998540878296
+    },
+    {
+      "id": "https://openalex.org/C18762648",
+      "wikidata": "https://www.wikidata.org/wiki/Q42213",
+      "display_name": "Work (physics)",
+      "level": 2,
+      "score": 0.2551000118255615
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014504",
+      "descriptor_name": "Urban Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014944",
+      "descriptor_name": "World Health Organization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014944",
+      "descriptor_name": "World Health Organization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014944",
+      "descriptor_name": "World Health Organization",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.2471/blt.25.294493",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.2471/blt.25.294493",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S22004576",
+        "display_name": "Bulletin of the World Health Organization",
+        "issn_l": "0042-9686",
+        "issn": [
+          "0042-9686",
+          "1564-0604"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "doyens",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319663",
+        "host_organization_name": "World Health Organization",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319663",
+          "https://openalex.org/P4310321776"
+        ],
+        "host_organization_lineage_names": [
+          "World Health Organization",
+          "United Nations"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Bulletin of the World Health Organization",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:41773229",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41773229",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Bulletin of the World Health Organization",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:12950271",
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12950271/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Bull World Health Organ",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.2471/blt.25.294493",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2471/blt.25.294493",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S22004576",
+      "display_name": "Bulletin of the World Health Organization",
+      "issn_l": "0042-9686",
+      "issn": [
+        "0042-9686",
+        "1564-0604"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319663",
+      "host_organization_name": "World Health Organization",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319663",
+        "https://openalex.org/P4310321776"
+      ],
+      "host_organization_lineage_names": [
+        "World Health Organization",
+        "United Nations"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Bulletin of the World Health Organization",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 1.0,
+      "display_name": "Sustainable cities and communities",
+      "id": "https://metadata.un.org/sdg/11"
+    },
+    {
+      "score": 0.9074000120162964,
+      "display_name": "Good health and well-being",
+      "id": "https://metadata.un.org/sdg/3"
+    },
+    {
+      "score": 0.685699999332428,
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "score": 0.48465901613235474,
+      "display_name": "Sustainable cities and communities",
+      "id": "https://metadata.un.org/sdg/11"
+    }
+  ],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Extreme": [
+      0
+    ],
+    "heat": [
+      1,
+      29,
+      145
+    ],
+    "has": [
+      2
+    ],
+    "become": [
+      3
+    ],
+    "a": [
+      4,
+      39,
+      169
+    ],
+    "predictable": [
+      5
+    ],
+    "urban": [
+      6,
+      28,
+      58,
+      70,
+      144
+    ],
+    "health": [
+      7,
+      160
+    ],
+    "emergency.": [
+      8
+    ],
+    "Here,": [
+      9
+    ],
+    "we": [
+      10,
+      37
+    ],
+    "synthesize": [
+      11
+    ],
+    "evidence": [
+      12
+    ],
+    "from": [
+      13,
+      17
+    ],
+    "2024": [
+      14
+    ],
+    "and": [
+      15,
+      23,
+      31,
+      60,
+      68,
+      79,
+      84,
+      96,
+      118,
+      131,
+      133,
+      148,
+      156,
+      158
+    ],
+    "2025": [
+      16
+    ],
+    "peer-reviewed": [
+      18
+    ],
+    "studies,": [
+      19
+    ],
+    "multilateral": [
+      20
+    ],
+    "agency": [
+      21
+    ],
+    "reports": [
+      22
+    ],
+    "city": [
+      24,
+      136
+    ],
+    "heat-action": [
+      25
+    ],
+    "plans": [
+      26
+    ],
+    "on": [
+      27,
+      34,
+      106
+    ],
+    "adaptation": [
+      30,
+      146,
+      167
+    ],
+    "health.": [
+      32
+    ],
+    "Based": [
+      33
+    ],
+    "this": [
+      35
+    ],
+    "evidence,": [
+      36
+    ],
+    "propose": [
+      38,
+      134
+    ],
+    "city-level": [
+      40
+    ],
+    "agenda": [
+      41
+    ],
+    "grounded": [
+      42
+    ],
+    "in": [
+      43,
+      125
+    ],
+    "the": [
+      44
+    ],
+    "World": [
+      45
+    ],
+    "Health": [
+      46
+    ],
+    "Organization": [
+      47
+    ],
+    "Healthy": [
+      48
+    ],
+    "Cities": [
+      49
+    ],
+    "framework.": [
+      50
+    ],
+    "We": [
+      51,
+      102,
+      121,
+      139
+    ],
+    "outline": [
+      52
+    ],
+    "interventions": [
+      53
+    ],
+    "with": [
+      54
+    ],
+    "demonstrated": [
+      55
+    ],
+    "benefits,": [
+      56
+    ],
+    "including": [
+      57
+    ],
+    "greening": [
+      59
+    ],
+    "blue": [
+      61
+    ],
+    "infrastructure": [
+      62
+    ],
+    "(such": [
+      63
+    ],
+    "as": [
+      64,
+      87,
+      89,
+      168
+    ],
+    "rivers,": [
+      65
+    ],
+    "canals,": [
+      66
+    ],
+    "wetlands": [
+      67
+    ],
+    "other": [
+      69
+    ],
+    "water": [
+      71
+    ],
+    "features": [
+      72
+    ],
+    "that": [
+      73,
+      92
+    ],
+    "reduce": [
+      74
+    ],
+    "ambient": [
+      75
+    ],
+    "temperatures),": [
+      76
+    ],
+    "cool": [
+      77
+    ],
+    "roofs": [
+      78
+    ],
+    "reflective": [
+      80
+    ],
+    "pavements,": [
+      81
+    ],
+    "shaded": [
+      82
+    ],
+    "pedestrian": [
+      83
+    ],
+    "transit": [
+      85
+    ],
+    "corridors,": [
+      86
+    ],
+    "well": [
+      88
+    ],
+    "housing": [
+      90
+    ],
+    "retrofits": [
+      91
+    ],
+    "prioritize": [
+      93
+    ],
+    "passive": [
+      94
+    ],
+    "cooling": [
+      95,
+      116
+    ],
+    "equitable": [
+      97
+    ],
+    "access": [
+      98
+    ],
+    "to": [
+      99,
+      143,
+      153
+    ],
+    "efficient": [
+      100
+    ],
+    "cooling.": [
+      101
+    ],
+    "place": [
+      103
+    ],
+    "equal": [
+      104
+    ],
+    "emphasis": [
+      105
+    ],
+    "health-system": [
+      107
+    ],
+    "readiness:": [
+      108
+    ],
+    "impact-based": [
+      109
+    ],
+    "early": [
+      110
+    ],
+    "warning,": [
+      111
+    ],
+    "surge": [
+      112
+    ],
+    "protocols,": [
+      113
+    ],
+    "clinician": [
+      114
+    ],
+    "training,": [
+      115
+    ],
+    "centres": [
+      117
+    ],
+    "strengthened": [
+      119
+    ],
+    "surveillance.": [
+      120
+    ],
+    "examine": [
+      122
+    ],
+    "implementation": [
+      123
+    ],
+    "challenges": [
+      124
+    ],
+    "financing,": [
+      126
+    ],
+    "governance,": [
+      127
+    ],
+    "equity,": [
+      128
+    ],
+    "technical": [
+      129
+    ],
+    "capacity": [
+      130
+    ],
+    "regulation,": [
+      132
+    ],
+    "practical": [
+      135
+    ],
+    "governance": [
+      137
+    ],
+    "responses.": [
+      138
+    ],
+    "emphasize": [
+      140
+    ],
+    "two": [
+      141
+    ],
+    "contributions": [
+      142
+    ],
+    "policy": [
+      147
+    ],
+    "practice:": [
+      149
+    ],
+    "hyperlocal": [
+      150
+    ],
+    "targeting": [
+      151
+    ],
+    "tools": [
+      152
+    ],
+    "maximize": [
+      154
+    ],
+    "equity": [
+      155
+    ],
+    "effectiveness,": [
+      157
+    ],
+    "positioning": [
+      159
+    ],
+    "systems": [
+      161
+    ],
+    "alongside": [
+      162
+    ],
+    "infrastructure,": [
+      163
+    ],
+    "rather": [
+      164
+    ],
+    "than": [
+      165
+    ],
+    "treating": [
+      166
+    ],
+    "purely": [
+      170
+    ],
+    "built-environment": [
+      171
+    ],
+    "intervention.": [
+      172
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2026-03-04T00:00:00"
+}

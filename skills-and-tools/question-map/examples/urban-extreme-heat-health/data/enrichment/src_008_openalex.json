@@ -1,0 +1,2269 @@
+{
+  "id": "https://openalex.org/W4392016004",
+  "doi": "https://doi.org/10.1136/bmjgh-2023-014230",
+  "title": "Extreme heat, pregnancy and women\u2019s well-being in Burkina Faso: an ethnographical study",
+  "display_name": "Extreme heat, pregnancy and women\u2019s well-being in Burkina Faso: an ethnographical study",
+  "publication_year": 2024,
+  "publication_date": "2024-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W4392016004",
+    "doi": "https://doi.org/10.1136/bmjgh-2023-014230",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/38382997"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1136/bmjgh-2023-014230",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjgh-2023-014230",
+    "pdf_url": "https://gh.bmj.com/content/8/Suppl_3/e014230.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764928273",
+      "display_name": "BMJ Global Health",
+      "issn_l": "2059-7908",
+      "issn": [
+        "2059-7908"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "BMJ Global Health",
+    "raw_type": "journal-article"
+  },
+  "type": "conference-abstract",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://gh.bmj.com/content/8/Suppl_3/e014230.full.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5080989726",
+        "display_name": "Kadidiatou Kadio",
+        "orcid": "https://orcid.org/0000-0001-5841-5979",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5841-5979"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116536",
+          "display_name": "Centre National de la Recherche Scientifique et Technologique",
+          "ror": "https://ror.org/01tytrg27",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210163846",
+          "display_name": "Institut de Recherche en Sciences de la Sant\u00e9",
+          "ror": "https://ror.org/05m88q091",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ],
+      "countries": [
+        "BF"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kadidiatou Kadio",
+      "raw_affiliation_strings": [
+        "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso",
+        "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso kadioka@gmail.com"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5841-5979",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso",
+          "institution_ids": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso kadioka@gmail.com",
+          "institution_ids": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086306607",
+        "display_name": "V\u00e9ronique Filippi",
+        "orcid": "https://orcid.org/0000-0003-1331-3391",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1331-3391"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Veronique Filippi",
+      "raw_affiliation_strings": [
+        "London School of Hygiene & Tropical Medicine, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1331-3391",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "London School of Hygiene & Tropical Medicine, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5093974981",
+        "display_name": "Mariam Congo",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116536",
+          "display_name": "Centre National de la Recherche Scientifique et Technologique",
+          "ror": "https://ror.org/01tytrg27",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210163846",
+          "display_name": "Institut de Recherche en Sciences de la Sant\u00e9",
+          "ror": "https://ror.org/05m88q091",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ],
+      "countries": [
+        "BF"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mariam Congo",
+      "raw_affiliation_strings": [
+        "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso",
+          "institution_ids": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031087995",
+        "display_name": "Fiona Scorgie",
+        "orcid": "https://orcid.org/0000-0003-2560-8234",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2560-8234"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I192619145",
+          "display_name": "University of the Witwatersrand",
+          "ror": "https://ror.org/03rp50x72",
+          "country_code": "ZA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I192619145"
+          ]
+        }
+      ],
+      "countries": [
+        "ZA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fiona Scorgie",
+      "raw_affiliation_strings": [
+        "Wits Reproductive Health Institute (WRHI), University of the Witwatersrand, Johannesburg, South Africa"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wits Reproductive Health Institute (WRHI), University of the Witwatersrand, Johannesburg, South Africa",
+          "institution_ids": [
+            "https://openalex.org/I192619145"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073762772",
+        "display_name": "Nathalie Roos",
+        "orcid": "https://orcid.org/0000-0001-9752-2355",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9752-2355"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I28166907",
+          "display_name": "Karolinska Institutet",
+          "ror": "https://ror.org/056d84691",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nathalie Roos",
+      "raw_affiliation_strings": [
+        "Department of Medicine, Karolinska Institutet, Stockholm, Sweden"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-9752-2355",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Medicine, Karolinska Institutet, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I28166907"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046719453",
+        "display_name": "Adelaide M. Lusambili",
+        "orcid": "https://orcid.org/0000-0001-8174-7963",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8174-7963"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210108070",
+          "display_name": "Aga Khan University Nairobi",
+          "ror": "https://ror.org/01zv98a09",
+          "country_code": "KE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I118185606",
+            "https://openalex.org/I4210108070",
+            "https://openalex.org/I4210114929"
+          ]
+        }
+      ],
+      "countries": [
+        "KE"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ad\u00e9la\u00efde Lusambili",
+      "raw_affiliation_strings": [
+        "Institute for Human Development, Aga Khan University, Nairobi, Kenya"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Human Development, Aga Khan University, Nairobi, Kenya",
+          "institution_ids": [
+            "https://openalex.org/I4210108070"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085333637",
+        "display_name": "Britt Nakstad",
+        "orcid": "https://orcid.org/0000-0002-6843-8100",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6843-8100"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I157273133",
+          "display_name": "University of Botswana",
+          "ror": "https://ror.org/01encsj80",
+          "country_code": "BW",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I157273133"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I184942183",
+          "display_name": "University of Oslo",
+          "ror": "https://ror.org/01xtthb56",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I184942183"
+          ]
+        }
+      ],
+      "countries": [
+        "BW",
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Britt Nakstad",
+      "raw_affiliation_strings": [
+        "Department of Pediatrics and Adolescent Health, University of Botswana, Gaborone, Botswana",
+        "University of Oslo, Oslo, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Pediatrics and Adolescent Health, University of Botswana, Gaborone, Botswana",
+          "institution_ids": [
+            "https://openalex.org/I157273133"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Oslo, Oslo, Norway",
+          "institution_ids": [
+            "https://openalex.org/I184942183"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5056253554",
+        "display_name": "Sari R. Kovats",
+        "orcid": "https://orcid.org/0000-0002-4823-8099",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4823-8099"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210089966",
+          "display_name": "London School of Hygiene & Tropical Medicine",
+          "ror": "https://ror.org/00a0jsq62",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I124357947",
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sari Kovats",
+      "raw_affiliation_strings": [
+        "London School of Hygiene & Tropical Medicine, London, UK"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4823-8099",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "London School of Hygiene & Tropical Medicine, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I4210089966"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5004096695",
+        "display_name": "S\u00e9ni Kouanda",
+        "orcid": "https://orcid.org/0000-0003-2426-7669",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2426-7669"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210116536",
+          "display_name": "Centre National de la Recherche Scientifique et Technologique",
+          "ror": "https://ror.org/01tytrg27",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210163846",
+          "display_name": "Institut de Recherche en Sciences de la Sant\u00e9",
+          "ror": "https://ror.org/05m88q091",
+          "country_code": "BF",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ],
+      "countries": [
+        "BF"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Seni Kouanda",
+      "raw_affiliation_strings": [
+        "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Centre national de la recherche scientifique et technologique (CNRST), Institut de Recherche en Sciences de la Sant\u00e9, Ouagadougou, Centre, Burkina Faso",
+          "institution_ids": [
+            "https://openalex.org/I4210116536",
+            "https://openalex.org/I4210163846"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 7,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3000,
+    "currency": "GBP",
+    "value_usd": 3679
+  },
+  "apc_paid": {
+    "value": 3000,
+    "currency": "GBP",
+    "value_usd": 3679
+  },
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 36,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "8",
+    "issue": "Suppl 3",
+    "first_page": "e014230",
+    "last_page": "e014230"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9916999936103821,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9916999936103821,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.0044999998062849045,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12365",
+      "display_name": "Effects of Environmental Stressors on Livestock",
+      "score": 0.0015999999595806003,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1103",
+        "display_name": "Animal Science and Zoology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/11",
+        "display_name": "Agricultural and Biological Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.9860000014305115
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-stress",
+      "display_name": "heat stress",
+      "score": 0.8140000104904175
+    },
+    {
+      "id": "https://openalex.org/keywords/pregnancy",
+      "display_name": "pregnancy",
+      "score": 0.9210000038146973
+    },
+    {
+      "id": "https://openalex.org/keywords/maternal-health",
+      "display_name": "maternal health",
+      "score": 0.875
+    },
+    {
+      "id": "https://openalex.org/keywords/women-s-well-being",
+      "display_name": "women's well-being",
+      "score": 0.8289999961853027
+    },
+    {
+      "id": "https://openalex.org/keywords/breastfeeding",
+      "display_name": "breastfeeding",
+      "score": 0.4699999988079071
+    },
+    {
+      "id": "https://openalex.org/keywords/neonatal-health",
+      "display_name": "newborn health",
+      "score": 0.5950000286102295
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change-health-impacts",
+      "display_name": "health impacts of climate change",
+      "score": 0.6759999990463257
+    },
+    {
+      "id": "https://openalex.org/keywords/sahel",
+      "display_name": "Sahel",
+      "score": 0.6600000262260437
+    },
+    {
+      "id": "https://openalex.org/keywords/burkina-faso",
+      "display_name": "Burkina Faso",
+      "score": 0.7739999890327454
+    },
+    {
+      "id": "https://openalex.org/keywords/cultural-practices",
+      "display_name": "cultural practices",
+      "score": 0.5339999794960022
+    },
+    {
+      "id": "https://openalex.org/keywords/women-s-employment",
+      "display_name": "women's employment",
+      "score": 0.42100000381469727
+    },
+    {
+      "id": "https://openalex.org/keywords/interpersonal-relationships",
+      "display_name": "interpersonal relationships",
+      "score": 0.6269999742507935
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776323365",
+      "wikidata": "https://www.wikidata.org/wiki/Q171180",
+      "display_name": "Taboo",
+      "level": 2,
+      "score": 0.6718226671218872
+    },
+    {
+      "id": "https://openalex.org/C56995899",
+      "wikidata": "https://www.wikidata.org/wiki/Q1126687",
+      "display_name": "Focus group",
+      "level": 2,
+      "score": 0.5514116883277893
+    },
+    {
+      "id": "https://openalex.org/C74196892",
+      "wikidata": "https://www.wikidata.org/wiki/Q7781188",
+      "display_name": "Thematic analysis",
+      "level": 3,
+      "score": 0.536013126373291
+    },
+    {
+      "id": "https://openalex.org/C138816342",
+      "wikidata": "https://www.wikidata.org/wiki/Q189603",
+      "display_name": "Public health",
+      "level": 2,
+      "score": 0.5352360010147095
+    },
+    {
+      "id": "https://openalex.org/C2776283161",
+      "wikidata": "https://www.wikidata.org/wiki/Q174876",
+      "display_name": "Breastfeeding",
+      "level": 2,
+      "score": 0.5197993516921997
+    },
+    {
+      "id": "https://openalex.org/C18762648",
+      "wikidata": "https://www.wikidata.org/wiki/Q42213",
+      "display_name": "Work (physics)",
+      "level": 2,
+      "score": 0.45958203077316284
+    },
+    {
+      "id": "https://openalex.org/C205537798",
+      "wikidata": "https://www.wikidata.org/wiki/Q1277161",
+      "display_name": "Extreme weather",
+      "level": 3,
+      "score": 0.45774051547050476
+    },
+    {
+      "id": "https://openalex.org/C160735492",
+      "wikidata": "https://www.wikidata.org/wiki/Q31207",
+      "display_name": "Health care",
+      "level": 2,
+      "score": 0.4219662845134735
+    },
+    {
+      "id": "https://openalex.org/C190248442",
+      "wikidata": "https://www.wikidata.org/wiki/Q839486",
+      "display_name": "Qualitative research",
+      "level": 2,
+      "score": 0.41938135027885437
+    },
+    {
+      "id": "https://openalex.org/C134362201",
+      "wikidata": "https://www.wikidata.org/wiki/Q317309",
+      "display_name": "Mental health",
+      "level": 2,
+      "score": 0.4149935245513916
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.38274216651916504
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.37871915102005005
+    },
+    {
+      "id": "https://openalex.org/C45355965",
+      "wikidata": "https://www.wikidata.org/wiki/Q1643441",
+      "display_name": "Socioeconomics",
+      "level": 1,
+      "score": 0.3488975167274475
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.3085803985595703
+    },
+    {
+      "id": "https://openalex.org/C159110408",
+      "wikidata": "https://www.wikidata.org/wiki/Q121176",
+      "display_name": "Nursing",
+      "level": 1,
+      "score": 0.3049456775188446
+    },
+    {
+      "id": "https://openalex.org/C50522688",
+      "wikidata": "https://www.wikidata.org/wiki/Q189833",
+      "display_name": "Economic growth",
+      "level": 1,
+      "score": 0.304068922996521
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.2993199825286865
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.2947036027908325
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.23781338334083557
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.2268528938293457
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.11348456144332886
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.10045459866523743
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162853370",
+      "wikidata": "https://www.wikidata.org/wiki/Q39809",
+      "display_name": "Marketing",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C36289849",
+      "wikidata": "https://www.wikidata.org/wiki/Q34749",
+      "display_name": "Social science",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C142724271",
+      "wikidata": "https://www.wikidata.org/wiki/Q7208",
+      "display_name": "Pathology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000884",
+      "descriptor_name": "Anthropology, Cultural",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000884",
+      "descriptor_name": "Anthropology, Cultural",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000884",
+      "descriptor_name": "Anthropology, Cultural",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000884",
+      "descriptor_name": "Anthropology, Cultural",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000884",
+      "descriptor_name": "Anthropology, Cultural",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002050",
+      "descriptor_name": "Burkina Faso",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002050",
+      "descriptor_name": "Burkina Faso",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002050",
+      "descriptor_name": "Burkina Faso",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002050",
+      "descriptor_name": "Burkina Faso",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002050",
+      "descriptor_name": "Burkina Faso",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002648",
+      "descriptor_name": "Child",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007223",
+      "descriptor_name": "Infant",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007231",
+      "descriptor_name": "Infant, Newborn",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007398",
+      "descriptor_name": "Interpersonal Relations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007398",
+      "descriptor_name": "Interpersonal Relations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007398",
+      "descriptor_name": "Interpersonal Relations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007398",
+      "descriptor_name": "Interpersonal Relations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007398",
+      "descriptor_name": "Interpersonal Relations",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009035",
+      "descriptor_name": "Mothers",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009035",
+      "descriptor_name": "Mothers",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009035",
+      "descriptor_name": "Mothers",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009035",
+      "descriptor_name": "Mothers",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D009035",
+      "descriptor_name": "Mothers",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011247",
+      "descriptor_name": "Pregnancy",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 5,
+  "locations": [
+    {
+      "id": "doi:10.1136/bmjgh-2023-014230",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1136/bmjgh-2023-014230",
+      "pdf_url": "https://gh.bmj.com/content/8/Suppl_3/e014230.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764928273",
+        "display_name": "BMJ Global Health",
+        "issn_l": "2059-7908",
+        "issn": [
+          "2059-7908"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "doyens",
+          "jufo-1",
+          "ki-jl-2",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319945",
+        "host_organization_name": "BMJ",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319945"
+        ],
+        "host_organization_lineage_names": [
+          "BMJ"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "BMJ Global Health",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:38382997",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38382997",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "BMJ global health",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:researchonline.lshtm.ac.uk:4679940",
+      "is_oa": false,
+      "landing_page_url": "https://orcid.org/0000-0001-5841-5979>;",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402527",
+        "display_name": "LSHTM Research Online (London School of Hygiene and Tropical Medicine)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4210089966",
+        "host_organization_name": "London School of Hygiene & Tropical Medicine",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210089966"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10897842",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10897842",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10897842/pdf/bmjgh-2023-014230.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "BMJ Glob Health",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:a8cde0af82194c9baaeeb5b72ced6ff0",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/a8cde0af82194c9baaeeb5b72ced6ff0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "BMJ Global Health, Vol 8, Iss Suppl 3 (2023)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1136/bmjgh-2023-014230",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1136/bmjgh-2023-014230",
+    "pdf_url": "https://gh.bmj.com/content/8/Suppl_3/e014230.full.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764928273",
+      "display_name": "BMJ Global Health",
+      "issn_l": "2059-7908",
+      "issn": [
+        "2059-7908"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "doyens",
+        "jufo-1",
+        "ki-jl-2",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319945",
+      "host_organization_name": "BMJ",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319945"
+      ],
+      "host_organization_lineage_names": [
+        "BMJ"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "BMJ Global Health",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.9907000064849854
+    },
+    {
+      "id": "https://metadata.un.org/sdg/5",
+      "display_name": "Gender equality",
+      "score": 0.6025999784469604
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1572408948",
+      "display_name": "Belmont Forum Collaborative Research: Climate, heat and maternal and neonatal health in Africa",
+      "funder_award_id": "2028598",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    },
+    {
+      "id": "https://openalex.org/G2737242410",
+      "display_name": null,
+      "funder_award_id": "2019-01570",
+      "funder_id": "https://openalex.org/F4320322581",
+      "funder_display_name": "Vetenskapsr\u00e5det"
+    },
+    {
+      "id": "https://openalex.org/G2908238723",
+      "display_name": null,
+      "funder_award_id": "ICER-2028598",
+      "funder_id": "https://openalex.org/F4320324004",
+      "funder_display_name": "Forskningsr\u00e5det om H\u00e4lsa, Arbetsliv och V\u00e4lf\u00e4rd"
+    },
+    {
+      "id": "https://openalex.org/G3230617176",
+      "display_name": null,
+      "funder_award_id": "NE/T013613/1",
+      "funder_id": "https://openalex.org/F4320320022",
+      "funder_display_name": "Sight Research UK"
+    },
+    {
+      "id": "https://openalex.org/G5844825704",
+      "display_name": null,
+      "funder_award_id": "312601",
+      "funder_id": "https://openalex.org/F4320323299",
+      "funder_display_name": "Norges Forskningsr\u00e5d"
+    },
+    {
+      "id": "https://openalex.org/G5859099584",
+      "display_name": null,
+      "funder_award_id": "NE/T01363X/1",
+      "funder_id": "https://openalex.org/F4320320022",
+      "funder_display_name": "Sight Research UK"
+    },
+    {
+      "id": "https://openalex.org/G60493514",
+      "display_name": null,
+      "funder_award_id": "NE/T01363X/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    },
+    {
+      "id": "https://openalex.org/G690377439",
+      "display_name": "Climate, heat and maternal and neonatal health in Africa",
+      "funder_award_id": "2019-01570",
+      "funder_id": "https://openalex.org/F4320324004",
+      "funder_display_name": "Forskningsr\u00e5det om H\u00e4lsa, Arbetsliv och V\u00e4lf\u00e4rd"
+    },
+    {
+      "id": "https://openalex.org/G7420335810",
+      "display_name": "CHAMNHA Climate, heat and maternal and neonatal health in Africa",
+      "funder_award_id": "NE/T01363X/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    },
+    {
+      "id": "https://openalex.org/G7880809746",
+      "display_name": "CHAMNHA: Climate, heat and maternal and neonatal health in Africa",
+      "funder_award_id": "NE/T013613/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    },
+    {
+      "id": "https://openalex.org/G8521916357",
+      "display_name": null,
+      "funder_award_id": "NE/T013613/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    },
+    {
+      "id": "https://openalex.org/F4320320022",
+      "display_name": "Sight Research UK",
+      "ror": "https://ror.org/03z2py885"
+    },
+    {
+      "id": "https://openalex.org/F4320322581",
+      "display_name": "Vetenskapsr\u00e5det",
+      "ror": "https://ror.org/03zttf063"
+    },
+    {
+      "id": "https://openalex.org/F4320323299",
+      "display_name": "Norges Forskningsr\u00e5d",
+      "ror": "https://ror.org/00epmv149"
+    },
+    {
+      "id": "https://openalex.org/F4320324004",
+      "display_name": "Forskningsr\u00e5det om H\u00e4lsa, Arbetsliv och V\u00e4lf\u00e4rd",
+      "ror": "https://ror.org/02d290r06"
+    },
+    {
+      "id": "https://openalex.org/F4320334631",
+      "display_name": "Natural Environment Research Council",
+      "ror": "https://ror.org/02b5d8509"
+    }
+  ],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4392016004.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4392016004.grobid-xml"
+  },
+  "referenced_works_count": 51,
+  "referenced_works": [
+    "https://openalex.org/W1481383813",
+    "https://openalex.org/W1979290264",
+    "https://openalex.org/W2004413114",
+    "https://openalex.org/W2028633019",
+    "https://openalex.org/W2100010006",
+    "https://openalex.org/W2114548451",
+    "https://openalex.org/W2133277779",
+    "https://openalex.org/W2212414619",
+    "https://openalex.org/W2290239272",
+    "https://openalex.org/W2295269183",
+    "https://openalex.org/W2419393097",
+    "https://openalex.org/W2482602334",
+    "https://openalex.org/W2587319706",
+    "https://openalex.org/W2624010026",
+    "https://openalex.org/W2727523935",
+    "https://openalex.org/W2754218728",
+    "https://openalex.org/W2755793469",
+    "https://openalex.org/W2785886187",
+    "https://openalex.org/W2805771987",
+    "https://openalex.org/W2891725437",
+    "https://openalex.org/W2939723693",
+    "https://openalex.org/W2977573786",
+    "https://openalex.org/W2985472300",
+    "https://openalex.org/W3010632148",
+    "https://openalex.org/W3026808344",
+    "https://openalex.org/W3083701621",
+    "https://openalex.org/W3090419065",
+    "https://openalex.org/W3117963905",
+    "https://openalex.org/W3134682588",
+    "https://openalex.org/W3135402558",
+    "https://openalex.org/W3158589092",
+    "https://openalex.org/W3160054202",
+    "https://openalex.org/W3160146303",
+    "https://openalex.org/W3171801815",
+    "https://openalex.org/W3185245520",
+    "https://openalex.org/W3203280282",
+    "https://openalex.org/W3211045390",
+    "https://openalex.org/W3212430395",
+    "https://openalex.org/W4211028450",
+    "https://openalex.org/W4213316796",
+    "https://openalex.org/W4234323881",
+    "https://openalex.org/W4256628073",
+    "https://openalex.org/W4256675214",
+    "https://openalex.org/W4281735582",
+    "https://openalex.org/W4283027359",
+    "https://openalex.org/W4288748530",
+    "https://openalex.org/W4297256710",
+    "https://openalex.org/W4302010904",
+    "https://openalex.org/W4376137727",
+    "https://openalex.org/W4382361937",
+    "https://openalex.org/W4386569828"
+  ],
+  "related_works": [
+    "https://openalex.org/W2341091165",
+    "https://openalex.org/W4385848450",
+    "https://openalex.org/W4388366225",
+    "https://openalex.org/W2241890132",
+    "https://openalex.org/W4388939699",
+    "https://openalex.org/W4390859376",
+    "https://openalex.org/W2355170474",
+    "https://openalex.org/W3170131249",
+    "https://openalex.org/W3166510378",
+    "https://openalex.org/W4392833314"
+  ],
+  "abstract_inverted_index": {
+    "Climate": [
+      0
+    ],
+    "change": [
+      1
+    ],
+    "is": [
+      2,
+      218
+    ],
+    "an": [
+      3
+    ],
+    "increasing": [
+      4
+    ],
+    "threat": [
+      5
+    ],
+    "to": [
+      6,
+      40,
+      71,
+      106,
+      118,
+      147,
+      165,
+      168,
+      215,
+      221,
+      226,
+      242,
+      249
+    ],
+    "the": [
+      7,
+      31,
+      47,
+      59,
+      108,
+      185,
+      189,
+      196,
+      228,
+      244
+    ],
+    "health": [
+      8,
+      224,
+      233,
+      247
+    ],
+    "of": [
+      9,
+      51,
+      61,
+      110,
+      195,
+      199,
+      212,
+      230,
+      246
+    ],
+    "populations": [
+      10
+    ],
+    "in": [
+      11,
+      16,
+      30,
+      69,
+      95,
+      98,
+      116,
+      234,
+      256
+    ],
+    "Africa,": [
+      12
+    ],
+    "with": [
+      13,
+      88,
+      157,
+      172,
+      251
+    ],
+    "a": [
+      14,
+      126,
+      144,
+      181,
+      219
+    ],
+    "shift": [
+      15
+    ],
+    "seasonal": [
+      17
+    ],
+    "temperatures": [
+      18,
+      124
+    ],
+    "towards": [
+      19
+    ],
+    "more": [
+      20
+    ],
+    "extreme": [
+      21,
+      123
+    ],
+    "heat": [
+      22,
+      62,
+      136,
+      206,
+      213,
+      231,
+      257
+    ],
+    "exposures.": [
+      23
+    ],
+    "In": [
+      24
+    ],
+    "Burkina": [
+      25,
+      99,
+      235
+    ],
+    "Faso,": [
+      26
+    ],
+    "like": [
+      27
+    ],
+    "other": [
+      28
+    ],
+    "countries": [
+      29
+    ],
+    "Sahel,": [
+      32
+    ],
+    "many": [
+      33
+    ],
+    "women": [
+      34,
+      57,
+      202,
+      252
+    ],
+    "have": [
+      35,
+      125
+    ],
+    "little": [
+      36
+    ],
+    "protection": [
+      37
+    ],
+    "against": [
+      38
+    ],
+    "exposure": [
+      39
+    ],
+    "high": [
+      41
+    ],
+    "temperatures,": [
+      42
+    ],
+    "either": [
+      43
+    ],
+    "outside": [
+      44,
+      187
+    ],
+    "or": [
+      45,
+      49
+    ],
+    "inside": [
+      46
+    ],
+    "home": [
+      48
+    ],
+    "place": [
+      50
+    ],
+    "work.": [
+      52
+    ],
+    "This": [
+      53
+    ],
+    "paper": [
+      54
+    ],
+    "investigates": [
+      55
+    ],
+    "how": [
+      56
+    ],
+    "perceive": [
+      58
+    ],
+    "impacts": [
+      60,
+      229
+    ],
+    "on": [
+      63,
+      129,
+      183,
+      232
+    ],
+    "their": [
+      64,
+      72,
+      152,
+      163,
+      173
+    ],
+    "physical": [
+      65
+    ],
+    "and": [
+      66,
+      75,
+      82,
+      92,
+      113,
+      133,
+      140,
+      151,
+      154,
+      167,
+      175,
+      209,
+      238
+    ],
+    "mental": [
+      67
+    ],
+    "health,": [
+      68
+    ],
+    "addition": [
+      70
+    ],
+    "social": [
+      73
+    ],
+    "relationships": [
+      74,
+      171
+    ],
+    "economic": [
+      76
+    ],
+    "activities.": [
+      77
+    ],
+    "Qualitative": [
+      78
+    ],
+    "methods": [
+      79
+    ],
+    "(in-depth": [
+      80
+    ],
+    "interviews": [
+      81
+    ],
+    "focus": [
+      83
+    ],
+    "group": [
+      84
+    ],
+    "discussions)": [
+      85
+    ],
+    "were": [
+      86
+    ],
+    "conducted": [
+      87
+    ],
+    "women,": [
+      89,
+      131
+    ],
+    "community": [
+      90
+    ],
+    "representatives": [
+      91
+    ],
+    "healthcare": [
+      93
+    ],
+    "professionals": [
+      94,
+      248
+    ],
+    "two": [
+      96
+    ],
+    "regions": [
+      97
+    ],
+    "Faso.": [
+      100,
+      236
+    ],
+    "A": [
+      101
+    ],
+    "thematic": [
+      102
+    ],
+    "analysis": [
+      103
+    ],
+    "was": [
+      104
+    ],
+    "used": [
+      105
+    ],
+    "explore": [
+      107
+    ],
+    "realities": [
+      109
+    ],
+    "participants'": [
+      111
+    ],
+    "experiences": [
+      112
+    ],
+    "contextual": [
+      114
+    ],
+    "perspectives": [
+      115
+    ],
+    "relation": [
+      117
+    ],
+    "heat.": [
+      119,
+      200
+    ],
+    "Our": [
+      120
+    ],
+    "research": [
+      121
+    ],
+    "shows": [
+      122
+    ],
+    "multifaceted": [
+      127
+    ],
+    "impact": [
+      128
+    ],
+    "pregnant": [
+      130
+    ],
+    "mothers": [
+      132
+    ],
+    "newborns.": [
+      134
+    ],
+    "Extreme": [
+      135
+    ],
+    "affects": [
+      137,
+      162
+    ],
+    "women's": [
+      138
+    ],
+    "functionality": [
+      139
+    ],
+    "well-being.": [
+      141
+    ],
+    "Heat": [
+      142,
+      160
+    ],
+    "undermines": [
+      143
+    ],
+    "woman's": [
+      145
+    ],
+    "ability": [
+      146,
+      164,
+      245
+    ],
+    "care": [
+      148
+    ],
+    "for": [
+      149
+    ],
+    "themselves": [
+      150
+    ],
+    "child": [
+      153
+    ],
+    "interferes": [
+      155
+    ],
+    "negatively": [
+      156,
+      161
+    ],
+    "breast": [
+      158
+    ],
+    "feeding.": [
+      159
+    ],
+    "work": [
+      166
+    ],
+    "maintain": [
+      169
+    ],
+    "harmonious": [
+      170
+    ],
+    "partners": [
+      174
+    ],
+    "families.": [
+      176
+    ],
+    "Cultural": [
+      177
+    ],
+    "practices": [
+      178,
+      255
+    ],
+    "such": [
+      179
+    ],
+    "as": [
+      180
+    ],
+    "taboo": [
+      182
+    ],
+    "taking": [
+      184
+    ],
+    "baby": [
+      186
+    ],
+    "before": [
+      188
+    ],
+    "40th": [
+      190
+    ],
+    "day": [
+      191
+    ],
+    "may": [
+      192
+    ],
+    "exacerbate": [
+      193
+    ],
+    "some": [
+      194
+    ],
+    "negative": [
+      197
+    ],
+    "consequences": [
+      198
+    ],
+    "Most": [
+      201
+    ],
+    "do": [
+      203
+    ],
+    "not": [
+      204
+    ],
+    "recognise": [
+      205
+    ],
+    "stress": [
+      207
+    ],
+    "symptoms": [
+      208
+    ],
+    "lack": [
+      210
+    ],
+    "awareness": [
+      211
+    ],
+    "risks": [
+      214
+    ],
+    "health.": [
+      216
+    ],
+    "There": [
+      217
+    ],
+    "need": [
+      220
+    ],
+    "develop": [
+      222
+    ],
+    "public": [
+      223
+    ],
+    "messages": [
+      225
+    ],
+    "reduce": [
+      227
+    ],
+    "Programmes": [
+      237
+    ],
+    "policies": [
+      239
+    ],
+    "are": [
+      240
+    ],
+    "needed": [
+      241
+    ],
+    "strengthen": [
+      243
+    ],
+    "communicate": [
+      250
+    ],
+    "about": [
+      253
+    ],
+    "best": [
+      254
+    ],
+    "risk": [
+      258
+    ],
+    "management.": [
+      259
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2025-10-10T00:00:00"
+}

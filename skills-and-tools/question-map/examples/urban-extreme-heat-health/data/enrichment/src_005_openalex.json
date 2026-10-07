@@ -1,0 +1,1642 @@
+{
+  "id": "https://openalex.org/W4389439722",
+  "doi": "https://doi.org/10.3389/fpubh.2023.1310410",
+  "title": "Residential greenness for mitigating impacts of extreme heat events on depression and supporting mental health",
+  "display_name": "Residential greenness for mitigating impacts of extreme heat events on depression and supporting mental health",
+  "publication_year": 2023,
+  "publication_date": "2023-12-07",
+  "ids": {
+    "openalex": "https://openalex.org/W4389439722",
+    "doi": "https://doi.org/10.3389/fpubh.2023.1310410",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/38145084"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3389/fpubh.2023.1310410",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fpubh.2023.1310410",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1310410/pdf?isPublishedV2=False",
+    "source": {
+      "id": "https://openalex.org/S2595931848",
+      "display_name": "Frontiers in Public Health",
+      "issn_l": "2296-2565",
+      "issn": [
+        "2296-2565"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+        "Frontiers Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Frontiers in Public Health",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1310410/pdf?isPublishedV2=False",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5041611656",
+        "display_name": "Ying Yang",
+        "orcid": "https://orcid.org/0000-0002-9799-3293",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9799-3293"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3923682",
+          "display_name": "Soochow University",
+          "ror": "https://ror.org/05t8y2r12",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3923682"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ying Yang",
+      "raw_affiliation_strings": [
+        "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I3923682"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100351214",
+        "display_name": "Yixin Zhang",
+        "orcid": "https://orcid.org/0000-0003-1546-4150",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1546-4150"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3923682",
+          "display_name": "Soochow University",
+          "ror": "https://ror.org/05t8y2r12",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3923682"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yixin Zhang",
+      "raw_affiliation_strings": [
+        "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China",
+        "Research Center of Landscape Heritage Protection and Ecological Restoration, China-Portugal Joint Laboratory of Cultural Heritage Conservation Science, Suzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I3923682"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Research Center of Landscape Heritage Protection and Ecological Restoration, China-Portugal Joint Laboratory of Cultural Heritage Conservation Science, Suzhou, China",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113065292",
+        "display_name": "Shaojie Sheng",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I3923682",
+          "display_name": "Soochow University",
+          "ror": "https://ror.org/05t8y2r12",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I3923682"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shaojie Sheng",
+      "raw_affiliation_strings": [
+        "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Landscape Architecture, Gold Mantis School of Architecture, Soochow University, Suzhou, China",
+          "institution_ids": [
+            "https://openalex.org/I3923682"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100351214"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I3923682"
+  ],
+  "apc_list": {
+    "value": 3295,
+    "currency": "USD",
+    "value_usd": 3295
+  },
+  "apc_paid": {
+    "value": 3295,
+    "currency": "USD",
+    "value_usd": 3295
+  },
+  "fwci": 1.7087,
+  "has_fulltext": true,
+  "cited_by_count": 16,
+  "citation_normalized_percentile": {
+    "value": 0.8326084,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "11",
+    "issue": null,
+    "first_page": "1310410",
+    "last_page": "1310410"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10692",
+    "display_name": "Urban Green Space and Health",
+    "score": 0.9940999746322632,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10692",
+      "display_name": "Urban Green Space and Health",
+      "score": 0.9940999746322632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.004900000058114529,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.00039999998989515007,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/residential-green-space",
+      "display_name": "residential green space",
+      "score": 0.9800000190734863
+    },
+    {
+      "id": "https://openalex.org/keywords/depression",
+      "display_name": "depression",
+      "score": 0.9259999990463257
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-waves",
+      "display_name": "heat waves",
+      "score": 0.9110000133514404
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat-island",
+      "display_name": "urban heat island",
+      "score": 0.9039999842643738
+    },
+    {
+      "id": "https://openalex.org/keywords/mental-health",
+      "display_name": "mental health",
+      "score": 0.7440000176429749
+    },
+    {
+      "id": "https://openalex.org/keywords/green-roofs",
+      "display_name": "green roofs",
+      "score": 0.6470000147819519
+    },
+    {
+      "id": "https://openalex.org/keywords/green-walls",
+      "display_name": "green walls",
+      "score": 0.9980000257492065
+    },
+    {
+      "id": "https://openalex.org/keywords/street-trees",
+      "display_name": "street trees",
+      "score": 0.9950000047683716
+    },
+    {
+      "id": "https://openalex.org/keywords/ecosystem-services",
+      "display_name": "ecosystem services",
+      "score": 0.8539999723434448
+    },
+    {
+      "id": "https://openalex.org/keywords/evaporative-cooling",
+      "display_name": "evaporative cooling",
+      "score": 0.8679999709129333
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-stress",
+      "display_name": "heat stress",
+      "score": 0.7509999871253967
+    },
+    {
+      "id": "https://openalex.org/keywords/green-space-design",
+      "display_name": "green space design",
+      "score": 0.7409999966621399
+    },
+    {
+      "id": "https://openalex.org/keywords/social-cohesion",
+      "display_name": "social cohesion",
+      "score": 0.5230000019073486
+    },
+    {
+      "id": "https://openalex.org/keywords/exercise",
+      "display_name": "physical activity",
+      "score": 0.8169999718666077
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C134362201",
+      "wikidata": "https://www.wikidata.org/wiki/Q317309",
+      "display_name": "Mental health",
+      "level": 2,
+      "score": 0.6349309086799622
+    },
+    {
+      "id": "https://openalex.org/C54005896",
+      "wikidata": "https://www.wikidata.org/wiki/Q215712",
+      "display_name": "Urban heat island",
+      "level": 2,
+      "score": 0.5460287928581238
+    },
+    {
+      "id": "https://openalex.org/C2776867660",
+      "wikidata": "https://www.wikidata.org/wiki/Q1814941",
+      "display_name": "Depression (economics)",
+      "level": 2,
+      "score": 0.4985077381134033
+    },
+    {
+      "id": "https://openalex.org/C205537798",
+      "wikidata": "https://www.wikidata.org/wiki/Q1277161",
+      "display_name": "Extreme weather",
+      "level": 3,
+      "score": 0.43472468852996826
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.413730651140213
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.4101085066795349
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.39513853192329407
+    },
+    {
+      "id": "https://openalex.org/C107826830",
+      "wikidata": "https://www.wikidata.org/wiki/Q929380",
+      "display_name": "Environmental resource management",
+      "level": 1,
+      "score": 0.3309693932533264
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.31970497965812683
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.31667423248291016
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.27361762523651123
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.2263771891593933
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.19200053811073303
+    },
+    {
+      "id": "https://openalex.org/C118552586",
+      "wikidata": "https://www.wikidata.org/wiki/Q7867",
+      "display_name": "Psychiatry",
+      "level": 1,
+      "score": 0.18334117531776428
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.10155835747718811
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C139719470",
+      "wikidata": "https://www.wikidata.org/wiki/Q39680",
+      "display_name": "Macroeconomics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003863",
+      "descriptor_name": "Depression",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D003863",
+      "descriptor_name": "Depression",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003863",
+      "descriptor_name": "Depression",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003863",
+      "descriptor_name": "Depression",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D003863",
+      "descriptor_name": "Depression",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008603",
+      "descriptor_name": "Mental Health",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D017753",
+      "descriptor_name": "Ecosystem",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D055874",
+      "descriptor_name": "Extreme Heat",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.3389/fpubh.2023.1310410",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3389/fpubh.2023.1310410",
+      "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1310410/pdf?isPublishedV2=False",
+      "source": {
+        "id": "https://openalex.org/S2595931848",
+        "display_name": "Frontiers in Public Health",
+        "issn_l": "2296-2565",
+        "issn": [
+          "2296-2565"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320527",
+        "host_organization_name": "Frontiers Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320527"
+        ],
+        "host_organization_lineage_names": [
+          "Frontiers Media"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in Public Health",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:38145084",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/38145084",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Frontiers in public health",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:10740180",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/10740180",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10740180/pdf/fpubh-11-1310410.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Front Public Health",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:9547ef0ede1b470f853127258c7983c7",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/9547ef0ede1b470f853127258c7983c7",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Frontiers in Public Health, Vol 11 (2023)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.3389/fpubh.2023.1310410",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3389/fpubh.2023.1310410",
+    "pdf_url": "https://www.frontiersin.org/articles/10.3389/fpubh.2023.1310410/pdf?isPublishedV2=False",
+    "source": {
+      "id": "https://openalex.org/S2595931848",
+      "display_name": "Frontiers in Public Health",
+      "issn_l": "2296-2565",
+      "issn": [
+        "2296-2565"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320527",
+      "host_organization_name": "Frontiers Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320527"
+      ],
+      "host_organization_lineage_names": [
+        "Frontiers Media"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Frontiers in Public Health",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being",
+      "score": 0.9391000270843506
+    },
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities",
+      "score": 0.9333000183105469
+    },
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action",
+      "score": 0.5351999998092651
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities",
+      "score": 0.5099999904632568
+    }
+  ],
+  "study_designs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G175572258",
+      "display_name": null,
+      "funder_award_id": "2021YFE0200100",
+      "funder_id": "https://openalex.org/F4320335777",
+      "funder_display_name": "National Key Research and Development Program of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320324720",
+      "display_name": "Soochow University",
+      "ror": "https://ror.org/05t8y2r12"
+    },
+    {
+      "id": "https://openalex.org/F4320335777",
+      "display_name": "National Key Research and Development Program of China",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4389439722.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4389439722.grobid-xml"
+  },
+  "referenced_works_count": 103,
+  "referenced_works": [
+    "https://openalex.org/W923403462",
+    "https://openalex.org/W1528119717",
+    "https://openalex.org/W1961114094",
+    "https://openalex.org/W1962888918",
+    "https://openalex.org/W1964419282",
+    "https://openalex.org/W1987950182",
+    "https://openalex.org/W1990264967",
+    "https://openalex.org/W1995498425",
+    "https://openalex.org/W2000852246",
+    "https://openalex.org/W2015308980",
+    "https://openalex.org/W2023886957",
+    "https://openalex.org/W2029353188",
+    "https://openalex.org/W2032950028",
+    "https://openalex.org/W2051214244",
+    "https://openalex.org/W2052971081",
+    "https://openalex.org/W2054295250",
+    "https://openalex.org/W2058138144",
+    "https://openalex.org/W2059388255",
+    "https://openalex.org/W2062363236",
+    "https://openalex.org/W2064454189",
+    "https://openalex.org/W2068288428",
+    "https://openalex.org/W2071611719",
+    "https://openalex.org/W2084620401",
+    "https://openalex.org/W2092785656",
+    "https://openalex.org/W2097313012",
+    "https://openalex.org/W2100266331",
+    "https://openalex.org/W2113296374",
+    "https://openalex.org/W2115180584",
+    "https://openalex.org/W2119218917",
+    "https://openalex.org/W2128351874",
+    "https://openalex.org/W2132314079",
+    "https://openalex.org/W2135654712",
+    "https://openalex.org/W2141274827",
+    "https://openalex.org/W2142842186",
+    "https://openalex.org/W2147608847",
+    "https://openalex.org/W2148161863",
+    "https://openalex.org/W2151656578",
+    "https://openalex.org/W2159827482",
+    "https://openalex.org/W2165406318",
+    "https://openalex.org/W2200055847",
+    "https://openalex.org/W2252846440",
+    "https://openalex.org/W2328802328",
+    "https://openalex.org/W2462877343",
+    "https://openalex.org/W2510559066",
+    "https://openalex.org/W2594412321",
+    "https://openalex.org/W2768021733",
+    "https://openalex.org/W2770462640",
+    "https://openalex.org/W2795955377",
+    "https://openalex.org/W2800953445",
+    "https://openalex.org/W2811371839",
+    "https://openalex.org/W2884440806",
+    "https://openalex.org/W2884832675",
+    "https://openalex.org/W2900543697",
+    "https://openalex.org/W2904848364",
+    "https://openalex.org/W2906701876",
+    "https://openalex.org/W2907520835",
+    "https://openalex.org/W2910191925",
+    "https://openalex.org/W2912746916",
+    "https://openalex.org/W2964203982",
+    "https://openalex.org/W2969813175",
+    "https://openalex.org/W2980111968",
+    "https://openalex.org/W3008219025",
+    "https://openalex.org/W3081061234",
+    "https://openalex.org/W3081856961",
+    "https://openalex.org/W3088528178",
+    "https://openalex.org/W3112712121",
+    "https://openalex.org/W3114366349",
+    "https://openalex.org/W3120971845",
+    "https://openalex.org/W3131139302",
+    "https://openalex.org/W3134568887",
+    "https://openalex.org/W3136223535",
+    "https://openalex.org/W3152204881",
+    "https://openalex.org/W3155012455",
+    "https://openalex.org/W3157494760",
+    "https://openalex.org/W3158309666",
+    "https://openalex.org/W3160554351",
+    "https://openalex.org/W3163625843",
+    "https://openalex.org/W3164760838",
+    "https://openalex.org/W3184646785",
+    "https://openalex.org/W3188729567",
+    "https://openalex.org/W3203145978",
+    "https://openalex.org/W3206924707",
+    "https://openalex.org/W3211328827",
+    "https://openalex.org/W4206163835",
+    "https://openalex.org/W4206449384",
+    "https://openalex.org/W4210481613",
+    "https://openalex.org/W4224221434",
+    "https://openalex.org/W4224243349",
+    "https://openalex.org/W4225275211",
+    "https://openalex.org/W4282938995",
+    "https://openalex.org/W4288057914",
+    "https://openalex.org/W4294877882",
+    "https://openalex.org/W4313611927",
+    "https://openalex.org/W4318594476",
+    "https://openalex.org/W4320497202",
+    "https://openalex.org/W4379013032",
+    "https://openalex.org/W6641142089",
+    "https://openalex.org/W6655698827",
+    "https://openalex.org/W6665136129",
+    "https://openalex.org/W6680645655",
+    "https://openalex.org/W6703743318",
+    "https://openalex.org/W6777278928",
+    "https://openalex.org/W6795329432"
+  ],
+  "related_works": [
+    "https://openalex.org/W2547006382",
+    "https://openalex.org/W3017730864",
+    "https://openalex.org/W2003943341",
+    "https://openalex.org/W2193749736",
+    "https://openalex.org/W2385102367",
+    "https://openalex.org/W2389058308",
+    "https://openalex.org/W2350120827",
+    "https://openalex.org/W4382360089",
+    "https://openalex.org/W4243467473",
+    "https://openalex.org/W2900665354"
+  ],
+  "abstract_inverted_index": {
+    "Background:": [
+      0
+    ],
+    "Residential": [
+      1
+    ],
+    "green": [
+      2,
+      81,
+      172,
+      174,
+      176,
+      195,
+      240
+    ],
+    "spaces": [
+      3,
+      82
+    ],
+    "(RGS)": [
+      4,
+      83
+    ],
+    "are": [
+      5,
+      40
+    ],
+    "a": [
+      6,
+      16,
+      58,
+      99,
+      121,
+      208,
+      233
+    ],
+    "crucial": [
+      7
+    ],
+    "aspect": [
+      8
+    ],
+    "of": [
+      9,
+      45,
+      168
+    ],
+    "urban": [
+      10,
+      36
+    ],
+    "life,": [
+      11
+    ],
+    "which": [
+      12,
+      188
+    ],
+    "provide": [
+      13,
+      150
+    ],
+    "residents": [
+      14
+    ],
+    "with": [
+      15,
+      105
+    ],
+    "positive": [
+      17
+    ],
+    "living": [
+      18
+    ],
+    "environment": [
+      19
+    ],
+    "both": [
+      20
+    ],
+    "for": [
+      21,
+      53,
+      79,
+      124,
+      211,
+      243
+    ],
+    "mental": [
+      22,
+      54,
+      59,
+      268
+    ],
+    "and": [
+      23,
+      34,
+      117,
+      129,
+      131,
+      164,
+      178,
+      203,
+      216,
+      218,
+      265
+    ],
+    "physical": [
+      24,
+      199
+    ],
+    "well-being.": [
+      25
+    ],
+    "However,": [
+      26
+    ],
+    "extreme": [
+      27,
+      66,
+      93,
+      133,
+      220,
+      263
+    ],
+    "heat": [
+      28,
+      37,
+      67,
+      89,
+      94,
+      134,
+      221,
+      264
+    ],
+    "events": [
+      29,
+      135,
+      222
+    ],
+    "caused": [
+      30
+    ],
+    "by": [
+      31,
+      65,
+      87,
+      187
+    ],
+    "global": [
+      32
+    ],
+    "warming": [
+      33
+    ],
+    "local": [
+      35
+    ],
+    "island": [
+      38
+    ],
+    "effects": [
+      39
+    ],
+    "threatening": [
+      41
+    ],
+    "the": [
+      42,
+      77,
+      112,
+      125,
+      212
+    ],
+    "public": [
+      43,
+      267
+    ],
+    "health": [
+      44
+    ],
+    "rapidly": [
+      46
+    ],
+    "growing": [
+      47
+    ],
+    "populations.": [
+      48
+    ],
+    "This": [
+      49,
+      72
+    ],
+    "is": [
+      50,
+      57
+    ],
+    "especially": [
+      51
+    ],
+    "true": [
+      52
+    ],
+    "health.": [
+      55,
+      269
+    ],
+    "Depression": [
+      56
+    ],
+    "illness": [
+      60
+    ],
+    "that": [
+      61,
+      132,
+      147,
+      153,
+      219
+    ],
+    "can": [
+      62,
+      149,
+      252
+    ],
+    "be": [
+      63,
+      137,
+      224
+    ],
+    "impacted": [
+      64
+    ],
+    "events,": [
+      68
+    ],
+    "i.e.,": [
+      69,
+      170
+    ],
+    "heatwaves.": [
+      70,
+      118,
+      247
+    ],
+    "Objective:": [
+      71
+    ],
+    "study": [
+      73
+    ],
+    "aimed": [
+      74
+    ],
+    "to": [
+      75,
+      84,
+      107,
+      141,
+      228,
+      238,
+      259
+    ],
+    "investigate": [
+      76
+    ],
+    "potential": [
+      78
+    ],
+    "residential": [
+      80
+    ],
+    "alleviate": [
+      85,
+      190
+    ],
+    "depression": [
+      86,
+      191,
+      245
+    ],
+    "reducing": [
+      88,
+      244
+    ],
+    "stress": [
+      90
+    ],
+    "sensitivity": [
+      91
+    ],
+    "during": [
+      92,
+      192,
+      246
+    ],
+    "events.": [
+      95
+    ],
+    "Methods:": [
+      96
+    ],
+    "We": [
+      97,
+      119,
+      231
+    ],
+    "conducted": [
+      98
+    ],
+    "literature": [
+      100
+    ],
+    "review": [
+      101,
+      145
+    ],
+    "using": [
+      102
+    ],
+    "scientometric": [
+      103
+    ],
+    "analysis": [
+      104
+    ],
+    "CiteSpace": [
+      106
+    ],
+    "summarize": [
+      108
+    ],
+    "existing": [
+      109
+    ],
+    "research": [
+      110,
+      255
+    ],
+    "on": [
+      111,
+      256
+    ],
+    "relationships": [
+      113
+    ],
+    "between": [
+      114,
+      127,
+      214
+    ],
+    "RGS,": [
+      115,
+      169
+    ],
+    "depression,": [
+      116,
+      130,
+      217
+    ],
+    "proposed": [
+      120,
+      207
+    ],
+    "conceptual": [
+      122,
+      209
+    ],
+    "framework": [
+      123,
+      210
+    ],
+    "relationship": [
+      126,
+      213
+    ],
+    "RGS": [
+      128,
+      148,
+      189,
+      215,
+      235,
+      249,
+      258
+    ],
+    "may": [
+      136,
+      223
+    ],
+    "an": [
+      138,
+      225
+    ],
+    "important": [
+      139,
+      226
+    ],
+    "contributor": [
+      140,
+      227
+    ],
+    "depression.": [
+      142,
+      229
+    ],
+    "Results:": [
+      143
+    ],
+    "Our": [
+      144
+    ],
+    "found": [
+      146
+    ],
+    "ecosystem": [
+      151
+    ],
+    "services": [
+      152
+    ],
+    "lower": [
+      154
+    ],
+    "ambient": [
+      155
+    ],
+    "temperatures": [
+      156
+    ],
+    "through": [
+      157
+    ],
+    "evaporative": [
+      158
+    ],
+    "cooling,": [
+      159
+    ],
+    "radiation": [
+      160
+    ],
+    "reflection,": [
+      161
+    ],
+    "humidity": [
+      162
+    ],
+    "regulation,": [
+      163
+    ],
+    "shading.": [
+      165
+    ],
+    "Different": [
+      166
+    ],
+    "types": [
+      167
+    ],
+    "small": [
+      171
+    ],
+    "spaces,": [
+      173
+    ],
+    "roofs,": [
+      175
+    ],
+    "walls,": [
+      177
+    ],
+    "street": [
+      179
+    ],
+    "trees,": [
+      180
+    ],
+    "have": [
+      181
+    ],
+    "varying": [
+      182
+    ],
+    "cooling": [
+      183
+    ],
+    "capacities.": [
+      184
+    ],
+    "The": [
+      185
+    ],
+    "mechanisms": [
+      186
+    ],
+    "heatwaves": [
+      193
+    ],
+    "involve": [
+      194
+    ],
+    "space": [
+      196,
+      241
+    ],
+    "composition,": [
+      197
+    ],
+    "exposure,": [
+      198
+    ],
+    "activity,": [
+      200
+    ],
+    "social": [
+      201
+    ],
+    "contacts,": [
+      202
+    ],
+    "cohesion.": [
+      204
+    ],
+    "And": [
+      205
+    ],
+    "we": [
+      206
+    ],
+    "Conclusion:": [
+      230
+    ],
+    "present": [
+      232
+    ],
+    "multidimensional": [
+      234,
+      250
+    ],
+    "evaluation": [
+      236,
+      251
+    ],
+    "roadmap": [
+      237
+    ],
+    "inform": [
+      239
+    ],
+    "design": [
+      242
+    ],
+    "Establishing": [
+      248
+    ],
+    "guide": [
+      253
+    ],
+    "future": [
+      254
+    ],
+    "leveraging": [
+      257
+    ],
+    "build": [
+      260
+    ],
+    "resilience": [
+      261
+    ],
+    "against": [
+      262
+    ],
+    "improve": [
+      266
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-10-06T10:28:23.643775",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,2488 @@
+{
+  "id": "https://openalex.org/W4404056303",
+  "doi": "https://doi.org/10.1513/annalsats.202405-470oc",
+  "title": "Impact of Heat on Respiratory Hospitalizations among Older Adults in 120 Large U.S. Urban Areas",
+  "display_name": "Impact of Heat on Respiratory Hospitalizations among Older Adults in 120 Large U.S. Urban Areas",
+  "publication_year": 2024,
+  "publication_date": "2024-11-05",
+  "ids": {
+    "openalex": "https://openalex.org/W4404056303",
+    "doi": "https://doi.org/10.1513/annalsats.202405-470oc",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/39499766"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1513/annalsats.202405-470oc",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1513/annalsats.202405-470oc",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210233309",
+      "display_name": "Annals of the American Thoracic Society",
+      "issn_l": "2325-6621",
+      "issn": [
+        "2325-6621",
+        "2329-6933"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-2",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316311",
+      "host_organization_name": "American Thoracic Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316311"
+      ],
+      "host_organization_lineage_names": [
+        "American Thoracic Society"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Annals of the American Thoracic Society",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.1513/annalsats.202405-470oc",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029898379",
+        "display_name": "Cassandra R. O\u2019Lenick",
+        "orcid": "https://orcid.org/0000-0003-0936-2406",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0936-2406"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Cassandra R. O\u2019Lenick",
+      "raw_affiliation_strings": [
+        "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States;"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0936-2406",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States;",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5072231561",
+        "display_name": "Stephanie E. Cleland",
+        "orcid": "https://orcid.org/0000-0003-1912-8349",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1912-8349"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I18014758",
+          "display_name": "Simon Fraser University",
+          "ror": "https://ror.org/0213rcc28",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I18014758"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephanie E. Cleland",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "Department of Environmental Sciences and Engineering, Gillings School of Public Health, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina",
+        "Faculty of Health Sciences, Simon Fraser University, Burnaby, British Columbia, Canada",
+        "Simon Fraser University Faculty of Health Sciences, Burnaby, British Columbia, Canada",
+        "The University of North Carolina at Chapel Hill Gillings School of Global Public Health, Department of Environmental Sciences and Engineering, Chapel Hill, North Carolina, United States",
+        "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1912-8349",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Environmental Sciences and Engineering, Gillings School of Public Health, University of North Carolina at Chapel Hill, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Faculty of Health Sciences, Simon Fraser University, Burnaby, British Columbia, Canada",
+          "institution_ids": [
+            "https://openalex.org/I18014758"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Simon Fraser University Faculty of Health Sciences, Burnaby, British Columbia, Canada",
+          "institution_ids": [
+            "https://openalex.org/I18014758"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of North Carolina at Chapel Hill Gillings School of Global Public Health, Department of Environmental Sciences and Engineering, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041894754",
+        "display_name": "Lucas Neas",
+        "orcid": "https://orcid.org/0000-0002-9377-8334",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9377-8334"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lucas M. Neas",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9377-8334",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5019429091",
+        "display_name": "Mallory Wolfe Turner",
+        "orcid": "https://orcid.org/0000-0002-6807-7894",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6807-7894"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mallory W. Turner",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6807-7894",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5098954516",
+        "display_name": "E. Melissa Mcinroe",
+        "orcid": "https://orcid.org/0009-0003-4678-7339",
+        "observed_orcids": [
+          "https://orcid.org/0009-0003-4678-7339"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. Melissa Mcinroe",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Clincal Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0003-4678-7339",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clincal Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111136217",
+        "display_name": "K. Lloyd Hill",
+        "orcid": "https://orcid.org/0009-0000-0091-7001",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-0091-7001"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K. Lloyd Hill",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0000-0091-7001",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017261720",
+        "display_name": "Andrew J. Ghio",
+        "orcid": "https://orcid.org/0000-0003-0502-6448",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0502-6448"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew J. Ghio",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-0502-6448",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5062731941",
+        "display_name": "Meghan E. Rebuli",
+        "orcid": "https://orcid.org/0000-0003-1918-2257",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1918-2257"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Meghan E. Rebuli",
+      "raw_affiliation_strings": [
+        "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+        "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-1918-2257",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044617284",
+        "display_name": "Ilona Jaspers",
+        "orcid": "https://orcid.org/0000-0001-8728-0305",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8728-0305"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I114027177",
+          "display_name": "University of North Carolina at Chapel Hill",
+          "ror": "https://ror.org/0130frc33",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ilona Jaspers",
+      "raw_affiliation_strings": [
+        "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+        "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8728-0305",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Environmental Medicine, Asthma, and Lung Biology, School of Medicine, and",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "The University of North Carolina at Chapel Hill, School of Medicine, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I114027177"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5006962848",
+        "display_name": "Ana Grohovac Rappold",
+        "orcid": "https://orcid.org/0000-0002-7696-0900",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7696-0900"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1302368450",
+          "display_name": "Environmental Protection Agency",
+          "ror": "https://ror.org/03tns0030",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ana G. Rappold",
+      "raw_affiliation_strings": [
+        "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+        "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7696-0900",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Clinical Research Branch, U.S. Environmental Protection Agency, Chapel Hill, North Carolina",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        },
+        {
+          "raw_affiliation_string": "US EPA, Clinical Research Branch, Chapel Hill, North Carolina, United States",
+          "institution_ids": [
+            "https://openalex.org/I1302368450"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5029898379"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I114027177",
+    "https://openalex.org/I1302368450"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.6982,
+  "has_fulltext": false,
+  "cited_by_count": 16,
+  "citation_normalized_percentile": {
+    "value": 0.90908223,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "22",
+    "issue": "3",
+    "first_page": "367",
+    "last_page": "377"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9940999746322632,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9940999746322632,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10190",
+      "display_name": "Air Quality and Health Impacts",
+      "score": 0.0052999998442828655,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/heat-related-hospitalizations",
+      "display_name": "heat-related hospitalizations",
+      "score": 0.6019999980926514
+    },
+    {
+      "id": "https://openalex.org/keywords/respiratory-hospitalization",
+      "display_name": "respiratory hospitalization",
+      "score": 0.765999972820282
+    },
+    {
+      "id": "https://openalex.org/keywords/older-adults",
+      "display_name": "older adults",
+      "score": 0.9409999847412109
+    },
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.8880000114440918
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-index",
+      "display_name": "heat index",
+      "score": 0.9039999842643738
+    },
+    {
+      "id": "https://openalex.org/keywords/respiratory-tract-infections",
+      "display_name": "respiratory infections",
+      "score": 0.9470000267028809
+    },
+    {
+      "id": "https://openalex.org/keywords/chronic-respiratory-disease",
+      "display_name": "chronic respiratory disease",
+      "score": 0.8569999933242798
+    },
+    {
+      "id": "https://openalex.org/keywords/respiratory-failure",
+      "display_name": "respiratory failure",
+      "score": 0.9399999976158142
+    },
+    {
+      "id": "https://openalex.org/keywords/regional-variation",
+      "display_name": "regional variation",
+      "score": 0.5759999752044678
+    },
+    {
+      "id": "https://openalex.org/keywords/racial-disparities",
+      "display_name": "racial disparities",
+      "score": 0.9229999780654907
+    },
+    {
+      "id": "https://openalex.org/keywords/black-older-adults",
+      "display_name": "Black older adults",
+      "score": 0.6470000147819519
+    },
+    {
+      "id": "https://openalex.org/keywords/medicare-beneficiaries",
+      "display_name": "Medicare beneficiaries",
+      "score": 0.675000011920929
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat",
+      "display_name": "urban heat",
+      "score": 0.5410000085830688
+    },
+    {
+      "id": "https://openalex.org/keywords/age-effect-modification",
+      "display_name": "age effect modification",
+      "score": 0.40700000524520874
+    },
+    {
+      "id": "https://openalex.org/keywords/urban-heat-island",
+      "display_name": "urban heat island",
+      "score": 0.3930000066757202
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.9424242973327637
+    },
+    {
+      "id": "https://openalex.org/C534529494",
+      "wikidata": "https://www.wikidata.org/wiki/Q7891",
+      "display_name": "Respiratory system",
+      "level": 2,
+      "score": 0.5951933860778809
+    },
+    {
+      "id": "https://openalex.org/C194828623",
+      "wikidata": "https://www.wikidata.org/wiki/Q2861470",
+      "display_name": "Emergency medicine",
+      "level": 1,
+      "score": 0.44726720452308655
+    },
+    {
+      "id": "https://openalex.org/C2779473830",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+      "display_name": "MEDLINE",
+      "level": 2,
+      "score": 0.4183272123336792
+    },
+    {
+      "id": "https://openalex.org/C177713679",
+      "wikidata": "https://www.wikidata.org/wiki/Q679690",
+      "display_name": "Intensive care medicine",
+      "level": 1,
+      "score": 0.3927982449531555
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.3417876064777374
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.3216930329799652
+    },
+    {
+      "id": "https://openalex.org/C126322002",
+      "wikidata": "https://www.wikidata.org/wiki/Q11180",
+      "display_name": "Internal medicine",
+      "level": 1,
+      "score": 0.25994157791137695
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D002947",
+      "descriptor_name": "Cities",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004781",
+      "descriptor_name": "Environmental Exposure",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006760",
+      "descriptor_name": "Hospitalization",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012140",
+      "descriptor_name": "Respiratory Tract Diseases",
+      "qualifier_ui": "Q000628",
+      "qualifier_name": "therapy",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": "Q000453",
+      "qualifier_name": "epidemiology",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014505",
+      "descriptor_name": "Urban Population",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1513/annalsats.202405-470oc",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1513/annalsats.202405-470oc",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210233309",
+        "display_name": "Annals of the American Thoracic Society",
+        "issn_l": "2325-6621",
+        "issn": [
+          "2325-6621",
+          "2329-6933"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-2",
+          "ki-jl-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316311",
+        "host_organization_name": "American Thoracic Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316311"
+        ],
+        "host_organization_lineage_names": [
+          "American Thoracic Society"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Annals of the American Thoracic Society",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:39499766",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39499766",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Annals of the American Thoracic Society",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:europepmc.org:10705000",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11892670",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400806",
+        "display_name": "Europe PMC (PubMed Central)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1303153112",
+        "host_organization_name": "European Bioinformatics Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/I1303153112"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:11892670",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11892670",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Ann Am Thorac Soc",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1513/annalsats.202405-470oc",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1513/annalsats.202405-470oc",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210233309",
+      "display_name": "Annals of the American Thoracic Society",
+      "issn_l": "2325-6621",
+      "issn": [
+        "2325-6621",
+        "2329-6933"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-2",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316311",
+      "host_organization_name": "American Thoracic Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316311"
+      ],
+      "host_organization_lineage_names": [
+        "American Thoracic Society"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Annals of the American Thoracic Society",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    },
+    {
+      "score": 0.5142999887466431,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "sustainable_development_goals_aurora": [
+    {
+      "score": 0.550000011920929,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "study_designs": [
+    {
+      "id": "https://openalex.org/study-designs/observational-study",
+      "display_name": "Observational Study"
+    }
+  ],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306107",
+      "display_name": "U.S. Environmental Protection Agency",
+      "ror": "https://ror.org/03tns0030"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 60,
+  "referenced_works": [
+    "https://openalex.org/W1950609946",
+    "https://openalex.org/W1979199565",
+    "https://openalex.org/W1981350000",
+    "https://openalex.org/W1995600630",
+    "https://openalex.org/W2006203329",
+    "https://openalex.org/W2006680776",
+    "https://openalex.org/W2012382866",
+    "https://openalex.org/W2016237323",
+    "https://openalex.org/W2026510057",
+    "https://openalex.org/W2027776000",
+    "https://openalex.org/W2061557763",
+    "https://openalex.org/W2100189428",
+    "https://openalex.org/W2102904993",
+    "https://openalex.org/W2109839011",
+    "https://openalex.org/W2117592491",
+    "https://openalex.org/W2120981194",
+    "https://openalex.org/W2129618773",
+    "https://openalex.org/W2150180906",
+    "https://openalex.org/W2150930940",
+    "https://openalex.org/W2158754356",
+    "https://openalex.org/W2162775913",
+    "https://openalex.org/W2164065164",
+    "https://openalex.org/W2275763965",
+    "https://openalex.org/W2296295067",
+    "https://openalex.org/W2469076249",
+    "https://openalex.org/W2473404734",
+    "https://openalex.org/W2490831979",
+    "https://openalex.org/W2507944939",
+    "https://openalex.org/W2598977388",
+    "https://openalex.org/W2768859360",
+    "https://openalex.org/W2904548927",
+    "https://openalex.org/W2908555768",
+    "https://openalex.org/W2920783516",
+    "https://openalex.org/W2981477397",
+    "https://openalex.org/W2982160553",
+    "https://openalex.org/W2999943130",
+    "https://openalex.org/W3084374632",
+    "https://openalex.org/W3090690578",
+    "https://openalex.org/W3092584689",
+    "https://openalex.org/W3093777756",
+    "https://openalex.org/W3112816751",
+    "https://openalex.org/W3132918294",
+    "https://openalex.org/W3159255389",
+    "https://openalex.org/W3171801815",
+    "https://openalex.org/W3177358377",
+    "https://openalex.org/W3216911684",
+    "https://openalex.org/W4210528561",
+    "https://openalex.org/W4224293466",
+    "https://openalex.org/W4294826717",
+    "https://openalex.org/W4296932243",
+    "https://openalex.org/W4304099334",
+    "https://openalex.org/W4312209807",
+    "https://openalex.org/W4317726537",
+    "https://openalex.org/W4324319918",
+    "https://openalex.org/W4379930740",
+    "https://openalex.org/W4380225137",
+    "https://openalex.org/W4386574142",
+    "https://openalex.org/W4387036108",
+    "https://openalex.org/W4388673199",
+    "https://openalex.org/W4390222335"
+  ],
+  "related_works": [
+    "https://openalex.org/W2268816907",
+    "https://openalex.org/W2037842050",
+    "https://openalex.org/W2106219211",
+    "https://openalex.org/W2411381492",
+    "https://openalex.org/W2120914903",
+    "https://openalex.org/W2396512728",
+    "https://openalex.org/W2082561471",
+    "https://openalex.org/W4251548348",
+    "https://openalex.org/W2160005228",
+    "https://openalex.org/W1573946278"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Rationale": [
+      1
+    ],
+    "Extreme": [
+      2
+    ],
+    "heat": [
+      3,
+      44,
+      87,
+      101,
+      253,
+      317
+    ],
+    "exposure": [
+      4,
+      18,
+      248
+    ],
+    "is": [
+      5
+    ],
+    "a": [
+      6,
+      202
+    ],
+    "well-known": [
+      7
+    ],
+    "cause": [
+      8
+    ],
+    "of": [
+      9,
+      17,
+      42,
+      54,
+      70,
+      214,
+      256,
+      272,
+      281,
+      291,
+      330
+    ],
+    "mortality": [
+      10
+    ],
+    "among": [
+      11,
+      49,
+      181,
+      285,
+      294,
+      338
+    ],
+    "older": [
+      12,
+      50,
+      339
+    ],
+    "adults.": [
+      13,
+      340
+    ],
+    "However,": [
+      14
+    ],
+    "the": [
+      15,
+      40,
+      58,
+      252,
+      260,
+      269,
+      286,
+      303
+    ],
+    "impacts": [
+      16
+    ],
+    "on": [
+      19,
+      45
+    ],
+    "respiratory": [
+      20,
+      46,
+      72,
+      107,
+      179,
+      216,
+      223,
+      233,
+      236,
+      274,
+      283,
+      313,
+      331
+    ],
+    "morbidity": [
+      21
+    ],
+    "across": [
+      22,
+      184
+    ],
+    "U.S.": [
+      23,
+      61,
+      187
+    ],
+    "cities": [
+      24,
+      62
+    ],
+    "and": [
+      25,
+      65,
+      105,
+      126,
+      145,
+      172,
+      191,
+      231,
+      276,
+      293,
+      325,
+      334,
+      356
+    ],
+    "population": [
+      26
+    ],
+    "subgroups": [
+      27
+    ],
+    "are": [
+      28,
+      151
+    ],
+    "not": [
+      29
+    ],
+    "well": [
+      30
+    ],
+    "understood.": [
+      31
+    ],
+    "Objectives": [
+      32
+    ],
+    "A": [
+      33
+    ],
+    "nationwide": [
+      34,
+      121
+    ],
+    "study": [
+      35,
+      305
+    ],
+    "was": [
+      36,
+      249
+    ],
+    "conducted": [
+      37
+    ],
+    "to": [
+      38,
+      78,
+      103,
+      316,
+      328
+    ],
+    "determine": [
+      39
+    ],
+    "impact": [
+      41
+    ],
+    "high": [
+      43,
+      159,
+      198,
+      323
+    ],
+    "disease": [
+      47
+    ],
+    "hospitalizations": [
+      48,
+      73,
+      108,
+      157,
+      180,
+      210,
+      284,
+      314
+    ],
+    "adults": [
+      51
+    ],
+    "(\u226565": [
+      52
+    ],
+    "yr": [
+      53,
+      290
+    ],
+    "age)": [
+      55,
+      292
+    ],
+    "living": [
+      56,
+      297
+    ],
+    "in": [
+      57,
+      80,
+      156,
+      201,
+      209,
+      222,
+      268,
+      298,
+      343,
+      363
+    ],
+    "120": [
+      59,
+      185,
+      261
+    ],
+    "largest": [
+      60
+    ],
+    "between": [
+      63,
+      99,
+      189
+    ],
+    "2000": [
+      64,
+      190
+    ],
+    "2017.": [
+      66,
+      192
+    ],
+    "Methods": [
+      67
+    ],
+    "Daily": [
+      68
+    ],
+    "rates": [
+      69,
+      346
+    ],
+    "inpatient": [
+      71
+    ],
+    "were": [
+      74,
+      245,
+      308
+    ],
+    "examined": [
+      75
+    ],
+    "with": [
+      76,
+      114,
+      164
+    ],
+    "respect": [
+      77
+    ],
+    "variations": [
+      79
+    ],
+    "ZIP": [
+      81
+    ],
+    "code\u2013level": [
+      82
+    ],
+    "daily": [
+      83
+    ],
+    "mean": [
+      84,
+      257
+    ],
+    "temperature": [
+      85,
+      324
+    ],
+    "or": [
+      86,
+      148
+    ],
+    "index.": [
+      88
+    ],
+    "For": [
+      89
+    ],
+    "each": [
+      90,
+      168
+    ],
+    "city,": [
+      91
+    ],
+    "we": [
+      92,
+      138,
+      263,
+      277
+    ],
+    "estimated": [
+      93,
+      120,
+      310
+    ],
+    "cumulative": [
+      94,
+      195
+    ],
+    "associations": [
+      95,
+      122,
+      129,
+      196,
+      244
+    ],
+    "(lag": [
+      96
+    ],
+    "days": [
+      97
+    ],
+    "0\u20136)": [
+      98
+    ],
+    "warm-season": [
+      100
+    ],
+    "(June": [
+      102
+    ],
+    "September)": [
+      104
+    ],
+    "cause-specific": [
+      106
+    ],
+    "using": [
+      109,
+      123,
+      251
+    ],
+    "time-stratified": [
+      110
+    ],
+    "conditional": [
+      111
+    ],
+    "quasi-Poisson": [
+      112
+    ],
+    "regression": [
+      113
+    ],
+    "distributed": [
+      115
+    ],
+    "lag": [
+      116
+    ],
+    "nonlinear": [
+      117
+    ],
+    "models.": [
+      118
+    ],
+    "We": [
+      119,
+      176
+    ],
+    "multivariate": [
+      124
+    ],
+    "meta-regression": [
+      125
+    ],
+    "updated": [
+      127
+    ],
+    "city-specific": [
+      128
+    ],
+    "via": [
+      130
+    ],
+    "best": [
+      131
+    ],
+    "linear": [
+      132
+    ],
+    "unbiased": [
+      133
+    ],
+    "prediction.": [
+      134
+    ],
+    "With": [
+      135
+    ],
+    "stratified": [
+      136
+    ],
+    "models,": [
+      137
+    ],
+    "explored": [
+      139
+    ],
+    "effect": [
+      140
+    ],
+    "modification": [
+      141
+    ],
+    "by": [
+      142,
+      220
+    ],
+    "age,": [
+      143
+    ],
+    "sex,": [
+      144
+    ],
+    "race": [
+      146
+    ],
+    "(Black": [
+      147
+    ],
+    "White).": [
+      149
+    ],
+    "Results": [
+      150,
+      175,
+      320
+    ],
+    "reported": [
+      152
+    ],
+    "as": [
+      153
+    ],
+    "percentage": [
+      154
+    ],
+    "change": [
+      155
+    ],
+    "at": [
+      158,
+      197
+    ],
+    "temperatures": [
+      160,
+      166,
+      199
+    ],
+    "(95th": [
+      161
+    ],
+    "percentile)": [
+      162
+    ],
+    "compared": [
+      163
+    ],
+    "median": [
+      165
+    ],
+    "for": [
+      167,
+      211,
+      353
+    ],
+    "outcome,": [
+      169
+    ],
+    "demographic": [
+      170
+    ],
+    "group,": [
+      171
+    ],
+    "metropolitan": [
+      173
+    ],
+    "area.": [
+      174
+    ],
+    "identified": [
+      177
+    ],
+    "3,275,033": [
+      178
+    ],
+    "Medicare": [
+      182
+    ],
+    "beneficiaries": [
+      183,
+      288,
+      296
+    ],
+    "large": [
+      186
+    ],
+    "cites": [
+      188
+    ],
+    "Nationwide,": [
+      193
+    ],
+    "7-day": [
+      194
+    ],
+    "resulted": [
+      200
+    ],
+    "1.2%": [
+      203
+    ],
+    "(95%": [
+      204
+    ],
+    "confidence": [
+      205,
+      228,
+      240
+    ],
+    "interval,": [
+      206,
+      229,
+      241
+    ],
+    "0.4\u20132.0%)": [
+      207
+    ],
+    "increase": [
+      208
+    ],
+    "primary": [
+      212
+    ],
+    "diagnoses": [
+      213
+    ],
+    "all-cause": [
+      215
+    ],
+    "disease,": [
+      217
+    ],
+    "driven": [
+      218
+    ],
+    "primarily": [
+      219
+    ],
+    "increases": [
+      221
+    ],
+    "tract": [
+      224,
+      332
+    ],
+    "infections": [
+      225,
+      333
+    ],
+    "(1.8%": [
+      226
+    ],
+    "[95%": [
+      227,
+      239
+    ],
+    "0.6\u20133.0%])": [
+      230
+    ],
+    "chronic": [
+      232,
+      335
+    ],
+    "diseases": [
+      234,
+      337
+    ],
+    "and/or": [
+      235
+    ],
+    "failure": [
+      237
+    ],
+    "(1.2%": [
+      238
+    ],
+    "0.0\u20132.4%]).": [
+      242
+    ],
+    "Stronger": [
+      243
+    ],
+    "observed": [
+      246,
+      264,
+      278
+    ],
+    "when": [
+      247
+    ],
+    "defined": [
+      250
+    ],
+    "index": [
+      254
+    ],
+    "instead": [
+      255
+    ],
+    "temperature.": [
+      258
+    ],
+    "Across": [
+      259
+    ],
+    "cities,": [
+      262
+    ],
+    "considerable": [
+      265
+    ],
+    "geographic": [
+      266
+    ],
+    "variation": [
+      267,
+      342
+    ],
+    "relative": [
+      270
+    ],
+    "risk": [
+      271
+    ],
+    "heat-related": [
+      273,
+      282,
+      344
+    ],
+    "hospitalizations,": [
+      275
+    ],
+    "disproportionate": [
+      279,
+      354
+    ],
+    "burdens": [
+      280
+    ],
+    "oldest": [
+      287
+    ],
+    "(\u226585": [
+      289
+    ],
+    "Black": [
+      295
+    ],
+    "South": [
+      299
+    ],
+    "Atlantic": [
+      300
+    ],
+    "cities.": [
+      301
+    ],
+    "During": [
+      302
+    ],
+    "18-year": [
+      304
+    ],
+    "period,": [
+      306
+    ],
+    "there": [
+      307
+    ],
+    "an": [
+      309
+    ],
+    "11,710": [
+      311
+    ],
+    "excess": [
+      312
+    ],
+    "due": [
+      315
+    ],
+    "exposure.": [
+      318
+    ],
+    "Conclusions": [
+      319
+    ],
+    "suggest": [
+      321
+    ],
+    "that": [
+      322,
+      348
+    ],
+    "humidity": [
+      326
+    ],
+    "contribute": [
+      327
+    ],
+    "exacerbation": [
+      329
+    ],
+    "lung": [
+      336
+    ],
+    "Geographic": [
+      341
+    ],
+    "hospitalization": [
+      345
+    ],
+    "suggests": [
+      347
+    ],
+    "contextual": [
+      349
+    ],
+    "factors": [
+      350
+    ],
+    "largely": [
+      351
+    ],
+    "account": [
+      352
+    ],
+    "burdens,": [
+      355
+    ],
+    "area-level": [
+      357
+    ],
+    "influences": [
+      358
+    ],
+    "should": [
+      359
+    ],
+    "be": [
+      360
+    ],
+    "further": [
+      361
+    ],
+    "investigated": [
+      362
+    ],
+    "multicity": [
+      364
+    ],
+    "studies.": [
+      365
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-10-06T10:28:23.643775",
+  "created_date": "2024-11-06T00:00:00"
+}

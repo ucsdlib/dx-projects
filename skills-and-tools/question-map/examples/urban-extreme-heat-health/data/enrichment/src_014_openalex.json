@@ -1,0 +1,1121 @@
+{
+  "id": "https://openalex.org/W4401510062",
+  "doi": "https://doi.org/10.1007/s11524-024-00892-6",
+  "title": "Summer Heat, Historic Redlining, and Neighborhood Walking among Older Adults: 2017 National Household Travel Survey",
+  "display_name": "Summer Heat, Historic Redlining, and Neighborhood Walking among Older Adults: 2017 National Household Travel Survey",
+  "publication_year": 2024,
+  "publication_date": "2024-08-12",
+  "ids": {
+    "openalex": "https://openalex.org/W4401510062",
+    "doi": "https://doi.org/10.1007/s11524-024-00892-6",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/39134918"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s11524-024-00892-6",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s11524-024-00892-6",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S52340619",
+      "display_name": "Journal of Urban Health",
+      "issn_l": "0028-7091",
+      "issn": [
+        "0028-7091",
+        "1099-3460",
+        "1468-2869"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-1",
+        "ki-jl-1",
+        "medline",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Urban Health",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/pdf/11524_2024_Article_892.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5034151265",
+        "display_name": "Diana Mitsova",
+        "orcid": "https://orcid.org/0000-0002-4239-2378",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4239-2378"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I63772739",
+          "display_name": "Florida Atlantic University",
+          "ror": "https://ror.org/05p8w6387",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63772739"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Diana Mitsova",
+      "raw_affiliation_strings": [
+        "Department of Urban and Regional Planning, Florida Atlantic University, Boca Raton, FL, USA. dmitsova@fau.edu",
+        "Department of Urban and Regional Planning, Florida Atlantic University, Boca Raton, FL, USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4239-2378",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Urban and Regional Planning, Florida Atlantic University, Boca Raton, FL, USA. dmitsova@fau.edu",
+          "institution_ids": [
+            "https://openalex.org/I63772739"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Urban and Regional Planning, Florida Atlantic University, Boca Raton, FL, USA",
+          "institution_ids": [
+            "https://openalex.org/I63772739"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5067430944",
+        "display_name": "Lilah M. Besser",
+        "orcid": "https://orcid.org/0000-0001-9945-0877",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9945-0877"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145608581",
+          "display_name": "University of Miami",
+          "ror": "https://ror.org/02dgjyy92",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145608581"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lilah M. Besser",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Comprehensive Center for Brain Health, University of Miami, Boca Raton, FL, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Comprehensive Center for Brain Health, University of Miami, Boca Raton, FL, USA",
+          "institution_ids": [
+            "https://openalex.org/I145608581"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5093983944",
+        "display_name": "Elaine T. Le",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145608581",
+          "display_name": "University of Miami",
+          "ror": "https://ror.org/02dgjyy92",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145608581"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Elaine T. Le",
+      "raw_affiliation_strings": [
+        "Department of Neurology, Comprehensive Center for Brain Health, University of Miami, Boca Raton, FL, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Neurology, Comprehensive Center for Brain Health, University of Miami, Boca Raton, FL, USA",
+          "institution_ids": [
+            "https://openalex.org/I145608581"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5034151265"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I63772739"
+  ],
+  "apc_list": {
+    "value": 4590,
+    "currency": "USD",
+    "value_usd": 4590
+  },
+  "apc_paid": null,
+  "fwci": 3.831,
+  "has_fulltext": true,
+  "cited_by_count": 5,
+  "citation_normalized_percentile": {
+    "value": 0.9322726,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "101",
+    "issue": "6",
+    "first_page": "1178",
+    "last_page": "1187"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12259",
+    "display_name": "Environmental Justice and Health Disparities",
+    "score": 0.5562000274658203,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3312",
+      "display_name": "Sociology and Political Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12259",
+      "display_name": "Environmental Justice and Health Disparities",
+      "score": 0.5562000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10298",
+      "display_name": "Urban Transport and Accessibility",
+      "score": 0.36250001192092896,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10766",
+      "display_name": "Urban Heat Island Mitigation",
+      "score": 0.021800000220537186,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/urban-heat-island",
+      "display_name": "urban heat island",
+      "score": 0.8140000104904175
+    },
+    {
+      "id": "https://openalex.org/keywords/historic-redlining",
+      "display_name": "historic redlining",
+      "score": 0.9589999914169312
+    },
+    {
+      "id": "https://openalex.org/keywords/older-adults",
+      "display_name": "older adults",
+      "score": 0.9909999966621399
+    },
+    {
+      "id": "https://openalex.org/keywords/land-surface-temperature",
+      "display_name": "land surface temperature",
+      "score": 0.9760000109672546
+    },
+    {
+      "id": "https://openalex.org/keywords/neighborhood-deprivation",
+      "display_name": "neighborhood disadvantage",
+      "score": 0.7360000014305115
+    },
+    {
+      "id": "https://openalex.org/keywords/racial-disparities",
+      "display_name": "racial disparities",
+      "score": 0.7509999871253967
+    },
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.5519999861717224
+    },
+    {
+      "id": "https://openalex.org/keywords/exercise",
+      "display_name": "physical activity",
+      "score": 0.5249999761581421
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.450361043214798
+    },
+    {
+      "id": "https://openalex.org/C45355965",
+      "wikidata": "https://www.wikidata.org/wiki/Q1643441",
+      "display_name": "Socioeconomics",
+      "level": 1,
+      "score": 0.3658207952976227
+    },
+    {
+      "id": "https://openalex.org/C74909509",
+      "wikidata": "https://www.wikidata.org/wiki/Q10387",
+      "display_name": "Gerontology",
+      "level": 1,
+      "score": 0.34903985261917114
+    },
+    {
+      "id": "https://openalex.org/C144024400",
+      "wikidata": "https://www.wikidata.org/wiki/Q21201",
+      "display_name": "Sociology",
+      "level": 0,
+      "score": 0.16494962573051453
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.14586526155471802
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000091542",
+      "descriptor_name": "Neighborhood Characteristics",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000368",
+      "descriptor_name": "Aged",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D000369",
+      "descriptor_name": "Aged, 80 and over",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D005260",
+      "descriptor_name": "Female",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006358",
+      "descriptor_name": "Hot Temperature",
+      "qualifier_ui": "Q000009",
+      "qualifier_name": "adverse effects",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D006801",
+      "descriptor_name": "Humans",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008297",
+      "descriptor_name": "Male",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D011795",
+      "descriptor_name": "Surveys and Questionnaires",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012111",
+      "descriptor_name": "Residence Characteristics",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012621",
+      "descriptor_name": "Seasons",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D014481",
+      "descriptor_name": "United States",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016138",
+      "descriptor_name": "Walking",
+      "qualifier_ui": "Q000706",
+      "qualifier_name": "statistics & numerical data",
+      "is_major_topic": true
+    }
+  ],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1007/s11524-024-00892-6",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s11524-024-00892-6",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S52340619",
+        "display_name": "Journal of Urban Health",
+        "issn_l": "0028-7091",
+        "issn": [
+          "0028-7091",
+          "1099-3460",
+          "1468-2869"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-1",
+          "ki-jl-1",
+          "medline",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Urban Health",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:39134918",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39134918",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of urban health : bulletin of the New York Academy of Medicine",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:11652541",
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/pdf/11524_2024_Article_892.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "J Urban Health",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:pubmedcentral.nih.gov:11652541",
+    "is_oa": true,
+    "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/",
+    "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11652541/pdf/11524_2024_Article_892.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764455111",
+      "display_name": "PubMed Central",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1299303238",
+      "host_organization_name": "National Institutes of Health",
+      "host_organization_lineage": [
+        "https://openalex.org/I1299303238"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "J Urban Health",
+    "raw_type": "Text"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 1.0,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    },
+    {
+      "score": 0.7390999794006348,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    },
+    {
+      "score": 0.6240000128746033,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4401510062.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4401510062.grobid-xml"
+  },
+  "referenced_works_count": 38,
+  "referenced_works": [
+    "https://openalex.org/W1545434408",
+    "https://openalex.org/W1848084198",
+    "https://openalex.org/W1895689108",
+    "https://openalex.org/W2024077394",
+    "https://openalex.org/W2044089685",
+    "https://openalex.org/W2065667386",
+    "https://openalex.org/W2065762201",
+    "https://openalex.org/W2078191571",
+    "https://openalex.org/W2119144474",
+    "https://openalex.org/W2131326416",
+    "https://openalex.org/W2153763028",
+    "https://openalex.org/W2389579272",
+    "https://openalex.org/W2552477030",
+    "https://openalex.org/W2584952387",
+    "https://openalex.org/W2624720243",
+    "https://openalex.org/W2794659326",
+    "https://openalex.org/W2803008851",
+    "https://openalex.org/W2895218394",
+    "https://openalex.org/W2968473890",
+    "https://openalex.org/W2999943130",
+    "https://openalex.org/W3028418816",
+    "https://openalex.org/W3107338404",
+    "https://openalex.org/W3108160747",
+    "https://openalex.org/W3115289063",
+    "https://openalex.org/W3144870749",
+    "https://openalex.org/W3159236101",
+    "https://openalex.org/W3177358377",
+    "https://openalex.org/W3180768301",
+    "https://openalex.org/W3195531513",
+    "https://openalex.org/W4212929177",
+    "https://openalex.org/W4223437611",
+    "https://openalex.org/W4292014076",
+    "https://openalex.org/W4293329982",
+    "https://openalex.org/W4307659181",
+    "https://openalex.org/W4367181858",
+    "https://openalex.org/W4379514772",
+    "https://openalex.org/W4385267086",
+    "https://openalex.org/W6944301872"
+  ],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W3120165752",
+    "https://openalex.org/W3158585187",
+    "https://openalex.org/W2344506138",
+    "https://openalex.org/W1964191721",
+    "https://openalex.org/W2485179383",
+    "https://openalex.org/W4211064241",
+    "https://openalex.org/W3195275078",
+    "https://openalex.org/W2611497786",
+    "https://openalex.org/W2324742297"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-26T08:19:03.415552",
+  "created_date": "2025-10-10T00:00:00"
+}

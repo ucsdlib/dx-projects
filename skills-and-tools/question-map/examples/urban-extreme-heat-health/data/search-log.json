@@ -1,0 +1,74 @@
+[
+  {
+    "query_id": "base",
+    "query": "\"extreme heat\" AND (\"urban health\" OR \"public health\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:49:45.312675+00:00",
+    "returned": 20,
+    "total_local": 35,
+    "total": 2998
+  },
+  {
+    "query_id": "wellbeing",
+    "query": "\"extreme heat\" AND (\"wellbeing\" OR \"well-being\" OR \"mental health\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:49:47.772160+00:00",
+    "returned": 20,
+    "total_local": 12,
+    "total": 851
+  },
+  {
+    "query_id": "vulnerability",
+    "query": "\"extreme heat\" AND (\"vulnerability\" OR \"vulnerable populations\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:49:50.808854+00:00",
+    "returned": 20,
+    "total_local": 14,
+    "total": 1211
+  },
+  {
+    "query_id": "built_environment",
+    "query": "(\"urban heat\" OR \"extreme heat\") AND (\"built environment\" OR \"green space\" OR \"green spaces\") AND (\"health\" OR \"wellbeing\" OR \"well-being\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:49:54.344843+00:00",
+    "returned": 20,
+    "total_local": 50,
+    "total": 2062
+  },
+  {
+    "query_id": "outcomes",
+    "query": "(\"extreme heat\" OR \"heat waves\" OR \"heatwaves\") AND (\"mortality\" OR \"morbidity\" OR \"cardiovascular\" OR \"respiratory\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:49:57.586704+00:00",
+    "returned": 20,
+    "total_local": 19,
+    "total": 2479
+  },
+  {
+    "query_id": "interventions",
+    "query": "\"extreme heat\" AND (\"intervention\" OR \"policy\" OR \"cooling centers\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:50:00.925626+00:00",
+    "returned": 20,
+    "total_local": 25,
+    "total": 1590
+  },
+  {
+    "query_id": "lived_experience",
+    "query": "\"extreme heat\" AND (\"lived experience\" OR \"social wellbeing\" OR \"quality of life\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:50:03.113724+00:00",
+    "returned": 20,
+    "total_local": 2,
+    "total": 93
+  },
+  {
+    "query_id": "children_older",
+    "query": "\"extreme heat\" AND (\"children\" OR \"older adults\" OR \"elderly\") AND (\"urban\" OR \"city\" OR \"cities\")",
+    "status": 200,
+    "timestamp": "2026-10-06T20:50:05.403410+00:00",
+    "returned": 20,
+    "total_local": 8,
+    "total": 485
+  }
+]

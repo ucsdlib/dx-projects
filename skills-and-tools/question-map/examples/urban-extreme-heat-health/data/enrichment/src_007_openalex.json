@@ -1,0 +1,1645 @@
+{
+  "id": "https://openalex.org/W7162565935",
+  "doi": "https://doi.org/10.1088/2752-5309/ae73a7",
+  "title": "Perceived impacts of extreme heat on health and livelihoods in Nigeria",
+  "display_name": "Perceived impacts of extreme heat on health and livelihoods in Nigeria",
+  "publication_year": 2026,
+  "publication_date": "2026-05-27",
+  "ids": {
+    "openalex": "https://openalex.org/W7162565935",
+    "doi": "https://doi.org/10.1088/2752-5309/ae73a7",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/42292550"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1088/2752-5309/ae73a7",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1088/2752-5309/ae73a7",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/2752-5309/ae73a7/pdf",
+    "source": {
+      "id": "https://openalex.org/S4387279448",
+      "display_name": "Environmental Research Health",
+      "issn_l": "2752-5309",
+      "issn": [
+        "2752-5309"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Environmental Research: Health",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://iopscience.iop.org/article/10.1088/2752-5309/ae73a7/pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5039576633",
+        "display_name": "Adetoun Mustapha",
+        "orcid": "https://orcid.org/0000-0002-6035-1086",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6035-1086"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I49433721",
+          "display_name": "Nigerian Institute of Medical Research",
+          "ror": "https://ror.org/03kk9k137",
+          "country_code": "NG",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I49433721"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I70593384",
+          "display_name": "Lead City University",
+          "ror": "https://ror.org/043z5qa52",
+          "country_code": "NG",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I70593384"
+          ]
+        }
+      ],
+      "countries": [
+        "NG"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Adetoun Mustapha Olaitan",
+      "raw_affiliation_strings": [
+        "Lead City University",
+        "Nigerian Institute of Medical Research, Edmund Crescent"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6035-1086",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lead City University",
+          "institution_ids": [
+            "https://openalex.org/I70593384"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Nigerian Institute of Medical Research, Edmund Crescent",
+          "institution_ids": [
+            "https://openalex.org/I49433721"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5137191050",
+        "display_name": "Ifeoma Egbogah",
+        "orcid": "https://orcid.org/0009-0008-9268-7714",
+        "observed_orcids": [
+          "https://orcid.org/0009-0008-9268-7714"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ifeoma Egbogah",
+      "raw_affiliation_strings": [
+        "Environmental Quality for Public Good"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0008-9268-7714",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Environmental Quality for Public Good",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053527784",
+        "display_name": "Kazeem Adewale Osuolale",
+        "orcid": "https://orcid.org/0000-0002-4759-2432",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4759-2432"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I49433721",
+          "display_name": "Nigerian Institute of Medical Research",
+          "ror": "https://ror.org/03kk9k137",
+          "country_code": "NG",
+          "type": "healthcare",
+          "lineage": [
+            "https://openalex.org/I49433721"
+          ]
+        }
+      ],
+      "countries": [
+        "NG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kazeem Adewale Osuolale",
+      "raw_affiliation_strings": [
+        "Nigerian Institute of Medical Research, Edmund Crescent"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4759-2432",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Nigerian Institute of Medical Research, Edmund Crescent",
+          "institution_ids": [
+            "https://openalex.org/I49433721"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5137146979",
+        "display_name": "Chinaza Ngozi Somtochi Esiaba",
+        "orcid": "https://orcid.org/0009-0004-8532-2654",
+        "observed_orcids": [
+          "https://orcid.org/0009-0004-8532-2654"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chinaza Esiaba",
+      "raw_affiliation_strings": [
+        "Rollins School of Public Health, Emory University"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0004-8532-2654",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rollins School of Public Health, Emory University",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074998130",
+        "display_name": "Lisa Reyes Mason",
+        "orcid": "https://orcid.org/0000-0001-5386-4425",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5386-4425"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I131651094",
+          "display_name": "University of Denver",
+          "ror": "https://ror.org/04w7skc03",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I131651094"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Lisa Reyes Mason",
+      "raw_affiliation_strings": [
+        "Graduate School of Social Work, University of Denver"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5386-4425",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Graduate School of Social Work, University of Denver",
+          "institution_ids": [
+            "https://openalex.org/I131651094"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5067703440",
+        "display_name": "Christine C. Ekenga",
+        "orcid": "https://orcid.org/0000-0002-6209-4888",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6209-4888"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150468666",
+          "display_name": "Emory University",
+          "ror": "https://ror.org/03czfpz43",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christine C Ekenga",
+      "raw_affiliation_strings": [
+        "Rollins School of Public Health, Emory University"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-6209-4888",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rollins School of Public Health, Emory University",
+          "institution_ids": [
+            "https://openalex.org/I150468666"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5039576633"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I49433721",
+    "https://openalex.org/I70593384"
+  ],
+  "apc_list": {
+    "value": 2515,
+    "currency": "USD",
+    "value_usd": 2515
+  },
+  "apc_paid": {
+    "value": 2515,
+    "currency": "USD",
+    "value_usd": 2515
+  },
+  "fwci": 0.0,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.36227207,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "4",
+    "issue": "2",
+    "first_page": "025020",
+    "last_page": "025020"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11244",
+    "display_name": "Climate Change and Health Impacts",
+    "score": 0.9994999766349792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2307",
+      "display_name": "Health, Toxicology and Mutagenesis"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11244",
+      "display_name": "Climate Change and Health Impacts",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2307",
+        "display_name": "Health, Toxicology and Mutagenesis"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11109",
+      "display_name": "Thermoregulation and physiological responses",
+      "score": 0.00019999999494757503,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2737",
+        "display_name": "Physiology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13530",
+      "display_name": "Climate Change and Environmental Impact",
+      "score": 9.999999747378752e-05,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extreme-heat",
+      "display_name": "extreme heat",
+      "score": 0.9990000128746033
+    },
+    {
+      "id": "https://openalex.org/keywords/heat-exposure",
+      "display_name": "heat exposure",
+      "score": 0.7260000109672546
+    },
+    {
+      "id": "https://openalex.org/keywords/drought",
+      "display_name": "drought",
+      "score": 0.875
+    },
+    {
+      "id": "https://openalex.org/keywords/financial-hardship",
+      "display_name": "financial hardship",
+      "score": 0.8479999899864197
+    },
+    {
+      "id": "https://openalex.org/keywords/livelihoods",
+      "display_name": "livelihoods",
+      "score": 0.8489999771118164
+    },
+    {
+      "id": "https://openalex.org/keywords/gender-differences",
+      "display_name": "gender differences",
+      "score": 0.8259999752044678
+    },
+    {
+      "id": "https://openalex.org/keywords/coping-strategies",
+      "display_name": "coping strategies",
+      "score": 0.9430000185966492
+    },
+    {
+      "id": "https://openalex.org/keywords/social-cohesion",
+      "display_name": "social cohesion",
+      "score": 0.5529999732971191
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change-adaptation",
+      "display_name": "climate change adaptation",
+      "score": 0.5329999923706055
+    },
+    {
+      "id": "https://openalex.org/keywords/nigeria",
+      "display_name": "Nigeria",
+      "score": 0.5210000276565552
+    },
+    {
+      "id": "https://openalex.org/keywords/dry-season",
+      "display_name": "dry season",
+      "score": 0.5400000214576721
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3987366",
+      "wikidata": "https://www.wikidata.org/wiki/Q6658164",
+      "display_name": "Livelihood",
+      "level": 3,
+      "score": 0.6640999913215637
+    },
+    {
+      "id": "https://openalex.org/C143095724",
+      "wikidata": "https://www.wikidata.org/wiki/Q515895",
+      "display_name": "Odds",
+      "level": 3,
+      "score": 0.5877000093460083
+    },
+    {
+      "id": "https://openalex.org/C147077947",
+      "wikidata": "https://www.wikidata.org/wiki/Q1515895",
+      "display_name": "Socioeconomic status",
+      "level": 3,
+      "score": 0.5698000192642212
+    },
+    {
+      "id": "https://openalex.org/C125370674",
+      "wikidata": "https://www.wikidata.org/wiki/Q1527480",
+      "display_name": "Stressor",
+      "level": 2,
+      "score": 0.5230000019073486
+    },
+    {
+      "id": "https://openalex.org/C99454951",
+      "wikidata": "https://www.wikidata.org/wiki/Q932068",
+      "display_name": "Environmental health",
+      "level": 1,
+      "score": 0.5216000080108643
+    },
+    {
+      "id": "https://openalex.org/C73282008",
+      "wikidata": "https://www.wikidata.org/wiki/Q1759895",
+      "display_name": "Coping (psychology)",
+      "level": 2,
+      "score": 0.46299999952316284
+    },
+    {
+      "id": "https://openalex.org/C2993190167",
+      "wikidata": "https://www.wikidata.org/wiki/Q215864",
+      "display_name": "Extreme heat",
+      "level": 3,
+      "score": 0.429500013589859
+    },
+    {
+      "id": "https://openalex.org/C45355965",
+      "wikidata": "https://www.wikidata.org/wiki/Q1643441",
+      "display_name": "Socioeconomics",
+      "level": 1,
+      "score": 0.3815000057220459
+    },
+    {
+      "id": "https://openalex.org/C134362201",
+      "wikidata": "https://www.wikidata.org/wiki/Q317309",
+      "display_name": "Mental health",
+      "level": 2,
+      "score": 0.3709999918937683
+    },
+    {
+      "id": "https://openalex.org/C151956035",
+      "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+      "display_name": "Logistic regression",
+      "level": 2,
+      "score": 0.3418000042438507
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.31949999928474426
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.3163999915122986
+    },
+    {
+      "id": "https://openalex.org/C150966472",
+      "wikidata": "https://www.wikidata.org/wiki/Q3410145",
+      "display_name": "Psychosocial",
+      "level": 2,
+      "score": 0.31150001287460327
+    },
+    {
+      "id": "https://openalex.org/C27415008",
+      "wikidata": "https://www.wikidata.org/wiki/Q7256382",
+      "display_name": "Psychological intervention",
+      "level": 2,
+      "score": 0.3000999987125397
+    },
+    {
+      "id": "https://openalex.org/C4249254",
+      "wikidata": "https://www.wikidata.org/wiki/Q3044431",
+      "display_name": "Demographic economics",
+      "level": 1,
+      "score": 0.29840001463890076
+    },
+    {
+      "id": "https://openalex.org/C2776433176",
+      "wikidata": "https://www.wikidata.org/wiki/Q1191065",
+      "display_name": "Heat illness",
+      "level": 2,
+      "score": 0.2953999936580658
+    },
+    {
+      "id": "https://openalex.org/C120936955",
+      "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+      "display_name": "Empirical research",
+      "level": 2,
+      "score": 0.29260000586509705
+    },
+    {
+      "id": "https://openalex.org/C156957248",
+      "wikidata": "https://www.wikidata.org/wiki/Q1862216",
+      "display_name": "Odds ratio",
+      "level": 2,
+      "score": 0.28610000014305115
+    },
+    {
+      "id": "https://openalex.org/C187155963",
+      "wikidata": "https://www.wikidata.org/wiki/Q629029",
+      "display_name": "Occupational safety and health",
+      "level": 2,
+      "score": 0.2840000092983246
+    },
+    {
+      "id": "https://openalex.org/C166052673",
+      "wikidata": "https://www.wikidata.org/wiki/Q83021",
+      "display_name": "Empirical evidence",
+      "level": 2,
+      "score": 0.2831000089645386
+    },
+    {
+      "id": "https://openalex.org/C78491826",
+      "wikidata": "https://www.wikidata.org/wiki/Q3045352",
+      "display_name": "Social determinants of health",
+      "level": 3,
+      "score": 0.27790001034736633
+    },
+    {
+      "id": "https://openalex.org/C205537798",
+      "wikidata": "https://www.wikidata.org/wiki/Q1277161",
+      "display_name": "Extreme weather",
+      "level": 3,
+      "score": 0.27649998664855957
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.27140000462532043
+    },
+    {
+      "id": "https://openalex.org/C2250968",
+      "wikidata": "https://www.wikidata.org/wiki/Q1512929",
+      "display_name": "Health equity",
+      "level": 3,
+      "score": 0.2694000005722046
+    },
+    {
+      "id": "https://openalex.org/C138816342",
+      "wikidata": "https://www.wikidata.org/wiki/Q189603",
+      "display_name": "Public health",
+      "level": 2,
+      "score": 0.26930001378059387
+    },
+    {
+      "id": "https://openalex.org/C2780176501",
+      "wikidata": "https://www.wikidata.org/wiki/Q5690755",
+      "display_name": "Health and Retirement Study",
+      "level": 2,
+      "score": 0.2685000002384186
+    },
+    {
+      "id": "https://openalex.org/C3017944768",
+      "wikidata": "https://www.wikidata.org/wiki/Q1450463",
+      "display_name": "Poison control",
+      "level": 2,
+      "score": 0.2680000066757202
+    },
+    {
+      "id": "https://openalex.org/C526869908",
+      "wikidata": "https://www.wikidata.org/wiki/Q3298118",
+      "display_name": "Suicide prevention",
+      "level": 3,
+      "score": 0.2655999958515167
+    },
+    {
+      "id": "https://openalex.org/C198477413",
+      "wikidata": "https://www.wikidata.org/wiki/Q7647069",
+      "display_name": "Survey data collection",
+      "level": 2,
+      "score": 0.2644999921321869
+    },
+    {
+      "id": "https://openalex.org/C149923435",
+      "wikidata": "https://www.wikidata.org/wiki/Q37732",
+      "display_name": "Demography",
+      "level": 1,
+      "score": 0.2581999897956848
+    },
+    {
+      "id": "https://openalex.org/C2775951005",
+      "wikidata": "https://www.wikidata.org/wiki/Q3473024",
+      "display_name": "Community health",
+      "level": 3,
+      "score": 0.25769999623298645
+    },
+    {
+      "id": "https://openalex.org/C142052008",
+      "wikidata": "https://www.wikidata.org/wiki/Q954027",
+      "display_name": "Cross-sectional study",
+      "level": 2,
+      "score": 0.2554999887943268
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1088/2752-5309/ae73a7",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1088/2752-5309/ae73a7",
+      "pdf_url": "https://iopscience.iop.org/article/10.1088/2752-5309/ae73a7/pdf",
+      "source": {
+        "id": "https://openalex.org/S4387279448",
+        "display_name": "Environmental Research Health",
+        "issn_l": "2752-5309",
+        "issn": [
+          "2752-5309"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Environmental Research: Health",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:42292550",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42292550",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Environmental research, health : ERH",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:8dcac09fc0f54eacb58fe8d53daa4f1b",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/8dcac09fc0f54eacb58fe8d53daa4f1b",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Environmental Research: Health, Vol 4, Iss 2, p 025020 (2026)",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:13254552",
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13254552/pdf/erh_4_2_025020.pdf",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Environ Res Health",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1088/2752-5309/ae73a7",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1088/2752-5309/ae73a7",
+    "pdf_url": "https://iopscience.iop.org/article/10.1088/2752-5309/ae73a7/pdf",
+    "source": {
+      "id": "https://openalex.org/S4387279448",
+      "display_name": "Environmental Research Health",
+      "issn_l": "2752-5309",
+      "issn": [
+        "2752-5309"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Environmental Research: Health",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "score": 0.9537000060081482,
+      "id": "https://metadata.un.org/sdg/3",
+      "display_name": "Good health and well-being"
+    },
+    {
+      "score": 0.7390999794006348,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    },
+    {
+      "score": 0.6025999784469604,
+      "id": "https://metadata.un.org/sdg/5",
+      "display_name": "Gender equality"
+    },
+    {
+      "score": 0.48510000109672546,
+      "id": "https://metadata.un.org/sdg/8",
+      "display_name": "Decent work and economic growth"
+    },
+    {
+      "score": 0.4399999976158142,
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action"
+    },
+    {
+      "score": 0.41670000553131104,
+      "id": "https://metadata.un.org/sdg/1",
+      "display_name": "No poverty"
+    }
+  ],
+  "sustainable_development_goals_aurora": [],
+  "study_designs": [
+    {
+      "id": "https://openalex.org/study-designs/observational-study",
+      "display_name": "Observational Study"
+    }
+  ],
+  "awards": [
+    {
+      "id": "https://openalex.org/G9000002150",
+      "display_name": null,
+      "funder_award_id": "P30-ES019776",
+      "funder_id": "https://openalex.org/F4320332161",
+      "funder_display_name": "National Institutes of Health"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320309650",
+      "display_name": "Washington University in St. Louis",
+      "ror": "https://ror.org/01yc7t268"
+    },
+    {
+      "id": "https://openalex.org/F4320332161",
+      "display_name": "National Institutes of Health",
+      "ror": "https://ror.org/01cwqze88"
+    }
+  ],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W7162565935.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W7162565935.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Extreme": [
+      0
+    ],
+    "weather": [
+      1
+    ],
+    "events": [
+      2
+    ],
+    "are": [
+      3,
+      36,
+      111
+    ],
+    "becoming": [
+      4
+    ],
+    "more": [
+      5,
+      167,
+      171,
+      242
+    ],
+    "frequent": [
+      6
+    ],
+    "and": [
+      7,
+      17,
+      23,
+      35,
+      49,
+      69,
+      73,
+      76,
+      91,
+      100,
+      107,
+      148,
+      162,
+      289,
+      296
+    ],
+    "severe": [
+      8
+    ],
+    "in": [
+      9,
+      115,
+      238,
+      278
+    ],
+    "Nigeria,": [
+      10,
+      239
+    ],
+    "yet": [
+      11
+    ],
+    "empirical": [
+      12
+    ],
+    "evidence": [
+      13
+    ],
+    "on": [
+      14,
+      46
+    ],
+    "their": [
+      15,
+      131
+    ],
+    "health": [
+      16,
+      72,
+      133,
+      141,
+      220,
+      280
+    ],
+    "livelihood": [
+      18
+    ],
+    "impacts,": [
+      19,
+      75,
+      191
+    ],
+    "particularly": [
+      20
+    ],
+    "across": [
+      21
+    ],
+    "gender": [
+      22,
+      276
+    ],
+    "socioeconomic": [
+      24
+    ],
+    "lines,": [
+      25
+    ],
+    "remains": [
+      26
+    ],
+    "limited.": [
+      27
+    ],
+    "This": [
+      28
+    ],
+    "study": [
+      29
+    ],
+    "examines": [
+      30
+    ],
+    "how": [
+      31
+    ],
+    "Nigerian": [
+      32
+    ],
+    "adults": [
+      33
+    ],
+    "perceive": [
+      34
+    ],
+    "affected": [
+      37,
+      130
+    ],
+    "by": [
+      38
+    ],
+    "extreme": [
+      39,
+      125,
+      231,
+      273
+    ],
+    "heat": [
+      40,
+      89,
+      126,
+      184,
+      232
+    ],
+    "during": [
+      41
+    ],
+    "the": [
+      42,
+      269
+    ],
+    "dry": [
+      43
+    ],
+    "season,": [
+      44
+    ],
+    "focusing": [
+      45
+    ],
+    "physical,": [
+      47
+    ],
+    "mental,": [
+      48
+    ],
+    "financial": [
+      50,
+      74,
+      149,
+      203,
+      245
+    ],
+    "impacts.": [
+      51
+    ],
+    "A": [
+      52,
+      118
+    ],
+    "cross-sectional": [
+      53
+    ],
+    "survey": [
+      54
+    ],
+    "was": [
+      55,
+      185,
+      196
+    ],
+    "conducted": [
+      56
+    ],
+    "among": [
+      57
+    ],
+    "368": [
+      58
+    ],
+    "adults,": [
+      59
+    ],
+    "capturing": [
+      60
+    ],
+    "sociodemographic": [
+      61
+    ],
+    "information,": [
+      62
+    ],
+    "frequency": [
+      63,
+      182
+    ],
+    "of": [
+      64,
+      121,
+      135,
+      138,
+      143,
+      146,
+      152,
+      155,
+      183,
+      202,
+      216,
+      249,
+      272
+    ],
+    "exposure": [
+      65,
+      90
+    ],
+    "to": [
+      66,
+      85,
+      199,
+      267,
+      291,
+      298
+    ],
+    "hot": [
+      67
+    ],
+    "temperatures": [
+      68
+    ],
+    "drought,": [
+      70
+    ],
+    "perceived": [
+      71,
+      181,
+      194
+    ],
+    "coping": [
+      77,
+      158,
+      251
+    ],
+    "strategies.": [
+      78
+    ],
+    "Bayesian": [
+      79
+    ],
+    "cumulative": [
+      80
+    ],
+    "logit": [
+      81
+    ],
+    "models": [
+      82
+    ],
+    "were": [
+      83,
+      160,
+      176
+    ],
+    "used": [
+      84
+    ],
+    "assess": [
+      86
+    ],
+    "associations": [
+      87
+    ],
+    "between": [
+      88
+    ],
+    "adverse": [
+      92,
+      190
+    ],
+    "outcomes,": [
+      93
+    ],
+    "controlling": [
+      94
+    ],
+    "for": [
+      95,
+      256
+    ],
+    "gender,": [
+      96
+    ],
+    "income,": [
+      97
+    ],
+    "social": [
+      98
+    ],
+    "cohesion,": [
+      99
+    ],
+    "region.": [
+      101
+    ],
+    "The": [
+      102,
+      247
+    ],
+    "sample": [
+      103
+    ],
+    "included": [
+      104
+    ],
+    "217": [
+      105
+    ],
+    "men": [
+      106,
+      215
+    ],
+    "151": [
+      108
+    ],
+    "women,": [
+      109
+    ],
+    "who": [
+      110
+    ],
+    "mostly": [
+      112
+    ],
+    "educated": [
+      113
+    ],
+    "professionals": [
+      114
+    ],
+    "urban": [
+      116
+    ],
+    "settings.": [
+      117
+    ],
+    "substantial": [
+      119
+    ],
+    "proportion": [
+      120
+    ],
+    "participants": [
+      122
+    ],
+    "reported": [
+      123,
+      211
+    ],
+    "that": [
+      124,
+      230,
+      259,
+      283
+    ],
+    "'always'": [
+      127
+    ],
+    "or": [
+      128,
+      169
+    ],
+    "'usually'": [
+      129
+    ],
+    "physical": [
+      132,
+      219,
+      279
+    ],
+    "(33%": [
+      134
+    ],
+    "men,": [
+      136,
+      144,
+      153
+    ],
+    "26%": [
+      137
+    ],
+    "women),": [
+      139,
+      147
+    ],
+    "mental": [
+      140
+    ],
+    "(20%": [
+      142
+    ],
+    "11%": [
+      145
+    ],
+    "well-being": [
+      150
+    ],
+    "(16%": [
+      151
+    ],
+    "9%": [
+      154
+    ],
+    "women).": [
+      156
+    ],
+    "Most": [
+      157
+    ],
+    "strategies": [
+      159,
+      252,
+      285
+    ],
+    "individual": [
+      161,
+      250
+    ],
+    "low-cost,": [
+      163
+    ],
+    "such": [
+      164
+    ],
+    "as": [
+      165
+    ],
+    "taking": [
+      166
+    ],
+    "showers": [
+      168
+    ],
+    "drinking": [
+      170
+    ],
+    "water,": [
+      172
+    ],
+    "while": [
+      173
+    ],
+    "community-oriented": [
+      174
+    ],
+    "behaviors": [
+      175
+    ],
+    "rare.": [
+      177
+    ],
+    "In": [
+      178
+    ],
+    "multivariable": [
+      179
+    ],
+    "models,": [
+      180
+    ],
+    "not": [
+      186
+    ],
+    "strongly": [
+      187
+    ],
+    "associated": [
+      188
+    ],
+    "with": [
+      189,
+      240,
+      263
+    ],
+    "but": [
+      192
+    ],
+    "greater": [
+      193,
+      218
+    ],
+    "drought": [
+      195,
+      241
+    ],
+    "significantly": [
+      197
+    ],
+    "linked": [
+      198
+    ],
+    "higher": [
+      200
+    ],
+    "odds": [
+      201,
+      213
+    ],
+    "hardship": [
+      204
+    ],
+    "(OR:": [
+      205,
+      222
+    ],
+    "1.76,": [
+      206
+    ],
+    "95%": [
+      207,
+      224
+    ],
+    "CI:": [
+      208,
+      225
+    ],
+    "1.07-2.93).": [
+      209
+    ],
+    "Women": [
+      210
+    ],
+    "lower": [
+      212
+    ],
+    "than": [
+      214
+    ],
+    "experiencing": [
+      217
+    ],
+    "impacts": [
+      221,
+      271,
+      281
+    ],
+    "0.58,": [
+      223
+    ],
+    "0.33-0.98).": [
+      226
+    ],
+    "These": [
+      227
+    ],
+    "findings": [
+      228
+    ],
+    "highlight": [
+      229
+    ],
+    "is": [
+      233
+    ],
+    "a": [
+      234,
+      254
+    ],
+    "significant": [
+      235
+    ],
+    "multisystem": [
+      236
+    ],
+    "stressor": [
+      237
+    ],
+    "consistently": [
+      243
+    ],
+    "driving": [
+      244
+    ],
+    "strain.": [
+      246
+    ],
+    "predominance": [
+      248
+    ],
+    "suggests": [
+      253
+    ],
+    "need": [
+      255
+    ],
+    "integrated": [
+      257
+    ],
+    "interventions": [
+      258
+    ],
+    "combine": [
+      260
+    ],
+    "infrastructure": [
+      261
+    ],
+    "improvements": [
+      262
+    ],
+    "community-based": [
+      264
+    ],
+    "resilience": [
+      265
+    ],
+    "efforts": [
+      266
+    ],
+    "mitigate": [
+      268
+    ],
+    "multifaceted": [
+      270
+    ],
+    "heat.": [
+      274
+    ],
+    "Observed": [
+      275
+    ],
+    "differences": [
+      277
+    ],
+    "indicate": [
+      282
+    ],
+    "adaptation": [
+      284
+    ],
+    "should": [
+      286
+    ],
+    "be": [
+      287
+    ],
+    "gender-responsive": [
+      288
+    ],
+    "sensitive": [
+      290
+    ],
+    "local": [
+      292
+    ],
+    "labor": [
+      293
+    ],
+    "patterns,": [
+      294
+    ],
+    "mobility": [
+      295
+    ],
+    "access": [
+      297
+    ],
+    "resources.": [
+      299
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-29T14:09:16.559479",
+  "created_date": "2026-05-28T00:00:00"
+}
