@@ -28,7 +28,7 @@ The canonical research object remains `question_map.json`. Visualizations are de
    - metadata-only support,
    - generated possible next questions.
 4. Allow a user to move from an overview question to the source and quote that grounds it.
-5. Make unsupported synthesis, low-access evidence, and possible next questions obvious.
+5. Make the difference between evidence-backed, inferred, and generated questions visible.
 6. Provide a stable Mermaid view and a more expressive interactive view without requiring a JavaScript build system.
 7. Prepare the graph for future re-launch, where a user can turn a theme or question into a new inquiry root.
 
@@ -51,7 +51,7 @@ The pilot exposed a useful modeling distinction:
 - A canonical question may have **direct source-question support**.
 - Its parent theme may have **source support** even when no source question is yet linked directly to the canonical question.
 
-For example, the equity question in the pilot has no direct source-question support edge, but its theme has seven sources. Visualizations must show both counts separately and must not present theme support as direct question support.
+Counting provenance is a known modeling gap; see the Phase 3 data-model refinement section below. Visualizations must show direct question support and theme source support separately, and must not present theme support as direct question support.
 
 The pilot also confirmed that `source_question.question_text` is useful as a temporary source orientation phrase, but it is not a durable substitute for a plain-language key finding with quoted support. The current Mermaid experiments use that proxy because it gives researchers useful orientation without adding unsupported claims.
 
@@ -70,6 +70,8 @@ visualizations/
 ```
 
 The pilot currently names the generator `build_prototypes.py`; the production skill should standardize on `build_visualizations.py`.
+
+The pilot examples in `examples/urban-extreme-heat-health/visualizations/` should serve as working references during implementation. The skill can add small templates or skeletons as it is productionized, but it should not wait on a separate template-building phase before the graph schema and output contracts stabilize.
 
 ### `question-map-mermaid.md`
 
@@ -283,7 +285,7 @@ Given a valid `question_map.json`:
 ## 13. Open implementation questions
 
 1. Should the canonical `question_map.json` include a compact `visualization` object, or should all rendering metadata remain in the derived artifact?
-2. Should citations be copied into `question_map.json`, or continue to live in enrichment files and be merged at visualization time?
+2. How should citation metadata be represented in `question_map.json`? Working recommendation: include the normalized fields needed for display and traceability—concise citation, DOI/PMID/URL, UC Library Search permalink, access level, provider, and retrieval timestamp—while keeping raw provider payloads in enrichment files.
 3. Should canonical questions inherit any display weight from parent-theme sources, or should only direct source-question support affect node size?
 4. Is a theme-guided force layout sufficient for production, or should compound theme containers be introduced earlier?
 5. What should the export set be: PNG, SVG, PDF, standalone HTML, or Mermaid only?
@@ -303,10 +305,11 @@ Given a valid `question_map.json`:
 - The 5a and 5b experiments are rendering successfully and provide the first evidence for an explicit source layer and a wider inline-source card layer.
 - The current source orientation is still a temporary proxy derived from `source_question.question_text`; production needs a dedicated orientation field with quoted support.
 
-### Phase 2a — Core productionization
+### Phase 2a — Core visualization toolkit
 
 - Move from the pilot-named `build_prototypes.py` to `build_visualizations.py`.
 - Extract the v4/v5 Mermaid, linear Markdown, and D3 HTML logic into the skill’s scripts.
+- Add normalized citation metadata to `question_map.json` so visualizations do not depend on raw enrichment payloads.
 - Add fail-closed validation of every derived view.
 - Preserve source orientation, access level, confidence, and permalink generation from the graph rather than hard-coding run-specific assumptions.
 - Test the generated Mermaid in GitHub and at least one desktop Markdown renderer.
@@ -331,7 +334,7 @@ Given a valid `question_map.json`:
 
 Before or alongside the launch work below, the graph schema likely needs a more expressive edge model. This should not be solved inside Phase 2.
 
-The pilot exposes the core problem: the `Unequal exposure and vulnerability` theme has no direct question support in the current view because the associated canonical question has no `source_question -> question` edge, even though several of its listed sources are directly related to unequal exposure and health-disparity research. As a result, a Mermaid card can say “No sources linked yet” while the theme itself contains relevant sources.
+The pilot in `examples/urban-extreme-heat-health/data/question_map.json` exposes the core problem: the `Unequal exposure and vulnerability` theme has no direct question support in the current view because the associated canonical question has no `source_question -> question` edge, even though several of its listed sources are directly related to unequal exposure and health-disparity research. As a result, a Mermaid card can say “No sources linked yet” while the theme itself contains relevant sources.
 
 Phase 3 should consider:
 
