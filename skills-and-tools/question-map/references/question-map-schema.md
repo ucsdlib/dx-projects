@@ -155,6 +155,12 @@ Do not give a `next_question` source support unless the source explicitly names 
 
 Selected source or citation-graph source. Include title, authors, year, venue, source type, DOI/PMID/other identifiers, URL, access level, evidence basis, abstract source, selection status, selection reason, subjects, keywords, language, open-access metadata, citation metadata, and links.
 
+For visualization-ready graphs, also include normalized display fields:
+
+- `citation_short`: the concise citation used in maps and tables, such as `Author et al. (YYYY)`;
+- `citation_display`: the fuller human-readable citation, including title, venue, and DOI/PMID/URL when available;
+- `ucls_permalink`: the UC Library Search permalink, when a record ID is available.
+
 Citation metadata should preserve competing provider values:
 
 ```json
@@ -172,6 +178,8 @@ Citation metadata should preserve competing provider values:
   }
 }
 ```
+
+Raw provider payloads belong in enrichment files. The canonical graph should carry the normalized fields needed for display and traceability, but it does not need to duplicate entire API responses.
 
 ### Metadata nodes
 

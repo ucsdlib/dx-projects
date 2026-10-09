@@ -245,6 +245,9 @@ def validate_nodes(data, node_index, errors):
                 if isinstance(citation, dict) and "primary_count" in citation:
                     require(is_nonempty_string(citation.get("primary_provider")), f"ERROR {label}.citation_metadata.primary_provider is required", errors)
                     require(is_nonempty_string(citation.get("retrieved_at")), f"ERROR {label}.citation_metadata.retrieved_at is required", errors)
+            for citation_field in ("citation_short", "citation_display", "ucls_permalink"):
+                if citation_field in node:
+                    require(is_nonempty_string(node.get(citation_field)), f"ERROR {label}.{citation_field} must be non-empty", errors)
         else:
             require(is_nonempty_string(node.get("label")), f"ERROR {label}.label must be non-empty", errors)
 

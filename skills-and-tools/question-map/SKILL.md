@@ -1,6 +1,6 @@
 ---
 name: question-map
-description: "Map the questions embedded in a scholarly landscape into a quote-anchored question graph with themes, source questions, metadata, citation signals, and possible next questions. Use when a researcher wants a question map, thematic question clusters, or structured data for a future question-network visualization. Composes with uc-library-search and annotated-bibliography. Do not use for ordinary source-finding or a conventional literature summary."
+description: "Map the questions embedded in a scholarly landscape into a quote-anchored question graph with themes, source questions, metadata, citation signals, possible next questions, and derived visualizations. Use when a researcher wants a question map, thematic question clusters, structured graph data, or a visualization of an existing question map. Composes with uc-library-search and annotated-bibliography. Do not use for ordinary source-finding or a conventional literature summary."
 ---
 
 # Question Mapping
@@ -11,7 +11,7 @@ Build a `question_map.json` graph that shows what questions a set of scholarly s
 
 - Use `uc-library-search` first when available. Follow its search strategy discipline and generate direct UC Library Search URLs with `scripts/build_url.py`.
 - Use the `annotated-bibliography` search, verification, fidelity, quotation, and access-level conventions when available.
-- Build Phase 1 artifacts only. Do not produce a dashboard, interactive visualization, or settled/contested/emerging classification.
+- Build the Phase 1 graph first. Produce Phase 2 visualizations only after the graph is validated, or when the user explicitly asks for them.
 - If the user only wants search links or a bibliography, route to the more appropriate skill.
 
 ## Core rules
@@ -70,6 +70,27 @@ python3 scripts/validate_question_map.py runs/<topic-slug>/question_map.json
 
 Fix referential-integrity and evidence issues before delivery. Then provide a short plain-language preview of themes, possible next questions, selected sources, evidence limits, and useful follow-up directions. Do not provide a full literature synthesis.
 
+### 7. Visualize
+
+After the graph passes validation, generate the Phase 2 views:
+
+```bash
+python3 scripts/build_visualizations.py --graph runs/<topic-slug>/question_map.json
+```
+
+The builder creates the explicit-source Mermaid view, the linear Markdown companion, the interactive D3 HTML map, and derived JSON/JS data files. Add `--wide-cards` for the optional wider inline-source Mermaid variant. Visualizations are derived views; never introduce a claim that is not traceable to the graph.
+
+If the graph does not yet contain normalized citation fields and `selected.json` plus enrichment records are available, run:
+
+```bash
+python3 scripts/normalize_citations.py \
+  --graph runs/<topic-slug>/question_map.json \
+  --selected runs/<topic-slug>/selected.json \
+  --enrichment-dir runs/<topic-slug>/enrichment
+```
+
+This adds `citation_short`, `citation_display`, `ucls_permalink`, and provider citation metadata to source nodes without changing raw enrichment files. Use “possible next questions,” not “candidate questions,” in user-facing artifacts.
+
 ## Artifacts
 
 Write run artifacts under `runs/<topic-slug>/`:
@@ -79,6 +100,12 @@ search-strategies.md
 search-results.jsonl
 question_map.json
 run-log.md
+visualizations/
+  question-map-mermaid.md
+  question-map.md
+  question-map-force.html
+  visualization-data.json
+  visualization-data.js
 ```
 
 The primary machine-readable artifact is `question_map.json`.

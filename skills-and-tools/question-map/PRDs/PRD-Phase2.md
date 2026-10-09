@@ -89,10 +89,10 @@ The static Mermaid view should be the overview layer. The confirmed v4/v5 patter
 
 The v5 baseline omits source and source-question nodes. It should be valid Mermaid and remain useful when pasted into GitHub, Notion, Google Docs, or an issue.
 
-Two experimental variants preserve that three-layer reading flow:
+Two variants preserve that three-layer reading flow. Production uses the explicit-source layer by default; the wider inline-source layer is optional.
 
-- **5a — explicit source layer:** one source card per selected source, displayed in a right-hand column and formatted as `Author et al. (YYYY) — [core question]`. The card links to UC Library Search. Edges trace `source_id → source_question_id → question_id` when determining which source supports which canonical question. In the rendered left-to-right layout, the dashed edge is drawn from question to source so that the source remains the third visual column.
-- **5b — inline source layer:** sources remain inside question cards, while the card uses inline HTML such as `<div style='width:520px;text-align:left'>` to create a wider, more readable rectangle. This variant is better for compact review; 5a is better for auditing each source’s orientation.
+- **5a — explicit source layer (default):** one source card per selected source, displayed in a right-hand column and formatted as `Author et al. (YYYY) — [core question]`. The card links to UC Library Search. Edges trace `source_id → source_question_id → question_id` when determining which source supports which canonical question. In the rendered left-to-right layout, the dashed edge is drawn from question to source so that the source remains the third visual column.
+- **5b — inline source layer (optional):** sources remain inside question cards, while the card uses inline HTML such as `<div style='width:520px;text-align:left'>` to create a wider, more readable rectangle. This variant is better for compact review; 5a is better for auditing each source’s orientation.
 
 Counts such as `[theme-linked sources]` and `[source-specific questions]` are removed from the current Mermaid cards because their provenance is not yet sufficiently well defined. They can return only after the graph has an explicit, validated counting rule.
 
@@ -148,7 +148,7 @@ The JSON is for auditing and validation. The JavaScript file is for direct brows
 | Theme | Circle | Larger size by supported source count; color indicates theme; label and source count visible. |
 | Canonical question | Rounded rectangle | Color follows parent theme; size follows direct support plus parent-theme support; inquiry root receives a stronger border or marker. |
 | Possible next question | Dashed rounded rectangle | Orange or otherwise distinct; explicitly labeled/generated; no source-backed visual weight. |
-| Source | Circle | Smaller; size may reflect citation count when available; text is usually hidden until focus or hover. |
+| Source | Rectangle | Smaller; size may reflect citation count when available; text is usually hidden until focus or hover. |
 | Source question | Small rounded rectangle | Color follows theme; opacity reflects confidence; metadata-only records receive a dashed border or reduced emphasis. |
 
 ### Edges
@@ -301,8 +301,10 @@ Given a valid `question_map.json`:
 
 - The Phase 1 data graph is stable enough to drive all three views.
 - The pilot has working linear Markdown, Mermaid, and D3 HTML outputs generated from `question_map.json`.
+- The skill now includes `build_visualizations.py` and `normalize_citations.py` as the Phase 2a toolkit.
 - The v5 baseline confirms a readable two-column Mermaid pattern with source orientation inside question cards and possible next questions in the footer.
 - The 5a and 5b experiments are rendering successfully and provide the first evidence for an explicit source layer and a wider inline-source card layer.
+- 5a is the Phase 2a default; 5b remains an optional wider-card variant.
 - The current source orientation is still a temporary proxy derived from `source_question.question_text`; production needs a dedicated orientation field with quoted support.
 
 ### Phase 2a — Core visualization toolkit

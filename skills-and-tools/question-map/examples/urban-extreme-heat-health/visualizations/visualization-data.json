@@ -87,8 +87,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Environmental Exposure ;  Environmental health ;  Health Equity ;  Heat ;  Human beings ;  Medical care ;  Medical policy ;  Public health ;  Urban health",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 3,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W7133343457"
+      },
+      "confidence": "medium",
+      "citation_short": "ha Nasari, Ala, Marzouk, Sammer (2026)",
+      "citation_display": "ha Nasari, Ala, Marzouk, Sammer (2026). A healthy cities agenda for extreme heat adaptation in urban settings. Bulletin of the World Health Organization. DOI: 10.2471/BLT.25.294493.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_who_iris_10665_384966"
     },
     {
       "id": "src_002",
@@ -119,8 +129,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Adaptation ;  Ballistic missile early warning system ;  Cities and towns ;  Climate ;  Extreme Heat ;  Extreme Weather ;  Global warming ;  Heat ;  Human beings ;  Metropolitan areas ;  Physical sciences ;  Population Growth ;  Public health ;  Social sciences ;  Sustainability ;  Urban heat island ;  Urbanization",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 772,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W3188729567"
+      },
+      "confidence": "medium",
+      "citation_short": "Tuholske, Cascade, Caylor, Kelly, Funk, Chris, et al. (2021)",
+      "citation_display": "Tuholske, Cascade, Caylor, Kelly, Funk, Chris, et al. (2021). Global urban population exposure to extreme heat. Proceedings of the National Academy of Sciences - PNAS. DOI: 10.1073/pnas.2024792118.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_jstor_primary_27093397"
     },
     {
       "id": "src_003",
@@ -142,8 +162,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Charities ;  Civil defense ;  Emergency management ;  Extreme Heat ;  Government ;  Heat ;  Housing ;  Housing authorities ;  Humanitarianism ;  Interpersonal relations ;  Management ;  Medical care ;  Medical policy ;  Mental health services ;  Migration, Internal ;  Public health ;  Public welfare ;  Social mobility ;  Social problems ;  Social service ;  Social services",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 75,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W2549685661"
+      },
+      "confidence": "medium",
+      "citation_short": "Bolitho, Annie, Miller, Fiona (2017)",
+      "citation_display": "Bolitho, Annie, Miller, Fiona (2017). Heat as emergency, heat as chronic stress: policy and institutional responses to vulnerability to extreme heat. Local environment. DOI: 10.1080/13549839.2016.1254169.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_journals_1891110268"
     },
     {
       "id": "src_004",
@@ -168,8 +198,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 3,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4401166172"
+      },
+      "confidence": "medium",
+      "citation_short": "Espinoza Tilleria, Maria Loreto, Herrera, Ignacio, Carrasco, Mauricio (2024)",
+      "citation_display": "Espinoza Tilleria, Maria Loreto, Herrera, Ignacio, Carrasco, Mauricio (2024). Extreme heat and health in Gran Santiago: increase in mental health emergencies related to urban heat islands in neighborhoods. Environmental health perspectives. Supplements. DOI: 10.1289/isee.2024.1923.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_crossref_primary_10_1289_isee_2024_1923"
     },
     {
       "id": "src_005",
@@ -195,8 +235,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Depression, Mental ;  Ecosystem ;  Extreme Heat ;  Heat ;  Mental health ;  Mental illness",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 16,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4389439722"
+      },
+      "confidence": "medium",
+      "citation_short": "Yang, Ying, Zhang, Yixin, Sheng, Shaojie (2023)",
+      "citation_display": "Yang, Ying, Zhang, Yixin, Sheng, Shaojie (2023). Residential greenness for mitigating impacts of extreme heat events on depression and supporting mental health. Frontiers in public health. DOI: 10.3389/fpubh.2023.1310410.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmed_primary_38145084"
     },
     {
       "id": "src_006",
@@ -242,8 +292,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "City dwellers ;  Electronic Health Records ;  Epidemiology ;  Experimental design ;  Heat ;  Human beings ;  Longitudinal method ;  Longitudinal studies ;  Medical care ;  Medical personnel ;  Mental health ;  Mental illness ;  Observational Study ;  Poor ;  Psychology, Pathological ;  Public health ;  Smartphones ;  Temperature",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 2,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4415425884"
+      },
+      "confidence": "medium",
+      "citation_short": "Chukwusa, Emeka, Vivaldi, Giulia, Baecker, Lea, et al. (2025)",
+      "citation_display": "Chukwusa, Emeka, Vivaldi, Giulia, Baecker, Lea, et al. (2025). A longitudinal, population-based, record-linked natural experiment on the effects of extreme heat events on mental health in urban communities: a study protocol. BMJ open. DOI: 10.1136/bmjopen-2025-099771.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_12548616"
     },
     {
       "id": "src_007",
@@ -272,20 +332,30 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Adulthood ;  Bayesian statistical decision theory ;  Cities and towns ;  Climate ;  Drinking water ;  Extreme Heat ;  Extreme Weather ;  Gender ;  Logits ;  Mathematical models ;  Men ;  Mental health ;  Metropolitan areas ;  Nigeria ;  Public health ;  Sex differences ;  Women",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 0,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": false,
+        "provider_record_id": "https://openalex.org/W7162565935"
+      },
+      "confidence": "medium",
+      "citation_short": "Olaitan, Adetoun Mustapha, Egbogah, Ifeoma, Osuolale, Kazeem Adewale, et al. (2026)",
+      "citation_display": "Olaitan, Adetoun Mustapha, Egbogah, Ifeoma, Osuolale, Kazeem Adewale, et al. (2026). Perceived impacts of extreme heat on health and livelihoods in Nigeria. Environmental research, health : ERH. DOI: 10.1088/2752-5309/ae73a7.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_13254552"
     },
     {
       "id": "src_008",
       "type": "source",
-      "title": "Extreme heat, pregnancy and women\u2019s well-being in Burkina Faso: an ethnographical study",
+      "title": "Extreme heat, pregnancy and women’s well-being in Burkina Faso: an ethnographical study",
       "authors": [
         "Kadio, Kadidiatou",
         "Filippi, Veronique",
         "Congo, Mariam",
         "Scorgie, Fiona",
         "Roos, Nathalie",
-        "Lusambili, Ad\u00e9la\u00efde",
+        "Lusambili, Adélaïde",
         "Nakstad, Britt",
         "Kovats, Sari",
         "Kouanda, Seni"
@@ -306,13 +376,23 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Anthropology, Cultural ;  Birth weight ;  Breastfeeding ;  Burkina Faso ;  Child care ;  Cities and towns ;  Correspondence ;  Disabilities ;  Electricity ;  Environmental health ;  Extreme Heat ;  Female ;  Health facilities ;  Heat ;  High temperatures ;  Households ;  Human beings ;  Interpersonal relations ;  Letters ;  Maternal Health ;  Metropolitan areas ;  Mothers ;  Newborn infants ;  Pregnancy ;  Premature Birth ;  Public health ;  Qualitative research ;  Quality of life ;  Risk management ;  Stillbirth ;  Temperature",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 36,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4392016004"
+      },
+      "confidence": "medium",
+      "citation_short": "Kadio, Kadidiatou, Filippi, Veronique, Congo, Mariam, et al. (2024)",
+      "citation_display": "Kadio, Kadidiatou, Filippi, Veronique, Congo, Mariam, et al. (2024). Extreme heat, pregnancy and women’s well-being in Burkina Faso: an ethnographical study. BMJ global health. DOI: 10.1136/bmjgh-2023-014230.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_doaj_primary_oai_doaj_org_article_a8cde0af82194c9baaeeb5b72ced6ff0"
     },
     {
       "id": "src_009",
       "type": "source",
-      "title": "Heatstroke presentations to urban hospitals during BC\u2019s extreme heat event: lessons for the future",
+      "title": "Heatstroke presentations to urban hospitals during BC’s extreme heat event: lessons for the future",
       "authors": [
         "Gossack-Keenan, Kira",
         "Yeom, David Seonguk",
@@ -342,8 +422,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Aged, 80 and over ;  Consciousness ;  Diabetes ;  Diseases ;  Emergency medical services ;  Emergency medicine ;  Glasgow Coma Scale ;  Heat ;  Hospitalization ;  Hospitals ;  Hospitals, Urban ;  Human beings ;  Hypertension ;  Medicine ;  Mortality ;  Patients ;  Population ;  Public health ;  Temperature ;  Vital signs",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 16,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4390346415"
+      },
+      "confidence": "medium",
+      "citation_short": "Gossack-Keenan, Kira, Yeom, David Seonguk, Kanu, Josephine, et al. (2024)",
+      "citation_display": "Gossack-Keenan, Kira, Yeom, David Seonguk, Kanu, Josephine, et al. (2024). Heatstroke presentations to urban hospitals during BC’s extreme heat event: lessons for the future. Canadian journal of emergency medicine. DOI: 10.1007/s43678-023-00622-y.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmed_primary_38153655"
     },
     {
       "id": "src_010",
@@ -374,8 +464,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Aged, 80 and over ;  Environmental health ;  Female ;  Human beings ;  Male ;  Older people ;  Research ;  United States",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 1,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W7139940297"
+      },
+      "confidence": "medium",
+      "citation_short": "Siau, Evan, Silva, Genevieve S., Lu, Jeremy, et al. (2026)",
+      "citation_display": "Siau, Evan, Silva, Genevieve S., Lu, Jeremy, et al. (2026). Extreme Urban Heat and Emergency Department Visits in Older Adults. JAMA network open. DOI: 10.1001/jamanetworkopen.2026.2645.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_crossref_primary_10_1001_jamanetworkopen_2026_2645"
     },
     {
       "id": "src_011",
@@ -404,15 +504,25 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Aged, 80 and over ;  Climate ;  Diseases ;  Environmental sciences ;  Extreme Heat ;  Female ;  Heat ;  Hospitalization ;  Human beings ;  Medicare ;  Older people ;  Risk ;  Time Factors ;  United States ;  Urban heat island ;  Weather",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 127,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4379930740"
+      },
+      "confidence": "medium",
+      "citation_short": "Cleland, Stephanie E., Steinhardt, William, Neas, Lucas M., et al. (2023)",
+      "citation_display": "Cleland, Stephanie E., Steinhardt, William, Neas, Lucas M., et al. (2023). Urban heat island impacts on heat-related cardiovascular morbidity: A time series analysis of older adults in US metropolitan areas. Environment international. DOI: 10.1016/j.envint.2023.108005.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_10599453"
     },
     {
       "id": "src_012",
       "type": "source",
       "title": "Impact of Heat on Respiratory Hospitalizations among Older Adults in 120 Large U.S. Urban Areas",
       "authors": [
-        "O\u2019Lenick, Cassandra R.",
+        "O’Lenick, Cassandra R.",
         "Cleland, Stephanie E.",
         "Neas, Lucas M.",
         "Turner, Mallory W.",
@@ -438,8 +548,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Aged, 80 and over ;  Female ;  Heat ;  Hospitalization ;  Human beings ;  Male ;  Older people ;  Seasons",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 16,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4404056303"
+      },
+      "confidence": "medium",
+      "citation_short": "O’Lenick, Cassandra R., Cleland, Stephanie E., Neas, Lucas M., et al. (2025)",
+      "citation_display": "O’Lenick, Cassandra R., Cleland, Stephanie E., Neas, Lucas M., et al. (2025). Impact of Heat on Respiratory Hospitalizations among Older Adults in 120 Large U.S. Urban Areas. Annals of the American Thoracic Society. DOI: 10.1513/AnnalsATS.202405-470OC.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_11892670"
     },
     {
       "id": "src_013",
@@ -467,8 +587,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Acclimatization ;  Adaptability (Psychology) ;  Air conditioning ;  Extreme Heat ;  Heat ;  Human beings ;  Massachusetts ;  Older people ;  Poor ;  Poverty ;  Public housing ;  Skyscrapers ;  Tall buildings ;  Temperature",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 89,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W2955732888"
+      },
+      "confidence": "medium",
+      "citation_short": "Williams, Augusta A., Spengler, John D., Catalano, Paul, et al. (2019)",
+      "citation_display": "Williams, Augusta A., Spengler, John D., Catalano, Paul, et al. (2019). Building Vulnerability in a Changing Climate: Indoor Temperature Exposures and Health Outcomes in Older Adults Living in Public Housing during an Extreme Heat Event in Cambridge, MA. International journal of environmental research and public health. DOI: 10.3390/ijerph16132373.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmed_primary_31277359"
     },
     {
       "id": "src_014",
@@ -494,8 +624,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Adulthood ;  African Americans ;  Aged, 80 and over ;  Cities and towns ;  Discrimination in credit cards ;  Extreme Heat ;  Female ;  Health behavior ;  Health education ;  Health promotion ;  Households ;  Human beings ;  Islands ;  Male ;  Metropolitan areas ;  Neighborhood Characteristics ;  Neighborhoods ;  Older people ;  Seasons ;  Summer ;  Surveys ;  Travel ;  United States ;  Urban heat island ;  Walking",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 5,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4401510062"
+      },
+      "confidence": "medium",
+      "citation_short": "Mitsova, Diana, Besser, Lilah M., Le, Elaine T. (2024)",
+      "citation_display": "Mitsova, Diana, Besser, Lilah M., Le, Elaine T. (2024). Summer Heat, Historic Redlining, and Neighborhood Walking among Older Adults: 2017 National Household Travel Survey. Journal of urban health. DOI: 10.1007/s11524-024-00892-6.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_crossref_primary_10_1007_s11524_024_00892_6"
     },
     {
       "id": "src_015",
@@ -520,22 +660,32 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Climate ;  Europe ;  Spain",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 15,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4385343968"
+      },
+      "confidence": "medium",
+      "citation_short": "Yanez Serrano, Paloma, Torrego Gomez, Daniel, Bienkowska, Zosia (2023)",
+      "citation_display": "Yanez Serrano, Paloma, Torrego Gomez, Daniel, Bienkowska, Zosia (2023). Energy vulnerability and self-imposed austerity: An ethnographic approach to adaptation strategies to extreme heat among older adults in Madrid. Energy research & social science. DOI: 10.1016/j.erss.2023.103207.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_miscellaneous_2886044961"
     },
     {
       "id": "src_016",
       "type": "source",
-      "title": "A Case\u2010Crossover Study of Extreme Heat and Psychiatric Emergency Encounters Among Vulnerable Pregnant People",
+      "title": "A Case‐Crossover Study of Extreme Heat and Psychiatric Emergency Encounters Among Vulnerable Pregnant People",
       "authors": [
         "Vrkljan, Kaylin A.",
         "Oblath, Rachel",
-        "Black\u2010Ingersoll, Flannery",
+        "Black‐Ingersoll, Flannery",
         "Grady, Stephanie T.",
         "Burrows, Kate",
         "Fabian, M. Patricia",
         "Parker, Samantha E.",
-        "Nori\u2010Sarma, Amruta",
+        "Nori‐Sarma, Amruta",
         "Willis, Mary D."
       ],
       "year": "2025",
@@ -553,8 +703,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Diseases ;  Dose-response relationship ;  Electronic Health Records ;  Female ;  Heat ;  Human beings ;  Mental health ;  Newborn infants ;  Pregnancy ;  Public health ;  Regression analysis",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 3,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4412185762"
+      },
+      "confidence": "medium",
+      "citation_short": "Vrkljan, Kaylin A., Oblath, Rachel, Black‐Ingersoll, Flannery, et al. (2025)",
+      "citation_display": "Vrkljan, Kaylin A., Oblath, Rachel, Black‐Ingersoll, Flannery, et al. (2025). A Case‐Crossover Study of Extreme Heat and Psychiatric Emergency Encounters Among Vulnerable Pregnant People. Paediatric and perinatal epidemiology. DOI: 10.1111/ppe.70044.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_12338078"
     },
     {
       "id": "src_017",
@@ -573,15 +733,18 @@
       "evidence_basis": "abstract_and_metadata",
       "selection_status": "selected",
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
-      "subjects": "Government Expenditures and Health ; Health and Inequality ; Government Policy \u2022 Regulation \u2022 Public Health ; General",
+      "subjects": "Government Expenditures and Health ; Health and Inequality ; Government Policy • Regulation • Public Health ; General",
       "language": "eng",
       "citation_metadata": null,
-      "confidence": "medium"
+      "confidence": "medium",
+      "citation_short": "Kim, Jiyoon (2019)",
+      "citation_display": "Kim, Jiyoon (2019). What to Expect When It Gets Hotter: The Impacts of Prenatal Exposure to Extreme Heat on Maternal Health  / Jiyoon Kim, Ajin Lee, Maya Rossin-Slater.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/alma9914834029806531"
     },
     {
       "id": "src_018",
       "type": "source",
-      "title": "Examining the Association between Heat Exposure and Crime in Cities across the\u00a0United States: A Scoping Review",
+      "title": "Examining the Association between Heat Exposure and Crime in Cities across the United States: A Scoping Review",
       "authors": [
         "Azan, Alexander",
         "Choi, Jin",
@@ -606,8 +769,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Cities and towns ;  Crime ;  Crime prevention ;  Equality ;  Extreme Heat ;  Firearms ;  Heat ;  High temperatures ;  Human beings ;  Land use ;  Medicine ;  Metropolitan areas ;  Nonviolence ;  Poor ;  Public health ;  Review ;  Temperature ;  Violence ;  Violent crimes",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 4,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4408330286"
+      },
+      "confidence": "medium",
+      "citation_short": "Azan, Alexander, Choi, Jin, Matthay, Ellicott C., et al. (2025)",
+      "citation_display": "Azan, Alexander, Choi, Jin, Matthay, Ellicott C., et al. (2025). Examining the Association between Heat Exposure and Crime in Cities across the United States: A Scoping Review. Journal of urban health. DOI: 10.1007/s11524-025-00970-3.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmed_primary_40067571"
     },
     {
       "id": "src_019",
@@ -634,8 +807,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Cities and towns ;  Diabetes ;  Diseases ;  Epidemiology ;  Ethnicity ;  Extreme Heat ;  Health Status ;  Human beings ;  Indexes ;  Medical informatics ;  Medicine ;  Metropolitan areas ;  Mortality ;  Older people ;  Philadelphia ;  Planning ;  Population ;  Poverty ;  Public health ;  Pulmonary Disease, Chronic Obstructive ;  Social isolation ;  Urban heat island ;  Vulnerable Populations ;  Web sites",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 34,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W3030683727"
+      },
+      "confidence": "medium",
+      "citation_short": "Hammer, Jason, Ruggieri, Dominique G., Thomas, Chad, et al. (2020)",
+      "citation_display": "Hammer, Jason, Ruggieri, Dominique G., Thomas, Chad, et al. (2020). Local Extreme Heat Planning: an Interactive Tool to Examine a Heat Vulnerability Index for Philadelphia, Pennsylvania. Journal of urban health. DOI: 10.1007/s11524-020-00443-9.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_miscellaneous_2409647255"
     },
     {
       "id": "src_020",
@@ -660,8 +843,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Air conditioning ;  Built environment ;  Cancer ;  City planning ;  Cooling ;  Extreme Heat ;  Heat ;  Human beings ;  Neighborhoods ;  Outdoor life ;  Poor ;  Public health ;  Public lands ;  Science ;  Solar energy ;  Sun ;  Temperature ;  Trees ;  Urban health ;  Urban heat island",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 141,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4385273055"
+      },
+      "confidence": "medium",
+      "citation_short": "Turner, V. Kelly, Middel, Ariane, Vanos, Jennifer K. (2023)",
+      "citation_display": "Turner, V. Kelly, Middel, Ariane, Vanos, Jennifer K. (2023). Shade is an essential solution for hotter cities. Nature (London). DOI: 10.1038/d41586-023-02311-3.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_miscellaneous_2843034104"
     },
     {
       "id": "src_021",
@@ -685,13 +878,23 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Built environment ;  Cities and towns ;  Extreme Heat ;  Health planning ;  Heat ;  High temperatures ;  Medical policy ;  Metropolitan areas ;  Neighborhoods ;  Public health ;  Segregation",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 7,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4412909657"
+      },
+      "confidence": "medium",
+      "citation_short": "Ock, YunJae, Shandas, Vivek (2026)",
+      "citation_display": "Ock, YunJae, Shandas, Vivek (2026). Duration of exposure to extreme heat in cities: Toward a planning relevant metric to improve public health. Journal of urban affairs. DOI: 10.1080/07352166.2025.2526491.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_journals_3371417708"
     },
     {
       "id": "src_022",
       "type": "source",
-      "title": "A Comprehensive Approach to Enhance Older Adults\u2019 Preparedness for Extreme Heat: COPE -Engage",
+      "title": "A Comprehensive Approach to Enhance Older Adults’ Preparedness for Extreme Heat: COPE -Engage",
       "authors": [
         "Mahmood, Atiya",
         "Zhu, Leticia",
@@ -712,13 +915,23 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Older people",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 0,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": false,
+        "provider_record_id": "https://openalex.org/W7118084481"
+      },
+      "confidence": "medium",
+      "citation_short": "Mahmood, Atiya, Zhu, Leticia, Wei, Cindy, et al. (2025)",
+      "citation_display": "Mahmood, Atiya, Zhu, Leticia, Wei, Cindy, et al. (2025). A Comprehensive Approach to Enhance Older Adults’ Preparedness for Extreme Heat: COPE -Engage. Innovation in aging. DOI: 10.1093/geroni/igaf122.1430.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_12763546"
     },
     {
       "id": "src_023",
       "type": "source",
-      "title": "Temperature and mental health\u2013related emergency department and hospital encounters among children, adolescents and young adults",
+      "title": "Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults",
       "authors": [
         "Niu, Li",
         "Girma, Blean",
@@ -742,8 +955,18 @@
       "selection_reason": "Relevant to urban extreme heat, health, wellbeing, vulnerability, or adaptation.",
       "subjects": "Adolescence ;  Airports ;  Anxiety ;  Ciphers ;  Depression, Mental ;  Emergency medical services ;  Ethnicity ;  Extreme Heat ;  Health risk assessment ;  Heat ;  Hispanic Americans ;  Hospitalization ;  Hospitals ;  Human beings ;  Medicaid ;  Medical policy ;  Mental health ;  Mental illness ;  Poor ;  Psychiatry ;  Psychology ;  Psychology, Pathological ;  Sleep ;  Teenagers ;  Temperature ;  Weather ;  Young adults",
       "language": "eng",
-      "citation_metadata": null,
-      "confidence": "medium"
+      "citation_metadata": {
+        "primary_count": 65,
+        "primary_provider": "openalex",
+        "retrieved_at": "2026-10-06T20:50:00Z",
+        "alternative_counts": [],
+        "counts_by_year_available": true,
+        "provider_record_id": "https://openalex.org/W4366082887"
+      },
+      "confidence": "medium",
+      "citation_short": "Niu, Li, Girma, Blean, Liu, Bian, et al. (2023)",
+      "citation_display": "Niu, Li, Girma, Blean, Liu, Bian, et al. (2023). Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults. Epidemiology and psychiatric sciences. DOI: 10.1017/S2045796023000161.",
+      "ucls_permalink": "https://search-library.ucsd.edu/permalink/01UCS_SDI/qkke1q/cdi_proquest_miscellaneous_2802424580"
     },
     {
       "id": "q_001",
@@ -955,7 +1178,7 @@
       "id": "sq_008",
       "type": "source_question",
       "source_id": "src_008",
-      "question_text": "How does extreme heat affect women\u2019s health, caregiving, and social relationships in Burkina Faso?",
+      "question_text": "How does extreme heat affect women’s health, caregiving, and social relationships in Burkina Faso?",
       "origin": "inferred",
       "connection_type": "reasonable_inference",
       "access_level": "abstract_only",
@@ -2556,7 +2779,7 @@
     {
       "quote_id": "quote_002",
       "source_id": "src_002",
-      "text": "Using a daily maximum wet bulb globe temperature threshold of 30 \u00b0C, global exposure increased nearly 200% from 1983 to 2016. Total urban warming elevated the annual increase in exposure by 52% compared to urban population growth alone.",
+      "text": "Using a daily maximum wet bulb globe temperature threshold of 30 °C, global exposure increased nearly 200% from 1983 to 2016. Total urban warming elevated the annual increase in exposure by 52% compared to urban population growth alone.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2568,7 +2791,7 @@
     {
       "quote_id": "quote_003",
       "source_id": "src_003",
-      "text": "Increasingly commonplace in cities, extreme heat events introduce multi-stress vulnerability, affecting people\u2019s health and well-being, financial situation, mobility, social relations, and access to basic services.",
+      "text": "Increasingly commonplace in cities, extreme heat events introduce multi-stress vulnerability, affecting people’s health and well-being, financial situation, mobility, social relations, and access to basic services.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2616,7 +2839,7 @@
     {
       "quote_id": "quote_007",
       "source_id": "src_008",
-      "text": "Extreme heat affects women\u2019s functionality and well-being. Heat undermines a woman\u2019s ability to care for themselves and their child and interferes negatively with breast feeding.",
+      "text": "Extreme heat affects women’s functionality and well-being. Heat undermines a woman’s ability to care for themselves and their child and interferes negatively with breast feeding.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2640,7 +2863,7 @@
     {
       "quote_id": "quote_009",
       "source_id": "src_010",
-      "text": "At ED-1, daily HImax associations increased after 66 \u00b0F (OR, 1.10 [95% CI, 1.01-1.21]), peaking at 101 \u00b0F (OR, 1.24 [95% CI, 1.11-1.39]), and were higher on days with HImax anomalies between 15 \u00b0F (OR, 1.07 [95% CI, 1.01-1.13]) and 18 \u00b0F (OR, 1.10 [95% CI, 1.01-1.20]) warmer than average.",
+      "text": "At ED-1, daily HImax associations increased after 66 °F (OR, 1.10 [95% CI, 1.01-1.21]), peaking at 101 °F (OR, 1.24 [95% CI, 1.11-1.39]), and were higher on days with HImax anomalies between 15 °F (OR, 1.07 [95% CI, 1.01-1.13]) and 18 °F (OR, 1.10 [95% CI, 1.01-1.20]) warmer than average.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2700,7 +2923,7 @@
     {
       "quote_id": "quote_014",
       "source_id": "src_015",
-      "text": "This article analyses local practices concerning energy saving in the context of summer heat. It argues that the analysis of people\u2019s thermal regulation activities in a situation of energy marginalization is central to understanding the social dynamics of energy vulnerability.",
+      "text": "This article analyses local practices concerning energy saving in the context of summer heat. It argues that the analysis of people’s thermal regulation activities in a situation of energy marginalization is central to understanding the social dynamics of energy vulnerability.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2760,7 +2983,7 @@
     {
       "quote_id": "quote_019",
       "source_id": "src_020",
-      "text": "One of the most effective ways to keep people cool is often neglected in urban planning. Cities must work to provide cover and reverse the \u2018shade deserts\u2019 common in low-income communities.",
+      "text": "One of the most effective ways to keep people cool is often neglected in urban planning. Cities must work to provide cover and reverse the ‘shade deserts’ common in low-income communities.",
       "locator": "abstract",
       "access_level": "abstract_only",
       "evidence_basis": "abstract_and_metadata",
@@ -2808,92 +3031,181 @@
   ],
   "citation_metadata": {
     "src_001": {
-      "count": 3,
-      "provider": "openalex"
+      "primary_count": 3,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W7133343457"
     },
     "src_002": {
-      "count": 772,
-      "provider": "openalex"
+      "primary_count": 772,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W3188729567"
     },
     "src_003": {
-      "count": 75,
-      "provider": "openalex"
+      "primary_count": 75,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W2549685661"
     },
     "src_004": {
-      "count": 3,
-      "provider": "openalex"
+      "primary_count": 3,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4401166172"
     },
     "src_005": {
-      "count": 16,
-      "provider": "openalex"
+      "primary_count": 16,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4389439722"
     },
     "src_006": {
-      "count": 2,
-      "provider": "openalex"
+      "primary_count": 2,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4415425884"
     },
     "src_007": {
-      "count": 0,
-      "provider": "openalex"
+      "primary_count": 0,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": false,
+      "provider_record_id": "https://openalex.org/W7162565935"
     },
     "src_008": {
-      "count": 36,
-      "provider": "openalex"
+      "primary_count": 36,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4392016004"
     },
     "src_009": {
-      "count": 16,
-      "provider": "openalex"
+      "primary_count": 16,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4390346415"
     },
     "src_010": {
-      "count": 1,
-      "provider": "openalex"
+      "primary_count": 1,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W7139940297"
     },
     "src_011": {
-      "count": 127,
-      "provider": "openalex"
+      "primary_count": 127,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4379930740"
     },
     "src_012": {
-      "count": 16,
-      "provider": "openalex"
+      "primary_count": 16,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4404056303"
     },
     "src_013": {
-      "count": 89,
-      "provider": "openalex"
+      "primary_count": 89,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W2955732888"
     },
     "src_014": {
-      "count": 5,
-      "provider": "openalex"
+      "primary_count": 5,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4401510062"
     },
     "src_015": {
-      "count": 15,
-      "provider": "openalex"
+      "primary_count": 15,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4385343968"
     },
     "src_016": {
-      "count": 3,
-      "provider": "openalex"
+      "primary_count": 3,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4412185762"
     },
+    "src_017": {},
     "src_018": {
-      "count": 4,
-      "provider": "openalex"
+      "primary_count": 4,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4408330286"
     },
     "src_019": {
-      "count": 34,
-      "provider": "openalex"
+      "primary_count": 34,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W3030683727"
     },
     "src_020": {
-      "count": 141,
-      "provider": "openalex"
+      "primary_count": 141,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4385273055"
     },
     "src_021": {
-      "count": 7,
-      "provider": "openalex"
+      "primary_count": 7,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4412909657"
     },
     "src_022": {
-      "count": 0,
-      "provider": "openalex"
+      "primary_count": 0,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": false,
+      "provider_record_id": "https://openalex.org/W7118084481"
     },
     "src_023": {
-      "count": 65,
-      "provider": "openalex"
+      "primary_count": 65,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-06T20:50:00Z",
+      "alternative_counts": [],
+      "counts_by_year_available": true,
+      "provider_record_id": "https://openalex.org/W4366082887"
     }
   },
   "question_support": {
