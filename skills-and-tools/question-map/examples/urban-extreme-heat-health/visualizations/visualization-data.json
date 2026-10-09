@@ -1569,7 +1569,7 @@
       "id": "edge_001",
       "source_id": "src_001",
       "target_id": "sq_001",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1591,7 +1591,7 @@
       "id": "edge_003",
       "source_id": "src_002",
       "target_id": "sq_002",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1613,7 +1613,7 @@
       "id": "edge_005",
       "source_id": "src_003",
       "target_id": "sq_003",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1635,7 +1635,7 @@
       "id": "edge_007",
       "source_id": "src_004",
       "target_id": "sq_004",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high"
     },
@@ -1651,7 +1651,7 @@
       "id": "edge_009",
       "source_id": "src_005",
       "target_id": "sq_005",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1673,7 +1673,7 @@
       "id": "edge_011",
       "source_id": "src_006",
       "target_id": "sq_006",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1695,7 +1695,7 @@
       "id": "edge_013",
       "source_id": "src_007",
       "target_id": "sq_007",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1717,7 +1717,7 @@
       "id": "edge_015",
       "source_id": "src_008",
       "target_id": "sq_008",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1739,7 +1739,7 @@
       "id": "edge_017",
       "source_id": "src_009",
       "target_id": "sq_009",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1761,7 +1761,7 @@
       "id": "edge_019",
       "source_id": "src_010",
       "target_id": "sq_010",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1783,7 +1783,7 @@
       "id": "edge_021",
       "source_id": "src_011",
       "target_id": "sq_011",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1805,7 +1805,7 @@
       "id": "edge_023",
       "source_id": "src_012",
       "target_id": "sq_012",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1827,7 +1827,7 @@
       "id": "edge_025",
       "source_id": "src_013",
       "target_id": "sq_013",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1849,7 +1849,7 @@
       "id": "edge_027",
       "source_id": "src_014",
       "target_id": "sq_014",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1871,7 +1871,7 @@
       "id": "edge_029",
       "source_id": "src_015",
       "target_id": "sq_015",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1893,7 +1893,7 @@
       "id": "edge_031",
       "source_id": "src_016",
       "target_id": "sq_016",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1915,7 +1915,7 @@
       "id": "edge_033",
       "source_id": "src_017",
       "target_id": "sq_017",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1937,7 +1937,7 @@
       "id": "edge_035",
       "source_id": "src_018",
       "target_id": "sq_018",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1959,7 +1959,7 @@
       "id": "edge_037",
       "source_id": "src_019",
       "target_id": "sq_019",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -1981,7 +1981,7 @@
       "id": "edge_039",
       "source_id": "src_020",
       "target_id": "sq_020",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -2003,7 +2003,7 @@
       "id": "edge_041",
       "source_id": "src_021",
       "target_id": "sq_021",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -2025,7 +2025,7 @@
       "id": "edge_043",
       "source_id": "src_022",
       "target_id": "sq_022",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -2047,7 +2047,7 @@
       "id": "edge_045",
       "source_id": "src_023",
       "target_id": "sq_023",
-      "relation": "asks",
+      "relation": "infers",
       "basis": "Source abstract or title names the research aim or finding.",
       "confidence": "high",
       "evidence_ids": [
@@ -2350,6 +2350,7 @@
       "source_id": "q_001",
       "target_id": "theme_001",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2358,6 +2359,7 @@
       "source_id": "q_008",
       "target_id": "theme_001",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2366,6 +2368,7 @@
       "source_id": "q_002",
       "target_id": "theme_002",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2374,6 +2377,7 @@
       "source_id": "q_003",
       "target_id": "theme_003",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2382,6 +2386,7 @@
       "source_id": "q_004",
       "target_id": "theme_004",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2390,6 +2395,7 @@
       "source_id": "q_005",
       "target_id": "theme_005",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2398,6 +2404,7 @@
       "source_id": "q_006",
       "target_id": "theme_006",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     },
@@ -2406,6 +2413,7 @@
       "source_id": "q_007",
       "target_id": "theme_006",
       "relation": "member_of",
+      "role": "primary",
       "basis": "Question is part of the theme.",
       "confidence": "high"
     }

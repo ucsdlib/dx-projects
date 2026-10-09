@@ -33,6 +33,8 @@
     .swatch { width:10px; height:10px; border-radius:50%; }
     .link { stroke:#b9c1cc; stroke-opacity:.52; }
     .theme-link { stroke-dasharray:4 3; stroke-opacity:.32; }
+    .cross-link { stroke-dasharray:2 4; stroke-opacity:.24; }
+    .secondary-link { stroke-dasharray:7 4; stroke-opacity:.42; }
     .next-link { stroke:#f97316; stroke-dasharray:4 3; stroke-opacity:.72; }
     .support-link { stroke:#94a3b8; }
     .node rect, .node circle, .node path { cursor:pointer; }
@@ -55,6 +57,15 @@
         <option value="landscape">Question landscape</option>
         <option value="evidence">Questions + source anchors</option>
         <option value="full">Full graph</option>
+      </select>
+    </label>
+    <label>Relationships
+      <select id="relation-filter">
+        <option value="all">All relationships</option>
+        <option value="direct">Direct support</option>
+        <option value="secondary">Secondary links</option>
+        <option value="cross_cutting">Cross-cutting links</option>
+        <option value="next">Possible next questions</option>
       </select>
     </label>
     <input id="search" type="search" placeholder="Search questions, themes, or sources" autocomplete="off" spellcheck="false">
@@ -185,6 +196,13 @@ function setSearchTerm(node) {
     return [node.label, node.question_text, node.title, node.statement, node.key_terms?.join(" "), node.subjects, node.citation_short, node.citation_display, quoteText]
     .join(" ").toLowerCase().includes(term);
 }
+function edgeMatchesRelation(edge, relationFilter) {
+  if (relationFilter === "direct") return edge.relation === "supports";
+  if (relationFilter === "secondary") return edge.relation === "variant_of" || edge.relation === "relates_to";
+  if (relationFilter === "cross_cutting") return edge.relation === "member_of" && edge.role === "cross_cutting";
+  if (relationFilter === "next") return edge.relation === "proposes" || edge.relation === "narrows_to" || edge.relation === "extends_to" || edge.relation === "proposed_for";
+  return true;
+}
 function highlight() {
   const term = searchInput.property("value").toLowerCase();
   const neighborhood = new Set();
@@ -254,8 +272,9 @@ function render() {
   visibleNodes = graph.themes.concat(graph.nodes.filter(node => allowedTypes.has(node.type)));
   const nodeSet = new Set(visibleNodes.map(node => node.id));
   const themeMembershipEdges = [];
+  const themeEdgeRoles = new Map(graph.edges.filter(edge => edge.relation === "member_of").map(edge => [`${edge.source_id}|${edge.target_id}`, edge.role]));
   graph.themes.forEach(theme => {
-    theme.question_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "member_of"}));
+    theme.question_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "member_of", role: themeEdgeRoles.get(`${theme.id}|${id}`)}));
     theme.next_question_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "proposed_for"}));
     if (sourceVisible) theme.source_ids.filter(id => nodeSet.has(id)).forEach(id => themeMembershipEdges.push({source: theme.id, target: id, relation: "member_of"}));
   });
@@ -264,6 +283,12 @@ function render() {
     edges = edges.concat(graph.edges.filter(edge => nodeSet.has(edge.source_id) && nodeSet.has(edge.target_id)).map(e => ({...e, source: e.source_id, target: e.target_id})));
   } else {
     edges = edges.concat(graph.edges.filter(edge => edge.relation === "proposes" && nodeSet.has(edge.source_id) && nodeSet.has(edge.target_id)).map(e => ({...e, source: e.source_id, target: e.target_id})));
+    graph.edges.forEach(edge => {
+      const sourceQuestion = nodesById.get(edge.source_id);
+      if (!sourceQuestion?.source_id || !["supports", "variant_of", "relates_to"].includes(edge.relation)) return;
+      if (!nodeSet.has(sourceQuestion.source_id) || !nodeSet.has(edge.target_id)) return;
+      edges.push({...edge, id: `${edge.id}-projected`, source: sourceQuestion.source_id, target: edge.target_id, projected: true});
+    });
     visibleNodes.forEach(node => {
       if (node.type === "next_question") {
         node.parent_question_ids.filter(id => nodeSet.has(id)).forEach(id => edges.push({source: id, target: node.id, relation: "proposes"}));
@@ -271,7 +296,8 @@ function render() {
     });
   }
   const deduped = new Map();
-  edges.forEach(edge => deduped.set(`${edge.source}|${edge.target}|${edge.relation}`, edge));
+  const relationFilter = d3.select("#relation-filter").property("value");
+  edges.filter(edge => edgeMatchesRelation(edge, relationFilter)).forEach(edge => deduped.set(`${edge.source}|${edge.target}|${edge.relation}`, edge));
   visibleEdges = Array.from(deduped.values());
   simulation?.stop();
   simulation = d3.forceSimulation(visibleNodes)
@@ -303,7 +329,7 @@ function render() {
   const links = linkLayer.selectAll("line").data(visibleEdges, edge => edge.id || `${edge.source.id || edge.source}|${edge.target.id || edge.target}|${edge.relation}`);
   links.exit().remove();
   links.enter().append("line")
-    .attr("class", edge => edge.relation === "member_of" ? "link theme-link" : edge.relation === "proposes" ? "link next-link" : "link support-link")
+    .attr("class", edge => edge.relation === "member_of" && edge.role === "cross_cutting" ? "link cross-link" : edge.relation === "member_of" ? "link theme-link" : edge.relation === "proposes" ? "link next-link" : edge.relation === "variant_of" || edge.relation === "relates_to" ? "link secondary-link" : "link support-link")
     .merge(links).attr("id", edge => edge.id);
   const nodeJoin = nodeLayer.selectAll("g.node").data(visibleNodes, node => node.id);
   nodeJoin.exit().remove();
@@ -364,6 +390,7 @@ window.addEventListener("DOMContentLoaded", () => {
   d3.select("#subtitle").text(`${graph.request?.core_question || "Question map"} · ${year}`);
   legend();
   d3.select("#view").on("change", render);
+  d3.select("#relation-filter").on("change", render);
   searchInput.on("input", highlight);
   d3.select("#reset").on("click", reset);
   render();

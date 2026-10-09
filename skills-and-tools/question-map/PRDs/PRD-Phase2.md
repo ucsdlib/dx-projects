@@ -306,6 +306,7 @@ Given a valid `question_map.json`:
 - The 5a and 5b experiments are rendering successfully and provide the first evidence for an explicit source layer and a wider inline-source card layer.
 - 5a is the Phase 2a default; 5b remains an optional wider-card variant.
 - The current source orientation is still a temporary proxy derived from `source_question.question_text`; production needs a dedicated orientation field with quoted support.
+- The 2026-10-09 test run confirmed the need for explicit edge semantics: evidence-backed direct support, medium/low-confidence secondary links, and explicit primary/cross-cutting theme membership. A source question may support more than one canonical question when the evidence warrants it; the current toolkit validates these distinctions before rendering.
 
 ### Phase 2a — Core visualization toolkit
 
@@ -313,6 +314,7 @@ Given a valid `question_map.json`:
 - Extract the v4/v5 Mermaid, linear Markdown, and D3 HTML logic into the skill’s scripts.
 - Add normalized citation metadata to `question_map.json` so visualizations do not depend on raw enrichment payloads.
 - Add fail-closed validation of every derived view.
+- Validate relationship semantics, not only referential integrity: stated versus inferred source questions, direct versus secondary support, and primary versus cross-cutting theme membership.
 - Preserve source orientation, access level, confidence, and permalink generation from the graph rather than hard-coding run-specific assumptions.
 - Test the generated Mermaid in GitHub and at least one desktop Markdown renderer.
 

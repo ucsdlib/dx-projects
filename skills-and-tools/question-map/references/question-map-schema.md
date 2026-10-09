@@ -151,6 +151,22 @@ Possible follow-up question, not source-backed evidence. Recommended fields:
 
 Do not give a `next_question` source support unless the source explicitly names the question.
 
+### `context`
+
+Use a context node to preserve the user prompt or another framing statement without treating it as source-derived evidence:
+
+```json
+{
+  "id": "ctx_001",
+  "type": "context",
+  "label": "User prompt frame",
+  "statement": "",
+  "root_status": "primary_user_root",
+  "confidence": "high",
+  "rationale": "Framing only; not a canonical analytic question."
+}
+```
+
 ### `source`
 
 Selected source or citation-graph source. Include title, authors, year, venue, source type, DOI/PMID/other identifiers, URL, access level, evidence basis, abstract source, selection status, selection reason, subjects, keywords, language, open-access metadata, citation metadata, and links.
@@ -194,14 +210,29 @@ Useful typed relations:
 | Direction | Relations |
 |---|---|
 | `source` → `source_question` | `asks`, `infers`, `raises`, `reviews` |
-| `source_question` → `question` | `supports`, `variant_of` |
+| `source_question` → `question` | `supports`, `variant_of`, `relates_to` |
 | `question` → `question` | `relates_to`, `refines`, `generalizes`, `specifies`, `contrasts_with`, `co_occurs_with` |
 | `question` → `next_question` | `proposes`, `narrows_to`, `extends_to` |
 | `question`/`next_question` → `theme` | `member_of`, `proposed_for` |
 | `source` → `source` | `cites`, `similar_to`, `contrasts_with` |
 | `source` → metadata node | `informs`, `uses`, `studies`, `located_in`, `applies_to` |
 
-All source-to-source-question edges require a quote or explicit metadata-derived rationale. Question-to-question and question-to-next-question edges must record their basis.
+All source-to-source-question edges require a quote or explicit metadata-derived rationale. A `source_question` must have at least one evidence-backed `supports` edge and may have more than one when the evidence warrants it; do not impose an arbitrary maximum. Secondary links use `variant_of` or `relates_to` with medium or low confidence. Question-to-question and question-to-next-question edges must record their basis.
+
+Every `question -> theme` `member_of` edge must carry `role: primary` or `role: cross_cutting`. A question may belong to several themes, but exactly one membership is primary. The primary membership reflects where its evidence is grouped; cross-cutting membership is not containment.
+
+When edges are changed during construction, add an entry to `run.edge_audit`:
+
+```json
+{
+  "edge_id": "edge_sq_001",
+  "correction": "changed relation",
+  "from": "supports",
+  "to": "variant_of",
+  "reason": "The quoted evidence frames a related population rather than directly supporting the canonical question.",
+  "confidence": "medium"
+}
+```
 
 ## Quotes
 
@@ -276,6 +307,9 @@ The validator checks:
 - all edge endpoints resolve to a node or theme;
 - quote source IDs and edge evidence IDs resolve;
 - source questions have quote or metadata-derived evidence;
+- at least one evidence-backed `source_question -> question` `supports` edge per source question, with additional support edges allowed when evidence warrants;
+- explicit `asks`/`infers`/`raises`/`reviews` semantics that match the source-question origin;
+- exactly one primary theme membership per question, with other memberships marked `cross_cutting`;
 - every theme has at least one supported question or source;
 - theme support summaries and tiers are internally consistent;
 - citation counts include provider and retrieval timestamp;

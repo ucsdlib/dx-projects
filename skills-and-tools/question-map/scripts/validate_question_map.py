@@ -52,10 +52,11 @@ SUPPORT_TIERS = {
     "multi_source",
     "multi_source_multi_question",
 }
+EDGE_ROLES = {"primary", "cross_cutting"}
 
 EDGE_RELATIONS = {
     ("source", "source_question"): {"asks", "infers", "raises", "reviews"},
-    ("source_question", "question"): {"supports", "variant_of"},
+    ("source_question", "question"): {"supports", "variant_of", "relates_to"},
     ("question", "question"): {
         "relates_to",
         "refines",
@@ -119,6 +120,16 @@ def validate_run(data, errors):
         require(is_nonempty_string(rule.get("rule")), "ERROR run.theme_creation_rule.rule must be non-empty", errors)
         require(is_nonempty_string(rule.get("rationale")), "ERROR run.theme_creation_rule.rationale must be non-empty", errors)
 
+    edge_audit = run.get("edge_audit")
+    if edge_audit is not None:
+        require(isinstance(edge_audit, list), "ERROR run.edge_audit must be a list", errors)
+        for index, entry in enumerate(edge_audit or []):
+            require(
+                isinstance(entry, dict) and is_nonempty_string(entry.get("edge_id")) and is_nonempty_string(entry.get("reason")),
+                f"ERROR run.edge_audit[{index}] must include edge_id and reason",
+                errors,
+            )
+
     for weight_key in ("question_score_weights", "theme_score_weights"):
         weights = run.get(weight_key)
         if weights is None:
@@ -156,6 +167,17 @@ def validate_search_log(data, errors):
             require(is_nonempty_string(ucls.get("coverage_consequence")), "ERROR a documented UC Library Search skip requires coverage_consequence", errors)
     for key in ("queries", "component_decomposition", "adaptive_refinements", "api_calls", "skips"):
         require(isinstance(log.get(key), list), f"ERROR search_log.{key} must be a list", errors)
+    coverage = log.get("component_coverage")
+    if coverage is not None:
+        require(isinstance(coverage, list), "ERROR search_log.component_coverage must be a list", errors)
+        for index, entry in enumerate(coverage or []):
+            require(
+                isinstance(entry, dict)
+                and is_nonempty_string(entry.get("component"))
+                and entry.get("coverage_status") in {"covered", "weak", "not_found_in_retrieved_coverage"},
+                f"ERROR search_log.component_coverage[{index}] requires component and a valid coverage_status",
+                errors,
+            )
 
 
 def validate_nodes(data, node_index, errors):
@@ -250,6 +272,9 @@ def validate_nodes(data, node_index, errors):
                     require(is_nonempty_string(node.get(citation_field)), f"ERROR {label}.{citation_field} must be non-empty", errors)
         else:
             require(is_nonempty_string(node.get("label")), f"ERROR {label}.label must be non-empty", errors)
+            if node_type == "context":
+                require(is_nonempty_string(node.get("statement")), f"ERROR {label}.statement must be non-empty", errors)
+                require(is_nonempty_string(node.get("rationale")), f"ERROR {label}.rationale must be non-empty", errors)
 
     return seen
 
@@ -284,6 +309,7 @@ def validate_quotes(data, node_index, errors):
 def validate_edges(data, node_index, theme_index, quote_index, errors):
     edges = data.get("edges") or []
     seen_edges = set()
+    seen_endpoint_relations = set()
     for index, edge in enumerate(edges):
         label = f"edges[{index}]"
         if not isinstance(edge, dict):
@@ -312,16 +338,122 @@ def validate_edges(data, node_index, theme_index, quote_index, errors):
         source_type = source.get("type")
         target_type = target.get("type")
         relation = edge.get("relation")
+        endpoint_relation = (source_id, target_id, relation)
+        require(
+            endpoint_relation not in seen_endpoint_relations,
+            f"ERROR duplicate edge endpoint and relation: {endpoint_relation}",
+            errors,
+        )
+        seen_endpoint_relations.add(endpoint_relation)
         allowed = EDGE_RELATIONS.get((source_type, target_type))
         require(
             allowed is not None and relation in allowed,
             f"ERROR {label} has unsupported relation {source_type} --{relation}--> {target_type}",
             errors,
         )
+        if "role" in edge:
+            require_enum(edge.get("role"), EDGE_ROLES, f"{label}.role", errors)
         evidence_ids = edge.get("evidence_ids") or []
         require(isinstance(evidence_ids, list), f"ERROR {label}.evidence_ids must be a list", errors)
         for evidence_id in evidence_ids:
             require(evidence_id in quote_index, f"ERROR {label}.evidence_id does not resolve: {evidence_id}", errors)
+
+    validate_edge_semantics(edges, node_index, theme_index, quote_index, errors)
+
+
+def validate_edge_semantics(edges, node_index, theme_index, quote_index, errors):
+    support_counts = {}
+    membership_edges = {}
+    for edge in edges:
+        if not isinstance(edge, dict):
+            continue
+        source = node_index.get(edge.get("source_id"))
+        target = node_index.get(edge.get("target_id")) or theme_index.get(edge.get("target_id"))
+        if source is None or target is None:
+            continue
+        source_type = source.get("type")
+        target_type = target.get("type")
+        relation = edge.get("relation")
+        label = edge.get("id") or "unnamed edge"
+
+        if source_type == "source" and target_type == "source_question":
+            if target.get("evidence_basis") == "metadata_only":
+                require(
+                    not edge.get("evidence_ids"),
+                    f"ERROR {label} to metadata_only source_question should rely on metadata_rationale, not quote evidence",
+                    errors,
+                )
+            else:
+                require(
+                    bool(edge.get("evidence_ids")),
+                    f"ERROR {label} from source to source_question requires evidence_ids",
+                    errors,
+                )
+            expected_origin = {"asks": "explicit", "infers": "inferred", "raises": "inferred", "reviews": "explicit"}.get(relation)
+            require(
+                expected_origin is None or target.get("origin") == expected_origin,
+                f"ERROR {label} uses {relation} but source_question {target.get('id')} does not have {expected_origin} origin",
+                errors,
+            )
+
+        elif source_type == "source_question" and target_type == "question":
+            allowed_evidence = set(source.get("quote_ids") or [])
+            if source.get("evidence_basis") != "metadata_only":
+                require(
+                    bool(edge.get("evidence_ids")),
+                    f"ERROR {label} with non-metadata evidence requires evidence_ids",
+                    errors,
+                )
+            for evidence_id in edge.get("evidence_ids") or []:
+                quote = quote_index.get(evidence_id)
+                if quote:
+                    require(
+                        quote.get("source_id") == source.get("source_id"),
+                        f"ERROR {label} evidence {evidence_id} belongs to a different source",
+                        errors,
+                    )
+                    require(
+                        not allowed_evidence or evidence_id in allowed_evidence,
+                        f"ERROR {label} evidence {evidence_id} is not listed on source_question {source.get('id')}",
+                        errors,
+                    )
+            if relation == "supports":
+                support_counts[source.get("id")] = support_counts.get(source.get("id"), 0) + 1
+            elif relation in {"variant_of", "relates_to"}:
+                require(
+                    edge.get("confidence") != "high",
+                    f"ERROR {label} uses {relation} and should not have high confidence",
+                    errors,
+                )
+
+        elif source_type == "question" and target_type == "theme" and relation == "member_of":
+            require(
+                edge.get("role") in EDGE_ROLES,
+                f"ERROR {label} member_of edge requires role primary or cross_cutting",
+                errors,
+            )
+            membership_edges.setdefault(source.get("id"), []).append(edge)
+
+    for source_question_id, node in node_index.items():
+        if node.get("type") == "source_question":
+            require(
+                support_counts.get(source_question_id, 0) >= 1,
+                f"ERROR source_question {source_question_id} has no evidence-backed supports edge",
+                errors,
+            )
+
+    for question_id, question_edges in membership_edges.items():
+        roles = [edge.get("role") for edge in question_edges]
+        require(
+            roles.count("primary") == 1,
+            f"ERROR question {question_id} has {roles.count('primary')} primary theme memberships; expected exactly 1",
+            errors,
+        )
+        require(
+            all(role in EDGE_ROLES for role in roles),
+            f"ERROR question {question_id} has an invalid theme-membership role",
+            errors,
+        )
 
 
 def support_tier_for_counts(question_count, source_count):
@@ -427,6 +559,13 @@ def validate_question_map(data):
     validate_themes(data, node_index, theme_index, errors)
     validate_edges(data, node_index, theme_index, quote_index, errors)
     validate_coverage_and_limitations(data, errors)
+
+    for index, correction in enumerate((data.get("run") or {}).get("edge_audit") or []):
+        if not isinstance(correction, dict):
+            continue
+        edge_id = correction.get("edge_id")
+        if edge_id and edge_id not in {edge.get("id") for edge in data.get("edges") or []}:
+            errors.append(f"ERROR run.edge_audit[{index}] references missing edge: {edge_id}")
 
     for node_id, node in node_index.items():
         if node.get("type") != "source_question":

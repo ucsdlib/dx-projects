@@ -38,6 +38,12 @@ SUPPORT_TIER_LABELS = {
     "multi_source": "multiple sources",
     "multi_source_multi_question": "multiple sources and questions",
 }
+ORIGIN_TAG_LABELS = {
+    "asks": "Stated",
+    "infers": "Inferred",
+    "raises": "Raised",
+    "reviews": "Reviewed",
+}
 
 
 def load_json(path):
@@ -89,10 +95,87 @@ def derive_support(graph):
     return node_index, support_by_question
 
 
-def source_questions_by_source(node_index, support_by_question):
+def derive_question_source_relations(graph, node_index):
+    relations_by_question = defaultdict(list)
+    for edge in graph.get("edges", []):
+        source_question = node_index.get(edge.get("source_id"))
+        question = node_index.get(edge.get("target_id"))
+        if (
+            source_question
+            and question
+            and source_question.get("type") == "source_question"
+            and question.get("type") == "question"
+            and edge.get("relation") in {"supports", "variant_of", "relates_to"}
+        ):
+            relations_by_question[question["id"]].append({
+                "source_id": source_question.get("source_id"),
+                "source_question_id": source_question.get("id"),
+                "relation": edge.get("relation"),
+                "edge": edge,
+            })
+    return relations_by_question
+
+
+def derive_source_question_origins(graph, node_index):
+    origins = {}
+    for edge in graph.get("edges", []):
+        source = node_index.get(edge.get("source_id"))
+        target = node_index.get(edge.get("target_id"))
+        if source and target and source.get("type") == "source" and target.get("type") == "source_question":
+            origins[target["id"]] = edge.get("relation")
+    return origins
+
+
+def derive_theme_memberships(graph, node_index, support_by_question):
+    memberships_by_question = defaultdict(list)
+    theme_order = {theme["id"]: index for index, theme in enumerate(graph.get("themes", []))}
+
+    for edge in graph.get("edges", []):
+        source = node_index.get(edge.get("source_id"))
+        target = edge.get("target_id")
+        if source and source.get("type") == "question" and target in theme_order and edge.get("relation") == "member_of":
+            memberships_by_question[source["id"]].append({
+                "theme_id": target,
+                "role": edge.get("role"),
+            })
+
+    for theme in graph.get("themes", []):
+        for question_id in theme.get("question_ids", []):
+            if not any(item["theme_id"] == theme["id"] for item in memberships_by_question[question_id]):
+                memberships_by_question[question_id].append({"theme_id": theme["id"], "role": None})
+
+    for question_id, memberships in memberships_by_question.items():
+        explicit_primary = [item for item in memberships if item.get("role") == "primary"]
+        if explicit_primary:
+            primary = explicit_primary[0]
+        else:
+            question = node_index[question_id]
+            scored = []
+            for item in memberships:
+                theme = next(candidate for candidate in graph["themes"] if candidate["id"] == item["theme_id"])
+                support_count = len(support_by_question[question_id])
+                label_bonus = (
+                    1
+                    if question.get("question_type") == "methodological"
+                    and any(word in theme.get("label", "").lower() for word in ("measurement", "evidence", "method"))
+                    else 0
+                )
+                scored.append((support_count + label_bonus, -theme_order[theme["id"]], item))
+            primary = max(scored, key=lambda value: (value[0], value[1]))[2]
+        for item in memberships:
+            item["role"] = "primary" if item is primary else "cross_cutting"
+    return memberships_by_question
+
+
+def source_questions_by_source(node_index, relations_by_question):
     grouped = defaultdict(list)
-    for question_id in sorted(support_by_question):
-        for source_question_id in support_by_question[question_id]:
+    seen = set()
+    for relations in relations_by_question.values():
+        for relation in relations:
+            source_question_id = relation["source_question_id"]
+            if source_question_id in seen:
+                continue
+            seen.add(source_question_id)
             source_question = node_index[source_question_id]
             grouped[source_question["source_id"]].append(source_question)
     return grouped
@@ -156,7 +239,24 @@ def build_visualization_data(graph, node_index, support_by_question):
     }
 
 
-def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
+def source_orientation_html(source_questions, source_question_origins):
+    orientation_lines = []
+    for item in source_questions:
+        origin = source_question_origins.get(item.get("id"), "infers")
+        tag = ORIGIN_TAG_LABELS.get(origin, "Question")
+        orientation_lines.append(f"{tag} — {escape_label(item.get('question_text', ''))}")
+    return "<br/>".join(f"• {line}" for line in orientation_lines)
+
+
+def build_mermaid(
+    graph,
+    node_index,
+    support_by_question,
+    source_question_origins,
+    theme_memberships,
+    source_relations,
+    wide_cards=False,
+):
     lines = [
         f"# Question Map — {graph['request']['core_question']}",
         "",
@@ -170,7 +270,8 @@ def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
     else:
         lines.extend([
             "Themes appear as circles on the left, related questions in the middle, and supporting",
-            "sources as cards on the right. Each source card names the source’s stated question.",
+            "sources as cards on the right. Source cards distinguish stated questions from inferred questions.",
+            "Solid links show direct support; dashed `related` links show secondary conceptual relationships.",
         ])
     lines.extend([
         "",
@@ -181,12 +282,24 @@ def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
         "```mermaid",
         "flowchart LR",
     ])
-    source_questions = source_questions_by_source(node_index, support_by_question)
+    source_questions = source_questions_by_source(node_index, source_relations)
     seen_sources = set()
+    seen_questions = set()
+    cross_cutting_edge_indexes = []
+    related_edge_indexes = []
+    edge_index = 0
+    seen_relations = set()
 
     for theme in graph["themes"]:
         lines.append(f'    {theme["id"]}(("{escape_label(theme["label"])}")):::theme')
-        for question_id in theme["question_ids"]:
+        memberships = [
+            (question_id, item)
+            for question_id, items in theme_memberships.items()
+            for item in items
+            if item["theme_id"] == theme["id"]
+        ]
+        for membership in memberships:
+            question_id, membership = membership
             question = node_index[question_id]
             if wide_cards:
                 orientation_lines = []
@@ -194,7 +307,18 @@ def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
                     source_question = node_index[source_question_id]
                     source = node_index[source_question["source_id"]]
                     text = source_question.get("question_text", "")
-                    orientation_lines.append(f"• {source_link(source)} — <i>{escape_label(text)}</i>")
+                    origin = source_question_origins.get(source_question_id, "infers")
+                    tag = ORIGIN_TAG_LABELS.get(origin, "Question")
+                    orientation_lines.append(f"• Direct — {source_link(source)} — {tag} — <i>{escape_label(text)}</i>")
+                for relation in source_relations.get(question_id, []):
+                    if relation["relation"] == "supports":
+                        continue
+                    source_question = node_index[relation["source_question_id"]]
+                    source = node_index[relation["source_id"]]
+                    text = source_question.get("question_text", "")
+                    origin = source_question_origins.get(relation["source_question_id"], "infers")
+                    tag = ORIGIN_TAG_LABELS.get(origin, "Question")
+                    orientation_lines.append(f"• Related — {source_link(source)} — {tag} — <i>{escape_label(text)}</i>")
                 source_text = "<br/>".join(orientation_lines) if orientation_lines else "No direct source support yet."
                 label = (
                     "<div style='width:520px;text-align:left'>"
@@ -205,32 +329,64 @@ def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
                 )
             else:
                 label = f"<div style='text-align:left'>{escape_label(question['question_text'])}</div>"
-            lines.append(f'    {question_id}["{label}"]:::question')
-            lines.append(f'    {theme["id"]} --> {question_id}')
+            if question_id not in seen_questions:
+                seen_questions.add(question_id)
+                lines.append(f'    {question_id}["{label}"]:::question')
+            if membership["role"] == "primary":
+                lines.append(f'    {theme["id"]} --> {question_id}')
+            else:
+                lines.append(f'    {theme["id"]} -. cross-cutting .-> {question_id}')
+                cross_cutting_edge_indexes.append(edge_index)
+            edge_index += 1
             if not wide_cards:
-                for source_question_id in support_by_question[question_id]:
-                    source_question = node_index[source_question_id]
-                    source = node_index[source_question["source_id"]]
+                if membership["role"] == "primary":
+                    for source_question_id in support_by_question[question_id]:
+                        source_question = node_index[source_question_id]
+                        source = node_index[source_question["source_id"]]
+                        if source["id"] not in seen_sources:
+                            seen_sources.add(source["id"])
+                            orientation_text = source_orientation_html(source_questions[source["id"]], source_question_origins)
+                            source_label = (
+                                "<div style='width:340px;text-align:left'>"
+                                f"{source_link(source)} — <i>{orientation_text}</i>"
+                                "</div>"
+                            )
+                            lines.append(f'    {source["id"]}["{source_label}"]:::source')
+                        lines.append(f'    {question_id} --> {source["id"]}')
+                        edge_index += 1
+                for relation in source_relations.get(question_id, []):
+                    if relation["relation"] == "supports":
+                        continue
+                    source = node_index.get(relation["source_id"])
+                    if not source:
+                        continue
                     if source["id"] not in seen_sources:
                         seen_sources.add(source["id"])
-                        orientation_lines = []
-                        for item in source_questions[source["id"]]:
-                            text = item.get("question_text", "")
-                            orientation_lines.append(f"• {escape_label(text)}")
-                        orientation_text = "<br/>".join(orientation_lines)
+                        orientation_text = source_orientation_html(source_questions[source["id"]], source_question_origins)
                         source_label = (
                             "<div style='width:340px;text-align:left'>"
                             f"{source_link(source)} — <i>{orientation_text}</i>"
                             "</div>"
                         )
                         lines.append(f'    {source["id"]}["{source_label}"]:::source')
-                    lines.append(f'    {question_id} -.-> {source["id"]}')
+                    relation_key = (question_id, source["id"], relation["relation"])
+                    if relation_key not in seen_relations:
+                        seen_relations.add(relation_key)
+                        lines.append(f'    {question_id} -. related .-> {source["id"]}')
+                        related_edge_indexes.append(edge_index)
+                        edge_index += 1
         lines.append("")
 
     lines.extend([
         "    classDef theme fill:#ecfeff,stroke:#0e7490,stroke-width:2px;",
         "    classDef question fill:#f8fafc,stroke:#334155,stroke-width:1px,text-align:left;",
     ])
+    if cross_cutting_edge_indexes:
+        indexes = ",".join(str(index) for index in cross_cutting_edge_indexes)
+        lines.append(f"    linkStyle {indexes} stroke:#94a3b8,stroke-width:1px,stroke-dasharray:4 3;")
+    if related_edge_indexes:
+        indexes = ",".join(str(index) for index in related_edge_indexes)
+        lines.append(f"    linkStyle {indexes} stroke:#94a3b8,stroke-width:1px,stroke-dasharray:7 4,stroke-opacity:.65;")
     if not wide_cards:
         lines.append("    classDef source fill:#fffbeb,stroke:#b45309,stroke-width:1px,text-align:left;")
     lines.extend([
@@ -258,6 +414,7 @@ def build_mermaid(graph, node_index, support_by_question, wide_cards=False):
 
 
 def build_linear(graph, node_index, support_by_question):
+    source_relations = derive_question_source_relations(graph, node_index)
     lines = [
         "# Question Map — Linear Reading View",
         "",
@@ -330,28 +487,48 @@ def build_linear(graph, node_index, support_by_question):
             ])
             if not support_by_question[question_id]:
                 lines.extend(["No direct source-question support is attached to this canonical question in the current graph.", ""])
-                continue
-            for source_question_id in support_by_question[question_id]:
-                source_question = node_index[source_question_id]
-                source = node_index[source_question["source_id"]]
-                quote_ids = source_question.get("quote_ids") or []
-                lines.append(f"- **{source_question['question_text']}**")
-                lines.append(f"  - **Source:** {markdown_link(source)}")
-                lines.append(f"  - **Citation:** {source.get('citation_display', 'Not recorded')}")
-                lines.append(
-                    "  - **Evidence:** "
-                    f"{humanize(source_question.get('origin'), ORIGIN_LABELS)} · "
-                    f"{humanize(source_question.get('connection_type'), CONNECTION_LABELS)} · "
-                    f"{humanize(source_question.get('evidence_basis'), EVIDENCE_LABELS)}"
-                )
-                if quote_ids:
-                    quote = next((item for item in graph["quotes"] if item["quote_id"] == quote_ids[0]), None)
-                    if quote:
-                        lines.append(f"  - **Anchor:** “{quote['text']}”")
-                elif source_question.get("metadata_rationale"):
-                    lines.append(f"  - **Metadata rationale:** {source_question['metadata_rationale']}")
-                elif source_question.get("extraction_rationale"):
-                    lines.append(f"  - **Extraction rationale:** {source_question['extraction_rationale']}")
+            else:
+                for source_question_id in support_by_question[question_id]:
+                    source_question = node_index[source_question_id]
+                    source = node_index[source_question["source_id"]]
+                    quote_ids = source_question.get("quote_ids") or []
+                    lines.append(f"- **{source_question['question_text']}**")
+                    lines.append(f"  - **Source:** {markdown_link(source)}")
+                    lines.append(f"  - **Citation:** {source.get('citation_display', 'Not recorded')}")
+                    lines.append(
+                        "  - **Evidence:** "
+                        f"{humanize(source_question.get('origin'), ORIGIN_LABELS)} · "
+                        f"{humanize(source_question.get('connection_type'), CONNECTION_LABELS)} · "
+                        f"{humanize(source_question.get('evidence_basis'), EVIDENCE_LABELS)}"
+                    )
+                    if quote_ids:
+                        quote = next((item for item in graph["quotes"] if item["quote_id"] == quote_ids[0]), None)
+                        if quote:
+                            lines.append(f"  - **Anchor:** “{quote['text']}”")
+                    elif source_question.get("metadata_rationale"):
+                        lines.append(f"  - **Metadata rationale:** {source_question['metadata_rationale']}")
+                    elif source_question.get("extraction_rationale"):
+                        lines.append(f"  - **Extraction rationale:** {source_question['extraction_rationale']}")
+            secondary_relations = [
+                relation for relation in source_relations.get(question_id, [])
+                if relation["relation"] in {"variant_of", "relates_to"}
+            ]
+            if secondary_relations:
+                lines.extend([
+                    "",
+                    "**Secondary conceptual links:**",
+                    "",
+                    "These relationships are not counted as direct evidence support.",
+                    "",
+                ])
+                for relation in secondary_relations:
+                    source_question = node_index[relation["source_question_id"]]
+                    source = node_index[relation["source_id"]]
+                    edge = relation["edge"]
+                    lines.append(f"- **{source_question['question_text']}**")
+                    lines.append(f"  - **Source:** {markdown_link(source)}")
+                    lines.append(f"  - **Relation:** {humanize(relation['relation'])} · confidence {edge.get('confidence', 'Not recorded')}")
+                    lines.append(f"  - **Basis:** {edge.get('basis', 'Not recorded')}")
             lines.append("")
 
     lines.extend([
@@ -388,6 +565,118 @@ def build_linear(graph, node_index, support_by_question):
         "---",
         "",
         f"Generated from `{graph['run']['run_id']}` · data model `{graph['run']['data_model_version']}`.",
+    ])
+    return lines
+
+
+def build_edge_validation(
+    graph,
+    node_index,
+    support_by_question,
+    source_question_origins,
+    theme_memberships,
+    source_relations,
+):
+    edges = graph.get("edges", [])
+    source_question_edges = [
+        edge for edge in edges
+        if node_index.get(edge.get("source_id"), {}).get("type") == "source"
+        and node_index.get(edge.get("target_id"), {}).get("type") == "source_question"
+    ]
+    support_edges = [
+        edge for edge in edges
+        if node_index.get(edge.get("source_id"), {}).get("type") == "source_question"
+        and node_index.get(edge.get("target_id"), {}).get("type") == "question"
+        and edge.get("relation") == "supports"
+    ]
+    secondary_edges = [
+        edge for edge in edges
+        if node_index.get(edge.get("source_id"), {}).get("type") == "source_question"
+        and node_index.get(edge.get("target_id"), {}).get("type") == "question"
+        and edge.get("relation") in {"variant_of", "relates_to"}
+    ]
+    membership_edges = [
+        edge for edge in edges
+        if node_index.get(edge.get("source_id"), {}).get("type") == "question"
+        and edge.get("relation") == "member_of"
+    ]
+    role_by_edge = {edge.get("id"): edge.get("role") for edge in membership_edges}
+    primary_memberships = [edge_id for edge_id, role in role_by_edge.items() if role == "primary"]
+    cross_cutting_memberships = [edge_id for edge_id, role in role_by_edge.items() if role == "cross_cutting"]
+    edge_audit = graph.get("run", {}).get("edge_audit") or []
+    inferred_memberships = []
+    for question_id, memberships in theme_memberships.items():
+        for item in memberships:
+            edge = next(
+                (candidate for candidate in membership_edges if candidate.get("source_id") == question_id and candidate.get("target_id") == item["theme_id"]),
+                None,
+            )
+            if edge is None or not edge.get("role"):
+                inferred_memberships.append({
+                    "question_id": question_id,
+                    "theme_id": item["theme_id"],
+                    "role": item["role"],
+                })
+
+    lines = [
+        "# Edge validation",
+        "",
+        f"**Audited graph:** `{graph['run']['run_id']}`",
+        f"**Edges:** {len(edges)}",
+        "",
+        "## Summary",
+        "",
+        "| Edge group | Count |",
+        "|---|---:|",
+        f"| Source → source question | {len(source_question_edges)} |",
+        f"| Source question → canonical question (direct support) | {len(support_edges)} |",
+        f"| Source question → canonical question (secondary conceptual) | {len(secondary_edges)} |",
+        f"| Question → primary theme membership | {len(primary_memberships)} |",
+        f"| Question → cross-cutting theme membership | {len(cross_cutting_memberships)} |",
+        "",
+        "## Interpretation",
+        "",
+        "- Direct support is limited to `source_question -> question` edges with relation `supports`.",
+        "- A source question may have more than one direct-support edge when each edge has evidence.",
+        "- Secondary conceptual links use `variant_of` or `relates_to` and are not counted as direct evidence support.",
+        "- Source cards distinguish `asks` (stated) from `infers` (inferred) where the graph records that distinction.",
+        "- Theme membership is shown once for primary containment and as cross-cutting for secondary relevance.",
+        "",
+    ]
+    if edge_audit:
+        lines.extend([
+            "## Recorded edge corrections",
+            "",
+            "| Edge | Correction | Reason |",
+            "|---|---|---|",
+        ])
+        for correction in edge_audit:
+            edge_id = correction.get("edge_id", "Not recorded")
+            change = correction.get("correction", "Not recorded")
+            if correction.get("from") or correction.get("to"):
+                change = f"{change}: {correction.get('from', 'not recorded')} → {correction.get('to', 'not recorded')}"
+            reason = correction.get("reason", "Not recorded")
+            lines.append(f"| `{edge_id}` | {change} | {reason} |")
+        lines.append("")
+    if inferred_memberships:
+        lines.extend([
+            "## Inferred membership roles",
+            "",
+            "These memberships had no explicit `role`; the builder assigned a primary theme from direct support and question type, and marked the rest as cross-cutting.",
+            "",
+            "| Question | Theme | Assigned role |",
+            "|---|---|---|",
+        ])
+        for item in inferred_memberships:
+            lines.append(
+                f"| {item['question_id']} | {item['theme_id']} | {item['role']} |"
+            )
+        lines.append("")
+    lines.extend([
+        "## Limitations",
+        "",
+        "- This audit summarizes edge semantics; it does not replace source-level evidence review.",
+        "- Corrections made during graph construction should still be recorded in the run log.",
     ])
     return lines
 
@@ -436,8 +725,12 @@ def main():
         json.dump(visualization_data, handle, ensure_ascii=False, separators=(",", ":"))
         handle.write(";\n")
 
-    write_text(output_dir / "question-map-mermaid.md", build_mermaid(graph, node_index, support_by_question, args.wide_cards))
+    source_question_origins = derive_source_question_origins(graph, node_index)
+    theme_memberships = derive_theme_memberships(graph, node_index, support_by_question)
+    source_relations = derive_question_source_relations(graph, node_index)
+    write_text(output_dir / "question-map-mermaid.md", build_mermaid(graph, node_index, support_by_question, source_question_origins, theme_memberships, source_relations, args.wide_cards))
     write_text(output_dir / "question-map.md", build_linear(graph, node_index, support_by_question))
+    write_text(output_dir / "edge-validation.md", build_edge_validation(graph, node_index, support_by_question, source_question_origins, theme_memberships, source_relations))
     shutil.copyfile(html_template, output_dir / "question-map-force.html")
     print(f"Generated visualization artifacts in {output_dir}.")
 

@@ -284,6 +284,7 @@ Researchers ask which populations, neighborhoods, and social groups face disprop
 
 No direct source-question support is attached to this canonical question in the current graph.
 
+
 ## 6. Adaptation and governance
 
 Researchers ask how built environments, health systems, institutions, and communities reduce heat risk.

@@ -28,6 +28,12 @@ For each `source_question`, record:
 
 Only `direct_evidence` and `reasonable_inference` count as primary theme support. `interpretive_connection` can remain visible with lower confidence.
 
+### Edge meaning
+
+Use `asks` for an explicit question, objective, aim, hypothesis, review objective, or research gap. Use `infers` for a question derived from a title, abstract, findings, methods, or metadata. Reserve `raises` for a question the source explicitly raises without pursuing, and `reviews` for a synthesis or review question.
+
+Give each `source_question` at least one evidence-backed `supports` edge. A source question may support more than one canonical question when the evidence warrants it; do not impose an arbitrary maximum. If the same evidence also suggests a related question without directly addressing it, add a secondary `variant_of` or `relates_to` edge with medium or low confidence and a clear basis. Never count those secondary edges as direct evidence.
+
 ### Confidence
 
 - **High:** explicit question or aim, direct quote, and reliable abstract or full-text basis.
@@ -59,6 +65,8 @@ Create `theme` nodes after source questions are extracted and canonicalized. Eac
 - confidence;
 - coherence basis;
 - rationale.
+
+Theme membership is not automatic containment. Assign `role: primary` to the theme that best explains where the question’s evidence belongs. Assign `role: cross_cutting` to additional themes connected through a narrower concept, shared method, or specific subpopulation. Record why the cross-cutting link matters.
 
 Theme support is adaptive rather than fixed:
 
