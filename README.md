@@ -7,7 +7,7 @@
 * #### [skills-and-tools](./skills-and-tools/)
     - __Description__: contains directories tools and skills designed/developed for human-centered, principled use (and non-use) of TritonAI.
 * #### [web-properties](./web-properties/)
-    - __Description__: contains component mark-up, api explorations documentation, test environments for local, static testing of webpages, and documentation for developing in the respective platform.
+    - __Description__: contains component mark-up, api explorations documentation, test environments for local, static testing of webpages, and documentation for developing in the respective platform. In the case of [primo_nde_dev](./web-properties/primo_nde_dev) it spins up a local dev environment to test nde customization and create the appropriate `.zip` file to upload into Alma.
 
 ## Working with Us (The Basics) 
 ### **1\. Set Up the Repository**
