@@ -1,3 +1,19 @@
-/* p[_ngcontent-ng-c3395687075],ul#list-of-suggestions{
+/* NO RESULTS COMP START*/
+div[_ngcontent-ng-c3395687075=""].we-suggest-container{
+    max-width: 65%;
+    & > mat-divider:last-of-type{display: none;}
+}
+div[_ngcontent-ng-c3395687075=""]{
     display: none;
-} */
+}
+/* NO RESULTS COMP END*/
+
+
+
+/* Media Query Handles */
+/* NO RESULTS COMP */
+@media (width <= 550px){
+    div[_ngcontent-ng-c3395687075=""].we-suggest-container{
+    max-width: 100%;
+    }
+}
