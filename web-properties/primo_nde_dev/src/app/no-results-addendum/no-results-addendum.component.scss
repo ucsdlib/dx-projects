@@ -1,0 +1,11 @@
+li+li{
+    margin-block-start: .5rem;
+}
+#library-messaging{
+    & *+*{margin-block-start: .5rem;}
+}
+.ucsd-noresults-addendum{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
