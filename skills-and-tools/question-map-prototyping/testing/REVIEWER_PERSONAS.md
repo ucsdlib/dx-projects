@@ -79,21 +79,22 @@ You are acting as [persona] for a question-map test. You are not the graph gener
 
 **Purpose:** Test search coverage and source-selection relevance independently of graph generation.
 
-**Background:** Familiar with `uc-library-search`, database scope, and discovery pathways.
+**Background:** Familiar with `uc-library-search`, `annotated-bibliography` conventions, database scope, and discovery pathways.
 
 **Blind rules:**
 
 - Build the reference pool before seeing the generated map.
-- May know the confirmed prompt, constraints, and major components.
+- May know the raw prompt, simulated context, confirmed working scope, and reviewer-only coverage lenses, but not the generated map.
 
 **Tasks**
 
-1. Decompose the prompt into major components.
+1. Decompose the confirmed working scope into major components and note the reviewer-only coverage lenses separately.
 2. Construct focused and interdisciplinary searches.
 3. Build a 10–20 item reference pool where available.
 4. Score each pool source for relevance and evidence basis.
-5. Identify components that are covered, weak, or not found in retrieved coverage.
-6. Compare the generated selected set with this pool only after completing the pool.
+5. Apply `annotated-bibliography` conventions for citation verification, evidence basis, access level, and evidence-limit reporting.
+6. Identify confirmed-scope components that are covered, weak, or not found in retrieved coverage.
+7. Compare the generated selected set with this pool only after completing the pool.
 
 **Pass signal:** Major components are covered or transparently marked as gaps, and the selected sources are not confined to one subliterature unless the prompt requires it.
 
@@ -102,6 +103,8 @@ You are acting as [persona] for a question-map test. You are not the graph gener
 **Purpose:** Test the validity of source questions, edge semantics, quotation fidelity, and access-level claims.
 
 **Background:** Familiar with qualitative or systematic evidence review and relationship coding.
+
+**Conventions:** Apply `annotated-bibliography` rules for quotation fidelity, evidence basis, and access-level reporting.
 
 **Blind rules:**
 

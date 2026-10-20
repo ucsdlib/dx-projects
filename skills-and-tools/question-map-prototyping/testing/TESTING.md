@@ -10,6 +10,8 @@ This protocol tests whether `question-map` produces source selections, edge rela
 4. **Preserve evidence.** Every review verdict must trace to a quote, title, abstract, metadata rationale, or explicit access-level limitation.
 5. **No PDF extraction.** Use the available evidence basis and record its limits.
 6. **Fail visibly.** Do not smooth over disagreement; record it and triage the root cause.
+7. **Keep intake realistic.** Start with the user's raw prompt. Reviewer coverage lenses may be used to audit the resulting map, but they are not user requirements and must not be inserted into the prompt, confirmed working scope, or question graph.
+8. **Run the source pipeline.** When available, use `uc-library-search` for discovery and `annotated-bibliography` for source verification, citation fidelity, access-level discipline, quotation rules, and evidence-limit reporting.
 
 ## Run layout
 
@@ -18,6 +20,7 @@ Create one folder per run:
 ```text
 testing/runs/<YYYY-MM-DD>-<case-slug>/
   00-case.md
+  01-intake-transcript.md
   01-reference-pool.md
   question_map.json
   search-strategies.md
@@ -65,18 +68,22 @@ Use `CASES.md` as the default matrix. The minimum robust suite is four cases:
 
 Before expanding the suite, add cases only when they introduce a new failure mode or question type.
 
+Case prompts are test inputs, not analyst-created research agendas. Send the **raw user prompt** to `question-map`. If a case includes **simulated user context**, reveal it only as realistic answers to the tool's clarification questions. The **confirmed working scope** should preserve the user's purpose in the user's voice; it must not become a checklist of all reviewer coverage lenses.
+
 ## Testing procedure
 
 ### Phase 0 — Prepare
 
 1. Copy the selected case from `CASES.md` into `00-case.md`.
-2. Record the user expertise frame, constraints, target components, and expected edge traps.
-3. Confirm the working research question before search.
-4. Create the run folder and reviewer subfolder.
+2. Create `01-intake-transcript.md` from `templates/intake-transcript.md`.
+3. Record the raw prompt, any simulated user context, and the reviewer-only coverage lenses.
+4. In the graph-generation session, present the raw prompt first. If simulated context is provided, use it only to answer clarification questions actually asked by the tool.
+5. Record the confirmed working scope in the user's voice, not as an analyst-created component checklist.
+6. Create the run folder and reviewer subfolder.
 
 ### Phase 1 — Independent reference pool
 
-Before running `question-map`, the Search Auditor uses `uc-library-search` to create an independent reference pool:
+Before running `question-map`, the Search Auditor uses `uc-library-search` for discovery and `annotated-bibliography` conventions for verification and evidence discipline. The auditor creates an independent reference pool:
 
 - 10–20 plausible sources, where available;
 - concise APA-style citations;
@@ -90,15 +97,17 @@ The Search Auditor should not see the generated `question_map.json`, source card
 
 ### Phase 2 — Generate and smoke-test
 
-1. Run `question-map` using the confirmed prompt.
-2. Run the validator and visualization builder.
-3. Confirm that all required artifacts are present.
-4. Record validator output in the run log.
-5. Confirm that no PDF extraction occurred and that access levels are explicit.
+1. Run `question-map` from the raw prompt. Do not pass reviewer-only coverage lenses into the skill.
+2. If simulated context is available, use it only when and as the tool asks clarification questions.
+3. Confirm that both `uc-library-search` and `annotated-bibliography` were invoked when available, or record an explicit skip reason and coverage consequence.
+4. Run the validator and visualization builder.
+5. Confirm that all required artifacts are present.
+6. Record validator output in the run log.
+7. Confirm that no PDF extraction occurred and that access levels are explicit.
 
 ### Phase 3 — Source-selection and relevance review
 
-The Domain Expert and Search Auditor compare the selected sources with the independent reference pool and with the case components.
+The Domain Expert and Search Auditor compare the selected sources with the independent reference pool and with the confirmed working scope. They also report gaps against the reviewer-only coverage lenses, but those lenses are not pass/fail requirements by themselves.
 
 For each selected source, record:
 
@@ -186,7 +195,8 @@ Use:
 
 - **Source precision:** selected sources rated 2–3 divided by all selected sources.
 - **Reference recall:** independently identified core sources included in the generated map divided by all core sources in the reference pool.
-- **Component coverage:** major components covered or explicitly marked weak/not found divided by all required components.
+- **Confirmed-scope coverage:** major components implied by the confirmed working scope and covered or explicitly marked weak/not found divided by all such components.
+- **Reviewer-lens coverage:** a non-gating gap report against the reviewer coverage lenses recorded in the case file.
 - **Appropriateness:** sources judged suitable for the confirmed question and user context.
 - **Multi-question fidelity:** sources with defensible relationships to more than one canonical question are represented without forcing one arbitrary mapping or overstating every link as direct support.
 
@@ -208,6 +218,7 @@ Report at minimum:
 - secondary-link overclaim rate;
 - theme-membership agreement;
 - unsupported edge count.
+- intake realism: whether the confirmed scope preserves the raw prompt and simulated context without adding reviewer-only lenses.
 
 ### Provisional gates
 
@@ -215,7 +226,7 @@ A run may be accepted for the next test iteration when:
 
 - referential validation passes;
 - no selected source is judged irrelevant or unsupported;
-- every major component is covered or transparently marked as a gap;
+- every major component in the confirmed working scope is covered or transparently marked as a gap;
 - no direct support edge is judged unsupported;
 - no secondary relationship is visually indistinguishable from direct support;
 - source-question origin labels agree with the evidence in at least 85% of adjudicated cases;
@@ -224,6 +235,8 @@ A run may be accepted for the next test iteration when:
 - the user prompt appears as framing, not as an unsupported canonical question.
 
 Do not treat a source's appearance under multiple canonical questions as an error by itself. The test question is whether each relationship has evidence and whether direct support is visually distinct from secondary relevance.
+
+Reviewer coverage lenses may reveal gaps, but they do not by themselves fail a run unless they expose a component that was actually part of the confirmed working scope or an evidence claim that is unsupported.
 
 These thresholds are provisional. Record them in `run-summary.md` and revise after the first full suite.
 

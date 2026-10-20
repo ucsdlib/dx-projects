@@ -10,7 +10,7 @@ Build a `question_map.json` graph that shows what questions a set of scholarly s
 ## Scope
 
 - Use `uc-library-search` first when available. Follow its search strategy discipline and generate direct UC Library Search URLs with `scripts/build_url.py`.
-- Use the `annotated-bibliography` search, verification, fidelity, quotation, and access-level conventions when available.
+- When available, invoke `annotated-bibliography` with `question-map` and use it for source verification, citation fidelity, access-level discipline, quotation rules, and evidence-limit reporting. Do not treat generic metadata enrichment as a substitute for these conventions.
 - Build the Phase 1 graph first. Produce Phase 2 visualizations only after the graph is validated, or when the user explicitly asks for them.
 - If the user only wants search links or a bibliography, route to the more appropriate skill.
 
@@ -33,7 +33,7 @@ Build a `question_map.json` graph that shows what questions a set of scholarly s
 
 ### 1. Intake
 
-Clarify until the core research question and scope are usable. Ask zero to three concise questions, or up to five total when initial responses are vague. Record one of `user_confirmed`, `initial_prompt_only`, or `blocked`. Before searching, state the working question and major constraints in one line.
+Clarify until the core research question and scope are usable. Ask zero to three concise questions, or up to five total when initial responses are vague. Record one of `user_confirmed`, `initial_prompt_only`, or `blocked`. Preserve the user's raw prompt as framing. When clarification adds purpose or constraints, update the confirmed working scope in the user's voice rather than replacing it with an analyst-derived component checklist. Before searching, state the working question and major constraints in one line.
 
 ### 2. Search and screen
 

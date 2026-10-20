@@ -6,9 +6,23 @@
 **Role:**  
 **Review date:**  
 
+**Confirmed working scope:**
+
+**Reviewer-only coverage lenses:**
+
 ## Component coverage
 
+### Confirmed-scope components
+
 | Component | Covered | Selected source IDs | Missing or weak? | Rationale |
+|---|---|---|---|---|
+|  |  |  |  |  |
+
+### Reviewer-only lenses
+
+Report gaps here, but do not treat a missing lens as a run failure by itself.
+
+| Lens | Covered | Selected source IDs | Missing or weak? | Rationale |
 |---|---|---|---|---|
 |  |  |  |  |  |
 
@@ -32,7 +46,8 @@ Complete this after the reference pool and generated source list are both availa
 
 - **Source precision:**  
 - **Reference recall:**  
-- **Component coverage:**  
+- **Confirmed-scope coverage:**
+- **Reviewer-lens coverage:**
 - **Missing disciplines, methods, populations, or geographies:**  
 - **Overrepresented literatures or source types:**  
 

@@ -10,6 +10,8 @@
 
 | Phase | Status | Reviewer(s) | Key issue |
 |---|---|---|---|
+| Intake realism |  |  |  |
+| Skill composition |  |  |  |
 | Independent reference pool |  |  |  |
 | Graph generation |  |  |  |
 | Validation and build |  |  |  |
@@ -22,9 +24,11 @@
 
 | Measure | Result | Provisional gate | Pass? |
 |---|---:|---|---|
+| Intake realism |  | Raw prompt preserved; reviewer lenses not added to scope |  |
 | Source precision |  |  |  |
 | Reference recall |  |  |  |
-| Component coverage |  |  |  |
+| Confirmed-scope coverage |  |  |  |
+| Reviewer-lens coverage |  | Non-gating gap report |  |
 | Multi-question fidelity |  |  |  |
 | Direct support precision |  |  |  |
 | Direct support recall |  |  |  |
