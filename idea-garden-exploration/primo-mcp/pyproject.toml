@@ -1,0 +1,15 @@
+[project]
+name = "primo-mcp"
+version = "0.1.0"
+description = "Test MCP server for searching the library catalogue"
+requires-python = ">=3.12"
+dependencies = [
+    "mcp>=2.3.0",
+]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["server"]
