@@ -1,6 +1,6 @@
 ---
 name: question-map
-description: "Map the questions embedded in a scholarly landscape into a quote-anchored question graph with themes, source questions, metadata, citation signals, and possible next questions. Use when a researcher wants a question map, thematic question clusters, or structured data for a future question-network visualization. Composes with uc-library-search and annotated-bibliography. Do not use for ordinary source-finding or a conventional literature summary."
+description: "Map the questions embedded in a scholarly landscape into a quote-anchored question graph with themes, source questions, metadata, citation signals, possible next questions, and derived visualizations. Use when a researcher wants a question map, thematic question clusters, structured graph data, or a visualization of an existing question map. Composes with uc-library-search and annotated-bibliography. Do not use for ordinary source-finding or a conventional literature summary."
 ---
 
 # Question Mapping
@@ -10,8 +10,8 @@ Build a `question_map.json` graph that shows what questions a set of scholarly s
 ## Scope
 
 - Use `uc-library-search` first when available. Follow its search strategy discipline and generate direct UC Library Search URLs with `scripts/build_url.py`.
-- Use the `annotated-bibliography` search, verification, fidelity, quotation, and access-level conventions when available.
-- Build Phase 1 artifacts only. Do not produce a dashboard, interactive visualization, or settled/contested/emerging classification.
+- When available, invoke `annotated-bibliography` with `question-map` and use it for source verification, citation fidelity, access-level discipline, quotation rules, and evidence-limit reporting. Do not treat generic metadata enrichment as a substitute for these conventions.
+- Build the Phase 1 graph first. Produce Phase 2 visualizations only after the graph is validated, or when the user explicitly asks for them.
 - If the user only wants search links or a bibliography, route to the more appropriate skill.
 
 ## Core rules
@@ -21,17 +21,19 @@ Build a `question_map.json` graph that shows what questions a set of scholarly s
 3. **Evidence before inference.** A source-derived question needs a quote, or for metadata-only evidence, an explicit metadata-derived rationale and low confidence.
 4. **Access level matters.** Record whether evidence came from full text, abstract plus metadata, publisher description, or metadata only.
 5. **No PDF extraction.** Capture PDF URLs for human retrieval, but do not extract text from PDFs.
-6. **Possible next questions are not findings.** Mark generated follow-up questions as `next_question`; they have no source support unless explicitly named in a source.
-7. **Citation counts are not evidence states.** They measure attention or influence, not correctness or consensus.
-8. **Gaps are relative.** Use “not found in retrieved coverage,” never “does not exist.”
-9. **No silent skips.** Record API skips, rate limits, bot blocks, missing fields, and their coverage consequences.
-10. **Confidence everywhere.** Questions, edges, themes, uncertain matches, and evidence claims carry `high`, `medium`, or `low`.
+6. **Relationships carry meaning.** A source may directly support more than one canonical question when the evidence warrants it. Use `supports` for evidence-backed direct support; use `variant_of` or `relates_to` for secondary conceptual links, and mark cross-cutting theme links explicitly. Avoid arbitrary edge-count limits.
+7. **Stated is not inferred.** Use `asks` only when the source states the question or objective; use `infers` when the question is derived from title, abstract, findings, or metadata.
+8. **Possible next questions are not findings.** Mark generated follow-up questions as `next_question`; they have no source support unless explicitly named in a source.
+9. **Citation counts are not evidence states.** They measure attention or influence, not correctness or consensus.
+10. **Gaps are relative.** Use “not found in retrieved coverage,” never “does not exist.”
+11. **No silent skips.** Record API skips, rate limits, bot blocks, missing fields, and their coverage consequences.
+12. **Confidence everywhere.** Questions, edges, themes, uncertain matches, and evidence claims carry `high`, `medium`, or `low`.
 
 ## Workflow
 
 ### 1. Intake
 
-Clarify until the core research question and scope are usable. Ask zero to three concise questions, or up to five total when initial responses are vague. Record one of `user_confirmed`, `initial_prompt_only`, or `blocked`. Before searching, state the working question and major constraints in one line.
+Clarify until the core research question and scope are usable. Ask zero to three concise questions, or up to five total when initial responses are vague. Record one of `user_confirmed`, `initial_prompt_only`, or `blocked`. Preserve the user's raw prompt as framing. When clarification adds purpose or constraints, update the confirmed working scope in the user's voice rather than replacing it with an analyst-derived component checklist. Before searching, state the working question and major constraints in one line.
 
 ### 2. Search and screen
 
@@ -41,6 +43,7 @@ Read [references/search-and-metadata-pipeline.md](references/search-and-metadata
 - Use adaptive screening by fidelity, not fixed source counts.
 - Keep a provisional theme scratchpad during screening.
 - Decompose into question-specific components (“search within”) when the base query is broad.
+- Ensure the search log shows how each major component was covered. Prefer interdisciplinary component queries over one broad query that overrepresents one literature. Record a gap when a component has no usable source.
 - Enrich through OpenAlex, Crossref, Semantic Scholar, and domain tools when they improve coverage.
 
 ### 3. Select sources
@@ -55,6 +58,7 @@ Read [references/question-extraction-and-scoring.md](references/question-extract
 - Canonicalize near-duplicates into `question` nodes while preserving variants.
 - Create `next_question` nodes for possible follow-up questions generated by narrowing, slot substitution, explicit gaps, or user intent.
 - Create `theme` nodes with a short label and plain-language statement.
+- Keep the user’s research question as the request and, when visualization framing is needed, a `context` node. Do not make it a canonical question node unless sources analyze it directly.
 
 ### 5. Build the graph
 
@@ -68,7 +72,28 @@ Run:
 python3 scripts/validate_question_map.py runs/<topic-slug>/question_map.json
 ```
 
-Fix referential-integrity and evidence issues before delivery. Then provide a short plain-language preview of themes, possible next questions, selected sources, evidence limits, and useful follow-up directions. Do not provide a full literature synthesis.
+Fix referential-integrity, evidence, and edge-semantics issues before delivery. Record edge corrections in `run.edge_audit` and review the generated `edge-validation.md`. Then provide a short plain-language preview of themes, possible next questions, selected sources, evidence limits, and useful follow-up directions. Do not provide a full literature synthesis.
+
+### 7. Visualize
+
+After the graph passes validation, generate the Phase 2 views:
+
+```bash
+python3 scripts/build_visualizations.py --graph runs/<topic-slug>/question_map.json
+```
+
+The builder creates the explicit-source Mermaid view, the linear Markdown companion, the interactive D3 HTML map, and derived JSON/JS data files. Add `--wide-cards` for the optional wider inline-source Mermaid variant. Visualizations distinguish direct support from secondary conceptual links; the interactive view also offers relationship filters. Visualizations are derived views; never introduce a claim that is not traceable to the graph.
+
+If the graph does not yet contain normalized citation fields and `selected.json` plus enrichment records are available, run:
+
+```bash
+python3 scripts/normalize_citations.py \
+  --graph runs/<topic-slug>/question_map.json \
+  --selected runs/<topic-slug>/selected.json \
+  --enrichment-dir runs/<topic-slug>/enrichment
+```
+
+This adds `citation_short`, `citation_display`, `ucls_permalink`, and provider citation metadata to source nodes without changing raw enrichment files. Use “possible next questions,” not “candidate questions,” in user-facing artifacts.
 
 ## Artifacts
 
@@ -79,6 +104,13 @@ search-strategies.md
 search-results.jsonl
 question_map.json
 run-log.md
+visualizations/
+  question-map-mermaid.md
+  question-map.md
+  question-map-force.html
+  visualization-data.json
+  visualization-data.js
+  edge-validation.md
 ```
 
 The primary machine-readable artifact is `question_map.json`.

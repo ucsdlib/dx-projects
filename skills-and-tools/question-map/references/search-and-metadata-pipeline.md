@@ -66,6 +66,8 @@ Use component decomposition after a high-fidelity base query. Components should 
 
 While screening, keep a provisional theme scratchpad with recurring question labels, candidate source IDs, connection types, and confidence. Do not promote provisional themes to final themes until question extraction is complete.
 
+Record a component-coverage summary in the search log. For each major component, include the queries used, selected source IDs, and `covered | weak | not_found_in_retrieved_coverage`. This prevents one broad query from producing a map that is rich in clinical outcomes but silent on lived experience, governance, methods, or equity.
+
 ## Stage 4 — Enrichment
 
 Use additional tools only when they improve coverage. Record each provider, query, lookup, timestamp, failure, and skip.

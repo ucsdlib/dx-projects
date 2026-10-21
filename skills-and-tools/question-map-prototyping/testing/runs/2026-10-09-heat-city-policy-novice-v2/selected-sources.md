@@ -1,0 +1,76 @@
+# Selected Sources
+
+Source nodes only from `question_map.json`; generated questions, edges, and themes are intentionally excluded.
+
+- **src_001** — Schmeltz, M. T., Smith, J. A., Olmos, I., & Quintero, E. (2023). Extreme heat governance: A critical analysis of heat action plans in California. American Journal of Public Health, 113(1). https://doi.org/10.2105/AJPH.2022.307117
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_002** — Randazza, J. M., Hess, J. J., Bostrom, A., Hartwell, C., Adams, Q. H., Nori-Sarma, A., Spangler, K. R., Sun, Y., Weinberger, K. R., Wellenius, G. A., & Errett, N. A. (2023). Planning to reduce the health impacts of extreme heat: A content analysis of heat action plans in local United States jurisdictions. American Journal of Public Health, 113(5), 559–567. https://doi.org/10.2105/AJPH.2022.307217
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_003** — Gabbe, C. J., Pierce, G., Petermann, E., & Marecek, A. (2021). Why and how do cities plan for extreme heat? Journal of Planning Education and Research. https://doi.org/10.1177/0739456X211053654
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_004** — Meerow, S., & Keith, L. (2021). Planning for extreme heat: A national survey of U.S. planners. Journal of the American Planning Association. https://doi.org/10.1080/01944363.2021.1977682
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_005** — Keith, L., Gabbe, C. J., & Schmidt, E. (2023). Urban heat governance: Examining the role of urban planning. Journal of Environmental Policy & Planning. https://doi.org/10.1080/1523908X.2023.2244446
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_006** — Hess, J. J., Errett, N. A., McGregor, G., Busch Isaksen, T., Wettstein, Z. S., Wheat, S. K., & Ebi, K. L. (2023). Public health preparedness for extreme heat events. Annual Review of Public Health, 44. https://doi.org/10.1146/annurev-publhealth-071421-025508
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_007** — Uejio, C. K., Gilbert, J., Ahn, Y., Martella, L., Hu, L., & Marturano, J. (2024). Rapidly developing a community- and evidence-based heat action plan. Bulletin of the American Meteorological Society. https://doi.org/10.1175/BAMS-D-23-0055.1
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_008** — Hess, J. J., Sathish, L. M., Knowlton, K., Saha, S., Dutta, P., Ganguly, P., Tiwari, A., Jaiswal, A., Sheffield, P., Sarkar, J., Bhan, S. C., Begda, A., Shah, T., Solanki, B., & Mavalankar, D. (2018). Building resilience to climate change: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality. Journal of Environmental and Public Health, 2018. https://doi.org/10.1155/2018/7973519
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_009** — Dwyer, I. J., Barry, S. J. E., Megiddo, I., & White, C. J. (2022). Evaluations of heat action plans for reducing the health impacts of extreme heat: Methodological developments (2012–2021) and remaining challenges. International Journal of Biometeorology. https://doi.org/10.1007/s00484-022-02326-x
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_010** — Guardaro, M. (2023). Strengthening heat action plans in the United States. American Journal of Public Health, 113(5). https://doi.org/10.2105/AJPH.2023.307260
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_011** — Pascal, M., Goria, S., Wagner, V., Sabastia, M., Guillet, A., Cordeau, E., Mauclair, C., & Host, S. (2021). Greening is a promising but likely insufficient adaptation strategy to limit the health impacts of extreme heat. Environment International, 155, 106441. https://doi.org/10.1016/j.envint.2021.106441
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_012** — Turcu, C. (2025). Urban greenspace, climate adaptation and health co-benefits: Municipal policy and practice in London. International Journal of Environmental Research and Public Health, 22(3), 409. https://doi.org/10.3390/ijerph22030409
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_013** — Adams, Q. H., Chan, E. M. G., Spangler, K. R., Weinberger, K. R., Lane, K. J., Errett, N. A., Hess, J. J., Sun, Y., Wellenius, G. A., & Nori-Sarma, A. (2023). Examining the optimal placement of cooling centers to serve populations at high risk of extreme heat exposure in 81 US cities. Public Health Reports, 138(5), 766–775. https://doi.org/10.1177/00333549221148174
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_014** — Black-Ingersoll, F., de Lange, J., Heidari, L., Negassa, A., Botana, P., Fabian, M. P., & Scammell, M. K. (2022). A literature review of cooling center, misting station, cool pavement, and cool roof intervention evaluations. Atmosphere, 13(7), 1103. https://doi.org/10.3390/atmos13071103
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_015** — Kotharkar, R., & Ghosh, A. (2022). Progress in extreme heat management and warning systems: A systematic review of heat-health action plans (1995-2020). Sustainable Cities and Society, 76, 103487. https://doi.org/10.1016/j.scs.2021.103487
+  - Access level: metadata_only
+  - Evidence basis: metadata_only
+  - URL/DOI: 
+- **src_016** — Guo, Y., Gasparrini, A., Armstrong, B. G., et al. (2017). Heat wave and mortality: A multicountry, multicommunity study. Environmental Health Perspectives, 125(8), 087006. https://doi.org/10.1289/EHP1026
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_017** — Shakya, A., Landry, S., Bosman, M. M., Reader, S., & Culhane, T. H. (2026). Urban heat inequities in the United States: A scoping review. Environmental Research Communications. https://doi.org/10.1088/2515-7620/ae3a4f
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_018** — Jiang, T., Krayenhoff, E. S., Martilli, A., Nazarian, N., Stone, B., & Voogt, J. (2025). Prioritizing urban heat adaptation infrastructure based on multiple outcomes: Comfort, health, and energy. Proceedings of the National Academy of Sciences, 122(19). https://doi.org/10.1073/pnas.2411144122
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 

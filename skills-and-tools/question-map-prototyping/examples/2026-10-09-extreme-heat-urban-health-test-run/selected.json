@@ -1,0 +1,1034 @@
+[
+  {
+    "id": "src_001",
+    "type": "source",
+    "title": "Heat Waves and Emergency Department Visits Among the Homeless, San Diego, 2012–2019",
+    "authors": [
+      "Lara Schwarz",
+      "Edward M. Castillo",
+      "Theodore C. Chan",
+      "Jesse J. Brennan",
+      "Emily Sbiroli",
+      "Gabriel Carrasco‐Escobar",
+      "Andrew Nguyen",
+      "Rachel E. S. Clemesha",
+      "Alexander Gershunov",
+      "Tarik Benmarhnia"
+    ],
+    "year": 2022,
+    "venue": "American Journal of Public Health",
+    "source_type": "journal_article",
+    "doi": "10.2105/AJPH.2021.306557",
+    "url": "https://doi.org/10.2105/AJPH.2021.306557",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "City planning ;  Confidence intervals ;  Ecology ;  Emergency medical services ;  Epidemiology ;  Ethnicity ;  Extreme Heat ;  Heat ;  Homeless persons ;  Homelessness ;  Housing ;  Human beings ;  Infrared radiation ;  Mental illness ;  Older people ;  Patients ;  Psychology, Pathological ;  Public health ;  Race ;  Research ;  Social Determinants of Health ;  Social Vulnerability ;  Sociodemographic Factors ;  Temperature ;  Urban renewal ;  Urbanization"
+    ],
+    "keywords": [
+      "Adult ;  At risk populations ;  California - epidemiology ;  Climate change ;  Cross-Over Studies ;  Emergency Service, Hospital - statistics & numerical data ;  Emergency services ;  Health Care Facilities/Services ;  Hispanic people ;  Ill-Housed Persons - statistics & numerical data ;  Index Medicus ;  Injury/Emergency Care/Violence ;  Matching ;  Middle Aged ;  Minority & ethnic groups ;  New Frontiers of Environmental Justice ;  Sociodemographics ;  Visits ;  Vulnerability"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "green",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 51,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 50,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Schwarz et al. (2022)",
+    "citation_display": "Lara Schwarz; Edward M. Castillo; Theodore C. Chan et al. (2022). Heat Waves and Emergency Department Visits Among the Homeless, San Diego, 2012–2019. American Journal of Public Health. https://doi.org/10.2105/AJPH.2021.306557",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Heat Waves and Emergency Department Visits Among the Homeless, San Diego, 2012–2019%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_002",
+    "type": "source",
+    "title": "Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults",
+    "authors": [
+      "Li Niu",
+      "Blean Girma",
+      "Bian Liu",
+      "Leah H. Schinasi",
+      "Jane Ellen Clougherty",
+      "Perry Elizabeth Sheffield"
+    ],
+    "year": 2023,
+    "venue": "Epidemiology and Psychiatric Sciences",
+    "source_type": "journal_article",
+    "doi": "10.1017/S2045796023000161",
+    "url": "https://doi.org/10.1017/S2045796023000161",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Adolescence ;  Airports ;  Anxiety ;  Ciphers ;  Depression, Mental ;  Emergency medical services ;  Ethnicity ;  Extreme Heat ;  Health risk assessment ;  Heat ;  Hispanic Americans ;  Hospitalization ;  Hospitals ;  Human beings ;  Medicaid ;  Medical policy ;  Mental health ;  Mental illness ;  Poor ;  Psychiatry ;  Psychology ;  Psychology, Pathological ;  Sleep ;  Teenagers ;  Temperature ;  Weather ;  Young adults"
+    ],
+    "keywords": [
+      "Adolescent ;  Adult ;  Child ;  climate change ;  Cross-Over Studies ;  Emergency Service, Hospital ;  Health risks ;  Index Medicus ;  Mental Disorders - epidemiology ;  New York City - epidemiology ;  Original ;  Original Article ;  paediatric ;  Suicides & suicide attempts ;  Young Adult"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 64,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 63,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Niu et al. (2023)",
+    "citation_display": "Li Niu; Blean Girma; Bian Liu et al. (2023). Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults. Epidemiology and Psychiatric Sciences. https://doi.org/10.1017/S2045796023000161",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Temperature and mental health–related emergency department and hospital encounters among children, adolescents and young adults%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_003",
+    "type": "source",
+    "title": "Impact of heatwave intensity using excess heat factor on emergency department presentations and related healthcare costs in Adelaide, South Australia",
+    "authors": [
+      "Berhanu Yazew Wondmagegn",
+      "Jianjun Xiang",
+      "Keith B. G. Dear",
+      "Susan Schneider Williams",
+      "Alana L. Hansen",
+      "Dino Pisaniello",
+      "Monika Nitschke",
+      "John Nairn",
+      "Ben Scalley",
+      "Blesson Mathew Varghese",
+      "Alex Xiao",
+      "Le Jian",
+      "Michael Tong",
+      "Hilary Bambrick",
+      "Jonathan D. Karnon",
+      "Peng Bi"
+    ],
+    "year": 2021,
+    "venue": "Science of The Total Environment",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.scitotenv.2021.146815",
+    "url": "https://doi.org/10.1016/j.scitotenv.2021.146815",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Diseases ;  Ecology ;  Extreme Heat ;  Heat ;  Medical care ;  Meteorology ;  Public health ;  South Australia"
+    ],
+    "keywords": [
+      "climate change ;  confidence interval ;  cumulative risk ;  disease diagnosis ;  Healthcare spending ;  Low-intensity heatwave ;  nonlinear models ;  Severe heatwave"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "closed",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 43,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 40,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Wondmagegn et al. (2021)",
+    "citation_display": "Berhanu Yazew Wondmagegn; Jianjun Xiang; Keith B. G. Dear et al. (2021). Impact of heatwave intensity using excess heat factor on emergency department presentations and related healthcare costs in Adelaide, South Australia. Science of The Total Environment. https://doi.org/10.1016/j.scitotenv.2021.146815",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Impact of heatwave intensity using excess heat factor on emergency department presentations and related healthcare costs in Adelaide, South Australia%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_004",
+    "type": "source",
+    "title": "Excess mortality associated with extreme heat in Rio de Janeiro, Brazil, 2023",
+    "authors": [
+      "Rita D Fernández-Medina",
+      "Eduardo Mesquita Peixoto",
+      "Denis de Oliveira Rodrigues",
+      "Rodrigo Fabiano do Carmo Said",
+      "Cleonice Andrade Holanda",
+      "Cristina da Silva Freire",
+      "Aline Maria Almeida",
+      "Silvia Cristina de Carvalho Cardoso",
+      "Mário Sergio Ribeiro",
+      "Claudia Maria Braga de Mello",
+      "Alexander E. Rosewell",
+      "Luciane de Souza Velasque"
+    ],
+    "year": 2025,
+    "venue": "Revista Panamericana de Salud Pública",
+    "source_type": "journal_article",
+    "doi": "10.26633/RPSP.2025.76",
+    "url": "https://doi.org/10.26633/RPSP.2025.76",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Adulthood ;  Brazil ;  Central nervous system ;  Cities and towns ;  City planning ;  Diseases ;  Health Impact Assessment ;  Health planning ;  Health services accessibility ;  Health services administration ;  Heat ;  Housing ;  Housing authorities ;  Housing policy ;  Infrared radiation ;  Medical care ;  Mental health ;  Mental health services ;  Mental illness ;  Metropolitan areas ;  Mortality ;  Nervous system ;  Older people ;  Older women ;  Psychology, Pathological ;  Public health ;  Risk management ;  Risk perception"
+    ],
+    "keywords": [
+      "At risk populations ;  Climate change ;  climatological disaster ;  Deaths ;  Disease ;  Disorders ;  Health Policy & Services ;  Health problems ;  heat wave ;  Neurological disorders ;  Original Research ;  Self evaluation ;  Vulnerability"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "diamond",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 2,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 2,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Fernández-Medina et al. (2025)",
+    "citation_display": "Rita D Fernández-Medina; Eduardo Mesquita Peixoto; Denis de Oliveira Rodrigues et al. (2025). Excess mortality associated with extreme heat in Rio de Janeiro, Brazil, 2023. Revista Panamericana de Salud Pública. https://doi.org/10.26633/RPSP.2025.76",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Excess mortality associated with extreme heat in Rio de Janeiro, Brazil, 2023%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_005",
+    "type": "source",
+    "title": "Urban heat island effect-related mortality under extreme heat and non-extreme heat scenarios: A 2010–2019 case study in Hong Kong",
+    "authors": [
+      "Janice Ho",
+      "Yuan Shi",
+      "Kevin Ka‐Lun Lau",
+      "Edward Ng",
+      "Chao Ren",
+      "William Bernard Goggins"
+    ],
+    "year": 2022,
+    "venue": "Science of The Total Environment",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.scitotenv.2022.159791",
+    "url": "https://doi.org/10.1016/j.scitotenv.2022.159791",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Architecture ;  Case studies ;  China ;  Ecology ;  Heat ;  Mortality ;  Older people ;  Risk ;  Temperature ;  Urban heat island"
+    ],
+    "keywords": [
+      "Arkitektur ;  heat island ;  Heat-mortality ;  Heatwave ;  human health ;  Index Medicus"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "closed",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 153,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 140,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Ho et al. (2022)",
+    "citation_display": "Janice Ho; Yuan Shi; Kevin Ka‐Lun Lau et al. (2022). Urban heat island effect-related mortality under extreme heat and non-extreme heat scenarios: A 2010–2019 case study in Hong Kong. Science of The Total Environment. https://doi.org/10.1016/j.scitotenv.2022.159791",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Urban heat island effect-related mortality under extreme heat and non-extreme heat scenarios: A 2010–2019 case study in Hong Kong%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_006",
+    "type": "source",
+    "title": "How Blackouts during Heat Waves Amplify Mortality and Morbidity Risk",
+    "authors": [
+      "Brian Stone",
+      "Carina J. Gronlund",
+      "Evan S. Mallen",
+      "David M. Hondula",
+      "Marie S. O’Neill",
+      "Mayuri Rajput",
+      "Santiago Grijalva",
+      "Kevin Lanza",
+      "Sharon L. Harlan",
+      "Larissa S. Larsen",
+      "Godfried Augenbroe",
+      "E. Scott Krayenhoff",
+      "Ashley M. Broadbent",
+      "Matei Georgescu"
+    ],
+    "year": 2023,
+    "venue": "Environmental Science &amp; Technology",
+    "source_type": "journal_article",
+    "doi": "10.1021/acs.est.2c09588",
+    "url": "https://doi.org/10.1021/acs.est.2c09588",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Albedo ;  City dwellers ;  Climate ;  Diseases ;  Environmental sciences ;  Extreme Weather ;  Heat ;  Infrared radiation ;  Mortality ;  Risk ;  Roofing ;  Technology ;  Temperature ;  Trees ;  Weather"
+    ],
+    "keywords": [
+      "Blackout ;  canopy ;  Cities ;  Energy and Climate ;  Exposure ;  Failure ;  Health risks ;  Index Medicus ;  infrastructure ;  Roofing materials ;  Urban populations"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "hybrid",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 104,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 96,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Stone et al. (2023)",
+    "citation_display": "Brian Stone; Carina J. Gronlund; Evan S. Mallen et al. (2023). How Blackouts during Heat Waves Amplify Mortality and Morbidity Risk. Environmental Science &amp; Technology. https://doi.org/10.1021/acs.est.2c09588",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22How Blackouts during Heat Waves Amplify Mortality and Morbidity Risk%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_007",
+    "type": "source",
+    "title": "Daytime, nighttime, and day-night compound heatwaves and the risk of depression: A Chinese nationwide cohort",
+    "authors": [
+      "Jiajun Shen",
+      "Yalin Zhang",
+      "Yang Yuan",
+      "Yuan Yang",
+      "Chengyang Hu"
+    ],
+    "year": 2025,
+    "venue": "Environmental Pollution",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.envpol.2025.126913",
+    "url": "https://doi.org/10.1016/j.envpol.2025.126913",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Cohort analysis ;  Depression, Mental ;  East Asian People ;  Extreme Heat ;  Female ;  Heat ;  Human beings ;  Longitudinal method ;  Longitudinal studies ;  Male ;  Older people"
+    ],
+    "keywords": [
+      "CHARLS ;  China - epidemiology ;  Compound heatwave ;  Daytime heatwave ;  Depression - epidemiology ;  Environmental Exposure - statistics & numerical data ;  Middle Aged ;  Nighttime heatwave ;  Population-based cohort"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "closed",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 10,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 11,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Shen et al. (2025)",
+    "citation_display": "Jiajun Shen; Yalin Zhang; Yang Yuan et al. (2025). Daytime, nighttime, and day-night compound heatwaves and the risk of depression: A Chinese nationwide cohort. Environmental Pollution. https://doi.org/10.1016/j.envpol.2025.126913",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Daytime, nighttime, and day-night compound heatwaves and the risk of depression: A Chinese nationwide cohort%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_008",
+    "type": "source",
+    "title": "Identifying vulnerability factors associated with heatwave mortality: a spatial statistical analysis across Europe",
+    "authors": [
+      "Benedetta Sestito",
+      "Lena Reimann",
+      "Maurizio Mazzoleni",
+      "W. J. Wouter Botzen",
+      "Jeroen C. J. H. Aerts"
+    ],
+    "year": 2025,
+    "venue": "Environmental Research Letters",
+    "source_type": "journal_article",
+    "doi": "10.1088/1748-9326/adbcc8",
+    "url": "https://doi.org/10.1088/1748-9326/adbcc8",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Cities and towns ;  Citizenship ;  City planning ;  Extreme Heat ;  Heat ;  Heat-Shock Response ;  Infrared radiation ;  Metropolitan areas ;  Mortality ;  Parameter estimation ;  Population Characteristics ;  Social Vulnerability ;  Socioeconomic Factors ;  Statistics ;  Urbanization"
+    ],
+    "keywords": [
+      "Dependent variables ;  Green infrastructure ;  heat vulnerability index ;  heatwave mortality ;  heatwaves ;  Independent variables ;  Least squares method ;  Nature-based solutions ;  Raster ;  Regression coefficients ;  Socioeconomics ;  Spatial analysis ;  Urban populations ;  vulnerability driver"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 6,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 6,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Sestito et al. (2025)",
+    "citation_display": "Benedetta Sestito; Lena Reimann; Maurizio Mazzoleni et al. (2025). Identifying vulnerability factors associated with heatwave mortality: a spatial statistical analysis across Europe. Environmental Research Letters. https://doi.org/10.1088/1748-9326/adbcc8",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Identifying vulnerability factors associated with heatwave mortality: a spatial statistical analysis across Europe%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_009",
+    "type": "source",
+    "title": "Risk factors associated with heatwave mortality in Chinese adults over 65 years",
+    "authors": [
+      "Di Xi",
+      "Linxin Liu",
+      "Min Zhang",
+      "Cunrui Huang",
+      "Katrin Gabriele Burkart",
+      "Kristie L. Ebi",
+      "Yi Zeng",
+      "John S. Ji"
+    ],
+    "year": 2024,
+    "venue": "Nature Medicine",
+    "source_type": "journal_article",
+    "doi": "10.1038/s41591-024-02880-4",
+    "url": "https://doi.org/10.1038/s41591-024-02880-4",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Adulthood ;  Age ;  Aged, 80 and over ;  Aging ;  Communicable diseases ;  Comorbidity ;  East Asian People ;  Female ;  Human beings ;  Infection ;  Infrared radiation ;  Life skills ;  Longitudinal method ;  Longitudinal studies ;  Male ;  Molecular Medicine ;  Mortality ;  Neurosciences ;  Older people ;  Risk factors"
+    ],
+    "keywords": [
+      "692/499 ;  692/700/1518 ;  Aging - physiology ;  Article ;  Biomedical and Life Sciences ;  Biomedicine ;  Cancer Research ;  China - epidemiology ;  Cognitive ability ;  Extreme Heat - adverse effects ;  general ;  Health risks ;  Hot Temperature - adverse effects ;  Index Medicus ;  Metabolic Diseases ;  Mortality risk ;  Physiological factors ;  Social interactions"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "closed",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 137,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 133,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Xi et al. (2024)",
+    "citation_display": "Di Xi; Linxin Liu; Min Zhang et al. (2024). Risk factors associated with heatwave mortality in Chinese adults over 65 years. Nature Medicine. https://doi.org/10.1038/s41591-024-02880-4",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Risk factors associated with heatwave mortality in Chinese adults over 65 years%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_010",
+    "type": "source",
+    "title": "Individual heat adaptation: Analyzing risk communication, warnings, heat risk perception, and protective behavior in three German cities",
+    "authors": [
+      "Anna Heidenreich",
+      "Annegret Henriette Thieken"
+    ],
+    "year": 2024,
+    "venue": "Risk Analysis",
+    "source_type": "journal_article",
+    "doi": "10.1111/risa.14278",
+    "url": "https://doi.org/10.1111/risa.14278",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Adaptability (Psychology) ;  Adaptation ;  Adaptation (Physiology) ;  Adjustment (Psychology) ;  Behavior ;  Communication ;  Decision making ;  Demography ;  Extreme Heat ;  Female ;  Germany ;  Health behavior ;  Heat ;  Heat-Shock Response ;  Home ownership ;  Human beings ;  Infrared radiation ;  Male ;  Mental health ;  Older people ;  Perception ;  Population ;  Protection ;  Protective Factors ;  Psychological aspects ;  Risk ;  Risk assessment ;  Risk communication ;  Risk perception ;  Warnings"
+    ],
+    "keywords": [
+      "Action ;  Adult ;  Cities ;  Communication strategies ;  Coping ;  Coping strategies ;  Discourse strategies ;  Efficacy ;  Health problems ;  Health risks ;  Heat tolerance ;  Index Medicus ;  Messages ;  Middle Aged ;  Motivation ;  natural hazards ;  Perceptions ;  Protective Action Decision Model ;  Protective behavior ;  Psychological factors ;  Respondents ;  Responses ;  Risk Assessment - methods ;  Stress ;  Surveys and Questionnaires ;  Temperature effects ;  Temperature perception ;  Threat evaluation ;  vulnerability ;  Warning"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "hybrid",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 49,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 46,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Heidenreich et al. (2024)",
+    "citation_display": "Anna Heidenreich; Annegret Henriette Thieken (2024). Individual heat adaptation: Analyzing risk communication, warnings, heat risk perception, and protective behavior in three German cities. Risk Analysis. https://doi.org/10.1111/risa.14278",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Individual heat adaptation: Analyzing risk communication, warnings, heat risk perception, and protective behavior in three German cities%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_011",
+    "type": "source",
+    "title": "Urban heatwave, green spaces, and mental health: A review based on environmental health risk assessment framework",
+    "authors": [
+      "Huanchun Huang",
+      "Zefeng Lu",
+      "Xinmei Fan",
+      "Wei Zhai",
+      "Linchun Zhang",
+      "Di Xu",
+      "Zhifeng Liu",
+      "Yong Li",
+      "Xinyue Ye",
+      "Haoming Qin",
+      "Kevin Lanza",
+      "Yun Hang"
+    ],
+    "year": 2024,
+    "venue": "Science of The Total Environment",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.scitotenv.2024.174816",
+    "url": "https://doi.org/10.1016/j.scitotenv.2024.174816",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Africa ;  Asia ;  City planning ;  Climate ;  Computer software ;  Ecology ;  Environmental health ;  Heat ;  Mental health ;  Risk ;  Temperature ;  Therapeutics"
+    ],
+    "keywords": [
+      "dose response ;  green infrastructure ;  Green spaces ;  hazard identification ;  health effects assessments ;  Index Medicus ;  Meteorological medicine ;  risk assessment process ;  Urban heatwave"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "closed",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 30,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 31,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Huang et al. (2024)",
+    "citation_display": "Huanchun Huang; Zefeng Lu; Xinmei Fan et al. (2024). Urban heatwave, green spaces, and mental health: A review based on environmental health risk assessment framework. Science of The Total Environment. https://doi.org/10.1016/j.scitotenv.2024.174816",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Urban heatwave, green spaces, and mental health: A review based on environmental health risk assessment framework%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_012",
+    "type": "source",
+    "title": "Association Between Extreme Heat and Outpatient Visits for Mental Disorders: A Time‐Series Analysis in Guangzhou, China",
+    "authors": [
+      "Hui Zhang",
+      "Xuezhu Li",
+      "Siyue Wang",
+      "Tao Wu",
+      "Xinyi Yang",
+      "N N Wang",
+      "Lifeng Huang",
+      "Zhilang Feng",
+      "Zitong He",
+      "Qiong Wang",
+      "Li Ling",
+      "Wensu Zhou"
+    ],
+    "year": 2024,
+    "venue": "GeoHealth",
+    "source_type": "journal_article",
+    "doi": "10.1029/2024GH001165",
+    "url": "https://doi.org/10.1029/2024GH001165",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Avalanches ;  Climatology ;  Cryosphere ;  Emergency medical services ;  Employees ;  Extreme Heat ;  Gender ;  Health insurance ;  Health risk assessment ;  Heat ;  Hospitalization ;  Hydrology ;  Infrared radiation ;  Medical care ;  Mental health ;  Mental illness ;  Modeling ;  Ocean ;  Older people ;  Paleoceanography ;  Policy sciences ;  Population ;  Psychology, Pathological ;  Public health ;  Risk ;  Schizophrenia ;  Seismology ;  Socioeconomic Factors ;  Stochastic processes ;  Temperature ;  Volcanology ;  Water cycles"
+    ],
+    "keywords": [
+      "Abrupt/Rapid Climate Change ;  Air/Sea Constituent Fluxes ;  Air/Sea Interactions ;  Atmospheric ;  Atmospheric Composition and Structure ;  Atmospheric Effects ;  Atmospheric Processes ;  Benefit‐cost Analysis ;  Biogeosciences ;  Climate and Interannual Variability ;  Climate change ;  Climate Change and Variability ;  Climate Dynamics ;  Climate Impact ;  Climate Impacts ;  Climate Variability ;  Computational Geophysics ;  Decadal Ocean Variability ;  Disaster Risk Analysis and Assessment ;  Earth System Modeling ;  Earthquake Ground Motions and Engineering Seismology ;  Effusive Volcanism ;  Explosive Volcanism ;  Extreme Events ;  General Circulation ;  Geodesy and Gravity ;  Geohealth ;  Geological ;  Global Change ;  Global Change from Geodesy ;  Gravity and Isostasy ;  Health Impact ;  Health risks ;  heatwave ;  Hydrological Cycles and Budgets ;  Impacts of Climate Change: Human Health ;  Impacts of Global Change ;  Informatics ;  Land/Atmosphere Interactions ;  Marine Geology and Geophysics ;  Mass Balance ;  Mathematical Geophysics ;  Mud Volcanism ;  Natural Hazards ;  Nonlinear Geophysics ;  Numerical Modeling ;  Numerical Solutions ;  Ocean influence of Earth rotation ;  Ocean Monitoring with Geodetic Techniques ;  Ocean/Earth/atmosphere/hydrosphere/cryosphere interactions ;  Oceanic ;  Oceanography: General ;  Oceanography: Physical ;  outpatient visits ;  Patient admissions ;  Persistence, Memory, Correlations, Clustering ;  Physical Modeling ;  Probability Distributions, Heavy and Fat‐tailed ;  Radio Oceanography ;  Radio Science ;  Regional Climate Change ;  Regional Modeling ;  Reimbursement ;  Scaling: Spatial and Temporal ;  Sea Level Change ;  Sea Level: Variations and Mean ;  Sociodemographics ;  Solid Earth ;  Space Plasma Physics ;  Stochastic Phenomena ;  Surface Waves and Tides ;  Temporal Analysis and Representation ;  Theoretical Modeling ;  Time Series Analysis ;  Time Series Experiments ;  Tsunamis and Storm Surges ;  Volcanic Effects ;  Volcanic Hazards and Risks ;  Volcano Monitoring ;  Volcano Seismology ;  Volcano/Climate Interactions"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 10,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 11,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Zhang et al. (2024)",
+    "citation_display": "Hui Zhang; Xuezhu Li; Siyue Wang et al. (2024). Association Between Extreme Heat and Outpatient Visits for Mental Disorders: A Time‐Series Analysis in Guangzhou, China. GeoHealth. https://doi.org/10.1029/2024GH001165",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Association Between Extreme Heat and Outpatient Visits for Mental Disorders: A Time‐Series Analysis in Guangzhou, China%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_013",
+    "type": "source",
+    "title": "Mapping urban heat islands and heat-related risk during heat waves from a climate justice perspective: A case study in the municipality of Padua (Italy) for inclusive adaptation policies",
+    "authors": [
+      "Salvatore Eugenio Pappalardo",
+      "Carlo Zanetti",
+      "Valeria Todeschi"
+    ],
+    "year": 2023,
+    "venue": "Landscape and Urban Planning",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.landurbplan.2023.104831",
+    "url": "https://doi.org/10.1016/j.landurbplan.2023.104831",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Case studies ;  Climate ;  Climate justice ;  Heat ;  Infrared radiation ;  Italy ;  Landscapes ;  Mortality ;  Older people ;  Risk ;  Summer ;  Urban heat island ;  Urbanization"
+    ],
+    "keywords": [
+      "climate change ;  Inclusive climate adaptation policies ;  infrastructure ;  Landsat ;  people ;  soil ;  Urban resilience"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "hybrid",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 114,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 92,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Pappalardo et al. (2023)",
+    "citation_display": "Salvatore Eugenio Pappalardo; Carlo Zanetti; Valeria Todeschi (2023). Mapping urban heat islands and heat-related risk during heat waves from a climate justice perspective: A case study in the municipality of Padua (Italy) for inclusive adaptation policies. Landscape and Urban Planning. https://doi.org/10.1016/j.landurbplan.2023.104831",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Mapping urban heat islands and heat-related risk during heat waves from a climate justice perspective: A case study in the municipality of Padua (Italy) for inclusive adaptation policies%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_014",
+    "type": "source",
+    "title": "The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas",
+    "authors": [
+      "Jeremy S. Hoffman",
+      "Vivek Shandas",
+      "Nicholas V. Pendleton"
+    ],
+    "year": 2020,
+    "venue": "Climate",
+    "source_type": "journal_article",
+    "doi": "10.3390/cli8010012",
+    "url": "https://doi.org/10.3390/cli8010012",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Cities and towns ;  Extreme Heat ;  Historic buildings ;  Housing ;  Housing policy ;  Infrared radiation ;  Land cover ;  Loans ;  Metropolitan areas ;  Neighborhoods ;  Temperature ;  Urban heat island"
+    ],
+    "keywords": [
+      "Anomalies ;  Canopies ;  Cities ;  Climate change ;  Exposure ;  Heatwaves ;  Land surface temperature ;  Outdoor air quality ;  Plant cover ;  Questions ;  Spatial analysis ;  Temperature anomalies ;  Urban climates"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 846,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 727,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Hoffman et al. (2020)",
+    "citation_display": "Jeremy S. Hoffman; Vivek Shandas; Nicholas V. Pendleton (2020). The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas. Climate. https://doi.org/10.3390/cli8010012",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22The Effects of Historical Housing Policies on Resident Exposure to Intra-Urban Heat: A Study of 108 US Urban Areas%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_015",
+    "type": "source",
+    "title": "Urban and Rural Environments and Their Implications for Older Adults’ Adaptation to Heat Waves: A Systematic Review",
+    "authors": [
+      "Pablo De Gea Grela",
+      "Diego Sánchez González",
+      "Lorena Patricia Gallardo-Peralta"
+    ],
+    "year": 2024,
+    "venue": "Land",
+    "source_type": "journal_article",
+    "doi": "10.3390/land13091378",
+    "url": "https://doi.org/10.3390/land13091378",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Adaptation ;  Adulthood ;  Aging ;  Built environment ;  Chronic diseases ;  Chronology ;  Climate ;  Developed countries ;  Developing countries ;  Economic conditions ;  Gender ;  Global warming ;  Health Status ;  Heat ;  Infrared radiation ;  Land use ;  Mortality ;  Older people ;  Population density ;  Poverty ;  Research ;  Risk management ;  Social conditions ;  Social Environment ;  Social status ;  Social structure ;  Socio-economic status ;  Socioeconomic status ;  Sources ;  Temperature"
+    ],
+    "keywords": [
+      "Air pollution ;  Climate adaptation ;  Climate change ;  Community ;  Environmental impact ;  Green infrastructure ;  heatwaves ;  land ;  physical and social environment ;  Residential areas ;  Rural areas ;  Rural communities ;  Rural environments ;  Social interactions ;  Socioeconomics ;  Systematic review ;  Typology ;  urban and rural environments ;  Urban environments ;  vulnerability ;  Warning systems"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 16,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 16,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Grela et al. (2024)",
+    "citation_display": "Pablo De Gea Grela; Diego Sánchez González; Lorena Patricia Gallardo-Peralta (2024). Urban and Rural Environments and Their Implications for Older Adults’ Adaptation to Heat Waves: A Systematic Review. Land. https://doi.org/10.3390/land13091378",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Urban and Rural Environments and Their Implications for Older Adults’ Adaptation to Heat Waves: A Systematic Review%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_016",
+    "type": "source",
+    "title": "Validity and responsiveness of the EQ-5D-5L, EQ-HWB and EQ-HWB-9 to measure health and wellbeing impact of heatwaves among older adults",
+    "authors": [
+      "Meixia Liao",
+      "Fanni Rencz",
+      "Zhihao Yang",
+      "Jianjun Xiang",
+      "Nan Luo"
+    ],
+    "year": 2026,
+    "venue": "Health and Quality of Life Outcomes",
+    "source_type": "journal_article",
+    "doi": "10.1186/s12955-026-02521-z",
+    "url": "https://doi.org/10.1186/s12955-026-02521-z",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Aged, 80 and over ;  China ;  Data Collection ;  Decision making ;  Depression, Mental ;  Diseases ;  Feasibility studies ;  Female ;  Health ;  Health aspects ;  Health Status ;  Heat ;  Human beings ;  Infrared radiation ;  Longitudinal method ;  Longitudinal studies ;  Male ;  Measurement ;  Medicine ;  Mental health ;  Mortality ;  Older people ;  Physiology ;  Psychological Well-Being ;  Psychometrics ;  Reproducibility of Results ;  Research ;  Summer ;  Surveys ;  Well-being"
+    ],
+    "keywords": [
+      "At risk populations ;  Climate change ;  Cognition & reasoning ;  Community ;  EQ-5D-5L ;  EQ-HWB ;  EQ-HWB-9 ;  Heatwave ;  Hot Temperature - adverse effects ;  Hot weather ;  Identity ;  Index Medicus ;  Medicine & Public Health ;  Middle Aged ;  Quality of Life - psychology ;  Quality of Life Research ;  Surveys and Questionnaires - standards ;  Well being"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 0,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 1,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Liao et al. (2026)",
+    "citation_display": "Meixia Liao; Fanni Rencz; Zhihao Yang et al. (2026). Validity and responsiveness of the EQ-5D-5L, EQ-HWB and EQ-HWB-9 to measure health and wellbeing impact of heatwaves among older adults. Health and Quality of Life Outcomes. https://doi.org/10.1186/s12955-026-02521-z",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Validity and responsiveness of the EQ-5D-5L, EQ-HWB and EQ-HWB-9 to measure health and wellbeing impact of heatwaves among older adults%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_017",
+    "type": "source",
+    "title": "Temporal variation in the association between heatwave and mortality from mental disorders: population-based evidence from a megacity of China",
+    "authors": [
+      "Junwen Tao",
+      "Huiting Yu",
+      "Jihong Hu",
+      "Xiling Wang",
+      "Renzhi Cai",
+      "Shanshan Jin",
+      "Jintao Liu",
+      "Wenjun Cheng",
+      "Yiming Gai",
+      "Chunfang Wang",
+      "Xin Chen",
+      "Jian Cheng"
+    ],
+    "year": 2025,
+    "venue": "Journal of Global Health",
+    "source_type": "journal_article",
+    "doi": "10.7189/jogh.15.04231",
+    "url": "https://doi.org/10.7189/jogh.15.04231",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Dementia ;  Epidemiology ;  Female ;  Gender ;  Human beings ;  Humidity ;  Infrared radiation ;  Male ;  Megacities ;  Mental health ;  Mental illness ;  Mortality ;  Older people ;  Physiology ;  Psychology, Pathological ;  Risk factors ;  Schizophrenia ;  Suicide ;  Temperature ;  Time Factors"
+    ],
+    "keywords": [
+      "Adult ;  China - epidemiology ;  Cross-Over Studies ;  Dementia disorders ;  Extreme Heat - adverse effects ;  Hot Temperature - adverse effects ;  Index Medicus ;  Mental Disorders - mortality ;  Middle Aged ;  Suicide - statistics & numerical data ;  Temporal variability ;  Young Adult"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 3,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 3,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Tao et al. (2025)",
+    "citation_display": "Junwen Tao; Huiting Yu; Jihong Hu et al. (2025). Temporal variation in the association between heatwave and mortality from mental disorders: population-based evidence from a megacity of China. Journal of Global Health. https://doi.org/10.7189/jogh.15.04231",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Temporal variation in the association between heatwave and mortality from mental disorders: population-based evidence from a megacity of China%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_018",
+    "type": "source",
+    "title": "Responses to heat waves: what can Twitter data tell us?",
+    "authors": [
+      "Kerstin Katharina Zander",
+      "Jonas Rieskamp",
+      "Milad Mirbabaie",
+      "Mamoun Alazab",
+      "Duy Nguyen"
+    ],
+    "year": 2023,
+    "venue": "Natural Hazards",
+    "source_type": "journal_article",
+    "doi": "10.1007/s11069-023-05824-2",
+    "url": "https://doi.org/10.1007/s11069-023-05824-2",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Air conditioning ;  Civil engineering ;  Climatic extremes ;  Communication ;  Earth sciences ;  Environmental management ;  Extreme Weather ;  Heat ;  Hydrogeology ;  Infrared radiation ;  Social media ;  Social networks"
+    ],
+    "keywords": [
+      "Climate change ;  Earth and Environmental Science ;  Geophysics/Geodesy ;  Geotechnical Engineering & Applied Earth Sciences ;  Heatwaves ;  Natural Hazards ;  Original Paper ;  Social impact"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "hybrid",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 30,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 23,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Zander et al. (2023)",
+    "citation_display": "Kerstin Katharina Zander; Jonas Rieskamp; Milad Mirbabaie et al. (2023). Responses to heat waves: what can Twitter data tell us?. Natural Hazards. https://doi.org/10.1007/s11069-023-05824-2",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Responses to heat waves: what can Twitter data tell us?%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_019",
+    "type": "source",
+    "title": "Impact of Extreme Heat on Emergency Department Admissions for Childhood and Adult Asthma: An Evaluation of Earth Observations and Heat Wave Definitions",
+    "authors": [
+      "B. Corpuz",
+      "E. Scott",
+      "Benjamin F. Zaitchik",
+      "S. Zeger",
+      "D. Waugh",
+      "Aparna Balasubramanian",
+      "Jaime Madrigano",
+      "Kirsten Koehler",
+      "R. Koehl",
+      "Meredith C. McCormack"
+    ],
+    "year": 2026,
+    "venue": "GeoHealth",
+    "source_type": "journal_article",
+    "doi": "10.1029/2025GH001501",
+    "url": "https://doi.org/10.1029/2025GH001501",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Age groups ;  Archaeological geology ;  Asthma ;  Census ;  Climate ;  Emergency medical services ;  Environmental conditions ;  Environmental justice ;  Extreme Heat ;  Heat ;  Infrared radiation ;  Patients ;  Public health ;  Temperature ;  Temperature measurements"
+    ],
+    "keywords": [
+      "Air temperature ;  Geohealth ;  Impacts of Climate Change: Human Health ;  Inner city ;  Urban environments"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "gold",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 0,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 0,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "Corpuz et al. (2026)",
+    "citation_display": "B. Corpuz; E. Scott; Benjamin F. Zaitchik et al. (2026). Impact of Extreme Heat on Emergency Department Admissions for Childhood and Adult Asthma: An Evaluation of Earth Observations and Heat Wave Definitions. GeoHealth. https://doi.org/10.1029/2025GH001501",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22Impact of Extreme Heat on Emergency Department Admissions for Childhood and Adult Asthma: An Evaluation of Earth Observations and Heat Wave Definitions%22",
+    "confidence": "high"
+  },
+  {
+    "id": "src_020",
+    "type": "source",
+    "title": "The impact of extreme temperatures on emergency department visits: A systematic review of heatwaves, cold waves, and daily temperature variations",
+    "authors": [
+      "Ali PoshtMashhadi",
+      "Abtin Ijadi Maghsoodi",
+      "Lincoln Christopher Wood"
+    ],
+    "year": 2025,
+    "venue": "Science of The Total Environment",
+    "source_type": "journal_article",
+    "doi": "10.1016/j.scitotenv.2025.178869",
+    "url": "https://doi.org/10.1016/j.scitotenv.2025.178869",
+    "access_level": "abstract_only",
+    "evidence_basis": "abstract_and_metadata",
+    "abstract_source": "Primo record description",
+    "selection_status": "selected",
+    "selection_reason": "Recent peer-reviewed article with direct or strongly inferable relevance to urban extreme-heat health and wellbeing.",
+    "subjects": [
+      "Cold ;  Ecology ;  Economic conditions ;  Extreme Weather ;  Gender ;  Hospitals ;  Human beings ;  Medical care ;  Orthopedics ;  Public health ;  Resource allocation ;  Social conditions ;  Social status ;  Socio-economic status ;  Socioeconomic status ;  Temperature"
+    ],
+    "keywords": [
+      "Cold Temperature ;  Cold waves ;  Emergency department admission ;  Emergency Room Visits ;  Emergency Service, Hospital - statistics & numerical data ;  Extreme Heat - adverse effects ;  Heatwaves ;  Hot Temperature - adverse effects ;  Index Medicus ;  Systematic literature review ;  systematic review"
+    ],
+    "language": "eng",
+    "open_access_metadata": {
+      "oa_status": "hybrid",
+      "provider": "openalex"
+    },
+    "citation_metadata": {
+      "primary_count": 28,
+      "primary_provider": "openalex",
+      "retrieved_at": "2026-10-09T00:00:00Z",
+      "alternative_counts": [
+        {
+          "provider": "crossref",
+          "count": 31,
+          "retrieved_at": "2026-10-09T00:00:00Z"
+        }
+      ]
+    },
+    "citation_short": "PoshtMashhadi et al. (2025)",
+    "citation_display": "Ali PoshtMashhadi; Abtin Ijadi Maghsoodi; Lincoln Christopher Wood (2025). The impact of extreme temperatures on emergency department visits: A systematic review of heatwaves, cold waves, and daily temperature variations. Science of The Total Environment. https://doi.org/10.1016/j.scitotenv.2025.178869",
+    "ucls_permalink": "https://search-library.ucsd.edu/discovery/search?query=any,contains,%22The impact of extreme temperatures on emergency department visits: A systematic review of heatwaves, cold waves, and daily temperature variations%22",
+    "confidence": "high"
+  }
+]

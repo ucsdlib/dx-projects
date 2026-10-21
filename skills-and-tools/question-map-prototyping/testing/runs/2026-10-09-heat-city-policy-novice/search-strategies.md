@@ -1,0 +1,37 @@
+# Search Strategies — Heat, City Policy, and Public Health
+
+**Run ID:** `2026-10-09-heat-city-policy-novice`  
+**Date:** 2026-10-09  
+**Role:** Search Auditor  
+
+## Protocol
+
+UC Library Search was tried first for component-level discovery. Its public web endpoint returned an HTTP 200 JavaScript application shell, but the non-JavaScript response did not expose ranked records, so candidate discovery and metadata verification were supplemented with OpenAlex and Crossref public APIs. No PDF extraction was used. No bot block or API rate limit was encountered.
+
+UC links use the UCSD instance and a single Primo VE `query` parameter. For candidate metadata, OpenAlex search/count calls used `mailto=search-auditor@example.org`; Crossref was used only for title/DOI-level metadata. Each selected item was then assigned an independent relevance score of 0–3.
+
+## Component-specific searches
+
+| Component | UC Library Search query | UC Library Search result | OpenAlex query | OpenAlex result count | Selection notes |
+|---|---|---|---|---:|---|
+| Health outcomes and healthcare use | `("emergency department" OR "hospital admissions") AND ("extreme heat" OR "heat wave" OR "heatwave") AND "public health"` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22emergency%20department%22%20OR%20%22hospital%20admissions%22)%20AND%20(%22extreme%20heat%22%20OR%20%22heat%20wave%22%20OR%20%22heatwave%22)%20AND%20%22public%20health%22&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"extreme heat" "emergency department" visits` | 2,439 | Preferred U.S. case-crossover and federal surveillance evidence; mortality added as a core outcome. |
+| Mortality / health outcomes | `("mortality" OR "emergency department") AND ("heat wave" OR "extreme heat")` | Search not separately logged; covered by UC health query and title-level lookups | `"heat wave" mortality "United States"` | 18,014 | Used broad discovery only; selected community-level U.S. epidemiology rather than globally diffuse results. |
+| Vulnerable populations and equity | `("heat vulnerability" OR "vulnerable populations" OR "equity") AND ("extreme heat" OR "heat wave" OR "heatwave")` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22heat%20vulnerability%22%20OR%20%22vulnerable%20populations%22%20OR%20%22equity%22)%20AND%20(%22extreme%20heat%22%20OR%20%22heat%20wave%22%20OR%20%22heatwave%22)&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"heat vulnerability" "vulnerable populations"` | 1,586 | Selected systematic review, index development, cooling-center accessibility, and spatial exposure/access equity studies. |
+| Urban form, green space, and cooling | `("urban heat" OR "urban heat island" OR "green space" OR "green infrastructure") AND ("cooling" OR "cool") AND ("public health" OR "health")` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22urban%20heat%22%20OR%20%22urban%20heat%20island%22%20OR%20%22green%20space%22%20OR%20%22green%20infrastructure%22)%20AND%20(%22cooling%22%20OR%20%22cool%22)%20AND%20(%22public%20health%22%20OR%20%22health%22)&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"urban heat" "green space" cooling` | 15,015 | Used precision title lookups after broad discovery; retained systematic review, health-impact assessment, and urban-form analysis. |
+| Governance, policy, and emergency response | `("heat wave" OR "heatwave" OR "extreme heat") AND ("governance" OR "policy" OR "emergency response" OR "warning system")` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22heat%20wave%22%20OR%20%22heatwave%22%20OR%20%22extreme%20heat%22)%20AND%20(%22governance%22%20OR%20%22policy%22%20OR%20%22emergency%20response%22%20OR%20%22warning%20system%22)&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"heat wave" "emergency response" policy governance` | 1,884 | Retained plan reviews, warning-system evidence, municipal-plan assessment, and WHO/WMO guidance; rejected generic emergency-response papers unrelated to heat. |
+| Lived experience and social consequences | `("heat wave" OR "heatwave" OR "extreme heat") AND ("lived experience" OR "qualitative" OR "perceptions" OR "social consequences")` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22heat%20wave%22%20OR%20%22heatwave%22%20OR%20%22extreme%20heat%22)%20AND%20(%22lived%20experience%22%20OR%20%22qualitative%22%20OR%20%22perceptions%22%20OR%20%22social%20consequences%22)&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"heat wave" lived experience "social" consequences` | 12,632 | Selected a social autopsy, household adaptive-capacity case study, and stakeholder-perception study; avoided animal/biophysical heat-wave studies. |
+| Measurement, warnings, and evidence limitations | `("extreme heat" OR "heat wave" OR "heatwave") AND ("measurement" OR "limitations" OR "evidence" OR "warning systems")` | [Search link](https://search-library.ucsd.edu/discovery/search?query=any,contains,(%22extreme%20heat%22%20OR%20%22heat%20wave%22%20OR%20%22heatwave%22)%20AND%20(%22measurement%22%20OR%20%22limitations%22%20OR%20%22evidence%22%20OR%20%22warning%20systems%22)&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI:UCSD) | `"heat health" warning systems effectiveness limitations` | 788 | Used warning-system reviews plus multicountry temperature-risk modeling to capture both policy evaluation and exposure-response measurement limits. |
+
+## Candidate verification
+
+- Title-level lookups were run in OpenAlex or Crossref for each selected DOI/book to verify author names, year, venue, volume/issue/pages, publication type, and open-access status.
+- Candidate relevance was judged from titles, publication venue, bibliographic metadata, and known study design/finding descriptions recorded in public metadata. No PDF extraction was used.
+- Items were rejected when the title or metadata showed: non-human biophysical heat response, generic emergency management without heat specificity, only conference abstracts, preprints when peer-reviewed equivalents were available, or policy claims without empirical or operational evidence.
+- Gray literature was limited to one authoritative WHO/WMO operational guidance document. City webpages and national dashboards were not included because the protocol prioritized a bibliographic reference pool and the required pool did not require local municipal documents.
+
+## Skips, limits, and blocks
+
+- **UC Library Search record retrieval:** The public endpoint returned a JavaScript-only application shell (`HTTP 200`, approximately 4.8 KB) for each component search. This was not treated as a bot block. Ranked records were not retrievable through non-JavaScript `curl`; the query and direct links are retained for reviewer replication.
+- **OpenAlex/Crossref:** No skips, rate limits, or bot blocks were encountered.
+- **Date filters:** Publication date filters were not globally imposed. Older systematic reviews and foundational studies were retained when they remained central to governance, urban cooling, or measurement limitations.
+- **Geographic scope:** No geographic restriction was applied, but the pool notes its U.S./Europe/Australia weighting and the need for local transfer caution.

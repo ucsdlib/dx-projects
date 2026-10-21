@@ -1,0 +1,149 @@
+# Evidence Packet
+
+Generated from `question_map.json` source nodes and quotes only. It intentionally excludes generated source questions, canonical questions, edges, and themes.
+
+## Sources
+
+- **src_001** — Schmeltz, M. T., Smith, J. A., Olmos, I., & Quintero, E. (2023). Extreme heat governance: A critical analysis of heat action plans in California. American Journal of Public Health, 113(1). https://doi.org/10.2105/AJPH.2022.307117
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_002** — Randazza, J. M., Hess, J. J., Bostrom, A., Hartwell, C., Adams, Q. H., Nori-Sarma, A., Spangler, K. R., Sun, Y., Weinberger, K. R., Wellenius, G. A., & Errett, N. A. (2023). Planning to reduce the health impacts of extreme heat: A content analysis of heat action plans in local United States jurisdictions. American Journal of Public Health, 113(5), 559–567. https://doi.org/10.2105/AJPH.2022.307217
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_003** — Gabbe, C. J., Pierce, G., Petermann, E., & Marecek, A. (2021). Why and how do cities plan for extreme heat? Journal of Planning Education and Research. https://doi.org/10.1177/0739456X211053654
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_004** — Meerow, S., & Keith, L. (2021). Planning for extreme heat: A national survey of U.S. planners. Journal of the American Planning Association. https://doi.org/10.1080/01944363.2021.1977682
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_005** — Keith, L., Gabbe, C. J., & Schmidt, E. (2023). Urban heat governance: Examining the role of urban planning. Journal of Environmental Policy & Planning. https://doi.org/10.1080/1523908X.2023.2244446
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_006** — Hess, J. J., Errett, N. A., McGregor, G., Busch Isaksen, T., Wettstein, Z. S., Wheat, S. K., & Ebi, K. L. (2023). Public health preparedness for extreme heat events. Annual Review of Public Health, 44. https://doi.org/10.1146/annurev-publhealth-071421-025508
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_007** — Uejio, C. K., Gilbert, J., Ahn, Y., Martella, L., Hu, L., & Marturano, J. (2024). Rapidly developing a community- and evidence-based heat action plan. Bulletin of the American Meteorological Society. https://doi.org/10.1175/BAMS-D-23-0055.1
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_008** — Hess, J. J., Sathish, L. M., Knowlton, K., Saha, S., Dutta, P., Ganguly, P., Tiwari, A., Jaiswal, A., Sheffield, P., Sarkar, J., Bhan, S. C., Begda, A., Shah, T., Solanki, B., & Mavalankar, D. (2018). Building resilience to climate change: Pilot evaluation of the impact of India’s first heat action plan on all-cause mortality. Journal of Environmental and Public Health, 2018. https://doi.org/10.1155/2018/7973519
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_009** — Dwyer, I. J., Barry, S. J. E., Megiddo, I., & White, C. J. (2022). Evaluations of heat action plans for reducing the health impacts of extreme heat: Methodological developments (2012–2021) and remaining challenges. International Journal of Biometeorology. https://doi.org/10.1007/s00484-022-02326-x
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_010** — Guardaro, M. (2023). Strengthening heat action plans in the United States. American Journal of Public Health, 113(5). https://doi.org/10.2105/AJPH.2023.307260
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_011** — Pascal, M., Goria, S., Wagner, V., Sabastia, M., Guillet, A., Cordeau, E., Mauclair, C., & Host, S. (2021). Greening is a promising but likely insufficient adaptation strategy to limit the health impacts of extreme heat. Environment International, 155, 106441. https://doi.org/10.1016/j.envint.2021.106441
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_012** — Turcu, C. (2025). Urban greenspace, climate adaptation and health co-benefits: Municipal policy and practice in London. International Journal of Environmental Research and Public Health, 22(3), 409. https://doi.org/10.3390/ijerph22030409
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_013** — Adams, Q. H., Chan, E. M. G., Spangler, K. R., Weinberger, K. R., Lane, K. J., Errett, N. A., Hess, J. J., Sun, Y., Wellenius, G. A., & Nori-Sarma, A. (2023). Examining the optimal placement of cooling centers to serve populations at high risk of extreme heat exposure in 81 US cities. Public Health Reports, 138(5), 766–775. https://doi.org/10.1177/00333549221148174
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_014** — Black-Ingersoll, F., de Lange, J., Heidari, L., Negassa, A., Botana, P., Fabian, M. P., & Scammell, M. K. (2022). A literature review of cooling center, misting station, cool pavement, and cool roof intervention evaluations. Atmosphere, 13(7), 1103. https://doi.org/10.3390/atmos13071103
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_015** — Kotharkar, R., & Ghosh, A. (2022). Progress in extreme heat management and warning systems: A systematic review of heat-health action plans (1995-2020). Sustainable Cities and Society, 76, 103487. https://doi.org/10.1016/j.scs.2021.103487
+  - Access level: metadata_only
+  - Evidence basis: metadata_only
+  - URL/DOI: 
+- **src_016** — Guo, Y., Gasparrini, A., Armstrong, B. G., et al. (2017). Heat wave and mortality: A multicountry, multicommunity study. Environmental Health Perspectives, 125(8), 087006. https://doi.org/10.1289/EHP1026
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_017** — Shakya, A., Landry, S., Bosman, M. M., Reader, S., & Culhane, T. H. (2026). Urban heat inequities in the United States: A scoping review. Environmental Research Communications. https://doi.org/10.1088/2515-7620/ae3a4f
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+- **src_018** — Jiang, T., Krayenhoff, E. S., Martilli, A., Nazarian, N., Stone, B., & Voogt, J. (2025). Prioritizing urban heat adaptation infrastructure based on multiple outcomes: Comfort, health, and energy. Proceedings of the National Academy of Sciences, 122(19). https://doi.org/10.1073/pnas.2411144122
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+  - URL/DOI: 
+
+## Quotes
+
+- **quote_001** — Source src_001: “Extreme Heat Governance: A Critical Analysis of Heat Action Plans in California”
+  - Locator: title
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_002** — Source src_002: “To examine commonalities and gaps in the content of local US heat action plans (HAPs) designed to decrease the adverse health effects of extreme heat.”
+  - Locator: OpenAlex abstract_inverted_index, Objectives section
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_003** — Source src_003: “Why and How Do Cities Plan for Extreme Heat?”
+  - Locator: title
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_004** — Source src_004: “We surveyed planning professionals from diverse cities across the United States to establish critical baseline information for a growing area of planning practice and scholarship that future research can build on.”
+  - Locator: OpenAlex abstract_inverted_index, Problem, research strategy, and findings section
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_005** — Source src_005: “We studied five large, climatically-diverse U.S. cities to better understand urban heat governance with a focus on the field of urban planning.”
+  - Locator: OpenAlex abstract_inverted_index, methods sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_006** — Source src_006: “Preparedness activities commonly take the form of heat action plans (HAPs), with many examples at various administrative scales.”
+  - Locator: OpenAlex abstract_inverted_index, preparedness sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_007** — Source src_007: “The manuscript’s goal is to expedite the translation of existing tools into mainstream extreme heat, health, and equity planning.”
+  - Locator: OpenAlex abstract_inverted_index, goal sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_008** — Source src_008: “This study evaluates the HAP’s impact on all-cause mortality in 2014–2015 relative to a 2007–2010 baseline.”
+  - Locator: OpenAlex abstract_inverted_index, Background/Methods section
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_009** — Source src_009: “This article reviews methods used since and that address those challenges, so helping to set an agenda for improving evaluations of heat plans in terms of their effectiveness in reducing heat-health impacts.”
+  - Locator: OpenAlex abstract_inverted_index, purpose sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_010** — Source src_010: “Strengthening Heat Action Plans in the United States”
+  - Locator: title
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_011** — Source src_011: “OBJECTIVES: To explore how these urban characteristics influence the temperature-mortality relationship in the Paris region.”
+  - Locator: OpenAlex abstract_inverted_index, Objectives section
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_012** — Source src_012: “This paper looks at the municipal evidence base in London.”
+  - Locator: OpenAlex abstract_inverted_index, focus sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_013** — Source src_013: “We examined the characteristics of populations living near cooling centers and how well they serve areas with high social vulnerability.”
+  - Locator: OpenAlex abstract_inverted_index, Objective sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_014** — Source src_014: “We conducted a literature review of field studies measuring the impact of urban cooling interventions, focusing on cooling centers, misting stations, cool pavements, and cool or green roofs.”
+  - Locator: OpenAlex abstract_inverted_index, methods sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_016** — Source src_016: “OBJECTIVES: We aimed to systematically examine the impacts of heat waves on mortality with lag effects internationally.”
+  - Locator: OpenAlex abstract_inverted_index, Objectives section
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_017** — Source src_017: “Thus, we conduct a scoping review of studies associating urban heat exposures with sociodemographic factors in the United States to provide an overview of the state of the literature.”
+  - Locator: OpenAlex abstract_inverted_index, purpose sentence
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
+- **quote_018** — Source src_018: “We evaluate the performance of five heat adaptation strategies (street trees, cool roofs, green roofs, rooftop photovoltaics (PV), and reflective pavements) during extreme heat events in three cities with contrasting background climates (Toronto, Phoenix, and Miami), under contemporary and end-of-century projected climates, based on three metrics: outdoor heat stress, air conditioning (AC) energy use, and ventilation of vehicular air pollution.”
+  - Locator: OpenAlex abstract_inverted_index, methods and outcomes passage
+  - Access level: abstract_only
+  - Evidence basis: abstract_and_metadata
