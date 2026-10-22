@@ -1,0 +1,659 @@
+{
+  "schema_version": "0.1",
+  "run_id": "2026-10-21-undergrad-capstone",
+  "created_at": "2026-10-22T01:32:05.969017Z",
+  "working_question": "What factors help undergraduate capstone projects and courses succeed?",
+  "context": {
+    "audience": "Undergraduate research capstone students and instructors",
+    "discipline": "Interdisciplinary higher education and engineering education",
+    "time_frame": "2016-2026",
+    "source_type_constraints": "Scholarly articles, conference proceedings, and books",
+    "purpose": "Identify themes and questions for a reading list relevant to undergraduate capstone work"
+  },
+  "breadth_tier": "Focused",
+  "output_mode": "Landscape",
+  "queries": [
+    {
+      "query_id": "landscape",
+      "tool": "UC Library Search via Primo PNX REST fallback",
+      "text": "(\"undergraduate capstone\" OR \"senior capstone\") AND (\"project-based learning\" OR \"research mentoring\")",
+      "filters": "facet_searchcreationdate,exact,[2016 TO 2026]",
+      "purpose": "Focused landscape of capstone project-based learning and mentoring",
+      "pages_screened": 1,
+      "records_screened": 12,
+      "fidelity_estimate": 0.67,
+      "decision": "Sufficient for initial themes; run one component search to test saturation."
+    },
+    {
+      "query_id": "component",
+      "tool": "UC Library Search via Primo PNX REST fallback",
+      "text": "(\"undergraduate capstone\" OR \"senior capstone\") AND (\"course design\" OR \"project design\")",
+      "filters": "facet_searchcreationdate,exact,[2016 TO 2026]",
+      "purpose": "Component search on course and project design",
+      "pages_screened": 1,
+      "records_screened": 14,
+      "fidelity_estimate": 0.6,
+      "decision": "Added course-design and professional-preparation perspectives without requiring another page."
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "landscape-01",
+      "citation": "Brandão, Alice Poggi et al. (n.d.). Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course.",
+      "permalink": "https://doi.org/10.1093/tas/txae020",
+      "title": "Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Design-based research across five course iterations",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; five-iteration design-based study; limitations not explicit in retrieved abstract",
+      "confidence": "high",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-02",
+      "citation": "Burmesch, Lyndsay M. et al. (n.d.). Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course.",
+      "permalink": "https://doi.org/10.4148/1051-0834.2555",
+      "title": "Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Convergent mixed-methods study",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; mixed-methods student perceptions; limitations not explicit in retrieved abstract",
+      "confidence": "high",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-03",
+      "citation": "Blackwell, Richard Q et al. (n.d.). Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach.",
+      "permalink": "https://doi.org/10.1177/03064190261429065",
+      "title": "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Game-theoretic modeling",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; formal model; limitations not explicit in retrieved abstract",
+      "confidence": "high",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-06",
+      "citation": "Mehrubeoglu, Mehrube et al. (n.d.). Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups.",
+      "permalink": "https://doi.org/10.1109/FIE58773.2023.10343194",
+      "title": "Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups",
+      "access_level": "Abstract only",
+      "source_type": "conference_proceeding",
+      "study_design": "Conference practice report / case study",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "IEEE conference proceedings; case study; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-07",
+      "citation": "Durrani, Usman et al. (n.d.). AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness.",
+      "permalink": "https://doi.org/10.1109/ITT69610.2025.11352914",
+      "title": "AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness",
+      "access_level": "Abstract only",
+      "source_type": "conference_proceeding",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "landscape-08",
+      "citation": "Govindasamy, Siddhartan et al. (n.d.). A contextualized, experiential learning approach to quantitative engineering analysis.",
+      "permalink": "https://doi.org/10.1109/FIE.2018.8658526",
+      "title": "A contextualized, experiential learning approach to quantitative engineering analysis",
+      "access_level": "Abstract only",
+      "source_type": "conference_proceeding",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "landscape-09",
+      "citation": "Lee, Namhun et al. (n.d.). A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course.",
+      "permalink": "https://doi.org/10.1109/ASEENE51624.2020.9292652",
+      "title": "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course",
+      "access_level": "Abstract only",
+      "source_type": "conference_proceeding",
+      "study_design": "Conference paper on systematic course design",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "IEEE conference proceedings; course-design case; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-10",
+      "citation": "Webster, Rustin et al. (n.d.). A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation.",
+      "permalink": "https://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fwww.proquest.com%2Fdocview%2F2318515183%2FfulltextPDF%3Fpq-origsite%3Dprimo",
+      "title": "A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Descriptive non-experimental follow-on study",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; small-sample descriptive study; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "landscape-11",
+      "citation": "Jackson, Hudson V et al. (n.d.). Progressive Integration of Design Process into Civil Engineering Curriculum.",
+      "permalink": "https://doi.org/10.1061/(ASCE)EI.1943-5541.0000269",
+      "title": "Progressive Integration of Design Process into Civil Engineering Curriculum",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "landscape-12",
+      "citation": "Butcher, Charity, 1976-$$QButcher, Charity et al. (2023). The Palgrave handbook of teaching and research in political science .",
+      "permalink": "https://doi.org/10.1007/978-3-031-42887-6",
+      "title": "The Palgrave handbook of teaching and research in political science ",
+      "access_level": "Abstract only",
+      "source_type": "book",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "landscape"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-01",
+      "citation": "Lin-Stephens, S., Manuguerra, M., & Uesi, J. (2018). Comparing STEM students’ and employers’ emphases on career information literacy: A study on undergraduate capstone units.",
+      "permalink": "https://www.proquest.com/docview/2247799369?pq-origsite=primo",
+      "title": "Comparing STEM Students' and Employers' Emphases on Career Information Literacy : A Study on Undergraduate Capstone Units",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Mixed-methods comparison of student and employer emphases",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Scholarly journal article; mixed-methods comparison; no DOI located; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "component-03",
+      "citation": "McCubbins, OP et al. (n.d.). Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course.",
+      "permalink": "https://doi.org/10.5032/jae.2016.03070",
+      "title": "Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Student-perception study of flipped capstone course",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; student-perception study; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "component-05",
+      "citation": "Harrison, Elgloria et al. (n.d.). Employing the ENHANCE Learning Model to Inform a High-Impact Course Design.",
+      "permalink": "https://doi.org/10.18848/1835-9795/CGP/v12i03/9-18",
+      "title": "Employing the ENHANCE Learning Model to Inform a High-Impact Course Design",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Longitudinal case study of course design",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Scholarly journal article; longitudinal course-design case; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "component-06",
+      "citation": "Bitz, Kristi L. et al. (n.d.). An Innovative Approach to the Psychology Capstone Course.",
+      "permalink": "https://doi.org/10.1177/00986283241268723",
+      "title": "An Innovative Approach to the Psychology Capstone Course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Course-design case study",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; course-design case; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "component-07",
+      "citation": "Verba, Susan et al. (n.d.). Unbounded: Integrating real-world problems into an undergraduate information design course.",
+      "permalink": "https://doi.org/10.1075/idj.22.3.07ver",
+      "title": "Unbounded: Integrating real-world problems into an undergraduate information design course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-08",
+      "citation": "Zekany, Stephen A. et al. (n.d.). Teaching Out-of-Order Processor Design with the RISC-V ISA.",
+      "permalink": "https://doi.org/10.1109/WCAE53984.2021.9707143",
+      "title": "Teaching Out-of-Order Processor Design with the RISC-V ISA",
+      "access_level": "Abstract only",
+      "source_type": "conference_proceeding",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-09",
+      "citation": "Tanaka, Martin L. et al. (n.d.). Structure and Management of an Engineering Senior Design Course.",
+      "permalink": "https://doi.org/10.1115/1.4033583",
+      "title": "Structure and Management of an Engineering Senior Design Course",
+      "access_level": "Abstract only",
+      "source_type": "article",
+      "study_design": "Descriptive study of senior design course structure",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Peer-reviewed journal article; descriptive course-structure study; limitations not explicit in retrieved abstract",
+      "confidence": "medium",
+      "connection_type": "direct_evidence",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "on_topic",
+      "selected": true
+    },
+    {
+      "source_id": "component-10",
+      "citation": "Mettler, Cory J. et al. (n.d.). Preliminary Design Review.",
+      "permalink": "https://doi.org/10.1007/978-3-031-23309-8_14",
+      "title": "Preliminary Design Review",
+      "access_level": "Abstract only",
+      "source_type": "book_chapter",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-11",
+      "citation": "Mettler, Cory J. et al. (n.d.). The Engineering Design Team.",
+      "permalink": "https://doi.org/10.1007/978-3-031-23309-8_4",
+      "title": "The Engineering Design Team",
+      "access_level": "Abstract only",
+      "source_type": "book_chapter",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-12",
+      "citation": " et al. (2023). Handbook of teaching and learning in sociology .",
+      "permalink": "",
+      "title": "Handbook of teaching and learning in sociology ",
+      "access_level": "Abstract only",
+      "source_type": "book",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "adjacent",
+      "selected": false
+    },
+    {
+      "source_id": "component-13",
+      "citation": " et al. (2023). Handbook of teaching and learning in sociology  / edited by Sergio A. Cabrera (assistant professor), Stephen Sweet (professor, department of sociology, Ithaca College, US)..",
+      "permalink": "",
+      "title": "Handbook of teaching and learning in sociology  / edited by Sergio A. Cabrera (assistant professor), Stephen Sweet (professor, department of sociology, Ithaca College, US).",
+      "access_level": "Abstract only",
+      "source_type": "book",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "duplicate",
+      "selected": false
+    },
+    {
+      "source_id": "component-14",
+      "citation": " et al. (2021). Research anthology on adult education and the development of lifelong learners .",
+      "permalink": "https://doi.org/10.4018/978-1-7998-8598-6",
+      "title": "Research anthology on adult education and the development of lifelong learners ",
+      "access_level": "Abstract only",
+      "source_type": "book",
+      "study_design": "Not explicit in retrieved metadata",
+      "evidence_base": "Retrieved abstract or publisher description; full text not yet reviewed",
+      "credibility": "Not assessed in detail from retrieved metadata",
+      "confidence": "low",
+      "connection_type": "interpretive_connection",
+      "linked_queries": [
+        "component"
+      ],
+      "classification": "noise",
+      "selected": false
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "theme-01",
+      "name": "Scaffolded design thinking",
+      "summary": "Sources describe design thinking as a staged process for collaborative capstone work.",
+      "source_ids": [
+        "landscape-01"
+      ]
+    },
+    {
+      "theme_id": "theme-02",
+      "name": "Student perceptions of project-based capstones",
+      "summary": "Sources examine what students find useful or challenging in capstone projects.",
+      "source_ids": [
+        "landscape-02",
+        "component-03"
+      ]
+    },
+    {
+      "theme_id": "theme-03",
+      "name": "Stakeholder alignment and incentives",
+      "summary": "Sources model competing objectives among students, faculty, and sponsors.",
+      "source_ids": [
+        "landscape-03"
+      ]
+    },
+    {
+      "theme_id": "theme-04",
+      "name": "Equity and engagement in applied projects",
+      "summary": "Sources consider engagement for historically underrepresented groups in IoT-based capstones.",
+      "source_ids": [
+        "landscape-06"
+      ]
+    },
+    {
+      "theme_id": "theme-05",
+      "name": "Course design models and capstone preparation",
+      "summary": "Sources describe course design approaches intended to prepare students for professional practice.",
+      "source_ids": [
+        "landscape-09",
+        "landscape-10",
+        "component-05",
+        "component-06",
+        "component-09"
+      ]
+    },
+    {
+      "theme_id": "theme-06",
+      "name": "Career information literacy",
+      "summary": "Sources compare student and employer emphases on career information literacy.",
+      "source_ids": [
+        "component-01"
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "question-01",
+      "question": "How does scaffolded design thinking shape capstone engagement and teamwork?",
+      "theme_ids": [
+        "theme-01"
+      ],
+      "source_ids": [
+        "landscape-01"
+      ],
+      "origin": "source-backed",
+      "confidence": "high"
+    },
+    {
+      "question_id": "question-02",
+      "question": "What do students find valuable or challenging in project-based capstones?",
+      "theme_ids": [
+        "theme-02"
+      ],
+      "source_ids": [
+        "landscape-02",
+        "component-03"
+      ],
+      "origin": "source-backed",
+      "confidence": "high"
+    },
+    {
+      "question_id": "question-03",
+      "question": "How can conflicting incentives among students, faculty, and sponsors be modeled or managed?",
+      "theme_ids": [
+        "theme-03"
+      ],
+      "source_ids": [
+        "landscape-03"
+      ],
+      "origin": "source-backed",
+      "confidence": "high"
+    },
+    {
+      "question_id": "question-04",
+      "question": "How do IoT-based capstone projects affect engagement for historically underrepresented groups?",
+      "theme_ids": [
+        "theme-04"
+      ],
+      "source_ids": [
+        "landscape-06"
+      ],
+      "origin": "source-backed",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "question-05",
+      "question": "How do different capstone course designs prepare students for professional practice?",
+      "theme_ids": [
+        "theme-05"
+      ],
+      "source_ids": [
+        "landscape-09",
+        "landscape-10",
+        "component-05",
+        "component-06",
+        "component-09"
+      ],
+      "origin": "source-backed",
+      "confidence": "medium"
+    },
+    {
+      "question_id": "question-06",
+      "question": "How do student and employer emphases on career information literacy align?",
+      "theme_ids": [
+        "theme-06"
+      ],
+      "source_ids": [
+        "component-01"
+      ],
+      "origin": "source-backed",
+      "confidence": "medium"
+    }
+  ],
+  "selected_paths": [
+    {
+      "path": "reading_list",
+      "theme_ids": [
+        "theme-05",
+        "theme-06"
+      ],
+      "question_ids": [
+        "question-05",
+        "question-06"
+      ]
+    }
+  ],
+  "limitations": [
+    "All selected records were screened from abstracts or publisher descriptions; full texts were not reviewed.",
+    "UC Library Search was used through the keyless Primo PNX REST fallback because no PRIMO_KEY was present.",
+    "The focused landscape and one component search identified capstone-specific literature, but coverage is not exhaustive.",
+    "Several useful sources were excluded as adjacent or duplicates during screening."
+  ],
+  "stage_log": [
+    {
+      "timestamp": "2026-10-22T01:32:05.969162Z",
+      "note": "Working question set to undergraduate capstone project design; focused landscape selected.",
+      "stage": "intake",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T01:32:06.163505Z",
+      "note": "Fetched one page of 20 records with 2016-2026 date filter.",
+      "stage": "landscape",
+      "status": "started"
+    },
+    {
+      "timestamp": "2026-10-22T01:33:20.395794Z",
+      "note": "Two PNX queries screened 26 records, 22 unique, 10 selected; landscape treated as saturated for current purpose.",
+      "stage": "landscape",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T01:33:20.445550Z",
+      "note": "User-selected reading list path on course design and career information literacy.",
+      "stage": "selection",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T01:34:07.689194Z",
+      "note": "Produced curated reading list on capstone course design and professional preparation using landscape sources.",
+      "stage": "deep_work",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T01:34:28.878796Z",
+      "note": "Created search-log.md and review.md; validator passed.",
+      "stage": "audit",
+      "status": "completed"
+    }
+  ],
+  "reference_log": [
+    {
+      "timestamp": "2026-10-22T01:32:06.017609Z",
+      "note": "",
+      "reference": "references/interaction-model.md",
+      "purpose": "Initialize run state and workflow stages",
+      "evidence": "Used stage definitions, landscape requirement, and stage/reference logging schema."
+    },
+    {
+      "timestamp": "2026-10-22T01:32:06.066215Z",
+      "note": "",
+      "reference": "references/search-and-selection.md",
+      "purpose": "Build and execute UC Library Search landscape",
+      "evidence": "Used Primo-first pathway, adaptive screening thresholds, and component-decision guidance."
+    },
+    {
+      "timestamp": "2026-10-22T01:32:06.115794Z",
+      "note": "",
+      "reference": "references/response-templates.md",
+      "purpose": "Prepare landscape and reading-list outputs",
+      "evidence": "Used initial landscape and reading-list required-element contracts."
+    },
+    {
+      "timestamp": "2026-10-22T01:34:07.640002Z",
+      "note": "",
+      "reference": "references/annotation-rules.md",
+      "purpose": "Prepare reading-list confidence and provenance",
+      "evidence": "Used connection classifications, confidence guidance, and access-level reporting."
+    }
+  ],
+  "updated_at": "2026-10-22T01:34:28.878679Z"
+}
