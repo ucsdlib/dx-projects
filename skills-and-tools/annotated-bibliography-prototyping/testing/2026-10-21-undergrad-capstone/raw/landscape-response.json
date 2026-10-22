@@ -1,0 +1,3916 @@
+{
+  "beaconO22": "219",
+  "info": {
+    "totalResultsLocal": 0,
+    "totalResultsPC": 11,
+    "total": 12,
+    "first": 1,
+    "last": 12
+  },
+  "highlights": {
+    "snippet": [
+      "project",
+      "based learning",
+      "project-based learning",
+      "undergraduate",
+      "capstone",
+      "undergraduate capstone",
+      "senior capstone",
+      "Senior Capstone"
+    ],
+    "title": [
+      "senior capstone",
+      "((((\"undergraduate capstone\") OR (\"senior capstone\"))) AND (((\"project-based learning\") OR (\"research mentoring\"))))",
+      "Project",
+      "Based Learning",
+      "Project-Based Learning"
+    ],
+    "termsUnion": [
+      "project",
+      "based learning",
+      "project-based learning",
+      "undergraduate",
+      "capstone",
+      "undergraduate capstone",
+      "senior capstone",
+      "Senior Capstone",
+      "((((\"undergraduate capstone\") OR (\"senior capstone\"))) AND (((\"project-based learning\") OR (\"research mentoring\"))))",
+      "Project",
+      "Based Learning",
+      "Project-Based Learning"
+    ]
+  },
+  "docs": [
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "backlink": [
+            "$$Uhttps://www.ncbi.nlm.nih.gov/pubmed/38572174$$D View this record in MEDLINE/PubMed$$Hfree_for_read$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://www.proquest.com/docview/3174466061?pq-origsite=primo$$EHTML$$Gproquest$$Hfree_for_read$$Pomit_proxy_true"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://academic.oup.com/tas/advance-article-pdf/doi/10.1093/tas/txae020/56684649/txae020.pdf$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "issn": [
+            "2573-2102",
+            "2573-2102"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Learning",
+            "Problem solving",
+            "Zoology"
+          ],
+          "title": [
+            "Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course",
+            "Translational animal science"
+          ],
+          "sourceid": [
+            "TOX",
+            "NPM",
+            "PIMPY"
+          ],
+          "recordid": [
+            "eNp9kc9rFTEQx4MottSevEtAEEGenSSbpPFSpPUXFLzoOWTzJtvU3eSZ7Bb975vHe5Za0FMmM5_5Mt8ZQp4zeMvAiJPZ1ZP5l0Pg8IgccqnFijPgj-_FB-S41msAYMYYxeApORCnUnOmu0OSL7DGIdH5KqYfMQ005EIxDW7ANR3RlbRNxkRdipMbafURk8d3rVZrTpWGkica4g3SihPWGUulOVDXvik2Le82dc4Jqc9LqfiMPAlurHi8f4_I948fvp1_Xl1-_fTl_P3lyncdm1dKeseRgzHS6aC46ZXugmxpofu-l0F2XvG1XGvgp-B7Cc4zz6RjQXXadOKInO10N0s_4dpjmosb7aY0F-W3zS7avyspXtkh39i2VQMgRVN4vVco-efSnNkpVo_j6BLmpVoBQgBoY3hDXz5Ar5vZ1PxZ0bbcKQWKNerF_ZHuZvlzjAa82QG-5FoLhjuEwXYuYdu17f7ajWYPaB9nN8e89RPHf_S82vXkZfNf8Vt747ta"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Brandão, Alice Poggi",
+            "Donaldson, Jonan Phillip",
+            "Dunlap, Kathrin Anson",
+            "Wiegert, Jeffrey Glennon",
+            "Kao, Sean",
+            "Paudyal, Sushil"
+          ],
+          "creationdate": [
+            "2024"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0001-7248-3919"
+          ],
+          "addtitle": [
+            "Transl Anim Sci"
+          ],
+          "general": [
+            "Oxford University Press"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20240101"
+          ],
+          "enddate": [
+            "20240101"
+          ],
+          "scope": [
+            "TOX",
+            "AAYXX",
+            "CITATION",
+            "NPM",
+            "8FE",
+            "8FH",
+            "ABUWG",
+            "AFKRA",
+            "AHNLN",
+            "AZQEC",
+            "BBNVY",
+            "BENPR",
+            "BHPHI",
+            "CCPQU",
+            "DWQXO",
+            "GNUQQ",
+            "HCIFZ",
+            "LK8",
+            "M7P",
+            "PHGZM",
+            "PHGZT",
+            "PIMPY",
+            "PKEHL",
+            "PQEST",
+            "PQGLB",
+            "PQQKQ",
+            "PQUKI",
+            "7X8",
+            "5PM"
+          ],
+          "description": [
+            "Abstract\nThis study presents a design-based research approach involving five iterations (semester) of implementing design thinking for engaged learning (DTEL) in an animal science capstone course. DTEL scaffolds design thinking into 10 stages for collaborative project-based learning to foster skills like problem solving and teamwork. Across five semesters (spring 2021 to spring 2023), student reflections (n = 276) were analyzed to identify aspects that worked well or were challenging. Network analysis visualized relationships (P < 0.05; Q > 0.4) between codes representing strengths, struggles, and alignment with principles from learning theories. Utilizing the relationships between strengths and theory-based principles to address struggles, resulted in changes to the design of the capstone course each iteration (time that the course was taught). The complexity of maps increased over iterations. Initially, struggles were prominent but decreased as responsive design refinements were made. Alignment of student experiences with principles from learning theories grew substantially from the first iteration to the last (theory-related nodes representing 11.4% vs. 24.4% in each network map, respectively), with learning theories also occupying more central positions in the last map (iteration five) compared to earlier ones (iterations one through four). These changes suggest student experiences increasingly aligned with principles of cognitive constructivism, social constructivism, constructionism, situated learning, and transformative learning. Design principles derived from the five-iteration study include: (1) allocating most time to hands-on lab work vs. lecture, (2) designating a coordinator faculty, (3) scaffolding for instructors unfamiliar with DTEL, (4) emphasizing consistency in processes over grades, and (5) intentionally developing teamwork skills. The study demonstrates the value of design-based research for iteratively refining and studying learning experiences to foster critical skills for undergraduate students in animal science.\nThis research demonstrates how design thinking can be implemented in animal science to foster critical thinking and problem-solving skills vital for tackling complex real-world issues. Continuous refinement based on student feedback is key to creating effective learning experiences that align with principles from learning theories.\nLay Summary\nPreparing students for complex real-world problems requires learning experiences that foster critical thinking, problem-solving, and teamwork skills. This study implemented and evaluated an instructional approach called design thinking for engaged learning (DTEL) in an animal science capstone course over five semesters. DTEL breaks creative problem solving into stages for real-world team projects. Students reflected on beneficial and challenging aspects after each semester. Their anonymous feedback was analyzed to see what worked well or needed improvement. Network maps were created to visualize relationships between strengths, struggles, and alignment with learning theories. The maps grew more complex over time, and student experiences improved after data-driven design changes were made. Alignment of student experiences with principles from learning theories increased, suggesting the approach effectively engaged students. Key lessons learned include dedicating most class time to hands-on work, designating a coordinator instructor, providing scaffolding for new instructors, emphasizing learning processes over grades, and intentionally building teamwork skills. The study shows the value of continuously gathering student input to refine animal science courses to develop critical skills."
+          ],
+          "creatorcontrib": [
+            "Brandão, Alice Poggi",
+            "Donaldson, Jonan Phillip",
+            "Dunlap, Kathrin Anson",
+            "Wiegert, Jeffrey Glennon",
+            "Kao, Sean",
+            "Paudyal, Sushil"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Oxford Journals Open Access Collection",
+            "Publicly Available Content Database",
+            "PubMed",
+            "DOAJ Directory of Open Access Journals",
+            "ROAD: Directory of Open Access Scholarly Resources",
+            "PubMed Central"
+          ],
+          "creator": [
+            "Brandão, Alice Poggi ; Donaldson, Jonan Phillip ; Dunlap, Kathrin Anson ; Wiegert, Jeffrey Glennon ; Kao, Sean ; Paudyal, Sushil"
+          ],
+          "publisher": [
+            "US: Oxford University Press"
+          ],
+          "ispartof": [
+            "Translational animal science, 2024-01, Vol.8, p.txae020"
+          ],
+          "identifier": [
+            "ISSN: 2573-2102",
+            "EISSN: 2573-2102",
+            "DOI: 10.1093/tas/txae020",
+            "PMID: 38572174"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "The Author(s) 2024. Published by Oxford University Press on behalf of the American Society of Animal Science. 2024",
+            "The Author(s) 2024. Published by Oxford University Press on behalf of the American Society of Animal Science.",
+            "The Author(s) 2024. Published by Oxford University Press on behalf of the American Society of Animal Science. This work is published under http://creativecommons.org/licenses/by-nc/4.0/ (the “License”). Notwithstanding the ProQuest Terms and Conditions, you may use this content in accordance with the terms of the License."
+          ],
+          "snippet": [
+            ".... DTEL scaffolds design thinking into 10 stages for collaborative project-based learning to foster skills like problem solving and teamwork...",
+            "... (DTEL) in an animal science capstone course. DTEL scaffolds design thinking into 10 stages for collaborative project-based learning to foster skills like problem solving and teamwork..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "Abstract\nThis study presents a design-based research approach involving five iterations (semester) of implementing design thinking for engaged learning (DTEL) in an animal science capstone course. DTEL scaffolds design thinking into 10 stages for collaborative project-based learning to foster skills like problem solving and teamwork. Across five semesters (spring 2021 to spring 2023), student reflections (n = 276) were analyzed to identify aspects that worked well or were challenging. Network analysis visualized relationships (P < 0.05; Q > 0.4) between codes representing strengths, struggles, and alignment with principles from learning theories. Utilizing the relationships between strengths and theory-based principles to address struggles, resulted in changes to the design of the capstone course each iteration (time that the course was taught). The complexity of maps increased over iterations. Initially, struggles were prominent but decreased as responsive design refinements were made. Alignment of student experiences with principles from learning theories grew substantially from the first iteration to the last (theory-related nodes representing 11.4% vs. 24.4% in each network map, respectively), with learning theories also occupying more central positions in the last map (iteration five) compared to earlier ones (iterations one through four). These changes suggest student experiences increasingly aligned with principles of cognitive constructivism, social constructivism, constructionism, situated learning, and transformative learning. Design principles derived from the five-iteration study include: (1) allocating most time to hands-on lab work vs. lecture, (2) designating a coordinator faculty, (3) scaffolding for instructors unfamiliar with DTEL, (4) emphasizing consistency in processes over grades, and (5) intentionally developing teamwork skills. The study demonstrates the value of design-based research for iteratively refining and studying learning experiences to foster critical skills for undergraduate students in animal science.\nThis research demonstrates how design thinking can be implemented in animal science to foster critical thinking and problem-solving skills vital for tackling complex real-world issues. Continuous refinement based on student feedback is key to creating effective learning experiences that align with principles from learning theories.\nLay Summary\nPreparing students for complex real-world problems requires learning experiences that foster critical thinking, problem-solving, and teamwork skills. This study implemented and evaluated an instructional approach called design thinking for engaged learning (DTEL) in an animal science capstone course over five semesters. DTEL breaks creative problem solving into stages for real-world team projects. Students reflected on beneficial and challenging aspects after each semester. Their anonymous feedback was analyzed to see what worked well or needed improvement. Network maps were created to visualize relationships between strengths, struggles, and alignment with learning theories. The maps grew more complex over time, and student experiences improved after data-driven design changes were made. Alignment of student experiences with principles from learning theories increased, suggesting the approach effectively engaged students. Key lessons learned include dedicating most class time to hands-on work, designating a coordinator instructor, providing scaffolding for new instructors, emphasizing learning processes over grades, and intentionally building teamwork skills. The study shows the value of continuously gathering student input to refine animal science courses to develop critical skills."
+          ],
+          "subject": [
+            "Learning ;  Problem solving ;  Zoology"
+          ],
+          "keyword": [
+            "Animal sciences ;  Capstone projects ;  Constructivism ;  Design thinking ;  Social discrimination learning ;  Teaching Animal Science"
+          ]
+        },
+        "addata": {
+          "issn": [
+            "2573-2102"
+          ],
+          "abstract": [
+            "Abstract\nThis study presents a design-based research approach involving five iterations (semester) of implementing design thinking for engaged learning (DTEL) in an animal science capstone course. DTEL scaffolds design thinking into 10 stages for collaborative project-based learning to foster skills like problem solving and teamwork. Across five semesters (spring 2021 to spring 2023), student reflections (n = 276) were analyzed to identify aspects that worked well or were challenging. Network analysis visualized relationships (P < 0.05; Q > 0.4) between codes representing strengths, struggles, and alignment with principles from learning theories. Utilizing the relationships between strengths and theory-based principles to address struggles, resulted in changes to the design of the capstone course each iteration (time that the course was taught). The complexity of maps increased over iterations. Initially, struggles were prominent but decreased as responsive design refinements were made. Alignment of student experiences with principles from learning theories grew substantially from the first iteration to the last (theory-related nodes representing 11.4% vs. 24.4% in each network map, respectively), with learning theories also occupying more central positions in the last map (iteration five) compared to earlier ones (iterations one through four). These changes suggest student experiences increasingly aligned with principles of cognitive constructivism, social constructivism, constructionism, situated learning, and transformative learning. Design principles derived from the five-iteration study include: (1) allocating most time to hands-on lab work vs. lecture, (2) designating a coordinator faculty, (3) scaffolding for instructors unfamiliar with DTEL, (4) emphasizing consistency in processes over grades, and (5) intentionally developing teamwork skills. The study demonstrates the value of design-based research for iteratively refining and studying learning experiences to foster critical skills for undergraduate students in animal science.\nThis research demonstrates how design thinking can be implemented in animal science to foster critical thinking and problem-solving skills vital for tackling complex real-world issues. Continuous refinement based on student feedback is key to creating effective learning experiences that align with principles from learning theories.\nLay Summary\nPreparing students for complex real-world problems requires learning experiences that foster critical thinking, problem-solving, and teamwork skills. This study implemented and evaluated an instructional approach called design thinking for engaged learning (DTEL) in an animal science capstone course over five semesters. DTEL breaks creative problem solving into stages for real-world team projects. Students reflected on beneficial and challenging aspects after each semester. Their anonymous feedback was analyzed to see what worked well or needed improvement. Network maps were created to visualize relationships between strengths, struggles, and alignment with learning theories. The maps grew more complex over time, and student experiences improved after data-driven design changes were made. Alignment of student experiences with principles from learning theories increased, suggesting the approach effectively engaged students. Key lessons learned include dedicating most class time to hands-on work, designating a coordinator instructor, providing scaffolding for new instructors, emphasizing learning processes over grades, and intentionally building teamwork skills. The study shows the value of continuously gathering student input to refine animal science courses to develop critical skills."
+          ],
+          "jtitle": [
+            "Translational animal science"
+          ],
+          "genre": [
+            "article"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0001-7248-3919"
+          ],
+          "addtitle": [
+            "Transl Anim Sci"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "au": [
+            "Brandão, Alice Poggi",
+            "Donaldson, Jonan Phillip",
+            "Dunlap, Kathrin Anson",
+            "Wiegert, Jeffrey Glennon",
+            "Kao, Sean",
+            "Paudyal, Sushil"
+          ],
+          "atitle": [
+            "Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course"
+          ],
+          "date": [
+            "2024-01-01"
+          ],
+          "risdate": [
+            "2024"
+          ],
+          "volume": [
+            "8"
+          ],
+          "spage": [
+            "txae020"
+          ],
+          "pages": [
+            "txae020-"
+          ],
+          "eissn": [
+            "2573-2102"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "US"
+          ],
+          "pub": [
+            "Oxford University Press"
+          ],
+          "doi": [
+            "10.1093/tas/txae020"
+          ],
+          "pmid": [
+            "38572174"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2024"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Learning",
+            "Problem solving",
+            "Zoology"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "Oxford Journals Open Access Collection",
+            "CrossRef",
+            "PubMed",
+            "ProQuest SciTech Collection",
+            "ProQuest Natural Science Collection",
+            "ProQuest Central (Alumni)",
+            "ProQuest Central UK/Ireland",
+            "ProQuest Central Premium Korea",
+            "ProQuest Central Essentials",
+            "Biological Science Collection",
+            "ProQuest Central",
+            "Natural Science Collection",
+            "ProQuest One Community College",
+            "ProQuest Central Korea",
+            "ProQuest Central Student",
+            "SciTech Premium Collection",
+            "ProQuest Biological Science Collection",
+            "Biological Science Database",
+            "Proquest Central Premium",
+            "ProQuest One Academic",
+            "Publicly Available Content Database",
+            "ProQuest One Academic Middle East (New)",
+            "ProQuest One Academic Eastern Edition (DO NOT USE)",
+            "ProQuest One Applied & Life Sciences",
+            "ProQuest One Academic (retired)",
+            "ProQuest One Academic UKI Edition",
+            "MEDLINE - Academic",
+            "PubMed Central (Full Participant titles)"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c441t-65ca2e20995a7f629b674f565c37bbb5f54c62d5d70280cb50ac1c15a1f647943"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Translational animal science"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Brandão, Alice Poggi",
+            "Donaldson, Jonan Phillip",
+            "Dunlap, Kathrin Anson",
+            "Wiegert, Jeffrey Glennon",
+            "Kao, Sean",
+            "Paudyal, Sushil"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Brandão, Alice Poggi ; Donaldson, Jonan Phillip ; Dunlap, Kathrin Anson ; Wiegert, Jeffrey Glennon ; Kao, Sean ; Paudyal, Sushil"
+          ],
+          "title": [
+            "Design thinking for engaged learning in animal science: lessons from five semesters of a senior capstone course"
+          ],
+          "creationdate": [
+            "20240101"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_pubme"
+          ],
+          "recordid": [
+            "cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_10990053"
+          ],
+          "sourcerecordid": [
+            "3174466061"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c441t-65ca2e20995a7f629b674f565c37bbb5f54c62d5d70280cb50ac1c15a1f647943"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNp9kc9rFTEQx4MottSevEtAEEGenSSbpPFSpPUXFLzoOWTzJtvU3eSZ7Bb975vHe5Za0FMmM5_5Mt8ZQp4zeMvAiJPZ1ZP5l0Pg8IgccqnFijPgj-_FB-S41msAYMYYxeApORCnUnOmu0OSL7DGIdH5KqYfMQ005EIxDW7ANR3RlbRNxkRdipMbafURk8d3rVZrTpWGkica4g3SihPWGUulOVDXvik2Le82dc4Jqc9LqfiMPAlurHi8f4_I948fvp1_Xl1-_fTl_P3lyncdm1dKeseRgzHS6aC46ZXugmxpofu-l0F2XvG1XGvgp-B7Cc4zz6RjQXXadOKInO10N0s_4dpjmosb7aY0F-W3zS7avyspXtkh39i2VQMgRVN4vVco-efSnNkpVo_j6BLmpVoBQgBoY3hDXz5Ar5vZ1PxZ0bbcKQWKNerF_ZHuZvlzjAa82QG-5FoLhjuEwXYuYdu17f7ajWYPaB9nN8e89RPHf_S82vXkZfNf8Vt747ta"
+          ],
+          "sourcetype": [
+            "Open Access Repository"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "3174466061"
+          ],
+          "oupid": [
+            "10.1093/tas/txae020"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "pmcid": [
+            "PMC10990053"
+          ],
+          "score": [
+            "0.06778858"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_pubme&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Design+thinking+for+engaged+learning+in+animal+science%3A+lessons+from+five+semesters+of+a+senior+capstone+course&rft.jtitle=Translational+animal+science&rft.au=Brand%C3%A3o%2C+Alice+Poggi&rft.date=2024-01-01&rft.volume=8&rft.spage=txae020&rft.pages=txae020-&rft.issn=2573-2102&rft.eissn=2573-2102&rft_id=info:doi/10.1093%2Ftas%2Ftxae020&rft.pub=Oxford+University+Press&rft.place=US&rft_id=info:pmid/38572174&rft_dat=<proquest_pubme>3174466061</proquest_pubme>&svc_dat=viewit&rft_pqid=3174466061&rft_oup_id=10.1093%2Ftas%2Ftxae020"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-c441t-65ca2e20995a7f629b674f565c37bbb5f54c62d5d70280cb50ac1c15a1f647943"
+          ],
+          "citedby": [
+            "FETCH-LOGICAL-c441t-65ca2e20995a7f629b674f565c37bbb5f54c62d5d70280cb50ac1c15a1f647943"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_10990053"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://newprairiepress.org/cgi/viewcontent.cgi?article=2555&context=jac$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "issn": [
+            "1051-0834",
+            "1051-0834"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Agricultural education",
+            "Communication",
+            "Research",
+            "Study and teaching"
+          ],
+          "title": [
+            "Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course",
+            "Journal of applied communications"
+          ],
+          "recordid": [
+            "eNqNkc1LwzAYh4soOKdXz7l56myapB_HWuYUJht-nEOavhkZbVqSVvS_t9UhU1QkhyQvz_O-JD_PO8fBjGKaXOKAYT9ICJ2FjLEDb_JZONw7H3snzm2DIKJJmky87fylrRqrzQY9dH0JpkNrsK4F2elncKhRaG2b7XD1r4SDEi1BWDPi2iBhULaxWvZV11tRobyp695oKTrdGIdy0bquMTDUe-vg1DtSonJwttun3tP1_DG_8ZerxW2eLX1JwpT5OA3TAseCxAFIHGMVEUWDCCgUKgmLCJiCUiYqLtOCgCAqKmkhVEwKRhUZnjj1Lj76bkQFfJivdAW1dpKv71fXPEvChGAaMfYXuc7v_ktmi6_kbI_URjWdFXJY5cDLnfmjIG3jnAXFW6trYV85DvgYLB-z42N2fAx2EOg3Qeru_cuHSbr6TXsDv8aj7A"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Burmesch, Lyndsay M.",
+            "Coleman, Bradley M.",
+            "King, Audrey E. H.",
+            "Legg, Shelly",
+            "Cartmell, D. Dwayne"
+          ],
+          "creationdate": [
+            "2024"
+          ],
+          "general": [
+            "Agricultural Communicators in Education"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20241201"
+          ],
+          "enddate": [
+            "20241201"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "IAG",
+            "ICO",
+            "IER"
+          ],
+          "description": [
+            "Capstone courses can foster skills like teamwork, communication, and interpersonal skills, and projectbased learning can be an effective approach to such courses. This study explored students' perceptions and experiences of a project-based learning approach in an undergraduate, capstone, agricultural communications course. Using a convergent mixed-methods design, an end of course questionnaire was administered, and post-course focus groups were conducted. The highest scored item was 'I was satisfied with the level and quality of communication I had with the instructor.' The lowest scored item was 'the course helped me develop a deeper appreciation for the subject.' Qualitatively, two overarching themes emerged: (a) project-based learning: \"I can do this. I did this,\" and (b) realistic application: an invaluable foundation. The first theme included four sub-themes: (a) critical thinking: \"trial by fire,\" (b) feedback... \"is really critical,\" (c) pride and effort: \"we're making a freaking magazine,\" and (d) project fatigue: \"it's hard to not have an attitude.\" The second theme included two sub-themes: (a) collaboration: balancing \"so many personalities,\" and (b) burnout and stress: \"a million little things.\" The findings of this study further support the use of PBL in higher education. The course provided preparation for postgraduation endeavors, with students recognizing the transferability of skills across career paths. While students discussed experiencing project fatigue, instructors may mitigate stress by establishing clear expectations, providing a schedule and deadlines, and providing assistance. Additional research exploring project-based learning in agricultural communications settings is needed to offer deeper insights regarding student learning outcomes. Keywords college teaching, project-based learning, capstone course, agricultural communications, mixed methods"
+          ],
+          "creatorcontrib": [
+            "Burmesch, Lyndsay M.",
+            "Coleman, Bradley M.",
+            "King, Audrey E. H.",
+            "Legg, Shelly",
+            "Cartmell, D. Dwayne"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Free E-Resources"
+          ],
+          "creator": [
+            "Burmesch, Lyndsay M. ; Coleman, Bradley M. ; King, Audrey E. H. ; Legg, Shelly ; Cartmell, D. Dwayne"
+          ],
+          "publisher": [
+            "Agricultural Communicators in Education"
+          ],
+          "ispartof": [
+            "Journal of applied communications, 2024-12, Vol.108 (4), p.COV10"
+          ],
+          "identifier": [
+            "ISSN: 1051-0834",
+            "EISSN: 1051-0834",
+            "DOI: 10.4148/1051-0834.2555"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "COPYRIGHT 2024 Agricultural Communicators in Education"
+          ],
+          "snippet": [
+            ".... This study explored students' perceptions and experiences of a project-based learning approach in an undergraduate, capstone, agricultural communications course..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "Capstone courses can foster skills like teamwork, communication, and interpersonal skills, and projectbased learning can be an effective approach to such courses. This study explored students' perceptions and experiences of a project-based learning approach in an undergraduate, capstone, agricultural communications course. Using a convergent mixed-methods design, an end of course questionnaire was administered, and post-course focus groups were conducted. The highest scored item was 'I was satisfied with the level and quality of communication I had with the instructor.' The lowest scored item was 'the course helped me develop a deeper appreciation for the subject.' Qualitatively, two overarching themes emerged: (a) project-based learning: \"I can do this. I did this,\" and (b) realistic application: an invaluable foundation. The first theme included four sub-themes: (a) critical thinking: \"trial by fire,\" (b) feedback... \"is really critical,\" (c) pride and effort: \"we're making a freaking magazine,\" and (d) project fatigue: \"it's hard to not have an attitude.\" The second theme included two sub-themes: (a) collaboration: balancing \"so many personalities,\" and (b) burnout and stress: \"a million little things.\" The findings of this study further support the use of PBL in higher education. The course provided preparation for postgraduation endeavors, with students recognizing the transferability of skills across career paths. While students discussed experiencing project fatigue, instructors may mitigate stress by establishing clear expectations, providing a schedule and deadlines, and providing assistance. Additional research exploring project-based learning in agricultural communications settings is needed to offer deeper insights regarding student learning outcomes. Keywords college teaching, project-based learning, capstone course, agricultural communications, mixed methods"
+          ],
+          "subject": [
+            "Agricultural education ;  Communication ;  Research ;  Study and teaching"
+          ],
+          "keyword": [
+            "Educational research ;  Project-based learning"
+          ]
+        },
+        "addata": {
+          "issn": [
+            "1051-0834"
+          ],
+          "abstract": [
+            "Capstone courses can foster skills like teamwork, communication, and interpersonal skills, and projectbased learning can be an effective approach to such courses. This study explored students' perceptions and experiences of a project-based learning approach in an undergraduate, capstone, agricultural communications course. Using a convergent mixed-methods design, an end of course questionnaire was administered, and post-course focus groups were conducted. The highest scored item was 'I was satisfied with the level and quality of communication I had with the instructor.' The lowest scored item was 'the course helped me develop a deeper appreciation for the subject.' Qualitatively, two overarching themes emerged: (a) project-based learning: \"I can do this. I did this,\" and (b) realistic application: an invaluable foundation. The first theme included four sub-themes: (a) critical thinking: \"trial by fire,\" (b) feedback... \"is really critical,\" (c) pride and effort: \"we're making a freaking magazine,\" and (d) project fatigue: \"it's hard to not have an attitude.\" The second theme included two sub-themes: (a) collaboration: balancing \"so many personalities,\" and (b) burnout and stress: \"a million little things.\" The findings of this study further support the use of PBL in higher education. The course provided preparation for postgraduation endeavors, with students recognizing the transferability of skills across career paths. While students discussed experiencing project fatigue, instructors may mitigate stress by establishing clear expectations, providing a schedule and deadlines, and providing assistance. Additional research exploring project-based learning in agricultural communications settings is needed to offer deeper insights regarding student learning outcomes. Keywords college teaching, project-based learning, capstone course, agricultural communications, mixed methods"
+          ],
+          "jtitle": [
+            "Journal of applied communications"
+          ],
+          "genre": [
+            "article"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "au": [
+            "Burmesch, Lyndsay M.",
+            "Coleman, Bradley M.",
+            "King, Audrey E. H.",
+            "Legg, Shelly",
+            "Cartmell, D. Dwayne"
+          ],
+          "atitle": [
+            "Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course"
+          ],
+          "date": [
+            "2024-12-01"
+          ],
+          "risdate": [
+            "2024"
+          ],
+          "volume": [
+            "108"
+          ],
+          "issue": [
+            "4"
+          ],
+          "spage": [
+            "COV10"
+          ],
+          "pages": [
+            "COV10-"
+          ],
+          "eissn": [
+            "1051-0834"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "pub": [
+            "Agricultural Communicators in Education"
+          ],
+          "doi": [
+            "10.4148/1051-0834.2555"
+          ],
+          "tpages": [
+            "21"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2024"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Agricultural education",
+            "Communication",
+            "Research",
+            "Study and teaching"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "Gale OneFile: Agriculture",
+            "Gale OneFile: Communications and Mass Media",
+            "Educator's Reference Complete"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c3295-1929b17a370ec171f63f406e4ebf82b6e5fedc8f7d9b3ea3f6d4baf73b54f3083"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Journal of applied communications"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Burmesch, Lyndsay M.",
+            "Coleman, Bradley M.",
+            "King, Audrey E. H.",
+            "Legg, Shelly",
+            "Cartmell, D. Dwayne"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Burmesch, Lyndsay M. ; Coleman, Bradley M. ; King, Audrey E. H. ; Legg, Shelly ; Cartmell, D. Dwayne"
+          ],
+          "title": [
+            "Exploring Student Perspectives of Project-Based Learning in an Agricultural Communications Capstone Course"
+          ],
+          "creationdate": [
+            "20241201"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "gale_cross"
+          ],
+          "recordid": [
+            "cdi_gale_onefilemisc_PROF_A828314655"
+          ],
+          "sourcerecordid": [
+            "A828314655"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c3295-1929b17a370ec171f63f406e4ebf82b6e5fedc8f7d9b3ea3f6d4baf73b54f3083"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNqNkc1LwzAYh4soOKdXz7l56myapB_HWuYUJht-nEOavhkZbVqSVvS_t9UhU1QkhyQvz_O-JD_PO8fBjGKaXOKAYT9ICJ2FjLEDb_JZONw7H3snzm2DIKJJmky87fylrRqrzQY9dH0JpkNrsK4F2elncKhRaG2b7XD1r4SDEi1BWDPi2iBhULaxWvZV11tRobyp695oKTrdGIdy0bquMTDUe-vg1DtSonJwttun3tP1_DG_8ZerxW2eLX1JwpT5OA3TAseCxAFIHGMVEUWDCCgUKgmLCJiCUiYqLtOCgCAqKmkhVEwKRhUZnjj1Lj76bkQFfJivdAW1dpKv71fXPEvChGAaMfYXuc7v_ktmi6_kbI_URjWdFXJY5cDLnfmjIG3jnAXFW6trYV85DvgYLB-z42N2fAx2EOg3Qeru_cuHSbr6TXsDv8aj7A"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "galeid": [
+            "A828314655"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.058243778"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-gale_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Exploring+Student+Perspectives+of+Project-Based+Learning+in+an+Agricultural+Communications+Capstone+Course&rft.jtitle=Journal+of+applied+communications&rft.au=Burmesch%2C+Lyndsay+M.&rft.date=2024-12-01&rft.volume=108&rft.issue=4&rft.spage=COV10&rft.pages=COV10-&rft.issn=1051-0834&rft.eissn=1051-0834&rft_id=info:doi/10.4148%2F1051-0834.2555&rft.pub=Agricultural+Communicators+in+Education&rft_dat=<gale_cross>A828314655</gale_cross>&svc_dat=viewit&rft_galeid=A828314655"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": [
+            "FETCH-LOGICAL-c3295-1929b17a370ec171f63f406e4ebf82b6e5fedc8f7d9b3ea3f6d4baf73b54f3083"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_gale_onefilemisc_PROF_A828314655"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://doi.org/10.1177/03064190261429065$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "issn": [
+            "0306-4190",
+            "2050-4586"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach",
+            "International journal of mechanical engineering education"
+          ],
+          "recordid": [
+            "eNplkM1KxDAUhYMoOIzzAO7yAtUkt0mMu2HwD0bc6Lok6W0n0iYlqcK8vVN05-p88B3O4hByzdkN51rfMmCq5oYJxWthmJJnZCWYZFUt79Q5WS2-WgqXZFNKcIwbBbWQZkWG19TiEGJPfYrdEPy8cIge4xy-sZyQYuxDRMyLKRhDytTbqcwpIp1y-kQ_l3u6pePXMIdqGuwRM-3tiHQ-YMpHaqdTzfrDFbno7FBw85dr8vH48L57rvZvTy-77b7yXGpZ1a1xANpYpyQwLcFJ2ZmWa7StsF44Dwa4ROHQWJQgrPZKAbS18Ux7B2vCf3d9TqVk7Joph9HmY8NZszzW_HsMfgBzd2AD"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "creationdate": [
+            "2026"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-0606-5318",
+            "https://orcid.org/0000-0003-0849-1599"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20260309"
+          ],
+          "enddate": [
+            "20260309"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "EBSCOhost Academic Search Complete",
+            "EBSCOhost Education Source"
+          ],
+          "creator": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "ispartof": [
+            "International journal of mechanical engineering education, 2026-03"
+          ],
+          "identifier": [
+            "ISSN: 0306-4190",
+            "EISSN: 2050-4586",
+            "DOI: 10.1177/03064190261429065"
+          ],
+          "language": [
+            "eng"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ]
+        },
+        "addata": {
+          "issn": [
+            "0306-4190"
+          ],
+          "abstract": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "jtitle": [
+            "International journal of mechanical engineering education"
+          ],
+          "genre": [
+            "article"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-0606-5318",
+            "https://orcid.org/0000-0003-0849-1599"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "au": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "atitle": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "date": [
+            "2026-03-09"
+          ],
+          "risdate": [
+            "2026"
+          ],
+          "eissn": [
+            "2050-4586"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "doi": [
+            "10.1177/03064190261429065"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2026"
+          ],
+          "language": [
+            "eng"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "International journal of mechanical engineering education"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "creationdate": [
+            "20260309"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "crossref"
+          ],
+          "recordid": [
+            "cdi_crossref_primary_10_1177_03064190261429065"
+          ],
+          "sourcerecordid": [
+            "10_1177_03064190261429065"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNplkM1KxDAUhYMoOIzzAO7yAtUkt0mMu2HwD0bc6Lok6W0n0iYlqcK8vVN05-p88B3O4hByzdkN51rfMmCq5oYJxWthmJJnZCWYZFUt79Q5WS2-WgqXZFNKcIwbBbWQZkWG19TiEGJPfYrdEPy8cIge4xy-sZyQYuxDRMyLKRhDytTbqcwpIp1y-kQ_l3u6pePXMIdqGuwRM-3tiHQ-YMpHaqdTzfrDFbno7FBw85dr8vH48L57rvZvTy-77b7yXGpZ1a1xANpYpyQwLcFJ2ZmWa7StsF44Dwa4ROHQWJQgrPZKAbS18Ux7B2vCf3d9TqVk7Joph9HmY8NZszzW_HsMfgBzd2AD"
+          ],
+          "sourcetype": [
+            "Index Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.057908136"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-crossref&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Modeling+conflicting+incentives+in+engineering+senior+capstone+projects%3A+A+multi-player+game+theory+approach&rft.jtitle=International+journal+of+mechanical+engineering+education&rft.au=Blackwell%2C+Richard+Q&rft.date=2026-03-09&rft.issn=0306-4190&rft.eissn=2050-4586&rft_id=info:doi/10.1177%2F03064190261429065&rft_dat=<crossref>10_1177_03064190261429065</crossref>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_primary_10_1177_03064190261429065"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "backlink": [
+            "$$Uhttps://doi.org/10.48550/arXiv.2601.09944$$DView paper in arXiv$$Hfree_for_read$$Pomit_proxy_false"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://arxiv.org/abs/2601.09944$$EView_record_in_arXiv$$FView_record_in_$$GarXiv$$Hfree_for_read$$Pomit_proxy_false"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ]
+        },
+        "search": {
+          "fulltext": [
+            "true"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "sourceid": [
+            "GOX"
+          ],
+          "recordid": [
+            "eNqFjrEOgjAURbs4GPUDnHw_AKKCETdjNC5u7uSlPuCZ0jZtJfL3AnF3uie5ZzhCLDdJnB6yLFmj-3Abb_fJJk7yPE2nQt3NkxTrCqTRpWIZBmYtSQduyfcIpCvWRG54PGk2DiRaH4wmsM68SAZ_hBM0bxU4sgo7clBhQxBqMq4DtL2Gsp6LSYnK0-K3M7G6Xh7nWzR2FdZxg64rhr5i7Nv9N76dGUgc"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "creationdate": [
+            "2026"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20260115"
+          ],
+          "enddate": [
+            "20260115"
+          ],
+          "scope": [
+            "GOX"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "arXiv.org"
+          ],
+          "creator": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "creationdate": [
+            "2026-01"
+          ],
+          "identifier": [
+            "DOI: 10.48550/arxiv.2601.09944"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "http://creativecommons.org/licenses/by-nc-nd/4.0"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "keyword": [
+            "Computer Science - Computer Science and Game Theory ;  Computer Science - Computers and Society"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "genre": [
+            "article"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "au": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "atitle": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "date": [
+            "2026-01-15"
+          ],
+          "risdate": [
+            "2026"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "doi": [
+            "10.48550/arxiv.2601.09944"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2026"
+          ],
+          "language": [
+            "eng"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "arXiv.org"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-arxiv_primary_2601_099443"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "creationdate": [
+            "20260115"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "arxiv_GOX"
+          ],
+          "recordid": [
+            "cdi_arxiv_primary_2601_09944"
+          ],
+          "sourcerecordid": [
+            "2601_09944"
+          ],
+          "originalsourceid": [
+            "FETCH-arxiv_primary_2601_099443"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNqFjrEOgjAURbs4GPUDnHw_AKKCETdjNC5u7uSlPuCZ0jZtJfL3AnF3uie5ZzhCLDdJnB6yLFmj-3Abb_fJJk7yPE2nQt3NkxTrCqTRpWIZBmYtSQduyfcIpCvWRG54PGk2DiRaH4wmsM68SAZ_hBM0bxU4sgo7clBhQxBqMq4DtL2Gsp6LSYnK0-K3M7G6Xh7nWzR2FdZxg64rhr5i7Nv9N76dGUgc"
+          ],
+          "sourcetype": [
+            "Open Access Repository"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.04764728"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-arxiv_GOX&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Modeling+conflicting+incentives+in+engineering+senior+capstone+projects%3A+A+multi-player+game+theory+approach&rft.au=Blackwell%2C+Richard+Q&rft.date=2026-01-15&rft_id=info:doi/10.48550%2Farxiv.2601.09944&rft_dat=<arxiv_GOX>2601_09944</arxiv_GOX>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_arxiv_primary_2601_09944"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://www.proquest.com/docview/3304363374?pq-origsite=primo$$EHTML$$Gproquest$$Hfree_for_read$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "issn": [
+            "2331-8422"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Corporate sponsorship",
+            "Game theory",
+            "Students"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach",
+            "arXiv.org"
+          ],
+          "sourceid": [
+            "ABJCF",
+            "PIMPY"
+          ],
+          "recordid": [
+            "eNqNikEKwjAQAIMgKNo_LHgu1GxbxZuI4sWb9xLitk2Jm5qkgr-3BR_gaQZmZmIpEbfpPpdyIZIQuizLZLmTRYFLYW_uQdZwA9pxbY2OkxvWxNG8KYwKxI1hIj-VQGycB636EB0T9N51pGM4wBGeg40m7a36kIdGPQliS85_QPXjpnS7FvNa2UDJjyuxuZzvp2s65tdAIVadGzyPqULMciwRdzn-d30BMwdKTA"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Congrui Jin",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "creationdate": [
+            "2026"
+          ],
+          "general": [
+            "Cornell University Library, arXiv.org"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20260115"
+          ],
+          "enddate": [
+            "20260115"
+          ],
+          "scope": [
+            "8FE",
+            "8FG",
+            "ABJCF",
+            "ABUWG",
+            "AFKRA",
+            "AHNLN",
+            "AZQEC",
+            "BENPR",
+            "BGLVJ",
+            "CCPQU",
+            "DWQXO",
+            "HCIFZ",
+            "L6V",
+            "M7S",
+            "PHGZM",
+            "PHGZT",
+            "PIMPY",
+            "PKEHL",
+            "PQEST",
+            "PQGLB",
+            "PQQKQ",
+            "PQUKI",
+            "PRINS",
+            "PTHSS"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Congrui Jin",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Free E-Resources",
+            "ProQuest MSED",
+            "ROAD: Directory of Open Access Scholarly Resources"
+          ],
+          "creator": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Congrui Jin ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "publisher": [
+            "Ithaca: Cornell University Library, arXiv.org"
+          ],
+          "ispartof": [
+            "arXiv.org, 2026-01"
+          ],
+          "identifier": [
+            "EISSN: 2331-8422"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "2026. This work is published under http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”). Notwithstanding the ProQuest Terms and Conditions, you may use this content in accordance with the terms of the License."
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "subject": [
+            "Corporate sponsorship ;  Game theory ;  Students"
+          ],
+          "keyword": [
+            "Capstone projects ;  Colleges & universities ;  Engineering education ;  Failure modes ;  Prediction models ;  Structural failure"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: the university, the industry sponsor, and the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures while anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice, including cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework provides a structured basis for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments, as well as for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "jtitle": [
+            "arXiv.org"
+          ],
+          "genre": [
+            "document"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "au": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Congrui Jin",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "atitle": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "date": [
+            "2026-01-15"
+          ],
+          "risdate": [
+            "2026"
+          ],
+          "eissn": [
+            "2331-8422"
+          ],
+          "ristype": [
+            "GEN"
+          ],
+          "cop": [
+            "Ithaca"
+          ],
+          "pub": [
+            "Cornell University Library, arXiv.org"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2026"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Corporate sponsorship",
+            "Game theory",
+            "Students"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "ProQuest SciTech Collection",
+            "ProQuest Technology Collection",
+            "ProQuest MSED",
+            "ProQuest Central (Alumni)",
+            "ProQuest Central UK/Ireland",
+            "ProQuest Central Premium Korea",
+            "ProQuest Central Essentials",
+            "ProQuest Central",
+            "Technology Collection",
+            "ProQuest One Community College",
+            "ProQuest Central Korea",
+            "SciTech Premium Collection",
+            "ProQuest Engineering Collection",
+            "Engineering Database",
+            "Proquest Central Premium",
+            "ProQuest One Academic",
+            "Publicly Available Content Database",
+            "ProQuest One Academic Middle East (New)",
+            "ProQuest One Academic Eastern Edition (DO NOT USE)",
+            "ProQuest One Applied & Life Sciences",
+            "ProQuest One Academic (retired)",
+            "ProQuest One Academic UKI Edition",
+            "ProQuest Central China",
+            "Engineering Collection"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-proquest_journals_33043633743"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Congrui Jin",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Congrui Jin ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "creationdate": [
+            "20260115"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest"
+          ],
+          "recordid": [
+            "cdi_proquest_journals_3304363374"
+          ],
+          "sourcerecordid": [
+            "3304363374"
+          ],
+          "originalsourceid": [
+            "FETCH-proquest_journals_33043633743"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNqNikEKwjAQAIMgKNo_LHgu1GxbxZuI4sWb9xLitk2Jm5qkgr-3BR_gaQZmZmIpEbfpPpdyIZIQuizLZLmTRYFLYW_uQdZwA9pxbY2OkxvWxNG8KYwKxI1hIj-VQGycB636EB0T9N51pGM4wBGeg40m7a36kIdGPQliS85_QPXjpnS7FvNa2UDJjyuxuZzvp2s65tdAIVadGzyPqULMciwRdzn-d30BMwdKTA"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "3304363374"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.043886323"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=document&rft.atitle=Modeling+conflicting+incentives+in+engineering+senior+capstone+projects%3A+A+multi-player+game+theory+approach&rft.jtitle=arXiv.org&rft.au=Blackwell%2C+Richard+Q&rft.date=2026-01-15&rft.eissn=2331-8422&rft.pub=Cornell+University+Library%2C+arXiv.org&rft.place=Ithaca&rft_dat=<proquest>3304363374</proquest>&svc_dat=viewit&rft_pqid=3304363374"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_proquest_journals_3304363374"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/10343194$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F10343194$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "issn": [
+            "2377-634X"
+          ],
+          "isbn": [
+            "9798350336429"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Computer science",
+            "Computer-assisted instruction",
+            "Electrical engineering",
+            "Internet of things",
+            "Laboratories",
+            "Pandemics",
+            "Problem-based learning"
+          ],
+          "title": [
+            "Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups",
+            "Proceedings - Frontiers in Education Conference"
+          ],
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNo9kFFLwzAUhaMgOOf-gUj-QGdubps0vsmY26DgwA18G1mTdZldW5LsYb_BP21l6tM5cM_5LhxCHoGNAZh6el1Ms1xKHHPGcQwMUwSVXpGRkirHjCGKlKtrMuAoZSIw_bgldyEcGGOYCzkgX9Om0pU19D2ejG0iLaz2jWsqGve-PVV7umhXyVaHPjLRXYhtY-nStwdbxvBMl9pHV55q7WnRtp9Ux3_QBXz8sa6hc9dXvSt1XZ_pujHWe9t5G_pzT571r7pwT252ug529KtDsn6dribzpHibLSYvReIAVEyUgZIbg6AzzZjaZqnmKmUIYgfKSC5zkwoAK0ohVM5wm8OOgVV5pjMoFcchebhwnbV203l31P68-RsPvwEmDGXG"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "creator": [
+            "Mehrubeoglu, Mehrube",
+            "McLauchlan, Lifford",
+            "Hicks, David",
+            "Yeaman, Adetoun"
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "addtitle": [
+            "FIE"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "20231018"
+          ],
+          "enddate": [
+            "20231018"
+          ],
+          "scope": [
+            "6IE",
+            "6IH",
+            "CBEJK",
+            "RIE",
+            "RIO"
+          ],
+          "description": [
+            "The COVID-19 pandemic resulted in changes in learning methods and attitudes in the STEM fields. The pandemic forced institutions of higher education to explore remote teaching/learning systems and tools some of which remain in use today. Such remote teaching/learning systems and tools present challenges for most STEM fields that involve hands-on experiences through laboratory or workshop environments that require access to devices, instruments and/or equipment. The engaged student learning through IoT project was introduced as a means to enable students to perform hands-on learning activities in their own time and space with minimal need for and dependence on university laboratory resources. In this paper, we describe engaged student learning through problem- and project-based learning (PBL) in IoT-based projects in senior capstone design courses at two Hispanic-Serving Institutions. Particular attention is paid to engagement and learning of historically under-represented student groups in capstone teams. Students in multidisciplinary teams borrowed IoT devices for the duration of their course work to discover and learn on their own with instructor guidance and developed course materials. The evaluation of the student performance and feedback indicate that students have benefited from access to IoT devices outside the laboratory environments by developing creative solutions to the undertaken capstone projects as well as problem-solving skills that are expected in the workforce. In this statistically small student sample size, there were no notable differences observed in the success of historically underrepresented students vs. all other students in the IoT-based projects in terms of engaged student learning. The IoT devices enabled the teams to undertake multidisciplinary and interdisciplinary projects that involved mechanical engineering, electrical engineering, mechanical engineering technology, and computer science students, each contributing to different objectives of the project to achieve the overall goal."
+          ],
+          "creatorcontrib": [
+            "Mehrubeoglu, Mehrube",
+            "McLauchlan, Lifford",
+            "Hicks, David",
+            "Yeaman, Adetoun"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Mehrubeoglu, Mehrube ; McLauchlan, Lifford ; Hicks, David ; Yeaman, Adetoun"
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "Proceedings - Frontiers in Education Conference, 2023, p.01-07"
+          ],
+          "identifier": [
+            "EISSN: 2377-634X",
+            "EISBN: 9798350336429",
+            "DOI: 10.1109/FIE58773.2023.10343194"
+          ],
+          "language": [
+            "eng"
+          ],
+          "description": [
+            "The COVID-19 pandemic resulted in changes in learning methods and attitudes in the STEM fields. The pandemic forced institutions of higher education to explore remote teaching/learning systems and tools some of which remain in use today. Such remote teaching/learning systems and tools present challenges for most STEM fields that involve hands-on experiences through laboratory or workshop environments that require access to devices, instruments and/or equipment. The engaged student learning through IoT project was introduced as a means to enable students to perform hands-on learning activities in their own time and space with minimal need for and dependence on university laboratory resources. In this paper, we describe engaged student learning through problem- and project-based learning (PBL) in IoT-based projects in senior capstone design courses at two Hispanic-Serving Institutions. Particular attention is paid to engagement and learning of historically under-represented student groups in capstone teams. Students in multidisciplinary teams borrowed IoT devices for the duration of their course work to discover and learn on their own with instructor guidance and developed course materials. The evaluation of the student performance and feedback indicate that students have benefited from access to IoT devices outside the laboratory environments by developing creative solutions to the undertaken capstone projects as well as problem-solving skills that are expected in the workforce. In this statistically small student sample size, there were no notable differences observed in the success of historically underrepresented students vs. all other students in the IoT-based projects in terms of engaged student learning. The IoT devices enabled the teams to undertake multidisciplinary and interdisciplinary projects that involved mechanical engineering, electrical engineering, mechanical engineering technology, and computer science students, each contributing to different objectives of the project to achieve the overall goal."
+          ],
+          "subject": [
+            "Computer science ;  Computer-assisted instruction ;  Electrical engineering ;  Internet of things ;  Laboratories ;  Pandemics ;  Problem-based learning"
+          ],
+          "keyword": [
+            "capstone projects ;  Collaboration ;  engaged student learning ;  interdisciplinary projects ;  IoT ;  peer learning ;  Performance evaluation ;  Project-Based Learning ;  team learning"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "The COVID-19 pandemic resulted in changes in learning methods and attitudes in the STEM fields. The pandemic forced institutions of higher education to explore remote teaching/learning systems and tools some of which remain in use today. Such remote teaching/learning systems and tools present challenges for most STEM fields that involve hands-on experiences through laboratory or workshop environments that require access to devices, instruments and/or equipment. The engaged student learning through IoT project was introduced as a means to enable students to perform hands-on learning activities in their own time and space with minimal need for and dependence on university laboratory resources. In this paper, we describe engaged student learning through problem- and project-based learning (PBL) in IoT-based projects in senior capstone design courses at two Hispanic-Serving Institutions. Particular attention is paid to engagement and learning of historically under-represented student groups in capstone teams. Students in multidisciplinary teams borrowed IoT devices for the duration of their course work to discover and learn on their own with instructor guidance and developed course materials. The evaluation of the student performance and feedback indicate that students have benefited from access to IoT devices outside the laboratory environments by developing creative solutions to the undertaken capstone projects as well as problem-solving skills that are expected in the workforce. In this statistically small student sample size, there were no notable differences observed in the success of historically underrepresented students vs. all other students in the IoT-based projects in terms of engaged student learning. The IoT devices enabled the teams to undertake multidisciplinary and interdisciplinary projects that involved mechanical engineering, electrical engineering, mechanical engineering technology, and computer science students, each contributing to different objectives of the project to achieve the overall goal."
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "au": [
+            "Mehrubeoglu, Mehrube",
+            "McLauchlan, Lifford",
+            "Hicks, David",
+            "Yeaman, Adetoun"
+          ],
+          "btitle": [
+            "Proceedings - Frontiers in Education Conference"
+          ],
+          "atitle": [
+            "Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups"
+          ],
+          "stitle": [
+            "FIE"
+          ],
+          "date": [
+            "2023-10-18"
+          ],
+          "risdate": [
+            "2023"
+          ],
+          "spage": [
+            "01"
+          ],
+          "epage": [
+            "07"
+          ],
+          "pages": [
+            "01-07"
+          ],
+          "eissn": [
+            "2377-634X"
+          ],
+          "eisbn": [
+            "9798350336429"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/FIE58773.2023.10343194"
+          ],
+          "tpages": [
+            "7"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2023"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Computer science",
+            "Computer-assisted instruction",
+            "Electrical engineering",
+            "Internet of things",
+            "Laboratories",
+            "Pandemics",
+            "Problem-based learning"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan (POP) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP) 1998-present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i119t-9d1c2dd31a5a009b54a2940316f19d7278d4611e6c669803b81f01e985a51c923"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Mehrubeoglu, Mehrube",
+            "McLauchlan, Lifford",
+            "Hicks, David",
+            "Yeaman, Adetoun"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Mehrubeoglu, Mehrube ; McLauchlan, Lifford ; Hicks, David ; Yeaman, Adetoun"
+          ],
+          "title": [
+            "Engaged Student Learning through IoT-based Capstone Projects: Particular Look at Student Engagement in Historically Underrepresented Groups"
+          ],
+          "creationdate": [
+            "20231018"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_10343194"
+          ],
+          "sourcerecordid": [
+            "10343194"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i119t-9d1c2dd31a5a009b54a2940316f19d7278d4611e6c669803b81f01e985a51c923"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNo9kFFLwzAUhaMgOOf-gUj-QGdubps0vsmY26DgwA18G1mTdZldW5LsYb_BP21l6tM5cM_5LhxCHoGNAZh6el1Ms1xKHHPGcQwMUwSVXpGRkirHjCGKlKtrMuAoZSIw_bgldyEcGGOYCzkgX9Om0pU19D2ejG0iLaz2jWsqGve-PVV7umhXyVaHPjLRXYhtY-nStwdbxvBMl9pHV55q7WnRtp9Ux3_QBXz8sa6hc9dXvSt1XZ_pujHWe9t5G_pzT571r7pwT252ug529KtDsn6dribzpHibLSYvReIAVEyUgZIbg6AzzZjaZqnmKmUIYgfKSC5zkwoAK0ohVM5wm8OOgVV5pjMoFcchebhwnbV203l31P68-RsPvwEmDGXG"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "10343194"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.037945814"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=Engaged+Student+Learning+through+IoT-based+Capstone+Projects%3A+Particular+Look+at+Student+Engagement+in+Historically+Underrepresented+Groups&rft.btitle=Proceedings+-+Frontiers+in+Education+Conference&rft.au=Mehrubeoglu%2C+Mehrube&rft.date=2023-10-18&rft.spage=01&rft.epage=07&rft.pages=01-07&rft.eissn=2377-634X&rft_id=info:doi/10.1109%2FFIE58773.2023.10343194&rft.eisbn=9798350336429&rft.pub=IEEE&rft.stitle=FIE&rft_dat=<ieee_RIE>10343194</ieee_RIE>&svc_dat=viewit&rft_ieee_id=10343194"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_10343194"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/11352914$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F11352914$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "isbn": [
+            "9798331545758"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Competency-based education",
+            "Computer software",
+            "Congresses and conventions",
+            "Education",
+            "Information technology",
+            "Marketing research",
+            "Meetings",
+            "Software engineering",
+            "Surveys"
+          ],
+          "title": [
+            "AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness",
+            "2025 10th International Conference on Information Technology Trends (ITT)"
+          ],
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNo10MFOhDAUBdC6cGHG-QNj3g-gtKVAl0hQSSaZhewnb-graQJlQotm_l6Murq5Z3EXl7FHnj5xnurntutynW9NpEJtJJXQPLthe13oUkquMlWo8o6NVQvVOkzkIxn4mG38woWg8YPzRIvzAyRQQY2BYLZQz9OFIvn-mrxsZKAxa4_RzR7QG3AxQOtDdHH9MRyhsZb66D7JUwj37NbiGGj_lzvWvTZd_Z4cjm9tXR0Sp2VMhBE8tTxT2JuUcyy5LbRBpExImfaCC4G2RKPPVmT6rHItFBVWIi-VzcnIHXv4nXVEdLosbsLlevr_QH4DFn9VWg"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "creator": [
+            "Durrani, Usman",
+            "Malik, Asif",
+            "Akpinar, Mustafa"
+          ],
+          "creationdate": [
+            "2025"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-4255-6253",
+            "https://orcid.org/0000-0003-4926-3779",
+            "https://orcid.org/0000-0002-7056-1503"
+          ],
+          "addtitle": [
+            "ITT"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "20251106"
+          ],
+          "enddate": [
+            "20251106"
+          ],
+          "scope": [
+            "6IE",
+            "6IL",
+            "CBEJK",
+            "RIE",
+            "RIL"
+          ],
+          "description": [
+            "The transformative impact of Artificial Intelligence (AI) on software engineering (SE) necessitates a parallel evolution in educational paradigms. This paper presents a comprehensive case study on the institutional effectiveness of a competency-based educational (CBE) intervention designed to integrate AI-augmented tools into an undergraduate capstone project. A cohort of thirty students participated in a hands-on workshop focused on orchestrating a requirements-to-code workflow using a toolchain of n8n, JIRA, GitHub, and Large Language Models (LLMs). Grounded in the ARCS (Attention, Relevance, Confidence, Satisfaction) model of motivational design, this study employed a pre-test/post-test research design to quantitatively measure changes in student motivation. A detailed analysis of collected 5-point Likert scale survey data revealed statistically significant improvements ( \\mathbf{p}\\lt0.001) across all four ARCS constructs, with large effect sizes (Cohen's\\mathbf{d} \\boldsymbol{\\gt} \\mathbf{0. 8} ). The most substantial gain was in Confidence, which increased by\\mathbf{1. 2 0}points, indicating a successful transition from apprehension to self-assurance. The findings robustly demonstrate that a structured, project-based workshop can significantly enhance student motivation and perceived competency in AI-augmented software engineering. This study provides a validated, replicable model and a robust assessment framework for institutions seeking to modernize their SE curricula, thereby enhancing institutional effectiveness in preparing a workforce for human-AI collaboration."
+          ],
+          "creatorcontrib": [
+            "Durrani, Usman",
+            "Malik, Asif",
+            "Akpinar, Mustafa"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Durrani, Usman ; Malik, Asif ; Akpinar, Mustafa"
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "2025 10th International Conference on Information Technology Trends (ITT), 2025, p.224-228"
+          ],
+          "identifier": [
+            "EISBN: 9798331545758",
+            "DOI: 10.1109/ITT69610.2025.11352914"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            "...) intervention designed to integrate AI-augmented tools into an undergraduate capstone project..."
+          ],
+          "description": [
+            "The transformative impact of Artificial Intelligence (AI) on software engineering (SE) necessitates a parallel evolution in educational paradigms. This paper presents a comprehensive case study on the institutional effectiveness of a competency-based educational (CBE) intervention designed to integrate AI-augmented tools into an undergraduate capstone project. A cohort of thirty students participated in a hands-on workshop focused on orchestrating a requirements-to-code workflow using a toolchain of n8n, JIRA, GitHub, and Large Language Models (LLMs). Grounded in the ARCS (Attention, Relevance, Confidence, Satisfaction) model of motivational design, this study employed a pre-test/post-test research design to quantitatively measure changes in student motivation. A detailed analysis of collected 5-point Likert scale survey data revealed statistically significant improvements ( \\mathbf{p}\\lt0.001) across all four ARCS constructs, with large effect sizes (Cohen's\\mathbf{d} \\boldsymbol{\\gt} \\mathbf{0. 8} ). The most substantial gain was in Confidence, which increased by\\mathbf{1. 2 0}points, indicating a successful transition from apprehension to self-assurance. The findings robustly demonstrate that a structured, project-based workshop can significantly enhance student motivation and perceived competency in AI-augmented software engineering. This study provides a validated, replicable model and a robust assessment framework for institutions seeking to modernize their SE curricula, thereby enhancing institutional effectiveness in preparing a workforce for human-AI collaboration."
+          ],
+          "subject": [
+            "Competency-based education ;  Computer software ;  Congresses and conventions ;  Education ;  Information technology ;  Marketing research ;  Meetings ;  Software engineering ;  Surveys"
+          ],
+          "keyword": [
+            "AI-Augmented Software Engineering ;  ARCS Model ;  Collaboration ;  Institutional Effectiveness ;  Large language models ;  Motivational Design ;  n8n ;  Particle measurements ;  Project-Based Learning ;  Software development management ;  Workflow Automation"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "The transformative impact of Artificial Intelligence (AI) on software engineering (SE) necessitates a parallel evolution in educational paradigms. This paper presents a comprehensive case study on the institutional effectiveness of a competency-based educational (CBE) intervention designed to integrate AI-augmented tools into an undergraduate capstone project. A cohort of thirty students participated in a hands-on workshop focused on orchestrating a requirements-to-code workflow using a toolchain of n8n, JIRA, GitHub, and Large Language Models (LLMs). Grounded in the ARCS (Attention, Relevance, Confidence, Satisfaction) model of motivational design, this study employed a pre-test/post-test research design to quantitatively measure changes in student motivation. A detailed analysis of collected 5-point Likert scale survey data revealed statistically significant improvements ( \\mathbf{p}\\lt0.001) across all four ARCS constructs, with large effect sizes (Cohen's\\mathbf{d} \\boldsymbol{\\gt} \\mathbf{0. 8} ). The most substantial gain was in Confidence, which increased by\\mathbf{1. 2 0}points, indicating a successful transition from apprehension to self-assurance. The findings robustly demonstrate that a structured, project-based workshop can significantly enhance student motivation and perceived competency in AI-augmented software engineering. This study provides a validated, replicable model and a robust assessment framework for institutions seeking to modernize their SE curricula, thereby enhancing institutional effectiveness in preparing a workforce for human-AI collaboration."
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-4255-6253",
+            "https://orcid.org/0000-0003-4926-3779",
+            "https://orcid.org/0000-0002-7056-1503"
+          ],
+          "au": [
+            "Durrani, Usman",
+            "Malik, Asif",
+            "Akpinar, Mustafa"
+          ],
+          "btitle": [
+            "2025 10th International Conference on Information Technology Trends (ITT)"
+          ],
+          "atitle": [
+            "AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness"
+          ],
+          "stitle": [
+            "ITT"
+          ],
+          "date": [
+            "2025-11-06"
+          ],
+          "risdate": [
+            "2025"
+          ],
+          "spage": [
+            "224"
+          ],
+          "epage": [
+            "228"
+          ],
+          "pages": [
+            "224-228"
+          ],
+          "eisbn": [
+            "9798331545758"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/ITT69610.2025.11352914"
+          ],
+          "tpages": [
+            "5"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2025"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Competency-based education",
+            "Computer software",
+            "Congresses and conventions",
+            "Education",
+            "Information technology",
+            "Marketing research",
+            "Meetings",
+            "Software engineering",
+            "Surveys"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan All Online (POP All Online) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP All) 1998-Present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i93t-2d210f145acd011a81f79daae42330c2122af8ad9bf249b56925e7f3a185f6ed3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Durrani, Usman",
+            "Malik, Asif",
+            "Akpinar, Mustafa"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Durrani, Usman ; Malik, Asif ; Akpinar, Mustafa"
+          ],
+          "title": [
+            "AI Augmented Software Engineering - A Case of Competency-Based Education and its Institutional Effectiveness"
+          ],
+          "creationdate": [
+            "20251106"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_11352914"
+          ],
+          "sourcerecordid": [
+            "11352914"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i93t-2d210f145acd011a81f79daae42330c2122af8ad9bf249b56925e7f3a185f6ed3"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNo10MFOhDAUBdC6cGHG-QNj3g-gtKVAl0hQSSaZhewnb-graQJlQotm_l6Murq5Z3EXl7FHnj5xnurntutynW9NpEJtJJXQPLthe13oUkquMlWo8o6NVQvVOkzkIxn4mG38woWg8YPzRIvzAyRQQY2BYLZQz9OFIvn-mrxsZKAxa4_RzR7QG3AxQOtDdHH9MRyhsZb66D7JUwj37NbiGGj_lzvWvTZd_Z4cjm9tXR0Sp2VMhBE8tTxT2JuUcyy5LbRBpExImfaCC4G2RKPPVmT6rHItFBVWIi-VzcnIHXv4nXVEdLosbsLlevr_QH4DFn9VWg"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "11352914"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.03601337"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=AI+Augmented+Software+Engineering+-+A+Case+of+Competency-Based+Education+and+its+Institutional+Effectiveness&rft.btitle=2025+10th+International+Conference+on+Information+Technology+Trends+%28ITT%29&rft.au=Durrani%2C+Usman&rft.date=2025-11-06&rft.spage=224&rft.epage=228&rft.pages=224-228&rft_id=info:doi/10.1109%2FITT69610.2025.11352914&rft.eisbn=9798331545758&rft.pub=IEEE&rft.stitle=ITT&rft_dat=<ieee_RIE>11352914</ieee_RIE>&svc_dat=viewit&rft_ieee_id=11352914"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_11352914"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/8658526$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F8658526$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "issn": [
+            "2377-634X"
+          ],
+          "isbn": [
+            "9781538611746",
+            "1538611740"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Boats",
+            "Breakdown (Electricity)",
+            "Control theory",
+            "Engineering mathematics",
+            "Implements",
+            "Mathematics",
+            "Robots",
+            "Ships",
+            "Task analysis"
+          ],
+          "title": [
+            "A contextualized, experiential learning approach to quantitative engineering analysis",
+            "Proceedings - Frontiers in Education Conference"
+          ],
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNotUEtLw0AYXAXBWnsXvOwPMHHfuzmW0mqh4MWCt_Il-6WuxE1MttL6641YGJjDPBiGkDvOcs5Z8bhaL3PBuMud0U4Lc0FmhXVcS2c4t8pckomQ1mZGqrdrcjMMH4yxUbQTsp3Tqo0Jj-kATfhB_0Dx2GEfMKYADW0Q-hjinkLX9S1U7zS19OsAo5oghW-kGPch4pj4M0VoTkMYbslVDc2AszNPyXa1fF08Z5uXp_VivskCtzplgMo7xUGgrYw3TOiayZJLQGYkmto65rUdoUTFJXpVe1cX43KnjIOylFNy_98bEHHX9eET-tPu_IL8BfsvUnE"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "creator": [
+            "Govindasamy, Siddhartan",
+            "Christianson, Rebecca",
+            "Geddes, John",
+            "Lee, Christopher",
+            "Michalka, Samantha",
+            "Ruvolo, Paul",
+            "Somerville, Mark",
+            "Strong, Alexandra Coso"
+          ],
+          "creationdate": [
+            "2018"
+          ],
+          "addtitle": [
+            "FIE"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "201810"
+          ],
+          "enddate": [
+            "201810"
+          ],
+          "scope": [
+            "6IE",
+            "6IH",
+            "CBEJK",
+            "RIE",
+            "RIO"
+          ],
+          "description": [
+            "This work-in-progress, innovative-practice paper describes the creation and first two iterations of an experimental course which aims to develop a process-focused approach to integrated quantitative engineering analysis in early stage engineering students. The goal of this two-semester course is to improve the confidence and competence of our students in choosing and applying the tools of quantitative analysis to solve practical problems throughout their time in college and beyond, including in other course projects, senior capstone experiences, internships and in their careers. The course is led by an interdisciplinary team of faculty, in a project-based format, including in the presentation of fundamental concepts in mathematics. The course is run studio style, with emphasis placed on the process of engineering, improving students' self-directed learning skills, and encouraging peer and near-peer learning. Overall, we observed a high level of engagement in the course, with student-chosen final projects that involved significant analysis and self-directed learning of new tools and approaches."
+          ],
+          "creatorcontrib": [
+            "Govindasamy, Siddhartan",
+            "Christianson, Rebecca",
+            "Geddes, John",
+            "Lee, Christopher",
+            "Michalka, Samantha",
+            "Ruvolo, Paul",
+            "Somerville, Mark",
+            "Strong, Alexandra Coso"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "A contextualized, experiential learning approach to quantitative engineering analysis"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Govindasamy, Siddhartan ; Christianson, Rebecca ; Geddes, John ; Lee, Christopher ; Michalka, Samantha ; Ruvolo, Paul ; Somerville, Mark ; Strong, Alexandra Coso"
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "Proceedings - Frontiers in Education Conference, 2018, p.1-5"
+          ],
+          "identifier": [
+            "EISSN: 2377-634X",
+            "EISBN: 9781538611746",
+            "EISBN: 1538611740",
+            "DOI: 10.1109/FIE.2018.8658526"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            "... and applying the tools of quantitative analysis to solve practical problems throughout their time in college and beyond, including in other course projects, senior capstone experiences, internships and in their..."
+          ],
+          "description": [
+            "This work-in-progress, innovative-practice paper describes the creation and first two iterations of an experimental course which aims to develop a process-focused approach to integrated quantitative engineering analysis in early stage engineering students. The goal of this two-semester course is to improve the confidence and competence of our students in choosing and applying the tools of quantitative analysis to solve practical problems throughout their time in college and beyond, including in other course projects, senior capstone experiences, internships and in their careers. The course is led by an interdisciplinary team of faculty, in a project-based format, including in the presentation of fundamental concepts in mathematics. The course is run studio style, with emphasis placed on the process of engineering, improving students' self-directed learning skills, and encouraging peer and near-peer learning. Overall, we observed a high level of engagement in the course, with student-chosen final projects that involved significant analysis and self-directed learning of new tools and approaches."
+          ],
+          "subject": [
+            "Boats ;  Breakdown (Electricity) ;  Control theory ;  Engineering mathematics ;  Implements ;  Mathematics ;  Robots ;  Ships ;  Task analysis"
+          ],
+          "keyword": [
+            "cross-disciplinary team teaching ;  foundational courses ;  project-based learning"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "This work-in-progress, innovative-practice paper describes the creation and first two iterations of an experimental course which aims to develop a process-focused approach to integrated quantitative engineering analysis in early stage engineering students. The goal of this two-semester course is to improve the confidence and competence of our students in choosing and applying the tools of quantitative analysis to solve practical problems throughout their time in college and beyond, including in other course projects, senior capstone experiences, internships and in their careers. The course is led by an interdisciplinary team of faculty, in a project-based format, including in the presentation of fundamental concepts in mathematics. The course is run studio style, with emphasis placed on the process of engineering, improving students' self-directed learning skills, and encouraging peer and near-peer learning. Overall, we observed a high level of engagement in the course, with student-chosen final projects that involved significant analysis and self-directed learning of new tools and approaches."
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "au": [
+            "Govindasamy, Siddhartan",
+            "Christianson, Rebecca",
+            "Geddes, John",
+            "Lee, Christopher",
+            "Michalka, Samantha",
+            "Ruvolo, Paul",
+            "Somerville, Mark",
+            "Strong, Alexandra Coso"
+          ],
+          "btitle": [
+            "Proceedings - Frontiers in Education Conference"
+          ],
+          "atitle": [
+            "A contextualized, experiential learning approach to quantitative engineering analysis"
+          ],
+          "stitle": [
+            "FIE"
+          ],
+          "date": [
+            "2018-10"
+          ],
+          "risdate": [
+            "2018"
+          ],
+          "spage": [
+            "1"
+          ],
+          "epage": [
+            "5"
+          ],
+          "pages": [
+            "1-5"
+          ],
+          "eissn": [
+            "2377-634X"
+          ],
+          "eisbn": [
+            "9781538611746",
+            "1538611740"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/FIE.2018.8658526"
+          ],
+          "tpages": [
+            "5"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2018"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Boats",
+            "Breakdown (Electricity)",
+            "Control theory",
+            "Engineering mathematics",
+            "Implements",
+            "Mathematics",
+            "Robots",
+            "Ships",
+            "Task analysis"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan (POP) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP) 1998-present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i175t-ae4d841a2e7c6d6025f03b13ae063e6f780d57d5742c13ed4fd8f90388468abb3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Govindasamy, Siddhartan",
+            "Christianson, Rebecca",
+            "Geddes, John",
+            "Lee, Christopher",
+            "Michalka, Samantha",
+            "Ruvolo, Paul",
+            "Somerville, Mark",
+            "Strong, Alexandra Coso"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Govindasamy, Siddhartan ; Christianson, Rebecca ; Geddes, John ; Lee, Christopher ; Michalka, Samantha ; Ruvolo, Paul ; Somerville, Mark ; Strong, Alexandra Coso"
+          ],
+          "title": [
+            "A contextualized, experiential learning approach to quantitative engineering analysis"
+          ],
+          "creationdate": [
+            "201810"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_8658526"
+          ],
+          "sourcerecordid": [
+            "8658526"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i175t-ae4d841a2e7c6d6025f03b13ae063e6f780d57d5742c13ed4fd8f90388468abb3"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNotUEtLw0AYXAXBWnsXvOwPMHHfuzmW0mqh4MWCt_Il-6WuxE1MttL6641YGJjDPBiGkDvOcs5Z8bhaL3PBuMud0U4Lc0FmhXVcS2c4t8pckomQ1mZGqrdrcjMMH4yxUbQTsp3Tqo0Jj-kATfhB_0Dx2GEfMKYADW0Q-hjinkLX9S1U7zS19OsAo5oghW-kGPch4pj4M0VoTkMYbslVDc2AszNPyXa1fF08Z5uXp_VivskCtzplgMo7xUGgrYw3TOiayZJLQGYkmto65rUdoUTFJXpVe1cX43KnjIOylFNy_98bEHHX9eET-tPu_IL8BfsvUnE"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "8658526"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.03427719"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=A+contextualized%2C+experiential+learning+approach+to+quantitative+engineering+analysis&rft.btitle=Proceedings+-+Frontiers+in+Education+Conference&rft.au=Govindasamy%2C+Siddhartan&rft.date=2018-10&rft.spage=1&rft.epage=5&rft.pages=1-5&rft.eissn=2377-634X&rft_id=info:doi/10.1109%2FFIE.2018.8658526&rft.eisbn=9781538611746&rft.pub=IEEE&rft.stitle=FIE&rft_dat=<ieee_RIE>8658526</ieee_RIE>&svc_dat=viewit&rft_ieee_id=8658526"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_8658526"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/9292652$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F9292652$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "isbn": [
+            "9781665405256",
+            "1665405252"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Business enterprises",
+            "Computer-assisted instruction",
+            "Construction industry",
+            "Leadership",
+            "Production scheduling",
+            "Seminars"
+          ],
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course",
+            "2020 Annual Conference Northeast Section (ASEE-NE)"
+          ],
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNotULtOwzAUNQMDKv0ClvsDLX7EjjNGIRSkAkNhrlz7OrXU2lHiIOXvKdDpDOelcwgBRteM0eqx3rXteyuZ4sWaU07XFa-4kvyGLKtSM6VkQSWX6o7MNezmMePZ5GChSdMwIjzhGLoIdd8Pydgj5ASbKTiEfPwlv_GU-jPGDMmDuZjimIfJ5pAitLELEXEIsQMTHbyZaDr8EzemH3OKeG25J7fenEZcXnFBvp7bz-Zltf3YvDb1dhUY03mlROlpqZU7CEG1dlp6bw_cWlTaOVpxKRljRkpeldZbpag6FP6yt_BSoHRiQR7-cwMi7vshnM0w76-HiB9JYVra"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "creator": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "creationdate": [
+            "2020"
+          ],
+          "addtitle": [
+            "ASEENE"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "20201016"
+          ],
+          "enddate": [
+            "20201016"
+          ],
+          "scope": [
+            "6IE",
+            "6IL",
+            "CBEJK",
+            "RIE",
+            "RIL"
+          ],
+          "description": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ],
+          "creatorcontrib": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Lee, Namhun ; Kim, Seong Jin"
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "2020 Annual Conference Northeast Section (ASEE-NE), 2020, p.1-5"
+          ],
+          "identifier": [
+            "EISBN: 9781665405256",
+            "EISBN: 1665405252",
+            "DOI: 10.1109/ASEENE51624.2020.9292652"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            ".... To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach..."
+          ],
+          "description": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ],
+          "subject": [
+            "Business enterprises ;  Computer-assisted instruction ;  Construction industry ;  Leadership ;  Production scheduling ;  Seminars"
+          ],
+          "keyword": [
+            "ADDIE ;  analyze design develop implement evaluate ;  CCSU ;  central connecticut state university construction management ;  Course Design ;  educational courses ;  educational institutions ;  management capstone course ;  management education ;  management programs ;  Object recognition ;  Problem-solving ;  proven instructional design approaches ;  Senior Capstone ;  senior capstone course development ;  structural engineering computing ;  Systematic Approach ;  systematic course design approach ;  Systematics ;  undergraduate CEM programs ;  undergraduate construction engineering"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "au": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "btitle": [
+            "2020 Annual Conference Northeast Section (ASEE-NE)"
+          ],
+          "atitle": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "stitle": [
+            "ASEENE"
+          ],
+          "date": [
+            "2020-10-16"
+          ],
+          "risdate": [
+            "2020"
+          ],
+          "spage": [
+            "1"
+          ],
+          "epage": [
+            "5"
+          ],
+          "pages": [
+            "1-5"
+          ],
+          "eisbn": [
+            "9781665405256",
+            "1665405252"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/ASEENE51624.2020.9292652"
+          ],
+          "tpages": [
+            "5"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2020"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Business enterprises",
+            "Computer-assisted instruction",
+            "Construction industry",
+            "Leadership",
+            "Production scheduling",
+            "Seminars"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan All Online (POP All Online) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP All) 1998-Present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i118t-637f0786db33088d85ffcb2cce68dd09255111a55297cfc6606b4f9294f53e5d3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Lee, Namhun ; Kim, Seong Jin"
+          ],
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "creationdate": [
+            "20201016"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_9292652"
+          ],
+          "sourcerecordid": [
+            "9292652"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i118t-637f0786db33088d85ffcb2cce68dd09255111a55297cfc6606b4f9294f53e5d3"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNotULtOwzAUNQMDKv0ClvsDLX7EjjNGIRSkAkNhrlz7OrXU2lHiIOXvKdDpDOelcwgBRteM0eqx3rXteyuZ4sWaU07XFa-4kvyGLKtSM6VkQSWX6o7MNezmMePZ5GChSdMwIjzhGLoIdd8Pydgj5ASbKTiEfPwlv_GU-jPGDMmDuZjimIfJ5pAitLELEXEIsQMTHbyZaDr8EzemH3OKeG25J7fenEZcXnFBvp7bz-Zltf3YvDb1dhUY03mlROlpqZU7CEG1dlp6bw_cWlTaOVpxKRljRkpeldZbpag6FP6yt_BSoHRiQR7-cwMi7vshnM0w76-HiB9JYVra"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "9292652"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.03236472"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=A+Systematic+Course+Design+Approach+to+Guide+the+Development+of+a+Construction+Engineering+and+Management+Capstone+Course&rft.btitle=2020+Annual+Conference+Northeast+Section+%28ASEE-NE%29&rft.au=Lee%2C+Namhun&rft.date=2020-10-16&rft.spage=1&rft.epage=5&rft.pages=1-5&rft_id=info:doi/10.1109%2FASEENE51624.2020.9292652&rft.eisbn=9781665405256&rft.pub=IEEE&rft.stitle=ASEENE&rft_dat=<ieee_RIE>9292652</ieee_RIE>&svc_dat=viewit&rft_ieee_id=9292652"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_9292652"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktopdf": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fwww.proquest.com%2Fdocview%2F2318515183%2FfulltextPDF%3Fpq-origsite%3Dprimo$$EPDF$$Gproquest$$H$$Pomit_proxy_false"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fwww.proquest.com%2Fdocview%2F2318515183%3Fpq-origsite%3Dprimo$$EHTML$$Gproquest$$H$$Pomit_proxy_false"
+          ]
+        },
+        "search": {
+          "issn": [
+            "0747-9964"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Ability",
+            "Accreditation",
+            "Active learning",
+            "Classrooms",
+            "Communication",
+            "Cultural pluralism",
+            "Curricula",
+            "Design",
+            "Educational technology",
+            "Engineering design",
+            "Learning",
+            "Problem solving",
+            "Students"
+          ],
+          "title": [
+            "A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation",
+            "Journal of engineering technology"
+          ],
+          "sourceid": [
+            "ABJCF"
+          ],
+          "recordid": [
+            "eNpVjbFOwzAURTOARCn8gyUGpkhJ7NgxWxVKqFSJSi1z9Zw8py7BDrYz8AX8NpHKwnSXc8-5ShaZYCKVkrOb5DaEc5blRSbKRfKzIlsEb43t0xptRI8d2YGHzvSfRDtP1rY3FtHPBGk8jCfTBgK2I88YTG-f_gEHbE_WDa7_Jvs4dbMwPJL9hxkG0oCxl2MNY4jOItl5HOdUNM7eJdcahoD3f7tM3l_Wh_o13b41m3q1TVXB8ph2RVZRCagEthyASiVFBUppxTkKYNgqxnXBCqkVQ44q01RLjUhVhbRidJk8XLyjd18Thng8u8nbOXksaF6VeZlXlP4CU-tfiw"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Webster, Rustin"
+          ],
+          "creationdate": [
+            "2019"
+          ],
+          "general": [
+            "AMERICAN SOCIETY FOR ENGINEERING EDUCATION"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20190901"
+          ],
+          "enddate": [
+            "20190901"
+          ],
+          "scope": [
+            "3V.",
+            "4S-",
+            "4T-",
+            "4U-",
+            "7XB",
+            "88I",
+            "8AF",
+            "8AO",
+            "8FE",
+            "8FG",
+            "8FK",
+            "ABJCF",
+            "ABUWG",
+            "AFKRA",
+            "AHNLN",
+            "AZQEC",
+            "BENPR",
+            "BGLVJ",
+            "CCPQU",
+            "DWQXO",
+            "GNUQQ",
+            "HCIFZ",
+            "L6V",
+            "M2P",
+            "M7S",
+            "PHGZM",
+            "PHGZT",
+            "PKEHL",
+            "PQEST",
+            "PQGLB",
+            "PQQKQ",
+            "PQUKI",
+            "PRINS",
+            "PTHSS",
+            "Q9U",
+            "S0W",
+            "S0X"
+          ],
+          "description": [
+            "This descriptive non-experimental followon study investigates the extent to which a learning-centered paradigm in an engineering graphics and design course prepared undergraduate engineering technology (ET) students for senior capstone and how the course impacted vital professional and technical skills. A small 2016 case study (n = 10) showed that the course, which was approximately 5% passive and 95% active learning, produced positive skill gains for ET students (Webster 2017). However, this follow-on study was needed due to the inability of the 2016 case study to identify and/or confirm data trends and fully gauge the students' preparation for senior capstone. Multiple end-of-semester course surveys measured the extent to which 39 additional students from three new cohorts, over three consecutive years, believed they had made progress in a variety of skill development areas because of the course (i.e., indirect assessments). The classroom activities and outcomes survey indicated that, on average, the students believed that the course had moderately to greatly improved their engineering design, problem-solving, communication, and group skills. Additional analysis indicated satisfaction with the industry supplied computer-aided design (CAD) curriculum, positive reactions to project-based learning (a 10-week team design project), and CAD skill (modeling, drawing) gains. Observations from faculty and recent graduates also support the view that the course improved ET students' preparation for capstone. This paper provides a synopsis of the course and curriculum, validation for the learning-centered paradigm, and aids the engineering research community in taking a more nuanced view of active learning."
+          ],
+          "creatorcontrib": [
+            "Webster, Rustin"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "ProQuest MSED"
+          ],
+          "creator": [
+            "Webster, Rustin"
+          ],
+          "publisher": [
+            "Washington: AMERICAN SOCIETY FOR ENGINEERING EDUCATION"
+          ],
+          "ispartof": [
+            "Journal of engineering technology, 2019-09, Vol.36 (2), p.36-46"
+          ],
+          "identifier": [
+            "ISSN: 0747-9964"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "Copyright AMERICAN SOCIETY FOR ENGINEERING EDUCATION Fall 2019"
+          ],
+          "snippet": [
+            "...) students for senior capstone and how the course impacted vital professional and technical skills..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "description": [
+            "This descriptive non-experimental followon study investigates the extent to which a learning-centered paradigm in an engineering graphics and design course prepared undergraduate engineering technology (ET) students for senior capstone and how the course impacted vital professional and technical skills. A small 2016 case study (n = 10) showed that the course, which was approximately 5% passive and 95% active learning, produced positive skill gains for ET students (Webster 2017). However, this follow-on study was needed due to the inability of the 2016 case study to identify and/or confirm data trends and fully gauge the students' preparation for senior capstone. Multiple end-of-semester course surveys measured the extent to which 39 additional students from three new cohorts, over three consecutive years, believed they had made progress in a variety of skill development areas because of the course (i.e., indirect assessments). The classroom activities and outcomes survey indicated that, on average, the students believed that the course had moderately to greatly improved their engineering design, problem-solving, communication, and group skills. Additional analysis indicated satisfaction with the industry supplied computer-aided design (CAD) curriculum, positive reactions to project-based learning (a 10-week team design project), and CAD skill (modeling, drawing) gains. Observations from faculty and recent graduates also support the view that the course improved ET students' preparation for capstone. This paper provides a synopsis of the course and curriculum, validation for the learning-centered paradigm, and aids the engineering research community in taking a more nuanced view of active learning."
+          ],
+          "subject": [
+            "Ability ;  Accreditation ;  Active learning ;  Classrooms ;  Communication ;  Cultural pluralism ;  Curricula ;  Design ;  Educational technology ;  Engineering design ;  Learning ;  Problem solving ;  Students"
+          ],
+          "keyword": [
+            "CAD ;  Capstone projects ;  Collaboration ;  Computer aided design ;  Engineering education ;  Engineering research ;  Graduates ;  Inquiry method ;  Paradigms ;  Prince, Michael ;  Science education ;  Teaching methods"
+          ]
+        },
+        "addata": {
+          "issn": [
+            "0747-9964"
+          ],
+          "abstract": [
+            "This descriptive non-experimental followon study investigates the extent to which a learning-centered paradigm in an engineering graphics and design course prepared undergraduate engineering technology (ET) students for senior capstone and how the course impacted vital professional and technical skills. A small 2016 case study (n = 10) showed that the course, which was approximately 5% passive and 95% active learning, produced positive skill gains for ET students (Webster 2017). However, this follow-on study was needed due to the inability of the 2016 case study to identify and/or confirm data trends and fully gauge the students' preparation for senior capstone. Multiple end-of-semester course surveys measured the extent to which 39 additional students from three new cohorts, over three consecutive years, believed they had made progress in a variety of skill development areas because of the course (i.e., indirect assessments). The classroom activities and outcomes survey indicated that, on average, the students believed that the course had moderately to greatly improved their engineering design, problem-solving, communication, and group skills. Additional analysis indicated satisfaction with the industry supplied computer-aided design (CAD) curriculum, positive reactions to project-based learning (a 10-week team design project), and CAD skill (modeling, drawing) gains. Observations from faculty and recent graduates also support the view that the course improved ET students' preparation for capstone. This paper provides a synopsis of the course and curriculum, validation for the learning-centered paradigm, and aids the engineering research community in taking a more nuanced view of active learning."
+          ],
+          "jtitle": [
+            "Journal of engineering technology"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Webster, Rustin"
+          ],
+          "atitle": [
+            "A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation"
+          ],
+          "date": [
+            "2019-09-01"
+          ],
+          "risdate": [
+            "2019"
+          ],
+          "volume": [
+            "36"
+          ],
+          "issue": [
+            "2"
+          ],
+          "spage": [
+            "36"
+          ],
+          "epage": [
+            "46"
+          ],
+          "pages": [
+            "36-46"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "Washington"
+          ],
+          "pub": [
+            "AMERICAN SOCIETY FOR ENGINEERING EDUCATION"
+          ],
+          "tpages": [
+            "11"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2019"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Ability",
+            "Accreditation",
+            "Active learning",
+            "Classrooms",
+            "Communication",
+            "Cultural pluralism",
+            "Curricula",
+            "Design",
+            "Educational technology",
+            "Engineering design",
+            "Learning",
+            "Problem solving",
+            "Students"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "ProQuest Central (Corporate)",
+            "BPIR.com Limited",
+            "Docstoc",
+            "University Readers",
+            "ProQuest Central (purchase pre-March 2016)",
+            "Science Database (Alumni Edition)",
+            "STEM Database",
+            "ProQuest Pharma Collection",
+            "ProQuest SciTech Collection",
+            "ProQuest Technology Collection",
+            "ProQuest Central (Alumni) (purchase pre-March 2016)",
+            "ProQuest MSED",
+            "ProQuest Central (Alumni)",
+            "ProQuest Central UK/Ireland",
+            "ProQuest Central Premium Korea",
+            "ProQuest Central Essentials",
+            "ProQuest Central",
+            "Technology Collection",
+            "ProQuest One Community College",
+            "ProQuest Central Korea",
+            "ProQuest Central Student",
+            "SciTech Premium Collection",
+            "ProQuest Engineering Collection",
+            "Science Database",
+            "Engineering Database",
+            "Proquest Central Premium",
+            "ProQuest One Academic",
+            "ProQuest One Academic Middle East (New)",
+            "ProQuest One Academic Eastern Edition (DO NOT USE)",
+            "ProQuest One Applied & Life Sciences",
+            "ProQuest One Academic (retired)",
+            "ProQuest One Academic UKI Edition",
+            "ProQuest Central China",
+            "Engineering Collection",
+            "ProQuest Central Basic",
+            "DELNET Engineering & Technology Collection",
+            "SIRS Editorial"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-b241t-d20839aeb7ec6aa39b978abbfb66e7a4ecb46f2429fb4e6eb0f3f9fee3b8e3843"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Journal of engineering technology"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Webster, Rustin"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Webster, Rustin"
+          ],
+          "title": [
+            "A Learning-Centered Paradigm for Engineering Graphics and Design: Engineering Technology Students' Skill Gains and Capstone Preparation"
+          ],
+          "creationdate": [
+            "20190901"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest"
+          ],
+          "recordid": [
+            "cdi_proquest_journals_2318515183"
+          ],
+          "sourcerecordid": [
+            "2318515183"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-b241t-d20839aeb7ec6aa39b978abbfb66e7a4ecb46f2429fb4e6eb0f3f9fee3b8e3843"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNpVjbFOwzAURTOARCn8gyUGpkhJ7NgxWxVKqFSJSi1z9Zw8py7BDrYz8AX8NpHKwnSXc8-5ShaZYCKVkrOb5DaEc5blRSbKRfKzIlsEb43t0xptRI8d2YGHzvSfRDtP1rY3FtHPBGk8jCfTBgK2I88YTG-f_gEHbE_WDa7_Jvs4dbMwPJL9hxkG0oCxl2MNY4jOItl5HOdUNM7eJdcahoD3f7tM3l_Wh_o13b41m3q1TVXB8ph2RVZRCagEthyASiVFBUppxTkKYNgqxnXBCqkVQ44q01RLjUhVhbRidJk8XLyjd18Thng8u8nbOXksaF6VeZlXlP4CU-tfiw"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "2318515183"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.0254722"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=A+Learning-Centered+Paradigm+for+Engineering+Graphics+and+Design%3A+Engineering+Technology+Students%27+Skill+Gains+and+Capstone+Preparation&rft.jtitle=Journal+of+engineering+technology&rft.au=Webster%2C+Rustin&rft.date=2019-09-01&rft.volume=36&rft.issue=2&rft.spage=36&rft.epage=46&rft.pages=36-46&rft.issn=0747-9964&rft.pub=AMERICAN+SOCIETY+FOR+ENGINEERING+EDUCATION&rft.place=Washington&rft_dat=<proquest>2318515183</proquest>&svc_dat=viewit&rft_pqid=2318515183"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_proquest_journals_2318515183"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktopdf": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=http%3A%2F%2Fascelibrary.org%2Fdoi%2Fpdf%2F10.1061%2F%28ASCE%29EI.1943-5541.0000269$$EPDF$$Gasce$$H$$Pomit_proxy_false"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=http%3A%2F%2Fascelibrary.org%2Fdoi%2Fabs%2F10.1061%2F%28ASCE%29EI.1943-5541.0000269$$EHTML$$Gasce$$H$$Pomit_proxy_false"
+          ]
+        },
+        "search": {
+          "issn": [
+            "1052-3928",
+            "1943-5541"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "subject": [
+            "Case Reports",
+            "Case studies"
+          ],
+          "title": [
+            "Progressive Integration of Design Process into Civil Engineering Curriculum",
+            "Journal of professional issues in engineering education and practice"
+          ],
+          "recordid": [
+            "eNp1kFFLwzAQx4MoOKffIfikD51JkyaNb6NWLQ4U3HtI06RkdKkk7cBvb8vG3ryXO47_7zh-ANxjtMKI4aeH9XdRPpbVCgtKkiyjeIWmSpm4AIvz7nKaUZYmRKT5NbiJcTdnMoIW4OMr9G0wMbqDgZUfTBvU4HoPewtfTHSth1NCTwHo_NDDwh1cB0vfOm9McL6FxRiC02M37m_BlVVdNHenvgTb13JbvCebz7eqWG8SRagYEt0wZPMaU0UYtbXmNtcM8ZrglCPOGpYTm1IstFGZbQjHmOA658LoWjXKkCV4Pp7VoY8xGCt_gtur8CsxkrMVKWcrsqzkbEDOBuTJygSzI6yiNnLXj8FPr57J_8E_brRnwA"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "creator": [
+            "Jackson, Hudson V",
+            "Tarhini, Kassim M"
+          ],
+          "creationdate": [
+            "2016"
+          ],
+          "general": [
+            "American Society of Civil Engineers"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20160701"
+          ],
+          "enddate": [
+            "20160701"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION"
+          ],
+          "description": [
+            "AbstractThe design process has been successfully infused in the civil engineering curriculum at an undergraduate institution through progressive and consistent integration of key design principles throughout the four years of education. This has been accomplished without adding new courses to the curriculum. Students are introduced to a problem-solving framework in the freshman year that is used as the basis of further instruction in the design process in subsequent courses. Several upper-level courses were structured to include project-enhanced, project-based learning and cooperative learning that promote learning at higher levels. Assessment data indicate that students are making progressive improvement in problem-solving abilities, performing better on senior capstone design projects, and show better preparedness to make the transition to practice engineering after graduation."
+          ],
+          "creatorcontrib": [
+            "Jackson, Hudson V",
+            "Tarhini, Kassim M"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Progressive Integration of Design Process into Civil Engineering Curriculum"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "American Society of Civil Engineers ASCE All titles",
+            "American Society Of Civil Engineers ASCE Journals"
+          ],
+          "creator": [
+            "Jackson, Hudson V ; Tarhini, Kassim M"
+          ],
+          "publisher": [
+            "American Society of Civil Engineers"
+          ],
+          "ispartof": [
+            "Journal of professional issues in engineering education and practice, 2016-07, Vol.142 (3)"
+          ],
+          "identifier": [
+            "ISSN: 1052-3928",
+            "EISSN: 1943-5541",
+            "DOI: 10.1061/(ASCE)EI.1943-5541.0000269"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "2015 American Society of Civil Engineers"
+          ],
+          "snippet": [
+            ".... Several upper-level courses were structured to include project-enhanced, project-based learning and cooperative learning that promote learning at higher levels..."
+          ],
+          "description": [
+            "AbstractThe design process has been successfully infused in the civil engineering curriculum at an undergraduate institution through progressive and consistent integration of key design principles throughout the four years of education. This has been accomplished without adding new courses to the curriculum. Students are introduced to a problem-solving framework in the freshman year that is used as the basis of further instruction in the design process in subsequent courses. Several upper-level courses were structured to include project-enhanced, project-based learning and cooperative learning that promote learning at higher levels. Assessment data indicate that students are making progressive improvement in problem-solving abilities, performing better on senior capstone design projects, and show better preparedness to make the transition to practice engineering after graduation."
+          ],
+          "subject": [
+            "Case Reports ;  Case studies"
+          ]
+        },
+        "addata": {
+          "issn": [
+            "1052-3928"
+          ],
+          "abstract": [
+            "AbstractThe design process has been successfully infused in the civil engineering curriculum at an undergraduate institution through progressive and consistent integration of key design principles throughout the four years of education. This has been accomplished without adding new courses to the curriculum. Students are introduced to a problem-solving framework in the freshman year that is used as the basis of further instruction in the design process in subsequent courses. Several upper-level courses were structured to include project-enhanced, project-based learning and cooperative learning that promote learning at higher levels. Assessment data indicate that students are making progressive improvement in problem-solving abilities, performing better on senior capstone design projects, and show better preparedness to make the transition to practice engineering after graduation."
+          ],
+          "jtitle": [
+            "Journal of professional issues in engineering education and practice"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Jackson, Hudson V",
+            "Tarhini, Kassim M"
+          ],
+          "atitle": [
+            "Progressive Integration of Design Process into Civil Engineering Curriculum"
+          ],
+          "date": [
+            "2016-07-01"
+          ],
+          "risdate": [
+            "2016"
+          ],
+          "volume": [
+            "142"
+          ],
+          "issue": [
+            "3"
+          ],
+          "eissn": [
+            "1943-5541"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "pub": [
+            "American Society of Civil Engineers"
+          ],
+          "doi": [
+            "10.1061/(ASCE)EI.1943-5541.0000269"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2016"
+          ],
+          "language": [
+            "eng"
+          ],
+          "topic": [
+            "Case Reports",
+            "Case studies"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-a349t-cd60f8b14a364fbc7f8c607b3127076d683f2419cea5fd371131b879ecbadae3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Journal of professional issues in engineering education and practice"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Jackson, Hudson V",
+            "Tarhini, Kassim M"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Jackson, Hudson V ; Tarhini, Kassim M"
+          ],
+          "title": [
+            "Progressive Integration of Design Process into Civil Engineering Curriculum"
+          ],
+          "creationdate": [
+            "20160701"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "asce_cross"
+          ],
+          "recordid": [
+            "cdi_crossref_primary_10_1061__ASCE_EI_1943_5541_0000269"
+          ],
+          "sourcerecordid": [
+            "10_1061_ASCE_EI_1943_5541_0000269"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-a349t-cd60f8b14a364fbc7f8c607b3127076d683f2419cea5fd371131b879ecbadae3"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNp1kFFLwzAQx4MoOKffIfikD51JkyaNb6NWLQ4U3HtI06RkdKkk7cBvb8vG3ryXO47_7zh-ANxjtMKI4aeH9XdRPpbVCgtKkiyjeIWmSpm4AIvz7nKaUZYmRKT5NbiJcTdnMoIW4OMr9G0wMbqDgZUfTBvU4HoPewtfTHSth1NCTwHo_NDDwh1cB0vfOm9McL6FxRiC02M37m_BlVVdNHenvgTb13JbvCebz7eqWG8SRagYEt0wZPMaU0UYtbXmNtcM8ZrglCPOGpYTm1IstFGZbQjHmOA658LoWjXKkCV4Pp7VoY8xGCt_gtur8CsxkrMVKWcrsqzkbEDOBuTJygSzI6yiNnLXj8FPr57J_8E_brRnwA"
+          ],
+          "sourcetype": [
+            "Index Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.019748969"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:05&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-asce_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Progressive+Integration+of+Design+Process+into+Civil+Engineering+Curriculum&rft.jtitle=Journal+of+professional+issues+in+engineering+education+and+practice&rft.au=Jackson%2C+Hudson+V&rft.date=2016-07-01&rft.volume=142&rft.issue=3&rft.issn=1052-3928&rft.eissn=1943-5541&rft_id=info:doi/10.1061%2F%28ASCE%29EI.1943-5541.0000269&rft.pub=American+Society+of+Civil+Engineers&rft_dat=<asce_cross>10_1061_ASCE_EI_1943_5541_0000269</asce_cross>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-a349t-cd60f8b14a364fbc7f8c607b3127076d683f2419cea5fd371131b879ecbadae3"
+          ],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_primary_10_1061__ASCE_EI_1943_5541_0000269"
+    },
+    {
+      "context": "v2v",
+      "adaptor": "Primo VE Deep Search",
+      "@id": "https://na03.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991076211557202901",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "book"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "The Palgrave handbook of teaching and research in political science "
+          ],
+          "format": [
+            "1 online resource (413 pages)"
+          ],
+          "identifier": [
+            "$$CISBN$$V9783031428876;$$CISBN$$V3031428870;$$COCLC$$V(OCoLC)1411306437;$$CISBN$$V9783031428869"
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "creator": [
+            "Butcher, Charity, 1976-$$QButcher, Charity"
+          ],
+          "publisher": [
+            "Cham : Springer International Publishing : Imprint: Palgrave Macmillan"
+          ],
+          "description": [
+            "“With contributions by leading scholars and practitioners from around the world, this collection represents the best single resource for anyone looking to get more out of bringing together teaching and research.” – Simon Usherwood, The Open University, UK “An essential resource filled with new ideas and approaches, this will become the go-to volume for political science instructors eager to find efficient, productive, and fun ways to combine their teaching and research interests.” – Amanda Rosen, Webster University, US “This book is an excellent contribution to the field of political science pedagogy. Given the constant challenge that professors face to do quality research and quality teaching, this book is a very useful resource for academics to better focus on the importance of research into effective pedagogy and how this research can be helpful to the professor and their students.” – Victor Asal, University of Albany, US This book provides a resource for political science faculty wanting to increase their research productivity and/or teaching effectiveness in a time and resource efficient way. Faculty from various subfields and institution types offer examples of how they align their research and teaching activities to “get more bang for their buck.” While some contributors discuss projects within the Scholarship of Teaching and Learning (SoTL) research tradition, others go beyond this approach and integrate their teaching and research in other ways. As a result, this volume offers diverse, innovative, and practical ways faculty can leverage the teaching/scholarship connection to both improve scholarly productivity and ground political science instruction in pedagogical literature. Charity Butcher is Director of the School of Conflict Management, Peacebuilding and Development at Kennesaw State University. Tavishi Bhasin is a Professor in the School of Government and International Affairs at KennesawState University. Elizabeth Gordon is a Professor in the School of Government and International Affairs at Kennesaw State University. Maia Hallward is Professor in the School of Conflict Management, Peacebuilding and Development at Kennesaw State University."
+          ],
+          "mms": [
+            "991076211557202901"
+          ],
+          "dedupmemberids": [
+            "991024276809602917"
+          ],
+          "contributor": [
+            "Bhasin, Tavishi.$$QBhasin, Tavishi.",
+            "Gordon, Elizabeth.$$QGordon, Elizabeth.",
+            "Hallward, Maia Carter, 1976-$$QHallward, Maia Carter"
+          ],
+          "edition": [
+            "1st ed. 2023."
+          ],
+          "series": [
+            "Political Pedagogies, 2662-7817$$QPolitical Pedagogies",
+            "Political Pedagogies, 2662-7817$$QPolitical Pedagogies"
+          ],
+          "contents": [
+            "Introduction -- Section I: Scholarship of Teaching and Learning and Pedagogical Research -- Chapter 1: Teaching Philosophy and Teaching Philosophies: Developing a Pedagogical Identity as an Early Career Instructor -- Chapter 2: Research while Teaching: A Reflection -- Chapter 3: Amplifying Student Investment in the Political Science Classroom with Reflective Assignments -- Chapter 4: Engaging Students’ Lived Experience as a Research and Pedagogical Tool -- Chapter 5: Collaboration and Independent Study: Working with Undergraduate Students to Design, Implement, and Assess a Simulation -- Chapter 6: Learning Human Rights through Games -- Chapter 7: “I’m Gonna Make Them an Offer They Can’t Refuse”: Teaching Politics and Mafia through a Role Play to Improve Student Learning and Understanding -- Section II: Writing Textbooks -- Chapter 8: Writing a Textbook is Good for You -- Chapter 9: Taking Innovative Teaching to the Next Level – Writing and Publishing Instructional Materials and Textbooks -- Section III: Conducting Research with Students -- Chapter 10: The Many Rewards (and a Few Pitfalls) of Doing Research with Students -- Chapter 11: A Guide to Balancing Teaching, Research and Service at a Comprehensive University by Engaging Undergraduates in Political Science Research -- Chapter 12: How to Hire Student Researchers, Find Funds to Pay Them and Advance Your Scholarship All While Teaching Way Too Much -- Chapter 13: Empowering Undergraduate Women Researchers Through Mentorship and Care -- Chapter 14: Early Challenges and Successes from Adapting the Laboratory Model to Undergraduate Teaching Institutions -- Chapter 15: Teamwork makes the (Research) Dream Work: Lessons in Working with a Student Research Team -- Chapter 15: Teamwork makes the (Research) Dream Work: Lessons in Working with a Student Research Team -- Chapter 16: Making Contingency Work: Conducting Student-Engaging Research Offthe Tenure Track.-Chapter 17: Research-oriented Teaching in Political Science: Emphasizing Science in the Name of Our Profession -- Chapter 18: Partnering with Graduate Students on Policy Research and Practice -- Chapter 19: Graduate Students and Learning the Publishing Game -- Section IV: Research with Students: Experiential Learning and Civic Engagement -- Chapter 20: Combining Project-Based Learning and Service Learning in Teaching Global Issues -- Chapter 21: Unlocking Hidden Connections: Synergizing Scholarship and Student Engagement.-Chapter 22: Using Election Exit Polls to Teach Students about Public Opinion Research and Sustain a Scholarly Agenda -- Chapter 23: Why Iowa? An Experiential Approach to Teaching Presidential Nominations.-Chapter 24: Enhancing Teaching and Research Outcomes through Community Engagement -- Chapter 25: Creating the Ties that Bind: Weaving Undergraduate Research into Your Career Success -- Chapter 26: Community is Key: How Working Across Interdisciplinary Divides Can Improve Teaching, Research, and Service -- Section V: Embedding Research in Teaching and Generating Research Ideas from Teaching -- Chapter 27: Smart Teachers: Identifying Teaching Moments in Research -- Chapter 28: Remaining Research-Active at Teaching-Intensive Universities -- Chapter 29: Using Review Sessions to Jump Start Research Projects in Methods Coursework -- Chapter 30: Doing Political Theory in the Classroom -- Chapter 31: Teaching Food Security to Fed Students: Using Images to Promote Engagement.-Chapter 32: Knowledge Production and Student Learning in Political Science: Bhutan and the Politics of Happiness -- Chapter 33: The Evolution of a Senior Capstone Project -- 34. Conclusion."
+          ],
+          "place": [
+            "Cham :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds19": [
+            "International relations"
+          ],
+          "lds51": [
+            "1411306437"
+          ],
+          "lds61": [
+            "Political Pedagogies, 2662-7817$$QPolitical Pedagogies$$X26627817"
+          ],
+          "lds64": [
+            "2023"
+          ],
+          "subject": [
+            "International relations"
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "991076211557202901"
+          ],
+          "recordid": [
+            "alma991076211557202901"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "9929092738400041"
+          ],
+          "sourcesystem": [
+            "EBC"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "4.902154E-5"
+          ],
+          "isDedup": true,
+          "v2vScope": "ArticlesBooksEtc"
+        },
+        "addata": {
+          "originatingSystemIDAuthor": [
+            "n2018065577"
+          ],
+          "originatingSystemIDContributor": [
+            "no2025012736",
+            "n2011015753",
+            "n84002785"
+          ],
+          "aulast": [
+            "Butcher"
+          ],
+          "aufirst": [
+            "Charity"
+          ],
+          "auinit": [
+            "C"
+          ],
+          "au": [
+            "Butcher, Charity"
+          ],
+          "addau": [
+            "Bhasin, Tavishi.",
+            "Gordon, Elizabeth.",
+            "Hallward, Maia Carter"
+          ],
+          "creatorfull": [
+            "Butcher, Charity,"
+          ],
+          "contributorfull": [
+            "Bhasin, Tavishi.",
+            "Gordon, Elizabeth.",
+            "Hallward, Maia Carter,"
+          ],
+          "date": [
+            "2023"
+          ],
+          "isbn": [
+            "9783031428876",
+            "3031428870",
+            "9783031428869"
+          ],
+          "abstract": [
+            "“With contributions by leading scholars and practitioners from around the world, this collection represents the best single resource for anyone looking to get more out of bringing together teaching and research.” – Simon Usherwood, The Open University, UK “An essential resource filled with new ideas and approaches, this will become the go-to volume for political science instructors eager to find efficient, productive, and fun ways to combine their teaching and research interests.” – Amanda Rosen, Webster University, US “This book is an excellent contribution to the field of political science pedagogy. Given the constant challenge that professors face to do quality research and quality teaching, this book is a very useful resource for academics to better focus on the importance of research into effective pedagogy and how this research can be helpful to the professor and their students.” – Victor Asal, University of Albany, US This book provides a resource for political science faculty wanting to increase their research productivity and/or teaching effectiveness in a time and resource efficient way. Faculty from various subfields and institution types offer examples of how they align their research and teaching activities to “get more bang for their buck.” While some contributors discuss projects within the Scholarship of Teaching and Learning (SoTL) research tradition, others go beyond this approach and integrate their teaching and research in other ways. As a result, this volume offers diverse, innovative, and practical ways faculty can leverage the teaching/scholarship connection to both improve scholarly productivity and ground political science instruction in pedagogical literature. Charity Butcher is Director of the School of Conflict Management, Peacebuilding and Development at Kennesaw State University. Tavishi Bhasin is a Professor in the School of Government and International Affairs at KennesawState University. Elizabeth Gordon is a Professor in the School of Government and International Affairs at Kennesaw State University. Maia Hallward is Professor in the School of Conflict Management, Peacebuilding and Development at Kennesaw State University."
+          ],
+          "cop": [
+            "Cham"
+          ],
+          "pub": [
+            "Springer International Publishing"
+          ],
+          "oclcid": [
+            "(ocolc)1411306437"
+          ],
+          "doi": [
+            "10.1007/978-3-031-42887-6"
+          ],
+          "edition": [
+            "1st ed. 2023."
+          ],
+          "seriestitle": [
+            "Political Pedagogies"
+          ],
+          "format": [
+            "book"
+          ],
+          "genre": [
+            "book"
+          ],
+          "ristype": [
+            "BOOK"
+          ],
+          "btitle": [
+            "The Palgrave handbook of teaching and research in political science"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Palgrave handbook of teaching and research in political science /"
+          ],
+          "author": [
+            "Butcher, Charity, 1976-"
+          ],
+          "creationdate": [
+            "2023"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9048162579126947761"
+          ]
+        }
+      },
+      "delivery": {
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:3031428870,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "thumbnail",
+            "publicNote": "",
+            "@id": ":_0"
+          }
+        ]
+      },
+      "enrichment": {},
+      "otherInstDelivery": {
+        "bestlocation": null,
+        "holding": null,
+        "electronicServices": null,
+        "additionalElectronicServices": null,
+        "filteredByGroupServices": null,
+        "quickAccessService": null,
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "availabilityLinks": [
+          "detailsgetit1"
+        ],
+        "availabilityLinksUrl": [
+          "detailsgetit1"
+        ],
+        "displayedAvailability": "no_inventory",
+        "displayLocation": null,
+        "additionalLocations": null,
+        "titleRequestableAtItemLevel": null,
+        "physicalItemTextCodes": null,
+        "feDisplayOtherLocations": null,
+        "almaInstitutionsList": [],
+        "recordInstitutionCode": null,
+        "recordOwner": "01CALS_NETWORK",
+        "hasFilteredServices": null,
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "sharedDigitalCandidates": null,
+        "consolidatedCoverage": null,
+        "electronicContextObjectId": null,
+        "almaOpenurl": null,
+        "GetIt1": [
+          {
+            "category": "Alma-P",
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "getItTabText": "service_howtogetit",
+                "adaptorid": "ALMA_01",
+                "ilsApiId": "",
+                "link": "HowToGetIt",
+                "inst4opac": "",
+                "displayText": null,
+                "@id": "_:0"
+              }
+            ]
+          }
+        ],
+        "physicalServiceId": null,
+        "link": [
+          {
+            "@id": ":_0",
+            "linkType": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:3031428870,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "displayLabel": "thumbnail"
+          }
+        ],
+        "hasD": null
+      }
+    }
+  ],
+  "timelog": {
+    "PC_SEARCH_CALL_TIME": "114",
+    "PC_BUILD_JSON_AND_HIGLIGHTS": "86",
+    "PC_SEARCH_TIME_TOTAL": "200",
+    "CALL_SOLR_GET_IDS_LIST": "197",
+    "PRIMA_LOCAL_INFO_FACETS_BUILD_DOCS_HIGHLIGHTS": "0",
+    "PRIMA_LOCAL_SEARCH_TOTAL": "198",
+    "REMOTEVE_CALL_SEARCH": "82",
+    "REMOTEVE_BUILD_RESULT_CONVERT_TO_JSON": "1",
+    "REMOTEVE_SEARCH_TIME_TOTAL": "83",
+    "BUILD_BLEND_AND_CACHE_RESULTS": 1,
+    "BUILD_COMBINED_RESULTS_MAP": 200,
+    "COMBINED_SEARCH_TIME": 208,
+    "PROCESS_COMBINED_RESULTS": 0,
+    "FEATURED_SEARCH_TIME": 0
+  },
+  "facetsCacheKey": 714974875
+}

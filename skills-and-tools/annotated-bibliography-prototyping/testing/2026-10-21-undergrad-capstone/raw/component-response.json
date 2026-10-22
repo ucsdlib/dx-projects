@@ -1,0 +1,4408 @@
+{
+  "beaconO22": "730",
+  "info": {
+    "totalResultsLocal": 1,
+    "totalResultsPC": 11,
+    "total": 14,
+    "first": 1,
+    "last": 14
+  },
+  "highlights": {
+    "snippet": [
+      "course designs",
+      "Senior Capstone",
+      "undergraduate capstone",
+      "course design",
+      "senior",
+      "capstone",
+      "senior capstone",
+      "project"
+    ],
+    "title": [
+      "Undergraduate Capstone",
+      "((((\"undergraduate capstone\") OR (\"senior capstone\"))) AND (((\"course design\") OR (\"project design\"))))",
+      "senior capstone",
+      "Course Design"
+    ],
+    "termsUnion": [
+      "course designs",
+      "Senior Capstone",
+      "undergraduate capstone",
+      "course design",
+      "senior",
+      "capstone",
+      "senior capstone",
+      "project",
+      "course",
+      "design",
+      "Undergraduate Capstone",
+      "((((\"undergraduate capstone\") OR (\"senior capstone\"))) AND (((\"course design\") OR (\"project design\"))))",
+      "Course Design"
+    ],
+    "toc": [
+      "course",
+      "design"
+    ]
+  },
+  "docs": [
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://www.proquest.com/docview/2247799369?pq-origsite=primo$$EHTML$$Gproquest$$Hfree_for_read$$Pomit_proxy_false"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            "PIMPY"
+          ],
+          "recordid": [
+            "eNpNj09Lw0AQxYMoWLTfYcGDp8D-SbKJB6GEqoWKh9bzMk0m7ZZmN-5uDvn2rm0PnubN4zfvMTfJjHNK04xLevtP3ydz74-UUl7lguVylky17Qdw2uzJZrv8JJswtmiCfyZgWrLsh5Od0MU1ygN49MQaUoNDdGRlOut6CDpaax3QQTORF7I4h0x_4Ldp0e0dtCMEjGeDD9ZgtHXwj8ldByeP8-t8SLZvy239ka6_3lf1Yp0OpSjSKkfodrxkpagYox0gCla2nAosKSu6HWMso5zJfEehYbyRoswzyGVWSJGLTjwkT5fYwdmfEX1QRzs6ExsV55mUVSWKKlKvF8r1OihAPQTlEVxzUPr8ZXSt26vWasWoEoIVV4pzXvBC_AItlW8I"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Career development",
+            "Economic indicators",
+            "Employability",
+            "Information literacy",
+            "Learning",
+            "Questionnaires",
+            "Students",
+            "Transformative learning",
+            "Vocational guidance"
+          ],
+          "title": [
+            "Comparing STEM Students' and Employers' Emphases on Career Information Literacy : A Study on Undergraduate Capstone Units",
+            "International Journal of Innovation in Science and Mathematics Education"
+          ],
+          "creator": [
+            "Lin-Stephens, Serene",
+            "Manuguerra, Maurizio",
+            "Uesi, John"
+          ],
+          "creationdate": [
+            "2018"
+          ],
+          "general": [
+            "University of Sydney"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "2018"
+          ],
+          "enddate": [
+            "2018"
+          ],
+          "scope": [
+            "ADPEH",
+            "0-V",
+            "3V.",
+            "7XB",
+            "88B",
+            "88I",
+            "8FK",
+            "ABUWG",
+            "AFKRA",
+            "ALSLI",
+            "AYAGU",
+            "AZQEC",
+            "BENPR",
+            "CCPQU",
+            "CJNVE",
+            "DWQXO",
+            "GNUQQ",
+            "HCIFZ",
+            "M0P",
+            "M2P",
+            "PHGZM",
+            "PHGZT",
+            "PIMPY",
+            "PKEHL",
+            "PQEDU",
+            "PQEST",
+            "PQQKQ",
+            "PQUKI",
+            "PRINS",
+            "Q9U"
+          ],
+          "creatorcontrib": [
+            "Lin-Stephens, Serene",
+            "Manuguerra, Maurizio",
+            "Uesi, John"
+          ],
+          "issn": [
+            "2200-4270",
+            "2200-4270"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "The mixed graduate employment outcomes of Science, Technology, Engineering and Mathematics (STEM) have often been discussed in terms of social-economic factors, which are largely beyond educational institutions' control. This study\naims to examine an endogenous factor related to perceptions of career and employability development to inform course designs and facilitation. Building on a previous study, we examine STEM career information literacy learning emphases in\ngeneric, discipline-based and transformative learning. Specifically, we identify and describe the variance (a) between STEM student cohorts and (b) between STEM students and employers. In this nonexperimental, cross-sectional study, we\ncollected responses via a career information literacy learning questionnaire, from final year STEM capstone unit students and their potential employers in an Australian university. The findings indicate that, overall, STEM student\ncohorts do not differ from each other in their emphases on different attributes of career information literacy, except for the Mathematics, Statistics, Physics and Astronomy cohort. However, when combined and analysed as a group, the\nSTEM students exhibit significantly different career information literacy focuses from STEM employers. The results point to a critical need for STEM students to be educated about employer perceptions. Further implications and limitations\nof the study are discussed. [Author abstract]"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Comparing STEM Students' and Employers' Emphases on Career Information Literacy : A Study on Undergraduate Capstone Units"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Publicly Available Content Database",
+            "Alma/SFX Local Collection"
+          ],
+          "creator": [
+            "Lin-Stephens, Serene ; Manuguerra, Maurizio ; Uesi, John"
+          ],
+          "publisher": [
+            "Sydney: University of Sydney"
+          ],
+          "ispartof": [
+            "International Journal of Innovation in Science and Mathematics Education, 2018, Vol.26 (7), p.25-37"
+          ],
+          "identifier": [
+            "ISSN: 2200-4270",
+            "EISSN: 2200-4270"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "2018. Notwithstanding the ProQuest Terms and Conditions, you may use this content in accordance with the associated terms available at https://openjournals.library.sydney.edu.au/index.php/CAL/about/editorialPolicies#openAccessPolicy ."
+          ],
+          "snippet": [
+            ".... This study\naims to examine an endogenous factor related to perceptions of career and employability development to inform course designs and facilitation...",
+            ".... This study aims to examine an endogenous factor related to perceptions of career and employability development to inform course designs and facilitation..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "The mixed graduate employment outcomes of Science, Technology, Engineering and Mathematics (STEM) have often been discussed in terms of social-economic factors, which are largely beyond educational institutions' control. This study\naims to examine an endogenous factor related to perceptions of career and employability development to inform course designs and facilitation. Building on a previous study, we examine STEM career information literacy learning emphases in\ngeneric, discipline-based and transformative learning. Specifically, we identify and describe the variance (a) between STEM student cohorts and (b) between STEM students and employers. In this nonexperimental, cross-sectional study, we\ncollected responses via a career information literacy learning questionnaire, from final year STEM capstone unit students and their potential employers in an Australian university. The findings indicate that, overall, STEM student\ncohorts do not differ from each other in their emphases on different attributes of career information literacy, except for the Mathematics, Statistics, Physics and Astronomy cohort. However, when combined and analysed as a group, the\nSTEM students exhibit significantly different career information literacy focuses from STEM employers. The results point to a critical need for STEM students to be educated about employer perceptions. Further implications and limitations\nof the study are discussed. [Author abstract]"
+          ],
+          "subject": [
+            "Career development ;  Economic indicators ;  Employability ;  Information literacy ;  Learning ;  Questionnaires ;  Students ;  Transformative learning ;  Vocational guidance"
+          ],
+          "keyword": [
+            "Capstone courses ;  Career awareness ;  Employer attitudes ;  Employers ;  Grouping (Instructional Purposes) ;  Higher education ;  STEM education"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "The mixed graduate employment outcomes of Science, Technology, Engineering and Mathematics (STEM) have often been discussed in terms of social-economic factors, which are largely beyond educational institutions' control. This study\naims to examine an endogenous factor related to perceptions of career and employability development to inform course designs and facilitation. Building on a previous study, we examine STEM career information literacy learning emphases in\ngeneric, discipline-based and transformative learning. Specifically, we identify and describe the variance (a) between STEM student cohorts and (b) between STEM students and employers. In this nonexperimental, cross-sectional study, we\ncollected responses via a career information literacy learning questionnaire, from final year STEM capstone unit students and their potential employers in an Australian university. The findings indicate that, overall, STEM student\ncohorts do not differ from each other in their emphases on different attributes of career information literacy, except for the Mathematics, Statistics, Physics and Astronomy cohort. However, when combined and analysed as a group, the\nSTEM students exhibit significantly different career information literacy focuses from STEM employers. The results point to a critical need for STEM students to be educated about employer perceptions. Further implications and limitations\nof the study are discussed. [Author abstract]"
+          ],
+          "issn": [
+            "2200-4270"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "jtitle": [
+            "International Journal of Innovation in Science and Mathematics Education"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Lin-Stephens, Serene",
+            "Manuguerra, Maurizio",
+            "Uesi, John"
+          ],
+          "atitle": [
+            "Comparing STEM Students' and Employers' Emphases on Career Information Literacy : A Study on Undergraduate Capstone Units"
+          ],
+          "date": [
+            "2018"
+          ],
+          "risdate": [
+            "2018"
+          ],
+          "volume": [
+            "26"
+          ],
+          "issue": [
+            "7"
+          ],
+          "spage": [
+            "25"
+          ],
+          "epage": [
+            "37"
+          ],
+          "pages": [
+            "25-37"
+          ],
+          "eissn": [
+            "2200-4270"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "Sydney"
+          ],
+          "pub": [
+            "University of Sydney"
+          ],
+          "tpages": [
+            "13"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2018"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Lin-Stephens, Serene",
+            "Manuguerra, Maurizio",
+            "Uesi, John"
+          ],
+          "topic": [
+            "Career development",
+            "Economic indicators",
+            "Employability",
+            "Information literacy",
+            "Learning",
+            "Questionnaires",
+            "Students",
+            "Transformative learning",
+            "Vocational guidance"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "Informit Explore",
+            "ProQuest Social Sciences Premium Collection",
+            "ProQuest Central (Corporate)",
+            "ProQuest Central (purchase pre-March 2016)",
+            "Education Database (Alumni Edition)",
+            "Science Database (Alumni Edition)",
+            "ProQuest Central (Alumni) (purchase pre-March 2016)",
+            "ProQuest Central",
+            "ProQuest Central UK/Ireland",
+            "ProQuest Social Science Premium Collection",
+            "Australia & New Zealand Database",
+            "ProQuest Central Essentials",
+            "ProQuest Central",
+            "ProQuest One Community College",
+            "ProQuest Social Science Premium Collection - Education Collection",
+            "ProQuest Central Korea",
+            "ProQuest Central Student",
+            "SciTech Premium Collection",
+            "Education Database - Proquest",
+            "Science Database",
+            "ProQuest Central Premium",
+            "ProQuest One Academic",
+            "Publicly Available Content Database",
+            "ProQuest One Academic Middle East (New)",
+            "ProQuest One Education",
+            "ProQuest One Academic Eastern Edition (DO NOT USE)",
+            "ProQuest One Academic (retired)",
+            "ProQuest One Academic UKI Edition",
+            "ProQuest Central China",
+            "ProQuest Central Basic"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-p836-95eafb281839110faee318d203e8016fb111402175b0ac12c73854a57467353f3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "International Journal of Innovation in Science and Mathematics Education"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Lin-Stephens, Serene ; Manuguerra, Maurizio ; Uesi, John"
+          ],
+          "title": [
+            "Comparing STEM Students' and Employers' Emphases on Career Information Literacy : A Study on Undergraduate Capstone Units"
+          ],
+          "creationdate": [
+            "2018"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_rmit_"
+          ],
+          "recordid": [
+            "cdi_proquest_journals_2247799369"
+          ],
+          "sourcerecordid": [
+            "2247799369"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-p836-95eafb281839110faee318d203e8016fb111402175b0ac12c73854a57467353f3"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNpNj09Lw0AQxYMoWLTfYcGDp8D-SbKJB6GEqoWKh9bzMk0m7ZZmN-5uDvn2rm0PnubN4zfvMTfJjHNK04xLevtP3ydz74-UUl7lguVylky17Qdw2uzJZrv8JJswtmiCfyZgWrLsh5Od0MU1ygN49MQaUoNDdGRlOut6CDpaax3QQTORF7I4h0x_4Ldp0e0dtCMEjGeDD9ZgtHXwj8ldByeP8-t8SLZvy239ka6_3lf1Yp0OpSjSKkfodrxkpagYox0gCla2nAosKSu6HWMso5zJfEehYbyRoswzyGVWSJGLTjwkT5fYwdmfEX1QRzs6ExsV55mUVSWKKlKvF8r1OihAPQTlEVxzUPr8ZXSt26vWasWoEoIVV4pzXvBC_AItlW8I"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "2247799369"
+          ],
+          "informtid": [
+            "rmit_aeipt_search_informit_org_doi_10_3316_aeipt_222626"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.06055899"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_rmit_&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Comparing+STEM+Students%27+and+Employers%27+Emphases+on+Career+Information+Literacy+%3A+A+Study+on+Undergraduate+Capstone+Units&rft.jtitle=International+Journal+of+Innovation+in+Science+and+Mathematics+Education&rft.au=Lin-Stephens%2C+Serene&rft.date=2018&rft.volume=26&rft.issue=7&rft.spage=25&rft.epage=37&rft.pages=25-37&rft.issn=2200-4270&rft.eissn=2200-4270&rft.pub=University+of+Sydney&rft.place=Sydney&rft_dat=<proquest_rmit_>2247799369</proquest_rmit_>&svc_dat=viewit&rft_pqid=2247799369&rft_informt_id=rmit_aeipt_search_informit_org_doi_10_3316_aeipt_222626"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_proquest_journals_2247799369"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://doi.org/10.1177/03064190261429065$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "recordid": [
+            "eNplkM1KxDAUhYMoOIzzAO7yAtUkt0mMu2HwD0bc6Lok6W0n0iYlqcK8vVN05-p88B3O4hByzdkN51rfMmCq5oYJxWthmJJnZCWYZFUt79Q5WS2-WgqXZFNKcIwbBbWQZkWG19TiEGJPfYrdEPy8cIge4xy-sZyQYuxDRMyLKRhDytTbqcwpIp1y-kQ_l3u6pePXMIdqGuwRM-3tiHQ-YMpHaqdTzfrDFbno7FBw85dr8vH48L57rvZvTy-77b7yXGpZ1a1xANpYpyQwLcFJ2ZmWa7StsF44Dwa4ROHQWJQgrPZKAbS18Ux7B2vCf3d9TqVk7Joph9HmY8NZszzW_HsMfgBzd2AD"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach",
+            "International journal of mechanical engineering education"
+          ],
+          "creator": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "creationdate": [
+            "2026"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20260309"
+          ],
+          "enddate": [
+            "20260309"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION"
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-0606-5318",
+            "https://orcid.org/0000-0003-0849-1599"
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "issn": [
+            "0306-4190",
+            "2050-4586"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "EBSCOhost Academic Search Complete",
+            "Education Source"
+          ],
+          "creator": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "ispartof": [
+            "International journal of mechanical engineering education, 2026-03"
+          ],
+          "identifier": [
+            "ISSN: 0306-4190",
+            "EISSN: 2050-4586",
+            "DOI: 10.1177/03064190261429065"
+          ],
+          "language": [
+            "eng"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "University engineering capstone projects involve sustained interaction among students, faculty, and industry sponsors whose objectives are only partially aligned. While capstones are widely used in engineering education, existing analyses typically treat stakeholder behavior informally or descriptively, leaving incentive conflicts, information asymmetries, and strategic dependencies underexplored. This paper develops a formal game-theoretic framework that models capstone projects as a sequential Bayesian game involving three players: (1) The university, (2) the industry sponsor, and (3) the student team. The framework is intended as an analytical and explanatory tool for understanding how institutional policy choices, such as grading structures, intellectual property rules, and sponsor engagement expectations, shape stakeholder behavior and project outcomes, rather than as a calibrated or predictive model. The university acts as a constrained Stackelberg leader by committing to course policies and assessment structures, anticipating strategic responses by sponsors and students under incomplete information. Reduced-form outcome functions capture technical quality, documentation quality, timeliness, alignment with sponsor needs, and publishability, while payoff functions reflect stakeholder-specific objectives and costs. Under standard assumptions, the model admits stable equilibrium regimes that correspond to empirically recognizable capstone dynamics observed in practice. These include cooperative engagement, sponsor-dominated exploitation, and student grade gaming. Rather than claiming precise prediction, the framework is intended as an analytical tool for reasoning about incentive design, policy tradeoffs, and structural failure modes in project-based learning environments. The results provide a rigorous foundation for comparative analysis of capstone structures and for future extensions incorporating richer dynamics, repeated interaction, and empirical calibration."
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0003-0606-5318",
+            "https://orcid.org/0000-0003-0849-1599"
+          ],
+          "issn": [
+            "0306-4190"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "jtitle": [
+            "International journal of mechanical engineering education"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "atitle": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "date": [
+            "2026-03-09"
+          ],
+          "risdate": [
+            "2026"
+          ],
+          "eissn": [
+            "2050-4586"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "doi": [
+            "10.1177/03064190261429065"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2026"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Blackwell, Richard Q",
+            "Hammad, Eman",
+            "Jin, Congrui",
+            "Park, Jisoo",
+            "Patterson, Albert E"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "International journal of mechanical engineering education"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Blackwell, Richard Q ; Hammad, Eman ; Jin, Congrui ; Park, Jisoo ; Patterson, Albert E"
+          ],
+          "title": [
+            "Modeling conflicting incentives in engineering senior capstone projects: A multi-player game theory approach"
+          ],
+          "creationdate": [
+            "20260309"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "crossref"
+          ],
+          "recordid": [
+            "cdi_crossref_primary_10_1177_03064190261429065"
+          ],
+          "sourcerecordid": [
+            "10_1177_03064190261429065"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNplkM1KxDAUhYMoOIzzAO7yAtUkt0mMu2HwD0bc6Lok6W0n0iYlqcK8vVN05-p88B3O4hByzdkN51rfMmCq5oYJxWthmJJnZCWYZFUt79Q5WS2-WgqXZFNKcIwbBbWQZkWG19TiEGJPfYrdEPy8cIge4xy-sZyQYuxDRMyLKRhDytTbqcwpIp1y-kQ_l3u6pePXMIdqGuwRM-3tiHQ-YMpHaqdTzfrDFbno7FBw85dr8vH48L57rvZvTy-77b7yXGpZ1a1xANpYpyQwLcFJ2ZmWa7StsF44Dwa4ROHQWJQgrPZKAbS18Ux7B2vCf3d9TqVk7Joph9HmY8NZszzW_HsMfgBzd2AD"
+          ],
+          "sourcetype": [
+            "Index Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.058653463"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-crossref&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Modeling+conflicting+incentives+in+engineering+senior+capstone+projects%3A+A+multi-player+game+theory+approach&rft.jtitle=International+journal+of+mechanical+engineering+education&rft.au=Blackwell%2C+Richard+Q&rft.date=2026-03-09&rft.issn=0306-4190&rft.eissn=2050-4586&rft_id=info:doi/10.1177%2F03064190261429065&rft_dat=<crossref>10_1177_03064190261429065</crossref>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-c1575-4d9b3379ab6530753b55f9d17ead2ac2bc39315e2be9ae532a7c6633d49c07cb3"
+          ],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_primary_10_1177_03064190261429065"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "backlink": [
+            "$$Uhttp://eric.ed.gov/ERICWebPortal/detail?accno=EJ1122893$$DView record in ERIC$$Hfree_for_read$$Pomit_proxy_false"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://doi.org/10.5032/jae.2016.03070$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "recordid": [
+            "eNp9kc1LAzEQxRdRsFav3oTcPHXNx2a3PZbSVqXQovbiJWSTSU1Zs0uyBf3vTW2RKiqByTDzfsmDlySXBKccM3qzlpBSTPIUM1zgo6RDcEZ7mGfk-KA_Tc5CWGPMOOmTTvL82G40uBYtwCtoWlu7gEa1U-CddSvUvoD1aPzWgLcQp8g6JNGksk0DGi2dBr_yUm9kC2gkm9DWLjb1xgc4T06MrAJc7O9uspyMn0a3vdl8ejcaznqKZgMcK6icaiBloQxlum90KUkJGcWmVDTHXPKClQXNB0ZyzUvMCQdmGC047WvKusnV7t1oUYnG21fp38X4nhBK-wMW99e7_UpWIKI_Yyt4tUGJxcN8IoZZPsgzwjH_T7kYTr8r0wOldaZuvVTx6KhXe_JXQPk6BA_myyjBYhufiPGJbXziM74IZD8AZVu5zSf-ZKu_sA_vu5ud"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Agricultural education",
+            "College students",
+            "Educational technology",
+            "Examinations",
+            "Group work in education",
+            "Homework",
+            "Qualitative research",
+            "Statistics",
+            "Surveys",
+            "Team learning approach in education",
+            "Undergraduates"
+          ],
+          "title": [
+            "Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course",
+            "Journal of agricultural education"
+          ],
+          "creator": [
+            "McCubbins, OP",
+            "Paulsen, Thomas H.",
+            "Anderson, Ryan G."
+          ],
+          "creationdate": [
+            "2016"
+          ],
+          "general": [
+            "American Association for Agricultural Education"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20160701"
+          ],
+          "enddate": [
+            "20160701"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "IAG",
+            "IER",
+            "ERI",
+            "GA5"
+          ],
+          "creatorcontrib": [
+            "McCubbins, OP",
+            "Paulsen, Thomas H.",
+            "Anderson, Ryan G."
+          ],
+          "issn": [
+            "1042-0541",
+            "1042-0541"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "Flipped learning is an innovative approach to teaching at the post-secondary level. Traditional methods of initial delivery of curricular content occur before a face-to-face class session. Students must prepare before attending class, as the majority of face-to-face class sessions are utilized for applying curricular content to complex problems. A specific application of flipped learning, TeamBased Learning holds students accountable for the pre-class preparation via an individual test, as well as to their peers via a team test. Students engage and discuss curricular content on the team test as well as application exercises, which are rigorously designed activities aimed at increasing cognitive skills of the students. This study sought to determine student’s perceptions of a recently adopted, atypical teaching approach, known as Team-Based Learning in the Iowa State University capstone farm management course (AgEdS 450). Post-course quantitative and qualitative data were collected. Overall student perceptions were positive and supported the adoption of a studentcentered course design. It is recommended that dedicated training workshops be developed for faculty members within Colleges of Agriculture that focus on student-centered instruction. Further examination of Team-Based Learning in other courses within Colleges of Agriculture, and Agricultural Education courses specifically, is recommended."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Education Source"
+          ],
+          "creator": [
+            "McCubbins, OP ; Paulsen, Thomas H. ; Anderson, Ryan G."
+          ],
+          "publisher": [
+            "American Association for Agricultural Education"
+          ],
+          "ispartof": [
+            "Journal of agricultural education, 2016-07, Vol.57 (3), p.70-86"
+          ],
+          "identifier": [
+            "ISSN: 1042-0541",
+            "EISSN: 1042-0541",
+            "DOI: 10.5032/jae.2016.03070"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "COPYRIGHT 2016 American Association for Agricultural Education"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "Flipped learning is an innovative approach to teaching at the post-secondary level. Traditional methods of initial delivery of curricular content occur before a face-to-face class session. Students must prepare before attending class, as the majority of face-to-face class sessions are utilized for applying curricular content to complex problems. A specific application of flipped learning, TeamBased Learning holds students accountable for the pre-class preparation via an individual test, as well as to their peers via a team test. Students engage and discuss curricular content on the team test as well as application exercises, which are rigorously designed activities aimed at increasing cognitive skills of the students. This study sought to determine student’s perceptions of a recently adopted, atypical teaching approach, known as Team-Based Learning in the Iowa State University capstone farm management course (AgEdS 450). Post-course quantitative and qualitative data were collected. Overall student perceptions were positive and supported the adoption of a studentcentered course design. It is recommended that dedicated training workshops be developed for faculty members within Colleges of Agriculture that focus on student-centered instruction. Further examination of Team-Based Learning in other courses within Colleges of Agriculture, and Agricultural Education courses specifically, is recommended."
+          ],
+          "subject": [
+            "Agricultural education ;  College students ;  Educational technology ;  Examinations ;  Group work in education ;  Homework ;  Qualitative research ;  Statistics ;  Surveys ;  Team learning approach in education ;  Undergraduates"
+          ],
+          "keyword": [
+            "Beliefs, opinions and attitudes ;  College Transfer Students ;  Likert Scales ;  Online Surveys ;  Student Attitudes ;  Student Centered Learning ;  Student Motivation ;  Teaching Methods ;  Teamwork ;  Technology Uses in Education ;  Usage ;  Video Technology"
+          ]
+        },
+        "addata": {
+          "ericid": [
+            "EJ1122893"
+          ],
+          "abstract": [
+            "Flipped learning is an innovative approach to teaching at the post-secondary level. Traditional methods of initial delivery of curricular content occur before a face-to-face class session. Students must prepare before attending class, as the majority of face-to-face class sessions are utilized for applying curricular content to complex problems. A specific application of flipped learning, TeamBased Learning holds students accountable for the pre-class preparation via an individual test, as well as to their peers via a team test. Students engage and discuss curricular content on the team test as well as application exercises, which are rigorously designed activities aimed at increasing cognitive skills of the students. This study sought to determine student’s perceptions of a recently adopted, atypical teaching approach, known as Team-Based Learning in the Iowa State University capstone farm management course (AgEdS 450). Post-course quantitative and qualitative data were collected. Overall student perceptions were positive and supported the adoption of a studentcentered course design. It is recommended that dedicated training workshops be developed for faculty members within Colleges of Agriculture that focus on student-centered instruction. Further examination of Team-Based Learning in other courses within Colleges of Agriculture, and Agricultural Education courses specifically, is recommended."
+          ],
+          "issn": [
+            "1042-0541"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "jtitle": [
+            "Journal of agricultural education"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "McCubbins, OP",
+            "Paulsen, Thomas H.",
+            "Anderson, Ryan G."
+          ],
+          "atitle": [
+            "Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course"
+          ],
+          "date": [
+            "2016-07-01"
+          ],
+          "risdate": [
+            "2016"
+          ],
+          "volume": [
+            "57"
+          ],
+          "issue": [
+            "3"
+          ],
+          "spage": [
+            "70"
+          ],
+          "epage": [
+            "86"
+          ],
+          "pages": [
+            "70-86"
+          ],
+          "eissn": [
+            "1042-0541"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "pub": [
+            "American Association for Agricultural Education"
+          ],
+          "doi": [
+            "10.5032/jae.2016.03070"
+          ],
+          "tpages": [
+            "17"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2016"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "McCubbins, OP",
+            "Paulsen, Thomas H.",
+            "Anderson, Ryan G."
+          ],
+          "topic": [
+            "Agricultural education",
+            "College students",
+            "Educational technology",
+            "Examinations",
+            "Group work in education",
+            "Homework",
+            "Qualitative research",
+            "Statistics",
+            "Surveys",
+            "Team learning approach in education",
+            "Undergraduates"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "Gale OneFile: Agriculture",
+            "Educator's Reference Complete",
+            "ERIC",
+            "ERIC - Full Text Only (Discovery)"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c2490-c2ec62de1b7cf23d8fdba1be420fbc2605a573b7269fa5d5b0515e3f327528d23"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Journal of agricultural education"
+          ]
+        },
+        "sort": {
+          "author": [
+            "McCubbins, OP ; Paulsen, Thomas H. ; Anderson, Ryan G."
+          ],
+          "title": [
+            "Student Perceptions Concerning their Experience in a Flipped Undergraduate Capstone Course"
+          ],
+          "creationdate": [
+            "20160701"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "gale_cross"
+          ],
+          "recordid": [
+            "cdi_gale_onefilemisc_PROF_A469641505"
+          ],
+          "sourcerecordid": [
+            "A469641505"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c2490-c2ec62de1b7cf23d8fdba1be420fbc2605a573b7269fa5d5b0515e3f327528d23"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNp9kc1LAzEQxRdRsFav3oTcPHXNx2a3PZbSVqXQovbiJWSTSU1Zs0uyBf3vTW2RKiqByTDzfsmDlySXBKccM3qzlpBSTPIUM1zgo6RDcEZ7mGfk-KA_Tc5CWGPMOOmTTvL82G40uBYtwCtoWlu7gEa1U-CddSvUvoD1aPzWgLcQp8g6JNGksk0DGi2dBr_yUm9kC2gkm9DWLjb1xgc4T06MrAJc7O9uspyMn0a3vdl8ejcaznqKZgMcK6icaiBloQxlum90KUkJGcWmVDTHXPKClQXNB0ZyzUvMCQdmGC047WvKusnV7t1oUYnG21fp38X4nhBK-wMW99e7_UpWIKI_Yyt4tUGJxcN8IoZZPsgzwjH_T7kYTr8r0wOldaZuvVTx6KhXe_JXQPk6BA_myyjBYhufiPGJbXziM74IZD8AZVu5zSf-ZKu_sA_vu5ud"
+          ],
+          "sourcetype": [
+            "Open Access Repository"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "galeid": [
+            "A469641505"
+          ],
+          "ericid": [
+            "EJ1122893"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.047946323"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-gale_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Student+Perceptions+Concerning+their+Experience+in+a+Flipped+Undergraduate+Capstone+Course&rft.jtitle=Journal+of+agricultural+education&rft.au=McCubbins%2C+OP&rft.date=2016-07-01&rft.volume=57&rft.issue=3&rft.spage=70&rft.epage=86&rft.pages=70-86&rft.issn=1042-0541&rft.eissn=1042-0541&rft_id=info:doi/10.5032%2Fjae.2016.03070&rft.pub=American+Association+for+Agricultural+Education&rft_dat=<gale_cross>A469641505</gale_cross>&svc_dat=viewit&rft_galeid=A469641505"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": [
+            "FETCH-LOGICAL-c2490-c2ec62de1b7cf23d8fdba1be420fbc2605a573b7269fa5d5b0515e3f327528d23"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_gale_onefilemisc_PROF_A469641505"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/9292652$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F9292652$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNotULtOwzAUNQMDKv0ClvsDLX7EjjNGIRSkAkNhrlz7OrXU2lHiIOXvKdDpDOelcwgBRteM0eqx3rXteyuZ4sWaU07XFa-4kvyGLKtSM6VkQSWX6o7MNezmMePZ5GChSdMwIjzhGLoIdd8Pydgj5ASbKTiEfPwlv_GU-jPGDMmDuZjimIfJ5pAitLELEXEIsQMTHbyZaDr8EzemH3OKeG25J7fenEZcXnFBvp7bz-Zltf3YvDb1dhUY03mlROlpqZU7CEG1dlp6bw_cWlTaOVpxKRljRkpeldZbpag6FP6yt_BSoHRiQR7-cwMi7vshnM0w76-HiB9JYVra"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "subject": [
+            "Business enterprises",
+            "Computer-assisted instruction",
+            "Construction industry",
+            "Leadership",
+            "Production scheduling",
+            "Seminars"
+          ],
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course",
+            "2020 Annual Conference Northeast Section (ASEE-NE)"
+          ],
+          "creator": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "creationdate": [
+            "2020"
+          ],
+          "addtitle": [
+            "ASEENE"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "20201016"
+          ],
+          "enddate": [
+            "20201016"
+          ],
+          "scope": [
+            "6IE",
+            "6IL",
+            "CBEJK",
+            "RIE",
+            "RIL"
+          ],
+          "creatorcontrib": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "isbn": [
+            "9781665405256",
+            "1665405252"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Lee, Namhun ; Kim, Seong Jin"
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "2020 Annual Conference Northeast Section (ASEE-NE), 2020, p.1-5"
+          ],
+          "identifier": [
+            "EISBN: 9781665405256",
+            "EISBN: 1665405252",
+            "DOI: 10.1109/ASEENE51624.2020.9292652"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs..."
+          ],
+          "description": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ],
+          "subject": [
+            "Business enterprises ;  Computer-assisted instruction ;  Construction industry ;  Leadership ;  Production scheduling ;  Seminars"
+          ],
+          "keyword": [
+            "ADDIE ;  analyze design develop implement evaluate ;  CCSU ;  central connecticut state university construction management ;  Course Design ;  educational courses ;  educational institutions ;  management capstone course ;  management education ;  management programs ;  Object recognition ;  Problem-solving ;  proven instructional design approaches ;  Senior Capstone ;  senior capstone course development ;  structural engineering computing ;  Systematic Approach ;  systematic course design approach ;  Systematics ;  undergraduate CEM programs ;  undergraduate construction engineering"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "A Senior Capstone course is a hallmark of most undergraduate construction engineering and management (CEM) programs. Many undergraduate CEM programs implement their own capstone course within their curricula to emphasize preparing students for the realities of the construction industry. As in many other professional domains, CEM programs in the United States have demonstrated limited success producing graduates who possess the requisite problem-solving and critical thinking skills. To address this shortcoming, the authors propose developing a new Senior Capstone course using the project-based learning approach. The Central Connecticut State University (CCSU) Construction Management (CM) program is in the process of developing a Senior Capstone course, following the ADDIE (Analyze, Design, Develop, Implement, Evaluate) approach which is one of the proven instructional design approaches. One of the main objectives of this study is to demonstrate the use of a systematic approach to develop a Senior Capstone course, which is designed for construction engineering and management programs. However, since this course is still in development, this paper only presents the extent of what the authors have completed for a Senior Capstone course development. The authors believe that this course, after being fully developed, will not only provide students with the opportunity to build and demonstrate problem-solving and critical thinking skills but also help them transition from the classroom to the workforce."
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "au": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "btitle": [
+            "2020 Annual Conference Northeast Section (ASEE-NE)"
+          ],
+          "atitle": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "stitle": [
+            "ASEENE"
+          ],
+          "date": [
+            "2020-10-16"
+          ],
+          "risdate": [
+            "2020"
+          ],
+          "spage": [
+            "1"
+          ],
+          "epage": [
+            "5"
+          ],
+          "pages": [
+            "1-5"
+          ],
+          "eisbn": [
+            "9781665405256",
+            "1665405252"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/ASEENE51624.2020.9292652"
+          ],
+          "tpages": [
+            "5"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2020"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Lee, Namhun",
+            "Kim, Seong Jin"
+          ],
+          "topic": [
+            "Business enterprises",
+            "Computer-assisted instruction",
+            "Construction industry",
+            "Leadership",
+            "Production scheduling",
+            "Seminars"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan All Online (POP All Online) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP All) 1998-Present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i118t-637f0786db33088d85ffcb2cce68dd09255111a55297cfc6606b4f9294f53e5d3"
+          ],
+          "frbrtype": [
+            "5"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Lee, Namhun ; Kim, Seong Jin"
+          ],
+          "title": [
+            "A Systematic Course Design Approach to Guide the Development of a Construction Engineering and Management Capstone Course"
+          ],
+          "creationdate": [
+            "20201016"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_9292652"
+          ],
+          "sourcerecordid": [
+            "9292652"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i118t-637f0786db33088d85ffcb2cce68dd09255111a55297cfc6606b4f9294f53e5d3"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNotULtOwzAUNQMDKv0ClvsDLX7EjjNGIRSkAkNhrlz7OrXU2lHiIOXvKdDpDOelcwgBRteM0eqx3rXteyuZ4sWaU07XFa-4kvyGLKtSM6VkQSWX6o7MNezmMePZ5GChSdMwIjzhGLoIdd8Pydgj5ASbKTiEfPwlv_GU-jPGDMmDuZjimIfJ5pAitLELEXEIsQMTHbyZaDr8EzemH3OKeG25J7fenEZcXnFBvp7bz-Zltf3YvDb1dhUY03mlROlpqZU7CEG1dlp6bw_cWlTaOVpxKRljRkpeldZbpag6FP6yt_BSoHRiQR7-cwMi7vshnM0w76-HiB9JYVra"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "9292652"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.036310077"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=A+Systematic+Course+Design+Approach+to+Guide+the+Development+of+a+Construction+Engineering+and+Management+Capstone+Course&rft.btitle=2020+Annual+Conference+Northeast+Section+%28ASEE-NE%29&rft.au=Lee%2C+Namhun&rft.date=2020-10-16&rft.spage=1&rft.epage=5&rft.pages=1-5&rft_id=info:doi/10.1109%2FASEENE51624.2020.9292652&rft.eisbn=9781665405256&rft.pub=IEEE&rft.stitle=ASEENE&rft_dat=<ieee_RIE>9292652</ieee_RIE>&svc_dat=viewit&rft_ieee_id=9292652"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_9292652"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://doi.org/10.18848/1835-9795/cgp/v12i03/9-18$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "recordid": [
+            "eNqNkDFPwzAQhS0EElXpf7BgDrGdOrGZqEJoi0phgNlyXKd1lcTBTpH673EoYmDilpPu3nt3-gC4xugWMzZlMWYJjXjGaZzPX-NPTAxKYh5hdgZGZJqFXcrSczD61V2Cifd7hBBOWRYSRuCpaLraHk27hf1Ow2K9mK3zAq60dO0wfLYbXcPewmVbWddACRdmu4uWTSdVD3N7cF7DB-3Ntr0CF5WsvZ789DF4fyze8kW0epkv89kqUoQyFmG-4YwpVhFOFU0qVmal5qoMRagiqUSyLBViQbWRXKsKEZKkNLhwmVRZmozBzSm3c_bjoH0v9uGNNpwUJONTRBOU4aC6O6mUs947XYnOmUa6o8BIfOMTAxYxYBEBnzjhE3wYj8H9H7MyveyNbXsnTf2fiC9hGXeU"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Active learning",
+            "Advisory Committees",
+            "Agricultural colleges",
+            "Blended learning",
+            "Curricula",
+            "Desktop publishing",
+            "Experiential learning",
+            "Learning",
+            "Periodicals",
+            "Undergraduates"
+          ],
+          "title": [
+            "Employing the ENHANCE Learning Model to Inform a High-Impact Course Design",
+            "Ubiquitous learning"
+          ],
+          "creator": [
+            "Harrison, Elgloria",
+            "Thomas, Morris"
+          ],
+          "creationdate": [
+            "2019"
+          ],
+          "general": [
+            "Common Ground Research Networks"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "2019"
+          ],
+          "enddate": [
+            "2019"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "0-V",
+            "3V.",
+            "7XB",
+            "88B",
+            "8FE",
+            "8FG",
+            "8FK",
+            "8G5",
+            "ABUWG",
+            "AFKRA",
+            "AHNLN",
+            "ALSLI",
+            "ARAPS",
+            "AZQEC",
+            "BENPR",
+            "BGLVJ",
+            "CCPQU",
+            "CJNVE",
+            "DWQXO",
+            "GNUQQ",
+            "GUQSH",
+            "HCIFZ",
+            "M0P",
+            "M2O",
+            "MBDVC",
+            "P5Z",
+            "P62",
+            "PHGZM",
+            "PHGZT",
+            "PKEHL",
+            "PQEDU",
+            "PQEST",
+            "PQGLB",
+            "PQQKQ",
+            "PQUKI",
+            "Q9U"
+          ],
+          "creatorcontrib": [
+            "Harrison, Elgloria",
+            "Thomas, Morris"
+          ],
+          "issn": [
+            "1835-9795",
+            "2475-9686"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "This study illustrated the principles of self-determined learning in undergraduate capstone courses that embeds community inquiry in a blended learning design. The ENHANCE learning model served as the theoretical framework to measure a high-impact instructional course design. This longitudinal approach provided a rich context of the events as they evolved using the case study methodology. Understanding the historical perspective is important to comprehend what factors enabled the learners to become capable and competent graduates in their chosen field. The study concluded that to improve the learners’ experience, an intentional high-impact course design should be used for best results."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Employing the ENHANCE Learning Model to Inform a High-Impact Course Design"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Education Source"
+          ],
+          "creator": [
+            "Harrison, Elgloria ; Thomas, Morris"
+          ],
+          "publisher": [
+            "Champaign: Common Ground Research Networks"
+          ],
+          "ispartof": [
+            "Ubiquitous learning, 2019, Vol.12 (3), p.9-18"
+          ],
+          "identifier": [
+            "ISSN: 1835-9795",
+            "EISSN: 2475-9686",
+            "DOI: 10.18848/1835-9795/CGP/v12i03/9-18"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "2019. This work is licensed under http://creativecommons.org/licenses/by-nc-nd/4.0/ (the “License”). Notwithstanding the ProQuest Terms and conditions, you may use this content in accordance with the terms of the License."
+          ],
+          "snippet": [
+            "This study illustrated the principles of self-determined learning in undergraduate capstone courses that embeds community inquiry in a blended learning design..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "This study illustrated the principles of self-determined learning in undergraduate capstone courses that embeds community inquiry in a blended learning design. The ENHANCE learning model served as the theoretical framework to measure a high-impact instructional course design. This longitudinal approach provided a rich context of the events as they evolved using the case study methodology. Understanding the historical perspective is important to comprehend what factors enabled the learners to become capable and competent graduates in their chosen field. The study concluded that to improve the learners’ experience, an intentional high-impact course design should be used for best results."
+          ],
+          "subject": [
+            "Active learning ;  Advisory Committees ;  Agricultural colleges ;  Blended learning ;  Curricula ;  Desktop publishing ;  Experiential learning ;  Learning ;  Periodicals ;  Undergraduates"
+          ],
+          "keyword": [
+            "Capstone Experiences ;  Capstone projects ;  Course Content ;  Educational Environment ;  Electronic Learning ;  Formative Evaluation ;  Informal Assessment ;  Instructional design ;  Learner Engagement ;  Learning Experience ;  Learning Processes ;  Legal Responsibility ;  Networks ;  Self Determination ;  Summative Evaluation ;  Teaching Styles"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "This study illustrated the principles of self-determined learning in undergraduate capstone courses that embeds community inquiry in a blended learning design. The ENHANCE learning model served as the theoretical framework to measure a high-impact instructional course design. This longitudinal approach provided a rich context of the events as they evolved using the case study methodology. Understanding the historical perspective is important to comprehend what factors enabled the learners to become capable and competent graduates in their chosen field. The study concluded that to improve the learners’ experience, an intentional high-impact course design should be used for best results."
+          ],
+          "issn": [
+            "1835-9795"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "jtitle": [
+            "Ubiquitous learning"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Harrison, Elgloria",
+            "Thomas, Morris"
+          ],
+          "atitle": [
+            "Employing the ENHANCE Learning Model to Inform a High-Impact Course Design"
+          ],
+          "date": [
+            "2019"
+          ],
+          "risdate": [
+            "2019"
+          ],
+          "volume": [
+            "12"
+          ],
+          "issue": [
+            "3"
+          ],
+          "spage": [
+            "9"
+          ],
+          "epage": [
+            "18"
+          ],
+          "pages": [
+            "9-18"
+          ],
+          "eissn": [
+            "2475-9686"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "Champaign"
+          ],
+          "pub": [
+            "Common Ground Research Networks"
+          ],
+          "doi": [
+            "10.18848/1835-9795/CGP/v12i03/9-18"
+          ],
+          "tpages": [
+            "10"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2019"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Harrison, Elgloria",
+            "Thomas, Morris"
+          ],
+          "topic": [
+            "Active learning",
+            "Advisory Committees",
+            "Agricultural colleges",
+            "Blended learning",
+            "Curricula",
+            "Desktop publishing",
+            "Experiential learning",
+            "Learning",
+            "Periodicals",
+            "Undergraduates"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "ProQuest Social Sciences Premium Collection",
+            "ProQuest Central (Corporate)",
+            "ProQuest Central (purchase pre-March 2016)",
+            "Education Database (Alumni Edition)",
+            "ProQuest SciTech Collection",
+            "ProQuest Technology Collection",
+            "ProQuest Central (Alumni) (purchase pre-March 2016)",
+            "Research Library (Alumni)",
+            "ProQuest Central",
+            "ProQuest Central UK/Ireland",
+            "ProQuest Central Premium Korea",
+            "ProQuest Social Science Premium Collection",
+            "Advanced Technologies & Computer Science Collection",
+            "ProQuest Central Essentials",
+            "ProQuest Central",
+            "Technology Collection",
+            "ProQuest One Community College",
+            "ProQuest Social Science Premium Collection - Education Collection",
+            "ProQuest Central Korea",
+            "ProQuest Central Student",
+            "ProQuest Research Library",
+            "SciTech Premium Collection",
+            "Education Database - Proquest",
+            "ProQuest Research Library",
+            "Research Library (Corporate)",
+            "Advanced Technologies & Aerospace Database",
+            "ProQuest Advanced Technologies & Aerospace Collection",
+            "ProQuest Central Premium",
+            "ProQuest One Academic",
+            "ProQuest One Academic Middle East (New)",
+            "ProQuest One Education",
+            "ProQuest One Academic Eastern Edition (DO NOT USE)",
+            "ProQuest One Applied & Life Sciences",
+            "ProQuest One Academic (retired)",
+            "ProQuest One Academic UKI Edition",
+            "ProQuest Central Basic"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c2588-19d988c8f295c53f8b7be9cbbbb25c26a0abbc08d98da9ecf0223659d91b3f763"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Ubiquitous learning"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Harrison, Elgloria ; Thomas, Morris"
+          ],
+          "title": [
+            "Employing the ENHANCE Learning Model to Inform a High-Impact Course Design"
+          ],
+          "creationdate": [
+            "2019"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_cross"
+          ],
+          "recordid": [
+            "cdi_crossref_primary_10_18848_1835_9795_CGP_v12i03_9_18"
+          ],
+          "sourcerecordid": [
+            "2794053071"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c2588-19d988c8f295c53f8b7be9cbbbb25c26a0abbc08d98da9ecf0223659d91b3f763"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNqNkDFPwzAQhS0EElXpf7BgDrGdOrGZqEJoi0phgNlyXKd1lcTBTpH673EoYmDilpPu3nt3-gC4xugWMzZlMWYJjXjGaZzPX-NPTAxKYh5hdgZGZJqFXcrSczD61V2Cifd7hBBOWRYSRuCpaLraHk27hf1Ow2K9mK3zAq60dO0wfLYbXcPewmVbWddACRdmu4uWTSdVD3N7cF7DB-3Ntr0CF5WsvZ789DF4fyze8kW0epkv89kqUoQyFmG-4YwpVhFOFU0qVmal5qoMRagiqUSyLBViQbWRXKsKEZKkNLhwmVRZmozBzSm3c_bjoH0v9uGNNpwUJONTRBOU4aC6O6mUs947XYnOmUa6o8BIfOMTAxYxYBEBnzjhE3wYj8H9H7MyveyNbXsnTf2fiC9hGXeU"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "2794053071"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.032872975"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Employing+the+ENHANCE+Learning+Model+to+Inform+a+High-Impact+Course+Design&rft.jtitle=Ubiquitous+learning&rft.au=Harrison%2C+Elgloria&rft.date=2019&rft.volume=12&rft.issue=3&rft.spage=9&rft.epage=18&rft.pages=9-18&rft.issn=1835-9795&rft.eissn=2475-9686&rft_id=info:doi/10.18848%2F1835-9795%2FCGP%2Fv12i03%2F9-18&rft.pub=Common+Ground+Research+Networks&rft.place=Champaign&rft_dat=<proquest_cross>2794053071</proquest_cross>&svc_dat=viewit&rft_pqid=2794053071"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": [
+            "FETCH-LOGICAL-c2588-19d988c8f295c53f8b7be9cbbbb25c26a0abbc08d98da9ecf0223659d91b3f763"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_primary_10_18848_1835_9795_CGP_v12i03_9_18"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktopdf": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fjournals.sagepub.com%2Fdoi%2Fpdf%2F10.1177%2F00986283241268723$$EPDF$$Gsage$$H$$Pomit_proxy_true"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fjournals.sagepub.com%2Fdoi%2F10.1177%2F00986283241268723$$EHTML$$Gsage$$H$$Pomit_proxy_true"
+          ],
+          "linkunpaywall": [
+            "$$Uhttps://journals.sagepub.com/doi/pdf/10.1177/00986283241268723?download=true$$GUnpaywall$$Hfree_for_read"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            "AHOVV"
+          ],
+          "recordid": [
+            "eNp1kE9Lw0AQxRdRsFY_gLcFz6kz-z_HENQWCnrQc9hsNk1LzcZsWui3N6GCB_E0h3m_92YeIfcIC0StHwFSo5jhTCBTRjN-QWYoOUsMMH5JZtM-mQTX5CbGHQAIIcWMmKylq7YNRztsj55mXdcH6xo6BDo0nr7Fk2vCPmxONLddHELraR4OffS35Kq2--jvfuacfDw_vefLZP36ssqzdeI46CExaVWaShoEKKXSZQ2pdiJVFSqsaicsMmtq5qVWyqLhAjAV4CtZGuc1CD4nD2ff8bCvg49DsRvz2zGymJ6VhnEhRxWeVa4PMfa-Lrp--2n7U4FQTAUVfwoamcWZiXbjf13_B74BB45jTw"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Questionnaires",
+            "Servant leadership"
+          ],
+          "title": [
+            "An Innovative Approach to the Psychology Capstone Course",
+            "Teaching of psychology"
+          ],
+          "creator": [
+            "Bitz, Kristi L.",
+            "Hair, Rodney"
+          ],
+          "creationdate": [
+            "2025"
+          ],
+          "general": [
+            "SAGE Publications",
+            "Taylor & Francis Ltd"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "202510"
+          ],
+          "enddate": [
+            "202510"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "AHOVV",
+            "K9."
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0002-5444-3857"
+          ],
+          "creatorcontrib": [
+            "Bitz, Kristi L.",
+            "Hair, Rodney"
+          ],
+          "issn": [
+            "0098-6283",
+            "1532-8023"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "Background\nWhile capstone courses are popular among psychology programs, the capstone course design at a small private Midwestern university seems less conventional.\nObjective\nAlong with meeting five course objectives, the course addresses understanding vocation, identifying academic and career strengths and weaknesses, identifying talents and gifts, articulating goals, defining servant leadership, knowing what it takes to persist in college and what career to pursue, and understanding purpose and calling.\nMethod\nStudents completed a 10-item questionnaire addressing the aforementioned items on the first and last days of class during four consecutive fall offerings of the Senior Capstone in Psychology course.\nResults\nAnalysis of pre and posttest data revealed high confidence in positive change from the beginning to the end of the semester on every item measured.\nConclusion\nSignificant perceived student growth among each of the 10 questionnaire items was evident.\nTeaching Implications\nInstitutions that wish to aid in the development of students related to vocation, servant leadership, and calling may want to consider the course design."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "An Innovative Approach to the Psychology Capstone Course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Education Research Index",
+            "SAGE Premier"
+          ],
+          "creator": [
+            "Bitz, Kristi L. ; Hair, Rodney"
+          ],
+          "publisher": [
+            "Los Angeles, CA: SAGE Publications"
+          ],
+          "ispartof": [
+            "Teaching of psychology, 2025-10, Vol.52 (4), p.391-396"
+          ],
+          "identifier": [
+            "ISSN: 0098-6283",
+            "EISSN: 1532-8023",
+            "DOI: 10.1177/00986283241268723"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "The Author(s) 2024",
+            "Copyright Taylor & Francis Ltd. 2025"
+          ],
+          "snippet": [
+            "Background\nWhile capstone courses are popular among psychology programs, the capstone course design at a small private Midwestern university seems less conventional...",
+            "Background While capstone courses are popular among psychology programs, the capstone course design at a small private Midwestern university seems less conventional..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "description": [
+            "Background\nWhile capstone courses are popular among psychology programs, the capstone course design at a small private Midwestern university seems less conventional.\nObjective\nAlong with meeting five course objectives, the course addresses understanding vocation, identifying academic and career strengths and weaknesses, identifying talents and gifts, articulating goals, defining servant leadership, knowing what it takes to persist in college and what career to pursue, and understanding purpose and calling.\nMethod\nStudents completed a 10-item questionnaire addressing the aforementioned items on the first and last days of class during four consecutive fall offerings of the Senior Capstone in Psychology course.\nResults\nAnalysis of pre and posttest data revealed high confidence in positive change from the beginning to the end of the semester on every item measured.\nConclusion\nSignificant perceived student growth among each of the 10 questionnaire items was evident.\nTeaching Implications\nInstitutions that wish to aid in the development of students related to vocation, servant leadership, and calling may want to consider the course design."
+          ],
+          "subject": [
+            "Questionnaires ;  Servant leadership"
+          ],
+          "keyword": [
+            "Capstone Experiences ;  Capstone projects ;  Course Content ;  Course Objectives ;  Student Development"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "Background\nWhile capstone courses are popular among psychology programs, the capstone course design at a small private Midwestern university seems less conventional.\nObjective\nAlong with meeting five course objectives, the course addresses understanding vocation, identifying academic and career strengths and weaknesses, identifying talents and gifts, articulating goals, defining servant leadership, knowing what it takes to persist in college and what career to pursue, and understanding purpose and calling.\nMethod\nStudents completed a 10-item questionnaire addressing the aforementioned items on the first and last days of class during four consecutive fall offerings of the Senior Capstone in Psychology course.\nResults\nAnalysis of pre and posttest data revealed high confidence in positive change from the beginning to the end of the semester on every item measured.\nConclusion\nSignificant perceived student growth among each of the 10 questionnaire items was evident.\nTeaching Implications\nInstitutions that wish to aid in the development of students related to vocation, servant leadership, and calling may want to consider the course design."
+          ],
+          "orcidid": [
+            "https://orcid.org/0000-0002-5444-3857"
+          ],
+          "issn": [
+            "0098-6283"
+          ],
+          "oa": [
+            "free_for_read"
+          ],
+          "jtitle": [
+            "Teaching of psychology"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Bitz, Kristi L.",
+            "Hair, Rodney"
+          ],
+          "atitle": [
+            "An Innovative Approach to the Psychology Capstone Course"
+          ],
+          "date": [
+            "2025-10"
+          ],
+          "risdate": [
+            "2025"
+          ],
+          "volume": [
+            "52"
+          ],
+          "issue": [
+            "4"
+          ],
+          "spage": [
+            "391"
+          ],
+          "epage": [
+            "396"
+          ],
+          "pages": [
+            "391-396"
+          ],
+          "eissn": [
+            "1532-8023"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "Los Angeles, CA"
+          ],
+          "pub": [
+            "SAGE Publications"
+          ],
+          "doi": [
+            "10.1177/00986283241268723"
+          ],
+          "tpages": [
+            "6"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2025"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Bitz, Kristi L.",
+            "Hair, Rodney"
+          ],
+          "topic": [
+            "Questionnaires",
+            "Servant leadership"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "Education Research Index",
+            "ProQuest Health & Medical Complete (Alumni)"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-c307t-89db8d58100b567bf097c496d161dfc4a12a8f2e5766a183401940ed5b8ce7043"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Teaching of psychology"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Bitz, Kristi L. ; Hair, Rodney"
+          ],
+          "title": [
+            "An Innovative Approach to the Psychology Capstone Course"
+          ],
+          "creationdate": [
+            "202510"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_cross"
+          ],
+          "recordid": [
+            "cdi_crossref_primary_10_1177_00986283241268723"
+          ],
+          "sourcerecordid": [
+            "3241582345"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-c307t-89db8d58100b567bf097c496d161dfc4a12a8f2e5766a183401940ed5b8ce7043"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNp1kE9Lw0AQxRdRsFY_gLcFz6kz-z_HENQWCnrQc9hsNk1LzcZsWui3N6GCB_E0h3m_92YeIfcIC0StHwFSo5jhTCBTRjN-QWYoOUsMMH5JZtM-mQTX5CbGHQAIIcWMmKylq7YNRztsj55mXdcH6xo6BDo0nr7Fk2vCPmxONLddHELraR4OffS35Kq2--jvfuacfDw_vefLZP36ssqzdeI46CExaVWaShoEKKXSZQ2pdiJVFSqsaicsMmtq5qVWyqLhAjAV4CtZGuc1CD4nD2ff8bCvg49DsRvz2zGymJ6VhnEhRxWeVa4PMfa-Lrp--2n7U4FQTAUVfwoamcWZiXbjf13_B74BB45jTw"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "3241582345"
+          ],
+          "sageid": [
+            "10.1177_00986283241268723"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.02281002"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=An+Innovative+Approach+to+the+Psychology+Capstone+Course&rft.jtitle=Teaching+of+psychology&rft.au=Bitz%2C+Kristi+L.&rft.date=2025-10&rft.volume=52&rft.issue=4&rft.spage=391&rft.epage=396&rft.pages=391-396&rft.issn=0098-6283&rft.eissn=1532-8023&rft_id=info:doi/10.1177%2F00986283241268723&rft.pub=SAGE+Publications&rft.place=Los+Angeles%2C+CA&rft_dat=<proquest_cross>3241582345</proquest_cross>&svc_dat=viewit&rft_pqid=3241582345&rft_sage_id=10.1177_00986283241268723"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-c307t-89db8d58100b567bf097c496d161dfc4a12a8f2e5766a183401940ed5b8ce7043"
+          ],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_primary_10_1177_00986283241268723"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ]
+        },
+        "search": {
+          "recordid": [
+            "eNp1j8tKxEAURBtRMI5u_QHXiff2M72UwcfAgBsH3DX9hIQxGbsTwb83Oq4EV7WpU8Uh5BqhQVDitgt9Q2nDGlAfMZ-QCoXUtVb69ZRUgJzWgis8Jxel9AAUgcuKVLvBjfMQYrgkZ8nuS7z6zRXZPdy_rJ_q7fPjZn23rR2V7VRzKlOSzsvEJIBLTigMNGGKqhVOSqF1iNwyxNAiFV6qpJlAEbwWHqxmK3Jz3D3k8X2OZTL9OOdhuTQMFGtBSs2WFj-2fB5LyTEZ30126sZhyrbbGwTzLW0WaUOpYeZHesGaP9ghd282f_4HfAENhFky"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Classrooms",
+            "Public interest",
+            "Service learning",
+            "Students",
+            "Teaching"
+          ],
+          "title": [
+            "Unbounded: Integrating real-world problems into an undergraduate information design course",
+            "Information Design Journal : IDJ"
+          ],
+          "creator": [
+            "Verba, Susan",
+            "Tinker Perrault, Sarah"
+          ],
+          "creationdate": [
+            "2016"
+          ],
+          "general": [
+            "John Benjamins Publishing Company"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "2016"
+          ],
+          "enddate": [
+            "2016"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "E3H",
+            "F2A"
+          ],
+          "creatorcontrib": [
+            "Verba, Susan",
+            "Tinker Perrault, Sarah"
+          ],
+          "issn": [
+            "0142-5471",
+            "1876-486X",
+            "1569-979X",
+            "1876-4908"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "Design courses teach a broad range of skills to prepare students for the increasingly complex and interdisciplinary situations they will face as designers. This article describes how students in a senior, capstone design course worked on a real-world project, the Communicating Pain Project, under the aegis of their university’s Center for Design in the Public Interest. The project combined case-based learning and service learning. In this article we explain how the integration of the center’s project into the classroom was accomplished, report on how it worked, and offer some thoughts on its contributions to information design pedagogy."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Unbounded: Integrating real-world problems into an undergraduate information design course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "Communication & Mass Media Complete"
+          ],
+          "creator": [
+            "Verba, Susan ; Tinker Perrault, Sarah"
+          ],
+          "publisher": [
+            "Amsterdam: John Benjamins Publishing Company"
+          ],
+          "ispartof": [
+            "Information Design Journal : IDJ, 2016, Vol.22 (3), p.266-280"
+          ],
+          "identifier": [
+            "ISSN: 0142-5471",
+            "ISSN: 1876-486X",
+            "EISSN: 1569-979X",
+            "EISSN: 1876-4908",
+            "DOI: 10.1075/idj.22.3.07ver"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "Copyright John Benjamins Publishing Company 2016"
+          ],
+          "snippet": [
+            ".... This article describes how students in a senior, capstone design course worked on a real-world project, the Communicating Pain Project, under the aegis..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "description": [
+            "Design courses teach a broad range of skills to prepare students for the increasingly complex and interdisciplinary situations they will face as designers. This article describes how students in a senior, capstone design course worked on a real-world project, the Communicating Pain Project, under the aegis of their university’s Center for Design in the Public Interest. The project combined case-based learning and service learning. In this article we explain how the integration of the center’s project into the classroom was accomplished, report on how it worked, and offer some thoughts on its contributions to information design pedagogy."
+          ],
+          "subject": [
+            "Classrooms ;  Public interest ;  Service learning ;  Students ;  Teaching"
+          ],
+          "keyword": [
+            "Interdisciplinary aspects"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "Design courses teach a broad range of skills to prepare students for the increasingly complex and interdisciplinary situations they will face as designers. This article describes how students in a senior, capstone design course worked on a real-world project, the Communicating Pain Project, under the aegis of their university’s Center for Design in the Public Interest. The project combined case-based learning and service learning. In this article we explain how the integration of the center’s project into the classroom was accomplished, report on how it worked, and offer some thoughts on its contributions to information design pedagogy."
+          ],
+          "issn": [
+            "0142-5471",
+            "1876-486X"
+          ],
+          "jtitle": [
+            "Information Design Journal : IDJ"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Verba, Susan",
+            "Tinker Perrault, Sarah"
+          ],
+          "atitle": [
+            "Unbounded: Integrating real-world problems into an undergraduate information design course"
+          ],
+          "date": [
+            "2016"
+          ],
+          "risdate": [
+            "2016"
+          ],
+          "volume": [
+            "22"
+          ],
+          "issue": [
+            "3"
+          ],
+          "spage": [
+            "266"
+          ],
+          "epage": [
+            "280"
+          ],
+          "pages": [
+            "266-280"
+          ],
+          "eissn": [
+            "1569-979X",
+            "1876-4908"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "Amsterdam"
+          ],
+          "pub": [
+            "John Benjamins Publishing Company"
+          ],
+          "doi": [
+            "10.1075/idj.22.3.07ver"
+          ],
+          "tpages": [
+            "15"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2016"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Verba, Susan",
+            "Tinker Perrault, Sarah"
+          ],
+          "topic": [
+            "Classrooms",
+            "Public interest",
+            "Service learning",
+            "Students",
+            "Teaching"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "Library & Information Sciences Abstracts (LISA)",
+            "Library & Information Science Abstracts (LISA)"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-b268t-426ff6bc6f3600bfb571d2f1fe785b66599de4a311d8125c67f93515dc95c0a93"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Information Design Journal : IDJ"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Verba, Susan ; Tinker Perrault, Sarah"
+          ],
+          "title": [
+            "Unbounded"
+          ],
+          "creationdate": [
+            "2016"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_cross"
+          ],
+          "recordid": [
+            "cdi_crossref_citationtrail_10_1075_idj_22_3_07ver"
+          ],
+          "sourcerecordid": [
+            "3073806693"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-b268t-426ff6bc6f3600bfb571d2f1fe785b66599de4a311d8125c67f93515dc95c0a93"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNp1j8tKxEAURBtRMI5u_QHXiff2M72UwcfAgBsH3DX9hIQxGbsTwb83Oq4EV7WpU8Uh5BqhQVDitgt9Q2nDGlAfMZ-QCoXUtVb69ZRUgJzWgis8Jxel9AAUgcuKVLvBjfMQYrgkZ8nuS7z6zRXZPdy_rJ_q7fPjZn23rR2V7VRzKlOSzsvEJIBLTigMNGGKqhVOSqF1iNwyxNAiFV6qpJlAEbwWHqxmK3Jz3D3k8X2OZTL9OOdhuTQMFGtBSs2WFj-2fB5LyTEZ30126sZhyrbbGwTzLW0WaUOpYeZHesGaP9ghd282f_4HfAENhFky"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "3073806693"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.020354344"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Unbounded%3A+Integrating+real-world+problems+into+an+undergraduate+information+design+course&rft.jtitle=Information+Design+Journal+%3A+IDJ&rft.au=Verba%2C+Susan&rft.date=2016&rft.volume=22&rft.issue=3&rft.spage=266&rft.epage=280&rft.pages=266-280&rft.issn=0142-5471&rft.eissn=1569-979X&rft_id=info:doi/10.1075%2Fidj.22.3.07ver&rft.pub=John+Benjamins+Publishing+Company&rft.place=Amsterdam&rft_dat=<proquest_cross>3073806693</proquest_cross>&svc_dat=viewit&rft_pqid=3073806693"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-b268t-426ff6bc6f3600bfb571d2f1fe785b66599de4a311d8125c67f93515dc95c0a93"
+          ],
+          "citedby": [
+            "FETCH-LOGICAL-b268t-426ff6bc6f3600bfb571d2f1fe785b66599de4a311d8125c67f93515dc95c0a93"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_citationtrail_10_1075_idj_22_3_07ver"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "linktorsrc": [
+            "$$Uhttps://ieeexplore.ieee.org/document/9707143$$EView_record_in_IEEE$$FView_record_in_$$GIEEE$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Fieeexplore.ieee.org%2Fdocument%2F9707143$$EHTML$$Gieee$$H$$Pomit_proxy_true"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            "RIE"
+          ],
+          "recordid": [
+            "eNotj9FKwzAUQOODD3P6BQPJD6Te5CZp41up0xUGFTf1ccTsZg3oKmlF_HsF93TgPBw4jF1LKKQEd_Pa1EuDrtKFAiULV0IpNZ6xC2mt0QAgccZut-RDn44H3n1NYoiiy3vK_DEPgcZxyPyOxnQ48u809XzqiT-1m0a88HZTX7Lz6N9Hujpxzp7vl9tmJdbdQ9vUa5EU4CScsRYDBAxR6iqWzoYqYgRpAY2zupRRK6_-RABPpX4z3hCiVs46oL3GOVv8dxMR7T5z-vD5Z3fawV9hREA3"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "subject": [
+            "Computer architecture",
+            "Congresses and conventions",
+            "Education",
+            "Meetings"
+          ],
+          "title": [
+            "Teaching Out-of-Order Processor Design with the RISC-V ISA",
+            "2021 ACM/IEEE Workshop on Computer Architecture Education (WCAE)"
+          ],
+          "creator": [
+            "Zekany, Stephen A.",
+            "Tan, Jielun",
+            "Connolly, James A."
+          ],
+          "creationdate": [
+            "2021"
+          ],
+          "addtitle": [
+            "WCAE"
+          ],
+          "general": [
+            "IEEE"
+          ],
+          "rsrctype": [
+            "conference_proceeding"
+          ],
+          "startdate": [
+            "20210617"
+          ],
+          "enddate": [
+            "20210617"
+          ],
+          "scope": [
+            "6IE",
+            "6IL",
+            "CBEJK",
+            "RIE",
+            "RIL"
+          ],
+          "creatorcontrib": [
+            "Zekany, Stephen A.",
+            "Tan, Jielun",
+            "Connolly, James A."
+          ],
+          "isbn": [
+            "1665400013",
+            "9781665400015"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "We describe our experience teaching an undergraduate capstone (and elective graduate course) in computer architecture with a semester-long project in which teams of five students design and implement an out-of-order (OoO) pipelined processor core using the open-source RISC-V instruction set. The course content includes OoO scheduling algorithms for instructions to exploit instruction-level parallelism (ILP), example designs, caching, prefetching, and virtual memory. The labs and projects help students gain proficiency with the SystemVerilog language.Students use the concepts learned in class to design processors with the goals of achieving correctness and high performance for a suite of representative test programs. Using RISC-V enables students to validate and benchmark their designs by compiling test programs using GCC with a custom linker. By collaborating as a team, students learn how to write and debug a large code base over the two-month project.For computer architecture educators, we describe technical aspects of the final project and common advanced features implemented by students. We hope describing our experience serves not only to demonstrate a method of teaching modern computer architecture, but also to inspire other course designs centered around other aspects of modern computer architecture (GPUs, FPGAs, hardware/software codesign, etc). We have open-sourced our lab and project materials to enable others to teach similar courses.CCS CONCEPTS* Social and professional topics → Computer engineering education.ACM Reference Format:Stephen A. Zekany, Jielun Tan, James A. Connolly, and Ronald G. Dreslinski. 2021. Teaching Out-of-Order Processor Design with the RISC-V ISA. In ISCA Workshop on Computer Architecture Education (WCAE '21), June 17, 2021, Virtual Event, USA. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn"
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext_linktorsrc"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Teaching Out-of-Order Processor Design with the RISC-V ISA"
+          ],
+          "type": [
+            "conference_proceeding"
+          ],
+          "source": [
+            "IEEE Electronic Library (IEL)"
+          ],
+          "creator": [
+            "Zekany, Stephen A. ; Tan, Jielun ; Connolly, James A."
+          ],
+          "publisher": [
+            "IEEE"
+          ],
+          "ispartof": [
+            "2021 ACM/IEEE Workshop on Computer Architecture Education (WCAE), 2021, p.1-8"
+          ],
+          "identifier": [
+            "EISBN: 1665400013",
+            "EISBN: 9781665400015",
+            "DOI: 10.1109/WCAE53984.2021.9707143"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            "We describe our experience teaching an undergraduate capstone (and elective graduate course..."
+          ],
+          "description": [
+            "We describe our experience teaching an undergraduate capstone (and elective graduate course) in computer architecture with a semester-long project in which teams of five students design and implement an out-of-order (OoO) pipelined processor core using the open-source RISC-V instruction set. The course content includes OoO scheduling algorithms for instructions to exploit instruction-level parallelism (ILP), example designs, caching, prefetching, and virtual memory. The labs and projects help students gain proficiency with the SystemVerilog language.Students use the concepts learned in class to design processors with the goals of achieving correctness and high performance for a suite of representative test programs. Using RISC-V enables students to validate and benchmark their designs by compiling test programs using GCC with a custom linker. By collaborating as a team, students learn how to write and debug a large code base over the two-month project.For computer architecture educators, we describe technical aspects of the final project and common advanced features implemented by students. We hope describing our experience serves not only to demonstrate a method of teaching modern computer architecture, but also to inspire other course designs centered around other aspects of modern computer architecture (GPUs, FPGAs, hardware/software codesign, etc). We have open-sourced our lab and project materials to enable others to teach similar courses.CCS CONCEPTS* Social and professional topics → Computer engineering education.ACM Reference Format:Stephen A. Zekany, Jielun Tan, James A. Connolly, and Ronald G. Dreslinski. 2021. Teaching Out-of-Order Processor Design with the RISC-V ISA. In ISCA Workshop on Computer Architecture Education (WCAE '21), June 17, 2021, Virtual Event, USA. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn"
+          ],
+          "subject": [
+            "Computer architecture ;  Congresses and conventions ;  Education ;  Meetings"
+          ],
+          "keyword": [
+            "computer engineering team project ;  computer hardware course ;  Out of order ;  Parallel processing ;  Prefetching ;  Scheduling algorithms ;  teaching computer architecture ;  under-graduate design project"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "We describe our experience teaching an undergraduate capstone (and elective graduate course) in computer architecture with a semester-long project in which teams of five students design and implement an out-of-order (OoO) pipelined processor core using the open-source RISC-V instruction set. The course content includes OoO scheduling algorithms for instructions to exploit instruction-level parallelism (ILP), example designs, caching, prefetching, and virtual memory. The labs and projects help students gain proficiency with the SystemVerilog language.Students use the concepts learned in class to design processors with the goals of achieving correctness and high performance for a suite of representative test programs. Using RISC-V enables students to validate and benchmark their designs by compiling test programs using GCC with a custom linker. By collaborating as a team, students learn how to write and debug a large code base over the two-month project.For computer architecture educators, we describe technical aspects of the final project and common advanced features implemented by students. We hope describing our experience serves not only to demonstrate a method of teaching modern computer architecture, but also to inspire other course designs centered around other aspects of modern computer architecture (GPUs, FPGAs, hardware/software codesign, etc). We have open-sourced our lab and project materials to enable others to teach similar courses.CCS CONCEPTS* Social and professional topics → Computer engineering education.ACM Reference Format:Stephen A. Zekany, Jielun Tan, James A. Connolly, and Ronald G. Dreslinski. 2021. Teaching Out-of-Order Processor Design with the RISC-V ISA. In ISCA Workshop on Computer Architecture Education (WCAE '21), June 17, 2021, Virtual Event, USA. ACM, New York, NY, USA, 8 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn"
+          ],
+          "genre": [
+            "proceeding"
+          ],
+          "au": [
+            "Zekany, Stephen A.",
+            "Tan, Jielun",
+            "Connolly, James A."
+          ],
+          "btitle": [
+            "2021 ACM/IEEE Workshop on Computer Architecture Education (WCAE)"
+          ],
+          "atitle": [
+            "Teaching Out-of-Order Processor Design with the RISC-V ISA"
+          ],
+          "stitle": [
+            "WCAE"
+          ],
+          "date": [
+            "2021-06-17"
+          ],
+          "risdate": [
+            "2021"
+          ],
+          "spage": [
+            "1"
+          ],
+          "epage": [
+            "8"
+          ],
+          "pages": [
+            "1-8"
+          ],
+          "eisbn": [
+            "1665400013",
+            "9781665400015"
+          ],
+          "ristype": [
+            "CONF"
+          ],
+          "pub": [
+            "IEEE"
+          ],
+          "doi": [
+            "10.1109/WCAE53984.2021.9707143"
+          ],
+          "tpages": [
+            "8"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2021"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "conference_proceedings"
+          ],
+          "creatorcontrib": [
+            "Zekany, Stephen A.",
+            "Tan, Jielun",
+            "Connolly, James A."
+          ],
+          "topic": [
+            "Computer architecture",
+            "Congresses and conventions",
+            "Education",
+            "Meetings"
+          ],
+          "prefilter": [
+            "conference_proceedings"
+          ],
+          "collection": [
+            "IEEE Electronic Library (IEL) Conference Proceedings",
+            "IEEE Proceedings Order Plan All Online (POP All Online) 1998-present by volume",
+            "IEEE Xplore All Conference Proceedings",
+            "IEEE Electronic Library (IEL)",
+            "IEEE Proceedings Order Plans (POP All) 1998-Present"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-i203t-95663c0c3cf148f796c8f3f01603596471f42a2f01c0ae74b5a5e33429690ed43"
+          ],
+          "frbrtype": [
+            "5"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Zekany, Stephen A. ; Tan, Jielun ; Connolly, James A."
+          ],
+          "title": [
+            "Teaching Out-of-Order Processor Design with the RISC-V ISA"
+          ],
+          "creationdate": [
+            "20210617"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "ieee_RIE"
+          ],
+          "recordid": [
+            "cdi_ieee_primary_9707143"
+          ],
+          "sourcerecordid": [
+            "9707143"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-i203t-95663c0c3cf148f796c8f3f01603596471f42a2f01c0ae74b5a5e33429690ed43"
+          ],
+          "recordtype": [
+            "conference_proceeding"
+          ],
+          "addsrcrecordid": [
+            "eNotj9FKwzAUQOODD3P6BQPJD6Te5CZp41up0xUGFTf1ccTsZg3oKmlF_HsF93TgPBw4jF1LKKQEd_Pa1EuDrtKFAiULV0IpNZ6xC2mt0QAgccZut-RDn44H3n1NYoiiy3vK_DEPgcZxyPyOxnQ48u809XzqiT-1m0a88HZTX7Lz6N9Hujpxzp7vl9tmJdbdQ9vUa5EU4CScsRYDBAxR6iqWzoYqYgRpAY2zupRRK6_-RABPpX4z3hCiVs46oL3GOVv8dxMR7T5z-vD5Z3fawV9hREA3"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "ieeeid": [
+            "9707143"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.01954765"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext_linktorsrc"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-ieee_RIE&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=proceeding&rft.atitle=Teaching+Out-of-Order+Processor+Design+with+the+RISC-V+ISA&rft.btitle=2021+ACM%2FIEEE+Workshop+on+Computer+Architecture+Education+%28WCAE%29&rft.au=Zekany%2C+Stephen+A.&rft.date=2021-06-17&rft.spage=1&rft.epage=8&rft.pages=1-8&rft_id=info:doi/10.1109%2FWCAE53984.2021.9707143&rft.eisbn=1665400013&rft.pub=IEEE&rft.stitle=WCAE&rft_dat=<ieee_RIE>9707143</ieee_RIE>&svc_dat=viewit&rft_ieee_id=9707143"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_ieee_primary_9707143"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "backlink": [
+            "$$Uhttps://www.ncbi.nlm.nih.gov/pubmed/27168053$$D View this record in MEDLINE/PubMed$$Hfree_for_read$$Pomit_proxy_true"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            "CVF",
+            "EIF",
+            "NPM"
+          ],
+          "recordid": [
+            "eNqN0c9LHDEUB_BQKt3t6qHnQpmjHmbNm_ycU5F1WwXFg3oO2czLEtnJ2GTm4H9vZLc9lEI9BcLn-3h8HyFfgC4BQJzDklPGhGYfyBxEo2vdCvhI5hS4rqliMCOfc36iFEBz-onMGgVSU8Hm5Pv9mCY3TgkrG7vq1ka7xR7jWA2-_FTruA0RMYW4re4xhiFVl5jDNlarYUoZj8mRt7uMJ4d3QR5_rB9WV_XN3c_r1cVNbblqxto6tnFCgXCdwlZ6zoFZ5Z1jvKObjWhtq1xrrWdUeY9cCi-plM5518mSYgtyup_7nIZfE-bR9CE73O1sxGHKBnQjBG9L_B2U6rIJqPb_VLVCy7IrL_TbgU6bHjvznEJv04v5XWUBZ3vg0pBzQv-HADVvZzJgDmcq9vwv68JoxzDEMdmw-2fi6z5hc4_mqXQfS92Gc9owyV4BQj6Yew"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "subject": [
+            "Business",
+            "Educational tests and measurements",
+            "Engineering design",
+            "Equipment and supplies",
+            "Equipment Design",
+            "Management",
+            "Models, Organizational",
+            "Students",
+            "United States"
+          ],
+          "title": [
+            "Structure and Management of an Engineering Senior Design Course",
+            "Journal of biomechanical engineering"
+          ],
+          "creator": [
+            "Tanaka, Martin L.",
+            "Fischer, Kenneth J."
+          ],
+          "creationdate": [
+            "2016"
+          ],
+          "addtitle": [
+            "J Biomech Eng",
+            "J Biomech Eng"
+          ],
+          "general": [
+            "ASME"
+          ],
+          "rsrctype": [
+            "article"
+          ],
+          "startdate": [
+            "20160701"
+          ],
+          "enddate": [
+            "20160701"
+          ],
+          "scope": [
+            "AAYXX",
+            "CITATION",
+            "CGR",
+            "CUY",
+            "CVF",
+            "ECM",
+            "EIF",
+            "NPM",
+            "7X8",
+            "7QO",
+            "8FD",
+            "FR3",
+            "P64",
+            "7TB",
+            "7U5",
+            "F28",
+            "L7M"
+          ],
+          "creatorcontrib": [
+            "Tanaka, Martin L.",
+            "Fischer, Kenneth J."
+          ],
+          "issn": [
+            "0148-0731",
+            "1528-8951"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "The design of products and processes is an important area in engineering. Students in engineering schools learn fundamental principles in their courses but often lack an opportunity to apply these methods to real-world problems until their senior year. This article describes important elements that should be incorporated into a senior capstone design course. It includes a description of the general principles used in engineering design and a discussion of why students often have difficulty with application and revert to trial and error methods. The structure of a properly designed capstone course is dissected and its individual components are evaluated. Major components include assessing resources, identifying projects, establishing teams, understanding requirements, developing conceptual designs, creating detailed designs, building prototypes, testing performance, and final presentations. In addition to the course design, team management and effective mentoring are critical to success. This article includes suggested guidelines and tips for effective design team leadership, attention to detail, investment of time, and managing project scope. Furthermore, the importance of understanding business culture, displaying professionalism, and considerations of different types of senior projects is discussed. Through a well-designed course and proper mentoring, students will learn to apply their engineering skills and gain basic business knowledge that will prepare them for entry-level positions in industry."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Structure and Management of an Engineering Senior Design Course"
+          ],
+          "type": [
+            "article"
+          ],
+          "source": [
+            "PubMed",
+            "ASME Current Journal Collection (2000-current)",
+            "MEDLINE",
+            "MEDLINE (Ovid)"
+          ],
+          "creator": [
+            "Tanaka, Martin L. ; Fischer, Kenneth J."
+          ],
+          "publisher": [
+            "United States: ASME"
+          ],
+          "ispartof": [
+            "Journal of biomechanical engineering, 2016-07, Vol.138 (7)"
+          ],
+          "identifier": [
+            "ISSN: 0148-0731",
+            "EISSN: 1528-8951",
+            "DOI: 10.1115/1.4033583",
+            "PMID: 27168053"
+          ],
+          "language": [
+            "eng"
+          ],
+          "snippet": [
+            ".... This article describes important elements that should be incorporated into a senior capstone design course..."
+          ],
+          "lds50": [
+            "peer_reviewed"
+          ],
+          "description": [
+            "The design of products and processes is an important area in engineering. Students in engineering schools learn fundamental principles in their courses but often lack an opportunity to apply these methods to real-world problems until their senior year. This article describes important elements that should be incorporated into a senior capstone design course. It includes a description of the general principles used in engineering design and a discussion of why students often have difficulty with application and revert to trial and error methods. The structure of a properly designed capstone course is dissected and its individual components are evaluated. Major components include assessing resources, identifying projects, establishing teams, understanding requirements, developing conceptual designs, creating detailed designs, building prototypes, testing performance, and final presentations. In addition to the course design, team management and effective mentoring are critical to success. This article includes suggested guidelines and tips for effective design team leadership, attention to detail, investment of time, and managing project scope. Furthermore, the importance of understanding business culture, displaying professionalism, and considerations of different types of senior projects is discussed. Through a well-designed course and proper mentoring, students will learn to apply their engineering skills and gain basic business knowledge that will prepare them for entry-level positions in industry."
+          ],
+          "subject": [
+            "Business ;  Educational tests and measurements ;  Engineering design ;  Equipment and supplies ;  Equipment Design ;  Management ;  Models, Organizational ;  Students ;  United States"
+          ],
+          "keyword": [
+            "Biomedical Engineering - economics ;  Biomedical Engineering - education ;  Design analysis ;  Education, Professional - organization & administration ;  Engineering education ;  Guidelines ;  Index Medicus ;  Models, Educational ;  Problem-Based Learning - organization & administration ;  Teaching - organization & administration ;  Trial and error methods"
+          ]
+        },
+        "addata": {
+          "addtitle": [
+            "J Biomech Eng"
+          ],
+          "abstract": [
+            "The design of products and processes is an important area in engineering. Students in engineering schools learn fundamental principles in their courses but often lack an opportunity to apply these methods to real-world problems until their senior year. This article describes important elements that should be incorporated into a senior capstone design course. It includes a description of the general principles used in engineering design and a discussion of why students often have difficulty with application and revert to trial and error methods. The structure of a properly designed capstone course is dissected and its individual components are evaluated. Major components include assessing resources, identifying projects, establishing teams, understanding requirements, developing conceptual designs, creating detailed designs, building prototypes, testing performance, and final presentations. In addition to the course design, team management and effective mentoring are critical to success. This article includes suggested guidelines and tips for effective design team leadership, attention to detail, investment of time, and managing project scope. Furthermore, the importance of understanding business culture, displaying professionalism, and considerations of different types of senior projects is discussed. Through a well-designed course and proper mentoring, students will learn to apply their engineering skills and gain basic business knowledge that will prepare them for entry-level positions in industry."
+          ],
+          "issn": [
+            "0148-0731"
+          ],
+          "jtitle": [
+            "Journal of biomechanical engineering"
+          ],
+          "genre": [
+            "article"
+          ],
+          "au": [
+            "Tanaka, Martin L.",
+            "Fischer, Kenneth J."
+          ],
+          "atitle": [
+            "Structure and Management of an Engineering Senior Design Course"
+          ],
+          "stitle": [
+            "J Biomech Eng"
+          ],
+          "date": [
+            "2016-07-01"
+          ],
+          "risdate": [
+            "2016"
+          ],
+          "volume": [
+            "138"
+          ],
+          "issue": [
+            "7"
+          ],
+          "eissn": [
+            "1528-8951"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "cop": [
+            "United States"
+          ],
+          "pub": [
+            "ASME"
+          ],
+          "doi": [
+            "10.1115/1.4033583"
+          ],
+          "pmid": [
+            "27168053"
+          ],
+          "format": [
+            "journal"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2016"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "articles"
+          ],
+          "creatorcontrib": [
+            "Tanaka, Martin L.",
+            "Fischer, Kenneth J."
+          ],
+          "topic": [
+            "Business",
+            "Educational tests and measurements",
+            "Engineering design",
+            "Equipment and supplies",
+            "Equipment Design",
+            "Management",
+            "Models, Organizational",
+            "Students",
+            "United States"
+          ],
+          "prefilter": [
+            "articles"
+          ],
+          "collection": [
+            "CrossRef",
+            "Medline",
+            "MEDLINE",
+            "MEDLINE (Ovid)",
+            "MEDLINE",
+            "MEDLINE",
+            "PubMed",
+            "MEDLINE - Academic",
+            "Biotechnology Research Abstracts",
+            "Technology Research Database",
+            "Engineering Research Database",
+            "Biotechnology and BioEngineering Abstracts",
+            "Mechanical & Transportation Engineering Abstracts",
+            "Solid State and Superconductivity Abstracts",
+            "ANTE: Abstracts in New Technology & Engineering",
+            "Advanced Technologies Database with Aerospace"
+          ],
+          "toplevel": [
+            "peer_reviewed",
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-LOGICAL-a472t-ac3bc5715cd7e96f4413a7fcc34d0bb59a97c9aaf307ffe465f6066ccfcd615c3"
+          ],
+          "frbrtype": [
+            "5"
+          ],
+          "jtitle": [
+            "Journal of biomechanical engineering"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Tanaka, Martin L. ; Fischer, Kenneth J."
+          ],
+          "title": [
+            "Structure and Management of an Engineering Senior Design Course"
+          ],
+          "creationdate": [
+            "20160701"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "proquest_cross"
+          ],
+          "recordid": [
+            "cdi_crossref_citationtrail_10_1115_1_4033583"
+          ],
+          "sourcerecordid": [
+            "1808715179"
+          ],
+          "originalsourceid": [
+            "FETCH-LOGICAL-a472t-ac3bc5715cd7e96f4413a7fcc34d0bb59a97c9aaf307ffe465f6066ccfcd615c3"
+          ],
+          "recordtype": [
+            "article"
+          ],
+          "addsrcrecordid": [
+            "eNqN0c9LHDEUB_BQKt3t6qHnQpmjHmbNm_ycU5F1WwXFg3oO2czLEtnJ2GTm4H9vZLc9lEI9BcLn-3h8HyFfgC4BQJzDklPGhGYfyBxEo2vdCvhI5hS4rqliMCOfc36iFEBz-onMGgVSU8Hm5Pv9mCY3TgkrG7vq1ka7xR7jWA2-_FTruA0RMYW4re4xhiFVl5jDNlarYUoZj8mRt7uMJ4d3QR5_rB9WV_XN3c_r1cVNbblqxto6tnFCgXCdwlZ6zoFZ5Z1jvKObjWhtq1xrrWdUeY9cCi-plM5518mSYgtyup_7nIZfE-bR9CE73O1sxGHKBnQjBG9L_B2U6rIJqPb_VLVCy7IrL_TbgU6bHjvznEJv04v5XWUBZ3vg0pBzQv-HADVvZzJgDmcq9vwv68JoxzDEMdmw-2fi6z5hc4_mqXQfS92Gc9owyV4BQj6Yew"
+          ],
+          "sourcetype": [
+            "Aggregation Database"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "pqid": [
+            "1795864134"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.017537251"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-proquest_cross&rft_val_fmt=info:ofi/fmt:kev:mtx:journal&rft.genre=article&rft.atitle=Structure+and+Management+of+an+Engineering+Senior+Design+Course&rft.jtitle=Journal+of+biomechanical+engineering&rft.au=Tanaka%2C+Martin+L.&rft.date=2016-07-01&rft.volume=138&rft.issue=7&rft.issn=0148-0731&rft.eissn=1528-8951&rft_id=info:doi/10.1115%2F1.4033583&rft.pub=ASME&rft.place=United+States&rft.stitle=J+Biomech+Eng&rft_id=info:pmid/27168053&rft_dat=<proquest_cross>1808715179</proquest_cross>&svc_dat=viewit&rft_pqid=1795864134"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [
+            "FETCH-LOGICAL-a472t-ac3bc5715cd7e96f4413a7fcc34d0bb59a97c9aaf307ffe465f6066ccfcd615c3"
+          ],
+          "citedby": [
+            "FETCH-LOGICAL-a472t-ac3bc5715cd7e96f4413a7fcc34d0bb59a97c9aaf307ffe465f6066ccfcd615c3"
+          ]
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_crossref_citationtrail_10_1115_1_4033583"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktopdf": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Flink.springer.com%2Fcontent%2Fpdf%2F10.1007%2F978-3-031-23309-8_14$$EPDF$$Gspringer$$H$$Pomit_proxy_false"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Flink.springer.com%2F10.1007%2F978-3-031-23309-8_14$$EHTML$$Gspringer$$H$$Pomit_proxy_false"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            ""
+          ],
+          "recordid": [
+            "eNpjYJAxNNAzNDAw17c0t9A11jUwNtQ1MjY2sNS1iDc0YWTgBQobAwXBYhbMKHwLQw4G3uLiLAMDAyMLC2NzM1NOBsmAotSczNzMvMSiSgWX1OLM9DyFoNSyzNRyHgbWtMSc4lReKM3NYOTmGuLsoVtcUJSZl55aFJ-Un59dHG9oEA9yTzzQonjjeKBV8WC740HuMSZLEwAtczrA"
+          ],
+          "recordtype": [
+            "book_chapter"
+          ],
+          "title": [
+            "Preliminary Design Review",
+            "Engineering Design"
+          ],
+          "creator": [
+            "Mettler, Cory J."
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "general": [
+            "Springer International Publishing"
+          ],
+          "rsrctype": [
+            "book_chapter"
+          ],
+          "startdate": [
+            "2023"
+          ],
+          "enddate": [
+            "2023"
+          ],
+          "scope": [
+            ""
+          ],
+          "creatorcontrib": [
+            "Mettler, Cory J."
+          ],
+          "isbn": [
+            "9783031233081",
+            "3031233085",
+            "9783031233098",
+            "3031233093"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "This Chapter covers the Preliminary Design Review, PDR. The reader will learn that the purpose of the PDR is to ensure Stakeholders are comfortable with the initial design effort and are, therefore, willing to release a portion of the Project Budget to use in the next processes. A template is provided to assist students in developing their own PDR presentation."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "Preliminary Design Review"
+          ],
+          "type": [
+            "book_chapter"
+          ],
+          "source": [
+            "Springer Nature - Springer English International eBooks 2023 - Full Set"
+          ],
+          "creator": [
+            "Mettler, Cory J."
+          ],
+          "publisher": [
+            "Cham: Springer International Publishing"
+          ],
+          "ispartof": [
+            "Engineering Design, 2023, p.287-301"
+          ],
+          "identifier": [
+            "ISBN: 9783031233081",
+            "ISBN: 3031233085",
+            "EISBN: 9783031233098",
+            "EISBN: 3031233093",
+            "DOI: 10.1007/978-3-031-23309-8_14"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "The Author(s), under exclusive license to Springer Nature Switzerland AG 2023"
+          ],
+          "description": [
+            "This Chapter covers the Preliminary Design Review, PDR. The reader will learn that the purpose of the PDR is to ensure Stakeholders are comfortable with the initial design effort and are, therefore, willing to release a portion of the Project Budget to use in the next processes. A template is provided to assist students in developing their own PDR presentation."
+          ],
+          "keyword": [
+            "Critical Subsystem solutions ;  Formatting of ;  Necessary Background ;  Planning Phase ;  Preliminary Design Reviews, PDR ;  Preliminary Prototype Proposals ;  Project Design Concept ;  Purpose of ;  Responding to Feedback ;  System-Level Ideation"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "This Chapter covers the Preliminary Design Review, PDR. The reader will learn that the purpose of the PDR is to ensure Stakeholders are comfortable with the initial design effort and are, therefore, willing to release a portion of the Project Budget to use in the next processes. A template is provided to assist students in developing their own PDR presentation."
+          ],
+          "isbn": [
+            "9783031233081",
+            "3031233085"
+          ],
+          "genre": [
+            "bookitem"
+          ],
+          "au": [
+            "Mettler, Cory J."
+          ],
+          "btitle": [
+            "Engineering Design"
+          ],
+          "atitle": [
+            "Preliminary Design Review"
+          ],
+          "date": [
+            "2023"
+          ],
+          "risdate": [
+            "2023"
+          ],
+          "spage": [
+            "287"
+          ],
+          "epage": [
+            "301"
+          ],
+          "pages": [
+            "287-301"
+          ],
+          "eisbn": [
+            "9783031233098",
+            "3031233093"
+          ],
+          "ristype": [
+            "CHAP"
+          ],
+          "cop": [
+            "Cham"
+          ],
+          "pub": [
+            "Springer International Publishing"
+          ],
+          "doi": [
+            "10.1007/978-3-031-23309-8_14"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2023"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "book_chapters"
+          ],
+          "creatorcontrib": [
+            "Mettler, Cory J."
+          ],
+          "prefilter": [
+            "book_chapters"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-springer_books_10_1007_978_3_031_23309_8_143"
+          ],
+          "frbrtype": [
+            "5"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Mettler, Cory J."
+          ],
+          "title": [
+            "Preliminary Design Review"
+          ],
+          "creationdate": [
+            "2023"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "springer"
+          ],
+          "recordid": [
+            "cdi_springer_books_10_1007_978_3_031_23309_8_14"
+          ],
+          "sourcerecordid": [
+            "springer_books_10_1007_978_3_031_23309_8_14"
+          ],
+          "originalsourceid": [
+            "FETCH-springer_books_10_1007_978_3_031_23309_8_143"
+          ],
+          "recordtype": [
+            "book_chapter"
+          ],
+          "addsrcrecordid": [
+            "eNpjYJAxNNAzNDAw17c0t9A11jUwNtQ1MjY2sNS1iDc0YWTgBQobAwXBYhbMKHwLQw4G3uLiLAMDAyMLC2NzM1NOBsmAotSczNzMvMSiSgWX1OLM9DyFoNSyzNRyHgbWtMSc4lReKM3NYOTmGuLsoVtcUJSZl55aFJ-Un59dHG9oEA9yTzzQonjjeKBV8WC740HuMSZLEwAtczrA"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.01745083"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-springer&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=bookitem&rft.atitle=Preliminary+Design+Review&rft.btitle=Engineering+Design&rft.au=Mettler%2C+Cory+J.&rft.date=2023&rft.spage=287&rft.epage=301&rft.pages=287-301&rft.isbn=9783031233081&rft_id=info:doi/10.1007%2F978-3-031-23309-8_14&rft.eisbn=9783031233098&rft.pub=Springer+International+Publishing&rft.place=Cham&rft_dat=<springer>springer_books_10_1007_978_3_031_23309_8_14</springer>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_springer_books_10_1007_978_3_031_23309_8_14"
+    },
+    {
+      "pnx": {
+        "links": {
+          "openurl": [
+            "$$Topenurl_article"
+          ],
+          "openurlfulltext": [
+            "$$Topenurlfull_article"
+          ],
+          "thumbnail": [
+            "$$Tsyndetics_thumb_exl"
+          ],
+          "linktopdf": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Flink.springer.com%2Fcontent%2Fpdf%2F10.1007%2F978-3-031-23309-8_4$$EPDF$$Gspringer$$H$$Pomit_proxy_false"
+          ],
+          "linktohtml": [
+            "$$Uhttps://go.openathens.net/redirector/ucsd.edu?url=https%3A%2F%2Flink.springer.com%2F10.1007%2F978-3-031-23309-8_4$$EHTML$$Gspringer$$H$$Pomit_proxy_false"
+          ]
+        },
+        "search": {
+          "sourceid": [
+            ""
+          ],
+          "recordid": [
+            "eNqdjk0KwjAQhUdEULQn6CYXiE46atK1VjxA90OFscafVJr7g2lx49bV433M8D2A3ODaINpNaZ0mjWR0QYSldrydQJYoJTYiN_3pzswhi_GOiIVzZPe7BeT1TVQVWh9Eeh9adZTo26BqaV4rmF2bZ5Tsm0swp6o-nHV8D6fS86XrHpEN8jCIk4qJk4xHO6dB9M_PB9KQOmE"
+          ],
+          "recordtype": [
+            "book_chapter"
+          ],
+          "title": [
+            "The Engineering Design Team",
+            "Engineering Design"
+          ],
+          "creator": [
+            "Mettler, Cory J."
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "general": [
+            "Springer International Publishing"
+          ],
+          "rsrctype": [
+            "book_chapter"
+          ],
+          "startdate": [
+            "2023"
+          ],
+          "enddate": [
+            "2023"
+          ],
+          "scope": [
+            ""
+          ],
+          "creatorcontrib": [
+            "Mettler, Cory J."
+          ],
+          "isbn": [
+            "9783031233081",
+            "3031233085",
+            "9783031233098",
+            "3031233093"
+          ],
+          "fulltext": [
+            "true"
+          ],
+          "description": [
+            "This chapter discusses how design teams are formed during the STARTING phase of a project. Design teams are categorized into four classifications (pseudo, potential, real, performance teams), and the reader is instructed how to contribute to the development of their team in order to facilitate a productive team atmosphere. Students will perform both an individual and team SWOT (strengths, weaknesses, opportunities, and threats) analysis which are then used to strengthen team dynamics. Specific expectations of Senior Design team members are defined. The reader will learn how to conduct a variety of regularly occurring team meetings, including how to develop agendas for their meetings."
+          ]
+        },
+        "delivery": {
+          "fulltext": [
+            "fulltext"
+          ],
+          "delcategory": [
+            "Remote Search Resource"
+          ]
+        },
+        "display": {
+          "title": [
+            "The Engineering Design Team"
+          ],
+          "type": [
+            "book_chapter"
+          ],
+          "source": [
+            "Springer Nature - Springer English International eBooks 2023 - Full Set"
+          ],
+          "creator": [
+            "Mettler, Cory J."
+          ],
+          "publisher": [
+            "Cham: Springer International Publishing"
+          ],
+          "ispartof": [
+            "Engineering Design, 2023, p.45-77"
+          ],
+          "identifier": [
+            "ISBN: 9783031233081",
+            "ISBN: 3031233085",
+            "EISBN: 9783031233098",
+            "EISBN: 3031233093",
+            "DOI: 10.1007/978-3-031-23309-8_4"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rights": [
+            "The Author(s), under exclusive license to Springer Nature Switzerland AG 2023"
+          ],
+          "snippet": [
+            "This chapter discusses how design teams are formed during the STARTING phase of a project..."
+          ],
+          "description": [
+            "This chapter discusses how design teams are formed during the STARTING phase of a project. Design teams are categorized into four classifications (pseudo, potential, real, performance teams), and the reader is instructed how to contribute to the development of their team in order to facilitate a productive team atmosphere. Students will perform both an individual and team SWOT (strengths, weaknesses, opportunities, and threats) analysis which are then used to strengthen team dynamics. Specific expectations of Senior Design team members are defined. The reader will learn how to conduct a variety of regularly occurring team meetings, including how to develop agendas for their meetings."
+          ],
+          "keyword": [
+            "Effective Team Meetings ;  Engineering Team ;  Expectations of Teammates ;  Performance Teams ;  Potential Teams ;  Project Time Commitments ;  Pseudo Teams ;  Real Teams ;  Starting Phase ;  SWOT Analysis"
+          ]
+        },
+        "addata": {
+          "abstract": [
+            "This chapter discusses how design teams are formed during the STARTING phase of a project. Design teams are categorized into four classifications (pseudo, potential, real, performance teams), and the reader is instructed how to contribute to the development of their team in order to facilitate a productive team atmosphere. Students will perform both an individual and team SWOT (strengths, weaknesses, opportunities, and threats) analysis which are then used to strengthen team dynamics. Specific expectations of Senior Design team members are defined. The reader will learn how to conduct a variety of regularly occurring team meetings, including how to develop agendas for their meetings."
+          ],
+          "isbn": [
+            "9783031233081",
+            "3031233085"
+          ],
+          "genre": [
+            "bookitem"
+          ],
+          "au": [
+            "Mettler, Cory J."
+          ],
+          "btitle": [
+            "Engineering Design"
+          ],
+          "atitle": [
+            "The Engineering Design Team"
+          ],
+          "date": [
+            "2023"
+          ],
+          "risdate": [
+            "2023"
+          ],
+          "spage": [
+            "45"
+          ],
+          "epage": [
+            "77"
+          ],
+          "pages": [
+            "45-77"
+          ],
+          "eisbn": [
+            "9783031233098",
+            "3031233093"
+          ],
+          "ristype": [
+            "CHAP"
+          ],
+          "cop": [
+            "Cham"
+          ],
+          "pub": [
+            "Springer International Publishing"
+          ],
+          "doi": [
+            "10.1007/978-3-031-23309-8_4"
+          ],
+          "format": [
+            "book"
+          ]
+        },
+        "facets": {
+          "creationdate": [
+            "2023"
+          ],
+          "language": [
+            "eng"
+          ],
+          "rsrctype": [
+            "book_chapters"
+          ],
+          "creatorcontrib": [
+            "Mettler, Cory J."
+          ],
+          "prefilter": [
+            "book_chapters"
+          ],
+          "toplevel": [
+            "online_resources"
+          ],
+          "frbrgroupid": [
+            "cdi_FETCH-springer_books_10_1007_978_3_031_23309_8_43"
+          ],
+          "frbrtype": [
+            "5"
+          ]
+        },
+        "sort": {
+          "author": [
+            "Mettler, Cory J."
+          ],
+          "title": [
+            "The Engineering Design Team"
+          ],
+          "creationdate": [
+            "2023"
+          ]
+        },
+        "control": {
+          "sourceid": [
+            "springer"
+          ],
+          "recordid": [
+            "cdi_springer_books_10_1007_978_3_031_23309_8_4"
+          ],
+          "sourcerecordid": [
+            "springer_books_10_1007_978_3_031_23309_8_4"
+          ],
+          "originalsourceid": [
+            "FETCH-springer_books_10_1007_978_3_031_23309_8_43"
+          ],
+          "recordtype": [
+            "book_chapter"
+          ],
+          "addsrcrecordid": [
+            "eNqdjk0KwjAQhUdEULQn6CYXiE46atK1VjxA90OFscafVJr7g2lx49bV433M8D2A3ODaINpNaZ0mjWR0QYSldrydQJYoJTYiN_3pzswhi_GOiIVzZPe7BeT1TVQVWh9Eeh9adZTo26BqaV4rmF2bZ5Tsm0swp6o-nHV8D6fS86XrHpEN8jCIk4qJk4xHO6dB9M_PB9KQOmE"
+          ],
+          "sourcetype": [
+            "Publisher"
+          ],
+          "sourceformat": [
+            "XML"
+          ],
+          "sourcesystem": [
+            "Other"
+          ],
+          "iscdi": [
+            "true"
+          ],
+          "score": [
+            "0.013013755"
+          ]
+        }
+      },
+      "delivery": {
+        "link": [],
+        "deliveryCategory": [
+          "Remote Search Resource"
+        ],
+        "availability": [
+          "fulltext"
+        ],
+        "displayLocation": false,
+        "additionalLocations": false,
+        "physicalItemTextCodes": "",
+        "feDisplayOtherLocations": false,
+        "displayedAvailability": "true",
+        "holding": [],
+        "almaOpenurl": "https://na07.alma.exlibrisgroup.com/view/uresolver/01UCS_SDI/openurl?ctx_enc=info:ofi/enc:UTF-8&ctx_id=10_1&ctx_tim=2026-10-21 18:32:21&ctx_ver=Z39.88-2004&url_ctx_fmt=info:ofi/fmt:kev:mtx:ctx&url_ver=Z39.88-2004&rfr_id=info:sid/primo.exlibrisgroup.com-springer&rft_val_fmt=info:ofi/fmt:kev:mtx:book&rft.genre=bookitem&rft.atitle=The+Engineering+Design+Team&rft.btitle=Engineering+Design&rft.au=Mettler%2C+Cory+J.&rft.date=2023&rft.spage=45&rft.epage=77&rft.pages=45-77&rft.isbn=9783031233081&rft_id=info:doi/10.1007%2F978-3-031-23309-8_4&rft.eisbn=9783031233098&rft.pub=Springer+International+Publishing&rft.place=Cham&rft_dat=<springer>springer_books_10_1007_978_3_031_23309_8_4</springer>&svc_dat=viewit"
+      },
+      "context": "PC",
+      "adaptor": "Primo Central",
+      "extras": {
+        "citationTrails": {
+          "citing": [],
+          "citedby": []
+        },
+        "timesCited": {}
+      },
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/PC/cdi_springer_books_10_1007_978_3_031_23309_8_4"
+    },
+    {
+      "context": "v2v",
+      "adaptor": "Primo VE Deep Search",
+      "@id": "https://na03.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991078566568702901",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "book"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "Handbook of teaching and learning in sociology "
+          ],
+          "format": [
+            "1 online resource (478 pages)"
+          ],
+          "identifier": [
+            "$$CISBN$$V9781800374386;$$COCLC$$V(OCoLC)1378393181;$$CISBN$$V9781800374379"
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "publisher": [
+            "Northampton : Edward Elgar Publishing"
+          ],
+          "description": [
+            "\"Showcasing advanced research from over 30 expert sociologists, this dynamic Handbook explores a wide range of cutting-edge developments in scholarship on teaching and learning in sociology. It presents instructors with a comprehensive companion on how to achieve excellence in teaching, both in individual courses and across the undergraduate sociology curriculum. Divided into three distinct sections, the Handbook pinpoints critical aspects of teaching sociology: designing, teaching, and assessing core courses; advancing sociological literacy in topical courses; and engaging with high-impact practices across the curriculum. Chapters further solidify disciplinary understandings of the core elements of the sociology curriculum, as well as the essential concepts and skills that sociology students ought to learn. Offering extensive resources to help teachers think about and improve course and curricular design, their own teaching, and their students' learning, this comprehensive Handbook is the definitive guide for achieving teaching excellence across sociology. Its timely and practical suggestions will prove invaluable to new instructors, seasoned faculty, and department chairs seeking to advance program quality\"-- Provided by publisher."
+          ],
+          "mms": [
+            "991078566568702901"
+          ],
+          "contributor": [
+            "Cabrera, Sergio A., editor.$$QCabrera, Sergio A.",
+            "Sweet, Stephen, editor.$$QSweet, Stephen",
+            "Edward Elgar Publishing, publisher.$$QEdward Elgar Publishing"
+          ],
+          "contents": [
+            "Front Matter -- Copyright -- Contents -- Figures -- Tables -- Contributors -- Preface -- Introduction to the Handbook of Teaching and -- PART I THE CORE: THE STRUCTURE AND PURPOSE OF THE SOCIOLOGY MAJOR -- 1. The Core: The Sociological Literacy Framework -- 2. Sociology within the liberal arts -- 3. Developing an introductory course design that promotes sociological literacy -- 4. Designing and teaching the statistics core course -- 5. Designing core major courses: Methods -- 6. Social theory: What, who, how -- 7. Teaching the undergraduate capstone course in sociology -- 8. Curriculum mapping: Pathways to improve program coherence -- PART II ELECTIVE COURSES AND THE ADVANCEMENT OF SOCIOLOGICAL LITERACY -- 9. Teaching the sociology of race and racial formations -- 10. Integrating gender, sex, and sexuality throughout the curriculum -- 11. \"Baby, you weren't born that way\": Teaching sociological perspectives on identities -- 12. Painting in brighter colors: Creating holistic portraits in urban sociology courses -- 13. Teaching work and the economy: Essential topics -- 14. Practice what you teach: Medical sociology in action through pedagogy -- 15. Sociology of the body and embodiment -- 16. Crime and deviance within the sociology curriculum -- 17. Teaching sociology of education: Recommendations for mini-units and full courses -- 18. Environmental sociology and sociological animal studies -- 19. Using inclusive pedagogy to teach sociology of the family -- PART III HIGH-IMPACT TEACHING PRACTICES IN THE SOCIOLOGY CURRICULUM -- 20. The science of learning and sociological instruction -- 21. Disciplinary-specific critical thinking in sociology -- 22. Using group work across the sociology curriculum: Varieties, learning outcomes, challenges, and solutions -- 23. Promoting sociological literacy through discussions.",
+            "24. Flipped learning: Approaches, successes, and challenges in sociology courses -- 25. Community-based learning: Benefits of moving beyond the classroom -- 26. Teaching first-year students with compassion -- 27. Cornerstone courses and the sociology curriculum -- 28. Developing career-readiness in the sociology major -- 29. Promoting undergraduate research -- 30. Teaching students to be better writers through the sociology major -- 31. Promoting public sociology in the sociology curriculum -- 32. High-impact practices in community colleges -- 33. Teaching to teach in sociology graduate programs -- Index."
+          ],
+          "relation": [
+            "$$Cform$$VPrint version: Cabrera, Sergio A. Handbook of Teaching and Learning in Sociology Cheltenham : Edward Elgar Publishing Limited,c2023$$QHandbook of Teaching and Learning in Sociology"
+          ],
+          "place": [
+            "Northampton :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds19": [
+            "Sociology -- Study and teaching"
+          ],
+          "lds51": [
+            "1378393181"
+          ],
+          "lds63": [
+            "Includes index.",
+            "Includes bibliographical references and index."
+          ],
+          "lds64": [
+            "2023"
+          ],
+          "subject": [
+            "Sociology -- Study and teaching"
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "991078566568702901"
+          ],
+          "recordid": [
+            "alma991078566568702901"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "9926540606000041"
+          ],
+          "sourcesystem": [
+            "VLeBooks"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "6.0859824E-5"
+          ],
+          "isDedup": false,
+          "v2vScope": "ArticlesBooksEtc"
+        },
+        "addata": {
+          "originatingSystemIDContributor": [
+            "n2023046087",
+            "n2003099418",
+            "n92803855"
+          ],
+          "aulast": [
+            "Cabrera",
+            "Sweet"
+          ],
+          "aufirst": [
+            "Sergio A.",
+            "Stephen"
+          ],
+          "auinit": [
+            "S"
+          ],
+          "addau": [
+            "Cabrera, Sergio A.",
+            "Sweet, Stephen",
+            "Edward Elgar Publishing, publisher."
+          ],
+          "contributorfull": [
+            "Cabrera, Sergio A.,",
+            "Sweet, Stephen,"
+          ],
+          "date": [
+            "2023"
+          ],
+          "isbn": [
+            "9781800374386",
+            "9781800374379"
+          ],
+          "notes": [
+            "Includes bibliographical references and index."
+          ],
+          "abstract": [
+            "\"Showcasing advanced research from over 30 expert sociologists, this dynamic Handbook explores a wide range of cutting-edge developments in scholarship on teaching and learning in sociology. It presents instructors with a comprehensive companion on how to achieve excellence in teaching, both in individual courses and across the undergraduate sociology curriculum. Divided into three distinct sections, the Handbook pinpoints critical aspects of teaching sociology: designing, teaching, and assessing core courses; advancing sociological literacy in topical courses; and engaging with high-impact practices across the curriculum. Chapters further solidify disciplinary understandings of the core elements of the sociology curriculum, as well as the essential concepts and skills that sociology students ought to learn. Offering extensive resources to help teachers think about and improve course and curricular design, their own teaching, and their students' learning, this comprehensive Handbook is the definitive guide for achieving teaching excellence across sociology. Its timely and practical suggestions will prove invaluable to new instructors, seasoned faculty, and department chairs seeking to advance program quality\"-- Provided by publisher."
+          ],
+          "cop": [
+            "Northampton"
+          ],
+          "pub": [
+            "Edward Elgar Publishing"
+          ],
+          "oclcid": [
+            "(ocolc)1378393181"
+          ],
+          "format": [
+            "book"
+          ],
+          "genre": [
+            "book"
+          ],
+          "ristype": [
+            "BOOK"
+          ],
+          "btitle": [
+            "Handbook of teaching and learning in sociology"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Handbook of teaching and learning in sociology /"
+          ],
+          "author": [
+            "Cabrera, Sergio A., editor."
+          ],
+          "creationdate": [
+            "2023"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9042958060778532210"
+          ]
+        }
+      },
+      "delivery": {
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781800374386,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "thumbnail",
+            "publicNote": "",
+            "@id": ":_0"
+          }
+        ]
+      },
+      "enrichment": {},
+      "otherInstDelivery": {
+        "bestlocation": null,
+        "holding": null,
+        "electronicServices": null,
+        "additionalElectronicServices": null,
+        "filteredByGroupServices": null,
+        "quickAccessService": null,
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "availabilityLinks": [
+          "detailsgetit1"
+        ],
+        "availabilityLinksUrl": [
+          "detailsgetit1"
+        ],
+        "displayedAvailability": "no_inventory",
+        "displayLocation": null,
+        "additionalLocations": null,
+        "titleRequestableAtItemLevel": null,
+        "physicalItemTextCodes": null,
+        "feDisplayOtherLocations": null,
+        "almaInstitutionsList": [],
+        "recordInstitutionCode": null,
+        "recordOwner": "01CALS_NETWORK",
+        "hasFilteredServices": null,
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "sharedDigitalCandidates": null,
+        "consolidatedCoverage": null,
+        "electronicContextObjectId": null,
+        "almaOpenurl": null,
+        "GetIt1": [
+          {
+            "category": "Alma-P",
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "getItTabText": "service_howtogetit",
+                "adaptorid": "ALMA_01",
+                "ilsApiId": "",
+                "link": "HowToGetIt",
+                "inst4opac": "",
+                "displayText": null,
+                "@id": "_:0"
+              }
+            ]
+          }
+        ],
+        "physicalServiceId": null,
+        "link": [
+          {
+            "@id": ":_0",
+            "linkType": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781800374386,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "displayLabel": "thumbnail"
+          }
+        ],
+        "hasD": null
+      }
+    },
+    {
+      "context": "L",
+      "adaptor": "Local Search Engine",
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/9922117555506531",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "book"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "Handbook of teaching and learning in sociology  / edited by Sergio A. Cabrera (assistant professor), Stephen Sweet (professor, department of sociology, Ithaca College, US)."
+          ],
+          "identifier": [
+            "$$CISBN$$V1800374380;$$CISBN$$V9781800374386;$$COCLC$$V(OCoLC)1378066816;$$COCLC$$V(OCoLC)on1378066816;$$CISBN$$V9781800374379"
+          ],
+          "creationdate": [
+            "2023"
+          ],
+          "lds09": [
+            "Includes bibliographical references and index."
+          ],
+          "publisher": [
+            "Northampton : Edward Elgar Publishing"
+          ],
+          "description": [
+            "\"Showcasing advanced research from over 30 expert sociologists, this dynamic Handbook explores a wide range of cutting-edge developments in scholarship on teaching and learning in sociology. It presents instructors with a comprehensive companion on how to achieve excellence in teaching, both in individual courses and across the undergraduate sociology curriculum. Divided into three distinct sections, the Handbook pinpoints critical aspects of teaching sociology: designing, teaching, and assessing core courses; advancing sociological literacy in topical courses; and engaging with high-impact practices across the curriculum. Chapters further solidify disciplinary understandings of the core elements of the sociology curriculum, as well as the essential concepts and skills that sociology students ought to learn. Offering extensive resources to help teachers think about and improve course and curricular design, their own teaching, and their students' learning, this comprehensive Handbook is the definitive guide for achieving teaching excellence across sociology. Its timely and practical suggestions will prove invaluable to new instructors, seasoned faculty, and department chairs seeking to advance program quality\"-- Provided by publisher."
+          ],
+          "mms": [
+            "9922117555506531"
+          ],
+          "contributor": [
+            "Edward Elgar Publishing, publisher.$$QEdward Elgar Publishing",
+            "Cabrera, Sergio A., editor.$$QCabrera, Sergio A.",
+            "Sweet, Stephen, editor.$$QSweet, Stephen"
+          ],
+          "contents": [
+            "Preface -- Introduction to the Handbook of Teaching and Learning in Sociology / Sergio A. Cabrera -- Part I. The core: the structure and purpose of the sociology major -- 1. The core: the Sociological Literacy Framework / Susan Ferguson and Stephen Sweet -- 2. Sociology within the liberal arts / Diane Pike -- 3. Developing an introductory course design that promotes sociological literacy / Kimberly B. Rogers -- 4. Designing and teaching the statistics core course / Batool Zaidi and Cameron T. Whitley -- 5. Designing core major courses: methods / Stephanie Medley-Rath -- 6. Social theory: what, who, how / Josh Seim -- 7. Teaching the undergraduate capstone course in sociology / Robert C. Hauhart -- 8. Curriculum mapping: pathways to improve program coherence / Stephen Sweet and Susan J. Ferguson -- Part II. Elective courses and the advancement of sociological literacy -- 9. Teaching the sociology of race and racial formations / Nikki Khanna -- 10. Integrating gender, sex, and sexuality throughout the curriculum / Alexa Trumpy -- 11. \"Baby, you weren't born that way\": Teaching sociological perspectives on identities / Travis Beaver -- 12. Painting in brighter colors: Creating holistic portraits in urban sociology courses / Deirdre Caputo-Levine and Vanessa Lynn -- 13. Teaching work and the economy: Essential topics / Patti Giuffre and Gretchen R. Webber -- 14. Practice what you teach: Medical sociology in action through pedagogy / Alexandra Nowakowski -- 15. Sociology of the body and embodiment / David J. Hutson -- 16. Crime and deviance within the sociology curriculum / Rena Zito -- 17. Teaching sociology of education: Recommendations for mini-units and full courses / Alanna Gillis -- 18. Environmental sociology and sociological animal studies / Cameron T. Whitley and Elizabeth Cherry -- 19. Using inclusive pedagogy to teach sociology of the family / Teresa Ciabattari -- Part III. High-impact teaching practices in the sociology curriculum -- 20. The science of learning and sociological instruction / Andrea Hunt -- 21. Disciplinary-specific critical thinking in sociology / Danielle Kane -- 22. Using group work across the sociology curriculum: Varieties, learning outcomes, challenges, and solutions / Renee A. Monson -- 23. Promoting sociological literacy through discussions / Jay Howard -- 24. Flipped learning: Approaches, successes, and challenges in sociology courses / Erin M. Whitesitt and Yvonne M. Luna -- 25. Community-based learning: Benefits of moving beyond the classroom / Joseph B. Johnston -- 26. Teaching first-year students: Enhancing academic success with compassionate sociological instruction / Sarah Epplen -- 27. Cornerstone courses and the sociology curriculum / Mellisa Holtzman and Sergio A. Cabrera -- 28. Developing career-readiness in the sociology major / Mary Scheuer Senter -- 29. Promoting undergraduate research / Jessica Crowe and Daniel Baltz -- 30. Teaching students to be better writers through the sociology major / Todd Migliaccio -- 31. Promoting public sociology in the sociology curriculum / Christopher J. Schneider -- 32. High-impact practices in community colleges / Katherine R. Rowell and Michelle A. Smith -- 33. Teaching to teach in sociology graduate programs / Julie Pelton -- Index."
+          ],
+          "genre": [
+            "Electronic books"
+          ],
+          "relation": [
+            "$$Cform$$VPrint version:"
+          ],
+          "place": [
+            "Northampton :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds29": [
+            "text"
+          ],
+          "lds30": [
+            "online resource"
+          ],
+          "lds39": [
+            "1 online resource (478 pages)"
+          ],
+          "subject": [
+            "Sociology -- Study and teaching"
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "9922117555506531"
+          ],
+          "recordid": [
+            "alma9922117555506531"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "9922117555506531"
+          ],
+          "sourcesystem": [
+            "OCLC"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "4.775044E-5"
+          ],
+          "isDedup": false
+        },
+        "addata": {
+          "originatingSystemIDContributor": [
+            "n2023046087",
+            "n2003099418",
+            "n92803855"
+          ],
+          "aulast": [
+            "Cabrera",
+            "Sweet"
+          ],
+          "aufirst": [
+            "Sergio A.",
+            "Stephen"
+          ],
+          "auinit": [
+            "S"
+          ],
+          "addau": [
+            "Edward Elgar Publishing, publisher.",
+            "Cabrera, Sergio A.",
+            "Sweet, Stephen"
+          ],
+          "contributorfull": [
+            "$$NCabrera, Sergio A.$$LCabrera$$FSergio A.$$Reditor",
+            "$$NSweet, Stephen$$Reditor"
+          ],
+          "date": [
+            "2023"
+          ],
+          "isbn": [
+            "1800374380",
+            "9781800374386",
+            "9781800374379"
+          ],
+          "notes": [
+            "Includes bibliographical references and index."
+          ],
+          "abstract": [
+            "\"Showcasing advanced research from over 30 expert sociologists, this dynamic Handbook explores a wide range of cutting-edge developments in scholarship on teaching and learning in sociology. It presents instructors with a comprehensive companion on how to achieve excellence in teaching, both in individual courses and across the undergraduate sociology curriculum. Divided into three distinct sections, the Handbook pinpoints critical aspects of teaching sociology: designing, teaching, and assessing core courses; advancing sociological literacy in topical courses; and engaging with high-impact practices across the curriculum. Chapters further solidify disciplinary understandings of the core elements of the sociology curriculum, as well as the essential concepts and skills that sociology students ought to learn. Offering extensive resources to help teachers think about and improve course and curricular design, their own teaching, and their students' learning, this comprehensive Handbook is the definitive guide for achieving teaching excellence across sociology. Its timely and practical suggestions will prove invaluable to new instructors, seasoned faculty, and department chairs seeking to advance program quality\"-- Provided by publisher."
+          ],
+          "cop": [
+            "Northampton"
+          ],
+          "pub": [
+            "Edward Elgar Publishing"
+          ],
+          "oclcid": [
+            "(ocolc)1378066816",
+            "(ocolc)on1378066816"
+          ],
+          "format": [
+            "book"
+          ],
+          "genre": [
+            "book"
+          ],
+          "ristype": [
+            "BOOK"
+          ],
+          "btitle": [
+            "Handbook of teaching and learning in sociology"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Handbook of teaching and learning in sociology /"
+          ],
+          "author": [
+            "Cabrera, Sergio A., editor."
+          ],
+          "creationdate": [
+            "2023"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9042958060778532210"
+          ]
+        }
+      },
+      "delivery": {
+        "bestlocation": null,
+        "holding": null,
+        "electronicServices": null,
+        "additionalElectronicServices": null,
+        "filteredByGroupServices": null,
+        "quickAccessService": null,
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "availabilityLinks": [
+          "detailsgetit1"
+        ],
+        "availabilityLinksUrl": [
+          "detailsgetit1"
+        ],
+        "displayedAvailability": "no_inventory",
+        "displayLocation": null,
+        "additionalLocations": null,
+        "titleRequestableAtItemLevel": null,
+        "physicalItemTextCodes": null,
+        "feDisplayOtherLocations": null,
+        "almaInstitutionsList": [],
+        "recordInstitutionCode": null,
+        "recordOwner": "01UCS_NETWORK",
+        "hasFilteredServices": null,
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "sharedDigitalCandidates": null,
+        "consolidatedCoverage": null,
+        "electronicContextObjectId": null,
+        "almaOpenurl": null,
+        "GetIt1": [
+          {
+            "category": "Alma-P",
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "getItTabText": "service_howtogetit",
+                "adaptorid": "ALMA_01",
+                "ilsApiId": "",
+                "link": "HowToGetIt",
+                "inst4opac": "",
+                "displayText": null,
+                "@id": "_:0"
+              }
+            ]
+          }
+        ],
+        "physicalServiceId": null,
+        "link": [
+          {
+            "@id": ":_0",
+            "linkType": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781800374386,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "displayLabel": "thumbnail"
+          }
+        ],
+        "hasD": null
+      },
+      "enrichment": {
+        "virtualBrowseObject": {
+          "isVirtualBrowseEnabled": false,
+          "callNumber": "",
+          "callNumberBrowseField": ""
+        }
+      }
+    },
+    {
+      "context": "v2v",
+      "adaptor": "Primo VE Deep Search",
+      "@id": "https://na03.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991074951561902901",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "book"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "Research anthology on adult education and the development of lifelong learners "
+          ],
+          "format": [
+            "89 PDFs (3 volumes (1551 pages))"
+          ],
+          "identifier": [
+            "$$CISBN$$V9781799887348;$$CISBN$$V9781799887355;$$COCLC$$V(OCoLC)1255221174;$$COCLC$$V(OCoLC)1253444755;$$CISBN$$V1-7998-8598-4;$$CISBN$$V1799887340;$$CISBN$$V9781799885986"
+          ],
+          "creationdate": [
+            "2021"
+          ],
+          "publisher": [
+            "Hershey, Pennsylvania : IGI Global"
+          ],
+          "description": [
+            "\"This reference book of contributed chapters focuses specifically on adult education and the best practices, services, and educational environments and methods for both the teaching and learning of adults expanding the understanding of what it means to be a lifelong learner and how to develop adults who want to voluntarily contribute to their own development by enhancing their education level or knowledge of certain topics\"-- Provided by publisher."
+          ],
+          "mms": [
+            "991074951561902901"
+          ],
+          "contributor": [
+            "Information Resources Management Association, editor.$$QInformation Resources Management Association"
+          ],
+          "contents": [
+            "Volume I. Section 1. Fundamental concepts and theories. Chapter 1. Foundations of adult education, learning characteristics, and instructional strategies ; Chapter 2. The adult learner in higher education: a critical review of theories and applications ; Chapter 3. Challenges, issues, and trends in adult education ; Chapter 4. Introduction to online learning and the adult learner ; Chapter 5. The new normal: adult online learners ; Chapter 6. Post-adult education alternatives in 45 years of learning/teaching: an integral-informed autoethnographic reflection ; Chapter 7. Between pedagogy and andragogy: definitions and concepts ; Chapter 8. Manifesto for critical andragogy: a liberating critique to adult learning ; Chapter 9. Role of the social constructivist theory, andragogy, and computer-mediated instruction (CMI) in adult ESL learning and teaching environments: how students transform into self-directed learners through mobile technologies ; Chapter 10. New horizons for sustainable growth in Eurasia powered by technology-infused adult learning -- Section 2. Development and design methodologies. Chapter 11. Teaching the adult learner: building trust and motivation ; Chapter 12. Andragogy, culture, and adult learning worldviews ; Chapter 13. Creating an andragogy for adult learning advantage ; Chapter 14. The socratic way and adult learning: exploring a nelsonian view of the socratic method in self-directed learning encounters. ; Chapter 15. A collaboration-based spiral model for curriculum development of older adult education: a view from service science perspective ; Chapter 16. Designing innovative faculty development initiatives through the lens of the adult learner ; Chapter 17. Towards blended learning designs fostering adults' social capital: what do empirical findings reveal? ; Chapter 18. Experiential learning model for online and F2F programs in university continuing education ; Chapter 19. Virtual reality applications as an innovative educational practice in adult education: a case study on training Hellenic Air Force pilots ; Chapter 20. Instructional design considerations, challenges, and best practices on cross-cultural adult web-based learning experiences in higher education ; Chapter 21. Adult learner characteristics important for successful learning in cross-cultural web-based learning environments in higher education ; Chapter 22. Towards a framework for lifelong e-learning and employability ; Chapter 23. Invariable structure of research competence of adult learners in skill building programs: situational and contextual approach -- Volume II. Chapter 24. Arts integration techniques in the adult learning environment ; Chapter 25. Development of an interactive narrative for adult literacy learners ; Chapter 26. Culturally inclusive teaching of adult English language learners -- Section 3. Tools and technologies. Chapter 27. Guidelines for lifelong education management to mobilize learning community ; Chapter 28. Applying andragogical concepts in creating a sustainable lifelong learning society ; Chapter 29. Application of equity theory on adult learning ; Chapter 30. Self-directed learning strategies in adult educational contexts: helping students to perceive themselves as having the skills for successful learning ; Chapter 31. Self-study as an emergent methodology in career and technical education, adult education and technology: an invitation to inquiry ; Chapter 32. Promoting reflective thinking in adult learners: the online case-based discussion ; Chapter 33. Adult literacy programme for poverty reduction: a citizenry approach ; Chapter 34. Using materials in refugee and immigrant adults' heritage languages in instruction: challenges and guidance for teachers and tutors ; Chapter 35. Equivalency programmes through open and distance learning: towards lifelong learning for adults ; Chapter 36. Adult education with technology for transformative learning ; Chapter 37. Enabling adult learning advantage in online learning environments ; Chapter 38. Online higher education for nontraditional adult students: best cases of public universities ; Chapter 39. Managing the utilization of technologies in adult education, training, and administration: the case study of Turkish mone ; Chapter 40. Mentoring in the web-class for adult learners ; Chapter 41. The promise of protocols in the virtual classroom: using microstructures to enhance adult learning ; Chapter 42. Application of digital technologies, multimedia, and brain-based strategies: nurturing adult education and lifelong learning ; Chapter 43. Designing \"concentrated listening\" for advantageous adult learning with multimedia ; Chapter 44. The use of social media: issues, challenges, and strategies for adult teaching and learning ; Chapter 45. Gamification in adult learning ; Chapter 46. Utilizing digital educational games to enhance adult learning ; Chapter 47. Blockchain technology as a bridging infrastructure among formal, non-formal, and informal learning processes -- Section 4. Utilization and applications. Chapter 48. Adapting to the needs of adult language learners: a totally different ball game ; Chapter 49. Self-efficacy and the future selves construct: strategies in support of adult learners' academic performance ; Chapter 50. Making instruction work for adult learners -- Volume III. Chapter 51. Instructional Design for adult and continuing higher education: theoretical and practical considerations ; Chapter 52. Examining the adult learning in \"giving back\" initiatives ; Chapter 53. The control of continuing education based on the digital economy ; Chapter 54. Using design thinking practices to create technology-driven adult professional development programs ; Chapter 55. Engaging adult learners online through technology, andragogy, and flexible course design: from theory to practice ; Chapter 56. Online participatory learning for low-qualified adult learners ; Chapter 57. Emergent literacy development in adult l2 learners: from theory to practice ; Chapter 58. Putting paint to canvas: artful teaching strategies for teachers of adult learners ; Chapter 59. Exploring the role of adult learning theory in understanding employees' participation in non-mandatory training ; Chapter 60. Transformation of higher education in China: a teaching methods perspective ; Chapter 61. Prison education in Europe -- Section 5. Organizational and social implications. Chapter 62. From social learning to norm validation: revitalizing the emancipatory aspirations of adult education ; Chapter 63. College faculty as adult learners: an important role in the new age ; Chapter 64. Transforming chemistry curricula and courses to support adult learners ; Chapter 65. Implications for e-learning in adult education curriculum ; Chapter 66. What really happens when adults play?: a call for examining the intersection of psychosocial spaces, group energy, and purposeful play ; Chapter 67. Leveraging learner experience: pedagogical scaffolding with refugee-background adults ; Chapter 68. Framing the role of culture reflecting on how culture affects learners in transformative learning settings: the adult learner culture defined ; Chapter 69. Exposing oppressive systems: institutional ethnography as a research method in adult and workforce education ; Chapter 70. Excavating and (re)presenting stories: narrative inquiry as an emergent methodology in the field of adult vocational education and technology ; Chapter 71. An adaptive leadership approach to adult learning and organizational research ; Chapter 72. Gender sensitivity of adult education activities of community-based organizations in Ghana -- Section 6. Critical issues and challenges. Chapter 73. By means of critical theory: informed emancipatory education  an essay on realities and possibilities ; Chapter 74. Culturally responsive teaching with adult learners: a review of the literature ; Chapter 75. ",
+            "Barriers to a STEM career: math anxiety and the adult female ; Chapter 76. Creating connections: competency-based degree programs and undergraduate capstone courses for adult learners ; Chapter 77. Issues of health-related physical fitness of the adult learner ; Chapter 78. Critical and transformational perspectives on career and technical education in the twenty-first century for urban adult learners."
+          ],
+          "genre": [
+            "Handbooks, manuals, etc"
+          ],
+          "place": [
+            "Hershey, Pennsylvania :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds19": [
+            "Adult education -- Handbooks, manuals, etc",
+            "Continuing education -- Handbooks, manuals, etc"
+          ],
+          "lds51": [
+            "1255221174"
+          ],
+          "lds63": [
+            "Includes bibliographical references and index."
+          ],
+          "lds64": [
+            "2021"
+          ],
+          "subject": [
+            "Adult education -- Handbooks, manuals, etc",
+            "Continuing education -- Handbooks, manuals, etc"
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "991074951561902901"
+          ],
+          "recordid": [
+            "alma991074951561902901"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "994100000011938288"
+          ],
+          "sourcesystem": [
+            "EBC"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "3.6350822E-5"
+          ],
+          "isDedup": false,
+          "v2vScope": "ArticlesBooksEtc"
+        },
+        "addata": {
+          "originatingSystemIDContributor": [
+            "no91008865"
+          ],
+          "addau": [
+            "Information Resources Management Association, editor."
+          ],
+          "date": [
+            "2021"
+          ],
+          "isbn": [
+            "9781799887348",
+            "9781799887355",
+            "1-7998-8598-4",
+            "1799887340",
+            "9781799885986"
+          ],
+          "notes": [
+            "Includes bibliographical references and index."
+          ],
+          "abstract": [
+            "\"This reference book of contributed chapters focuses specifically on adult education and the best practices, services, and educational environments and methods for both the teaching and learning of adults expanding the understanding of what it means to be a lifelong learner and how to develop adults who want to voluntarily contribute to their own development by enhancing their education level or knowledge of certain topics\"-- Provided by publisher."
+          ],
+          "cop": [
+            "Hershey, Pennsylvania"
+          ],
+          "pub": [
+            "IGI Global"
+          ],
+          "oclcid": [
+            "(ocolc)1255221174",
+            "(ocolc)1253444755"
+          ],
+          "doi": [
+            "10.4018/978-1-7998-8598-6"
+          ],
+          "format": [
+            "book"
+          ],
+          "genre": [
+            "book"
+          ],
+          "ristype": [
+            "BOOK"
+          ],
+          "btitle": [
+            "Research anthology on adult education and the development of lifelong learners"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Research anthology on adult education and the development of lifelong learners /"
+          ],
+          "author": [
+            "Information Resources Management Association, editor."
+          ],
+          "creationdate": [
+            "2021"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9020642150817690020"
+          ]
+        }
+      },
+      "delivery": {
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "link": [
+          {
+            "displayLabel": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781799887355,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "linkType": "thumbnail",
+            "publicNote": "",
+            "@id": ":_0"
+          }
+        ]
+      },
+      "enrichment": {},
+      "otherInstDelivery": {
+        "bestlocation": null,
+        "holding": null,
+        "electronicServices": null,
+        "additionalElectronicServices": null,
+        "filteredByGroupServices": null,
+        "quickAccessService": null,
+        "deliveryCategory": [
+          "Alma-P"
+        ],
+        "serviceMode": [
+          "howovp"
+        ],
+        "availability": [
+          "no_inventory"
+        ],
+        "availabilityLinks": [
+          "detailsgetit1"
+        ],
+        "availabilityLinksUrl": [
+          "detailsgetit1"
+        ],
+        "displayedAvailability": "no_inventory",
+        "displayLocation": null,
+        "additionalLocations": null,
+        "titleRequestableAtItemLevel": null,
+        "physicalItemTextCodes": null,
+        "feDisplayOtherLocations": null,
+        "almaInstitutionsList": [],
+        "recordInstitutionCode": null,
+        "recordOwner": "01CALS_NETWORK",
+        "hasFilteredServices": null,
+        "digitalAuxiliaryMode": false,
+        "digitalAuxiliaryThumbnail": false,
+        "hideResourceSharing": false,
+        "sharedDigitalCandidates": null,
+        "consolidatedCoverage": null,
+        "electronicContextObjectId": null,
+        "almaOpenurl": null,
+        "GetIt1": [
+          {
+            "category": "Alma-P",
+            "links": [
+              {
+                "isLinktoOnline": false,
+                "getItTabText": "service_howtogetit",
+                "adaptorid": "ALMA_01",
+                "ilsApiId": "",
+                "link": "HowToGetIt",
+                "inst4opac": "",
+                "displayText": null,
+                "@id": "_:0"
+              }
+            ]
+          }
+        ],
+        "physicalServiceId": null,
+        "link": [
+          {
+            "@id": ":_0",
+            "linkType": "thumbnail",
+            "linkURL": "https://proxy-na.hosted.exlibrisgroup.com/exl_rewrite/books.google.com/books?bibkeys=ISBN:9781799887355,OCLC:,LCCN:&jscmd=viewapi&callback=updateGBSCover",
+            "displayLabel": "thumbnail"
+          }
+        ],
+        "hasD": null
+      }
+    }
+  ],
+  "timelog": {
+    "PC_SEARCH_CALL_TIME": "572",
+    "PC_BUILD_JSON_AND_HIGLIGHTS": "77",
+    "PC_SEARCH_TIME_TOTAL": "649",
+    "BUILD_RESULTS_RETRIVE_FROM_DB": "33",
+    "CALL_SOLR_GET_IDS_LIST": "233",
+    "PRIMA_LOCAL_SEARCH_SET_AVALIABILITY": "19",
+    "RETRIVE_COLLECTION_DISCOVERY_INFO": "1",
+    "RETRIVE_FROM_DB_COURSE_INFO": "1",
+    "RETRIVE_FROM_DB_RECORDS": "20",
+    "RETRIVE_FROM_DB_RELATIONS": "10",
+    "SET_AVAILABILTY_GET_LIBRARY_DETAILS": "19",
+    "SET_AVAILABILTY_HOLDING_DEDUPS": "0",
+    "PRIMA_LOCAL_INFO_FACETS_BUILD_DOCS_HIGHLIGHTS": "18",
+    "PRIMA_LOCAL_SEARCH_TOTAL": "304",
+    "REMOTEVE_CALL_SEARCH": "709",
+    "REMOTEVE_BUILD_RESULT_CONVERT_TO_JSON": "1",
+    "REMOTEVE_SEARCH_TIME_TOTAL": "710",
+    "BUILD_BLEND_AND_CACHE_RESULTS": 0,
+    "BUILD_COMBINED_RESULTS_MAP": 711,
+    "COMBINED_SEARCH_TIME": 720,
+    "PROCESS_COMBINED_RESULTS": 0,
+    "FEATURED_SEARCH_TIME": 0
+  },
+  "facetsCacheKey": 371150850
+}

@@ -1,0 +1,7 @@
+interface:
+  display_name: "Reading List"
+  short_description: "Build faithful research reading lists"
+  default_prompt: "Use $annotated-bibliography to create a research reading list on my topic."
+
+policy:
+  allow_implicit_invocation: true

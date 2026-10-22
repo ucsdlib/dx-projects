@@ -1,6 +1,6 @@
-# annotated-bibliography
+# Reading List (`annotated-bibliography`)
 
-Research skill for the TritonAI harness (Codex-based) that creates comprehensive, faithful annotated bibliographies — representing what sources actually claim and classifying connections as direct evidence, reasonable inference, or interpretive connection.
+Research skill for the TritonAI harness (Codex-based) that prepares human reading through focused landscapes, curated reading lists, and comprehensive annotated bibliographies. It represents what sources actually claim and classifies connections as direct evidence, reasonable inference, or interpretive connection.
 
 ## What It Is and How It Works
 
@@ -23,6 +23,8 @@ The output layer is built around faithfulness: annotations stay close to what ea
 - **2026-09-26** — Major pipeline update: Stage 0 executes UC Library Search via the documented Primo PNX REST API (historical behavior now in `references/primo-pnx-api.md`); adaptive fidelity-based screening; component decomposition; mode-aware breadth dialog; curation rule binding the final set to the tier; book verification ladder; documented-skip rule.
 - **2026-09-26** — Human-in-the-loop closing added: a required "Human Next Steps" section (priority reading list, verification targets, open questions, follow-up searches, reading guidance) reframes the bibliography as a springboard for human-led research rather than a terminal deliverable, operationalizing information-literacy principles.
 - **2026-10-02** — Primo execution order clarified: try the documented Primo Search API first when `PRIMO_KEY` is present; use the Primo PNX REST API only as the activation/authentication fallback (see `references/primo-search-api.md` and `references/primo-pnx-api.md`).
+- **2026-10-21** — Interaction-phase update: added the Reading List product name, default focused landscape, modular run state and manifest guidance, follow-up paths, response templates, adaptive landscape-sufficiency rules, and focused reference files. The directory and compatibility name remain `annotated-bibliography`.
+- **2026-10-22** — Added DOI-first source-link resolution with a separate UC Library Search / Primo record link for library access and holdings. Added fallback rules for library records, native scholarly records, and metadata-only search links.
 
 ## Testing and Development
 

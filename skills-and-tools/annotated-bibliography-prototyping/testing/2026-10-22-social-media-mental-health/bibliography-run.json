@@ -1,0 +1,1418 @@
+{
+  "schema_version": "0.1",
+  "run_id": "2026-10-22-social-media-mental-health",
+  "created_at": "2026-10-22T15:10:06.684427Z",
+  "updated_at": "2026-10-22T15:10:07.206634Z",
+  "working_question": "How does social media affect mental health among college students, with attention to anxiety, depression, sleep, and social comparison?",
+  "context": {
+    "assignment": "Psychology 190 capstone prep; 8-10 scholarly, preferably peer-reviewed sources in APA style",
+    "population": "College students, approximately ages 18-24",
+    "preferred_outcomes": [
+      "anxiety",
+      "depression",
+      "sleep",
+      "social comparison"
+    ],
+    "preferred_timeframe": "2018-2026",
+    "exclusions": "News articles",
+    "citation_style": "APA 7",
+    "breadth_basis": "Focused landscape by default; comprehensive selected deep work simulated with the assignment's narrowed-topic context.",
+    "interaction_basis": "The test simulates intake and narrowed-topic context from assignment-prompts.md rather than an actual live multi-turn conversation.",
+    "product_name": "Reading List",
+    "technical_name": "annotated-bibliography"
+  },
+  "breadth_tier": "focused landscape; comprehensive selected deep work",
+  "output_mode": "reading-list",
+  "queries": [
+    {
+      "query_id": "landscape",
+      "tool": "UC Library Search / Primo PNX REST fallback",
+      "purpose": "Focused landscape across social media, mental health, and college students",
+      "text": "(((((\"social media\") OR (\"social networking sites\"))) AND (((\"mental health\") OR (anxiety) OR (depression)))) AND (((\"college students\") OR (\"undergraduate students\"))))",
+      "url": "https://search-library.ucsd.edu/discovery/search?query=any,contains,(((((%22social%20media%22)%20OR%20(%22social%20networking%20sites%22)))%20AND%20(((%22mental%20health%22)%20OR%20(anxiety)%20OR%20(depression))))%20AND%20(((%22college%20students%22)%20OR%20(%22undergraduate%20students%22))))&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI%3AUCSD&offset=0",
+      "total_results": 2727,
+      "records_returned": 20,
+      "unique_records_screened": 20,
+      "fidelity_estimate": 0.75,
+      "decision": "Selected 7 records and ran two component searches because the first page retained relevant but conceptually separable branches.",
+      "raw_file": "raw/landscape-response.json",
+      "source_ids": [
+        "landscape-03",
+        "landscape-05",
+        "landscape-10",
+        "landscape-11",
+        "landscape-14",
+        "landscape-15",
+        "landscape-19"
+      ]
+    },
+    {
+      "query_id": "component",
+      "tool": "UC Library Search / Primo PNX REST fallback",
+      "purpose": "Decompose the social-comparison and self-esteem branch",
+      "text": "(((((\"social media\") OR (\"social networking sites\"))) AND (((\"social comparison\") OR (\"self-esteem\")))) AND (((\"college students\") OR (\"undergraduate students\"))))",
+      "url": "https://search-library.ucsd.edu/discovery/search?query=any,contains,(((((%22social%20media%22)%20OR%20(%22social%20networking%20sites%22)))%20AND%20(((%22social%20comparison%22)%20OR%20(%22self-esteem%22))))%20AND%20(((%22college%20students%22)%20OR%20(%22undergraduate%20students%22))))&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI%3AUCSD&offset=0",
+      "total_results": 575,
+      "records_returned": 20,
+      "unique_records_screened": 16,
+      "fidelity_estimate": 0.8,
+      "decision": "Selected 5 records; the page produced direct student evidence and multiple review/meta-analytic candidates.",
+      "raw_file": "raw/component-response.json",
+      "source_ids": [
+        "component-03",
+        "component-10",
+        "component-18",
+        "landscape-11",
+        "landscape-19"
+      ]
+    },
+    {
+      "query_id": "sleep",
+      "tool": "UC Library Search / Primo PNX REST fallback",
+      "purpose": "Decompose the sleep branch named in the intake context",
+      "text": "(((((\"social media\") OR (\"social networking sites\"))) AND (((\"sleep quality\") OR (\"sleep\")))) AND (((\"college students\") OR (\"undergraduate students\"))))",
+      "url": "https://search-library.ucsd.edu/discovery/search?query=any,contains,(((((%22social%20media%22)%20OR%20(%22social%20networking%20sites%22)))%20AND%20(((%22sleep%20quality%22)%20OR%20(%22sleep%22))))%20AND%20(((%22college%20students%22)%20OR%20(%22undergraduate%20students%22))))&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc&vid=01UCS_SDI%3AUCSD&offset=0",
+      "total_results": 470,
+      "records_returned": 20,
+      "unique_records_screened": 17,
+      "fidelity_estimate": 0.8,
+      "decision": "Selected 2 records from the first page; the landscape source set already included relevant sleep-pathway evidence.",
+      "raw_file": "raw/sleep-component-response.json",
+      "source_ids": [
+        "sleep-02",
+        "sleep-04"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "source_id": "landscape-03",
+      "citation": "Ridout, B., & Campbell, A. (2018). The use of social networking sites in mental health interventions for young people: Systematic review. *Journal of Medical Internet Research, 20*(12), e12244. https://doi.org/10.2196/12244",
+      "short_citation": "Ridout and Campbell (2018)",
+      "title": "The Use of Social Networking Sites in Mental Health Interventions for Young People: Systematic Review",
+      "primary_link": "https://doi.org/10.2196/12244",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_proquest_miscellaneous_2158555903&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.2196/12244",
+      "doi": "10.2196/12244",
+      "record_type": "journal-article",
+      "year": 2018,
+      "container": "Journal of Medical Internet Research",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Systematic review article",
+      "study_design": "Systematic review",
+      "evidence_base": "9 articles describing 5 SNS-based interventions for people up to age 25; quantitative meta-analysis was not possible.",
+      "credibility": "Peer-reviewed venue; explicit systematic-review methods and acknowledged evidence limitations.",
+      "confidence": "Low",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Systematic review of SNS-based youth mental-health interventions; directly maps an intervention branch.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-05",
+      "citation": "Weinstein, A. M. (2023). Problematic social networking site use-effects on mental health and the brain. *Frontiers in Psychiatry, 13*, Article 1106004. https://doi.org/10.3389/fpsyt.2022.1106004",
+      "short_citation": "Weinstein (2023)",
+      "title": "Problematic Social Networking Site use-effects on mental health and the brain",
+      "primary_link": "https://doi.org/10.3389/fpsyt.2022.1106004",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_doaj_primary_oai_doaj_org_article_1ec895abacac4461b5de160abb498ad1&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.3389/fpsyt.2022.1106004",
+      "doi": "10.3389/fpsyt.2022.1106004",
+      "record_type": "journal-article",
+      "year": 2023,
+      "container": "Frontiers in Psychiatry",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Review article",
+      "study_design": "Review",
+      "evidence_base": "Narrative review of evidence on problematic SNS use; includes limited brain-imaging evidence and preliminary CBT evidence.",
+      "credibility": "Peer-reviewed venue; review is described as broad but not systematic in the abstract.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence; review synthesis",
+      "selected": true,
+      "selection_reason": "Review linking problematic SNS use to depression, anxiety, stress, sleep, and emerging brain-function evidence.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-10",
+      "citation": "Kim, T., & Hong, H. (2021). Understanding university students' experiences, perceptions, and attitudes toward peers displaying mental health-related problems on social networking sites: Online survey and interview study. *JMIR Mental Health, 8*(10), e23465. https://doi.org/10.2196/23465",
+      "short_citation": "Kim and Hong (2021)",
+      "title": "Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health–Related Problems on Social Networking Sites: Online Survey and Interview Study",
+      "primary_link": "https://doi.org/10.2196/23465",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_crossref_primary_10_2196_23465&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.2196/23465",
+      "doi": "10.2196/23465",
+      "record_type": "journal-article",
+      "year": 2021,
+      "container": "JMIR Mental Health",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Mixed-methods research article",
+      "study_design": "Online survey and semistructured interviews",
+      "evidence_base": "226 survey respondents and 20 interview participants at six universities in South Korea.",
+      "credibility": "Peer-reviewed venue; includes survey and interview methods.",
+      "confidence": "Low",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Survey and interview study of peer recognition, stigma, and support on SNSs; represents a social-context branch.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-11",
+      "citation": "Ojha, K., Soohinda, G., Sampath, H., & Dutta, S. (2021). Social networking sites and its relation to social comparison and psychological well-being among medical university students. *Indian Journal of Psychiatry, 63*(6), 593-596. https://doi.org/10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "short_citation": "Ojha et al. (2021)",
+      "title": "Social networking sites and its relation to social comparison and psychological well-being among medical university students",
+      "primary_link": "https://doi.org/10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_doaj_primary_oai_doaj_org_article_7e73e90ca65048b9ac39ac4a0bce0f6b&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "doi": "10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "record_type": "journal-article",
+      "year": 2021,
+      "container": "Indian Journal of Psychiatry",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Research article",
+      "study_design": "Cross-sectional questionnaire study",
+      "evidence_base": "220 medical students in India; mean age 20.44 years.",
+      "credibility": "Peer-reviewed venue; cross-sectional design limits causal inference.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence with population caveat",
+      "selected": true,
+      "selection_reason": "Cross-sectional student study linking SNS use, impression management, social comparison, depression, and anxiety.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-14",
+      "citation": "Zhou, M., Li, F., Wang, Y., Chen, S., & Wang, K. (2020). Compensatory social networking site use, family support, and depression among college freshman: Three-wave panel study. *Journal of Medical Internet Research, 22*(9), e18458. https://doi.org/10.2196/18458",
+      "short_citation": "Zhou et al. (2020)",
+      "title": "Compensatory Social Networking Site Use, Family Support, and Depression Among College Freshman: Three-Wave Panel Study",
+      "primary_link": "https://doi.org/10.2196/18458",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_pubmedcentral_primary_oai_pubmedcentral_nih_gov_7495252&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.2196/18458",
+      "doi": "10.2196/18458",
+      "record_type": "journal-article",
+      "year": 2020,
+      "container": "Journal of Medical Internet Research",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Research article",
+      "study_design": "Three-wave panel study",
+      "evidence_base": "Three-wave panel of 1,137 college freshmen.",
+      "credibility": "Peer-reviewed venue; longitudinal panel design strengthens temporal inference.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Three-wave college-freshman panel study testing compensatory SNS use, family support, and depression.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-15",
+      "citation": "Hunt, M. G., Marx, R., Lipson, C., & Young, J. (2018). No more FOMO: Limiting social media decreases loneliness and depression. *Journal of Social and Clinical Psychology, 37*(10), 751-768. https://doi.org/10.1521/jscp.2018.37.10.751",
+      "short_citation": "Hunt et al. (2018)",
+      "title": "No More FOMO: Limiting Social Media Decreases Loneliness and Depression",
+      "primary_link": "https://doi.org/10.1521/jscp.2018.37.10.751",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_proquest_journals_2165044087&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.1521/jscp.2018.37.10.751",
+      "doi": "10.1521/jscp.2018.37.10.751",
+      "record_type": "journal-article",
+      "year": 2018,
+      "container": "Journal of Social and Clinical Psychology",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Experimental research article",
+      "study_design": "Randomized controlled experiment",
+      "evidence_base": "143 undergraduates at the University of Pennsylvania randomized to limited use or usual use for three weeks.",
+      "credibility": "Peer-reviewed venue; randomized experimental design, but abstract-level access limits full-method review.",
+      "confidence": "High",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Randomized experiment testing whether limiting social media improves loneliness, depression, anxiety, and FOMO.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "landscape-19",
+      "citation": "Carraturo, F., Di Perna, T., Giannicola, V., Nacchia, M. A., Pepe, M., Muzii, B., Bottone, M., Sperandeo, R., Bochicchio, V., Maldonato, N. M., & Scandurra, C. (2023). Envy, social comparison, and depression on social networking sites: A systematic review. *European Journal of Investigation in Health, Psychology and Education, 13*(2), 364-376. https://doi.org/10.3390/ejihpe13020027",
+      "short_citation": "Carraturo et al. (2023)",
+      "title": "Envy, Social Comparison, and Depression on Social Networking Sites: A Systematic Review",
+      "primary_link": "https://doi.org/10.3390/ejihpe13020027",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_dialnet_primary_oai_dialnet_unirioja_es_ART0001579574&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.3390/ejihpe13020027",
+      "doi": "10.3390/ejihpe13020027",
+      "record_type": "journal-article",
+      "year": 2023,
+      "container": "European Journal of Investigation in Health, Psychology and Education",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Systematic review article",
+      "study_design": "Systematic review",
+      "evidence_base": "9 studies meeting inclusion criteria from PsycINFO, PubMed, and Web of Science, 2012-2022.",
+      "credibility": "Peer-reviewed venue; small included-study count and limited directional evidence.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Systematic review of envy, social comparison, and depression, including evidence on direction and moderators.",
+      "query_ids": [
+        "landscape"
+      ]
+    },
+    {
+      "source_id": "component-03",
+      "citation": "Leung, A. N. M., Law, W., Liang, Y. Y., Au, A. C. L., Li, C., & Ng, H. K. S. (2021). What explains the association between usage of social networking sites (SNS) and depression symptoms? The mediating roles of self-esteem and fear of missing out. *International Journal of Environmental Research and Public Health, 18*(8), 3916. https://doi.org/10.3390/ijerph18083916",
+      "short_citation": "Leung et al. (2021)",
+      "title": "What Explains the Association between Usage of Social Networking Sites (SNS) and Depression Symptoms? The Mediating Roles of Self-Esteem and Fear of Missing Out",
+      "primary_link": "https://doi.org/10.3390/ijerph18083916",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_proquest_miscellaneous_2520862984&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.3390/ijerph18083916",
+      "doi": "10.3390/ijerph18083916",
+      "record_type": "journal-article",
+      "year": 2021,
+      "container": "International Journal of Environmental Research and Public Health",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Research article",
+      "study_design": "Three studies of Chinese college/university students",
+      "evidence_base": "Studies 1-3 included 347, 180, and 233 Chinese college/university students respectively.",
+      "credibility": "Peer-reviewed venue; three-study sequence strengthens internal consistency but abstract-level access limits full-method review.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Three-college-student study set testing self-esteem and FOMO as mediators between SNS use and depression.",
+      "query_ids": [
+        "component"
+      ]
+    },
+    {
+      "source_id": "component-10",
+      "citation": "Krause, H.-V., Baum, K., Baumann, A., & Krasnova, H. (2019). Unifying the detrimental and beneficial effects of social network site use on self-esteem: A systematic literature review. *Media Psychology, 24*(1), 10-47. https://doi.org/10.1080/15213269.2019.1656646",
+      "short_citation": "Krause et al. (2019)",
+      "title": "Unifying the detrimental and beneficial effects of social network site use on self-esteem: a systematic literature review",
+      "primary_link": "https://doi.org/10.1080/15213269.2019.1656646",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_crossref_primary_10_1080_15213269_2019_1656646&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.1080/15213269.2019.1656646",
+      "doi": "10.1080/15213269.2019.1656646",
+      "record_type": "journal-article",
+      "year": 2019,
+      "container": "Media Psychology",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Systematic literature review",
+      "study_design": "Systematic literature review",
+      "evidence_base": "Systematic literature review; abstract reports a framework but not a full count of included studies.",
+      "credibility": "Peer-reviewed venue; theoretical framework and systematic review, with individual-study quality not visible in the abstract.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Systematic review organizing SNS-use effects on self-esteem through comparison, feedback, and self-reflection.",
+      "query_ids": [
+        "component"
+      ]
+    },
+    {
+      "source_id": "component-18",
+      "citation": "Yang, Q., & Feng, Y. (2024). Relationships between social networking sites use and subjective well-being---a meta-analysis and meta-analytic structural equation model. *Heliyon, 10*(12), e32463. https://doi.org/10.1016/j.heliyon.2024.e32463",
+      "short_citation": "Yang and Feng (2024)",
+      "title": "Relationships between social networking sites use and subjective well-being--- a meta-analysis and meta-analytic structural equation model",
+      "primary_link": "https://doi.org/10.1016/j.heliyon.2024.e32463",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_doaj_primary_oai_doaj_org_article_cf5b5689f2754a8cad2f58e0cd6981d8&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.1016/j.heliyon.2024.e32463",
+      "doi": "10.1016/j.heliyon.2024.e32463",
+      "record_type": "journal-article",
+      "year": 2024,
+      "container": "Heliyon",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Meta-analysis article",
+      "study_design": "Meta-analysis and meta-analytic structural equation model",
+      "evidence_base": "73 independent samples.",
+      "credibility": "Peer-reviewed venue; meta-analytic design across 73 independent samples, but abstract-level access limits full-method review.",
+      "confidence": "Low",
+      "connection_type": "Direct evidence",
+      "selected": true,
+      "selection_reason": "Meta-analysis testing whether SNS-use indicators predict well-being after accounting for social support and self-esteem.",
+      "query_ids": [
+        "component"
+      ]
+    },
+    {
+      "source_id": "sleep-02",
+      "citation": "Garett, R., Liu, S., & Young, S. D. (2016). The relationship between social media use and sleep quality among undergraduate students. *Information, Communication & Society, 21*(2), 163-173. https://doi.org/10.1080/1369118X.2016.1266374",
+      "short_citation": "Garett et al. (2016)",
+      "title": "The relationship between social media use and sleep quality among undergraduate students",
+      "primary_link": "https://doi.org/10.1080/1369118X.2016.1266374",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_proquest_miscellaneous_2023413518&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.1080/1369118X.2016.1266374",
+      "doi": "10.1080/1369118X.2016.1266374",
+      "record_type": "journal-article",
+      "year": 2016,
+      "container": "Information, Communication &amp; Society",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Research article",
+      "study_design": "Longitudinal undergraduate study with tweet content and weekly surveys",
+      "evidence_base": "197 Twitter-using first-quarter freshmen; tweet content and weekly sleep surveys.",
+      "credibility": "Peer-reviewed venue; direct undergraduate data, but older than preferred date range and focused on Twitter.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence with date caveat",
+      "selected": true,
+      "selection_reason": "Foundational undergraduate study of social-media timing and sleep quality; retained as a 2016 exception to the preferred date range.",
+      "query_ids": [
+        "sleep"
+      ]
+    },
+    {
+      "source_id": "sleep-04",
+      "citation": "Hussain, Z., & Griffiths, M. D. (2019). The associations between problematic social networking site use and sleep quality, attention-deficit hyperactivity disorder, depression, anxiety and stress. *International Journal of Mental Health and Addiction, 19*(3), 686-700. https://doi.org/10.1007/s11469-019-00175-1",
+      "short_citation": "Hussain and Griffiths (2019)",
+      "title": "The Associations between Problematic Social Networking Site Use and Sleep Quality, Attention-Deficit Hyperactivity Disorder, Depression, Anxiety and Stress",
+      "primary_link": "https://doi.org/10.1007/s11469-019-00175-1",
+      "primary_link_source": "doi",
+      "library_link": "https://search-library.ucsd.edu/discovery/fulldisplay?docid=cdi_crossref_citationtrail_10_1007_s11469_019_00175_1&context=PC&vid=01UCS_SDI%3AUCSD&tab=ArticleBooksEtc&search_scope=ArticlesBooksEtc",
+      "library_link_type": "PNX fulldisplay",
+      "permalink": "https://doi.org/10.1007/s11469-019-00175-1",
+      "doi": "10.1007/s11469-019-00175-1",
+      "record_type": "journal-article",
+      "year": 2019,
+      "container": "International Journal of Mental Health and Addiction",
+      "abstract_present": true,
+      "access_level": "Abstract only",
+      "source_type": "Research article",
+      "study_design": "Cross-sectional online survey",
+      "evidence_base": "638 SNS users; mean age 32.03 years, SD 10.08.",
+      "credibility": "Peer-reviewed venue; cross-sectional design and broader age range limit fit to the undergraduate target.",
+      "confidence": "Medium",
+      "connection_type": "Direct evidence with population caveat",
+      "selected": true,
+      "selection_reason": "Cross-sectional study linking problematic SNS use with sleep quality and mental-health symptoms.",
+      "query_ids": [
+        "sleep"
+      ]
+    }
+  ],
+  "screened_inventory": [
+    {
+      "source_id": "landscape-01",
+      "query_id": "landscape",
+      "title": "Artificial intelligence, machine learning, and mental health in pandemics : a computational approach  / edited by Shikha Jain [and three others].",
+      "creator": "Pandey, Kavita editor$$QPandey, Kavita",
+      "year": "2022",
+      "doi": "",
+      "type": "book",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-02",
+      "query_id": "landscape",
+      "title": "Social networking site addiction and undergraduate students’ irrational procrastination: The mediating role of social networking site fatigue and the moderating role of effortful control",
+      "creator": "Lian, Shuai-lei ; Sun, Xiao-jun ; Zhou, Zong-kui ; Fan, Cui-ying ; Niu, Geng-feng ; Liu, Qing-qi",
+      "year": "",
+      "doi": "10.1371/journal.pone.0208162",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-03",
+      "query_id": "landscape",
+      "title": "The Use of Social Networking Sites in Mental Health Interventions for Young People: Systematic Review",
+      "creator": "Ridout, Brad ; Campbell, Andrew",
+      "year": "",
+      "doi": "10.2196/12244",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-04",
+      "query_id": "landscape",
+      "title": "Bored and online: Reasons for using social media, problematic social networking site use, and behavioral outcomes across the transition from adolescence to emerging adulthood",
+      "creator": "Stockdale, Laura A. ; Coyne, Sarah M.",
+      "year": "",
+      "doi": "10.1016/j.adolescence.2020.01.010",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-05",
+      "query_id": "landscape",
+      "title": "Problematic Social Networking Site use-effects on mental health and the brain",
+      "creator": "Weinstein, Aviv M.",
+      "year": "",
+      "doi": "10.3389/fpsyt.2022.1106004",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-06",
+      "query_id": "landscape",
+      "title": "Sex Differences in the Factors Influencing Korean College Students’ Addictive Tendency Toward Social Networking Sites",
+      "creator": "Chae, Duckhee ; Kim, Hyunlye ; Kim, Young A.",
+      "year": "",
+      "doi": "10.1007/s11469-017-9778-3",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-07",
+      "query_id": "landscape",
+      "title": "The relationship between social networking sites usage and psychological distress among undergraduate students during COVID-19 lockdown",
+      "creator": "Al-Dwaikat, Tariq N. ; Aldalaykeh, Mohammed ; Ta'an, Wafa'a ; Rababa, Mohammad",
+      "year": "",
+      "doi": "10.1016/j.heliyon.2020.e05695",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-08",
+      "query_id": "landscape",
+      "title": "Social Networking Site Use During the COVID-19 Pandemic and Its Associations With Social and Emotional Well-being in College Students: Survey Study",
+      "creator": "Tuck, Alison B ; Thompson, Renee J",
+      "year": "",
+      "doi": "10.2196/26513",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-09",
+      "query_id": "landscape",
+      "title": "Self-objectification of bodies in social networking sites: Mental and behavioral health problems of young female adults",
+      "creator": "You, Sukkyung ; Kwon, Minkyung",
+      "year": "",
+      "doi": "10.1080/07399332.2024.2392530",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-10",
+      "query_id": "landscape",
+      "title": "Understanding University Students’ Experiences, Perceptions, and Attitudes Toward Peers Displaying Mental Health–Related Problems on Social Networking Sites: Online Survey and Interview Study",
+      "creator": "Kim, Taewan ; Hong, Hwajung",
+      "year": "",
+      "doi": "10.2196/23465",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-11",
+      "query_id": "landscape",
+      "title": "Social networking sites and its relation to social comparison and psychological well-being among medical university students",
+      "creator": "Ojha, Kartikeya ; Soohinda, Geeta ; Sampath, Harshavardhan ; Dutta, Sanjiba",
+      "year": "",
+      "doi": "10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-12",
+      "query_id": "landscape",
+      "title": "Appearance comparison on social networking sites and body shame: The role of negative body talk and perceived sociocultural influences on body image",
+      "creator": "Wang, Ruining ; Ye, Baojuan ; Wang, Peiyi",
+      "year": "",
+      "doi": "10.1177/13591053241245100",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-13",
+      "query_id": "landscape",
+      "title": "Assessment of anxiety and depression in undergraduate students who use social networking sites for academic and non-academic purposes",
+      "creator": "V Jadhav, Pooja ; Akshatha HS, Dhanashree ; M T, Sathyanarayana",
+      "year": "",
+      "doi": "10.18231/pjms.v.15.i.1.201-206",
+      "type": "article",
+      "abstract_present": false,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-14",
+      "query_id": "landscape",
+      "title": "Compensatory Social Networking Site Use, Family Support, and Depression Among College Freshman: Three-Wave Panel Study",
+      "creator": "Zhou, Mingjie ; Li, Fugui ; Wang, Yanhong ; Chen, Shuang ; Wang, Kexin",
+      "year": "",
+      "doi": "10.2196/18458",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-15",
+      "query_id": "landscape",
+      "title": "No More FOMO: Limiting Social Media Decreases Loneliness and Depression",
+      "creator": "Hunt, Melissa G. ; Marx, Rachel ; Lipson, Courtney ; Young, Jordyn",
+      "year": "",
+      "doi": "10.1521/jscp.2018.37.10.751",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-16",
+      "query_id": "landscape",
+      "title": "Body talk on social networking sites and appearance anxiety among college students: the mediating role of self-objectification and moderating role of gender",
+      "creator": "Ruan, Jiayi ; Yu, Ruicong ; Zhao, Yunfeng ; Xie, Lunfang ; Mei, Yaqi",
+      "year": "",
+      "doi": "10.3389/fpsyg.2025.1513923",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-17",
+      "query_id": "landscape",
+      "title": "Internalizing symptoms, rumination, and problematic social networking site use: A cross national examination among young adults in seven countries",
+      "creator": "Chentsova, Victoria O. ; Bravo, Adrian J. ; Mezquita, Laura ; Pilatti, Angelina ; Hogarth, Lee",
+      "year": "",
+      "doi": "10.1016/j.addbeh.2022.107464",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-18",
+      "query_id": "landscape",
+      "title": "The effect of grandparental care on social networking sites addiction in college: mediated by social anxiety and loneliness",
+      "creator": "Zeng, Shaobo ; Li, Yujie ; Zheng, Chuanlei ; Ren, Xiaoning ; Lu, Yongchao ; Wu, Chunmei",
+      "year": "",
+      "doi": "10.1186/s40359-024-02222-6",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "landscape-19",
+      "query_id": "landscape",
+      "title": "Envy, Social Comparison, and Depression on Social Networking Sites: A Systematic Review",
+      "creator": "Carraturo, Fabio ; Di Perna, Tiziana ; Giannicola, Viviana ; Nacchia, Marco Alfonso ; Pepe, Marco ; Muzii, Benedetta ; Bottone, Mario ; Sperandeo, Raffaele ; Bochicchio, Vincenzo ; Maldonato, Nelson Mauro ; Scandurra, Cristiano",
+      "year": "",
+      "doi": "10.3390/ejihpe13020027",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "landscape-20",
+      "query_id": "landscape",
+      "title": "The problematic use of social networking sites associates with elevated symptoms in patients with major depressive disorder",
+      "creator": "Aydin, Orkun ; Çökmüş, Fikret Poyraz ; Balikçi, Kuzeymen ; Sücüllüoğlu-Dikici, Didem ; Ünal-Aydin, Pınar",
+      "year": "",
+      "doi": "10.1177/0020764020919791",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-02",
+      "query_id": "component",
+      "title": "Upward social comparison on social networking sites (SNSs) and individual well-being: a moderated mediation model",
+      "creator": "Li, Yongzhan ; Liu, Peilei",
+      "year": "",
+      "doi": "10.1080/13548506.2024.2430890",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-03",
+      "query_id": "component",
+      "title": "What Explains the Association between Usage of Social Networking Sites (SNS) and Depression Symptoms? The Mediating Roles of Self-Esteem and Fear of Missing Out",
+      "creator": "Leung, Angel Nga Man ; Law, Wilbert ; Liang, Yvonne Yiqing ; Au, Antony Chun Lam ; Li, Cheng ; Ng, Henry Kin Shing",
+      "year": "",
+      "doi": "10.3390/ijerph18083916",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "component-04",
+      "query_id": "component",
+      "title": "Network Analysis of Ecological Momentary Assessment Exploring the Role of Online and Offline Social Comparisons in the Mood and Wellbeing of Undergraduate Students",
+      "creator": "Tibber, Marc S. ; Wang, Minglei ; Zhang, Chan",
+      "year": "",
+      "doi": "10.1080/10447318.2024.2356358",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-06",
+      "query_id": "component",
+      "title": "Vulnerable Narcissism in Social Networking Sites: The Role of Upward and Downward Social Comparisons",
+      "creator": "Kong, Fanchang ; Wang, Meiru ; Zhang, Xingjie ; Li, Xiaoyao ; Sun, Xiaojun",
+      "year": "",
+      "doi": "10.3389/fpsyg.2021.711909",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-07",
+      "query_id": "component",
+      "title": "Self-esteem and appearance anxiety among Chinese college students: the roles of social media use and upward social comparison",
+      "creator": "Shang, Anqi ; Bao, Han",
+      "year": "",
+      "doi": "10.3389/fpsyg.2025.1562711",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-08",
+      "query_id": "component",
+      "title": "Upward social comparisons on social networking sites (SNSs) and subjective well-being: The mediating role of envy",
+      "creator": "Li, Yongzhan",
+      "year": "",
+      "doi": "10.1080/14330237.2024.2425231",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-09",
+      "query_id": "component",
+      "title": "Body Image Comparisons on Social Networking Sites and Chinese Female College Students’ Restrained Eating: The Roles of Body Shame, Body Appreciation, and Body Mass Index",
+      "creator": "Yao, Liangshuang ; Niu, Gengfeng ; Sun, Xiaojun",
+      "year": "",
+      "doi": "10.1007/s11199-020-01179-1",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-10",
+      "query_id": "component",
+      "title": "Unifying the detrimental and beneficial effects of social network site use on self-esteem: a systematic literature review",
+      "creator": "Krause, Hannes-Vincent ; Baum, Katharina ; Baumann, Annika ; Krasnova, Hanna",
+      "year": "",
+      "doi": "10.1080/15213269.2019.1656646",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "component-11",
+      "query_id": "component",
+      "title": "Social Networking Site Use and Restricted Eating Among College Students",
+      "creator": "Lu, Xue ; Zhang, Yiran ; Gong, Huoliang",
+      "year": "",
+      "doi": "10.2224/sbp.12387",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-12",
+      "query_id": "component",
+      "title": "Use of social networking sites (SNSs) and its repercussions on sleep quality, psychosocial behavior, academic performance and circadian rhythm of humans - a brief review",
+      "creator": "Kumar Swain, Rakesh ; Pati, Atanu Kumar",
+      "year": "",
+      "doi": "10.1080/09291016.2019.1620487",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-14",
+      "query_id": "component",
+      "title": "Understanding envy and users’ responses to envy in the context of social networking sites: A literature review",
+      "creator": "Wenninger, Helena ; Cheung, Christy M.K. ; Chmielinski, Michal",
+      "year": "",
+      "doi": "10.1016/j.ijinfomgt.2020.102303",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-16",
+      "query_id": "component",
+      "title": "The effect of Instagram “likes” on women’s social comparison and body dissatisfaction",
+      "creator": "Tiggemann, Marika ; Hayden, Susannah ; Brown, Zoe ; Veldhuis, Jolanda",
+      "year": "",
+      "doi": "10.1016/j.bodyim.2018.07.002",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-17",
+      "query_id": "component",
+      "title": "Why can’t I stop buying? Upward social comparison on social networking sites and online compulsive buying: a latent moderated mediation model",
+      "creator": "Gao, Bin ; Shen, Quanwei ; Lu, Jiamei ; Xu, Yiwen ; Wu, Jingling",
+      "year": "",
+      "doi": "10.1007/s12144-023-04891-9",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "component-18",
+      "query_id": "component",
+      "title": "Relationships between social networking sites use and subjective well-being--- a meta-analysis and meta-analytic structural equation model",
+      "creator": "Yang, Qiuhong ; Feng, Ying",
+      "year": "",
+      "doi": "10.1016/j.heliyon.2024.e32463",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "component-19",
+      "query_id": "component",
+      "title": "Elucidating relationships among upward social comparison on social networking sites (SNSs), depressive symptoms, and SNS addiction in college students: insights from structural equation modeling and network analysis",
+      "creator": "Liu, Bin ; Zou, Mingxuan ; Feng, Yuting ; Ren, Lei ; Li, Mengze ; Zhang, Jiaying ; Qin, Niping ; Liu, Shuo ; Yang, Qifan ; Yang, Qun ; Yang, Zhiping ; Fan, Daiming",
+      "year": "",
+      "doi": "10.1186/s40359-026-05325-4",
+      "type": "article",
+      "abstract_present": false,
+      "selected": false
+    },
+    {
+      "source_id": "component-20",
+      "query_id": "component",
+      "title": "Looking Through a Filtered Lens: Negative Social Comparison on Social Media and Suicidal Ideation Among Young Adults",
+      "creator": "Spitzer, Elizabeth G. ; Crosby, Eric S. ; Witte, Tracy K.",
+      "year": "",
+      "doi": "10.1037/ppm0000380",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-02",
+      "query_id": "sleep",
+      "title": "The relationship between social media use and sleep quality among undergraduate students",
+      "creator": "Garett, Renee ; Liu, Sam ; Young, Sean D.",
+      "year": "",
+      "doi": "10.1080/1369118X.2016.1266374",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "sleep-04",
+      "query_id": "sleep",
+      "title": "The Associations between Problematic Social Networking Site Use and Sleep Quality, Attention-Deficit Hyperactivity Disorder, Depression, Anxiety and Stress",
+      "creator": "Hussain, Zaheer ; Griffiths, Mark D.",
+      "year": "",
+      "doi": "10.1007/s11469-019-00175-1",
+      "type": "article",
+      "abstract_present": true,
+      "selected": true
+    },
+    {
+      "source_id": "sleep-05",
+      "query_id": "sleep",
+      "title": "Cross-lagged panel analysis of the relationship between social networking sites use (SNSU) and sleep problems among university students",
+      "creator": "Li, Xiaoling ; Li, Hailei ; Luo, Jiaming",
+      "year": "",
+      "doi": "10.1186/s12889-024-19840-9",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-07",
+      "query_id": "sleep",
+      "title": "Social media use, mental fatigue, and sleep quality among undergraduate students: A cross-sectional study",
+      "creator": "Aljawarneh, Yousef M ; Azizeh, Saed ; Badr, Marwa ; Aldhuhoori, Afrah ; Alsereidi, Sohailah ; Alsereidi, Abrar ; Alsaadi, Mahrah ; Almsmari, Maryam ; Alghawi, Samia",
+      "year": "",
+      "doi": "10.1177/13591053261460699",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-08",
+      "query_id": "sleep",
+      "title": "The effect of social media use on suicidal ideation in college students: Mediation by daytime sleepiness and sleep quality",
+      "creator": "Ma, Yu-Bin ; Zheng, Zi-Ang ; Yao, Zhi-Ying ; Xu, Xiao-Mei ; Zhou, Xiu-Yan ; Kou, Chang-Gui ; Yao, Bin ; Sun, Wen-Jun ; Li, Ran ; Gong, Xiao-Jie ; Gao, Li-Jie ; Jia, Cun-Xian",
+      "year": "",
+      "doi": "10.1016/j.jad.2025.01.049",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-09",
+      "query_id": "sleep",
+      "title": "Problematic smartphone and social media use among undergraduate students during the COVID-19 pandemic: In the case of southern Ethiopia universities",
+      "creator": "Mengistu, Nebiyu ; Habtamu, Endashaw ; Kassaw, Chalachaw ; Madoro, Derebe ; Molla, Wondwosen ; Wudneh, Aregahegn ; Abebe, Lulu ; Duko, Bereket",
+      "year": "",
+      "doi": "10.1371/journal.pone.0280724",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-10",
+      "query_id": "sleep",
+      "title": "Association between social media and sleep quality among university students",
+      "creator": "Abdullah, Rebar Yahya ; Masiha, Solav Fakher ; Mohammed, Hivi Mahdi",
+      "year": "",
+      "doi": "10.1186/s12982-025-01239-5",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-11",
+      "query_id": "sleep",
+      "title": "A serial mediation model of social media addiction and college students’ academic engagement: the role of sleep quality and fatigue",
+      "creator": "Zhuang, Jie ; Mou, Qiaoxing ; Zheng, Tong ; Gao, Fei ; Zhong, Yaqin ; Lu, Qingyun ; Gao, Yuexia ; Zhao, Miaomiao",
+      "year": "",
+      "doi": "10.1186/s12888-023-04799-5",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-12",
+      "query_id": "sleep",
+      "title": "Addiction-like behavior associated with social media usage in undergraduate students of a government medical college in Delhi, India",
+      "creator": "Basu, Saurav ; Sharma, Ragini ; Sharma, Pragya ; Sharma, Nandini",
+      "year": "",
+      "doi": "10.4103/psychiatry.IndianJPsychiatry_153_20",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-13",
+      "query_id": "sleep",
+      "title": "Internet and Smartphone Use-Related Addiction Health Problems: Treatment, Education and Research",
+      "creator": "",
+      "year": "2021",
+      "doi": "10.3390/books978-3-0365-1275-4",
+      "type": "book",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-14",
+      "query_id": "sleep",
+      "title": "Internet Addiction, Sleep Quality and Depressive Symptoms Amongst Medical Students in Delhi, India",
+      "creator": "Gupta, Raghav ; Taneja, Neha ; Anand, Tanu ; Gupta, Anupama ; Gupta, Rajesh ; Jha, Diwakar ; Singh, Saudan",
+      "year": "",
+      "doi": "10.1007/s10597-020-00697-2",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-15",
+      "query_id": "sleep",
+      "title": "Exploring associations between social media addiction, social media fatigue, fear of missing out and sleep quality among university students: A cross-section study",
+      "creator": "Zhu, Xinhong ; Zheng, Taoyun ; Ding, Linlin ; Zhang, Xiaona ; Li, Zhihan ; Jiang, Hao",
+      "year": "",
+      "doi": "10.1371/journal.pone.0292429",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-16",
+      "query_id": "sleep",
+      "title": "Social media addiction and academic engagement: the role of sleep quality and fatigue among university students in Somalia",
+      "creator": "Khalaf, Mohamed A. A. ; Omar, Abdifetah Ibrahim ; Abdulle, Abdirizak Warsame ; Mohamud, Mohamed Ahmed",
+      "year": "",
+      "doi": "10.3389/feduc.2025.1614746",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-17",
+      "query_id": "sleep",
+      "title": "Untangling the adverse effects of late-night usage of smartphone-based SNS among University students",
+      "creator": "Luqman, Adeel ; Masood, Ayesha ; Shahzad, Fakhar ; Shahbaz, Muhammad ; Feng, Yang",
+      "year": "",
+      "doi": "10.1080/0144929X.2020.1773538",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-18",
+      "query_id": "sleep",
+      "title": "Investigation of the Effects of Internet, Social Media Addiction, Musculoskeletal System and Sleep Quality of University Students",
+      "creator": "Aydın, Abdulkadir ; Sen, Mehmet Ali",
+      "year": "",
+      "doi": "10.5798/dicletip.1840633",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-19",
+      "query_id": "sleep",
+      "title": "Investigation on the association between college students’ smartphone-related behaviors and sleep quality during COVID-19",
+      "creator": "Chen, Qi ; Mat Sin, Nur Syuhada binti ; Mohd Isa, Afeez Nawfal bin ; Chen, Duobao",
+      "year": "",
+      "doi": "10.1371/journal.pone.0321060",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    },
+    {
+      "source_id": "sleep-20",
+      "query_id": "sleep",
+      "title": "Facebook addiction among Polish undergraduate students: Validity of measurement and relationship with personality and well-being",
+      "creator": "Atroszko, Paweł A. ; Balcerowska, Julia M. ; Bereznowski, Piotr ; Biernatowska, Adriana ; Pallesen, Ståle ; Schou Andreassen, Cecilie",
+      "year": "",
+      "doi": "10.1016/j.chb.2018.04.001",
+      "type": "article",
+      "abstract_present": true,
+      "selected": false
+    }
+  ],
+  "themes": [
+    {
+      "theme_id": "theme-problematic-use",
+      "name": "Problematic use and mental health",
+      "description": "Retrieved sources discuss associations between excessive or problematic SNS use and mental-health symptoms.",
+      "source_ids": [
+        "landscape-05",
+        "landscape-14",
+        "component-03",
+        "sleep-04"
+      ],
+      "support_type": "direct"
+    },
+    {
+      "theme_id": "theme-social-comparison",
+      "name": "Social comparison, envy, and self-esteem",
+      "description": "Retrieved sources link comparison and envy on SNSs to self-esteem, depression, and anxiety.",
+      "source_ids": [
+        "landscape-11",
+        "landscape-19",
+        "component-03",
+        "component-10"
+      ],
+      "support_type": "direct"
+    },
+    {
+      "theme_id": "theme-sleep",
+      "name": "Sleep quality and timing",
+      "description": "Retrieved sources connect social-media timing, fatigue, problematic use, and sleep quality among students.",
+      "source_ids": [
+        "sleep-02",
+        "sleep-04",
+        "landscape-05"
+      ],
+      "support_type": "direct"
+    },
+    {
+      "theme_id": "theme-interventions",
+      "name": "Interventions and limiting use",
+      "description": "Retrieved sources evaluate limiting use or using SNS platforms to deliver mental-health support.",
+      "source_ids": [
+        "landscape-03",
+        "landscape-15"
+      ],
+      "support_type": "direct"
+    },
+    {
+      "theme_id": "theme-social-support",
+      "name": "Social support and compensatory use",
+      "description": "Retrieved sources discuss family support, peer support, and SNS use as compensation during college transition.",
+      "source_ids": [
+        "landscape-10",
+        "landscape-14",
+        "landscape-03"
+      ],
+      "support_type": "direct"
+    },
+    {
+      "theme_id": "theme-peer-response",
+      "name": "Peer disclosure and stigma",
+      "description": "One retrieved source examines how students recognize and respond to peers' mental-health disclosures on SNSs.",
+      "source_ids": [
+        "landscape-10"
+      ],
+      "support_type": "direct"
+    }
+  ],
+  "questions": [
+    {
+      "question_id": "q-limiting-use",
+      "text": "Does limiting social media use improve well-being?",
+      "theme_ids": [
+        "theme-interventions",
+        "theme-problematic-use"
+      ],
+      "source_ids": [
+        "landscape-15",
+        "landscape-03"
+      ],
+      "support_type": "source-backed"
+    },
+    {
+      "question_id": "q-comparison-depression",
+      "text": "How do social comparison and self-esteem relate to depression and anxiety?",
+      "theme_ids": [
+        "theme-social-comparison"
+      ],
+      "source_ids": [
+        "component-03",
+        "landscape-11",
+        "landscape-19",
+        "component-10"
+      ],
+      "support_type": "source-backed"
+    },
+    {
+      "question_id": "q-sleep-direction",
+      "text": "How is social media use related to sleep quality and timing?",
+      "theme_ids": [
+        "theme-sleep",
+        "theme-problematic-use"
+      ],
+      "source_ids": [
+        "sleep-02",
+        "sleep-04",
+        "landscape-05"
+      ],
+      "support_type": "source-backed"
+    },
+    {
+      "question_id": "q-fomo",
+      "text": "How does fear of missing out connect social media use with mental-health outcomes?",
+      "theme_ids": [
+        "theme-social-comparison",
+        "theme-problematic-use"
+      ],
+      "source_ids": [
+        "component-03",
+        "landscape-15",
+        "sleep-04"
+      ],
+      "support_type": "source-backed"
+    },
+    {
+      "question_id": "q-support",
+      "text": "How do social support and compensatory use relate to depression during college transition?",
+      "theme_ids": [
+        "theme-social-support",
+        "theme-problematic-use"
+      ],
+      "source_ids": [
+        "landscape-14",
+        "landscape-10",
+        "landscape-03"
+      ],
+      "support_type": "source-backed"
+    },
+    {
+      "question_id": "q-peer-response",
+      "text": "How do students recognize and respond to peers' mental-health disclosures on SNSs?",
+      "theme_ids": [
+        "theme-peer-response",
+        "theme-social-support"
+      ],
+      "source_ids": [
+        "landscape-10"
+      ],
+      "support_type": "source-backed"
+    }
+  ],
+  "selected_paths": [
+    {
+      "path": "reading-list",
+      "themes": [
+        "theme-social-comparison",
+        "theme-sleep"
+      ],
+      "scope": "Comparison, self-esteem, FOMO, and sleep pathways, with intervention and social-context sources for breadth.",
+      "source_ids": [
+        "component-10",
+        "landscape-19",
+        "component-03",
+        "landscape-11",
+        "landscape-15",
+        "landscape-14",
+        "landscape-05",
+        "sleep-02",
+        "sleep-04"
+      ],
+      "status": "completed"
+    }
+  ],
+  "reading_list_ids": [
+    "component-10",
+    "landscape-19",
+    "component-03",
+    "landscape-11",
+    "landscape-15",
+    "landscape-14",
+    "landscape-05",
+    "sleep-02",
+    "sleep-04"
+  ],
+  "selection_decisions": [
+    {
+      "source_id": "landscape-03",
+      "decision": "selected",
+      "reason": "Systematic review of SNS-based youth mental-health interventions; directly maps an intervention branch."
+    },
+    {
+      "source_id": "landscape-05",
+      "decision": "selected",
+      "reason": "Review linking problematic SNS use to depression, anxiety, stress, sleep, and emerging brain-function evidence."
+    },
+    {
+      "source_id": "landscape-10",
+      "decision": "selected",
+      "reason": "Survey and interview study of peer recognition, stigma, and support on SNSs; represents a social-context branch."
+    },
+    {
+      "source_id": "landscape-11",
+      "decision": "selected",
+      "reason": "Cross-sectional student study linking SNS use, impression management, social comparison, depression, and anxiety."
+    },
+    {
+      "source_id": "landscape-14",
+      "decision": "selected",
+      "reason": "Three-wave college-freshman panel study testing compensatory SNS use, family support, and depression."
+    },
+    {
+      "source_id": "landscape-15",
+      "decision": "selected",
+      "reason": "Randomized experiment testing whether limiting social media improves loneliness, depression, anxiety, and FOMO."
+    },
+    {
+      "source_id": "landscape-19",
+      "decision": "selected",
+      "reason": "Systematic review of envy, social comparison, and depression, including evidence on direction and moderators."
+    },
+    {
+      "source_id": "component-03",
+      "decision": "selected",
+      "reason": "Three-college-student study set testing self-esteem and FOMO as mediators between SNS use and depression."
+    },
+    {
+      "source_id": "component-10",
+      "decision": "selected",
+      "reason": "Systematic review organizing SNS-use effects on self-esteem through comparison, feedback, and self-reflection."
+    },
+    {
+      "source_id": "component-18",
+      "decision": "selected",
+      "reason": "Meta-analysis testing whether SNS-use indicators predict well-being after accounting for social support and self-esteem."
+    },
+    {
+      "source_id": "sleep-02",
+      "decision": "selected",
+      "reason": "Foundational undergraduate study of social-media timing and sleep quality; retained as a 2016 exception to the preferred date range."
+    },
+    {
+      "source_id": "sleep-04",
+      "decision": "selected",
+      "reason": "Cross-sectional study linking problematic SNS use with sleep quality and mental-health symptoms."
+    }
+  ],
+  "limitations": [
+    "No keyed Primo Search API was available; the keyless PNX REST fallback was used.",
+    "All annotations are abstract-level; no full text was reviewed.",
+    "The 2016 sleep source is a deliberate exception to the preferred 2018-2026 range because it directly studies undergraduate sleep timing.",
+    "The Primo PNX response includes primarily local and Primo Central metadata; result counts should not be treated as complete field coverage.",
+    "The landscape is not exhaustive and is best understood as purpose-aware saturation for the undergraduate assignment.",
+    "The test simulated intake and narrowed-topic context from assignment-prompts.md rather than a live multi-turn conversation."
+  ],
+  "verification": [
+    {
+      "source_id": "landscape-03",
+      "doi": "10.2196/12244",
+      "title_match": true,
+      "container": "Journal of Medical Internet Research",
+      "year": 2018
+    },
+    {
+      "source_id": "landscape-05",
+      "doi": "10.3389/fpsyt.2022.1106004",
+      "title_match": true,
+      "container": "Frontiers in Psychiatry",
+      "year": 2023
+    },
+    {
+      "source_id": "landscape-10",
+      "doi": "10.2196/23465",
+      "title_match": true,
+      "container": "JMIR Mental Health",
+      "year": 2021
+    },
+    {
+      "source_id": "landscape-11",
+      "doi": "10.4103/indianjpsychiatry.indianjpsychiatry_1344_20",
+      "title_match": true,
+      "container": "Indian Journal of Psychiatry",
+      "year": 2021
+    },
+    {
+      "source_id": "landscape-14",
+      "doi": "10.2196/18458",
+      "title_match": true,
+      "container": "Journal of Medical Internet Research",
+      "year": 2020
+    },
+    {
+      "source_id": "landscape-15",
+      "doi": "10.1521/jscp.2018.37.10.751",
+      "title_match": true,
+      "container": "Journal of Social and Clinical Psychology",
+      "year": 2018
+    },
+    {
+      "source_id": "landscape-19",
+      "doi": "10.3390/ejihpe13020027",
+      "title_match": true,
+      "container": "European Journal of Investigation in Health, Psychology and Education",
+      "year": 2023
+    },
+    {
+      "source_id": "component-03",
+      "doi": "10.3390/ijerph18083916",
+      "title_match": true,
+      "container": "International Journal of Environmental Research and Public Health",
+      "year": 2021
+    },
+    {
+      "source_id": "component-10",
+      "doi": "10.1080/15213269.2019.1656646",
+      "title_match": true,
+      "container": "Media Psychology",
+      "year": 2019
+    },
+    {
+      "source_id": "component-18",
+      "doi": "10.1016/j.heliyon.2024.e32463",
+      "title_match": true,
+      "container": "Heliyon",
+      "year": 2024
+    },
+    {
+      "source_id": "sleep-02",
+      "doi": "10.1080/1369118X.2016.1266374",
+      "title_match": true,
+      "container": "Information, Communication &amp; Society",
+      "year": 2016
+    },
+    {
+      "source_id": "sleep-04",
+      "doi": "10.1007/s11469-019-00175-1",
+      "title_match": true,
+      "container": "International Journal of Mental Health and Addiction",
+      "year": 2019
+    }
+  ],
+  "stage_log": [
+    {
+      "timestamp": "2026-10-22T15:10:06.744375Z",
+      "note": "Built working question and scope brief from the assignment prompt, intake context, preferred outcomes, source-type limits, and preferred 2018-2026 timeframe.",
+      "stage": "intake",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T15:10:06.795209Z",
+      "note": "Ran three focused UC Library Search/Primo PNX queries, screened 53 unique records, selected 12, and produced landscape.md with six themes and six source-backed questions.",
+      "stage": "landscape",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T15:10:06.845329Z",
+      "note": "Selected the comparison/self-esteem and sleep paths from the simulated narrowed-topic context and selected nine sources for the reading list.",
+      "stage": "selection",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T15:10:06.896920Z",
+      "note": "Produced reading-list.md with abstract-level annotations, direct quotes, comparison table, and explicit date/population caveats.",
+      "stage": "deep-work",
+      "status": "completed"
+    },
+    {
+      "timestamp": "2026-10-22T15:10:06.947585Z",
+      "note": "Created search-log.md with the full query pipeline, screened inventory, selection decisions, verification summary, and limitations.",
+      "stage": "audit",
+      "status": "completed"
+    }
+  ],
+  "reference_log": [
+    {
+      "timestamp": "2026-10-22T15:10:07.001598Z",
+      "note": "",
+      "reference": "references/interaction-model.md",
+      "purpose": "Initialize run state, stage flow, and landscape rules",
+      "evidence": "Used clarification policy, stage definitions, landscape-sufficiency signals, follow-up paths, and manifest stage/reference requirements."
+    },
+    {
+      "timestamp": "2026-10-22T15:10:07.052152Z",
+      "note": "",
+      "reference": "references/response-templates.md",
+      "purpose": "Render landscape and reading-list responses",
+      "evidence": "Used the Initial Landscape and Reading List required-element contracts, comparison-table rule, source-link guidance, and search-log structure."
+    },
+    {
+      "timestamp": "2026-10-22T15:10:07.104757Z",
+      "note": "",
+      "reference": "references/search-and-selection.md",
+      "purpose": "Plan the search pipeline and resolve source links",
+      "evidence": "Used UC Library Search-first order, adaptive screening, component decomposition, DOI-first link resolution, PNX record fallback, theme/question rules, and search-log detail requirements."
+    },
+    {
+      "timestamp": "2026-10-22T15:10:07.156446Z",
+      "note": "",
+      "reference": "references/annotation-rules.md",
+      "purpose": "Assign confidence and fidelity guardrails",
+      "evidence": "Used abstract-level access rules, confidence guidelines, direct-quote fidelity, weak-evidence reporting, and human next-step guidance."
+    },
+    {
+      "timestamp": "2026-10-22T15:10:07.206760Z",
+      "note": "",
+      "reference": "references/primo-pnx-api.md",
+      "purpose": "Execute and troubleshoot the keyless Primo PNX fallback",
+      "evidence": "Used the campus frontend mount, parameter recipe, field inventory, and result-count interpretation cautions."
+    }
+  ]
+}
