@@ -1,0 +1,9 @@
+@if (findingAid; as fa) {
+<div class="finding-aid" [class.full-display]="isFullDisplay">
+    <a mat-button class="finding-aid-link" [href]="fa.linkURL" target="_blank" rel="noopener">
+        <mat-icon class="folder">folder_open</mat-icon>
+        <span>Finding Aid</span>
+        <mat-icon>chevron_right</mat-icon>
+    </a>
+</div>
+}
