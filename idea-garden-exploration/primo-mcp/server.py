@@ -1,18 +1,15 @@
 from mcp.server import MCPServer
+from library_mcp.config import get_settings
+from library_mcp.fake_catalogue import FAKE_BOOKS
 
-mcp = MCPServer("Library Research Toolkit")
-
-FAKE_BOOKS = [
-    {"title": "Information Literacy in the Wild", "author": "R. Okafor", "year": 2021},
-    {"title": "Cataloguing for Beginners", "author": "M. Lindqvist", "year": 2019},
-    {"title": "The Quiet Archive", "author": "S. Patel", "year": 2023},
-]
+settings = get_settings()
+mcp = MCPServer(settings.server_name)
 
 @mcp.tool()
 def search_books(keyword: str) -> list[dict]:
     """Search the (pretend) library catalogue for books whose title contains a keyword."""
     keyword = keyword.lower()
-    return [book for book in FAKE_BOOKS if keyword in book["title"].lower()]
+    return [book for book in FAKE_BOOKS if keyword in book["title"].lower()][: settings.max_results]
 
 if __name__ == '__main__':
     mcp.run()
