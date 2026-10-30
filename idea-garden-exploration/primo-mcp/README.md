@@ -23,6 +23,37 @@ If you'd like to try this out or build on it, here's how to run it locally.
 - Python 3.12 or newer
 - Node.js (only needed for `mcp dev`, which launches the MCP Inspector through `npx`)
 
+### Check for Python
+
+Before installing, check whether Python 3.12+ is already on your machine:
+
+```bash
+python3 --version        # Windows: py --version
+```
+
+If you see `Python 3.12.x` or higher, skip ahead to [Install](#install). If the command isn't found, or the version is older than 3.12, install Python using one of the options below.
+
+**Option 1: python.org installer (works on macOS and Windows)**
+
+Download the latest stable release from [python.org/downloads](https://www.python.org/downloads/).
+
+- **macOS:** run the `.pkg` installer.
+- **Windows:** use the Python install manager (listed first on the download page), or the standalone `.exe` installer. If you use the standalone installer, tick **"Add python.exe to PATH"**.
+
+**Option 2: uv (macOS, Windows, and Linux)**
+
+[Install uv](https://docs.astral.sh/uv/getting-started/installation/), then run:
+
+```bash
+uv python install
+```
+
+This installs the latest Python. uv can also manage the environment for this project; see [Using uv](#using-uv-optional) below.
+
+**Linux:** python.org only offers source code for Linux, so use your distribution's package manager (for example `sudo apt install python3 python3-venv` on Debian/Ubuntu) or Option 2. Make sure the version it installs is 3.12 or newer.
+
+After installing, open a new terminal window and re-run the version check.
+
 ### Install
 
 From the project folder:
