@@ -12,9 +12,9 @@ def search_books(keyword: str) -> list[dict]:
     keyword = keyword.lower()
     return [book for book in FAKE_BOOKS if keyword in book["title"].lower()][: settings.max_results]
 @mcp.tool()
-def search_catalogue(query:str, limit: int = 5) -> list[dict]:
-    """Search the test primo catalogue and return brief records"""
-    return search_catalogue_simple(query,min(limit, settings.max_results))
+async def search_catalogue(query: str, limit: int = 5) -> list[dict]:
+    """Search the library catalogue (Primo) and return brief records."""
+    return await search_catalogue_simple(query, min(limit, settings.max_results))
 
 if __name__ == '__main__':
     mcp.run()
