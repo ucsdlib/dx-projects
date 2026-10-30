@@ -1,0 +1,10 @@
+@if (queries.length) {
+<div class="external-search">
+    @for (target of targets; track target.name) {
+    <a mat-stroked-button [href]="linkFor(target, queries)" target="_blank" rel="noopener" [attr.title]="target.desc">
+        <img [src]="target.img" alt="" width="20" height="20" />
+        {{ target.name }}
+    </a>
+    }
+</div>
+}

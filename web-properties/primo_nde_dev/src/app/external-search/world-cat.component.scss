@@ -1,0 +1,15 @@
+:host {
+  display: block;
+}
+
+.external-search {
+  display: flex;
+  flex-wrap: wrap;     // buttons wrap onto a new line on narrow screens
+  gap: 0.5rem;
+  margin-block: 0.5rem;
+}
+
+a[mat-stroked-button] img {
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
