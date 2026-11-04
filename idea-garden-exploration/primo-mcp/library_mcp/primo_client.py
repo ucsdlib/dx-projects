@@ -29,17 +29,19 @@ def explain_status(status: int, body: str) -> str:
 
 async def search_primo_raw(query: str, limit: int, transport: httpx2.AsyncBaseTransport | None = None) -> dict:
     s = get_settings()
-    params = {"vid": s.primo_vid, "tab": s.primo_tab, "scope": s.primo_scope,"q": f"any,contains,{query}", "limit": limit, "offset": 0}
+    params = {"vid": s.primo_vid, "tab": s.primo_tab, "scope": s.primo_scope,"q": f"any,contains,{query}", "limit": limit, "offset": 0,'lang':'eng','skipDelivery':'true','pcAvailability':'true'}
     headers = {"Authorization": f"apikey {s.primo_api_key}", "Accept": "application/json"}
     try:
-        async with httpx2.AsyncClient(transport=transport, timeout=10) as client:
-            response = await client.get(f"{s.primo_base_url}/primo/v1/search",params=params, headers=headers)
+        async with httpx2.AsyncClient(transport=transport, timeout=20) as client:
+            response = await client.get(f"{s.primo_base_url}",params=params, headers=headers)
     except httpx2.TimeoutException as err:
         raise PrimoError("Primo took too long to answer. Please try again.") from err
     except httpx2.HTTPError as err:
         raise PrimoError("Could not reach Primo. Check PRIMO_BASE_URL.") from err
     if response.status_code != 200:
         raise PrimoError(explain_status(response.status_code, response.text))
+    if response.headers.get("X-Exl-Api-Remaining"):
+        raise PrimoError("The library's daily Primo allowance is nearly used up; pausing searches.")
     return response.json()
 
 def to_record(doc: dict) -> Record:

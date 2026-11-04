@@ -1,0 +1,1225 @@
+{
+  "info": {
+    "totalResultsLocal": 36861,
+    "totalResultsPC": 886599,
+    "total": 952092,
+    "first": 1,
+    "last": 2
+  },
+  "highlights": {
+    "snippet": [
+      "creativity"
+    ],
+    "title": [
+      "Creativity",
+      "creativity"
+    ],
+    "termsUnion": [
+      "creativity",
+      "Creativity"
+    ],
+    "subject": [
+      "Creativity"
+    ],
+    "toc": [
+      "Creativity"
+    ]
+  },
+  "docs": [
+    {
+      "context": "L",
+      "adaptor": "Local Search Engine",
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991007620199706535",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "book"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "Creativity  / John Brockman, editor."
+          ],
+          "identifier": [
+            "$$CLC$$V   92043634 ;$$CISBN$$V0671789260;$$CISBN$$V9780671789268;$$COCLC$$V(OCoLC)27068668;$$COCLC$$V(OCoLC)ocm27068668 "
+          ],
+          "creationdate": [
+            "©1993"
+          ],
+          "lds09": [
+            "\"A Touchstone book.\"",
+            "\"A Fireside book\"--Cover.",
+            "\"Leading minds in science, psychology, and education explore the sources of creativity\"--Cover.",
+            "Includes bibliographical references."
+          ],
+          "lds01": [
+            ".b32450151"
+          ],
+          "publisher": [
+            "New York : Simon & Schuster"
+          ],
+          "mms": [
+            "991007620199706535"
+          ],
+          "contributor": [
+            "Brockman, John, 1941-$$QBrockman, John"
+          ],
+          "series": [
+            "Reality Club (Series) ; 4.$$QReality Club (Series) ",
+            "The Reality Club ; 4$$QThe Reality Club "
+          ],
+          "contents": [
+            "Questions of Creativity / Teresa M. Amabile and Elizabeth Tighe -- Seven Creators of the Modern Era / Howard Gardner -- Aspects of Scientific Discovery: Aesthetics and Cognition / Howard E. Gruber -- The Sciences of Complexity and \"Origins of Order\" / Stuart A. Kauffman -- Giving It Away at the Macarthur Fellows Program / Kenneth Hope -- Inventing the Universe / Richard Morris -- Reveyesed I's / Pat Perrin -- The Creative Brain / Richard Restak -- Genius and Chance: A Darwinian Perspective / Dean Keith Simonton -- Creativity and the Quantum Self / Danah Zohar."
+          ],
+          "genre": [
+            "Case studies",
+            "Études de cas"
+          ],
+          "relation": [
+            "$$Cform$$VOnline version: Creativity. New York : Simon & Schuster, ©1993$$QCreativity."
+          ],
+          "place": [
+            "New York :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds29": [
+            "text"
+          ],
+          "lds30": [
+            "volume"
+          ],
+          "lds39": [
+            "221 pages ; 22 cm."
+          ],
+          "subject": [
+            "Creative ability -- Case studies",
+            "Creativity",
+            "Aptitud creadora.",
+            "Aptitud creadora -- Estudio de casos",
+            "creativity.",
+            "Creative ability."
+          ],
+          "mesh": [
+            "Creativity"
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "991007620199706535"
+          ],
+          "recordid": [
+            "alma991007620199706535"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "b32450151-01ucs_sdi"
+          ],
+          "sourcesystem": [
+            "OCLC"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "12.688945"
+          ],
+          "isDedup": false
+        },
+        "addata": {
+          "originatingSystemIDContributor": [
+            "n50041423"
+          ],
+          "aulast": [
+            "Brockman"
+          ],
+          "aufirst": [
+            "John"
+          ],
+          "auinit": [
+            "J"
+          ],
+          "addau": [
+            "Brockman, John"
+          ],
+          "contributorfull": [
+            "$$NBrockman, John$$LBrockman$$FJohn$$Rcontributor"
+          ],
+          "date": [
+            "1993",
+            "©1993"
+          ],
+          "isbn": [
+            "0671789260",
+            "9780671789268"
+          ],
+          "notes": [
+            "Includes bibliographical references."
+          ],
+          "cop": [
+            "New York"
+          ],
+          "pub": [
+            "Simon & Schuster"
+          ],
+          "oclcid": [
+            "(ocolc)27068668"
+          ],
+          "lccn": [
+            "92043634"
+          ],
+          "seriestitle": [
+            "The Reality Club ; 4"
+          ],
+          "format": [
+            "book"
+          ],
+          "genre": [
+            "book"
+          ],
+          "ristype": [
+            "BOOK"
+          ],
+          "btitle": [
+            "Creativity"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Creativity /"
+          ],
+          "author": [
+            "Brockman, John, 1941-"
+          ],
+          "creationdate": [
+            "1993"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9010774466418541966"
+          ]
+        }
+      }
+    },
+    {
+      "context": "L",
+      "adaptor": "Local Search Engine",
+      "@id": "https://na07.alma.exlibrisgroup.com/primaws/rest/pub/pnxs/L/991024154795906535",
+      "pnx": {
+        "display": {
+          "source": [
+            "Alma"
+          ],
+          "type": [
+            "journal"
+          ],
+          "language": [
+            "eng"
+          ],
+          "title": [
+            "Creativity."
+          ],
+          "identifier": [
+            "$$CISSN$$V1541-3403"
+          ],
+          "creationdate": [
+            "©2001-"
+          ],
+          "lds09": [
+            "Title from cover.",
+            "\"An Ad Age Group publication.\"",
+            "Vols. begin with Feb. issue <2002>-2003; begins with Jan. issue 2004-",
+            "Some volumes complete in eleven issues."
+          ],
+          "publisher": [
+            "Chicago, IL : Crain Communications"
+          ],
+          "mms": [
+            "991024154795906535"
+          ],
+          "contributor": [
+            "Ad Age Group.$$QAd Age Group.",
+            "Crain Communications Inc.$$QCrain Communications Inc."
+          ],
+          "frequency": [
+            "Monthly, Feb. 2003-",
+            "Monthly (Dec./Jan. and July/Aug. issues combined), Nov. 2001-Dec./Jan. 2002/2003"
+          ],
+          "genre": [
+            "Periodicals"
+          ],
+          "relation": [
+            "$$Cearlier_title$$VAdvertising Age's Creativity$$QAdvertising Age's Creativity",
+            "$$Cform$$VAdvertising age (Online)$$Z991014614999706535",
+            "$$Cform$$VPrint version: Creativity (Crain Communications Inc.)$$QCreativity (Crain Communications Inc.)",
+            "$$Clater_title$$VAdvertising Age$$QAdvertising Age$$Z991024154786206535"
+          ],
+          "unititle": [
+            "Creativity (Crain Communications Inc.)"
+          ],
+          "place": [
+            "Chicago, IL :"
+          ],
+          "version": [
+            "1"
+          ],
+          "lds25": [
+            "Vol. 9, no. 9 (Nov. 2001)-",
+            "Ceased with v. 17, no. 4 (2009)."
+          ],
+          "lds29": [
+            "text"
+          ],
+          "lds30": [
+            "online resource"
+          ],
+          "lds39": [
+            "1 online resource"
+          ],
+          "subject": [
+            "Advertising -- Periodicals",
+            "Commercial art -- Periodicals",
+            "Advertising agencies -- Periodicals",
+            "Fantasy in advertising -- Periodicals",
+            "Advertising.",
+            "Advertising agencies.",
+            "Commercial art.",
+            "Fantasy in advertising."
+          ]
+        },
+        "control": {
+          "sourcerecordid": [
+            "991024154795906535"
+          ],
+          "recordid": [
+            "alma991024154795906535"
+          ],
+          "sourceid": "alma",
+          "originalsourceid": [
+            "991042728177386"
+          ],
+          "sourcesystem": [
+            "CKB"
+          ],
+          "sourceformat": [
+            "MARC21"
+          ],
+          "score": [
+            "10.164221"
+          ],
+          "isDedup": false
+        },
+        "addata": {
+          "originatingSystemIDContributor": [
+            "no2003026560",
+            "n50074842"
+          ],
+          "addau": [
+            "Ad Age Group.",
+            "Crain Communications Inc."
+          ],
+          "stitle": [
+            "Creativity (Crain Commun. Inc.)"
+          ],
+          "date": [
+            "2001 - 2009",
+            "©2001-"
+          ],
+          "issn": [
+            "1541-3403"
+          ],
+          "cop": [
+            "Chicago, IL"
+          ],
+          "pub": [
+            "Crain Communications"
+          ],
+          "oclcid": [
+            "(ckb)991042728177386",
+            "(conser)--2002212672"
+          ],
+          "format": [
+            "journal"
+          ],
+          "genre": [
+            "journal"
+          ],
+          "ristype": [
+            "JOUR"
+          ],
+          "jtitle": [
+            "Creativity (Crain Communications Inc.)"
+          ]
+        },
+        "sort": {
+          "title": [
+            "Creativity (Crain Communications Inc.)"
+          ],
+          "author": [
+            "Ad Age Group."
+          ],
+          "creationdate": [
+            "2001"
+          ]
+        },
+        "facets": {
+          "frbrtype": [
+            "6"
+          ],
+          "frbrgroupid": [
+            "9058599445187919467"
+          ]
+        }
+      }
+    }
+  ],
+  "timelog": {
+    "PC_SEARCH_CALL_TIME": "1616",
+    "PC_BUILD_JSON_AND_HIGLIGHTS": "424",
+    "PC_SEARCH_TIME_TOTAL": "2040",
+    "BUILD_RESULTS_RETRIVE_FROM_DB": "820",
+    "CALL_SOLR_GET_IDS_LIST": "1653",
+    "RETRIVE_FROM_DB_COURSE_INFO": "3",
+    "RETRIVE_FROM_DB_RECORDS": "39",
+    "RETRIVE_FROM_DB_RELATIONS": "740",
+    "PRIMA_LOCAL_INFO_FACETS_BUILD_DOCS_HIGHLIGHTS": "7511",
+    "PRIMA_LOCAL_SEARCH_TOTAL": "10020",
+    "REMOTEVE_CALL_SEARCH": "310",
+    "REMOTEVE_BUILD_RESULT_CONVERT_TO_JSON": "108",
+    "REMOTEVE_SEARCH_TIME_TOTAL": "418",
+    "BUILD_BLEND_AND_CACHE_RESULTS": 1,
+    "BUILD_COMBINED_RESULTS_MAP": 11339,
+    "COMBINED_SEARCH_TIME": 11680,
+    "PROCESS_COMBINED_RESULTS": 0,
+    "FEATURED_SEARCH_TIME": 0
+  },
+  "facets": [
+    {
+      "name": "rtype",
+      "values": [
+        {
+          "value": "web_resources",
+          "count": "10712"
+        },
+        {
+          "value": "text_resources",
+          "count": "12534"
+        },
+        {
+          "value": "journals",
+          "count": "1222"
+        },
+        {
+          "value": "patents",
+          "count": "6034"
+        },
+        {
+          "value": "archival_material_manuscripts",
+          "count": "1727"
+        },
+        {
+          "value": "conference_proceedings",
+          "count": "27926"
+        },
+        {
+          "value": "reviews",
+          "count": "19530"
+        },
+        {
+          "value": "dissertations",
+          "count": "70856"
+        },
+        {
+          "value": "newsletterarticle",
+          "count": "7017"
+        },
+        {
+          "value": "images",
+          "count": "18595"
+        },
+        {
+          "value": "articles",
+          "count": "430076"
+        },
+        {
+          "value": "reports",
+          "count": "6980"
+        },
+        {
+          "value": "videos",
+          "count": "10193"
+        },
+        {
+          "value": "books",
+          "count": "116465"
+        },
+        {
+          "value": "datasets",
+          "count": "4391"
+        },
+        {
+          "value": "reference_entrys",
+          "count": "4280"
+        },
+        {
+          "value": "audios",
+          "count": "7506"
+        },
+        {
+          "value": "book_chapters",
+          "count": "107352"
+        },
+        {
+          "value": "magazinearticle",
+          "count": "56007"
+        },
+        {
+          "value": "other",
+          "count": "2511"
+        }
+      ]
+    },
+    {
+      "name": "creationdate",
+      "values": [
+        {
+          "value": "1001",
+          "count": "1"
+        },
+        {
+          "value": "1500",
+          "count": "204"
+        },
+        {
+          "value": "1600",
+          "count": "267"
+        },
+        {
+          "value": "1700",
+          "count": "66"
+        },
+        {
+          "value": "1800",
+          "count": "489"
+        },
+        {
+          "value": "1900",
+          "count": "863"
+        },
+        {
+          "value": "1910",
+          "count": "438"
+        },
+        {
+          "value": "1920",
+          "count": "172"
+        },
+        {
+          "value": "1930",
+          "count": "264"
+        },
+        {
+          "value": "1940",
+          "count": "332"
+        },
+        {
+          "value": "1950",
+          "count": "386"
+        },
+        {
+          "value": "1951",
+          "count": "64"
+        },
+        {
+          "value": "1952",
+          "count": "77"
+        },
+        {
+          "value": "1953",
+          "count": "97"
+        },
+        {
+          "value": "1954",
+          "count": "107"
+        },
+        {
+          "value": "1955",
+          "count": "163"
+        },
+        {
+          "value": "1956",
+          "count": "162"
+        },
+        {
+          "value": "1957",
+          "count": "181"
+        },
+        {
+          "value": "1958",
+          "count": "242"
+        },
+        {
+          "value": "1959",
+          "count": "276"
+        },
+        {
+          "value": "1960",
+          "count": "322"
+        },
+        {
+          "value": "1961",
+          "count": "448"
+        },
+        {
+          "value": "1962",
+          "count": "503"
+        },
+        {
+          "value": "1963",
+          "count": "686"
+        },
+        {
+          "value": "1964",
+          "count": "776"
+        },
+        {
+          "value": "1965",
+          "count": "709"
+        },
+        {
+          "value": "1966",
+          "count": "866"
+        },
+        {
+          "value": "1967",
+          "count": "912"
+        },
+        {
+          "value": "1968",
+          "count": "1053"
+        },
+        {
+          "value": "1969",
+          "count": "1876"
+        },
+        {
+          "value": "1970",
+          "count": "1289"
+        },
+        {
+          "value": "1971",
+          "count": "1407"
+        },
+        {
+          "value": "1972",
+          "count": "1396"
+        },
+        {
+          "value": "1973",
+          "count": "1669"
+        },
+        {
+          "value": "1974",
+          "count": "1521"
+        },
+        {
+          "value": "1975",
+          "count": "1716"
+        },
+        {
+          "value": "1976",
+          "count": "1717"
+        },
+        {
+          "value": "1977",
+          "count": "1566"
+        },
+        {
+          "value": "1978",
+          "count": "1833"
+        },
+        {
+          "value": "1979",
+          "count": "1777"
+        },
+        {
+          "value": "1980",
+          "count": "1843"
+        },
+        {
+          "value": "1981",
+          "count": "2001"
+        },
+        {
+          "value": "1982",
+          "count": "2153"
+        },
+        {
+          "value": "1983",
+          "count": "2109"
+        },
+        {
+          "value": "1984",
+          "count": "2112"
+        },
+        {
+          "value": "1985",
+          "count": "2348"
+        },
+        {
+          "value": "1986",
+          "count": "2437"
+        },
+        {
+          "value": "1987",
+          "count": "2636"
+        },
+        {
+          "value": "1988",
+          "count": "3182"
+        },
+        {
+          "value": "1989",
+          "count": "3414"
+        },
+        {
+          "value": "1990",
+          "count": "3597"
+        },
+        {
+          "value": "1991",
+          "count": "3905"
+        },
+        {
+          "value": "1992",
+          "count": "4239"
+        },
+        {
+          "value": "1993",
+          "count": "4810"
+        },
+        {
+          "value": "1994",
+          "count": "5011"
+        },
+        {
+          "value": "1995",
+          "count": "5293"
+        },
+        {
+          "value": "1996",
+          "count": "5808"
+        },
+        {
+          "value": "1997",
+          "count": "6505"
+        },
+        {
+          "value": "1998",
+          "count": "6693"
+        },
+        {
+          "value": "1999",
+          "count": "7370"
+        },
+        {
+          "value": "2000",
+          "count": "7803"
+        },
+        {
+          "value": "2001",
+          "count": "8568"
+        },
+        {
+          "value": "2002",
+          "count": "10058"
+        },
+        {
+          "value": "2003",
+          "count": "10822"
+        },
+        {
+          "value": "2004",
+          "count": "11682"
+        },
+        {
+          "value": "2005",
+          "count": "13805"
+        },
+        {
+          "value": "2006",
+          "count": "14572"
+        },
+        {
+          "value": "2007",
+          "count": "16527"
+        },
+        {
+          "value": "2008",
+          "count": "17026"
+        },
+        {
+          "value": "2009",
+          "count": "19862"
+        },
+        {
+          "value": "2010",
+          "count": "21305"
+        },
+        {
+          "value": "2011",
+          "count": "24005"
+        },
+        {
+          "value": "2012",
+          "count": "25567"
+        },
+        {
+          "value": "2013",
+          "count": "28699"
+        },
+        {
+          "value": "2014",
+          "count": "29938"
+        },
+        {
+          "value": "2015",
+          "count": "35022"
+        },
+        {
+          "value": "2016",
+          "count": "33589"
+        },
+        {
+          "value": "2017",
+          "count": "33498"
+        },
+        {
+          "value": "2018",
+          "count": "35157"
+        },
+        {
+          "value": "2019",
+          "count": "36757"
+        },
+        {
+          "value": "2020",
+          "count": "39551"
+        },
+        {
+          "value": "2021",
+          "count": "40004"
+        },
+        {
+          "value": "2022",
+          "count": "40991"
+        },
+        {
+          "value": "2023",
+          "count": "45818"
+        },
+        {
+          "value": "2024",
+          "count": "54652"
+        },
+        {
+          "value": "2025",
+          "count": "65605"
+        },
+        {
+          "value": "2026",
+          "count": "49941"
+        },
+        {
+          "value": "2027",
+          "count": "1251"
+        },
+        {
+          "value": "2028",
+          "count": "4"
+        }
+      ]
+    },
+    {
+      "name": "newrecords",
+      "values": [
+        {
+          "value": "07 days back",
+          "count": "988"
+        },
+        {
+          "value": "90 days back",
+          "count": "24758"
+        },
+        {
+          "value": "30 days back",
+          "count": "11813"
+        }
+      ]
+    },
+    {
+      "name": "tlevel",
+      "values": [
+        {
+          "value": "open_access",
+          "count": "245141"
+        },
+        {
+          "value": "peer_reviewed",
+          "count": "211516"
+        },
+        {
+          "value": "online_resources",
+          "count": "389072"
+        }
+      ]
+    },
+    {
+      "name": "domain",
+      "values": [
+        {
+          "value": "Taylor & Francis Routledge/HSS ebooks",
+          "count": "28931"
+        },
+        {
+          "value": "EBSCOhost MasterFILE Premier",
+          "count": "30642"
+        },
+        {
+          "value": "Single Journals",
+          "count": "44867"
+        },
+        {
+          "value": "OCLC FirstSearch ECO",
+          "count": "51345"
+        },
+        {
+          "value": "Gale OneFile: Business",
+          "count": "31332"
+        },
+        {
+          "value": "DOAJ Directory of Open Access Journals",
+          "count": "59816"
+        },
+        {
+          "value": "Taylor & Francis Evidence Based Ebook Collection",
+          "count": "26671"
+        },
+        {
+          "value": "YBP/eBrary DDA Purchased",
+          "count": "123414"
+        },
+        {
+          "value": "JSTOR Archival Journals and Primary Sources Collection",
+          "count": "25997"
+        },
+        {
+          "value": "Gale Business: Insights",
+          "count": "38440"
+        },
+        {
+          "value": "Torrossa",
+          "count": "30929"
+        },
+        {
+          "value": "EBSCOhost Education Source",
+          "count": "29418"
+        },
+        {
+          "value": "EBSCOhost Business Source Complete",
+          "count": "42077"
+        },
+        {
+          "value": "EBSCO Japanese DDA Purchased",
+          "count": "112882"
+        },
+        {
+          "value": "EZB-FREE-00999 freely available EZB journals",
+          "count": "70791"
+        },
+        {
+          "value": "ROAD: Directory of Open Access Scholarly Resources",
+          "count": "57548"
+        },
+        {
+          "value": "IngentaConnect Journals",
+          "count": "49231"
+        },
+        {
+          "value": "Jstor Complete Legacy",
+          "count": "26458"
+        },
+        {
+          "value": "Publicly Available Content Database",
+          "count": "29184"
+        },
+        {
+          "value": "EBSCOhost Academic Search Complete",
+          "count": "48948"
+        }
+      ]
+    },
+    {
+      "name": "topic",
+      "values": [
+        {
+          "value": "Literature",
+          "count": "12806"
+        },
+        {
+          "value": "Students",
+          "count": "20566"
+        },
+        {
+          "value": "Computer Science",
+          "count": "14746"
+        },
+        {
+          "value": "Management",
+          "count": "22188"
+        },
+        {
+          "value": "Art",
+          "count": "20517"
+        },
+        {
+          "value": "Psychology",
+          "count": "35028"
+        },
+        {
+          "value": "Design",
+          "count": "15779"
+        },
+        {
+          "value": "Teachers",
+          "count": "13035"
+        },
+        {
+          "value": "Education",
+          "count": "42864"
+        },
+        {
+          "value": "Research",
+          "count": "13320"
+        },
+        {
+          "value": "Technology",
+          "count": "24642"
+        },
+        {
+          "value": "Artificial Intelligence",
+          "count": "13756"
+        },
+        {
+          "value": "Leadership",
+          "count": "12605"
+        },
+        {
+          "value": "Social Sciences",
+          "count": "80155"
+        },
+        {
+          "value": "Human Beings",
+          "count": "14550"
+        },
+        {
+          "value": "Learning",
+          "count": "17632"
+        },
+        {
+          "value": "Music",
+          "count": "15092"
+        },
+        {
+          "value": "Managerial Economics",
+          "count": "19374"
+        },
+        {
+          "value": "Teaching",
+          "count": "14078"
+        },
+        {
+          "value": "Creative Ability",
+          "count": "12853"
+        }
+      ]
+    },
+    {
+      "name": "jtitle",
+      "values": [
+        {
+          "value": "Campaign",
+          "count": "2574"
+        },
+        {
+          "value": "The Journal of Creative Behavior",
+          "count": "1553"
+        },
+        {
+          "value": "Journal of Innovative and Creativity",
+          "count": "5505"
+        },
+        {
+          "value": "Business World",
+          "count": "1568"
+        },
+        {
+          "value": "Creativity and Innovation Management",
+          "count": "2117"
+        },
+        {
+          "value": "The Times Educational Supplement",
+          "count": "2283"
+        },
+        {
+          "value": "Psychology of Aesthetics, Creativity, and the Arts",
+          "count": "1784"
+        },
+        {
+          "value": "Creativity Research Journal",
+          "count": "1949"
+        },
+        {
+          "value": "Advertising Age",
+          "count": "1840"
+        },
+        {
+          "value": "Thinking Skills and Creativity",
+          "count": "2286"
+        }
+      ]
+    },
+    {
+      "name": "attribute",
+      "values": [
+        {
+          "value": "open_educational_resource",
+          "count": "59"
+        },
+        {
+          "value": "preprint",
+          "count": "4241"
+        },
+        {
+          "value": "retraction_notice",
+          "count": "66"
+        },
+        {
+          "value": "online_first",
+          "count": "743"
+        },
+        {
+          "value": "review_article",
+          "count": "10137"
+        },
+        {
+          "value": "retracted_publication",
+          "count": "208"
+        },
+        {
+          "value": "primary_source",
+          "count": "3649"
+        },
+        {
+          "value": "publication_corrigendum",
+          "count": "74"
+        }
+      ]
+    },
+    {
+      "name": "lang",
+      "values": [
+        {
+          "value": "tur",
+          "count": "2271"
+        },
+        {
+          "value": "eng",
+          "count": "781199"
+        },
+        {
+          "value": "ind",
+          "count": "1765"
+        },
+        {
+          "value": "cat",
+          "count": "1558"
+        },
+        {
+          "value": "jpn",
+          "count": "10689"
+        },
+        {
+          "value": "por",
+          "count": "9224"
+        },
+        {
+          "value": "ger",
+          "count": "7746"
+        },
+        {
+          "value": "pol",
+          "count": "2616"
+        },
+        {
+          "value": "ara",
+          "count": "21678"
+        },
+        {
+          "value": "per",
+          "count": "1350"
+        },
+        {
+          "value": "fre",
+          "count": "11293"
+        },
+        {
+          "value": "swe",
+          "count": "1655"
+        },
+        {
+          "value": "kor",
+          "count": "25682"
+        },
+        {
+          "value": "rus",
+          "count": "5091"
+        },
+        {
+          "value": "cze",
+          "count": "1945"
+        },
+        {
+          "value": "chi",
+          "count": "28893"
+        },
+        {
+          "value": "spa",
+          "count": "15007"
+        },
+        {
+          "value": "ukr",
+          "count": "2142"
+        },
+        {
+          "value": "ita",
+          "count": "2250"
+        },
+        {
+          "value": "hrv",
+          "count": "3999"
+        }
+      ]
+    }
+  ],
+  "facetsCacheKey": -1104097322
+}
