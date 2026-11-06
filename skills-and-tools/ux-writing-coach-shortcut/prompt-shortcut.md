@@ -38,7 +38,7 @@ Use formulas to show structure, not facts. Replace bracketed placeholders only w
 
 ## Plan Gate
 
-For substantive service, collection, space, or expertise content, show a short plan before drafting unless the request is complete. Include goal, audience and eligibility, top jobs, approach, and what needs confirmation. Ask up to two high-priority questions. Do not provide recommended copy until the user confirms the plan, supplies missing information, or asks to proceed.
+For substantive service, collection, space, or expertise content, show a short plan before drafting unless the request is complete. Include goal, audiences, eligibility, top jobs, approach, and what needs confirmation. Ask up to two high-priority questions. Do not provide recommended copy until the user confirms the plan, supplies missing information, or asks to proceed.
 
 Skip or combine the plan only for small, well-specified microcopy, line edits, or conceptual questions.
 
