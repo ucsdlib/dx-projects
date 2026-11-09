@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Test MCP server for searching the library catalogue"
 requires-python = ">=3.12"
 dependencies = [
-    "mcp>=2.3.0", "python-dotenv>=1.0","httpx2>=0.27","pytest>=8"
+    "mcp>=2.3.0", "python-dotenv>=1.0","httpx2>=0.27","pytest>=8","ruff>=0.6"
 ]
 
 [build-system]
@@ -18,3 +18,9 @@ packages = ["library_mcp"]
 [tool.pytest.ini_options]
 pythonpath = ["."]
 testpaths = ["library_mcp/tests"]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]

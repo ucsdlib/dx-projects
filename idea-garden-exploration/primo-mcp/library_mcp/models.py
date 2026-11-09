@@ -3,7 +3,7 @@ from pydantic import BaseModel, Field
 
 class Record(BaseModel):
     title: str
-    creators: list[str] = Field(default_factory=list) 
+    creators: list[str] = Field(default_factory=list)
     date: str | None = None
     resource_type: str | None = None
     about: str | None = None

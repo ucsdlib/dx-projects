@@ -11,11 +11,14 @@ async def test_tool_is_listed():
     async with Client(server.mcp) as client:
         listing = await client.list_tools()
     assert "search_catalogue" in [t.name for t in listing.tools]
+
+
 @pytest.mark.anyio
 async def test_tool_returns_structured_result(monkeypatch):
     async def fake_search(query, limit, transport=None):
-        return SearchResult(query=query, total_found=1,
-                            records=[Record(title="Test title", record_id="alma1")])
+        return SearchResult(
+            query=query, total_found=1, records=[Record(title="Test title", record_id="alma1")]
+        )
 
     monkeypatch.setattr(primo_client, "search_catalogue", fake_search)
     async with Client(server.mcp) as client:
