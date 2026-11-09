@@ -1,0 +1,3 @@
+interface:
+  display_name: "Skill Testing Protocol"
+  short_description: "Design and run skill tests"
