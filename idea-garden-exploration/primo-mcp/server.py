@@ -7,7 +7,10 @@ from pydantic import Field
 
 from library_mcp import primo_client
 from library_mcp.config import get_settings
+from library_mcp.log_setup import setup_logging
 from library_mcp.models import SearchResult
+
+setup_logging()
 
 settings = get_settings()
 mcp = MCPServer(
@@ -18,8 +21,10 @@ mcp = MCPServer(
 
 @mcp.tool(annotations=ToolAnnotations(read_only_hint=True))
 async def search_catalogue(
-    query: Annotated[str, Field(min_length=2, max_length=200,
-                                description="Search words, e.g. 'climate adaptation'")],
+    query: Annotated[
+        str,
+        Field(min_length=2, max_length=200, description="Search words, e.g. 'climate adaptation'"),
+    ],
     limit: Annotated[int, Field(ge=1, le=10, description="Number of results, 1-10")] = 5,
 ) -> SearchResult:
     """Search the library catalogue (Primo). Returns brief records with permalinks."""

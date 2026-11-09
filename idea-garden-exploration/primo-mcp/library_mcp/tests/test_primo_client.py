@@ -19,21 +19,22 @@ async def test_search_builds_records_and_sends_key_in_header(primo_env):
         return httpx2.Response(200, json=SAMPLE)
 
     result = await primo_client.search_catalogue(
-        "water, rights", 3, transport=httpx2.MockTransport(handler))
+        "water, rights", 3, transport=httpx2.MockTransport(handler)
+    )
 
     assert seen["auth"] == "apikey test-key"
     assert seen["q"] == "any,contains,water rights"
     assert result.total_found == 3
     assert result.records[0].link.startswith("https://discovery.test/discovery/fulldisplay")
-    
+
+
 @pytest.mark.anyio
 async def test_daily_quota_gives_friendly_message(primo_env):
     def handler(request):
         return httpx2.Response(429, text="<errorCode>DAILY_THRESHOLD</errorCode>")
 
     with pytest.raises(primo_client.PrimoError, match="midnight GMT"):
-        await primo_client.search_catalogue(
-            "water", 3, transport=httpx2.MockTransport(handler))
+        await primo_client.search_catalogue("water", 3, transport=httpx2.MockTransport(handler))
 
 
 def test_injection_text_is_not_passed_on():

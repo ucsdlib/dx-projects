@@ -1,4 +1,5 @@
-from library_mcp.safety import clean_query,tidy
+from library_mcp.safety import clean_query, tidy
+
 
 def test_clean_query_removes_commas_and_semicolons():
     assert clean_query("water, rights; colorado") == "water rights colorado"

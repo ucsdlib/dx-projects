@@ -25,7 +25,7 @@ def get_settings() -> Settings:
     return Settings(
         server_name=os.getenv("SERVER_NAME", "Library Research Toolkit"),
         max_results=int(os.getenv("MAX_RESULTS", "5")),
-        primo_base_url=os.getenv("PRIMO_BASE_URL",''),
+        primo_base_url=os.getenv("PRIMO_BASE_URL", ""),
         primo_api_key=os.getenv("PRIMO_API_KEY", ""),
         primo_vid=os.getenv("PRIMO_VID", ""),
         primo_tab=os.getenv("PRIMO_TAB", ""),
