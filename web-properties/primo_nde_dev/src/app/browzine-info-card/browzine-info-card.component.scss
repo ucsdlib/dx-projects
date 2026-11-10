@@ -1,0 +1,8 @@
+.browzine-card{
+    // border: 1px solid var(--darkBG);
+    padding: 1.5rem;
+    margin: 0 auto;
+    & .card-title{
+        margin-block-end: 2rem;
+    }
+}
