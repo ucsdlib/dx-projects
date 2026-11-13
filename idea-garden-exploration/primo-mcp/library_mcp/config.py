@@ -19,6 +19,9 @@ class Settings:
     primo_tab: str
     primo_scope: str
     primo_discovery_url: str
+    libguides_api_base: str
+    libguides_client_id: str
+    libguides_client_secret: str
 
 
 def get_settings() -> Settings:
@@ -31,4 +34,7 @@ def get_settings() -> Settings:
         primo_tab=os.getenv("PRIMO_TAB", ""),
         primo_scope=os.getenv("PRIMO_SCOPE", ""),
         primo_discovery_url=os.getenv("PRIMO_DISCOVERY_URL", ""),
+        libguides_api_base= os.getenv("LIBGUIDES_API_BASE",""),
+        libguides_client_id= os.getenv("LIBGUIDES_CLIENT_ID",""),
+        libguides_client_secret= os.getenv("LIBGUIDES_CLIENT_SECRET","")
     )
