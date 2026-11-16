@@ -38,7 +38,7 @@ async def fetch_az_databases(transport: httpx2.AsyncBaseTransport | None = None)
             response = await client.get(
                 f"{s.libguides_api_base}/1.2/az",
                 params={"expand": "az_types,subjects"},  # check the options on your Endpoints 1.2 page
-                headers={"Authorization": f"Bearer{token}"},
+                headers={"Authorization": f"Bearer {token}"},
             )
     except httpx2.TimeoutException as err:
         raise LibGuidesError("LibGuides took too long to answer.") from err

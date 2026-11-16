@@ -30,7 +30,7 @@ def to_database(raw: dict) -> DatabaseRecord | None:
         description=plain_text(raw.get("description") or "", 500),
         url=url,
         proxied=_flag(raw.get("enable_proxy", 0)),
-        vendor=plain_text(raw.get("vendor") or "", 100) or None,  # field name unconfirmed; harmless if absent
+        vendor=plain_text(raw.get("vendor") or "", 100) or None,
         alt_names=alt[:10],
         subjects=_names(raw.get("subjects")),
         types=_names(raw.get("az_types")),
