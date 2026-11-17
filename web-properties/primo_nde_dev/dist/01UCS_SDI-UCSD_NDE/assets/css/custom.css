@@ -15,6 +15,18 @@ div[_ngcontent-ng-c3395687075=""]{
 }
 /* NO RESULTS FINDING AID END*/
 
+/* Browzine Info Card START*/
+div[_ngcontent-ng-c3115022433]{ 
+    flex-direction: column;
+    & ng-component.ng-star-inserted{
+        padding: 1.3rem;
+    }
+    .journal-homepage-container[_ngcontent-ng-c862562825]{
+        margin: 0;
+    }
+}
+/* Browzine Info Card END*/
+
 
 /* Media Query Handles */
 /* NO RESULTS COMP */
