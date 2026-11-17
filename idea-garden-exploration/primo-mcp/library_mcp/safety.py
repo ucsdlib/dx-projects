@@ -1,4 +1,4 @@
-import re
+import re, html
 from typing import overload
 
 MAX_FIELD_CHARS = 300
@@ -22,3 +22,10 @@ def tidy(text: str | None) -> str | None:
         return None
     text = " ".join(_CONTROL_CHARS.sub(" ", text).split())
     return text[:MAX_FIELD_CHARS]
+
+def plain_text(text: str, limit: int = 500) -> str:
+    """Turn HTML-ish library text into short plain text: no tags, no email addresses."""
+    text = html.unescape(re.sub(r"<[^>]+>", " ", text or ""))
+    text = re.sub(r"[\w.+-]+@[\w-]+\.[\w.-]+", "[email removed]", text)
+    text = " ".join(_CONTROL_CHARS.sub(" ", text).split())
+    return text[:limit]
