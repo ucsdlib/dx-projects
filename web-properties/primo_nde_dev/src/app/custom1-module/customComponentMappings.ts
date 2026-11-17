@@ -6,6 +6,6 @@ import { BrowzineInfoCardComponent } from '../browzine-info-card/browzine-info-c
 export const selectorComponentMap = new Map<string, any>([
 ['nde-expand-options-bottom', NoResultsAddendumComponent],
 ['nde-record-availability-after', FindingAidComponent],
-['nde-quick-filters-after', WorldCatComponent],
+// ['nde-quick-filters-after', WorldCatComponent],
 ['nde-journal-home-page-bottom',BrowzineInfoCardComponent]
 ]);
