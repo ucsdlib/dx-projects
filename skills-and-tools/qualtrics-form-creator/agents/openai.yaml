@@ -1,0 +1,3 @@
+interface:
+  display_name: "Qualtrics Form Creator"
+  short_description: "Generate importable Qualtrics QSF files from Mach Forms data or user requirements"
