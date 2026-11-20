@@ -1,3 +1,4 @@
+import asyncio
 import logging
 
 import httpx2
@@ -5,6 +6,12 @@ import httpx2
 from library_mcp.config import get_settings
 from library_mcp.models import Record, SearchResult
 from library_mcp.safety import clean_query, tidy
+import time
+
+_CACHE: dict[tuple[str, int], tuple[float, SearchResult]] = {}
+_INFLIGHT: dict[tuple[str, int], asyncio.Task[SearchResult]] = {}
+CACHE_SECONDS = 300
+MAX_ENTRIES = 256
 
 log = logging.getLogger(__name__)
 
@@ -85,13 +92,49 @@ def to_record(doc: dict) -> Record:
     )
 
 
-async def search_catalogue(
-    query: str, limit: int, transport: httpx2.AsyncBaseTransport | None = None
+def _store(key: tuple[str, int], result: SearchResult) -> None:
+    """Write to the cache, first pruning expired entries and capping total size."""
+    now = time.monotonic()
+    for k in [k for k, (expires, _) in _CACHE.items() if expires <= now]:
+        del _CACHE[k]
+    while len(_CACHE) >= MAX_ENTRIES:
+        del _CACHE[next(iter(_CACHE))]  # oldest inserted
+    _CACHE[key] = (now + CACHE_SECONDS, result)
+
+
+async def _fetch(
+    cleaned: str, limit: int, transport: httpx2.AsyncBaseTransport | None
 ) -> SearchResult:
-    cleaned = clean_query(query)
     data = await search_primo_raw(cleaned, limit, transport)
     records = [to_record(d) for d in data.get("docs", [])]
     log.info("primo search ok: query_chars=%d results=%d", len(cleaned), len(records))
     return SearchResult(
         query=cleaned, total_found=data.get("info", {}).get("total", 0), records=records
     )
+
+
+async def search_catalogue(
+    query: str, limit: int, transport: httpx2.AsyncBaseTransport | None = None
+) -> SearchResult:
+    cleaned = clean_query(query)
+    if transport is not None:
+        return await _fetch(cleaned, limit, transport)
+
+    key = (cleaned.lower(), limit)
+    hit = _CACHE.get(key)
+    if hit and hit[0] > time.monotonic():
+        return hit[1]
+
+    task = _INFLIGHT.get(key)
+    if task is None:
+        task = asyncio.create_task(_fetch(cleaned, limit, None))
+        _INFLIGHT[key] = task
+
+        def _finish(t: asyncio.Task) -> None:
+            _INFLIGHT.pop(key, None)
+            if not t.cancelled() and t.exception() is None:
+                _store(key, t.result())
+
+        task.add_done_callback(_finish)
+
+    return await asyncio.shield(task)
