@@ -53,7 +53,7 @@ This server is read-only, and it is built so that the AI sees as little as possi
 - **Keys stay in `.env`.** The Primo API key and the LibGuides client ID and secret are read from environment variables. `.env` is git-ignored, and only `.env.example` (with placeholder values) is committed.
 - **Keys are never shown to the AI.** The Primo key is sent in the `Authorization` header, not the URL, so it does not appear in logs or query strings. Error messages name the setting to check (for example `PRIMO_API_KEY`) but never print its value.
 - **Tests never touch real systems.** The test fixtures replace every setting with fake values and use mock HTTP transports, so no test can reach live Primo or LibGuides, or read your real `.env`.
-- **Logs carry no search text.** A successful search logs only the length of the query and the number of results.
+- **Logs go to stderr, and the API key is never logged.** The server's own log line records only the length of the query and the number of results. The HTTP library's request logging is turned down to WARNING, so the request URL (which contains the search words) is not logged. The API key travels in a header and is never logged. Logs stay on the local machine, in the Claude Desktop MCP log. Claude Desktop keeps its own `mcp.log` as well, which this server doesn't control and which may record tool arguments.
 
 **Only the fields that are needed**
 
