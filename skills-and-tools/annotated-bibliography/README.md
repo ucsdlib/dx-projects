@@ -19,6 +19,8 @@ The output layer is built around faithfulness: annotations stay close to what ea
 
 ## Development History
 
+Full change log: [CHANGELOG.md](CHANGELOG.md). Product requirements and the phase 3 roadmap: [PRD.md](PRD.md).
+
 - **2026-02-12** — Initial version, distributed as a Claude-style `.skill` ZIP archive (`annotated-bibliography.skill`).
 - **2026-09-15** — Brought into `dx-tools` (commit `128176c`) as a plain skill directory; the `.skill` ZIP was removed and this directory became the source of truth.
 - **2026-09-15** — Adapted for the TritonAI/Codex harness: the `web_fetch` instruction was replaced with the collaborative browser (`preview_navigate` / `preview_snapshot` / `preview_evaluate`) and `exec_command` guidance for reading sources.
@@ -27,12 +29,14 @@ The output layer is built around faithfulness: annotations stay close to what ea
 - **2026-10-02** — Primo execution order clarified: try the documented Primo Search API first when `PRIMO_KEY` is present; use the Primo PNX REST API only as the activation/authentication fallback (see `references/primo-search-api.md` and `references/primo-pnx-api.md`).
 - **2026-10-21** — Interaction-phase update: added the Reading List product name, default focused landscape, modular run state and manifest guidance, follow-up paths, response templates, adaptive landscape-sufficiency rules, and focused reference files. The directory and compatibility name remain `annotated-bibliography`.
 - **2026-10-22** — Phase 2 update: added the landscape-first interaction model, response templates, run-state and manifest guidance, stage/reference logging, and a social-media mental-health forward test. Also added DOI-first source-link resolution with a separate UC Library Search / Primo record link for library access and holdings, plus fallback rules for library records, native scholarly records, and metadata-only search links.
+- **2026-11-14** — DOI-first source-link resolution added to the dev copy (`references/search-and-selection.md` and related run-state fields); not yet synced to the installed harness skill.
+- **2026-11-24** — Documentation consolidation: merged the phase 2 and naming-migration PRDs into a single [PRD.md](PRD.md), moved change history into [CHANGELOG.md](CHANGELOG.md), and defined phase 3 directions (purpose-adaptive reading lists, guided human inquiry, and effort right-sizing).
 
 ## Testing and Development
 
 Three controlled runs against one research question — *"What are current best practices for developing ethical AI ways of working for creative teams in higher education?"* — each exercising a successive version of the pipeline. Full run artifacts and comparison memos live in the development workspace (`dx-strategy/dx-ai-strategy/`).
 
-The first phase 2 forward test used a new social-sciences topic — social media and college-student mental health — and exercised intake, landscape, selection, reading-list deep work, search-log audit, manifest creation, and DOI-first link resolution. Artifacts live in `dx-projects/skills-and-tools/annotated-bibliography-prototyping/testing/2026-10-22-social-media-mental-health/`.
+The first phase 2 forward test used a new social-sciences topic — social media and college-student mental health — and exercised intake, landscape, selection, reading-list deep work, search-log audit, manifest creation, and DOI-first link resolution. Artifacts live in [testing/2026-10-22-social-media-mental-health/](testing/2026-10-22-social-media-mental-health/).
 
 | Version | Changes Made | Demonstrated Strengths | Weaknesses / Gaps |
 |---|---|---|---|
@@ -41,7 +45,7 @@ The first phase 2 forward test used a new social-sciences topic — social media
 | **v3** — updated skill (2026-09-26) | Adaptive fidelity paging; component decomposition (authorship, workflow, library); working bracket-syntax date filter; curation rule; mode-aware tier selection. 11 searches, 220 records screened, 18 curated sources (10 new). | Caught a 0%-fidelity query and auto-refined (initial "artificial intelligence" query → 11,435 irrelevant results → narrowed and recovered); component searches surfaced 10 new sources incl. co-design collectives, human-AI collaboration studies, and library makerspaces; zero out-of-range date records; tier-consistent output with documented pruning rationale. | Abstract-only access persists across all sources; one article (JILA) required PNX + DOAJ verification when its DOI failed in Crossref/OpenAlex; curation genuinely drops useful policy anchors (UNESCO, EDUCAUSE, UC Principles) that a user might want; result counts remain unpredictable. |
 | **Phase 2 forward test** (2026-10-22) | Landscape-first interaction model, response templates, run-state/manifest logging, DOI-first source-link resolution, and reading-list continuation. 3 UC Library Search / Primo PNX queries, 53 unique records screened, 12 selected, 6 themes, 6 questions, and a 9-source reading list. | Manifest passed validation; all reading-list quotes matched retrieved abstract text; themes and questions retained source provenance; the 2016 source was explicitly labeled as a date-range exception; DOI links were separated from Primo library-access links. | Annotations remain abstract-level; PNX result totals are useful but not complete field coverage; the narrowing context was simulated from the assignment prompt rather than a live follow-up turn; the manifest's breadth field is descriptive rather than normalized. |
 
-**Recommended next tests:** a live narrowing turn after a landscape; a full annotated-bibliography continuation; a scope-refinement test; and a failure-path test for missing keys, weak results, or inaccessible sources.
+**Recommended next tests:** a live narrowing turn after a landscape; a full annotated-bibliography continuation; a scope-refinement test; a failure-path test for missing keys, weak results, or inaccessible sources; and a keyed Primo Search API versus PNX comparison on the same topic. See [PRD.md](PRD.md) for the full phase 3 testing plan.
 
 ## What We've Learned
 
@@ -65,7 +69,7 @@ The first phase 2 forward test used a new social-sciences topic — social media
 
 ## Status
 
-**Experimental — undergoing active testing.** The current version is installed in the harness and has been exercised through three controlled baseline runs plus one independent phase 2 forward test. It is **not sufficiently vetted for production use**: the phase 2 test remains abstract-level and used simulated follow-up context; full bibliography, refinement, failure-path, and live user-testing behaviors still need validation. See Testing and Development above.
+**Experimental — undergoing active testing.** The skill has been exercised through three controlled baseline runs plus one phase 2 forward test. The dev copy includes post-test DOI-first link resolution that is not yet synced to the installed harness skill. It is **not sufficiently vetted for production use**: the phase 2 test remains abstract-level and used simulated follow-up context; live narrowing turns, full bibliography continuation, refinement, failure-path, and live user-testing behaviors still need validation. Phase 3 (purpose-adaptive reading lists, guided human inquiry, and effort right-sizing) is planned in [PRD.md](PRD.md). See Testing and Development above.
 
 ## Creation Note
 
