@@ -24,6 +24,9 @@ venv/
 .vscode/
 .idea/
 
+# Generated local data (rebuilt by library_mcp/scripts/sync_databases.py)
+data/
+
 # Other
 /programming-learning-docs
 sync.log
