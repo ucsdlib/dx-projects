@@ -33,6 +33,8 @@ Retain stable source IDs across stages so later output can connect sources to qu
 
 A manifest is canonical machine-readable state, not a second source of truth. In test mode, create `annotated-bibliography-runs/<run_id>/bibliography-run.json` and optionally `search-log.md` in the same directory. If no output directory is supplied, use the current working directory and tell the user where files were written.
 
+Manifest maintenance is bookkeeping. Do not narrate it in user-facing responses ("manifest updated and still valid" is internal status, not user information). When outputs were written to files, mention locations once at the end in plain terms.
+
 Minimum manifest content:
 
 1. `schema_version`, `run_id`, creation and update timestamps.
@@ -105,7 +107,9 @@ Open with a one-line working question and note that the user may correct it. If 
 | Refinement | Scope change | Preserve valid state and search incrementally | Updated landscape, reading list, or bibliography |
 | Audit | User request or test mode | Reconstruct the full pipeline | Search log |
 
-The default depth path is a focused landscape followed by user-selected deep work at comprehensive or exhaustive breadth. Prompt markers such as “quick,” “brief,” “literature review,” “thorough,” “publication-grade,” or “research paper” may override it. Skip the landscape when the question is already narrowly scoped to research-paper level, when the user explicitly requests a full bibliography without a landscape, or when a re-run provides a complete scope brief.
+The default depth path is a focused landscape followed by user-selected deep work at comprehensive or exhaustive breadth. Prompt markers such as "quick," "brief," "literature review," "thorough," "publication-grade," or "research paper" may override it. Skip the landscape when the question is already narrowly scoped to research-paper level, when the user explicitly requests a full bibliography without a landscape, or when a re-run provides a complete scope brief.
+
+"Landscape" is internal vocabulary. In user-facing text, call this stage an "overview of the research" or "initial overview," and describe search effort in plain words ("a quick pass," "a comprehensive search"). Never use landscape, manifest, breadth tier, fidelity, or PNX in user-facing responses; see the Plain-Language Rules in response-templates.md.
 
 Record whether the landscape was selected, skipped by scope judgment, skipped by user instruction, or bypassed by an explicit full-run request.
 
