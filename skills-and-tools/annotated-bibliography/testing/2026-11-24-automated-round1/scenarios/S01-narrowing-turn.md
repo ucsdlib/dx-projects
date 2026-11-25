@@ -40,10 +40,11 @@ Out of what you found, what would you read first if you were me, and what should
 - Turn 2 triggers refinement behavior: prior state is preserved, targeted search is proportionate to the narrowed scope, and landscape sources relevant to sleep are reused rather than rediscovered.
 - Turn 3 produces a prioritized reading path with faithful evidence (access level, confidence, quotes where available) and a "human next steps"-style answer about what the user should verify.
 - Clarification stays within the discipline rules: at most four material questions before search, and no repeated questions after the user names a direction.
+- Responses follow the plain-language contract: they open by restating the working question, contain no internal vocabulary (landscape, manifest, tier, fidelity), state limitations as user-facing consequences, and never open with bookkeeping.
 
 ## Scoring Focus and Known Failure Modes
 
-**Rubric dimensions to watch:** Intake, Workflow compliance, Task quality, Follow-up handling, Accuracy and boundaries, Efficiency.
+**Rubric dimensions to watch:** Intake, Workflow compliance, Task quality, Follow-up handling, Accuracy and boundaries, Efficiency, Plain language.
 
 **Known failure modes:**
 

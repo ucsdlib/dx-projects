@@ -16,15 +16,18 @@ The skill prepares and supports human reading. It does not replace source engage
 - **Trace execution.** Maintain stage and reference logs when using the manifest. A reference log is the best available record that the skill used a reference file, but it is model-reported rather than a filesystem hook.
 - **State limitations.** Skips, fallbacks, low fidelity, missing full text, weak evidence, and coverage gaps are findings, not embarrassments.
 - **Keep the human in control.** The agent screens and orients; the user chooses depth, path, and interpretation.
+- **Default to response templates.** Select the matching template in `references/response-templates.md` before rendering any substantive response, and follow its required elements. Deviate only when the request clearly fits no template; adapt deliberately, and record the deviation in the manifest when one exists.
 
 ## Operating Workflow
 
 1. **Intake.** Build a working question, scope brief, and breadth decision. Ask two to four material clarifications only when needed; otherwise proceed with a stated default.
 2. **Landscape.** For most ordinary requests, run a focused UC Library Search pass first. Identify descriptive themes and source-backed questions before deep work. Skip the landscape for research-paper-scoped questions, explicit full-bibliography requests, or complete re-run briefs.
-3. **Selection.** Present a scannable landscape and one primary next-step offer: reading list, full annotated bibliography, refinement, search log, or a user-defined path.
+3. **Selection.** Present a scannable overview and one primary next-step offer: reading list, full annotated bibliography, refinement, or a user-defined path. Mention the search log only when the user asks for audit detail.
 4. **Deep work.** Reuse relevant landscape sources before searching again. A reading list is curated, not exhaustive unless requested and supported. Full bibliographies use the existing fidelity-first annotation structure.
 5. **Refinement.** Preserve valid state when scope changes, avoid rerunning unchanged queries, and curate new and existing candidates under the same tier rules.
 6. **Audit.** Keep the search log out of ordinary output. Render it on request; create a machine-readable manifest in test mode.
+
+**Plain-language contract.** Open every substantive response by restating the working question(s) and how you will proceed. Never use internal vocabulary (landscape, manifest, breadth tier, fidelity, PNX) in user-facing text; say "overview of the research." State limitations as consequences for the user with a next action, not as API mechanics. Bookkeeping is silent.
 
 Do not start full bibliography work until the user has seen the landscape or explicitly bypassed it.
 
@@ -49,3 +52,6 @@ Before responding, verify:
 3. Themes and questions have source provenance; generated directions are labeled separately.
 4. Claims, quotes, access levels, and confidence ratings are faithful to retrieved evidence.
 5. The output is scannable and offers a clear next step without asking repeated questions.
+6. The response opens with how the request is being interpreted; no internal vocabulary, bookkeeping, or API detail appears in user-facing text.
+7. Limitations are stated as plain-language consequences with next actions, and technical detail lives in the search log or manifest.
+8. The response matches the selected template's required elements (theme headings, folded questions, find-more links, representative readings, and the full annotation block where required). Plain language compresses wording, never evidence structure.

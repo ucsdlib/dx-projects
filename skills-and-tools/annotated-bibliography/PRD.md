@@ -1,6 +1,6 @@
 # Reading List Product Requirements Document
 
-**Version:** 0.3 draft
+**Version:** 0.4 draft
 **Date:** 2026-11-24
 **Skill:** `annotated-bibliography`
 **Working product name:** Reading List
@@ -25,6 +25,8 @@ The working product name is **Reading List**; `annotated-bibliography` remains t
 
 Naming rules: **Reading List** for the product, **reading list** for the curated intermediate output, **annotated bibliography** for the full deep-work output, **landscape** for the initial themes-and-questions stage, **search log** for the audit mode. Never imply that a reading list is automatically comprehensive or exhaustive.
 
+2026-11-24 update from user testing: "landscape" is internal vocabulary. User-facing text calls the stage an "overview of the research" or "initial overview." The search log is available on request only and does not appear in default next-step offers; it primarily serves testing and audit. All user-facing output follows a plain-language contract: open by restating the working question(s), no internal vocabulary, limitations stated as consequences with next actions, and bookkeeping kept silent (see the Plain-Language Rules in `skill/references/response-templates.md`).
+
 ## 3. Current State
 
 ### Shipped and verified
@@ -33,24 +35,25 @@ Naming rules: **Reading List** for the product, **reading list** for the curated
 - Run state, test-mode manifests, stage and reference logs, and manifest validation scripts.
 - Response templates for clarification, landscape, reading list, bibliography, refinement, and search log.
 - Adaptive fidelity-based screening, component decomposition, breadth tiers with curation rules, book verification ladder, and documented-skip rules.
-- DOI-first source-link resolution with a separate library-access link (in dev copy; not yet synced to the installed skill).
+- DOI-first source-link resolution with a separate library-access link (synced to the installed skill 2026-11-24), plus the version-of-record citation-year rule (2026-11-24).
+- Plain-language contract and template-defaulting safeguard, validated in live behavior across three rounds of automated multi-turn testing (2026-11-24): live narrowing turns, reading-list narrowing, full-bibliography continuation, and effort right-sizing markers all exercised.
 - One phase 2 forward test passed with manifest validation, provenance checks, and quote-accuracy checks.
 
 ### Open gaps from testing
 
 - Annotations remain abstract-level; full-text retrieval for the highest-value sources is the persistent quality ceiling.
 - The manifest's `breadth_tier` is descriptive; it needs separate normalized `landscape_tier` and `deep_work_tier` fields.
-- The phase 2 narrowing context was simulated from `assignment-prompts.md`; a live narrowing turn has not been tested.
+- Manifest hygiene is inconsistent under behavioral variance: the round 3 S03 quick pass created no manifest and its escalation logged only intake, failing validation. A validation gate before final responses is needed.
+- An explicit user source count was not treated as binding (round 3 S02 delivered 16 sources against a requested 8-10); the curation rule needs a user-cap override with documented rationale.
+- Effort curves are inverted for urgent requests: the round 3 S03 "quick" pass took 11 min 13 s while the same session's comprehensive escalation took 4 min 46 s. See Section 7.4.
 - The keyed Primo Search API path has not been compared against the PNX fallback on the same topic.
-- The full annotated-bibliography continuation path has not been exercised end-to-end.
-- The installed harness skill needs a sync from the dev copy before further testing.
 
 ## 4. Goals
 
 1. Preserve "Faithful Over Helpful" in every stage and template.
 2. Adapt output to the user's research purpose and intended outcome, not just their topic.
 3. Support guided human inquiry through a non-linear, adaptive interaction.
-4. Right-size query and token effort, and communicate expectations before deep work begins.
+4. Right-size query and token effort, keep the first response fast, and communicate expectations before deep work begins.
 5. Keep landscape sources, themes, and questions reusable across all follow-up paths.
 6. Maintain provenance, access-level labeling, and transparency requirements without exception.
 
@@ -110,6 +113,21 @@ Requirements:
 4. Keep search-log verbosity out of default responses at every depth; the audit mode remains opt-in.
 5. Add normalized effort fields to the manifest: `landscape_tier`, `deep_work_tier`, `effort_mode`, and actual-versus-budgeted query counts.
 
+### 7.4 Fast first round (timing progressive disclosure)
+
+Progressive disclosure has a timing dimension: sessions should start fast, and later turns grow with the work the user actually commits to — they may even be faster than the first round when state is reused. Round 3 (S03) made the case for this directly: a "quick" request took 11 min 13 s while the same session's comprehensive escalation took 4 min 46 s. Filesystem evidence rules out the simple explanation (the escalation avoiding queries by reusing state): the escalation ran roughly sixteen new searches across three APIs plus its own 820 KB Crossref verification batch in under five minutes, while the quick pass ran one landscape query and a 209 KB verification batch — and still took over twice as long. The quick pass's cost was dominated by serial, per-source verification and careful annotation composition, not query volume. An initial response in the ten-minute range will be off-putting for many users, especially students and first-contact sessions, even when the eventual output is strong. The remedy is therefore not fewer queries overall; it is cheaper-per-source work in the first round, with verification deferred until the user commits.
+
+The concept: the first reply to any new question is a **fast first round** — substantive, source-backed, and deliberately provisional — with deeper verification deferred until the user commits to a direction. This composes with the other phase 3 areas: quick-orientation purposes (7.1) map naturally to it; fast, provisional content invites early steering in guided inquiry (7.2); and it is the mechanism that makes 7.3's "Quick: seconds to a minute" label true instead of aspirational.
+
+Requirements:
+
+1. **First-substantive-response target.** The first reply to a new question arrives within about a minute (search execution time permitting). It contains real content — the working question, initial themes or candidate sources — not a placeholder or a pure plan.
+2. **Verification on commit.** Crossref checks, quote extraction, and confidence calibration are deferred to the turn where the user selects a direction or source set. The fast first round labels provisional items in plain language (access level, "details verified once you pick a direction") so honesty is never sacrificed for speed.
+3. **Duration tracks stated urgency, not a fixed depth rule.** Later turns may legitimately run faster than the first — state reuse and batched execution are the reuse dividend, not a failure. The failure to avoid is a first round whose cost ignores the user's stated urgency (a "handful of sources, skim tonight" request paying comprehensive-verification prices). Where verification must happen upfront (the user needs a citable list immediately), the expectation statement says so before work begins.
+4. **Interim messages remain the fallback, not the fix.** Live progress notes are required for any turn expected to exceed roughly two minutes, but the fast first round reduces the need for them by arriving quickly.
+5. **Fidelity is not negotiable for speed.** The fast first round never presents unverified metadata as verified, never inflates source counts (see the S02 user-cap finding), and never drops the plain-language limitation statement. Speed comes from deferring work, not from silent thinning.
+6. **Timing is auditable.** The manifest records the first-response duration (or whether the target was met) and any verification-deferral decisions, so timing regressions surface in testing rather than in user complaints.
+
 ## 8. Testing Plan
 
 Phase 2 tests (from the prior PRD, still pending where noted): live narrowing turn after a landscape; full bibliography continuation; scope refinement; search-log audit; failure paths; narrow-scope bypass. The keyed Primo Search API versus PNX comparison also remains open.
@@ -120,6 +138,7 @@ Phase 3 adds:
 2. **Non-linear interaction test:** from one landscape, branch from a theme, then a specific source, then redirect; verify state preservation and adaptive offers.
 3. **Effort-signaling test:** issue a Deep request; verify the expectation statement appears before search, the budget is logged, and actual-vs-budgeted queries are recorded.
 4. **Clarification-discipline test:** count sequential clarification turns across several scenarios; more than two without search fails.
+5. **Fast-first-round test:** on a fresh topic, time the first substantive reply (target: about a minute, provisional labeling present); then escalate in the same session and verify state preservation and that the first round's duration tracks the user's stated urgency rather than a fixed verification depth.
 
 ## 9. Success Criteria
 
@@ -141,6 +160,7 @@ Phase 3 adds:
 1. A user can identify the next available path within one screen of any response.
 2. A user initiating deep work knows it will take minutes, not seconds, before it starts.
 3. Clarification never exceeds four material questions before search, or two sequential turns after a landscape.
+4. The first substantive reply to a new question arrives within about a minute; any expected longer turn says so before it starts.
 
 ## 10. Decisions and Open Questions
 
@@ -153,3 +173,4 @@ Open questions for phase 3 testing:
 3. Should a Standard reading list ever trigger one supplementary comprehensive pass, or stay strictly within the landscape set?
 4. How should the effort budget respond when adaptive screening finds unexpectedly rich results mid-run?
 5. Does the harness support skill-name aliases for the eventual `reading-list` rename?
+6. How much verification can safely move to the committed turn without weakening trust — and which checks, if any, must stay in the fast first round (for example, DOI resolution for the handful of sources shown)?

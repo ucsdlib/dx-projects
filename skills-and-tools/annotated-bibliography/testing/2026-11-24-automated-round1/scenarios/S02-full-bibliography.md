@@ -41,10 +41,11 @@ Which of these sources should I be most skeptical about, and why?
 - Annotations meet the fidelity standard: verified citations, explicit access levels, quotes where available, labeled inference, and confidence that drops with limited access.
 - Turn 3 is answered honestly from run state: weak-access sources, metadata-only records, or interpretive connections are named rather than defended.
 - The deep-work output closes with a Human Next Steps section tailored to this run.
+- Responses follow the plain-language contract: interpretation-first openings, no internal vocabulary, limitations stated as user-facing consequences.
 
 ## Scoring Focus and Known Failure Modes
 
-**Rubric dimensions to watch:** Workflow compliance, Task quality, Accuracy and boundaries, Trust and verification, Efficiency.
+**Rubric dimensions to watch:** Workflow compliance, Task quality, Accuracy and boundaries, Trust and verification, Efficiency, Plain language.
 
 **Known failure modes:**
 

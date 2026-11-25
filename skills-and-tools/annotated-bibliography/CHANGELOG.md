@@ -2,6 +2,31 @@
 
 All notable changes to the Reading List skill (`annotated-bibliography`) are documented here. For the full narrative of what each version demonstrated, see the README's Testing and Development section.
 
+## 2026-11-24 (later same day)
+
+### Added
+
+- PRD updated to v0.4 draft: new feature area 7.4 "Fast first round (timing progressive disclosure)" from Doug's direction, grounded in the round 3 S03 finding that a "quick" pass took 11 min 13 s while the same session's comprehensive escalation took 4 min 46 s. Requirements: first substantive reply within about a minute, verification deferred to the committed turn with plain-language provisional labeling, monotonic effort curves, fidelity never traded for speed, and timing recorded in the manifest for auditability. Adds a fast-first-round test to the phase 3 testing plan, a usability criterion, and an open question on how much verification can safely move to the committed turn. Current State updated for rounds 1-3 (live narrowing, bibliography continuation, skill sync now verified; manifest hygiene, user-cap binding, and effort-curve inversion added as open gaps).
+- PRD 7.4 refinement after Doug questioned the monotonic-effort framing: filesystem evidence shows the S03 escalation ran roughly sixteen new searches across three APIs plus an 820 KB Crossref verification batch in under five minutes while reusing seven verified sources, so the speed gap is not explained by reuse sparing queries — the quick pass's cost was serial per-source verification and composition. "Monotonic effort curve" replaced with "duration tracks stated urgency, not a fixed depth rule"; the reuse dividend (later turns faster than the first) is expected behavior, and the first-round failure case is paying comprehensive-verification prices on urgent requests.
+- Round 3 complete (S02 and S03 added after the S01 rerun): S02 held template structure and clarity through a 16-source comprehensive build but exceeded the user's explicit 8-10 source cap (rationalized, trimming offered; round 1 honored the cap); S03 validated the phase 3 right-sizing behaviors live for the first time — quick-pass scope honored (7 sources vs round 1's 21), an unprompted expectation statement posted ~12 seconds into the escalation turn before deep work, state preserved across escalation, and a plain-language depth distinction on Turn 3 — but manifest hygiene failed (no manifest on the quick pass; intake-only manifest on the comprehensive run; validation fails). The version-of-record citation-year rule was applied live in S02 ("Publication years reflect the journal-issue year where Crossref distinguishes online-first from issue dates"). Change backlog: bind explicit user source counts; add manifest validation gate; extend expectation-signaling to duration/effort estimates.
+- Round 3 automated test (S01 template-safeguard rerun): the template-defaulting safeguard and rule 7 held in live behavior at the exact decision point where round 2 failed — full template structure (theme headings, folded questions, 2-3 representative readings and find-more links per theme, complete annotation block in the reading list) with no loss of round 2's clarity gains. Turn 1 completed in ~6.3 minutes with full structure versus round 2's ~16.5 minutes with compressed output. Artifacts in `testing/2026-11-24-automated-round3-template-safeguard/`; README Testing and Status sections updated.
+- Template-defaulting safeguard, from the round 2 finding that the skill read `response-templates.md` (recorded in the manifest `reference_log`) yet still dropped required elements when the Plain-Language Rules created tension with template structure: Non-Negotiables now require selecting and following the matching template before rendering, with deviation allowed only when the request clearly fits no template (noted in the manifest); Quality Check item 8 verifies required elements survived rendering; the templates reference states the selection-and-default rule up front.
+- Plain-Language Rules in `references/response-templates.md`, from Doug's transcript review of the automated test round: open every substantive response by restating the working question(s) and how you will proceed; never use internal vocabulary (landscape, manifest, breadth tier, fidelity, PNX) in user-facing text; state limitations as plain-language consequences with next actions rather than API mechanics; keep bookkeeping silent; make the search log available on request only.
+- Landscape template restructure: themes as headings with one to two theme-phrased questions folded into each theme, two to three representative readings plus a structured "find more" search link per theme, and possible directions reframed as possibilities for the user's research rather than proposals. The standalone Questions table is gone from user-facing output; question provenance remains in run state and the manifest.
+- User-facing stage naming: "overview of the research" / "initial overview" replaces "landscape" in conversation; "landscape" stays internal.
+
+### Changed
+
+- SKILL.md: selection offer no longer includes the search log by default; quality check now enforces interpretation-first openings, no internal vocabulary, and consequence-based limitations.
+- Refinement template: "what remains valid" language replaced with user terms; breadth-tier language translated to plain words.
+- PRD naming rules updated with the user-facing stage naming and search-log decision.
+- Scenario cards updated with a Plain language rubric dimension for regression testing.
+- Installed harness skill re-synced with the dev copy (all 2026-11-24 changes, including rule 7 and this safeguard), superseding the sync note under 2026-11-14.
+
+### Context
+
+- These changes respond to the round-1 automated test findings (run 01 activation failure recorded separately; run 02 full runs saved under `testing/2026-11-24-automated-round1/`). A rerun of S01/S03 is the planned regression check.
+
 ## 2026-11-14
 
 ### Added

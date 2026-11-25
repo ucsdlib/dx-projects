@@ -40,10 +40,11 @@ Before you go deep — what's the difference between what you just gave me and t
 - Turn 2 begins with an unprompted one-line expectation statement (that a comprehensive run involves substantial searching and may take several minutes) before deep work starts. The user's turn contains no request for this; volunteering it is the behavior under test.
 - Escalation preserves state: the quick pass's sources and themes remain valid in the comprehensive run.
 - Turn 3 is answered clearly in plain language, distinguishing scope, source count, and annotation depth without jargon.
+- Responses follow the plain-language contract throughout: interpretation-first openings, no internal vocabulary, limitations as consequences with next actions.
 
 ## Scoring Focus and Known Failure Modes
 
-**Rubric dimensions to watch:** Intake, Efficiency, Workflow compliance, Audience and accessibility, Follow-up handling.
+**Rubric dimensions to watch:** Intake, Efficiency, Workflow compliance, Audience and accessibility, Follow-up handling, Plain language.
 
 **Known failure modes:**
 
